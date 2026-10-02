@@ -10,6 +10,7 @@ Core vocabulary for software architecture, cloud infrastructure, databases, and 
 | [architecture.md](Backend/architecture.md) | Multi-tenancy, RBAC, RAG, fail-open | 4 |
 | [infrastructure.md](Backend/infrastructure.md) | CI/CD, reverse proxy, containerization | 3 |
 | [security-and-compliance.md](Backend/security-and-compliance.md) | Encryption, GDPR, audit logging | 3 |
+| [design-patterns.md](Backend/design-patterns.md) | DI, DTOs, idempotency, pagination | 5 |
 | [git-and-workflow.md](Backend/git-and-workflow.md) | Submodules, quality gates, branching | 2 |
 | [tools-and-patterns.md](Frontend/tools-and-patterns.md) | Next.js, SSR, spaced repetition | 3 |
 | [ui-and-ux.md](Frontend/ui-and-ux.md) | RTL, responsive design, accessibility | 3 |
