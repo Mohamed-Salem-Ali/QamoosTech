@@ -15,3 +15,9 @@
   - *Technical/Workplace*: "I collaborated in a cross-functional team including frontend developers, ML engineers, and domain experts."
   - *Conversational*: "Working cross-functionally helped us solve the integration issue much faster."
 - **Related Terms**: Collaboration, Interdisciplinary
+
+### "Align on scope upfront"
+- **Goal/Tone**: Pushing for planning and agreement before doing heavy work.
+- **Context**: Project management and task estimation.
+- **Example**: "It's a much smaller time investment to align on scope upfront than to rewrite a finished draft."
+- **Key Vocabulary**: Scoping, alignment, consensus

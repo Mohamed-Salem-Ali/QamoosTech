@@ -17,3 +17,9 @@
 - **Template / Usage**:
   - *Example*: "I designed scalable database schemas that accommodate high user growth across multiple domains."
 - **Key Vocabulary**: Architecture, robust, future-proof
+
+### "Concrete rather than speculative"
+- **Goal/Tone**: Encouraging practical, immediate value over theoretical ideas.
+- **Context**: Code reviews, feature planning, or open-source contribution guidelines.
+- **Example**: "The most useful contributions tend to be small and concrete rather than large and speculative."
+- **Key Vocabulary**: Practical, actionable, theoretical

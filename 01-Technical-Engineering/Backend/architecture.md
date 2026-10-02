@@ -21,3 +21,10 @@
 - **Usage Examples**:
   - *Technical*: "We built an AI assistant pairing a RAG knowledge base with a confirm-before-write action agent."
 - **Related Terms**: Vector Database, Embeddings, LLM
+
+### Fail Open vs Fail Closed
+- **Definition**: A system design principle. 'Fail open' means if a security or validation check fails or a service goes down, the system continues to allow access or function without it. 'Fail closed' means it denies access or halts.
+- **Context/Stack**: System Architecture / Security
+- **Usage Examples**:
+  - *Technical*: "The Redis-backed usage limit fails open; if Redis goes down, users can still use the app without limits rather than being blocked entirely."
+- **Related Terms**: Graceful Degradation, Availability
