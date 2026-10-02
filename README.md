@@ -1,4 +1,7 @@
-# Tech & English Lexicon
+<div align="center">
+  <img src="logo.png" alt="QamoosTech Logo" width="200" />
+  <h1>QamoosTech (قاموس تك)</h1>
+</div>
 
 > A personal knowledge base for mastering technical English and professional communication — built by a backend engineer, for engineers.
 
