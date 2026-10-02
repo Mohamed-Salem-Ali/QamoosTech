@@ -1,9 +1,3 @@
-# Resume & CV Power Phrases
-
-Phrases that make a CV or interview answer land harder. These are not just words — they're positioning strategies.
-
----
-
 ### "Owning the whole path to production"
 - **Arabic**: تملّك كامل المسار حتى الإنتاج
 - **Meaning**: Taking responsibility for a feature from initial design through coding, testing, deployment, and operational monitoring — not just "writing the code."
@@ -49,3 +43,4 @@ Phrases that make a CV or interview answer land harder. These are not just words
   - *Casual*: "The ledger entries are immutable — if there's a mistake, you create a correcting entry, not edit the original."
 - **Why It Works**: These are advanced architectural concepts. Using them naturally in conversation signals depth beyond CRUD.
 - **Common Mistake**: Saying "event-driven" when you really mean "we have a message queue." True event-driven architecture means the system's flow is determined by events, not just that you use RabbitMQ somewhere.
+

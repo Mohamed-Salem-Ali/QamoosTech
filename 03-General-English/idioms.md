@@ -1,6 +1,4 @@
-# Idioms & Phrases for Engineers
-
-Common English idioms you'll encounter in tech workplaces — Slack messages, code reviews, meetings, and emails.
+# Idioms
 
 ---
 
@@ -56,3 +54,4 @@ Common English idioms you'll encounter in tech workplaces — Slack messages, co
   - *Formal*: "Rather than reinventing the wheel, we adopted Paymob's existing webhook verification library instead of writing our own signature validator."
   - *Casual*: "Don't reinvent the wheel — there's a library for that."
 - **Common Mistake**: Using this to shut down all custom solutions. Sometimes existing libraries don't fit your constraints (security, performance, licensing), and building your own is the right call. Know when to build vs. buy.
+
