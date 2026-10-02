@@ -3,7 +3,7 @@
 ---
 
 ### Pythonic
-- **Pronunciation**: /paɪˈθɒnɪk/
+- **Pronunciation**: "pie-THON-ik" · بايثونيك
 - **Arabic**: بأسلوب بايثوني
 - **Definition**: Code that follows Python's design philosophy — clean, readable, and using the language's built-in features idiomatically. A Pythonic solution uses list comprehensions, context managers, generators, and duck typing rather than porting patterns from other languages.
 - **Context**: Code reviews, pair programming, Python style discussions.
@@ -16,7 +16,7 @@
 ---
 
 ### ORM (Object-Relational Mapping)
-- **Pronunciation**: /ˌoʊ ɑːr ˈɛm/
+- **Pronunciation**: "oh-ar-EM" · أو آر إم
 - **Arabic**: ربط الكائنات بقواعد البيانات العلاقية
 - **Definition**: A technique that maps database tables to programming language objects, letting you query and manipulate data using your language's syntax instead of raw SQL. Django's ORM and Prisma are popular examples.
 - **Context**: Backend development, database queries, model design.
@@ -29,7 +29,7 @@
 ---
 
 ### Decorator
-- **Pronunciation**: /ˈdɛkəreɪtər/
+- **Pronunciation**: "DEK-oh-ray-ter" · ديكوريتر
 - **Arabic**: مُزخرف (دالة تُغلِّف دالة أخرى)
 - **Definition**: A function that wraps another function to extend its behavior without modifying its code. In Python, applied with the `@` syntax. In Django, used extensively for permissions, caching, and request handling.
 - **Context**: Python/Django backend code, middleware design, DRY patterns.
@@ -42,7 +42,7 @@
 ---
 
 ### Migration
-- **Pronunciation**: /maɪˈɡreɪʃən/
+- **Pronunciation**: "my-GRAY-shun" · مايجريشن
 - **Arabic**: ترحيل (قاعدة بيانات)
 - **Definition**: A version-controlled file that describes a change to the database schema (adding a table, renaming a column, creating an index). Migrations let you evolve your database incrementally and reproducibly across environments.
 - **Context**: Database management, deployment, team collaboration on schemas.

@@ -5,7 +5,7 @@ Phrasal verbs are combinations of a verb + preposition/adverb that create a new 
 ---
 
 ### "Follow up (on)"
-- **Pronunciation**: /ˈfɒloʊ ʌp/
+- **Pronunciation**: "FOL-oh up" · فولو أب
 - **Arabic**: متابعة
 - **Meaning**: To check on the status of something previously discussed or requested.
 - **Usage Examples**:
@@ -16,7 +16,7 @@ Phrasal verbs are combinations of a verb + preposition/adverb that create a new 
 ---
 
 ### "Wrap up"
-- **Pronunciation**: /ræp ʌp/
+- **Pronunciation**: "rap up" · راب أب
 - **Arabic**: إنهاء / اختتام
 - **Meaning**: To finish or conclude something — a meeting, a sprint, a task.
 - **Usage Examples**:
@@ -27,7 +27,7 @@ Phrasal verbs are combinations of a verb + preposition/adverb that create a new 
 ---
 
 ### "Roll out"
-- **Pronunciation**: /roʊl aʊt/
+- **Pronunciation**: "rohl out" · رول أوت
 - **Arabic**: نشر / إطلاق
 - **Meaning**: To release, deploy, or introduce something new — a feature, a product, a policy.
 - **Usage Examples**:
@@ -38,7 +38,7 @@ Phrasal verbs are combinations of a verb + preposition/adverb that create a new 
 ---
 
 ### "Spin up"
-- **Pronunciation**: /spɪn ʌp/
+- **Pronunciation**: "spin up" · سبِن أب
 - **Arabic**: تشغيل / إعداد
 - **Meaning**: To quickly start or create something — a server, a container, a prototype, a new environment.
 - **Usage Examples**:
@@ -49,7 +49,7 @@ Phrasal verbs are combinations of a verb + preposition/adverb that create a new 
 ---
 
 ### "Point out"
-- **Pronunciation**: /pɔɪnt aʊt/
+- **Pronunciation**: "poynt out" · بوينت أوت
 - **Arabic**: أشار إلى / نبّه على
 - **Meaning**: To bring attention to something — an issue, a mistake, an improvement opportunity.
 - **Usage Examples**:

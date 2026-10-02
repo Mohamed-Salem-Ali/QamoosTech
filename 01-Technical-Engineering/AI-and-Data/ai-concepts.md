@@ -3,7 +3,7 @@
 ---
 
 ### OCR (Optical Character Recognition)
-- **Pronunciation**: /ˌoʊ siː ˈɑːr/
+- **Pronunciation**: "oh-see-AR" · أو سي آر
 - **Arabic**: التعرف الضوئي على الحروف
 - **Definition**: Technology that converts images of text (typed, handwritten, or printed) into machine-readable text. The pipeline typically involves image preprocessing, text detection, character recognition, and post-processing.
 - **Context**: Document digitization, medical report processing, invoice automation.
@@ -16,7 +16,7 @@
 ---
 
 ### LLM (Large Language Model)
-- **Pronunciation**: /ˌɛl ɛl ˈɛm/
+- **Pronunciation**: "el-el-EM" · إل إل إم
 - **Arabic**: نموذج لغوي كبير
 - **Definition**: A neural network trained on massive text datasets, capable of understanding and generating human language. Modern LLMs (GPT, Claude, Gemini) can follow instructions, reason about problems, write code, and process structured data.
 - **Context**: AI feature development, prompt engineering, chatbots, data extraction.
@@ -29,7 +29,7 @@
 ---
 
 ### Prompt Engineering
-- **Pronunciation**: /prɒmpt ˌɛndʒɪˈnɪərɪŋ/
+- **Pronunciation**: "PROMPT en-juh-NEER-ing" · بْرومبت إنجِنيرينج
 - **Arabic**: هندسة الأوامر النصية
 - **Definition**: The practice of crafting precise instructions (prompts) to guide an LLM toward producing accurate, useful, and consistent outputs. Includes techniques like few-shot examples, chain-of-thought reasoning, and system prompts.
 - **Context**: Building AI features, chatbot development, data extraction with LLMs.
@@ -42,7 +42,7 @@
 ---
 
 ### Embeddings
-- **Pronunciation**: /ɪmˈbɛdɪŋz/
+- **Pronunciation**: "em-BED-ingz" · إمبِدينجز
 - **Arabic**: التمثيلات المتجهية
 - **Definition**: Dense numerical vectors that represent the semantic meaning of text, images, or other data. Similar items have vectors that are close together in the embedding space, enabling semantic search and similarity comparisons.
 - **Context**: RAG systems, semantic search, recommendation engines, clustering.

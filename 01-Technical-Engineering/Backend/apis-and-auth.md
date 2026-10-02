@@ -3,7 +3,7 @@
 ---
 
 ### RESTful API
-- **Pronunciation**: /ˌɑːr iː ˈɛs tiː ˌeɪ piː ˈaɪ/
+- **Pronunciation**: "REST-ful AY-pee-eye" · رِستفُل أيه بي آي
 - **Arabic**: واجهة برمجة تطبيقات REST
 - **Definition**: An architectural style for building networked applications. It uses standard HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources, typically exchanging data as JSON.
 - **Context**: Backend system design, API architecture discussions, technical interviews.
@@ -16,7 +16,7 @@
 ---
 
 ### JWT (JSON Web Token)
-- **Pronunciation**: /dʒɒt/ (rhymes with "dot")
+- **Pronunciation**: "JOT" (rhymes with "dot") · جوت
 - **Arabic**: رمز ويب JSON
 - **Definition**: A compact, URL-safe token format for securely transmitting claims between two parties. Contains a header, payload, and signature. Commonly used for stateless authentication — the server doesn't need to store sessions.
 - **Context**: Authentication flows, API security, authorization headers.
@@ -29,7 +29,7 @@
 ---
 
 ### OAuth 2.0
-- **Pronunciation**: /ˈoʊ ɑːθ tuː poɪnt oʊ/
+- **Pronunciation**: "OH-awth two-point-oh" · أوأوث تو بوينت أو
 - **Arabic**: بروتوكول المصادقة المفتوح
 - **Definition**: An authorization framework that allows third-party applications to obtain limited access to a web service on behalf of a user, without exposing the user's credentials. Used for "Sign in with Google/GitHub" flows.
 - **Context**: Social login integrations, third-party API access, security architecture.
@@ -42,7 +42,7 @@
 ---
 
 ### WebSockets
-- **Pronunciation**: /ˈwɛb ˌsɒkɪts/
+- **Pronunciation**: "WEB-sock-its" · وِبسوكِتس
 - **Arabic**: مقابس الويب
 - **Definition**: A communication protocol providing full-duplex (two-way) channels over a single TCP connection. Unlike HTTP's request-response model, WebSockets keep the connection open so the server can push data to the client at any time.
 - **Context**: Real-time features — chat, live notifications, collaborative editing, live dashboards.

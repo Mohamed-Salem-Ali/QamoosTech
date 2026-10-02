@@ -3,7 +3,7 @@
 ---
 
 ### Git Submodule
-- **Pronunciation**: /ɡɪt ˈsʌbˌmɒdjuːl/
+- **Pronunciation**: "git SUB-mod-yool" · جيت صَب مودول
 - **Arabic**: وحدة فرعية في Git
 - **Definition**: A Git mechanism for embedding one repository inside another as a subdirectory. The parent repo tracks a specific commit of the child repo, allowing you to keep related but independently versioned projects together.
 - **Context**: Monorepo-adjacent setups, projects with separate backend/frontend repos.
@@ -16,7 +16,7 @@
 ---
 
 ### Quality Gates (SonarQube)
-- **Pronunciation**: /ˈkwɒlɪti ɡeɪts/
+- **Pronunciation**: "KWOL-uh-tee gayts" · كوالِتي جيتس
 - **Arabic**: بوابات الجودة
 - **Definition**: Automated thresholds that code must pass before it can be merged or deployed — such as minimum test coverage, zero critical bugs, no security vulnerabilities, and acceptable code duplication levels.
 - **Context**: CI/CD pipelines, code review standards, engineering culture.

@@ -36,7 +36,7 @@ Every entry follows a consistent template for maximum learning value:
 
 ```markdown
 ### Term or Phrase
-- **Pronunciation**: /prəˌnʌnsiˈeɪʃən/
+- **Pronunciation**: "HEW-mun REE-duh-bul" · هيومن ريدابل
 - **Arabic**: الترجمة العربية
 - **Definition**: Clear, concise explanation.
 - **Context**: Where you'd encounter or use this.

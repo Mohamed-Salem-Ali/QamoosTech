@@ -3,7 +3,7 @@
 ---
 
 ### Scrum Ceremonies
-- **Pronunciation**: /skrʌm ˈsɛrɪmoʊniz/
+- **Pronunciation**: "skrum SEH-ruh-moh-neez" · سكرم سيريمونيز
 - **Arabic**: طقوس سكرم
 - **Definition**: The four structured meetings in the Scrum framework: **Daily Standup** (15 min, what I did / will do / blockers), **Sprint Planning** (what work enters this sprint), **Sprint Review** (demo what was built), and **Sprint Retrospective** (what went well / what to improve).
 - **Context**: Daily team collaboration, Agile project management, interview questions about methodology.
@@ -16,7 +16,7 @@
 ---
 
 ### Cross-functional Team
-- **Pronunciation**: /krɒs ˈfʌŋkʃənəl tiːm/
+- **Pronunciation**: "cross FUNK-shun-ul teem" · كروس فَنكشنل تيم
 - **Arabic**: فريق متعدد التخصصات
 - **Definition**: A team composed of people with different expertise (frontend, backend, ML, design, QA, domain experts) who work together toward a shared goal. The opposite of siloed teams where each department works independently.
 - **Context**: Describing team structure in interviews, collaboration anecdotes, organizational discussions.
@@ -41,7 +41,7 @@
 ---
 
 ### Blocker
-- **Pronunciation**: /ˈblɒkər/
+- **Pronunciation**: "BLOK-er" · بلوكر
 - **Arabic**: عائق
 - **Definition**: Anything that prevents a team member from making progress on their current task. Raised during daily standups so the team or manager can help unblock it.
 - **Context**: Daily standups, sprint boards, status updates, Jira tickets.
@@ -54,7 +54,7 @@
 ---
 
 ### Stakeholder
-- **Pronunciation**: /ˈsteɪkˌhoʊldər/
+- **Pronunciation**: "STAYK-hohl-der" · ستيك هولدر
 - **Arabic**: أصحاب المصلحة
 - **Definition**: Anyone who has an interest in or is affected by a project's outcome — product managers, clients, end users, executives, other teams. In engineering, "talking to stakeholders" means understanding requirements from the people who will use or pay for what you're building.
 - **Context**: Requirements gathering, sprint reviews, project planning, client communication.

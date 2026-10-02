@@ -3,7 +3,7 @@
 ---
 
 ### CI/CD (Continuous Integration / Continuous Deployment)
-- **Pronunciation**: /siː aɪ siː diː/
+- **Pronunciation**: "see-eye see-dee" · سي آي سي دي
 - **Arabic**: التكامل المستمر / النشر المستمر
 - **Definition**: A set of practices that automate the process of integrating code changes (CI) and deploying them to production (CD). CI runs tests on every commit; CD pushes passing builds to staging or production automatically.
 - **Context**: DevOps discussions, pipeline configuration, release management.
@@ -16,7 +16,7 @@
 ---
 
 ### Reverse Proxy
-- **Pronunciation**: /rɪˈvɜːrs ˈprɒksi/
+- **Pronunciation**: "ree-VERS PROK-see" · ريفيرس بروكسي
 - **Arabic**: وكيل عكسي
 - **Definition**: A server that sits in front of your application servers and forwards client requests to them. It handles concerns like SSL termination, load balancing, caching, and request routing so your app doesn't have to.
 - **Context**: Server architecture, Nginx configuration, production deployment.
@@ -29,7 +29,7 @@
 ---
 
 ### Containerization (Docker)
-- **Pronunciation**: /kənˌteɪnəraɪˈzeɪʃən/
+- **Pronunciation**: "kon-TAY-ner-eye-ZAY-shun" · كونتينيرايزيشن
 - **Arabic**: الحاويات
 - **Definition**: Packaging an application and all its dependencies (runtime, libraries, config) into a standardized unit called a container, ensuring it runs identically on any machine — from a developer's laptop to a production cloud server.
 - **Context**: Deployment, environment consistency, microservices.

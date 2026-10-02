@@ -3,7 +3,7 @@
 ---
 
 ### Field-Level Encryption
-- **Pronunciation**: /fiːld ˌlɛvəl ɪnˈkrɪpʃən/
+- **Pronunciation**: "feeld LEV-ul en-KRIP-shun" · فيلد ليفل إنكريبشن
 - **Arabic**: التشفير على مستوى الحقل
 - **Definition**: Encrypting individual data fields within a database record rather than encrypting the entire database or disk. This means even if someone has database access, they can't read specific sensitive columns without the decryption key.
 - **Context**: Healthcare data (HIPAA), financial data (PCI-DSS), any system storing PII.
@@ -16,7 +16,7 @@
 ---
 
 ### GDPR-Compliant Deletion
-- **Pronunciation**: /ˌdʒiː diː piː ˈɑːr/
+- **Pronunciation**: "jee-dee-pee-AR" · جي دي بي آر
 - **Arabic**: متوافق مع اللائحة العامة لحماية البيانات
 - **Definition**: Designing data deletion flows that comply with the GDPR's "right to be forgotten" — when a user requests deletion, all their personal data must be permanently removed from all systems, backups, and third-party integrations.
 - **Context**: User account management, privacy engineering, compliance audits.
@@ -29,7 +29,7 @@
 ---
 
 ### Audit Logging
-- **Pronunciation**: /ˈɔːdɪt ˈlɒɡɪŋ/
+- **Pronunciation**: "AW-dit LOG-ing" · أوديت لوجينج
 - **Arabic**: سجل التدقيق
 - **Definition**: Recording a chronological trail of system activities — who did what, when, and from where. Used for security investigations, compliance requirements, and debugging production issues.
 - **Context**: Security-sensitive applications, healthcare, fintech, any regulated industry.

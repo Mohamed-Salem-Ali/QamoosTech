@@ -3,7 +3,7 @@
 ---
 
 ### Type Narrowing
-- **Pronunciation**: /taɪp ˈnæroʊɪŋ/
+- **Pronunciation**: "type NAR-oh-ing" · تايب ناروينج
 - **Arabic**: تضييق النوع
 - **Definition**: The process by which TypeScript automatically refines a variable's type based on control-flow checks (like `if`, `typeof`, `instanceof`, or custom type guards). This lets you safely access type-specific properties without explicit casting.
 - **Context**: TypeScript development, code reviews, type safety discussions.
@@ -16,7 +16,7 @@
 ---
 
 ### Middleware (NestJS / Express)
-- **Pronunciation**: /ˈmɪdəlˌwɛr/
+- **Pronunciation**: "MID-ul-wair" · ميدلوير
 - **Arabic**: البرمجيات الوسيطة
 - **Definition**: Functions that execute in the request-response pipeline, between receiving a request and sending a response. Each middleware can inspect, modify, or reject the request before passing it to the next handler. Used for logging, authentication, CORS, rate limiting, and more.
 - **Context**: Backend API architecture, NestJS guards/interceptors, Express middleware.
@@ -29,7 +29,7 @@
 ---
 
 ### Prisma
-- **Pronunciation**: /ˈprɪzmə/
+- **Pronunciation**: "PRIZ-muh" · بريزما
 - **Arabic**: أداة Prisma لإدارة قواعد البيانات
 - **Definition**: A modern TypeScript-first ORM for Node.js. It uses a declarative schema file (`schema.prisma`) to define your data model, then generates a fully type-safe client. Queries return typed objects, and the schema is the single source of truth for both the database and the TypeScript types.
 - **Context**: NestJS backends, TypeScript projects, database schema design.

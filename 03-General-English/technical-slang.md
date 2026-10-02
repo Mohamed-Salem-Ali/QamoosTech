@@ -5,7 +5,7 @@ Informal terms you'll hear in engineering teams, Slack channels, and tech Twitte
 ---
 
 ### "Yak shaving"
-- **Pronunciation**: /jæk ˈʃeɪvɪŋ/
+- **Pronunciation**: "yak SHAY-ving" · ياك شيفينج
 - **Arabic**: حلاقة الياك (تسلسل مهام تبتعد عن الهدف الأصلي)
 - **Meaning**: A series of tasks that each seem necessary but take you further and further from the original goal. You wanted to fix a bug, but first you need to update a dependency, which requires upgrading Node, which breaks the build tool, which...
 - **Usage Examples**:
@@ -16,7 +16,7 @@ Informal terms you'll hear in engineering teams, Slack channels, and tech Twitte
 ---
 
 ### "Bikeshedding"
-- **Pronunciation**: /ˈbaɪkˌʃɛdɪŋ/
+- **Pronunciation**: "BIKE-shed-ing" · بايكشيدينج
 - **Arabic**: الجدال حول تفاصيل تافهة
 - **Meaning**: Spending disproportionate time debating trivial details (like the color of a button) while ignoring important decisions (like the database architecture). Named after Parkinson's "law of triviality."
 - **Usage Examples**:
@@ -27,7 +27,7 @@ Informal terms you'll hear in engineering teams, Slack channels, and tech Twitte
 ---
 
 ### "Ship it"
-- **Pronunciation**: /ʃɪp ɪt/
+- **Pronunciation**: "ship it" · شيب إت
 - **Arabic**: انشره! / أطلقه!
 - **Meaning**: Deploy the code, release the feature, make it live. Used as encouragement to stop polishing and get it in front of users.
 - **Usage Examples**:
@@ -38,7 +38,7 @@ Informal terms you'll hear in engineering teams, Slack channels, and tech Twitte
 ---
 
 ### "Tech debt"
-- **Pronunciation**: /tɛk dɛt/
+- **Pronunciation**: "tek det" · تك دت
 - **Arabic**: الدين التقني
 - **Meaning**: The accumulated cost of shortcuts, workarounds, and deferred improvements in a codebase. Like financial debt, it accrues "interest" — the longer you wait to address it, the more expensive it becomes.
 - **Usage Examples**:
@@ -49,7 +49,7 @@ Informal terms you'll hear in engineering teams, Slack channels, and tech Twitte
 ---
 
 ### "LGTM"
-- **Pronunciation**: /ˌɛl dʒiː tiː ˈɛm/ (Looks Good To Me)
+- **Pronunciation**: "el-jee-tee-EM" (Looks Good To Me) · إل جي تي إم
 - **Arabic**: يبدو جيداً لي
 - **Meaning**: A code review approval. The reviewer has read the changes and is satisfied that the code is correct, well-structured, and ready to merge.
 - **Usage Examples**:

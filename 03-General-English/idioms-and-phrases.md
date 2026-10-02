@@ -5,7 +5,7 @@ Common English idioms you'll encounter in tech workplaces — Slack messages, co
 ---
 
 ### "Hit the ground running"
-- **Pronunciation**: /hɪt ðə ɡraʊnd ˈrʌnɪŋ/
+- **Pronunciation**: "hit the ground RUN-ning" · هيت ذا جراوند رانينج
 - **Arabic**: بدأ العمل فوراً بكفاءة
 - **Meaning**: To start a new role or project and immediately be productive, with minimal ramp-up time.
 - **Usage Examples**:
@@ -16,7 +16,7 @@ Common English idioms you'll encounter in tech workplaces — Slack messages, co
 ---
 
 ### "Move the needle"
-- **Pronunciation**: /muːv ðə ˈniːdəl/
+- **Pronunciation**: "moov the NEE-dul" · موف ذا نيدل
 - **Arabic**: أحدث تأثيراً ملموساً
 - **Meaning**: To make a noticeable, measurable impact. Often used when discussing whether a task is worth the effort.
 - **Usage Examples**:
@@ -27,7 +27,7 @@ Common English idioms you'll encounter in tech workplaces — Slack messages, co
 ---
 
 ### "Low-hanging fruit"
-- **Pronunciation**: /loʊ ˈhæŋɪŋ fruːt/
+- **Pronunciation**: "loh HANG-ing froot" · لو هانجينج فروت
 - **Arabic**: الثمار السهلة القطف (المهام السهلة ذات الأثر الكبير)
 - **Meaning**: Tasks that are easy to complete and deliver quick value — the obvious improvements you should tackle first.
 - **Usage Examples**:
@@ -38,7 +38,7 @@ Common English idioms you'll encounter in tech workplaces — Slack messages, co
 ---
 
 ### "Back to the drawing board"
-- **Pronunciation**: /bæk tə ðə ˈdrɔːɪŋ bɔːrd/
+- **Pronunciation**: "bak tuh the DRAW-ing bord" · باك تو ذا دروينج بورد
 - **Arabic**: العودة إلى نقطة البداية
 - **Meaning**: Starting over because the current approach failed or was rejected.
 - **Usage Examples**:
@@ -49,7 +49,7 @@ Common English idioms you'll encounter in tech workplaces — Slack messages, co
 ---
 
 ### "Reinventing the wheel"
-- **Pronunciation**: /ˌriːɪnˈvɛntɪŋ ðə wiːl/
+- **Pronunciation**: "ree-in-VENT-ing the weel" · ري إنفينتينج ذا ويل
 - **Arabic**: إعادة اختراع العجلة
 - **Meaning**: Building something from scratch when a well-tested solution already exists.
 - **Usage Examples**:

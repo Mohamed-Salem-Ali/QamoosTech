@@ -5,7 +5,7 @@ Powerful verbs and phrases that elevate your writing — in emails, CVs, LinkedI
 ---
 
 ### "End-to-end"
-- **Pronunciation**: /ˌɛnd tə ˈɛnd/
+- **Pronunciation**: "end-tuh-END" · إند تو إند
 - **Arabic**: من البداية إلى النهاية
 - **Meaning**: Complete ownership of a process from start to finish, with no gaps handed off to someone else.
 - **Context**: CVs, interviews, performance reviews — anywhere you want to show full ownership.
@@ -18,7 +18,7 @@ Powerful verbs and phrases that elevate your writing — in emails, CVs, LinkedI
 ---
 
 ### "Self-driven growth" / "Continuous Learning"
-- **Pronunciation**: /sɛlf ˈdrɪvən ɡroʊθ/
+- **Pronunciation**: "self DRIV-en grohth" · سيلف دريفن جروث
 - **Arabic**: النمو الذاتي / التعلم المستمر
 - **Meaning**: Demonstrating that you proactively seek out new skills and knowledge without being told or required to.
 - **Context**: Cover letters, LinkedIn "About" section, interview answers about personal development.
@@ -31,7 +31,7 @@ Powerful verbs and phrases that elevate your writing — in emails, CVs, LinkedI
 ---
 
 ### "Scalable"
-- **Pronunciation**: /ˈskeɪləbəl/
+- **Pronunciation**: "SKAY-luh-bul" · سكيلابل
 - **Arabic**: قابل للتوسع
 - **Meaning**: A system or design that can handle increasing load or complexity without requiring a fundamental redesign.
 - **Context**: Architecture discussions, system design interviews, technical writing.
@@ -44,7 +44,7 @@ Powerful verbs and phrases that elevate your writing — in emails, CVs, LinkedI
 ---
 
 ### "Concrete rather than speculative"
-- **Pronunciation**: /ˈkɒŋkriːt ˌræðər ðən ˈspɛkjʊlətɪv/
+- **Pronunciation**: "KON-kreet RATH-er than SPEK-yoo-luh-tiv" · كونكريت راذر ذان سبيكيوليتف
 - **Arabic**: عملي بدلاً من نظري
 - **Meaning**: Prioritizing practical, immediate, demonstrable value over theoretical or hypothetical ideas.
 - **Context**: Code reviews, feature planning, open-source contribution guidelines, team discussions.

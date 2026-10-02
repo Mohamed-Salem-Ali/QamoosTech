@@ -3,7 +3,7 @@
 ---
 
 ### Next.js
-- **Pronunciation**: /nɛkst dʒeɪ ɛs/
+- **Pronunciation**: "NEXT jay-ess" · نكست جي إس
 - **Arabic**: إطار عمل Next.js
 - **Definition**: A React meta-framework that adds server-side rendering (SSR), static site generation (SSG), API routes, file-based routing, and built-in optimizations. It lets you build full-stack web applications with React without configuring everything from scratch.
 - **Context**: Frontend architecture decisions, full-stack web apps, SEO-critical projects.
@@ -16,7 +16,7 @@
 ---
 
 ### Spaced Repetition (SM-2 Algorithm)
-- **Pronunciation**: /speɪst ˌrɛpɪˈtɪʃən/
+- **Pronunciation**: "SPAYSD rep-uh-TI-shun" · سبيسد ريبيتيشن
 - **Arabic**: التكرار المتباعد
 - **Definition**: A learning technique based on reviewing material at increasing intervals. The SM-2 algorithm tracks three values per item: ease factor (how easy you find it), interval (days until next review), and repetitions (consecutive correct recalls). Items you struggle with are shown more frequently.
 - **Context**: EdTech products, flashcard systems, quiz platforms.
@@ -29,7 +29,7 @@
 ---
 
 ### MDX
-- **Pronunciation**: /ˌɛm diː ˈɛks/
+- **Pronunciation**: "em-dee-EX" · إم دي إكس
 - **Arabic**: ماركداون مع مكونات React
 - **Definition**: A format that lets you write JSX (React components) directly inside Markdown files. This enables rich, interactive content — embedding code playgrounds, diagrams, quizzes, or custom components within what would otherwise be static text.
 - **Context**: Documentation sites, educational platforms, blog engines, content-heavy apps.
