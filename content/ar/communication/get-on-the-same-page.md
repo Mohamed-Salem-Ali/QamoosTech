@@ -25,3 +25,10 @@ pronunciation: "جيت أون ذا سيم بيج"
 ## خطأ شائع
 
 الاعتقاد بأن هذا المصطلح يعني ضرورة موافقة الجميع على كل التفاصيل، بينما هو في الواقع يعني فقط التأكد من أن الجميع يمتلكون نفس التفسير للحقائق والأهداف.
+
+## قلها في العمل
+
+- Let us take five minutes to get on the same page regarding the API response format before we continue.
+  - دعونا نأخذ خمس دقائق لنكون على وفاق تام بخصوص شكل استجابة الـ API قبل أن نتابع.
+- I left a comment on the ticket to help us get on the same page about the expected edge cases.
+  - لقد تركت تعليقاً على الـ ticket لنتمكن من توحيد فهمنا حول الحالات الاستثنائية المتوقعة.

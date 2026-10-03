@@ -25,3 +25,10 @@ pronunciation: "هالوسينيشن"
 ## خطأ شائع
 
 نسخ شيفرة مولّدة بالذكاء الاصطناعي دون تشغيلها. اختبر كل ما يكتبه النموذج.
+
+## قلها في العمل
+
+- Let's add a validation step to catch any potential hallucinations before the data reaches the user.
+  - دعنا نضيف خطوة تحقق لالتقاط أي هلوسات محتملة قبل أن تصل البيانات إلى المستخدم.
+- We noticed a hallucination in the generated summary, so we need to refine the prompt.
+  - لاحظنا وجود هلوسة في الملخص المُولَّد، لذا نحتاج إلى تحسين الـ prompt.

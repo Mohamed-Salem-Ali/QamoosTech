@@ -25,3 +25,14 @@ pronunciation: "فاين تيونينج"
 ## خطأ شائع
 
 القفز إلى الضبط الدقيق مبكرًا. غالبًا يكون prompt جيد أو RAG أرخص وكافيًا.
+
+## لا تخلطه مع
+
+يتم الخلط غالبًا بين الضبط الدقيق و RAG؛ فبينما يغير الضبط الدقيق الأوزان الداخلية للنموذج لتعديل سلوكه، يقوم RAG بتزويد النموذج بسياق خارجي أثناء التشغيل دون تغيير النموذج نفسه.
+
+## قلها في العمل
+
+- Do we really need fine-tuning here, or can we just improve our system prompt to get better results?
+  - هل نحتاج حقًا إلى الضبط الدقيق هنا، أم يمكننا فقط تحسين الـ system prompt الخاص بنا للحصول على نتائج أفضل؟
+- I have prepared the dataset for fine-tuning the model to better recognize our specific domain terminology.
+  - لقد قمت بإعداد مجموعة البيانات للضبط الدقيق للنموذج ليتعرف بشكل أفضل على مصطلحات مجالنا المحددة.

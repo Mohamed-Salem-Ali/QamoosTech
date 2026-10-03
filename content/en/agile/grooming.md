@@ -23,3 +23,12 @@ During sprint planning meetings, team syncs, or when discussing the product road
 ## Common mistake
 
 Thinking that grooming is only the product owner's responsibility; it is actually a collaborative effort where the development team provides technical input to ensure the work is actionable.
+
+## Don't confuse with
+
+Grooming focuses on refining and preparing future backlog items, while sprint planning decides which specific items to commit to for the upcoming sprint.
+
+## Say it at work
+
+- Let's spend the last thirty minutes of today's meeting grooming the top backlog items.
+- Please review the attached user stories before our next grooming session.

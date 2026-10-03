@@ -26,3 +26,14 @@ translation: "فك الارتباط"
 ## خطأ شائع
 
 يعتقد بعض المهندسين أن فك الارتباط يعني إزالة جميع الروابط بين المكونات، لكن المقصود هو جعل هذه الروابط مرنة وغير معتمدة بشكل مباشر على تفاصيل التنفيذ الداخلية.
+
+## لا تخلطه مع
+
+فك الارتباط (Decoupling) يقلل الاعتمادية لكي تتطور المكونات بشكل مستقل، بينما فصل الاهتمامات (Separation of concerns) يقسم النظام إلى أقسام وظيفية متميزة قد تظل مترابطة بشكل وثيق.
+
+## قلها في العمل
+
+- Let's work on decoupling this module so we can test the database layer without hitting the network.
+  - دعنا نعمل على فك ارتباط هذه الوحدة لكي نتمكن من اختبار طبقة قاعدة البيانات دون الاتصال بالشبكة.
+- Please ensure we are decoupling the notification logic from the user registration flow before merging this pull request.
+  - يرجى التأكد من فك ارتباط منطق الإشعارات عن تدفق تسجيل المستخدمين قبل دمج هذا الطلب (Pull Request).

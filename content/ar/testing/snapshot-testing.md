@@ -25,3 +25,14 @@ pronunciation: "سناپشوت تيسْتينج"
 ## خطأ شائع
 
 اعتبار السنابشوت بديلاً عن التأكيدات الحقيقية (assertions)، أو تحديث ملفات السنابشوت بشكل عشوائي دون التحقق مما تغير فعلياً في واجهة المستخدم.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين اختبار السنابشوت واختبار الانحدار البصري (visual regression testing)؛ فبينما يقارن اختبار السنابشوت الكود المتسلسل أو هياكل البيانات، يقارن اختبار الانحدار البصري لقطات شاشة فعلية لواجهة المستخدم بكسل بكسل.
+
+## قلها في العمل
+
+- Let's add snapshot testing for this component to make sure we don't accidentally break the layout during the refactor.
+  - دعنا نضيف اختبار السنابشوت لهذا المكون للتأكد من أننا لن نكسر التنسيق عن طريق الخطأ أثناء إعادة الهيكلة.
+- Please review the updated snapshot file in this pull request to ensure the changes to the rendered output are expected.
+  - يرجى مراجعة ملف السنابشوت المحدث في طلب السحب هذا للتأكد من أن التغييرات في المخرجات المعروضة متوقعة.

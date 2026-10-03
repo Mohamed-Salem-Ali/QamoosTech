@@ -28,3 +28,14 @@ translation: "سياسة أمان المحتوى"
 ## خطأ شائع
 
 الاعتقاد بأن سياسة CSP تغني عن تنظيف المدخلات بشكل صحيح، بينما ينبغي اعتبارها طبقة دفاع إضافية ضمن نهج الدفاع العميق.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين سياسة أمان المحتوى (CSP) وCORS، لكن CSP تتحكم في الموارد التي يحملها المتصفح للصفحة، بينما يتحكم CORS في النطاقات المسموح لها بالوصول إلى موارد الخادم عبر واجهات برمجة التطبيقات.
+
+## قلها في العمل
+
+- Let us check the browser console to see if our Content Security Policy is blocking that external script.
+  - دعنا نتحقق من وحدة تحكم المتصفح لنرى ما إذا كانت سياسة أمان المحتوى الخاصة بنا تحظر ذلك السكريبت الخارجي.
+- Please review the updated Content Security Policy configuration in the staging environment before we merge this pull request.
+  - يرجى مراجعة إعدادات سياسة أمان المحتوى المحدثة في بيئة الاختبار قبل أن نقوم بدمج طلب السحب هذا.

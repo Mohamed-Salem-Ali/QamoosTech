@@ -25,3 +25,14 @@ pronunciation: "بايكشيدينج"
 ## خطأ شائع
 
 استخدام الكلمة لإنهاء أي نقاش. التسمية مهمة؛ المشكلة هي إضاعة وقت لا يتناسب مع الأهمية.
+
+## لا تخلطه مع
+
+يركز Bikeshedding على إضاعة الوقت في تفاصيل تافهة، بينما تتعلق ظاهرة yak shaving بالتشتت في حل سلسلة لا تنتهي من المشكلات الأساسية غير المتوقعة.
+
+## قلها في العمل
+
+- I know we all have strong opinions on the indentation style, but let us not do any more bikeshedding on this pull request.
+  - أعلم أن لدينا جميعاً آراء قوية حول نمط المسافات البادئة، ولكن دعونا لا نخوض في مزيد من الجدل حول التفاهات في طلب السحب هذا.
+- Please focus the architectural review on core scalability issues and avoid bikeshedding on minor configuration formats.
+  - يرجى تركيز مراجعة البنية الهندسية على مشكلات قابلية التوسع الأساسية وتجنب الجدل في التفاهات حول تنسيقات الإعداد البسيطة.

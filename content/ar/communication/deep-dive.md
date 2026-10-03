@@ -26,3 +26,14 @@ translation: "نقاش معمق"
 ## خطأ شائع
 
 استخدامه لوصف تحديث سريع للحالة أو نظرة عامة سطحية، بدلاً من التحليل المكثف والمفصل.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين "Deep dive" و"Brainstorming"؛ فبينما يركز النقاش المعمق على تحليل موضوع معقد موجود بالتفصيل، يهدف العصف الذهني إلى توليد أفكار وحلول إبداعية جديدة.
+
+## قلها في العمل
+
+- I think this bug is quite complex, so let's set up a deep dive to walk through the logs together.
+  - أعتقد أن هذا الخطأ البرمجي معقد جداً، لذا دعنا نحدد موعداً لنقاش معمق لنستعرض السجلات معاً.
+- I have attached the documentation for the new module; please review it so we can conduct a deep dive in our next sync.
+  - لقد أرفقت الوثائق الخاصة بالوحدة البرمجية الجديدة؛ يرجى مراجعتها حتى نتمكن من إجراء نقاش معمق في اجتماعنا القادم.

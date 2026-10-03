@@ -22,3 +22,8 @@ Agile talks and client communication.
 ## Common mistake
 
 Confusing fast feedback with skipping checks. Show early prototypes, but do not ship untested code.
+
+## Say it at work
+
+- Can we set up automated deployments to staging to help with shortening the feedback loop?
+- This change aims at shortening the feedback loop for QA engineers before merging the pull request.

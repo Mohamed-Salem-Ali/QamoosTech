@@ -25,3 +25,14 @@ pronunciation: "ريتينر"
 ## خطأ شائع
 
 عدم تحديد ما يشمله الـ retainer. اكتب الساعات والمهام ووقت الاستجابة.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين الـ retainer والاشتراك (subscription)؛ فالـ retainer يحجز قدرًا محددًا من وقتك المهني لعميل معين، بينما يمنح الاشتراك عادةً حق الوصول إلى منتج أو خدمة جاهزة.
+
+## قلها في العمل
+
+- I'm currently full, but I can open up a spot if you're interested in moving to a monthly retainer.
+  - جدولي ممتلئ حاليًا، ولكن يمكنني توفير مساحة إذا كنت مهتمًا بالانتقال إلى نظام الـ retainer الشهري.
+- Please find the updated contract attached, which outlines the specific scope of work covered by our monthly retainer agreement.
+  - يرجى الاطلاع على العقد المحدث المرفق، والذي يوضح نطاق العمل المحدد الذي تغطيه اتفاقية الـ retainer الشهرية الخاصة بنا.

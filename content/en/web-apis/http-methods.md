@@ -26,3 +26,12 @@ HTTP Methods are standard verbs like `GET`, `POST`, `PUT`, and `DELETE` that tel
 ## Common mistake
 
 Using a `GET` request to send sensitive data or modify server state, which is insecure and violates HTTP standards because `GET` requests should be safe and idempotent.
+
+## Don't confuse with
+
+HTTP Methods are often confused with HTTP Status Codes; methods define the action the client wants to perform, while status codes indicate the server's response to that specific action.
+
+## Say it at work
+
+- We should change this endpoint to a PATCH request since we are only updating a specific field instead of replacing the whole resource.
+- Please ensure that the API documentation specifies the correct HTTP methods for each endpoint to avoid confusion during integration.

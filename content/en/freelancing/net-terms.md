@@ -23,3 +23,8 @@ In contract negotiations, service agreements, and invoice footers.
 ## Common mistake
 
 Confusing Net terms with the actual payment date; the "Net" number represents the duration of the grace period, not the specific calendar day the payment is due.
+
+## Say it at work
+
+- Can we push these Net Terms to 45 days given the scope expansion?
+- Please update the contract to reflect Net 30 terms before we proceed.

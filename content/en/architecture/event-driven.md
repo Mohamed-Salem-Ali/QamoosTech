@@ -22,3 +22,12 @@ Modern backend architecture and cloud systems.
 ## Common mistake
 
 Calling it event-driven just because you use a queue. The flow must really be driven by events.
+
+## Don't confuse with
+
+Event-driven architecture reacts to state changes asynchronously, while a message-driven architecture focuses on routing specific messages to specific recipients.
+
+## Say it at work
+
+- Let's make sure our new microservice is event-driven so it doesn't block the checkout flow.
+- We should adopt an event-driven approach for this workflow to improve service decoupling.

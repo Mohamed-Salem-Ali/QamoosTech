@@ -22,3 +22,12 @@ Quality gates and code review rules.
 ## Common mistake
 
 Chasing 100% coverage with meaningless tests. A high number does not prove the code is correct.
+
+## Don't confuse with
+
+Test coverage measures which lines of code execute during tests, whereas code quality measures how well-written and maintainable that code is.
+
+## Say it at work
+
+- Let us check the test coverage report before we merge this pull request.
+- Please add unit tests to improve the test coverage for this module.

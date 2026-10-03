@@ -25,3 +25,14 @@ pronunciation: "سي إس إس سبيسيفيسيتي"
 ## خطأ شائع
 
 الاعتقاد بأن ترتيب كتابة الأكواد في ملف الـ CSS هو العامل الوحيد لتطبيق التنسيق، وتجاهل أن المحدد الأعلى أولوية (Specific) سيفوز دائماً بغض النظر عن موقعه في الملف.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين CSS Specificity و CSS Cascade؛ فبينما تحدد الـ specificity أي قاعدة لها أولوية أعلى بناءً على وزن المحدد، تحدد الـ cascade النمط النهائي من خلال النظر في ترتيب المصدر والأولوية والوراثة.
+
+## قلها في العمل
+
+- I'm struggling to override this button color because of a specificity issue with the parent container's selector.
+  - أواجه صعوبة في تجاوز لون هذا الزر بسبب مشكلة في الـ specificity تتعلق بمحدد الحاوية الأب.
+- Please check the CSS specificity of your new rules, as they are currently being overridden by the base styles.
+  - يرجى التحقق من الـ CSS specificity لقواعدك الجديدة، حيث يتم تجاوزها حالياً بواسطة التنسيقات الأساسية.

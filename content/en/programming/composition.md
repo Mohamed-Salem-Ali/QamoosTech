@@ -23,3 +23,12 @@ In code reviews, architecture discussions, and when talking about object-oriente
 ## Common mistake
 
 Thinking that composition only applies to classes or objects, when it works equally well with functions and modules.
+
+## Don't confuse with
+
+Composition vs. Inheritance: Composition builds complex objects by containing other objects, whereas inheritance creates a parent-child relationship where a subclass inherits behavior from a base class.
+
+## Say it at work
+
+- Let's use composition here so we can keep these modules decoupled and easier to test.
+- I recommend refactoring this deep inheritance structure into composition to improve the flexibility of our codebase.

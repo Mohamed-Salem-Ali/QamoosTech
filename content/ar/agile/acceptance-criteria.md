@@ -26,3 +26,14 @@ pronunciation: "أكسبتانز كرايتيريا"
 ## خطأ شائع
 
 كتابة متطلبات غامضة مثل "اجعله يبدو جميلاً" بدلاً من شروط محددة قابلة للاختبار.
+
+## لا تخلطه مع
+
+معايير القبول تحدد شروطاً محددة لقصة مستخدم واحدة، بينما تعريف الجيّد للعمل يحدد معايير الجودة لجميع القصص في السبرنت.
+
+## قلها في العمل
+
+- Before we mark this ticket as ready, we need to finalize the acceptance criteria with the product owner.
+  - قبل أن نحدد هذه المهمة كجاهزة، نحتاج إلى وضع اللمسات الأخيرة على معايير القبول مع مالك المنتج.
+- Please review the acceptance criteria on this task to ensure all edge cases are covered.
+  - يرجى مراجعة معايير القبول في هذه المهمة للتأكد من تغطية جميع الحالات الطرفية.

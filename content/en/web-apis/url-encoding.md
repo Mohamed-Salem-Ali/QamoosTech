@@ -23,3 +23,12 @@ When building APIs, handling search queries, or constructing dynamic links in we
 ## Common mistake
 
 Thinking that you can manually replace characters without using standard library functions, which often leads to broken links or security vulnerabilities like injection attacks.
+
+## Don't confuse with
+
+URL encoding replaces unsafe characters with hexadecimal values, while URL escaping is often used interchangeably, though encoding specifically refers to the percent-encoding mechanism.
+
+## Say it at work
+
+- Make sure you apply URL encoding to the search query before sending the request.
+- The API endpoint failed because the query parameters lacked proper URL encoding.

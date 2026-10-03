@@ -23,3 +23,12 @@ In sprint planning, requirement gathering meetings, and ticket descriptions.
 ## Common mistake
 
 Writing vague requirements like "make it look nice" instead of testable, concrete conditions.
+
+## Don't confuse with
+
+Acceptance criteria define specific conditions for a single user story, whereas definition of done sets the quality standards for all stories in a sprint.
+
+## Say it at work
+
+- Before we mark this ticket as ready, we need to finalize the acceptance criteria with the product owner.
+- Please review the acceptance criteria on this task to ensure all edge cases are covered.

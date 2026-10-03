@@ -25,3 +25,12 @@ An Access Control List (ACL) is a list of permissions attached to a specific res
 ## Common mistake
 
 Confusing ACLs with Role-Based Access Control (RBAC), where ACLs attach permissions directly to resources for individual users or groups, while RBAC assigns permissions to roles and assigns users to those roles.
+
+## Don't confuse with
+
+ACL vs. RBAC: ACLs define permissions at the resource level for specific users, whereas RBAC manages access by assigning permissions to roles that are then granted to users.
+
+## Say it at work
+
+- Can you check the ACL on that bucket to see why the service account is getting a 403 error?
+- I have updated the ACL for the production directory to restrict write access to the deployment user only.

@@ -25,3 +25,10 @@ pronunciation: "سكوب آوت"
 ## خطأ شائع
 
 الخلط بين "scoping out" و "scope creep"؛ فالأول هو خطوة تخطيط استباقية، بينما الثاني يشير إلى التوسع غير المنضبط في متطلبات المشروع أثناء مرحلة التطوير.
+
+## قلها في العمل
+
+- Can we schedule a quick call tomorrow to scope out the new payment gateway integration?
+  - هل يمكننا جدولة مكالمة سريعة غداً لتحديد نطاق دمج بوابة الدفع الجديدة؟
+- Please review the ticket and scope out the required changes before our next sprint planning session.
+  - يرجى مراجعة التذكرة وتحديد نطاق التعديلات المطلوبة قبل جلسة التخطيط للسبرنت القادم.

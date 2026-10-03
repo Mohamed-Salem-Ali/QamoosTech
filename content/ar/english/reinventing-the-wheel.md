@@ -25,3 +25,10 @@ pronunciation: "ري إنفينتنج ذا ويل"
 ## خطأ شائع
 
 استخدامها لرفض كل حل مخصص. أحيانًا يتطلب الأمان أو الترخيص شيفرة خاصة بك.
+
+## قلها في العمل
+
+- Instead of reinventing the wheel with a custom authentication system, let's just integrate the existing one.
+  - بدلاً من إعادة اختراع العجلة بنظام مصادقة مخصص، دعنا ندمج النظام الموجود.
+- Please avoid reinventing the wheel for this feature; check if the internal framework already supports it.
+  - يرجى تجنب إعادة اختراع العجلة لهذه الميزة؛ تحقق مما إذا كان الإطار الداخلي يدعمها بالفعل.

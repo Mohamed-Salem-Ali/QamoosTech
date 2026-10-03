@@ -22,3 +22,12 @@ Freelance platforms and client leads.
 ## Common mistake
 
 Sending the same copied proposal to everyone. Mention the client's real problem in the first lines.
+
+## Don't confuse with
+
+A proposal outlines the scope, timeline, and cost of a project, while an estimate is just an educated guess of the cost and time before the scope is fully defined.
+
+## Say it at work
+
+- I am finishing up the proposal now and will share it with you before sending it to the client.
+- Please review the attached proposal and let me know if we need to adjust any of the project milestones.

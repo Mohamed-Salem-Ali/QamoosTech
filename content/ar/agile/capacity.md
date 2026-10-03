@@ -25,3 +25,14 @@ pronunciation: "كاباسيتي"
 ## خطأ شائع
 
 الخلط بين الـ capacity والـ velocity؛ فالـ capacity تتعلق بالوقت والموارد المتاحة، بينما الـ velocity هي مقياس لما أنجزه الفريق فعلياً في الماضي.
+
+## لا تخلطه مع
+
+تقيس الـ capacity الوقت والموارد المتاحة، بينما تقيس الـ velocity الحجم الفعلي للعمل الذي أنجزه الفريق تاريخياً.
+
+## قلها في العمل
+
+- Let's review our capacity for the upcoming sprint before we pull in any more backlog items.
+  - دعونا نراجع الـ capacity الخاصة بنا للـ sprint القادم قبل سحب أي عناصر إضافية من الـ backlog.
+- Please adjust the sprint scope to match our reduced capacity during the holiday week.
+  - يرجى تعديل نطاق الـ sprint ليتناسب مع الـ capacity المقلصة لدينا خلال أسبوع العطلة.

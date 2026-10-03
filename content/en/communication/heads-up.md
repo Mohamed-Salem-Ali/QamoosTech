@@ -22,3 +22,12 @@ Chat and team updates.
 ## Common mistake
 
 Giving the heads-up too late. It only helps when there is still time to react.
+
+## Don't confuse with
+
+Heads-up vs. follow-up: a heads-up is a proactive warning about an upcoming event, whereas a follow-up is a reactive check-in regarding a previous discussion or task.
+
+## Say it at work
+
+- Just a quick heads-up that I might be a few minutes late to our sync because of another call.
+- I wanted to provide a heads-up that the API documentation will be updated later today to reflect the recent changes.

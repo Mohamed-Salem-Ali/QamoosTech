@@ -25,3 +25,14 @@ pronunciation: "ريسبونسيف ديزاين"
 ## خطأ شائع
 
 الاختبار على شاشتك فقط. افحص على الأقل عرض هاتف ضيق وعرض حاسوب واسع.
+
+## لا تخلطه مع
+
+التصميم المتجاوب (Responsive Design) يغيّر التخطيط تلقائياً ليناسب أي حجم شاشة، بينما التصميم المتكيف (Adaptive Design) يستخدم تخطيطات ثابتة ومحددة مسبقاً لدقات شاشات معينة.
+
+## قلها في العمل
+
+- Let's make sure the responsive design handles the mobile navigation menu correctly before we merge this PR.
+  - دعنا نتأكد من أن التصميم المتجاوب يتعامل مع قائمة التنقل الخاصة بالجوال بشكل صحيح قبل أن نقوم بدمج طلب السحب هذا.
+- Please review the attached mockups to ensure the responsive design requirements are met across all targeted tablet and phone viewports.
+  - يرجى مراجعة التصاميم المرفقة للتأكد من استيفاء متطلبات التصميم المتجاوب عبر جميع نوافذ العرض المستهدفة للأجهزة اللوحية والهواتف.

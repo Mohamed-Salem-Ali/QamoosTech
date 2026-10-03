@@ -26,3 +26,14 @@ pronunciation: "فول-تيكست سورتش"
 ## خطأ شائع
 
 الاعتقاد بأن استخدام معامل `LIKE` في SQL يؤدي نفس الغرض؛ فمعامل `LIKE` يقوم بمطابقة النصوص حرفياً وهو بطيء جداً وغير فعال عند التعامل مع كميات كبيرة من البيانات النصية.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Full-Text Search ومطابقة الكلمات المفتاحية عبر معامل LIKE، ولكن بينما يقوم LIKE بمسح حرفي للنصوص، يستخدم Full-Text Search فهارس متخصصة لتوفير التحليل اللغوي وترتيب النتائج حسب الصلة.
+
+## قلها في العمل
+
+- Let's switch to Full-Text Search for the product catalog so users get better results when they make typos.
+  - دعونا ننتقل إلى استخدام Full-Text Search في دليل المنتجات حتى يحصل المستخدمون على نتائج أفضل عند ارتكاب أخطاء إملائية.
+- I have updated the query to utilize Full-Text Search, which should resolve the performance issues with the search bar.
+  - لقد قمت بتحديث الاستعلام ليستخدم Full-Text Search، مما ينبغي أن يحل مشاكل الأداء في شريط البحث.

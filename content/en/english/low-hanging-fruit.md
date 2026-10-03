@@ -22,3 +22,8 @@ Planning and prioritization.
 ## Common mistake
 
 Doing only the easy things and never the important hard ones.
+
+## Say it at work
+
+- We should tackle the low-hanging fruit in the backlog to show some progress to the stakeholders.
+- I have identified a few low-hanging fruit items that we can implement in the current sprint to improve performance.

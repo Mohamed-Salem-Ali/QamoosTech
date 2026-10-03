@@ -23,3 +23,12 @@ In discussions about release management, CI/CD pipelines, and high-availability 
 ## Common mistake
 
 Thinking that Blue-Green Deployment is the same as a staging environment; it is specifically about having two production-ready environments to facilitate seamless traffic switching.
+
+## Don't confuse with
+
+Blue-Green Deployment vs. Canary Deployment: Blue-Green involves switching all traffic between two identical environments, while Canary Deployment gradually shifts traffic to a small subset of users to test the new version safely.
+
+## Say it at work
+
+- Let's switch to the green environment now that the smoke tests have passed.
+- We have successfully deployed the update to the idle environment and are ready to route traffic to it.

@@ -23,3 +23,12 @@ During team meetings, video conferences, or public Slack channels.
 ## Common mistake
 
 Thinking that "offline" means literally disconnecting from the internet or stopping work, rather than just changing the venue of the conversation.
+
+## Don't confuse with
+
+Take it offline is often confused with 'taking a break', but while the former moves the discussion to a private channel, the latter means pausing work entirely.
+
+## Say it at work
+
+- We are spending too much time on this bug, let's take it offline and circle back with the team later.
+- Since this discussion is becoming quite technical, I suggest we take it offline to avoid distracting the rest of the group.

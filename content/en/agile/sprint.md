@@ -22,3 +22,12 @@ Agile and Scrum teams.
 ## Common mistake
 
 Adding new work in the middle of a sprint. That breaks the plan and the team's focus.
+
+## Don't confuse with
+
+A sprint is a fixed time box for execution, while a release is the actual delivery of software to production users.
+
+## Say it at work
+
+- Can we pull this ticket into the current sprint, or is capacity already full?
+- Please ensure all completed items are verified and closed before we close out the sprint.

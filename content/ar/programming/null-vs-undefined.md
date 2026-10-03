@@ -25,3 +25,10 @@ pronunciation: "نال فيرسوس أنديفايند"
 ## خطأ شائع
 
 التعامل معهما كقيمتين متطابقتين تماماً، مما يؤدي إلى أخطاء غير متوقعة في الأنواع عند التحقق من الخصائص الاختيارية.
+
+## قلها في العمل
+
+- Let's check if the user profile is null or undefined before we render the avatar.
+  - دعنا نتحقق مما إذا كان ملف المستخدم null أو undefined قبل أن نقوم بعرض الصورة الرمزية.
+- Please ensure the function handles both null and undefined parameters correctly to prevent runtime errors.
+  - يرجى التأكد من أن الدالة تتعامل مع كل من معاملات null و undefined بشكل صحيح لمنع أخطاء وقت التشغيل.

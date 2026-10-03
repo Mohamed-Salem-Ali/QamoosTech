@@ -25,3 +25,14 @@ pronunciation: "بُروتيكتيد برانش"
 ## خطأ شائع
 
 الاعتقاد بأن الـ Protected Branch يمنع التغييرات تماماً؛ في الواقع هو يفرض عملية محددة (مثل مراجعة الكود) يجب اتباعها قبل قبول التغييرات.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ Protected branch وصلاحيات المستودع، لكن الـ protected branches تقيد إجراءات محددة على فروع معينة بغض النظر عن صلاحيات الكتابة العامة للمستخدم في المستودع.
+
+## قلها في العمل
+
+- I can't merge my changes yet because the main branch is a protected branch and I'm still waiting for the required approvals.
+  - لا أستطيع دمج تغييراتي حتى الآن لأن الفرع الرئيسي هو protected branch وما زلت أنتظر الموافقات المطلوبة.
+- Please ensure that the release branch is configured as a protected branch to prevent accidental commits before the deployment.
+  - يرجى التأكد من ضبط فرع الإصدار كـ protected branch لمنع أي عمليات دفع (commits) غير مقصودة قبل النشر.

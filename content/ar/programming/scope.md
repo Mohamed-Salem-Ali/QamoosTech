@@ -25,3 +25,14 @@ pronunciation: "سكوب"
 ## خطأ شائع
 
 الخلط بينه وبين «scope» في إدارة المشاريع (scope creep). الكلمة واحدة والمعنى مختلف، والسياق هو الذي يحدد.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين النطاق (Scope) والسياق (Context)؛ فبينما يشير النطاق إلى مدى رؤية المتغيرات وإمكانية الوصول إليها في الكود، يشير السياق إلى الكائن الذي تعمل الدالة ضمنه حالياً.
+
+## قلها في العمل
+
+- I'm getting a reference error because that variable is out of scope inside this callback function.
+  - أواجه خطأ في المرجع لأن ذلك المتغير خارج النطاق داخل دالة الـ callback هذه.
+- Please ensure that we limit the scope of these temporary variables to the block where they are actually needed.
+  - يرجى التأكد من حصر نطاق هذه المتغيرات المؤقتة ضمن الكتلة البرمجية التي تحتاج إليها فعلياً.

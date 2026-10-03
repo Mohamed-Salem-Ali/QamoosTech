@@ -22,3 +22,12 @@ Algorithm courses, interviews, and tree or folder traversal.
 ## Common mistake
 
 Forgetting the base case. Without it the function never stops.
+
+## Don't confuse with
+
+Recursion calls itself repeatedly until a base case is met, while a loop repeats a block of code using a conditional statement.
+
+## Say it at work
+
+- I think we can solve this tree traversal problem cleanly using recursion instead of a complex stack.
+- Please make sure to add a proper base case to this recursion to avoid any stack overflow issues in production.

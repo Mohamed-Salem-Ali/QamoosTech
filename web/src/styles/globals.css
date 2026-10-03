@@ -1364,3 +1364,72 @@ html[dir='rtl'] .rotator__word::after { transform-origin: right; }
 .term-card .level {
   align-self: start;
 }
+
+/* ---------- extra term sections: don't confuse with / say it at work ---------- */
+.panel--confuse {
+  border-style: dashed;
+  background: color-mix(in srgb, var(--brand) 6%, var(--bg-elev));
+}
+.panel--say {
+  border-color: color-mix(in srgb, var(--cyan) 40%, var(--line));
+}
+.say {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+.say li {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  position: relative;
+}
+.say__hint {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--cyan);
+}
+.say q {
+  quotes: none;
+  font-weight: 500;
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+.say__tr {
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  unicode-bidi: plaintext;
+}
+.copy {
+  justify-self: start;
+  margin-block-start: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-elev);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s, background-color 0.2s, transform 0.2s var(--ease);
+}
+.copy:hover {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+.copy:active {
+  transform: scale(0.96);
+}
+.copy--done {
+  color: var(--ok);
+  border-color: var(--ok);
+}

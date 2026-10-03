@@ -23,3 +23,12 @@ In team planning sessions, coding pair programming routines, and agile retrospec
 ## Common mistake
 
 Thinking TDD is purely a testing technique when it is actually primarily a design technique.
+
+## Don't confuse with
+
+TDD is often confused with BDD (Behavior-Driven Development); while TDD focuses on testing individual code units from a developer's perspective, BDD focuses on testing system behavior from a user's perspective using natural language.
+
+## Say it at work
+
+- Let's try to use TDD for this new module so we don't end up with a bunch of untested spaghetti code.
+- I have updated the pull request to include the failing tests, adhering to the TDD approach we agreed upon.

@@ -23,3 +23,12 @@ In system architecture discussions, distributed systems design, and when choosin
 ## Common mistake
 
 Assuming that Pub/Sub guarantees message delivery or order by default, as many implementations are asynchronous and do not track whether a specific subscriber successfully processed the message.
+
+## Don't confuse with
+
+Pub/Sub is often confused with a message queue, but while a queue typically delivers each message to a single consumer, Pub/Sub broadcasts messages to multiple subscribers simultaneously.
+
+## Say it at work
+
+- Can we use Pub/Sub here to broadcast updates to all connected microservices at once?
+- Please ensure that the new event publisher is properly registered in the Pub/Sub topic before merging the pull request.

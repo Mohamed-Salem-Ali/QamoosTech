@@ -22,3 +22,8 @@ Prioritization and performance talks.
 ## Common mistake
 
 Using it for tiny changes. Keep it for results that matter.
+
+## Say it at work
+
+- We need to focus on features that actually move the needle for our active users.
+- Please include performance benchmarks in the pull request to show how this change moves the needle.

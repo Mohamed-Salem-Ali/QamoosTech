@@ -25,3 +25,14 @@ pronunciation: "سموك تيست"
 ## خطأ شائع
 
 الاعتقاد بأن الـ Smoke Test هو اختبار شامل؛ فهو مصمم ليكون سريعاً وسطحياً للتأكد من استقرار النظام الأساسي، وليس لتغطية كل الحالات الاستثنائية أو المتطلبات التفصيلية.
+
+## لا تخلطه مع
+
+يفحص Smoke Test الوظائف الأساسية فقط لضمان الاستقرار العام، بينما الـ Sanity Test هو التحقق السريع والمركز من ميزة معينة تم تعديلها حديثاً.
+
+## قلها في العمل
+
+- Let's run a quick smoke test on the staging environment to make sure the build is stable.
+  - دعنا نجري Smoke Test سريعاً على بيئة التجربة للتأكد من أن الـ Build مستقر.
+- Please ensure the automated smoke test passes successfully before merging this pull request.
+  - يرجى التأكد من نجاح الـ Smoke Test التلقائي قبل دمج طلب السحب هذا.

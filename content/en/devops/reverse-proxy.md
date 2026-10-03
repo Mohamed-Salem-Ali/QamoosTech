@@ -22,3 +22,12 @@ Nginx setups and production troubleshooting ("502 Bad Gateway").
 ## Common mistake
 
 Confusing it with a forward proxy. A forward proxy sits in front of users; a reverse proxy sits in front of servers.
+
+## Don't confuse with
+
+Reverse proxy is often confused with a load balancer; while a reverse proxy handles requests for a specific server, a load balancer distributes traffic across multiple servers to ensure high availability.
+
+## Say it at work
+
+- We should configure the reverse proxy to handle SSL termination so our app doesn't have to deal with certificates.
+- I have updated the reverse proxy configuration to route all API requests to the new microservice instance.

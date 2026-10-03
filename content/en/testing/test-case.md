@@ -23,3 +23,12 @@ In QA planning meetings, bug reports, and test documentation.
 ## Common mistake
 
 Confusing a test case with a test plan; a test case is a single, granular verification step, while a test plan is a high-level document covering the entire testing strategy.
+
+## Don't confuse with
+
+A test case is a specific set of steps to verify one feature, while a test scenario is a broader user journey or business process that may contain multiple test cases.
+
+## Say it at work
+
+- Could you please add a test case for this edge case before we merge the pull request?
+- We are blocked on the release because one critical test case is still failing.

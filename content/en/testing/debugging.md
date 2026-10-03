@@ -22,3 +22,12 @@ Every developer's daily life.
 ## Common mistake
 
 Changing random things hoping it works. First reproduce the bug, then form a theory, then test it.
+
+## Don't confuse with
+
+Debugging is often confused with testing; debugging is the process of fixing a known defect, while testing is the process of verifying that the software meets requirements and finding new defects.
+
+## Say it at work
+
+- I'm currently debugging that login issue, so I should have a fix ready by this afternoon.
+- I have finished debugging the module and verified that the edge cases are now handled correctly.

@@ -22,3 +22,12 @@ Upwork-style proposals and client onboarding.
 ## Common mistake
 
 Accepting a fixed price when the requirements are unclear. You risk working for a very low hourly rate.
+
+## Don't confuse with
+
+Fixed-price contracts are often confused with retainers, but a fixed-price agreement covers a single defined project, whereas a retainer involves a recurring monthly fee for ongoing availability or services.
+
+## Say it at work
+
+- Let us switch to an hourly rate for this phase since the requirements are still evolving.
+- Please review the attached proposal for the fixed-price project scope and let me know your feedback.

@@ -25,3 +25,14 @@ pronunciation: "بي آي آي"
 ## خطأ شائع
 
 الاعتقاد أن الأسماء فقط هي PII. البريد وأرقام الهواتف وعناوين IP قد تكون PII أيضًا.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين PII والمعلومات الشخصية الحساسة (SPI)؛ فبينما تحدد PII هوية الشخص، تشير SPI إلى مجموعة فرعية أكثر خصوصية من البيانات التي تتطلب حماية أعلى، مثل السجلات الطبية أو البيانات الحيوية.
+
+## قلها في العمل
+
+- We need to make sure we aren't accidentally exposing any PII in the debug logs.
+  - يجب أن نتأكد من أننا لا نكشف عن أي PII في سجلات التصحيح عن طريق الخطأ.
+- Please ensure that all PII fields are properly encrypted before they are stored in the database.
+  - يرجى التأكد من تشفير جميع حقول الـ PII بشكل صحيح قبل تخزينها في قاعدة البيانات.

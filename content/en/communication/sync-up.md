@@ -23,3 +23,12 @@ In daily stand-ups, project management chats, or when a quick check-in is needed
 ## Common mistake
 
 Confusing a "sync up" with a formal, long meeting; it is meant to be quick and focused rather than a deep dive into complex problems.
+
+## Don't confuse with
+
+A sync-up is a quick informal check-in to align on status, whereas a deep dive is an intensive session meant to analyze and solve complex technical problems.
+
+## Say it at work
+
+- Let's sync up tomorrow morning to go over the deployment blockers before the release.
+- Could we sync up briefly on this ticket to clarify the expected acceptance criteria?

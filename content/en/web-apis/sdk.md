@@ -23,3 +23,12 @@ When integrating third-party services, setting up mobile apps, or working with c
 ## Common mistake
 
 Thinking an SDK is just an API, when actually the SDK is a package containing helper code that makes calling the API easier.
+
+## Don't confuse with
+
+SDK is often confused with API; an API is the interface or set of rules for communication, while an SDK is the complete toolkit that includes the API along with libraries, documentation, and debugging tools.
+
+## Say it at work
+
+- I'm checking if the provider has an official SDK, otherwise we'll have to write our own wrapper for their REST API.
+- Please update the project dependencies to use the latest version of the SDK, as it includes critical security patches.

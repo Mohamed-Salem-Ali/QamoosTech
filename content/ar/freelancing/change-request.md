@@ -25,3 +25,14 @@ pronunciation: "تشينج ريكويست"
 ## خطأ شائع
 
 تنفيذ التغيير أولًا ثم الحديث عن السعر لاحقًا. اتفق على التكلفة والوقت قبل البدء.
+
+## لا تخلطه مع
+
+طلب التغيير هو عملية رسمية لتعديل النطاق المتفق عليه مع تقدير جديد، بينما الزحف في النطاق يعني التوسع غير المنضبط للمشروع دون موافقة رسمية أو جداول زمنيّة معدّلة.
+
+## قلها في العمل
+
+- Can you please submit a change request for this extra feature so we can estimate the extra time?
+  - هل يمكنك من فضلك تقديم change request لهذه الميزة الإضافية حتى نتمكن من تقدير الوقت الإضافي؟
+- Please note that the design adjustments mentioned in the ticket will require a formal change request before implementation.
+  - يرجى ملاحظة أن تعديلات التصميم المذكورة في التذكرة ستتطلب طلب تغيير رسمي قبل التنفيذ.

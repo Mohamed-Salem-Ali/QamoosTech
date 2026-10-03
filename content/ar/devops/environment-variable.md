@@ -25,3 +25,14 @@ pronunciation: "إنفايرونمنت فيريابل"
 ## خطأ شائع
 
 رفع ملف `.env` إلى Git. هذا يسرّب الأسرار لكل من يستطيع رؤية المستودع.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين متغيرات البيئة وملفات الإعدادات، لكن متغيرات البيئة يتم حقنها في وقت التشغيل بواسطة النظام، بينما ملفات الإعدادات هي ملفات ثابتة يتم تضمينها مع التطبيق.
+
+## قلها في العمل
+
+- Make sure you update the environment variable for the new API endpoint before you restart the service.
+  - تأكد من تحديث متغير البيئة لنقطة نهاية الـ API الجديدة قبل إعادة تشغيل الخدمة.
+- I have updated the deployment configuration to include the required environment variable for the staging server.
+  - لقد قمت بتحديث إعدادات النشر لتتضمن متغير البيئة المطلوب لخادم الاختبار.

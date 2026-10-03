@@ -22,3 +22,8 @@ Query optimization and migration reviews.
 ## Common mistake
 
 Adding an index to every column. Each index costs space and makes inserts slower.
+
+## Say it at work
+
+- We should check if adding an index on this foreign key helps with the slow join.
+- Please ensure that the new migration includes the required index for the status column.

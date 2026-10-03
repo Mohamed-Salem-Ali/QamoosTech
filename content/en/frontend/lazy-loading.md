@@ -23,3 +23,12 @@ In web performance reviews, UI architecture discussions, and bundle optimization
 ## Common mistake
 
 Thinking lazy loading solves all performance issues without considering the layout shifts it might cause when content finally loads.
+
+## Don't confuse with
+
+Lazy loading delays the loading of resources until they are needed, whereas eager loading loads all resources immediately upfront regardless of current need.
+
+## Say it at work
+
+- Can we apply lazy loading to these heavy images so they don't block the initial page render?
+- Please ensure that lazy loading is configured for all route-level components to reduce the initial bundle size.

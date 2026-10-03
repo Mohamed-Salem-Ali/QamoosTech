@@ -22,3 +22,12 @@ Stack traces, logs, `try/catch`, and bug reports.
 ## Common mistake
 
 Catching every exception and ignoring it. The error disappears from sight but not from reality.
+
+## Don't confuse with
+
+An exception represents a runtime error that your code can handle, whereas a syntax error prevents the code from compiling or running at all.
+
+## Say it at work
+
+- Make sure to add a specific try-catch block here so we don't let this exception crash the background worker.
+- Please wrap the database call in a try-catch block and log the exception details for further investigation.

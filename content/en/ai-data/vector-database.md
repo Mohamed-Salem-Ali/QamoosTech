@@ -23,3 +23,12 @@ In AI and machine learning discussions, particularly when building RAG systems o
 ## Common mistake
 
 Thinking a traditional relational database can handle high-dimensional vector similarity search with the same speed and indexing techniques as a dedicated vector database.
+
+## Don't confuse with
+
+Vector database is often confused with embeddings, but embeddings are the mathematical representations themselves while a vector database is the storage system used to query them.
+
+## Say it at work
+
+- Let's test if our vector database can handle the latency requirements for the upcoming product launch.
+- Please ensure that the backup and scaling policies are properly configured for the vector database before we migrate the production data.

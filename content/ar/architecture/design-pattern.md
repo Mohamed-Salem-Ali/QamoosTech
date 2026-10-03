@@ -25,3 +25,14 @@ pronunciation: "ديزاين باترن"
 ## خطأ شائع
 
 استخدام الأنماط لمجرد الظهور بمظهر متقدم. استخدم النمط فقط عندما يحل مشكلة حقيقية.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين أنماط التصميم والأنماط المعمارية؛ فبينما يحل نمط التصميم مشكلة محددة داخل وحدة أو فئة برمجية واحدة، يوفر النمط المعماري استراتيجية عالية المستوى لهيكلية التطبيق بالكامل.
+
+## قلها في العمل
+
+- I think we should use the Strategy design pattern here to make our validation logic more flexible.
+  - أعتقد أنه يجب علينا استخدام نمط التصميم Strategy هنا لجعل منطق التحقق لدينا أكثر مرونة.
+- Please review the pull request, as I have refactored the module to implement the Factory design pattern.
+  - يرجى مراجعة طلب السحب، حيث قمت بإعادة هيكلة الوحدة لتطبيق نمط التصميم Factory.

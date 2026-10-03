@@ -22,3 +22,12 @@ Performance testing and system design interviews.
 ## Common mistake
 
 Mixing them up. A system can have low latency and low throughput, or the opposite.
+
+## Don't confuse with
+
+Latency is often confused with response time; while they are related, latency refers specifically to the time taken for a request to travel, whereas response time includes the processing time on the server.
+
+## Say it at work
+
+- We need to optimize our database queries because the current latency is hurting the user experience, even though our total throughput is fine.
+- Please investigate why the system throughput decreases significantly when we increase the number of concurrent users during peak hours.

@@ -23,3 +23,12 @@ In pull request settings, code review discussions, and repository management gui
 ## Common mistake
 
 Thinking that squashing deletes your work; it only combines the history of the commits, while the final code state remains exactly the same.
+
+## Don't confuse with
+
+Squash and merge is often confused with rebase; while squash combines multiple commits into one, rebase rewrites the commit history by moving the entire sequence of commits onto a new base.
+
+## Say it at work
+
+- Let's just use squash and merge for this PR so we don't clutter the main branch with all these tiny fix commits.
+- Could you please squash and merge this pull request once the final review is approved?

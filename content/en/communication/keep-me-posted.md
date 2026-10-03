@@ -23,3 +23,12 @@ In Slack messages, daily standups, and status update emails.
 ## Common mistake
 
 Thinking it means a final report is needed right away, rather than waiting for future developments.
+
+## Don't confuse with
+
+Keep me posted asks for ongoing updates as things change, while heads-up is a sudden warning about something important that is about to happen.
+
+## Say it at work
+
+- Keep me posted once the staging server is back online so I can re-run my tests.
+- Please keep me posted on the customer's response regarding the new patch.

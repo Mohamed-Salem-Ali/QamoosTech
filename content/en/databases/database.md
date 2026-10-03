@@ -22,3 +22,12 @@ Every backend project and job description.
 ## Common mistake
 
 Treating the database as a place for temporary files. It is for structured data you need to query.
+
+## Don't confuse with
+
+Database vs. Database Management System (DBMS). A database is the organized collection of data itself, while the DBMS is the software application used to manage, access, and manipulate that data.
+
+## Say it at work
+
+- I need to check the database to see if the user's record was created correctly.
+- Please ensure that the migration script updates the database schema without causing any downtime.

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { CopyButton } from '@/components/CopyButton'
 import { ExploreTerm } from '@/components/Explore'
 import { Reveal } from '@/components/Reveal'
 import { RichText } from '@/components/RichText'
@@ -97,6 +98,33 @@ export default function TermPage({ params }: { params: Params }) {
           <p><RichText text={term.mistake} /></p>
         </section>
       </Reveal>
+
+      {term.confuse && (
+        <Reveal delay={110}>
+          <section className="panel panel--confuse">
+            <h2>{t.confuse}</h2>
+            <p><RichText text={term.confuse} /></p>
+          </section>
+        </Reveal>
+      )}
+
+      {term.say && term.say.length > 0 && (
+        <Reveal delay={120}>
+          <section className="panel panel--say">
+            <h2>{t.sayIt}</h2>
+            <ul className="say">
+              {term.say.map((s, i) => (
+                <li key={i}>
+                  <span className="say__hint">{i === 0 ? t.sayHintMeeting : t.sayHintWritten}</span>
+                  <q dir="ltr" className="say__en"><RichText text={s.text} /></q>
+                  {s.translation && <span className="say__tr"><RichText text={s.translation} /></span>}
+                  <CopyButton text={s.text} label={t.copy} doneLabel={t.copied} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        </Reveal>
+      )}
 
       {related.length > 0 && (
         <Reveal delay={120}>

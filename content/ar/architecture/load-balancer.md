@@ -25,3 +25,14 @@ pronunciation: "لود بالانسر"
 ## خطأ شائع
 
 حفظ جلسات المستخدمين في ذاكرة الخادم. قد يصل الطلب التالي إلى خادم آخر فتضيع الجلسة.
+
+## لا تخلطه مع
+
+الفرق بين الـ load balancer والـ reverse proxy هو أن الأول يوزع حركة المرور على عدة خوادم لتحسين الأداء، بينما يعمل الثاني كوسيط يتعامل مع الطلبات لخادم خلفي واحد لتوفير الأمان أو التخزين المؤقت.
+
+## قلها في العمل
+
+- We should check the load balancer logs to see if the traffic is being distributed correctly among the nodes.
+  - يجب أن نتحقق من سجلات الـ load balancer لنرى ما إذا كانت حركة المرور تتوزع بشكل صحيح بين العُقد.
+- Please ensure the new instance is registered with the load balancer before we proceed with the deployment.
+  - يرجى التأكد من تسجيل النسخة الجديدة في الـ load balancer قبل أن نتابع عملية النشر.

@@ -26,3 +26,14 @@ translation: "حصة (Quota)"
 ## خطأ شائع
 
 الخلط بينها وبين تقييد المعدل (Rate Limiting)، فالحصة تتعلق بالسعة الإجمالية المسموحة، بينما يقيد الآخر سرعة إرسال الطلبات خلال فترة زمنية.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الحصة (Quota) والحد (Limit)؛ فالحصة تمثل إجمالي الموارد المخصصة لك، بينما يمثل الحد سقفاً صارماً يمنع أي إجراء إضافي بمجرد الوصول إليه.
+
+## قلها في العمل
+
+- I think we're hitting our API quota, so we might need to request an increase for the production environment.
+  - أعتقد أننا وصلنا إلى حصة واجهة البرمجة (API quota)، لذا قد نحتاج إلى طلب زيادتها لبيئة الإنتاج.
+- Please review the current resource quota settings to ensure they accommodate the projected growth for the next quarter.
+  - يرجى مراجعة إعدادات حصة الموارد الحالية لضمان أنها تلبي النمو المتوقع للربع القادم.

@@ -26,3 +26,14 @@ pronunciation: "إس-إس-إل / تي-إل-إس"
 ## خطأ شائع
 
 الاعتقاد بأن SSL لا يزال يُستخدم فعلياً، في حين أنه تم استبداله بالكامل بخليفته الآمن TLS.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين SSL/TLS و HTTPS؛ فبينما يعد SSL/TLS بروتوكول التشفير الأساسي الذي يؤمن الاتصال، فإن HTTPS هو بروتوكول التطبيق الفعلي الذي يستخدم SSL/TLS لنقل البيانات بشكل آمن.
+
+## قلها في العمل
+
+- We should check if the load balancer is correctly terminating the SSL/TLS connection before passing the traffic to our internal service.
+  - يجب أن نتحقق مما إذا كان موازن الأحمال يقوم بإنهاء اتصال SSL/TLS بشكل صحيح قبل تمرير حركة المرور إلى خدمتنا الداخلية.
+- Please ensure the server configuration enforces modern SSL/TLS versions to comply with our current security policy.
+  - يرجى التأكد من أن إعدادات الخادم تفرض إصدارات حديثة من SSL/TLS للامتثال لسياسة الأمان الحالية لدينا.

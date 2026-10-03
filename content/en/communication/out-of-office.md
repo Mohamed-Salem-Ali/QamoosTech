@@ -22,3 +22,12 @@ Vacations and sick days.
 ## Common mistake
 
 Setting an out-of-office message with no backup contact. Always name who can help.
+
+## Don't confuse with
+
+Out of office is a temporary absence message, while a sabbatical is a planned extended leave for months or years.
+
+## Say it at work
+
+- Please check my calendar before messaging me, as I will be out of office tomorrow.
+- I have updated my status to out of office and assigned my pending tasks to the team lead.

@@ -22,3 +22,12 @@ Interviews, code reviews, and architecture talks.
 ## Common mistake
 
 Using patterns just to look advanced. Use one only when it solves a real problem.
+
+## Don't confuse with
+
+Design patterns are often confused with architectural patterns; while a design pattern solves a specific problem within a single module or class, an architectural pattern provides a high-level strategy for the structure of the entire application.
+
+## Say it at work
+
+- I think we should use the Strategy design pattern here to make our validation logic more flexible.
+- Please review the pull request, as I have refactored the module to implement the Factory design pattern.

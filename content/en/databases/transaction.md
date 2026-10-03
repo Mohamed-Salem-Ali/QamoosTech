@@ -22,3 +22,12 @@ Payments, transfers, and any multi-step update.
 ## Common mistake
 
 Keeping a transaction open while calling an external API. It locks rows and slows everyone down.
+
+## Don't confuse with
+
+A transaction ensures data integrity through ACID properties for a specific sequence of operations, whereas a batch processes a large volume of data records in bulk without necessarily requiring real-time consistency.
+
+## Say it at work
+
+- Let's make sure this entire registration flow runs inside a single transaction so we don't end up with orphan records.
+- Please ensure that the database transaction is properly committed or rolled back at the end of the request lifecycle.

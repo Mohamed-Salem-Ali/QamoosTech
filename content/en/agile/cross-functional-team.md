@@ -22,3 +22,12 @@ Agile organizations and interviews.
 ## Common mistake
 
 Using the term when you only talked to another team once. It means working together on the same goal.
+
+## Don't confuse with
+
+Cross-functional team vs. cross-departmental team: a cross-functional team consists of individuals with different skills working on one product goal, whereas a cross-departmental team typically involves representatives from different business units collaborating on a shared organizational initiative.
+
+## Say it at work
+
+- Let's make sure we have a designer in our cross-functional team so we don't get blocked during the sprint.
+- To improve our delivery speed, I recommend restructuring into a cross-functional team that includes both backend and frontend engineers.

@@ -25,3 +25,14 @@ pronunciation: "ترنأراوند تايم"
 ## خطأ شائع
 
 الوعد بمدة إنجاز قصيرة جدًا دون هامش. عندها تضر التأخيرات بالثقة.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين مدة الإنجاز (turnaround time) ومدة التنفيذ الكلية (lead time)؛ حيث تقيس مدة الإنجاز الوقت اللازم لإتمام مهمة محددة بمجرد بدئها، بينما تشمل مدة التنفيذ الكلية فترة الانتظار قبل بدء المهمة فعليًا.
+
+## قلها في العمل
+
+- What is the expected turnaround time for this feature request so I can plan my sprint accordingly?
+  - ما هي مدة الإنجاز المتوقعة لطلب الميزة هذا حتى أتمكن من تخطيط دورة العمل (sprint) الخاصة بي بناءً على ذلك؟
+- Please note that the turnaround time for reviewing this pull request may be slightly longer than usual due to the current high volume of tasks.
+  - يرجى العلم أن مدة الإنجاز لمراجعة طلب الدمج (pull request) هذا قد تكون أطول قليلًا من المعتاد بسبب كثرة المهام الحالية.

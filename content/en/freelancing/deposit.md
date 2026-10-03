@@ -23,3 +23,12 @@ In freelance contract negotiations, project kickoffs, and payment discussions.
 ## Common mistake
 
 Starting development or writing code before receiving the deposit, which risks non-payment if the client disappears.
+
+## Don't confuse with
+
+Deposit vs Retainer: A deposit is a one-time upfront payment for a specific project, whereas a retainer is a recurring fee paid to secure availability or ongoing services over a set period.
+
+## Say it at work
+
+- Could you please confirm when the deposit will be transferred so I can schedule the project start date?
+- Please note that work on this feature will commence immediately upon receipt of the initial deposit.

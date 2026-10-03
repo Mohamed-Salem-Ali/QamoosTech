@@ -23,3 +23,12 @@ In client meetings, proposal discussions, and when reviewing new feature request
 ## Common mistake
 
 Thinking you must complete extra requests for free just to keep the client happy, instead of discussing a change request or extra cost.
+
+## Don't confuse with
+
+Out of scope refers to work that was never part of the agreement, while scope creep is the gradual accumulation of these unapproved additions over time.
+
+## Say it at work
+
+- That extra reporting feature sounds great, but it is completely out of scope for our current sprint.
+- Please note that redesigning the checkout flow is out of scope for this phase and will require a separate change request.

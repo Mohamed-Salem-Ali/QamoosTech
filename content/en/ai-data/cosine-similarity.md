@@ -23,3 +23,12 @@ In machine learning projects, when building search engines, or when working with
 ## Common mistake
 
 Confusing it with Euclidean distance, which measures the straight-line distance between points rather than the angle between vectors.
+
+## Don't confuse with
+
+Cosine similarity is often confused with dot product; while they are related, cosine similarity normalizes the vectors to focus on orientation, whereas the dot product is sensitive to the magnitude of the vectors.
+
+## Say it at work
+
+- Let's check if the cosine similarity score is high enough to consider these two documents as a match.
+- The current retrieval results are poor, so I suggest we switch from Euclidean distance to cosine similarity to better capture semantic relationships.

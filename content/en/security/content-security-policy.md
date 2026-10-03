@@ -25,3 +25,12 @@ Content Security Policy (CSP) is an HTTP response header that lets site operator
 ## Common mistake
 
 Treating CSP as a replacement for proper input sanitization, when it should instead serve as a defense-in-depth layer.
+
+## Don't confuse with
+
+Content Security Policy (CSP) is often confused with CORS, but CSP controls what resources the browser loads for a page, whereas CORS controls which domains are allowed to access server resources via APIs.
+
+## Say it at work
+
+- Let us check the browser console to see if our Content Security Policy is blocking that external script.
+- Please review the updated Content Security Policy configuration in the staging environment before we merge this pull request.

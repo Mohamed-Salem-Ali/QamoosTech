@@ -23,3 +23,12 @@ During code reviews, when defining variables, or when reading documentation for 
 ## Common mistake
 
 Confusing the data type with the actual value itself, or assuming that all languages handle data types in the same way (e.g., static vs. dynamic typing).
+
+## Don't confuse with
+
+Data type defines the kind of value a variable can hold, whereas a data structure organizes multiple values together in memory.
+
+## Say it at work
+
+- What data type should we use for this API response field?
+- Please update the database schema to use the correct data type for user IDs.

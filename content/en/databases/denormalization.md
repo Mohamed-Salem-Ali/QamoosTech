@@ -23,3 +23,12 @@ In database design meetings, performance tuning sessions, and when scaling appli
 ## Common mistake
 
 Thinking that denormalization is always bad because it breaks database normalization rules, when in reality it is a standard practice for read-heavy systems.
+
+## Don't confuse with
+
+Denormalization introduces controlled data redundancy to speed up reads, whereas normalization removes redundancy to ensure data integrity and reduce storage.
+
+## Say it at work
+
+- Should we consider denormalization for this table to avoid joining four different collections on every request?
+- Please note that this schema uses denormalization to optimize dashboard load times, so keep the synchronization logic in mind.

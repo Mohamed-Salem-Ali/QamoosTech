@@ -26,3 +26,14 @@ translation: "تحت الغطاء"
 ## خطأ شائع
 
 الاعتقاد بأنه يجب عليك فهم كل التفاصيل الداخلية تحت الغطاء قبل أن تتمكن من استخدام الأداة بشكل فعال.
+
+## لا تخلطه مع
+
+يشير مصطلح تحت الغطاء إلى تفاصيل التنفيذ الداخلية، بينما تخفي التجريدية (abstraction) تلك التفاصيل خلف واجهة بسيطة لكي لا تقلق بشأنها.
+
+## قلها في العمل
+
+- I am curious, how does this state management library handle updates under the hood?
+  - أنا فضولي، كيف تتعامل مكتبة إدارة الحالة هذه مع التحديثات تحت الغطاء؟
+- The pull request description explains what happens under the hood when the new caching layer is enabled.
+  - يوضح وصف طلب السحب (pull request) ما يحدث تحت الغطاء عند تمكين طبقة التخزين المؤقت الجديدة.

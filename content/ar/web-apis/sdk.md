@@ -25,3 +25,14 @@ pronunciation: "إس دي كي"
 ## خطأ شائع
 
 الاعتقاد بأن الـ SDK هو نفسه الـ API، في حين أن الـ SDK هو حزمة تضم أدوات ومكتبات تسهل عملية استدعاء الـ API.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ SDK والـ API؛ فالـ API هو الواجهة أو مجموعة القواعد للاتصال، بينما الـ SDK هو مجموعة الأدوات الكاملة التي تتضمن الـ API بالإضافة إلى المكتبات والتوثيق وأدوات تصحيح الأخطاء.
+
+## قلها في العمل
+
+- I'm checking if the provider has an official SDK, otherwise we'll have to write our own wrapper for their REST API.
+  - أنا أتحقق مما إذا كان المزود يوفر SDK رسمياً، وإلا سنضطر لكتابة غلاف خاص بنا للتعامل مع الـ REST API الخاص بهم.
+- Please update the project dependencies to use the latest version of the SDK, as it includes critical security patches.
+  - يرجى تحديث تبعيات المشروع لاستخدام أحدث إصدار من الـ SDK، حيث إنه يتضمن تصحيحات أمنية هامة.

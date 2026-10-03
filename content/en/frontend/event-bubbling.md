@@ -23,3 +23,12 @@ Commonly discussed when managing event listeners in JavaScript, debugging unexpe
 ## Common mistake
 
 Developers often forget that events bubble up by default and may accidentally trigger multiple handlers, which can be prevented using `event.stopPropagation()`.
+
+## Don't confuse with
+
+Event Bubbling goes upward from the target to the parents, while Event Capturing goes downward from the root to the target element.
+
+## Say it at work
+
+- Make sure to call event.stopPropagation here, otherwise event bubbling will trigger the parent container as well.
+- We can refactor this component to rely on event bubbling instead of attaching separate listeners to every single child.

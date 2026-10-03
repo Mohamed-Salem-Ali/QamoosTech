@@ -22,3 +22,12 @@ Code reviews and architecture discussions.
 ## Common mistake
 
 Splitting code into so many tiny layers that nobody can follow it. Separate only what really changes for different reasons.
+
+## Don't confuse with
+
+Separation of Concerns is often mixed up with Single Responsibility Principle, but while SoC is a general architectural design principle for dividing a system into distinct features, SRP is a specific object-oriented principle stating that a class should have only one reason to change.
+
+## Say it at work
+
+- We need better separation of concerns here so that business logic isn't mixed directly with the UI components.
+- Please refactor this module to ensure proper separation of concerns before we merge the pull request.

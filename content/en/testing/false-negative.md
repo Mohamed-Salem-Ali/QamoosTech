@@ -23,3 +23,12 @@ You hear this during test result analysis, bug triaging, or when discussing the 
 ## Common mistake
 
 Engineers often confuse a false negative with a false positive; remember that a false negative means the system "missed" a bug, while a false positive means the system "falsely flagged" a bug that isn't there.
+
+## Don't confuse with
+
+A false negative occurs when the system fails to detect an existing bug, whereas a false positive occurs when the system incorrectly flags a bug that does not actually exist.
+
+## Say it at work
+
+- I suspect our latest smoke test gave us a false negative, so we should manually verify that module again.
+- The automated regression suite reported a false negative for this feature; I have attached the logs for further investigation.

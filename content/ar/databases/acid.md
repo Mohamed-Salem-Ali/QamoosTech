@@ -25,3 +25,10 @@ pronunciation: "آسيد"
 ## خطأ شائع
 
 الاعتقاد بأن جميع قواعد البيانات تدعم ACID بشكل افتراضي؛ فالعديد من قواعد بيانات NoSQL تعطي الأولوية للأداء أو التوفر على حساب ضمانات ACID الصارمة.
+
+## قلها في العمل
+
+- Let us make sure the new payment service supports ACID transactions before we move forward.
+  - دعنا نتأكد من أن خدمة الدفع الجديدة تدعم معاملات ACID قبل أن المضي قدماً.
+- Please verify that the database configuration guarantees ACID compliance for all critical financial logs.
+  - يرجى التحقق من أن إعدادات قاعدة البيانات تضمن الامتثال لـ ACID لجميع السجلات المالية الحرجة.

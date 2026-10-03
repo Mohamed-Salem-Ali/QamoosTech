@@ -25,3 +25,14 @@ pronunciation: "ريكيرجن"
 ## خطأ شائع
 
 نسيان حالة التوقف (base case). بدونها لن تتوقف الدالة أبدًا.
+
+## لا تخلطه مع
+
+الاستدعاء الذاتي (recursion) يستدعي الدالة نفسها بشكل متكرر حتى يصل إلى حالة توقف، بينما حلقة التكرار (loop) تعيد تنفيذ كتلة من الكود باستخدام شرط معين.
+
+## قلها في العمل
+
+- I think we can solve this tree traversal problem cleanly using recursion instead of a complex stack.
+  - أعتقد أننا نستطيع حل مشكلة المرور على هذه الشجرة بشكل أنيق باستخدام الاستدعاء الذاتي بدلاً من استخدام stack معقد.
+- Please make sure to add a proper base case to this recursion to avoid any stack overflow issues in production.
+  - يرجى التأكد من إضافة حالة توقف مناسبة لهذا الاستدعاء الذاتي لتجنب أي مشاكل stack overflow في بيئة الإنتاج.

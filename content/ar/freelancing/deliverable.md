@@ -25,3 +25,14 @@ pronunciation: "ديليفرابل"
 ## خطأ شائع
 
 كتابة مخرجات غامضة مثل «بناء الـ backend». اذكر بدقة ما سيحصل عليه العميل.
+
+## لا تخلطه مع
+
+الفرق بين المخرج (Deliverable) والمعلم (Milestone) هو أن المخرج عبارة عن منتج ملموس أو وثيقة تُسلم للعميل، بينما المعلم هو نقطة زمنية محددة تُستخدم لمتابعة تقدم المشروع.
+
+## قلها في العمل
+
+- Let's make sure we are aligned on the final deliverable before we start the next sprint.
+  - دعونا نتأكد من اتفاقنا على المخرج النهائي قبل أن نبدأ مرحلة العمل القادمة.
+- I have attached the documentation as the final deliverable for this task for your review.
+  - لقد أرفقت التوثيق كـ مخرج نهائي لهذه المهمة لمراجعته من قبلكم.

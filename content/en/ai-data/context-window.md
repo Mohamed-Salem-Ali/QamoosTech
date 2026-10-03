@@ -25,3 +25,12 @@ The maximum amount of text, measured in tokens, that a large language model can 
 ## Common mistake
 
 Assuming the model remembers everything you said in previous separate chats, forgetting that the context window only applies to the current active session.
+
+## Don't confuse with
+
+Context window is often confused with training data; the context window refers to the temporary memory available during a specific session, while training data represents the permanent knowledge base the model was built upon.
+
+## Say it at work
+
+- I think we're hitting the context window limit because the model is starting to forget the earlier parts of our conversation.
+- Please ensure that the provided documentation does not exceed the model's context window to avoid truncation issues.

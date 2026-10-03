@@ -24,3 +24,12 @@ A CORS Preflight is an automatic `OPTIONS` request sent by the browser before a 
 ## Common mistake
 
 Thinking the preflight request carries your application data, when it only carries metadata like allowed methods and headers.
+
+## Don't confuse with
+
+CORS preflight is often confused with CORS itself, but preflight is specifically the automatic OPTIONS check sent beforehand, while CORS is the overall security mechanism for cross-origin requests.
+
+## Say it at work
+
+- Let's check the browser network tab to see if the CORS preflight request is failing.
+- We need to update our server configuration to handle the CORS preflight OPTIONS requests properly.

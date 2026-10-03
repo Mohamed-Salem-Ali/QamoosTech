@@ -22,3 +22,12 @@ Database design, Prisma, and API validation.
 ## Common mistake
 
 Designing the schema without thinking about future queries. Think about how data will be read.
+
+## Don't confuse with
+
+Schema defines the structure of your data, while a migration is the version-controlled script that applies those structural changes to the database.
+
+## Say it at work
+
+- Let us update the database schema first before we write the new API endpoints.
+- Please review the proposed schema changes in the pull request to ensure all foreign keys are properly indexed.

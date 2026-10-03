@@ -23,3 +23,12 @@ In team meetings, chat channels, or quick syncs before merging code or changing 
 ## Common mistake
 
 Thinking it means asking for permission to do basic work, when it is usually just a quick sanity check to prevent unexpected issues.
+
+## Don't confuse with
+
+Run it by is often confused with 'get approval', but running it by someone is a request for feedback or a sanity check, whereas getting approval implies a formal sign-off process.
+
+## Say it at work
+
+- Hey, I have a quick idea for the refactoring; can I run it by you after the stand-up?
+- I have drafted the API documentation and would like to run it by the security team to ensure we are following the new protocols.

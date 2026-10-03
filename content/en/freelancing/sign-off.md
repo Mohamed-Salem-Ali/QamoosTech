@@ -23,3 +23,12 @@ Commonly used in project management meetings, email threads, and contract discus
 ## Common mistake
 
 Assuming that a verbal "looks good" is the same as a formal sign-off, which can lead to disputes later if the client claims the work was not completed as expected.
+
+## Don't confuse with
+
+Sign-off is the formal approval that a phase is complete, while handoff is the actual transfer of the completed work to another team or owner.
+
+## Say it at work
+
+- Let's wait for the QA sign-off on this ticket before we close it out.
+- I have attached the completed deliverables and am requesting your formal sign-off.

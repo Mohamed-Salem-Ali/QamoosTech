@@ -25,3 +25,14 @@ pronunciation: "كورس"
 ## خطأ شائع
 
 حلّها بالسماح بكل النطاقات (`*`) في بيئة الإنتاج. هذا يزيل حماية قد تحتاجها.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين CORS و CSRF؛ فبينما يعد CORS آلية أمان في المتصفح تقيد الوصول إلى الموارد عبر النطاقات، فإن CSRF هو هجوم يخدع المستخدم لتنفيذ إجراءات غير مرغوب فيها على موقع هو مصادق عليه فيه.
+
+## قلها في العمل
+
+- I'm getting a CORS error when calling the API from my local environment, so we might need to update the allowed origins.
+  - أواجه خطأ CORS عند استدعاء الـ API من بيئة العمل المحلية، لذا قد نحتاج إلى تحديث النطاقات المسموح بها.
+- Could you please verify if the backend configuration allows our staging domain in the CORS policy settings?
+  - هل يمكنك التحقق مما إذا كان إعداد الـ backend يسمح بنطاق بيئة الاختبار (staging) في إعدادات سياسة CORS؟

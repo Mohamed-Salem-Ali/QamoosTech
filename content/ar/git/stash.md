@@ -25,3 +25,14 @@ pronunciation: "ستاش"
 ## خطأ شائع
 
 الاعتقاد بأن الـ stash وسيلة دائمة لحفظ العمل مثل الـ commit؛ فهي مخصصة للتخزين المؤقت فقط، وقد تضيع التعديلات بسهولة إذا لم تكن حذراً عند استخدام أوامر إدارة الـ stash.
+
+## لا تخلطه مع
+
+الفرق بين Stash و Commit هو أن الـ Stash مخصص لحفظ العمل المؤقت الذي لم تكتمل صياغته بعد، بينما يقوم الـ Commit بإنشاء لقطة دائمة للتعديلات ضمن سجل تاريخ المستودع.
+
+## قلها في العمل
+
+- I'll just stash these local changes real quick so I can pull the latest updates from the server.
+  - سأقوم بعمل stash لهذه التعديلات المحلية بسرعة حتى أتمكن من سحب آخر التحديثات من الخادم.
+- Please stash your current progress before switching branches to avoid potential merge conflicts in the working directory.
+  - يرجى عمل stash لتقدمك الحالي قبل الانتقال بين الفروع لتجنب أي تعارضات محتملة في ملفات مساحة العمل.

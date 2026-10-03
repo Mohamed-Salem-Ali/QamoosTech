@@ -28,3 +28,14 @@ translation: "تنسيق الحاويات"
 ## خطأ شائع
 
 الاعتقاد بأن إدارة الحاويات مخصصة لتشغيل حاوية واحدة فقط، في حين أنها مصممة في الأصل لإدارة أنظمة معقدة تضم مئات أو آلاف الحاويات المتفاعلة.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين تنسيق الحاويات (Container Orchestration) وتغليف الحاويات (Containerization)؛ فبينما يقوم التغليف بجمع التطبيق مع تبعياته في وحدة واحدة، يقوم التنسيق بإدارة دورة حياة ونشر العديد من هذه الوحدات عبر مجموعة من الخوادم.
+
+## قلها في العمل
+
+- We need to set up container orchestration to handle the traffic spikes we are seeing on our microservices.
+  - نحتاج إلى إعداد تنسيق الحاويات للتعامل مع ذروة حركة المرور التي نشهدها على خدماتنا المصغرة.
+- I have updated the configuration files to improve our container orchestration strategy for the upcoming release.
+  - لقد قمت بتحديث ملفات الإعداد لتحسين استراتيجية تنسيق الحاويات الخاصة بنا للإصدار القادم.

@@ -23,3 +23,12 @@ In unit testing frameworks, test automation discussions, and code reviews.
 ## Common mistake
 
 Confusing a test fixture with a mock; while a mock simulates a dependency, a fixture sets up the actual environment or data required for the test to execute correctly.
+
+## Don't confuse with
+
+Test fixture vs. test setup; while a test fixture refers to the entire environment or state, the setup is specifically the code block that initializes that fixture before each test.
+
+## Say it at work
+
+- Could you help me refactor the test fixture so we don't have to recreate the user object in every single test case?
+- I have updated the test fixture to include the new configuration parameters required for the latest service integration.

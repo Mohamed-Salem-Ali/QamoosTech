@@ -23,3 +23,12 @@ During test planning, code reviews, and discussions about user requirements.
 ## Common mistake
 
 Assuming that if the happy path works, the feature is fully tested and robust against all possible failures.
+
+## Don't confuse with
+
+Happy path is often confused with edge case, but while the happy path represents the ideal scenario with zero errors, an edge case deals with extreme or unusual inputs at the limits of the system.
+
+## Say it at work
+
+- Let us verify the happy path first to make sure the core functionality is working before testing any failures.
+- Please ensure that unit tests cover both the happy path and the main error scenarios mentioned in the ticket.

@@ -27,3 +27,14 @@ pronunciation: "ساندبوكس"
 ## خطأ شائع
 
 الاعتقاد بأن بيئة الـ sandbox مطابقة تماماً لبيئة الإنتاج من حيث الأداء أو حجم البيانات، مما قد يؤدي إلى ظهور مشاكل غير متوقعة عند نشر الكود فعلياً.
+
+## لا تخلطه مع
+
+الـ Sandbox هي بيئة معزولة للتجارب والأكواد غير الموثوقة، بينما بيئة الـ staging هي مرحلة تسبق الإنتاج صممت لمحاكاة النظام الفعلي بدقة للتحقق النهائي قبل الإطلاق.
+
+## قلها في العمل
+
+- I am going to test the new API keys in the sandbox before we push anything to production.
+  - سأقوم باختبار مفاتيح الـ API الجديدة في الـ sandbox قبل أن نرفع أي شيء إلى بيئة الإنتاج.
+- Please ensure all payment webhooks are verified against the sandbox environment in this pull request.
+  - يرجى التأكد من التحقق من جميع ويب هوك الدفع مقابل بيئة الـ sandbox في طلب السحب هذا.

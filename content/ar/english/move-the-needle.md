@@ -25,3 +25,10 @@ pronunciation: "موف ذا نيدل"
 ## خطأ شائع
 
 استخدامها لتغييرات صغيرة. احتفظ بها للنتائج المهمة.
+
+## قلها في العمل
+
+- We need to focus on features that actually move the needle for our active users.
+  - علينا التركيز على الميزات التي تُحدث فرقًا حقيقيًا لمستخدمينا النشطين.
+- Please include performance benchmarks in the pull request to show how this change moves the needle.
+  - يرجى تضمين معايير الأداء في طلب الدمج لإظهار كيف يُحدث هذا التغيير فرقًا ملموسًا.

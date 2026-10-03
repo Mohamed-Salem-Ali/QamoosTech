@@ -22,3 +22,12 @@ DevOps and daily engineering talk.
 ## Common mistake
 
 Using it for work that takes days. Then say "set up" instead.
+
+## Don't confuse with
+
+Spin up creates a resource quickly and temporarily, while scale up increases the capacity or resources of an existing system.
+
+## Say it at work
+
+- Could you spin up a staging environment so I can test this bug fix?
+- Please spin up a temporary database instance for the QA team to run their regression tests.

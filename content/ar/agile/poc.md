@@ -25,3 +25,14 @@ pronunciation: "بروف أوف كونسيبت"
 ## خطأ شائع
 
 الخلط بين الـ PoC والـ MVP؛ فالـ PoC هو تجربة تقنية قد يتم التخلص منها بعد الاختبار، بينما الـ MVP هو منتج حقيقي قابل للاستخدام من قبل العملاء.
+
+## لا تخلطه مع
+
+الـ PoC هو تجربة تقنية للتحقق من جدوى الفكرة، بينما الـ Prototype هو نموذج أولي مرئي أو وظيفي يستخدم لتوضيح شكل المنتج وتجربة المستخدم.
+
+## قلها في العمل
+
+- Let's run a quick PoC to see if this API integration works as expected before we commit to it.
+  - لنقم بعمل PoC سريع لنرى ما إذا كان تكامل هذه الـ API يعمل كما هو متوقع قبل أن نلتزم به.
+- I have attached the documentation for the PoC; please review it to confirm that the proposed technical approach is viable.
+  - لقد أرفقت وثائق الـ PoC؛ يرجى مراجعتها للتأكد من أن النهج التقني المقترح قابل للتنفيذ.

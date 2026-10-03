@@ -25,3 +25,12 @@ pronunciation: "GIT FET-ch"
 ## Common mistake
 
 Many beginners think `git fetch` automatically updates their current working files. It only updates the local metadata, so you must perform a `git merge` or `git pull` if you want to apply those changes to your code.
+
+## Don't confuse with
+
+Git fetch vs. git pull: fetch only downloads the latest data from the remote repository without changing your local files, whereas pull performs both a fetch and an immediate merge into your current branch.
+
+## Say it at work
+
+- I'll run a quick git fetch to make sure my local tracking branches are up to date with the remote.
+- Please run git fetch to retrieve the latest commits before you start working on the integration branch.

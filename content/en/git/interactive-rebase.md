@@ -23,3 +23,12 @@ During code cleanup, preparing pull requests, or rewriting git history.
 ## Common mistake
 
 Using interactive rebase on commits that have already been pushed to a shared public branch, which disrupts other team members.
+
+## Don't confuse with
+
+Interactive rebase is often confused with git merge; while merge creates a new commit that joins two histories, interactive rebase rewrites the commit history linearly to keep it clean.
+
+## Say it at work
+
+- I'm going to run an interactive rebase to clean up these messy commits before I push my branch.
+- Please perform an interactive rebase to squash your fixup commits into a single logical unit before we merge this PR.

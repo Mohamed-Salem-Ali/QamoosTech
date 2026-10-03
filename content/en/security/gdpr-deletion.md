@@ -22,3 +22,12 @@ Privacy, legal reviews, and account deletion features.
 ## Common mistake
 
 Deleting only from the main database and forgetting caches, backups, search indexes, and third-party tools.
+
+## Don't confuse with
+
+GDPR Deletion is permanent removal of personal data to comply with privacy laws, while data anonymization strips identifiers but keeps the dataset intact for analytics.
+
+## Say it at work
+
+- Can we double-check that this account closure triggers a complete GDPR deletion across all our microservices?
+- Please ensure that the scheduled worker handles the GDPR deletion request before the thirty-day deadline expires.

@@ -23,3 +23,12 @@ During contract negotiations, project onboarding, or when submitting an invoice 
 ## Common mistake
 
 Confusing a PO with an invoice; a PO is issued by the buyer to authorize the work, while an invoice is issued by the freelancer to request payment after the work is done.
+
+## Don't confuse with
+
+Purchase Order vs. Contract: A PO is a specific document authorizing a single transaction or purchase, whereas a contract is a broader legal agreement that defines the overall terms and conditions of the working relationship.
+
+## Say it at work
+
+- Could you please provide the PO number so I can attach it to my invoice for processing?
+- I have received the signed contract, but I still need the PO to officially start the project.

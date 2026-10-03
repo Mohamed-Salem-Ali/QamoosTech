@@ -25,3 +25,10 @@ pronunciation: "بوش باك"
 ## خطأ شائع
 
 استخدام المصطلح بمعنى "تأجيل" المهمة. "Push back" هو فعل تفاوض لفظي أو كتابي، وليس فعل تأخير العمل نفسه.
+
+## قلها في العمل
+
+- We need to push back on this feature request during the planning meeting because we do not have enough capacity.
+  - علينا الاعتراض على طلب الميزة هذا خلال اجتماع التخطيط لعدم امتلاكنا السعة الكافية.
+- I pushed back on the tight deadline to ensure the team can deliver stable code without burning out.
+  - لقد اعترضت على الموعد النهائي الضيق لضمان أن يتمكن الفريق من تسليم كود مستقر دون إرهاق.

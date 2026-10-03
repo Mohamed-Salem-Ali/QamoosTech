@@ -23,3 +23,12 @@ During infrastructure planning, migration discussions, or when evaluating securi
 ## Common mistake
 
 Confusing it with "private cloud"; while they share similarities in control, on-premise specifically implies physical ownership and management of the hardware on-site.
+
+## Don't confuse with
+
+On-premise is often confused with 'hosted'; while on-premise requires you to own and manage the physical hardware, hosted simply means the application runs on a server managed by a third party.
+
+## Say it at work
+
+- Are we planning to keep this service on-premise, or are we moving it to the cloud next quarter?
+- Due to strict data residency requirements, this module must be deployed on-premise rather than on our public cloud environment.

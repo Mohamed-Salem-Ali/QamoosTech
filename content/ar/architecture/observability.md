@@ -25,3 +25,14 @@ pronunciation: "أوبزيرفابيليتي"
 ## خطأ شائع
 
 الاعتقاد بأن الـ observability هي مجرد مرادف للـ monitoring؛ فالـ monitoring يخبرك بأن النظام معطل، بينما الـ observability تساعدك على فهم سبب هذا العطل.
+
+## لا تخلطه مع
+
+توضح الـ observability سبب فشل النظام بناءً على مخرجاته، بينما يقتخبرك الـ monitoring فقط متى يفشل النظام.
+
+## قلها في العمل
+
+- Let's check our observability dashboard to see what caused the service to slow down during peak hours.
+  - دعنا نتحقق من لوحة تحكم الـ observability لدينا لنرى ما الذي أسباب بطء الخدمة خلال ساعات الذروة.
+- Please ensure that all new microservices include proper observability configurations before merging this pull request.
+  - يرجى التأكد من أن جميع خدمات الـ microservices الجديدة تتضمن إعدادات observability مناسبة قبل دمج طلب السحب هذا.

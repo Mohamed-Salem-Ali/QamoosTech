@@ -25,3 +25,12 @@ A sandbox is an isolated environment where software developers can test code, ru
 ## Common mistake
 
 Thinking that a sandbox environment is identical to production in terms of performance or data volume, which can lead to unexpected issues when the code is finally deployed.
+
+## Don't confuse with
+
+A sandbox is an isolated space for experiments and untrusted code, while a staging environment is a pre-production stage designed to closely mimic the live system for final release validation.
+
+## Say it at work
+
+- I am going to test the new API keys in the sandbox before we push anything to production.
+- Please ensure all payment webhooks are verified against the sandbox environment in this pull request.

@@ -23,3 +23,12 @@ In CI/CD pipelines, during local development, or when setting up a new testing f
 ## Common mistake
 
 Confusing the test runner with the testing framework itself; the framework provides the structure for writing tests (like assertions), while the runner is the engine that actually executes them.
+
+## Don't confuse with
+
+Test runner vs. test framework; the framework provides the syntax and assertions to write the tests, while the runner is the execution engine that discovers and runs them.
+
+## Say it at work
+
+- Which test runner are we using for this project to ensure our unit tests run in parallel?
+- I have updated the configuration file so that the test runner correctly identifies the new test suite.

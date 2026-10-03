@@ -25,3 +25,14 @@ pronunciation: "كاناري ريليس"
 ## خطأ شائع
 
 الخلط بين الـ Canary Release والـ Blue-Green Deployment؛ فبينما تهدف كلتاهما إلى تقليل المخاطر، يعتمد الـ Canary على التدرج في تحويل حركة المرور، بينما يعتمد الـ Blue-Green على التبديل الكامل بين بيئتين متطابقتين.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ Canary release والـ A/B testing؛ فبينما يتضمن كلاهما تقسيم حركة المرور، يركز الـ Canary release على استقرار النظام تقنياً، بينما يركز الـ A/B testing على قياس سلوك المستخدمين وأداء الميزات من منظور تسويقي.
+
+## قلها في العمل
+
+- Let's start with a canary release for the new dashboard to see if it handles the load correctly.
+  - لنبدأ بعمل Canary release للوحة التحكم الجديدة لنرى ما إذا كانت تتعامل مع الضغط بشكل صحيح.
+- I recommend a canary release for this update to minimize potential downtime for our production users.
+  - أوصي بإجراء Canary release لهذا التحديث لتقليل وقت التوقف المحتمل لمستخدمي بيئة الإنتاج.

@@ -39,6 +39,8 @@ for (const lang of languages) {
   for (const [id, t] of byLang[lang]) {
     const ref = reference.get(id)
     if (!ref) { errors.push(`${lang}/${id}: missing in reference language`); continue }
+    if (Boolean(ref.confuse) !== Boolean(t.confuse) || (ref.say?.length ?? 0) !== (t.say?.length ?? 0))
+      errors.push(`${lang}/${id}: optional sections (don't confuse with / say it at work) differ from the reference language`)
     if (ref.category !== t.category || ref.level !== t.level || ref.related.join() !== t.related.join())
       errors.push(`${lang}/${id}: category/level/related differ from the reference language`)
     for (const r of t.related) if (!reference.has(r)) errors.push(`${lang}/${id}: related term "${r}" does not exist`)

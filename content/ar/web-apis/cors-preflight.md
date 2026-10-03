@@ -26,3 +26,14 @@ pronunciation: "كورز بري فلايت"
 ## خطأ شائع
 
 الاعتقاد بأن الطلب التمهيدي يحمل بيانات التطبيق الخاصة بك، بينما هو يحمل فقط بيانات وصفية مثل الطرق ورؤوس الطلبات المسموح بها.
+
+## لا تخلطه مع
+
+غالباً ما يُخلط بين طلب CORS preflight وبين CORS نفسه، لكن الطلب التمهيدي هو فحص OPTIONS التلقائي الذي يُرسل مسبقاً، بينما CORS هو الآلية الأمنية الشاملة للطلبات عبر المصادر المختلفة.
+
+## قلها في العمل
+
+- Let's check the browser network tab to see if the CORS preflight request is failing.
+  - دعنا نتحقق من تبويب الشبكة في المتصفح لنرى ما إذا كان طلب CORS preflight يفشل.
+- We need to update our server configuration to handle the CORS preflight OPTIONS requests properly.
+  - نحتاج إلى تحديث إعدادات الخادم لدينا للتعامل مع طلبات CORS preflight من نوع OPTIONS بشكل صحيح.

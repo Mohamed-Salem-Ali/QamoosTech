@@ -23,3 +23,12 @@ In asynchronous architectures, event-driven systems, and message broker configur
 ## Common mistake
 
 Thinking a DLQ solves the processing error automatically, when it actually just stores the failed messages for later inspection and manual debugging.
+
+## Don't confuse with
+
+Dead Letter Queue vs. Retry Queue: A retry queue holds messages that are temporarily failing and will be reprocessed automatically, whereas a dead letter queue stores messages that have permanently failed and require manual intervention.
+
+## Say it at work
+
+- I noticed a spike in our DLQ, so we should probably investigate why these messages are failing.
+- Please review the messages currently sitting in the DLQ to identify the root cause of the processing errors.

@@ -25,3 +25,14 @@ pronunciation: "مولتي-مودال"
 ## خطأ شائع
 
 الاعتقاد بأن Multimodal يعني أن النموذج يقوم فقط بالتبديل بين نماذج متخصصة مختلفة؛ في الواقع، هو بنية نموذج واحدة تم تدريبها للتعامل مع أنواع متعددة من البيانات بشكل أصيل.
+
+## لا تخلطه مع
+
+غالباً ما يُخلط بين مصطلح Multimodal ومصطلح multitasking، لكن Multimodal يشير إلى معالجة أنواع بيانات مختلفة مثل النصوص والصور، بينما تعني تعدد المهام تنفيذ عدة مهام مختلفة بشكل متسلسل أو متزامن.
+
+## قلها في العمل
+
+- Can our current pipeline support multimodal inputs, or do we need to upgrade the model first?
+  - هل يمكن لخط الأنابيب الحالي لدينا دعم مدخلات Multimodal، أم نحتاج إلى ترقية النموذج أولاً؟
+- Please ensure the evaluation dataset includes multimodal test cases covering both text and audio.
+  - يرجى التأكد من أن مجموعة بيانات التقييم تتضمن حالات اختبار Multimodal تغطي كلاً من النصوص والصوت.

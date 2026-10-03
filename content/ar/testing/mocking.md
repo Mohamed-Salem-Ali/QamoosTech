@@ -25,3 +25,14 @@ pronunciation: "موكينج"
 ## خطأ شائع
 
 محاكاة كل شيء. إذا كان الاختبار يفحص الـ mocks فقط فهو لا يثبت شيئًا عن الشيفرة الحقيقية.
+
+## لا تخلطه مع
+
+المحاكاة (Mocking) تنشئ كائنات ذات سلوك وتوقعات مسبقة، بينما التثبيت (Stubbing) يقدم فقط إجابات جاهزة للنداءات التي تتم أثناء الاختبار.
+
+## قلها في العمل
+
+- Let us mock the database call here so we can run these unit tests quickly.
+  - دعنا نقوم بمحاكاة (mock) استدعاء قاعدة البيانات هنا لكي نتمكن من تشغيل اختبارات الوحدات بسرعة.
+- Please add a mock for the external notification service to prevent sending real emails during the CI pipeline.
+  - الرجاء إضافة محاكاة (mock) لخدمة الإشعارات الخارجية لمنع إرسال رسائل بريد إلكتروني حقيقية أثناء خط أنابيب التكامل المستمر.

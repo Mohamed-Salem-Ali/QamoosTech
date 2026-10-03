@@ -26,3 +26,14 @@ translation: "حل مؤقت"
 ## خطأ شائع
 
 التعامل مع الحل المؤقت كأنه حل نهائي ودائم بدلاً من تتبع المشكلة الأساسية كدين تقني (technical debt).
+
+## لا تخلطه مع
+
+الحل المؤقت (work-around) هو تجاوز مؤقت لمشكلة محددة، بينما الحل الجذري (fix) يعالج السبب الأساسي للمشكلة بشكل دائم.
+
+## قلها في العمل
+
+- Can we implement a quick work-around for this user so they are not blocked while we work on the proper patch?
+  - هل يمكننا تطبيق حل مؤقت سريع لهذا المستخدم لكي لا يتعطل بينما نعمل على الإصلاح المناسب؟
+- Please find a temporary work-around for the legacy integration issue and open a new ticket to track the permanent fix.
+  - يرجى إيجاد حل مؤقت لمشكلة التكامل القديمة وفتح تذاكر جديدة لتتبع الإصلاح الدائم.

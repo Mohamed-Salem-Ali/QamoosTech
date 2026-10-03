@@ -23,3 +23,12 @@ In planning sessions, agile meetings, and when managing project scope.
 ## Common mistake
 
 Treating a time-box as a strict target or goal instead of a hard limit where you must stop and make a decision.
+
+## Don't confuse with
+
+Time-boxing is often confused with a deadline, but a time-box is a fixed duration for an activity, whereas a deadline is the final date by which a task must be completed.
+
+## Say it at work
+
+- Let's time-box this debugging session to an hour; if we don't find the root cause by then, we'll escalate it.
+- I have time-boxed the migration script review to thirty minutes to ensure we stay on track with the sprint goals.

@@ -25,3 +25,14 @@ pronunciation: "هاشينج"
 ## خطأ شائع
 
 الخلط بين التجزئة والتشفير. يمكنك فك تشفير البيانات المشفّرة، لكن لا يمكنك عكس الـ hash.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين التجزئة (Hashing) والتشفير (Encryption)؛ الفرق الجوهري هو أن التشفير عملية ذات اتجاهين مصممة لتكون قابلة للعكس باستخدام مفتاح، بينما التجزئة عملية ذات اتجاه واحد لا يمكن عكسها.
+
+## قلها في العمل
+
+- Make sure we are hashing the user's password before saving it to the database.
+  - تأكد من أننا نقوم بعمل hashing لكلمة مرور المستخدم قبل حفظها في قاعدة البيانات.
+- I have updated the authentication module to use a stronger hashing algorithm for better security.
+  - لقد قمت بتحديث وحدة المصادقة لاستخدام خوارزمية hashing أقوى لتحسين الأمان.

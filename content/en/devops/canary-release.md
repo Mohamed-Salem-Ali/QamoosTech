@@ -23,3 +23,12 @@ During release planning meetings, CI/CD pipeline discussions, and incident post-
 ## Common mistake
 
 Confusing a canary release with a blue-green deployment; while both are deployment strategies, a canary release focuses on incremental traffic shifting, whereas blue-green focuses on switching between two identical production environments.
+
+## Don't confuse with
+
+Canary release is often confused with A/B testing; while both involve splitting traffic, a canary release is a deployment strategy focused on system stability, whereas A/B testing is a marketing strategy focused on user behavior and feature performance.
+
+## Say it at work
+
+- Let's start with a canary release for the new dashboard to see if it handles the load correctly.
+- I recommend a canary release for this update to minimize potential downtime for our production users.

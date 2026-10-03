@@ -25,3 +25,14 @@ pronunciation: "سيشن ستوريج"
 ## خطأ شائع
 
 الخلط بينها وبين Local Storage؛ يجب تذكر أن بيانات Session Storage تُحذف بمجرد إغلاق علامة التبويب، بينما تبقى بيانات Local Storage محفوظة بشكل دائم حتى يتم حذفها برمجياً أو يدوياً.
+
+## لا تخلطه مع
+
+الخلط بين Session Storage و Local Storage: بيانات Session Storage تُحذف عند انتهاء الجلسة بإغلاق علامة التبويب، بينما تبقى بيانات Local Storage محفوظة حتى بعد إغلاق المتصفح وإعادة فتحه.
+
+## قلها في العمل
+
+- Let's move these temporary form inputs to Session Storage so the data clears automatically when the user leaves.
+  - دعونا ننقل مدخلات النموذج المؤقتة هذه إلى Session Storage حتى تُمسح البيانات تلقائياً عندما يغادر المستخدم.
+- I have implemented Session Storage to ensure the user's current filter state is maintained during page refreshes.
+  - لقد قمت بتنفيذ Session Storage لضمان الحفاظ على حالة الفلترة الحالية للمستخدم أثناء تحديث الصفحة.

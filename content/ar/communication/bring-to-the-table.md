@@ -27,3 +27,10 @@ pronunciation: "برينج تو ذا تايبل"
 ## خطأ شائع
 
 الاعتقاد بأنها تشير فقط إلى قطع مادية أو أكواد برمجية، بدلاً من المعنى الأوسع الذي يشمل المهارات والخبرات.
+
+## قلها في العمل
+
+- I think we should discuss what each of us can bring to the table to speed up this sprint.
+  - أعتقد أنه يجب علينا مناقشة ما يمكن لكل واحد منا تقديمه لتسريع وتيرة هذا الـ sprint.
+- Please outline the specific domain expertise you bring to the table for this architecture migration.
+  - يرجى توضيح خبرتك التخصصية المحددة التي ستساهم بها في عملية نقل البنية التحتية هذه.

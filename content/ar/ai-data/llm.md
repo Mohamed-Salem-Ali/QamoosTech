@@ -25,3 +25,14 @@ pronunciation: "إل إل إم"
 ## خطأ شائع
 
 اعتبار إجابته صحيحة دائمًا أو ثابتة دائمًا. تحقق من المخرجات المهمة.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين LLM والذكاء الاصطناعي التوليدي (Generative AI)؛ فبينما يعد LLM نوعاً محدداً من بنية النماذج التي تركز على النصوص، فإن الذكاء الاصطناعي التوليدي هو فئة أوسع تشمل نماذج الصور والصوت والفيديو.
+
+## قلها في العمل
+
+- Do you think we should integrate an LLM into our dashboard to help users write their queries faster?
+  - هل تعتقد أنه يجب علينا دمج LLM في لوحة التحكم الخاصة بنا لمساعدة المستخدمين على كتابة استعلاماتهم بشكل أسرع؟
+- I have updated the prompt to ensure the LLM follows our specific coding style guidelines more consistently.
+  - لقد قمت بتحديث الـ prompt لضمان التزام الـ LLM بإرشادات نمط البرمجة الخاصة بنا بشكل أكثر اتساقاً.

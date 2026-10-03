@@ -22,3 +22,12 @@ CVs, interviews, and project descriptions.
 ## Common mistake
 
 Claiming "end-to-end" when you did only a part. Interviewers ask follow-up questions.
+
+## Don't confuse with
+
+End-to-end testing covers the entire user journey through the system, while integration testing only verifies that different modules or services work correctly together.
+
+## Say it at work
+
+- Let's make sure we have an end-to-end solution ready before presenting it to the team.
+- Please ensure this user flow is tested end-to-end in the staging environment before merging the pull request.

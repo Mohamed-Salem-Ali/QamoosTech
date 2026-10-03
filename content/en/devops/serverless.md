@@ -22,3 +22,8 @@ AWS Lambda, Vercel functions, and cost discussions.
 ## Common mistake
 
 Believing there are no servers at all. They exist; you just do not manage them.
+
+## Say it at work
+
+- Let us move this notification worker to serverless so we do not pay for idle time.
+- We should use a serverless architecture for the background processing to handle the traffic spikes efficiently.

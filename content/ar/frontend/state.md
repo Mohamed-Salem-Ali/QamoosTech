@@ -25,3 +25,14 @@ pronunciation: "ستيت"
 ## خطأ شائع
 
 تخزين البيانات نفسها في مكانين. عندما تتغيّر نسخة ولا تتغيّر الأخرى تظهر الأخطاء.
+
+## لا تخلطه مع
+
+الـ State تُمثّل بيانات تتغيّر داخل المكوّن مع مرور الوقت، بينما الـ Props هي بيانات للقراءة فقط يتم تمريرها من مكوّن أب.
+
+## قلها في العمل
+
+- We need to lift this state up to the parent component so the sibling can access it.
+  - نحتاج إلى نقل هذه الـ state إلى المكوّن الأب لكي يتمكن المكوّن المجاور من الوصول إليها.
+- Please ensure the local state is cleared after the form is successfully submitted.
+  - يُرجى التأكد من مسح الـ state المحلية بعد إرسال النموذج بنجاح.

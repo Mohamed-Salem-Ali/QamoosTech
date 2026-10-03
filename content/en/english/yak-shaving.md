@@ -22,3 +22,12 @@ Developer humor and honest status updates.
 ## Common mistake
 
 Calling needed work yak shaving. Sometimes you really must upgrade a dependency first.
+
+## Don't confuse with
+
+Yak shaving is often confused with bikeshedding, but they differ because yak shaving involves performing unnecessary prerequisite tasks, whereas bikeshedding refers to wasting time debating trivial details that do not affect the core functionality.
+
+## Say it at work
+
+- I'm sorry I'm late with the PR, I got stuck in some serious yak shaving while trying to set up the local environment.
+- Please avoid further yak shaving on this feature so we can meet our sprint deadline without any additional delays.

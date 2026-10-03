@@ -25,3 +25,14 @@ pronunciation: "تيست فيكستشر"
 ## خطأ شائع
 
 الخلط بين الـ Test Fixture والـ Mock؛ فبينما يقوم الـ Mock بمحاكاة التبعيات (dependencies)، يقوم الـ Fixture بتهيئة البيئة الفعلية أو البيانات المطلوبة لكي يعمل الاختبار بشكل صحيح.
+
+## لا تخلطه مع
+
+الخلط بين الـ Test fixture والـ test setup؛ فبينما يشير الـ Test fixture إلى البيئة أو الحالة الكاملة، فإن الـ setup هو تحديداً كتلة الكود التي تقوم بتهيئة تلك البيئة قبل كل اختبار.
+
+## قلها في العمل
+
+- Could you help me refactor the test fixture so we don't have to recreate the user object in every single test case?
+  - هل يمكنك مساعدتي في إعادة هيكلة الـ test fixture حتى لا نضطر إلى إعادة إنشاء كائن المستخدم في كل حالة اختبار؟
+- I have updated the test fixture to include the new configuration parameters required for the latest service integration.
+  - لقد قمت بتحديث الـ test fixture ليشمل معاملات الإعداد الجديدة المطلوبة لأحدث تكامل للخدمة.

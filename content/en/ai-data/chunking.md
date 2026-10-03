@@ -23,3 +23,12 @@ In data preprocessing pipelines, when building RAG applications, or when discuss
 ## Common mistake
 
 Assuming that larger chunks are always better because they contain more context, ignoring the fact that embedding models perform best on focused, concise segments.
+
+## Don't confuse with
+
+Chunking splits text into semantic segments for embedding, while tokenization breaks text down into the smallest sub-word units that the model's tokenizer processes.
+
+## Say it at work
+
+- Let's adjust the chunking size so our retrieval step pulls more relevant context.
+- We are updating the preprocessing pipeline to improve the chunking strategy for PDF documents.

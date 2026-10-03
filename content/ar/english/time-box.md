@@ -26,3 +26,14 @@ translation: "تخصيص وقت محدد"
 ## خطأ شائع
 
 التعامل مع الوقت المخصص (Time-box) على أنه هدف يجب الوصول إليه بدلاً من كونه حدا أقصى يجب عنده التوقف واتخاذ قرار.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Time-box والموعد النهائي (deadline)، لكن الـ Time-box هو مدة زمنية ثابتة لنشاط معين، بينما الموعد النهائي هو التاريخ الأخير الذي يجب فيه إتمام المهمة.
+
+## قلها في العمل
+
+- Let's time-box this debugging session to an hour; if we don't find the root cause by then, we'll escalate it.
+  - دعونا نخصص ساعة واحدة فقط لجلسة تصحيح الأخطاء هذه؛ إذا لم نجد السبب الجذري بحلول ذلك الوقت، فسنقوم بتصعيد الأمر.
+- I have time-boxed the migration script review to thirty minutes to ensure we stay on track with the sprint goals.
+  - لقد قمت بتخصيص ثلاثين دقيقة لمراجعة نص الترحيل (migration script) لضمان التزامنا بأهداف الـ sprint.

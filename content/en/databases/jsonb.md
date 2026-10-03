@@ -23,3 +23,12 @@ In database schema design meetings, performance optimization discussions, and wh
 ## Common mistake
 
 Thinking that JSONB is always better than standard JSON; while it is faster to query, it takes slightly longer to write because the data must be converted into the binary format first.
+
+## Don't confuse with
+
+JSONB is often confused with standard JSON; the key difference is that JSON stores data as an exact copy of the input text, while JSONB stores it in a decomposed binary format that supports indexing.
+
+## Say it at work
+
+- Let's switch this column to JSONB so we can create an index on the nested attributes.
+- I have updated the schema to use JSONB for the metadata field to ensure faster query execution times.

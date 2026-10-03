@@ -25,3 +25,14 @@ DevOps والحديث الهندسي اليومي.
 ## خطأ شائع
 
 استخدامها لعمل يستغرق أيامًا. عندها قل «set up» بدلًا منها.
+
+## لا تخلطه مع
+
+عبارة spin up تنشئ موردًا بسرعة وبشكل مؤقت، بينما scale up تزيد سعة أو موارد نظام موجود بالفعل.
+
+## قلها في العمل
+
+- Could you spin up a staging environment so I can test this bug fix?
+  - هل يمكنك تشغيل بيئة تجريبية لكي أتمكن من اختبار إصلاح هذه المشكلة؟
+- Please spin up a temporary database instance for the QA team to run their regression tests.
+  - يرجى إنشاء مثيل قاعدة بيانات مؤقت لفريق ضمان الجودة لتشغيل اختبارات الانحدار الخاصة بهم.

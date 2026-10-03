@@ -25,3 +25,12 @@ A call stack is a data structure that tracks the active functions in a program, 
 ## Common mistake
 
 Thinking that the call stack stores the actual data or variables of a function; it primarily stores the execution context and return addresses, while the actual data (like objects) is often stored in the heap.
+
+## Don't confuse with
+
+Call stack is often confused with the heap; the call stack manages function execution context and local variables, whereas the heap is used for dynamic memory allocation of objects.
+
+## Say it at work
+
+- I'm looking at the error log, and the call stack shows that the issue originates from the authentication service.
+- Please review the attached stack trace to see the call stack leading up to the unexpected termination.

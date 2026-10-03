@@ -23,3 +23,12 @@ In AI engineering meetings, prompt engineering documentation, or when discussing
 ## Common mistake
 
 Assuming that zero-shot prompting will work for complex or highly specific tasks where the model needs context or a particular output format, often leading to poor performance that could be solved with few-shot prompting instead.
+
+## Don't confuse with
+
+Zero-shot prompting asks the model to perform a task without examples, whereas few-shot prompting includes a few examples in the prompt to guide the model's output.
+
+## Say it at work
+
+- Can we test this extraction logic with zero-shot prompting before we spend time building a full few-shot example set?
+- I updated the evaluation script to compare the zero-shot prompting accuracy against our previous few-shot baseline.

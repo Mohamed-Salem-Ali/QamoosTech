@@ -23,3 +23,12 @@ During code reviews, when switching between branches to fix an urgent bug, or wh
 ## Common mistake
 
 Thinking that stashing is a permanent way to save your work like a commit; it is intended for temporary storage and can be easily lost if you are not careful with stash management commands.
+
+## Don't confuse with
+
+Stash vs Commit: Stashing is for temporary, uncommitted work that you aren't ready to save to history, while a commit creates a permanent snapshot of your changes in the repository's history.
+
+## Say it at work
+
+- I'll just stash these local changes real quick so I can pull the latest updates from the server.
+- Please stash your current progress before switching branches to avoid potential merge conflicts in the working directory.

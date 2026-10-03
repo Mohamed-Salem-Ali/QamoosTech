@@ -25,3 +25,14 @@ pronunciation: "أكشن آيتم"
 ## خطأ شائع
 
 إنهاء الاجتماع دون أسماء وتواريخ. وبالتالي لا يُنجَز شيء.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين الـ action items والمهام (tasks)، لكن الـ action item هو التزام محدد يتم الاتفاق عليه خلال اجتماع، بينما المهمة هي وحدة عمل أوسع ضمن نظام إدارة المشاريع.
+
+## قلها في العمل
+
+- Can we quickly list the action items before we wrap up this sync?
+  - هل يمكننا حصر الـ action items بسرعة قبل أن ننهي هذا الاجتماع؟
+- I have updated the ticket description to include the action items assigned to our team.
+  - لقد قمت بتحديث وصف التذكرة ليشمل الـ action items الموكلة إلى فريقنا.

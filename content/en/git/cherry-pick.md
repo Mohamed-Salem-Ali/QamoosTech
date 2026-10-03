@@ -23,3 +23,12 @@ In git workflows, when fixing a bug on a release branch and needing to bring tha
 ## Common mistake
 
 Thinking cherry-picking replaces merging entirely, which leads to duplicate commits and complicated history if overused.
+
+## Don't confuse with
+
+Cherry-pick applies a single specific commit to another branch, whereas merge combines all commits from an entire branch.
+
+## Say it at work
+
+- Could you please cherry-pick this urgent patch into the production branch?
+- I have cherry-picked the fix into the staging branch to verify it works correctly.

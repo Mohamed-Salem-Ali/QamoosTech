@@ -22,3 +22,8 @@ Team workflows ("create a branch for the ticket").
 ## Common mistake
 
 Keeping a branch alive for weeks. The longer it lives, the harder it is to merge.
+
+## Say it at work
+
+- Can you please push your branch to the remote repository so I can review it?
+- I created a new branch from main to fix the login bug.

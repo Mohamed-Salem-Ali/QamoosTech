@@ -25,3 +25,14 @@ pronunciation: "آي بي آي دوكيومنتيشن"
 ## خطأ شائع
 
 الاعتقاد بأن الكود البرمجي يغني عن التوثيق (self-documenting) وتجاهل كتابة دليل رسمي، مما يجعل من الصعب على المطورين الآخرين فهم كيفية التعامل مع النظام.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين توثيق الـ API ومواصفات الـ API؛ فبينما يعد التوثيق دليلاً مقروءاً للبشر، فإن المواصفات هي ملفات قابلة للقراءة آلياً مثل OpenAPI تحدد هيكلية الـ API.
+
+## قلها في العمل
+
+- I'm having trouble with the authentication flow, does the API documentation cover the token refresh process?
+  - أواجه مشكلة في آلية المصادقة، هل تغطي الـ API documentation عملية تحديث الرمز (token)؟
+- Could you please review the updated API documentation to ensure all new endpoints are accurately described before we merge this PR?
+  - هل يمكنك مراجعة الـ API documentation المحدثة للتأكد من وصف جميع نقاط النهاية الجديدة بدقة قبل دمج هذا الـ PR؟

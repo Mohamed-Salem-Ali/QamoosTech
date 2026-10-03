@@ -26,3 +26,10 @@ translation: "فترة الضغط النهائي"
 ## خطأ شائع
 
 الاعتقاد بأن فترة الضغط النهائي هي طريقة عمل عادية ومستدامة لكل أسبوع، وليست إجراء طارئاً مؤقتاً.
+
+## قلها في العمل
+
+- Things are getting really crazy with crunch time, so let me know if anyone needs help with their tasks.
+  - الأمور تصبح محمومة حقاً مع فترة الضغط النهائي، لذا أبلغوني إذا كان أي شخص بحاجة إلى مساعدة في مهامه.
+- Please ensure all code reviews are done quickly during this crunch time so we do not delay the release.
+  - يرجى التأكد من إتمام جميع مراجعات الكود بسرعة خلال فترة الضغط النهائي هذه لكي لا نؤخر موعد الإصدار.

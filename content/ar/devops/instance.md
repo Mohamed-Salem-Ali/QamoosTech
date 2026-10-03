@@ -25,3 +25,14 @@ pronunciation: "إن-ستانس"
 ## خطأ شائع
 
 الخلط بين الـ Instance والعتاد المادي (Physical Hardware)؛ الـ Instance هي جزء افتراضي من الموارد وليست الجهاز المادي بالكامل.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ Instance والـ Container؛ فبينما تشغل الـ Instance عادةً نظام تشغيل كاملاً خاصاً بها، تشارك الـ Container نواة نظام تشغيل المضيف لتحقيق كفاءة أعلى.
+
+## قلها في العمل
+
+- I'm going to restart the staging instance to see if that clears up the connection timeout issue.
+  - سأقوم بإعادة تشغيل الـ instance الخاصة ببيئة الـ staging لأرى ما إذا كان ذلك سيحل مشكلة انتهاء مهلة الاتصال.
+- Please ensure that the new instance is configured with the correct security group settings before we deploy the production build.
+  - يرجى التأكد من إعداد الـ instance الجديدة باستخدام إعدادات مجموعة الأمان الصحيحة قبل أن نقوم بنشر إصدار الـ production.

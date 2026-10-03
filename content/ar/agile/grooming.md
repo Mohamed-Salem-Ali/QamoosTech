@@ -25,3 +25,14 @@ pronunciation: "جرومينج"
 ## خطأ شائع
 
 الاعتقاد بأن عملية الـ grooming هي مسؤولية مدير المنتج فقط؛ في الواقع، هي جهد جماعي يشارك فيه فريق التطوير لتقديم رؤية تقنية تضمن أن المهام قابلة للتنفيذ.
+
+## لا تخلطه مع
+
+تتركز عملية الـ grooming على تنقيح وإعداد المهام المستقبلية، بينما يحدد الـ sprint planning المهام المحددة التي سيتم العمل عليها في الـ sprint القادم.
+
+## قلها في العمل
+
+- Let's spend the last thirty minutes of today's meeting grooming the top backlog items.
+  - دعونا نقضي آخر ثلاثين دقيقة من اجتماع اليوم في عمل grooming لأهم المهام في الـ backlog.
+- Please review the attached user stories before our next grooming session.
+  - يرجى مراجعة قصص المستخدم المرفقة قبل جلسة الـ grooming القادمة.

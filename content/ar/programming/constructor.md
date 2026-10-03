@@ -26,3 +26,14 @@ translation: "المُنشئ"
 ## خطأ شائع
 
 الاعتقاد بأن المُنشئ يُرجِع قيمة، في حين أن غرضه الأساسي هو تهيئة الكائن وليس إرجاعه.
+
+## لا تخلطه مع
+
+المُنشئ (Constructor) مقابل الدالة (Method): يتم استدعاء المُنشئ مرة واحدة فقط عند إنشاء الكائن لتهيئة حالته، بينما يمكن استدعاء الدالة عدة مرات طوال دورة حياة الكائن لتنفيذ عمليات متنوعة.
+
+## قلها في العمل
+
+- I need to update the constructor to accept the new configuration object as a parameter.
+  - أحتاج إلى تحديث المُنشئ ليقبل كائن الإعدادات الجديد كمعامل.
+- Please ensure that the constructor correctly initializes all required fields to avoid null pointer exceptions.
+  - يرجى التأكد من أن المُنشئ يقوم بتهيئة جميع الحقول المطلوبة بشكل صحيح لتجنب أخطاء المؤشر الفارغ.

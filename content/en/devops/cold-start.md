@@ -23,3 +23,12 @@ In performance reviews, serverless architecture discussions, and when optimizing
 ## Common mistake
 
 Assuming every request suffers the same delay, when actually subsequent requests run much faster because the container is already warm.
+
+## Don't confuse with
+
+Cold start refers to the initialization delay of an idle serverless function, whereas a spin-up is the general process of launching any new container or instance.
+
+## Say it at work
+
+- Did you notice any cold start issues after we deployed the new serverless functions?
+- We are keeping a few instances warm to mitigate the cold start penalty on our main endpoints.

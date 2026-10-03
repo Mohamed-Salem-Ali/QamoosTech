@@ -23,3 +23,12 @@ Used during sprint planning, team meetings, or when discussing future product fe
 ## Common mistake
 
 Thinking that being "on the radar" means a task is currently being worked on; it simply means it is acknowledged and tracked for later.
+
+## Don't confuse with
+
+Being on the radar means an item is merely noticed and tracked, whereas an action item is actively assigned to someone to be done soon.
+
+## Say it at work
+
+- Let us keep this performance issue on the radar for now and address it after the release.
+- We are aware of this request, and I have added it to our radar for the upcoming planning session.

@@ -23,3 +23,12 @@ Project status meetings, email threads, and daily standups.
 ## Common mistake
 
 Thinking it means doing the actual work, rather than simply being kept informed and copied on updates.
+
+## Don't confuse with
+
+In the loop means being kept informed about a project, whereas out of the loop means lacking that necessary information or awareness.
+
+## Say it at work
+
+- Make sure to keep the QA lead in the loop before we deploy this fix to staging.
+- I have added you in the loop on this email thread so you can follow the discussion on the new database migration.

@@ -25,3 +25,14 @@ pronunciation: "بروبوزال"
 ## خطأ شائع
 
 إرسال العرض المنسوخ نفسه للجميع. اذكر مشكلة العميل الحقيقية في الأسطر الأولى.
+
+## لا تخلطه مع
+
+يحدد العرض النطاق والجدول الزمني والتكلفة للمشروع، بينما التقدير هو مجرد تخمين مدروس للتكلفة والوقت قبل تحديد النطاق بالكامل.
+
+## قلها في العمل
+
+- I am finishing up the proposal now and will share it with you before sending it to the client.
+  - أنا أُنهي الـ proposal الآن وسأشاركه معك قبل إرساله إلى العميل.
+- Please review the attached proposal and let me know if we need to adjust any of the project milestones.
+  - يرجى مراجعة الـ proposal المرفق وإعلامي إذا كنت بحاجة إلى تعديل أي من مراحل المشروع.

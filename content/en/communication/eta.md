@@ -22,3 +22,12 @@ Status updates and incident chats.
 ## Common mistake
 
 Giving an ETA without checking, then going silent when it changes. Update people early.
+
+## Don't confuse with
+
+ETA is often confused with a deadline, but an ETA is a prediction of when work will finish, whereas a deadline is a fixed commitment or a hard constraint that must be met.
+
+## Say it at work
+
+- I'm still digging into the bug, so I don't have a solid ETA for you just yet.
+- Please let me know your updated ETA for the pull request review so I can plan my next tasks accordingly.

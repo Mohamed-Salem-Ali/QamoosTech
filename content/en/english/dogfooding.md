@@ -25,3 +25,12 @@ Dogfooding is the practice of using your own company's software products interna
 ## Common mistake
 
 Thinking that dogfooding replaces formal testing, when it is actually meant to complement QA and user acceptance testing with real-world usage.
+
+## Don't confuse with
+
+Dogfooding is often confused with Beta Testing, but the key difference is that dogfooding is performed exclusively by internal employees, whereas beta testing involves external users.
+
+## Say it at work
+
+- Let's start dogfooding the new dashboard this week so we can catch any major usability issues before the launch.
+- The engineering team has been dogfooding the latest API updates to ensure stability before we roll them out to our clients.

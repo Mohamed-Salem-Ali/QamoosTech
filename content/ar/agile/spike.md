@@ -26,3 +26,14 @@ translation: "مهمة بحثية"
 ## خطأ شائع
 
 التعامل مع المهمة البحثية كأنها مشروع بحث مفتوح بدون حد زمني واضح أو مخرجات محددة.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين الـ spike وقصة المستخدم (user story)، لكن الـ spike يهدف إلى اكتساب المعرفة وتقليل الغموض، بينما تقدم قصة المستخدم قيمة وظيفية للمستخدم النهائي.
+
+## قلها في العمل
+
+- I'm not sure how this library handles concurrency, so let's run a quick spike before we commit to using it.
+  - لست متأكدًا من كيفية تعامل هذه المكتبة مع التزامن، لذا دعنا نقوم بـ spike سريع قبل أن نلتزم باستخدامها.
+- I have created a spike ticket to investigate the integration issues; please review the scope to ensure it remains time-boxed.
+  - لقد أنشأت تذكرة spike للتحقيق في مشاكل التكامل؛ يرجى مراجعة النطاق للتأكد من بقائها ضمن إطار زمني محدد.

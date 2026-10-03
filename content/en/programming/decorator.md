@@ -22,3 +22,12 @@ Python (`@login_required`), TypeScript frameworks like NestJS, and middleware ta
 ## Common mistake
 
 In Python, forgetting `functools.wraps`, which makes the wrapped function lose its name and docstring.
+
+## Don't confuse with
+
+A decorator wraps a function to modify its behavior dynamically, while inheritance creates a new subclass to extend functionality statically.
+
+## Say it at work
+
+- Can we write a custom decorator to handle the caching for these API endpoints?
+- Please use the authentication decorator on the new routes to ensure proper access control.

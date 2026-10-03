@@ -23,3 +23,12 @@ During server audits, troubleshooting production issues, or reviewing Infrastruc
 ## Common mistake
 
 Thinking that manual fixes made directly on a live server will be saved in the version control system automatically.
+
+## Don't confuse with
+
+Configuration drift is often confused with 'environment inconsistency', but drift specifically refers to changes over time from a known baseline, whereas inconsistency refers to differences between two environments that may never have been identical.
+
+## Say it at work
+
+- I think we have some configuration drift on the web server, so we should re-run the provisioning script to sync it back up.
+- Please review the logs, as the recent configuration drift is likely causing the deployment failure we observed this morning.

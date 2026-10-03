@@ -23,3 +23,12 @@ During server configuration, SSL/TLS implementation, or when troubleshooting bro
 ## Common mistake
 
 Confusing a self-signed certificate with one issued by a trusted CA; self-signed certificates are not verified by a third party and will trigger security warnings in browsers.
+
+## Don't confuse with
+
+Certificate Authority vs. Registration Authority; a Certificate Authority actually issues and signs the digital certificates, while a Registration Authority only verifies the identity of the entities requesting them.
+
+## Say it at work
+
+- We should check if our Certificate Authority supports the new wildcard certificate we need for the staging environment.
+- Please ensure that the server is configured to trust the root certificate provided by our Certificate Authority to avoid connection errors.

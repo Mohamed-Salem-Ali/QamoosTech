@@ -22,3 +22,8 @@ Code reviews and technical decisions.
 ## Common mistake
 
 Using it to reject every custom solution. Sometimes security or licensing needs your own code.
+
+## Say it at work
+
+- Instead of reinventing the wheel with a custom authentication system, let's just integrate the existing one.
+- Please avoid reinventing the wheel for this feature; check if the internal framework already supports it.

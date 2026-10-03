@@ -26,3 +26,14 @@ translation: "عنق زجاجة"
 ## خطأ شائع
 
 الظن أن عنق الزجاجة هو خطأ برمجي (Bug) أو عائق (Blocker)، بينما هو في الواقع محدودية في القدرة الاستيعابية تبطئ العمل وليس عطلاً كاملاً أو توقفاً تاماً.
+
+## لا تخلطه مع
+
+عنق الزجاجة يبطئ مسار العمل الإجمالي بسبب محدودية القدرة الاستيعابية، بينما العائق (Blocker) يوقف التقدم في مهمة محددة تماماً حتى يتم حله.
+
+## قلها في العمل
+
+- Let us check where the main bottleneck is in our deployment pipeline before we optimize anything else.
+  - دعنا نتحقق من مكان عنق الزجاجة الرئيسي في مسار نشر الكود لدينا قبل أن نحسن أي شيء آخر.
+- Please investigate this service as it appears to be the performance bottleneck affecting our response times.
+  - يرجى التحقيق في هذه الخدمة حيث يبدو أنها تمثل عنق زجاجة الأداء الذي يؤثر على أوقات الاستجابة لدينا.

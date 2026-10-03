@@ -25,3 +25,14 @@ pronunciation: "باب-ساب"
 ## خطأ شائع
 
 الاعتقاد بأن Pub/Sub يضمن وصول الرسائل أو ترتيبها بشكل تلقائي، حيث أن العديد من تطبيقاته تعمل بشكل غير متزامن (Asynchronous) ولا تتابع ما إذا كان المستلم قد نجح في معالجة الرسالة أم لا.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين نمط Pub/Sub وطابور الرسائل (Message Queue)، ولكن في حين يقوم الطابور عادةً بتسليم كل رسالة لمستهلك واحد، فإن Pub/Sub يبث الرسائل لعدة مشتركين في نفس الوقت.
+
+## قلها في العمل
+
+- Can we use Pub/Sub here to broadcast updates to all connected microservices at once?
+  - هل يمكننا استخدام Pub/Sub هنا لبث التحديثات لجميع الخدمات المصغرة المتصلة دفعة واحدة؟
+- Please ensure that the new event publisher is properly registered in the Pub/Sub topic before merging the pull request.
+  - الرجاء التأكد من تسجيل ناشر الأحداث الجديد بشكل صحيح في موضوع Pub/Sub قبل دمج طلب السحب.

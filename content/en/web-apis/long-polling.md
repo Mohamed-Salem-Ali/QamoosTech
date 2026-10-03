@@ -23,3 +23,12 @@ In architecture discussions about real-time features, chat applications, or noti
 ## Common mistake
 
 Assuming long polling is identical to WebSockets, forgetting that it still relies on standard HTTP request-response cycles and requires a new request after every message.
+
+## Don't confuse with
+
+Long polling keeps the HTTP connection open until data arrives or it times out, while short polling repeatedly sends requests at fixed intervals regardless of whether new data is available.
+
+## Say it at work
+
+- Let us check if long polling can handle these chat notifications before we complicate the setup with WebSockets.
+- Please ensure the client automatically triggers a new request as soon as the previous long polling connection times out.

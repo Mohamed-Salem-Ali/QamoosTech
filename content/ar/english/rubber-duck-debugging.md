@@ -25,3 +25,10 @@ pronunciation: "رابر داك ديباجينج"
 ## خطأ شائع
 
 تجاهلها لأنها تبدو سخيفة. قول المشكلة بصوت عالٍ يجبرك على التفكير بوضوح.
+
+## قلها في العمل
+
+- I'm stuck on this logic, let me try rubber duck debugging it for a minute before we dive in together.
+  - أنا عالق في هذه المنطقية، دعني أجرب التصحيح بالبطة المطاطية لدقيقة قبل أن نبدأ العمل عليها معًا.
+- I have performed rubber duck debugging on this module and identified a missing edge case in the validation logic.
+  - لقد قمت بتطبيق التصحيح بالبطة المطاطية على هذه الوحدة وحددت حالة استثنائية مفقودة في منطق التحقق.

@@ -23,3 +23,12 @@ In unit tests, integration tests, and test-driven development conversations.
 ## Common mistake
 
 Putting multiple unrelated checks into a single assertion instead of writing clear, separate checks for each expected outcome.
+
+## Don't confuse with
+
+Assertion checks a condition during execution, while exception handles runtime errors and unexpected situations.
+
+## Say it at work
+
+- Can we add a clear assertion here to check if the user object is null?
+- Please update the test assertion to verify the correct error message is returned.

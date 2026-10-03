@@ -22,3 +22,12 @@ Debugging production problems.
 ## Common mistake
 
 Logging passwords, tokens, or personal data. Logs are often widely accessible.
+
+## Don't confuse with
+
+Logging records events about system execution for debugging, while monitoring tracks metrics and health over time to alert on issues.
+
+## Say it at work
+
+- Could we add some extra logging here so we can see what payload the API received?
+- Please ensure that no sensitive user data is exposed in the new logging statements before merging this pull request.

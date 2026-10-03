@@ -25,3 +25,14 @@ pronunciation: "أون ذا رايدار"
 ## خطأ شائع
 
 الاعتقاد بأن كون الشيء "on the radar" يعني أن العمل عليه جارٍ حالياً؛ في الواقع هي تعني فقط أن الأمر معروف ومسجل للمتابعة لاحقاً.
+
+## لا تخلطه مع
+
+تعني عبارة مرصود على الرادار أن العنصر ملاحظ ومتابع فقط، بينما مهمة العمل هي مهمة مسندة بفعالية لشخص ما ليقوم بها قريباً.
+
+## قلها في العمل
+
+- Let us keep this performance issue on the radar for now and address it after the release.
+  - دعونا نترك مشكلة الأداء هذه مرصودة على الرادار الآن ونعالجها بعد الإطلاق.
+- We are aware of this request, and I have added it to our radar for the upcoming planning session.
+  - نحن على دراية بهذا الطلب، وقد أضفته إلى رادارنا لجلسة التخطيط القادمة.

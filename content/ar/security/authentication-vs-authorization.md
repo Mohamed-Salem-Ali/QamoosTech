@@ -25,3 +25,10 @@ pronunciation: "أوثنتيكيشن مقابل أوثورايزيشن"
 ## خطأ شائع
 
 استخدام الكلمتين كأنهما واحدة. تذكّر: authN = من أنت، وauthZ = ماذا يمكنك أن تفعل.
+
+## قلها في العمل
+
+- Let us make sure our middleware handles authentication before passing the request to the authorization layer.
+  - دعنا نتأكد من أن الـ middleware يتعامل مع المصادقة قبل تمرير الطلب إلى طبقة التفويض.
+- Could you please update the pull request to ensure that authorization checks are performed after successful authentication?
+  - هل يمكنك من فضلك تحديث الـ pull request لضمان إجراء فحص التفويض بعد نجاح المصادقة؟

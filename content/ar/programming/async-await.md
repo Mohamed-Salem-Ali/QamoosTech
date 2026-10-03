@@ -25,3 +25,14 @@ pronunciation: "أسينك أويت"
 ## خطأ شائع
 
 انتظار العمليات واحدة تلو الأخرى مع أنه يمكن تشغيلها معًا. الاستدعاءات المستقلة يمكن أن تعمل بالتوازي.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين async / await وتعدد المسارات (multithreading)، لكن async / await يتعامل مع الانتظار دون حظر المسار، بينما يقوم تعدد المسارات بتشغيل مهام متعددة على مسارات مختلفة في نفس الوقت.
+
+## قلها في العمل
+
+- Can we refactor this function to use async/await so it is easier to read?
+  - هل يمكننا إعادة هيكلة هذه الدالة لتعمل باستخدام async/await لكي تصبح أسهل في القراءة؟
+- Please wrap the API call in an async/await block to handle the response properly.
+  - يرجى تغليف طلب واجهة البرمجة داخل كتلة async/await للتعامل مع الاستجابة بشكل صحيح.

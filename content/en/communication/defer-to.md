@@ -23,3 +23,8 @@ In meetings, code reviews, and planning discussions when domain knowledge rests 
 ## Common mistake
 
 Thinking it means you disagree completely, when it actually means you trust another person's judgment and step back.
+
+## Say it at work
+
+- I defer to you on the API rate limiting strategy, so let me know how you want to proceed.
+- We should defer to the frontend lead regarding the state management library selection.

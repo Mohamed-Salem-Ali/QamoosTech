@@ -25,3 +25,14 @@ pronunciation: "فيلوسيتي"
 ## خطأ شائع
 
 استخدام الـ velocity كأداة لتقييم أداء الأفراد أو للمقارنة بين فرق مختلفة، حيث أن نقاط القصة هي تقديرات نسبية خاصة بكل فريق ولا يمكن تعميمها.
+
+## لا تخلطه مع
+
+الـ Velocity تقيس كمية العمل المنجز في الـ Sprint، بينما الـ Capacity تقيس ساعات العمل الفعلية المتاحة لأعضاء الفريق.
+
+## قلها في العمل
+
+- Let's check our historical velocity to see how many story points we can safely commit to in this upcoming sprint.
+  - دعونا نتحقق من الـ velocity السابقة لنرى عدد نقاط القصة التي يمكننا الالتزام بها بأمان في هذا الـ Sprint القادم.
+- Based on our recent drop in velocity, we should remove the lowest priority ticket from the current milestone.
+  - بناءً على الانخفاض الأخير في الـ velocity الخاصة بنا، يجب أن نُزيل التذكرة ذات الأولوية الأقل من الإصدار الحالي.

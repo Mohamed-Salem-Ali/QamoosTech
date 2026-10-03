@@ -25,3 +25,14 @@ pronunciation: "جيف ذا جرين لايت"
 ## خطأ شائع
 
 الاعتقاد بأنها تعني أن المهمة قد انتهت بالفعل؛ هي تعني فقط الحصول على الإذن بالبدء في العمل أو إطلاق الميزة.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين 'give the green light' و 'sign-off'، ولكن بينما يعني إعطاء الضوء الأخضر الموافقة على بدء إجراء ما، فإن التوقيع النهائي (sign-off) يشير عادةً إلى القبول الرسمي أو الانتهاء من تسليم العمل.
+
+## قلها في العمل
+
+- Once the stakeholders give the green light, we can start the migration process immediately.
+  - بمجرد أن يعطي أصحاب المصلحة الضوء الأخضر، يمكننا البدء في عملية الترحيل على الفور.
+- Please let us know once you give the green light so we can proceed with the production deployment.
+  - يرجى إعلامنا بمجرد إعطائكم الضوء الأخضر حتى نتمكن من المضي قدماً في النشر على بيئة الإنتاج.

@@ -22,3 +22,12 @@ Load balancers, Kubernetes, and monitoring tools.
 ## Common mistake
 
 A health check that always returns OK. It should also check important dependencies such as the database.
+
+## Don't confuse with
+
+A health check tests if the app is currently running and ready, while a metric measures performance data like CPU and memory usage over time.
+
+## Say it at work
+
+- We need to update our health check so it actually tests the database connection.
+- Please ensure the health check endpoint returns a 503 status when the service dependencies are down.

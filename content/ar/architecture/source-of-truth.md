@@ -25,3 +25,14 @@ pronunciation: "سورس أوف ثروث"
 ## خطأ شائع
 
 وجود عدة «مصادر مرجعية». عندها لا يوجد مصدر فعلي، بل خطأ ينتظر أن يحدث.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين المصدر المرجعي (Source of Truth) ومبدأ المصدر المرجعي الوحيد (SSOT)؛ فبينما يشير الأول إلى الموقع الموثوق للبيانات، يمثل الثاني مبدأ تصميمياً يضمن إدارة كل عنصر من البيانات في مكان واحد فقط على مستوى المؤسسة بالكامل.
+
+## قلها في العمل
+
+- We need to decide which service will be the source of truth for user profiles before we start building the API.
+  - نحتاج إلى تحديد الخدمة التي ستكون المصدر المرجعي لملفات تعريف المستخدمين قبل أن نبدأ في بناء الـ API.
+- Please update the configuration file in the repository, as it serves as the source of truth for our deployment environment variables.
+  - يرجى تحديث ملف الإعدادات في المستودع، حيث إنه بمثابة المصدر المرجعي لمتغيرات بيئة النشر الخاصة بنا.

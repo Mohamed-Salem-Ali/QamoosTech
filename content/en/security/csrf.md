@@ -25,3 +25,12 @@ CSRF is a security vulnerability that tricks an authenticated user into executin
 ## Common mistake
 
 Confusing CSRF with Cross-Site Scripting (XSS). While XSS involves injecting malicious scripts into a page, CSRF focuses on forcing the user to perform unintended actions using their existing session credentials.
+
+## Don't confuse with
+
+CSRF is often confused with Session Hijacking. While CSRF forces the victim's browser to perform an action on their behalf, Session Hijacking involves stealing the session token to impersonate the user entirely.
+
+## Say it at work
+
+- Did we remember to add the anti-forgery tokens to the new form, or are we leaving it exposed to CSRF?
+- Please ensure that all state-changing API endpoints are protected against CSRF attacks before we merge this PR.

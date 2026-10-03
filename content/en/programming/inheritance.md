@@ -22,3 +22,12 @@ Object-oriented design and interviews ("composition over inheritance").
 ## Common mistake
 
 Using inheritance just to share code. If the relationship is not "is a", prefer composition.
+
+## Don't confuse with
+
+Inheritance defines an "is-a" relationship where a subclass reuses parent behavior, while composition defines a "has-a" relationship by combining independent objects.
+
+## Say it at work
+
+- Let us use inheritance here so that the admin class can reuse the common user methods.
+- Please refactor this deeply nested inheritance tree into smaller components to improve maintainability.

@@ -23,3 +23,8 @@ In project planning meetings, architectural reviews, or when proposing a new too
 ## Common mistake
 
 Thinking that buy-in is the same as simply informing people of a decision; it actually requires active engagement and consensus-building to ensure stakeholders feel heard and invested in the outcome.
+
+## Say it at work
+
+- Let us schedule a quick sync tomorrow to secure buy-in on the new migration strategy from everyone.
+- Please review the attached architectural document so we can get team buy-in before the sprint starts.

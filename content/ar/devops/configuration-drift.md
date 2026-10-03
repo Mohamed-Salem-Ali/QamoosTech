@@ -26,3 +26,14 @@ pronunciation: "كونفيجريشن دريفت"
 ## خطأ شائع
 
 الاعتقاد بأن التعديلات اليدوية التي تتم مباشرة على خادم مباشر ستُحفظ تلقائياً في نظام التحكم بالإصدارات.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين انحراف الإعدادات (Configuration drift) وعدم اتساق البيئات (Environment inconsistency)، لكن الانحراف يشير تحديداً إلى التغيرات بمرور الوقت عن معيار أساسي معروف، بينما يشير عدم الاتساق إلى وجود فروقات بين بيئتين قد لا تكونان متطابقتين أصلاً.
+
+## قلها في العمل
+
+- I think we have some configuration drift on the web server, so we should re-run the provisioning script to sync it back up.
+  - أعتقد أن لدينا بعض انحراف الإعدادات على خادم الويب، لذا يجب أن نعيد تشغيل سكربت التجهيز لمزامنته مرة أخرى.
+- Please review the logs, as the recent configuration drift is likely causing the deployment failure we observed this morning.
+  - يرجى مراجعة السجلات، حيث أن انحراف الإعدادات الأخير هو على الأرجح السبب في فشل عملية النشر التي لاحظناها هذا الصباح.

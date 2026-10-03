@@ -27,3 +27,14 @@ pronunciation: "جيت ريسيت"
 ## خطأ شائع
 
 استخدام خيار `--hard` بدون إدراك أنه يحذف التعديلات غير المحفوظة نهائياً، مما يجعل استرجاعها أمراً صعباً للغاية.
+
+## لا تخلطه مع
+
+أمر Git Reset يحرك مؤشر الفرع ويعدل السجل، بينما Git Revert ينشئ التزاماً جديداً يتراجع عن التعديلات السابقة دون إعادة كتابة السجل.
+
+## قلها في العمل
+
+- Let's run a soft git reset on that branch to clean up the last few commits before we merge.
+  - دعنا نُجري git reset بنوع soft على ذلك الفرع لتنظيف التزامات الأيام الأخيرة قبل أن نقوم بالدمج.
+- Please avoid using git reset --hard on shared branches because it will break other developers' local history.
+  - يُرجى تجنب استخدام git reset --hard على الفروع المشتركة لأنه سيؤدي إلى تعطيل السجل المحلي للمطورين الآخرين.

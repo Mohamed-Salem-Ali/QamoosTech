@@ -22,3 +22,12 @@ JavaScript and Python basics, JSON payloads, and object-oriented design.
 ## Common mistake
 
 Mixing up "object" (an instance with real data) and "class" (the blueprint).
+
+## Don't confuse with
+
+An object is a concrete instance in memory containing actual data, whereas a class is just the abstract blueprint or template used to create that object.
+
+## Say it at work
+
+- Let's update this object to include the user's phone number before we pass it to the API.
+- Please ensure the incoming configuration object validates properly against the schema before saving it.

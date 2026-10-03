@@ -23,3 +23,12 @@ During database schema design, API development, or when discussing data retentio
 ## Common mistake
 
 Forgetting to update all application queries to filter out soft-deleted records, which results in "deleted" items still appearing in the user interface.
+
+## Don't confuse with
+
+Soft delete is often confused with hard delete; soft delete hides the record by updating a flag, while hard delete permanently removes the data from the database using a SQL DELETE command.
+
+## Say it at work
+
+- Let's use a soft delete for these orders so we can easily restore them if the customer changes their mind.
+- Please ensure that the API endpoint filters out any records marked with a soft delete before returning the list to the client.

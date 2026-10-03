@@ -25,3 +25,14 @@ pronunciation: "ميدلوير"
 ## خطأ شائع
 
 في Express، نسيان استدعاء `next()`. عندها يظل الطلب معلقًا إلى الأبد.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ Middleware والـ Interceptors؛ فبينما يتعامل كلاهما مع الطلبات، يكون الـ Middleware عادةً جزءاً من مسار الطلب الأساسي في إطار العمل، بينما تُستخدم الـ Interceptors غالباً لتعديل البيانات أو التعامل مع الاستجابات على مستوى أكثر دقة أو تخصيصاً للخدمات.
+
+## قلها في العمل
+
+- We should add a new middleware to handle rate limiting for all incoming API calls.
+  - يجب أن نضيف middleware جديداً للتحكم في معدل الطلبات لجميع استدعاءات الـ API الواردة.
+- I have implemented a custom middleware to validate the request headers before processing the main logic.
+  - لقد قمت بتنفيذ middleware مخصص للتحقق من ترويسات الطلب قبل معالجة المنطق الأساسي.

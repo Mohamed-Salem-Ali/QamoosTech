@@ -26,3 +26,14 @@ translation: "قائمة الأسعار (Rate Card)"
 ## خطأ شائع
 
 التعامل مع قائمة الأسعار كعقد جامد لا يمكن تعديله، بدلاً من اعتبارها نقطة بداية لنقاشات التسعير.
+
+## لا تخلطه مع
+
+قائمة الأسعار (Rate Card) هي جدول عام لأسعار الخدمات، بينما التقدير (Estimate) هو حساب تكلّفة متوقعة لمشروع محدد بنطاق عمل معين.
+
+## قلها في العمل
+
+- Take a look at my rate card and let me know which package fits your budget.
+  - ألقِ نظرة على قائمة الأسعار الخاصة بي وأخبرني بالحزمة التي تناسب ميزانيتك.
+- Please find attached our latest rate card for custom software development services.
+  - تجدون مرفقاً أحدث قائمة أسعار لخدمات تطوير البرمجيات المخصصة.

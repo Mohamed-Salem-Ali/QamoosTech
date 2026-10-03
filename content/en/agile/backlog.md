@@ -22,3 +22,12 @@ Planning meetings and project tools like Jira.
 ## Common mistake
 
 Letting the backlog grow forever. Review it and remove tasks nobody will ever do.
+
+## Don't confuse with
+
+A backlog is a prioritized pool of all potential future work, whereas a sprint backlog contains only the specific tasks committed to for the current iteration.
+
+## Say it at work
+
+- Can we move this task from the backlog into the upcoming sprint?
+- Please review the items in the backlog before our planning session tomorrow.

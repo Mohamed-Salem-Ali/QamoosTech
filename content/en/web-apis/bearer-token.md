@@ -25,3 +25,12 @@ A Bearer Token is a security token sent in an HTTP request to prove the user's i
 ## Common mistake
 
 Treating a bearer token like a password and storing it in insecure browser storage like localStorage instead of secure memory or httpOnly cookies.
+
+## Don't confuse with
+
+A bearer token grants direct access based on possession, while an API key simply identifies the project or application making the request.
+
+## Say it at work
+
+- Can you check why the API is rejecting my bearer token during this test?
+- Please ensure that the bearer token is never exposed in the client-side code.

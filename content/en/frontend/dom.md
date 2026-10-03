@@ -25,3 +25,12 @@ The Document Object Model is a programming interface that represents an HTML or 
 ## Common mistake
 
 Thinking the DOM is part of the JavaScript language itself, when it is actually a browser API provided to interact with web pages.
+
+## Don't confuse with
+
+DOM vs Virtual DOM: The DOM is the browser's live representation of the document, while the Virtual DOM is a lightweight JavaScript copy used by frameworks to optimize updates before syncing with the real DOM.
+
+## Say it at work
+
+- We should minimize direct DOM manipulations in this component to keep the UI performance smooth.
+- Please ensure that the new elements are correctly injected into the DOM after the API call completes.

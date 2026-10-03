@@ -22,3 +22,12 @@ Next.js, SEO, and performance discussions.
 ## Common mistake
 
 Choosing SSR or CSR by habit. Choose by need: SEO and first load speed, or heavy interactivity.
+
+## Don't confuse with
+
+Rendering turns data into visible UI, while hydration attaches JavaScript event listeners to that already rendered static HTML to make it interactive.
+
+## Say it at work
+
+- We need to fix this layout shift that happens during the initial rendering phase.
+- I am investigating why this component is triggering an unexpected re-rendering loop.

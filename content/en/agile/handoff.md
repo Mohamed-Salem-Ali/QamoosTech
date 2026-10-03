@@ -22,3 +22,12 @@ Team changes, client delivery, and design-to-development work.
 ## Common mistake
 
 Handing off with no documentation. The next person then has to guess.
+
+## Don't confuse with
+
+Handoff vs. handover: While often used interchangeably, 'handoff' typically refers to the specific act of passing a task or asset, whereas 'handover' often implies a more formal or long-term transfer of responsibility or authority.
+
+## Say it at work
+
+- Let's schedule a quick sync to handle the handoff of this module before you start your vacation.
+- Please review the attached documentation to ensure a smooth handoff of the project requirements.

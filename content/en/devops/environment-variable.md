@@ -22,3 +22,12 @@ Deployment guides and `.env` files.
 ## Common mistake
 
 Committing the `.env` file to Git. That leaks secrets to everyone who can see the repo.
+
+## Don't confuse with
+
+Environment variables are often confused with configuration files, but environment variables are injected at runtime by the system, whereas configuration files are static files bundled with the application.
+
+## Say it at work
+
+- Make sure you update the environment variable for the new API endpoint before you restart the service.
+- I have updated the deployment configuration to include the required environment variable for the staging server.

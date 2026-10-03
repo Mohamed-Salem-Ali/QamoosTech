@@ -22,3 +22,12 @@ Functional programming, audit logs, and financial records.
 ## Common mistake
 
 Changing an object "just once" when others share it. Shared mutable data is a common source of bugs.
+
+## Don't confuse with
+
+Immutable means an object cannot be modified at all after creation, while read-only simply restricts write access through a specific interface or permission while the underlying data might still change.
+
+## Say it at work
+
+- Let us make this configuration object immutable so no other service can accidentally modify it during runtime.
+- Please ensure that all DTOs passed to this processing pipeline are immutable to prevent unpredictable state mutations.

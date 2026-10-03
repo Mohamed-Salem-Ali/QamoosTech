@@ -25,3 +25,14 @@ pronunciation: "ريبوزيتوري"
 ## خطأ شائع
 
 رفع ملفات كبيرة وأسرار. بعد دخولها التاريخ يصعب حذفها تمامًا.
+
+## لا تخلطه مع
+
+المستودع (Repository) يشير إلى مجلد المشروع الكامل وتاريخه، بينما الفرع (Branch) هو مجرد مسار تطوير واحد داخل ذلك المستودع.
+
+## قلها في العمل
+
+- Can you share the link to the new repository so I can clone it?
+  - هل يمكنك مشاركة رابط المستودع الجديد لكي أتمكن من استنساخه؟
+- Please make sure your code changes are pushed to the main repository before creating the pull request.
+  - يرجى التأكد من دفع تغييرات الكود الخاصة بك إلى المستودع الرئيسي قبل إنشاء طلب السحب.

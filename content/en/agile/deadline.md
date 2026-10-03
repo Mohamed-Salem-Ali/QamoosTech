@@ -22,3 +22,12 @@ Projects and client communication.
 ## Common mistake
 
 Telling the client about a delay only at the last minute. Warn them as soon as you see the risk.
+
+## Don't confuse with
+
+Deadline vs. Milestone: A deadline is the final date for completing a task, whereas a milestone marks a significant stage or checkpoint within a project's timeline.
+
+## Say it at work
+
+- Do we have a firm deadline for this feature, or is there some flexibility in the schedule?
+- Please note that if we encounter any blockers, we might need to renegotiate the current deadline.

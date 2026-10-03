@@ -25,3 +25,14 @@ pronunciation: "إنفراستركتشر آز كود"
 ## خطأ شائع
 
 تغيير الأشياء يدويًا في لوحة تحكم السحابة. عندها لا تتطابق الشيفرة مع الإعداد الفعلي.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين البنية التحتية كشيفرة (IaC) وإدارة الإعدادات (Configuration Management)؛ فبينما تقوم IaC بتوفير البنية التحتية نفسها، تركز إدارة الإعدادات على إدارة البرمجيات والإعدادات التي تعمل فوق الخوادم التي تم توفيرها مسبقاً.
+
+## قلها في العمل
+
+- We should move this manual setup to Infrastructure as Code so we can track all changes in our repository.
+  - يجب أن ننقل هذا الإعداد اليدوي إلى Infrastructure as Code حتى نتمكن من تتبع جميع التغييرات في مستودعنا.
+- Please ensure that all new environment resources are defined using Infrastructure as Code before submitting the pull request.
+  - يرجى التأكد من تعريف جميع موارد البيئة الجديدة باستخدام Infrastructure as Code قبل إرسال الـ pull request.

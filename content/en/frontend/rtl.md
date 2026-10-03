@@ -22,3 +22,12 @@ Localization work and Arabic-first products.
 ## Common mistake
 
 Only changing `text-align: right`. Real RTL support mirrors the whole layout, not just the text.
+
+## Don't confuse with
+
+RTL is often confused with i18n; while RTL refers specifically to the layout direction of the interface, i18n is the broader process of preparing software for multiple languages and regions.
+
+## Say it at work
+
+- We need to make sure the navigation bar flips correctly when we switch the app to RTL mode.
+- Please ensure that all icons and layout components are properly mirrored to support RTL for our Arabic-speaking users.

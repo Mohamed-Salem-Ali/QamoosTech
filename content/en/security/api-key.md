@@ -23,3 +23,12 @@ In backend integration discussions, developer settings dashboards, and security 
 ## Common mistake
 
 Treating an API key like a user password and hardcoding it directly in public source code repositories.
+
+## Don't confuse with
+
+API Key vs OAuth Token: An API key identifies the calling project, whereas an OAuth token represents a specific user's permission to access their data.
+
+## Say it at work
+
+- Make sure to rotate your API key if you suspect it was accidentally committed to the repository.
+- Please provide the API key for the staging environment so we can proceed with the integration tests.

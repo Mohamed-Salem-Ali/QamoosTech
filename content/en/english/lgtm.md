@@ -22,3 +22,12 @@ GitHub reviews and team chats.
 ## Common mistake
 
 Writing LGTM without reading the code. That makes reviews meaningless.
+
+## Don't confuse with
+
+LGTM is often confused with 'Approved' in GitHub; while LGTM is an informal expression of approval, 'Approved' is a formal status that officially allows the pull request to be merged.
+
+## Say it at work
+
+- I've checked your latest commits, LGTM, feel free to merge it whenever you're ready.
+- The changes look solid and address the requirements, so LGTM from my side.

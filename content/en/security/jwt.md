@@ -22,3 +22,12 @@ API authentication.
 ## Common mistake
 
 Storing secrets in the payload. A JWT is encoded, not encrypted, so anyone can read it.
+
+## Don't confuse with
+
+JWT is often confused with session cookies; while JWTs are stateless tokens stored on the client, session cookies are typically managed by the server and stored in the browser's cookie jar.
+
+## Say it at work
+
+- Let's switch to using a JWT for this API so we don't have to manage session state on the server.
+- Please ensure the JWT is properly validated in the middleware before allowing access to the protected route.

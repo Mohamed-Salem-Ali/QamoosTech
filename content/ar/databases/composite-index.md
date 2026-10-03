@@ -25,3 +25,14 @@ pronunciation: "كومبوزيت إنديكس"
 ## خطأ شائع
 
 الاعتقاد بأن الفهرس المركب على `(A, B)` سيسرع الاستعلامات التي تستخدم العمود `B` فقط؛ في العادة، لا يعمل الفهرس إلا إذا كان الاستعلام يتضمن العمود الأول `A` في التصفية.
+
+## لا تخلطه مع
+
+يتم الخلط أحياناً بين الفهرس المركب (Composite index) والفهرس متعدد الأعمدة (Multi-column index)، لكن الفهرس المركب يشير تحديداً إلى ترتيب الأعمدة الذي يحدد كيفية معالجة هيكل شجرة البحث.
+
+## قلها في العمل
+
+- We should consider adding a composite index on these two columns to reduce the query execution time.
+  - يجب أن نفكر في إضافة فهرس مركب على هذين العمودين لتقليل وقت تنفيذ الاستعلام.
+- I have identified that the slow performance is due to a missing composite index on the filtering criteria.
+  - لقد حددت أن الأداء البطيء يرجع إلى فقدان فهرس مركب على معايير التصفية.

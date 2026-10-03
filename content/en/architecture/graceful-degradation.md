@@ -25,3 +25,12 @@ Graceful Degradation is a system design approach that allows a software applicat
 ## Common mistake
 
 Confusing it with fail-open, which specifically describes security or access control behavior rather than general system functionality and user experience.
+
+## Don't confuse with
+
+Graceful degradation is often confused with progressive enhancement; while graceful degradation starts with full features and scales down for older systems, progressive enhancement starts with basic functionality and adds advanced features for capable browsers.
+
+## Say it at work
+
+- We should implement graceful degradation here so the user can still browse products even if the search index is temporarily unavailable.
+- Please ensure the UI supports graceful degradation by displaying cached data if the real-time API call fails.

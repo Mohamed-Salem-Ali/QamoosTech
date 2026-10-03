@@ -22,3 +22,12 @@ JavaScript, TypeScript, Python, and C# code, plus interviews.
 ## Common mistake
 
 Awaiting things one by one when they could run together. Independent calls can run in parallel.
+
+## Don't confuse with
+
+Async / await is often mixed up with multithreading, but async/await handles waiting without blocking the thread, whereas multithreading runs multiple tasks on different threads at the same time.
+
+## Say it at work
+
+- Can we refactor this function to use async/await so it is easier to read?
+- Please wrap the API call in an async/await block to handle the response properly.

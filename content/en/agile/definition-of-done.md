@@ -23,3 +23,12 @@ During sprint planning, daily stand-ups, or when reviewing the team's working ag
 ## Common mistake
 
 Thinking that the Definition of Done is the same as the acceptance criteria for a specific feature; while acceptance criteria are unique to each task, the DoD applies to every single item the team works on.
+
+## Don't confuse with
+
+Definition of Done vs Acceptance Criteria: Definition of Done is a universal checklist for all user stories, while acceptance criteria are specific conditions for a single user story.
+
+## Say it at work
+
+- Let us quickly check our Definition of Done to make sure we did not miss any code reviews.
+- Please verify that all items meet the Definition of Done before moving this ticket to the ready column.

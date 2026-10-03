@@ -22,3 +22,12 @@ React and Vue lessons, and bug reports ("the state is out of sync").
 ## Common mistake
 
 Keeping the same data in two places. When one copy changes and the other does not, you get bugs.
+
+## Don't confuse with
+
+State represents data that changes within a component over time, whereas props are read-only data passed down from a parent component.
+
+## Say it at work
+
+- We need to lift this state up to the parent component so the sibling can access it.
+- Please ensure the local state is cleared after the form is successfully submitted.

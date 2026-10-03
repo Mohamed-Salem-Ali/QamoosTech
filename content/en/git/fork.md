@@ -22,3 +22,12 @@ Open source contributions.
 ## Common mistake
 
 Letting a fork fall behind the original. Sync it regularly.
+
+## Don't confuse with
+
+Fork is often confused with Clone; a fork is a server-side copy of a repository on a platform like GitHub, whereas a clone is a local copy of a repository on your own machine.
+
+## Say it at work
+
+- I'll fork the project now so I can start working on the feature branch.
+- Please fork the main repository to your personal account before submitting your changes.

@@ -22,3 +22,8 @@ Machine learning, analytics, and research.
 ## Common mistake
 
 Testing on the same data you trained on. Keep a separate test set.
+
+## Say it at work
+
+- Make sure to clean the dataset before passing it to the training pipeline.
+- Could you please review the dataset attached to this ticket and verify its labels?

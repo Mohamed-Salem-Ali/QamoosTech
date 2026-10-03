@@ -24,3 +24,8 @@ During system design discussions, scaling planning, and when choosing how to man
 ## Common mistake
 
 Assuming stateless means the application never saves data anywhere, when it actually means the server doesn't keep session memory about a specific client between independent HTTP requests.
+
+## Say it at work
+
+- Let us make sure the backend remains stateless so we can scale out easily without managing sticky sessions.
+- Please verify if this microservice requires a stateful approach or if we can handle the user session via a distributed cache.

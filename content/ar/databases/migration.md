@@ -25,3 +25,14 @@ pronunciation: "مايجريشن"
 ## خطأ شائع
 
 تعديل migration قديم. أنشئ migration جديدًا حتى تتبع كل البيئات السجل نفسه.
+
+## لا تخلطه مع
+
+تحديث بنية قاعدة البيانات يتم عبر الـ migration، بينما يقوم الـ seed بملء القاعدة ببيانات أولية أو بيانات اختبار.
+
+## قلها في العمل
+
+- Did someone add a new migration for the user profile table, or should I create one?
+  - هل قام أحد بإضافة migration جديد لجدول الملف الشخصي للمستخدم، أم أنشئ واحدًا أنا؟
+- Please make sure to run the latest migration before testing the changes on the staging environment.
+  - يرجى التأكد من تشغيل أحدث migration قبل اختبار التغييرات على بيئة التجربة.

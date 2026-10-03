@@ -25,3 +25,14 @@ pronunciation: "زِي إنديكس"
 ## خطأ شائع
 
 الاعتقاد بأن `z-index` سيعمل على عناصر ذات موضع `static`، في حين أنه يؤثر فقط على العناصر التي لها خاصية `position` محددة.
+
+## لا تخلطه مع
+
+الفرق بين Z-index و Stacking Context هو أن Z-index خاصية تُطبق على عنصر واحد، بينما الـ Stacking Context هو طبقة مفاهيمية تُنشأ بواسطة خصائص CSS معينة وتجمع العناصر معاً.
+
+## قلها في العمل
+
+- I'm having trouble getting the tooltip to show up, I think I need to adjust the z-index.
+  - أواجه مشكلة في ظهور تلميح الأدوات (tooltip)، أعتقد أنني بحاجة إلى تعديل الـ z-index.
+- Please update the z-index for the sidebar component to ensure it remains visible above the main content area.
+  - يرجى تحديث قيمة z-index لمكون الشريط الجانبي لضمان بقائه ظاهراً فوق منطقة المحتوى الرئيسي.

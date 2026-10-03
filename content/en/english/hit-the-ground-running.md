@@ -22,3 +22,8 @@ Interviews, onboarding, and project kickoffs.
 ## Common mistake
 
 Saying it about yourself without proof. Explain why, for example your experience with their tools.
+
+## Say it at work
+
+- I already know this framework well, so I should be able to hit the ground running.
+- Since the new hire has prior experience with our cloud provider, they will hit the ground running.

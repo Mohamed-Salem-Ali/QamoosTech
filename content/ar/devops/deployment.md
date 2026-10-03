@@ -25,3 +25,14 @@ pronunciation: "ديبلويمنت"
 ## خطأ شائع
 
 النشر مساء الجمعة دون خطة تراجع. انشر عندما يكون الناس متاحين لإصلاح المشكلات.
+
+## لا تخلطه مع
+
+النشر (Deployment) يجعل الكود متاحاً على الخادم، بينما الإصدار (Release) يجعل ذلك البرنامج متاحاً للمستخدمين النهائيين.
+
+## قلها في العمل
+
+- Let us wait for the morning standup before we trigger the deployment.
+  - دعنا ننتظر اجتماع الصباح اليومي قبل أن نبدأ عملية الـ deployment.
+- Please hold off on the deployment until the security scan finishes successfully.
+  - يرجى تأجيل الـ deployment حتى ينتهي فحص الأمان بنجاح.

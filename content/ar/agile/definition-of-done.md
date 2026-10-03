@@ -25,3 +25,14 @@ pronunciation: "ديفينيشن أوف دون"
 ## خطأ شائع
 
 الاعتقاد بأن الـ Definition of Done هي نفسها معايير القبول (Acceptance Criteria) الخاصة بميزة معينة؛ فبينما تكون معايير القبول فريدة لكل مهمة، فإن الـ DoD تنطبق على كل عنصر يعمل عليه الفريق.
+
+## لا تخلطه مع
+
+Definition of Done مقابل Acceptance Criteria: الـ Definition of Done هي قائمة مرجعية عامة لجميع قصص المستخدمين، بينما معايير القبول (Acceptance Criteria) هي شروط خاصة بقصة مستخدم واحدة فقط.
+
+## قلها في العمل
+
+- Let us quickly check our Definition of Done to make sure we did not miss any code reviews.
+  - دعونا نتحقق سريعاً من الـ Definition of Done الخاصة بنا للتأكد من أننا لم نفوت أي مراجعة للكود.
+- Please verify that all items meet the Definition of Done before moving this ticket to the ready column.
+  - يرجى التحقق من أن جميع العناصر تلبي الـ Definition of Done قبل نقل هذه التذكرة إلى عمود الجاهز.

@@ -23,3 +23,12 @@ Freelance discussions, client onboarding, and contract negotiations.
 ## Common mistake
 
 Treating a rate card as a rigid contract rather than a starting point for pricing discussions.
+
+## Don't confuse with
+
+A rate card is a general price list for services, while an estimate is a calculated cost prediction for a specific, scoped project.
+
+## Say it at work
+
+- Take a look at my rate card and let me know which package fits your budget.
+- Please find attached our latest rate card for custom software development services.

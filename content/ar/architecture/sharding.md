@@ -25,3 +25,14 @@ pronunciation: "شارْدِينج"
 ## خطأ شائع
 
 الاعتقاد بأن Sharding مجرد إعداد بسيط يمكن تفعيله؛ فهو قرار معماري معقد يجعل عمليات الاستعلام التي تربط البيانات بين الأجزاء المختلفة (cross-shard queries) وضمان اتساق البيانات أمراً صعب الإدارة.
+
+## لا تخلطه مع
+
+الفرق بين Sharding و Partitioning هو أن التقسيم (Partitioning) عادةً يقسم قاعدة البيانات داخل خادم واحد، بينما التجزئة (Sharding) توزع تلك الأجزاء على خوادم فعلية متعددة.
+
+## قلها في العمل
+
+- Before we hit database limits this holiday season, we should look into sharding our user table.
+  - قبل أن نصل إلى حدود قاعدة البيانات في موسم العطلات هذا، يجب أن نبحث في تجزئة جدول المستخدمين الخاص بنا.
+- Please review the proposed sharding strategy to ensure our cross-shard queries remain efficient.
+  - يرجى مراجعة استراتيجية التجزئة المقترحة لضمان بقاء استعلاماتنا عبر الأجزاء المختلفة كفؤة.

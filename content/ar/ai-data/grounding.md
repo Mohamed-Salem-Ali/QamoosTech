@@ -25,3 +25,14 @@ pronunciation: "جراوندينج"
 ## خطأ شائع
 
 الاعتقاد بأن Grounding هو نفس عملية Fine-tuning؛ فبينما تقوم Fine-tuning بتعديل أوزان النموذج الداخلية، يقوم Grounding بتزويد النموذج بسياق خارجي أثناء وقت التشغيل (Inference).
+
+## لا تخلطه مع
+
+يزود Grounding النموذج اللغوي بسياق خارجي أثناء وقت الاستدلال، بينما تقوم عملية Fine-tuning بتعديل أوزان النموذج الداخلية بشكل دائم باستخدام مجموعة بيانات جديدة.
+
+## قلها في العمل
+
+- Let's check if the grounding pipeline is fetching the latest documents correctly before we merge this PR.
+  - دعونا نتحقق مما إذا كان مسار Grounding يجلب أحدث المستندات بشكل صحيح قبل أن ندمج طلب السحب هذا.
+- We need to improve the grounding mechanism to ensure the chatbot references the updated product specs.
+  - نحتاج إلى تحسين آلية Grounding لضمان أن روبوت المحادثة يشير إلى مواصفات المنتج المحدثة.

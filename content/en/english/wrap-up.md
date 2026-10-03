@@ -22,3 +22,12 @@ Meetings and status updates.
 ## Common mistake
 
 Saying "wrapping up" when you are only halfway. It implies you are almost done.
+
+## Don't confuse with
+
+Wrap up is often confused with 'summarize'; while wrap up means to finish a task or meeting entirely, summarize only refers to condensing the information discussed.
+
+## Say it at work
+
+- I'm just about to wrap up this ticket, so I'll be free to help you in ten minutes.
+- Could you please wrap up the documentation for this feature before we merge the pull request?

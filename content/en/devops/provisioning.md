@@ -23,3 +23,12 @@ In cloud infrastructure management, DevOps team meetings, and documentation for 
 ## Common mistake
 
 Confusing provisioning with deployment; provisioning is about setting up the underlying infrastructure, while deployment is about moving the application code onto that infrastructure.
+
+## Don't confuse with
+
+Provisioning is about setting up the underlying infrastructure, whereas deployment is about placing the application code onto that ready infrastructure.
+
+## Say it at work
+
+- Could you check why the provisioning script failed on the new staging cluster?
+- Please make sure all database resources are properly set up before we start the provisioning phase.

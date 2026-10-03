@@ -25,3 +25,14 @@ pronunciation: "هُوكس"
 ## خطأ شائع
 
 استدعاء الـ hooks داخل حلقات التكرار (loops) أو الشروط (conditions) أو الدوال المتداخلة، وهو ما يخالف القاعدة التي تنص على ضرورة استدعاء الـ hooks دائماً في المستوى الأعلى من المكون.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ Hooks والـ Higher-Order Components (HOCs)؛ فبينما يشترك كلاهما في مشاركة المنطق بين المكونات، فإن الـ Hooks هي دوال ترتبط بحالة React، بينما الـ HOCs هي دوال تأخذ مكوناً وتعيد مكوناً جديداً ومحسناً.
+
+## قلها في العمل
+
+- Can we refactor this repeated logic into a custom hook to keep our component cleaner?
+  - هل يمكننا إعادة هيكلة هذا المنطق المتكرر في custom hook لنجعل المكون الخاص بنا أكثر ترتيباً؟
+- I have extracted the authentication check into a custom hook to improve code reusability across the application.
+  - لقد قمت باستخراج عملية التحقق من الهوية في custom hook لتحسين إمكانية إعادة استخدام الكود في جميع أنحاء التطبيق.

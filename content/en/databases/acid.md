@@ -23,3 +23,8 @@ During database architecture discussions, when choosing a database engine, or wh
 ## Common mistake
 
 Thinking that all databases are ACID-compliant by default; many NoSQL databases prioritize performance or availability over strict ACID guarantees.
+
+## Say it at work
+
+- Let us make sure the new payment service supports ACID transactions before we move forward.
+- Please verify that the database configuration guarantees ACID compliance for all critical financial logs.

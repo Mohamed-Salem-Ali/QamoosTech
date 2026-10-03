@@ -25,3 +25,10 @@ pronunciation: "ستاتس كود"
 ## خطأ شائع
 
 إعادة 200 مع رسالة خطأ في المحتوى. استخدم الرمز الصحيح ليتصرف العميل بشكل سليم.
+
+## قلها في العمل
+
+- Can you check why this endpoint is returning a 500 status code instead of a 400?
+  - هل يمكنك التحقق من سبب إرجاع نقطة النهاية هذه لرمز الحالة 500 بدلاً من 400؟
+- Please ensure the payment service returns the correct status code when a transaction fails.
+  - يرجى التأكد من أن خدمة الدفع تعيد رمز الحالة الصحيح عند فشل المعاملة.

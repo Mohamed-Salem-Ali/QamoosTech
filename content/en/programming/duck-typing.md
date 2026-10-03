@@ -23,3 +23,12 @@ In code reviews, discussions about dynamic language design, or when explaining w
 ## Common mistake
 
 Thinking that duck typing means there is no type system at all; it just means the type is checked at runtime based on capabilities rather than explicit inheritance.
+
+## Don't confuse with
+
+Duck typing is often confused with structural typing; while duck typing checks for methods at runtime, structural typing enforces these requirements statically during compilation.
+
+## Say it at work
+
+- We can simplify this function by using duck typing instead of forcing a specific class inheritance.
+- The current implementation relies on duck typing, so please ensure the passed object implements the required interface methods.

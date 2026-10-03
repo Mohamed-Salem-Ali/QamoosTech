@@ -22,3 +22,12 @@ Contracts, proposals, and project plans.
 ## Common mistake
 
 Making milestones too big. Smaller milestones make progress visible and reduce payment risk.
+
+## Don't confuse with
+
+Milestone vs. Deliverable: A milestone is a specific point in time or a project phase, whereas a deliverable is the actual tangible product or document produced during that phase.
+
+## Say it at work
+
+- Let's break the project into smaller chunks so we can define a clear milestone for the end of each month.
+- I have attached the documentation for the current phase, as we have officially completed this milestone.

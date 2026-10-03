@@ -22,3 +22,12 @@ Healthcare, finance, and any system with personal data.
 ## Common mistake
 
 Encrypting a field and then printing it in plain text in logs or error messages.
+
+## Don't confuse with
+
+Field-level encryption encrypts specific columns at the application layer, while transparent data encryption encrypts the entire database file automatically at the storage layer.
+
+## Say it at work
+
+- Can we use field-level encryption for the credit card numbers in the payload?
+- Please ensure that field-level encryption is applied to all personally identifiable information before storing it in the database.

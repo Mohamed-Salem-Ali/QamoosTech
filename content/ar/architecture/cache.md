@@ -25,3 +25,14 @@ pronunciation: "كاش"
 ## خطأ شائع
 
 التخزين المؤقت دون خطة لتحديثه. يرى المستخدمون بيانات قديمة ولا يعرف أحد السبب.
+
+## لا تخلطه مع
+
+الـ cache يخزن البيانات مؤقتاً لتسهيل وسرعة الوصول إليها، بينما قاعدة البيانات تخزن مصدر الحقيقة بشكل دائم.
+
+## قلها في العمل
+
+- Let's add a cache layer here so we can reduce the load on the main database.
+  - دعنا نضيف طبقة cache هنا لنتمكن من تقليل الضغط على قاعدة البيانات الرئيسية.
+- Please invalidate the cache after updating user profiles to prevent stale data issues.
+  - يرجى إلغاء الـ cache بعد تحديث الملفات الشخصية للمستخدمين لمنع مشاكل البيانات القديمة.

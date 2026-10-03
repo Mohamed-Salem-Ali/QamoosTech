@@ -25,3 +25,12 @@ An HTTP header that tells the receiving server or client what format the data in
 ## Common mistake
 
 Assuming the server automatically knows what data format you are sending without explicitly setting the header.
+
+## Don't confuse with
+
+Content-Type is often confused with Accept; Content-Type describes the format of the data being sent, while Accept tells the server which format the client prefers to receive.
+
+## Say it at work
+
+- Hey, make sure you set the Content-Type to application/json in your fetch call, otherwise the API might throw a 415 error.
+- I have updated the request headers to include the correct Content-Type, which should resolve the parsing issues we encountered during testing.

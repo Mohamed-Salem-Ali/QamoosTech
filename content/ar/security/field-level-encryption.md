@@ -25,3 +25,14 @@ pronunciation: "فيلد ليفل إنكريبشن"
 ## خطأ شائع
 
 تشفير حقل ثم طباعته نصًا واضحًا في السجلات أو رسائل الأخطاء.
+
+## لا تخلطه مع
+
+التشفير على مستوى الحقل يشفر أعمدة محددة في طبقة التطبيق، بينما التشفير الشفاف للبيانات يشفر ملف قاعدة البيانات بالكامل تلقائياً في طبقة التخزين.
+
+## قلها في العمل
+
+- Can we use field-level encryption for the credit card numbers in the payload?
+  - هل يمكننا استخدام التشفير على مستوى الحقل لأرقام بطاقات الائتمان في الحمولة؟
+- Please ensure that field-level encryption is applied to all personally identifiable information before storing it in the database.
+  - يرجى التأكد من تطبيق التشفير على مستوى الحقل على جميع معلومات التعريف الشخصية قبل تخزينها في قاعدة البيانات.

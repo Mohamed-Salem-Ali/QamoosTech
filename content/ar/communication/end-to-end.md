@@ -25,3 +25,14 @@ pronunciation: "إند تو إند"
 ## خطأ شائع
 
 ادعاء «end-to-end» وأنت نفذت جزءًا فقط. سيطرح عليك المحاورون أسئلة متابعة.
+
+## لا تخلطه مع
+
+اختبار End-to-end يغطي رحلة المستخدم الكاملة عبر النظام، بينما اختبار التكامل (integration testing) يتحقق فقط من أن الوحدات أو الخدمات المختلفة تعمل معًا بشكل صحيح.
+
+## قلها في العمل
+
+- Let's make sure we have an end-to-end solution ready before presenting it to the team.
+  - دعونا نتأكد من تجهيز حل شامل (end-to-end) قبل عرضه على الفريق.
+- Please ensure this user flow is tested end-to-end in the staging environment before merging the pull request.
+  - يرجى التأكد من اختبار مسار المستخدم هذا بشكل كامل (end-to-end) في بيئة الـ staging قبل دمج الـ pull request.

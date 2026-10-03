@@ -22,3 +22,8 @@ API documentation, debugging in the browser Network tab, and logs.
 ## Common mistake
 
 Mixing up the two when reporting bugs. Say clearly whether the problem is in what you sent or in what came back.
+
+## Say it at work
+
+- Let us check the payload of this request and see what response the server returns.
+- Please attach the request headers and the response logs to the Jira ticket.

@@ -22,3 +22,12 @@ Support work and client updates.
 ## Common mistake
 
 Promising a very fast turnaround without a buffer. Delays then damage trust.
+
+## Don't confuse with
+
+Turnaround time is often confused with lead time; turnaround time measures the duration to complete a specific task once it has started, whereas lead time includes the waiting period before the task actually begins.
+
+## Say it at work
+
+- What is the expected turnaround time for this feature request so I can plan my sprint accordingly?
+- Please note that the turnaround time for reviewing this pull request may be slightly longer than usual due to the current high volume of tasks.

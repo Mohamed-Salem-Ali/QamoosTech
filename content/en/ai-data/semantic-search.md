@@ -23,3 +23,12 @@ In AI engineering, when building modern search engines, implementing RAG pipelin
 ## Common mistake
 
 Thinking semantic search replaces traditional keyword search entirely, when in reality they are often combined for the best results.
+
+## Don't confuse with
+
+Semantic search understands the intent and conceptual meaning behind a query, whereas keyword search only looks for exact string matches of the entered words.
+
+## Say it at work
+
+- Let's use semantic search here so the users can find what they need even if they misspell the terms.
+- Please ensure that the vector database index is updated before we test the new semantic search feature.

@@ -22,3 +22,8 @@ Debugging APIs, logs, and error reports.
 ## Common mistake
 
 Returning 200 with an error message inside. Use the right code so clients can react correctly.
+
+## Say it at work
+
+- Can you check why this endpoint is returning a 500 status code instead of a 400?
+- Please ensure the payment service returns the correct status code when a transaction fails.

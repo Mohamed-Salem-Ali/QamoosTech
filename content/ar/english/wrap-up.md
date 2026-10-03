@@ -25,3 +25,14 @@ pronunciation: "راب أب"
 ## خطأ شائع
 
 قول «wrapping up» وأنت في منتصف الطريق. العبارة تعني أنك على وشك الانتهاء.
+
+## لا تخلطه مع
+
+يتم الخلط أحياناً بين wrap up و summarize؛ فبينما يعني wrap up إنهاء المهمة أو الاجتماع بالكامل، يشير summarize فقط إلى تلخيص المعلومات التي تمت مناقشتها.
+
+## قلها في العمل
+
+- I'm just about to wrap up this ticket, so I'll be free to help you in ten minutes.
+  - أنا على وشك إنهاء هذا الـ ticket، لذا سأكون متفرغاً لمساعدتك خلال عشر دقائق.
+- Could you please wrap up the documentation for this feature before we merge the pull request?
+  - هل يمكنك من فضلك إنهاء توثيق هذه الـ feature قبل أن نقوم بدمج الـ pull request؟

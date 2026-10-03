@@ -25,3 +25,14 @@ pronunciation: "كوكي"
 ## خطأ شائع
 
 تخزين بيانات حساسة مباشرة في الـ cookie. خزّن معرّف جلسة فقط وأبقِ البيانات في الخادم.
+
+## لا تخلطه مع
+
+يُخزَّن ملف تعريف الارتباط على جهاز العميل ويُرسل مع كل طلب HTTP، بينما التخزين المحلي موجود على جهاز العميل أيضاً ولكنه يحفظ البيانات دون إرسالها تلقائياً إلى الخادم.
+
+## قلها في العمل
+
+- Can we check if the authentication cookie is being sent properly in the request headers?
+  - هل يمكننا التحقق مما إذا كان cookie المصادقة يُرسل بشكل صحيح في ترويسات الطلب؟
+- Please ensure that all sensitive cookies are configured with the Secure and SameSite flags before merging this PR.
+  - يرجى التأكد من ضبط جميع ملفات تعريف الارتباط الحساسة باستخدام علامات Secure و SameSite قبل دمج طلب السحب هذا.

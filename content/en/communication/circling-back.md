@@ -22,3 +22,12 @@ Work emails and meetings.
 ## Common mistake
 
 Using it too often as a way to avoid deciding. Say what decision you need.
+
+## Don't confuse with
+
+Circling back is often confused with follow-up; while circling back implies returning to a specific pending topic, follow-up is a broader term for checking the status of any task or process.
+
+## Say it at work
+
+- I'm just circling back to see if you had a chance to review the latest API documentation.
+- I am circling back to this ticket to confirm that the reported bug has been successfully resolved in the staging environment.

@@ -22,3 +22,12 @@ Pull requests and release time.
 ## Common mistake
 
 Merging without running the tests. Always let the checks finish first.
+
+## Don't confuse with
+
+Merge combines branches by creating a new commit that preserves history, while rebase rewrites project history by moving your commits on top of another branch.
+
+## Say it at work
+
+- Can someone please review and merge this pull request when you have a moment?
+- Please merge the latest changes from the staging branch before submitting your code for review.

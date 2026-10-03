@@ -25,3 +25,14 @@ pronunciation: "تروثي فيرسز فالسي"
 ## خطأ شائع
 
 الاعتقاد بأن `true` و `false` فقط هما ما يمكن استخدامهما في الشروط؛ فالمبرمجون المبتدئون ينسون غالباً أن قيمًا مثل `0` أو `null` أو المصفوفات الفارغة تُعامل كـ falsy في لغات برمجة كثيرة.
+
+## لا تخلطه مع
+
+يتم الخلط أحياناً بين مفاهيم Truthy/Falsy ومفاهيم Null/Undefined؛ فبينما تشير Truthy/Falsy إلى كيفية سلوك القيمة في السياق المنطقي، تشير Null/Undefined إلى غياب القيمة أو حالة المتغير غير المهيأ.
+
+## قلها في العمل
+
+- Be careful with that variable, it might be falsy if the API returns an empty list.
+  - كن حذراً مع هذا المتغير، فقد يكون falsy إذا أرجعت واجهة البرمجة قائمة فارغة.
+- I suggest adding an explicit check for null to avoid issues with other falsy values.
+  - أقترح إضافة فحص صريح للقيمة null لتجنب المشاكل الناتجة عن قيم falsy أخرى.

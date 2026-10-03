@@ -23,3 +23,8 @@ In JavaScript interviews, functional programming discussions, and when explainin
 ## Common mistake
 
 Thinking a closure is a special syntax, when it is actually just a natural behavior of functions retaining access to their creation environment.
+
+## Say it at work
+
+- Let's use a closure here to keep the count variable private and secure from outside modification.
+- I updated the implementation to use a closure so the callback retains access to the current configuration.

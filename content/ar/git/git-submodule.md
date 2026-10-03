@@ -25,3 +25,14 @@ pronunciation: "جيت سب مودول"
 ## خطأ شائع
 
 تحديث المستودع الفرعي ونسيان حفظ المؤشر الجديد في المستودع الأب.
+
+## لا تخلطه مع
+
+الفرق بين Git Submodule و Git Subtree هو أن الـ submodule يبقي المستودعات كيانات منفصلة مرتبطة بمؤشر، بينما يقوم الـ subtree بدمج محتويات المستودع الفرعي مباشرة داخل تاريخ المستودع الأب.
+
+## قلها في العمل
+
+- I'm having trouble pulling the latest changes; did you remember to update the Git submodule pointer?
+  - أواجه مشكلة في سحب آخر التغييرات؛ هل تذكرت تحديث مؤشر الـ Git submodule؟
+- Please ensure the Git submodule is initialized correctly in the CI pipeline to avoid build failures.
+  - يرجى التأكد من تهيئة الـ Git submodule بشكل صحيح في مسار الـ CI لتجنب فشل عملية البناء.

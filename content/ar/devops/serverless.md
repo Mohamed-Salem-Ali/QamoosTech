@@ -25,3 +25,10 @@ AWS Lambda ودوال Vercel ونقاشات التكلفة.
 ## خطأ شائع
 
 الاعتقاد بأنه لا توجد خوادم إطلاقًا. هي موجودة لكنك لا تديرها.
+
+## قلها في العمل
+
+- Let us move this notification worker to serverless so we do not pay for idle time.
+  - دعنا ننقل عامل الإشعارات هذا إلى serverless لكي لا ندفع مقابل وقت الخمول.
+- We should use a serverless architecture for the background processing to handle the traffic spikes efficiently.
+  - يجب أن نستخدم معمقّة serverless للمعالجة في الخلفية للتعامل بكفاءة مع ارتفاعات حركة المرور.

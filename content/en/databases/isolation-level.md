@@ -23,3 +23,8 @@ In database configuration, performance tuning discussions, or when troubleshooti
 ## Common mistake
 
 Assuming that a higher isolation level is always better, ignoring that it can significantly decrease concurrency and cause performance bottlenecks.
+
+## Say it at work
+
+- Let's check the current isolation level on the database to see if it's causing these deadlocks.
+- Please update the transaction isolation level in the configuration file before deploying the fix.

@@ -25,3 +25,14 @@ pronunciation: "ريستفل إيه بي آي"
 ## خطأ شائع
 
 تسمية كل API تعمل عبر HTTP بأنها «REST». كثير منها مجرد «HTTP API» ولا يتبع قواعد REST مثل استخدام الأفعال الصحيحة.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين واجهة REST وGraphQL، ولكن بينما تستخدم REST نقاط نهاية متعددة وطرق HTTP القياسية، تستخدم GraphQL نقطة نهاية واحدة وتسمح للعملاء بطلب البيانات التي يحتاجونها بالضبط.
+
+## قلها في العمل
+
+- Let's make sure our new RESTful API endpoints follow standard naming conventions before we publish the documentation.
+  - دعونا نتأكد من أن نقاط نهاية واجهة REST الجديدة تتبع اصطلاحات التسمية القياسية قبل أن ننشر الوثائق.
+- Please update the authentication headers in this RESTful API pull request so the frontend tests can pass successfully.
+  - يرجى تحديث ترويسات المصادقة في طلب الدمج الخاص بواجهة REST هذه لكي تنجح اختبارات الواجهة الأمامية بنجاح.

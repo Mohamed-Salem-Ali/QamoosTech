@@ -22,3 +22,12 @@ Code reviews, sprint planning, and technical-debt discussions.
 ## Common mistake
 
 Refactoring without tests. If you cannot prove the behavior is unchanged, you are just rewriting.
+
+## Don't confuse with
+
+Refactoring changes the internal structure without altering external behavior, while rewriting discards the existing code to build it again from scratch.
+
+## Say it at work
+
+- I will spend the afternoon refactoring this messy function to make it easier to read.
+- Please ensure that all unit tests pass after completing the refactoring for this module.

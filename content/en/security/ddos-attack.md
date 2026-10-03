@@ -23,3 +23,8 @@ In security incident reports, infrastructure monitoring discussions, and when pl
 ## Common mistake
 
 Confusing a DDoS attack with a simple server crash caused by a bug; a DDoS is specifically a coordinated external effort to exhaust resources through high traffic volume.
+
+## Say it at work
+
+- Let's check the traffic logs to see if this sudden latency spike is a DDoS attack or just organic user growth.
+- We need to configure our cloud provider's anti-DDoS protection before the upcoming product launch.

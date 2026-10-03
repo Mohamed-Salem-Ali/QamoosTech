@@ -22,3 +22,12 @@ Release testing and bug reports.
 ## Common mistake
 
 Fixing a regression without adding a test. It may come back again.
+
+## Don't confuse with
+
+Regression is often confused with a new bug; however, a regression specifically refers to a feature that was previously functional but broke due to a recent code change.
+
+## Say it at work
+
+- I think we introduced a regression with the latest merge, so let's check the login flow again.
+- Please investigate this issue, as it appears to be a regression caused by the recent database migration.

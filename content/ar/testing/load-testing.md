@@ -25,3 +25,10 @@ pronunciation: "لود تيستينج"
 ## خطأ شائع
 
 الخلط بين Load testing و Stress testing؛ فبينما يختبر الـ Load testing الأداء ضمن الحدود المتوقعة، يقوم الـ Stress testing بدفع النظام إلى ما بعد حدوده القصوى لمعرفة كيف ومتى ينهار النظام.
+
+## قلها في العمل
+
+- Let's review the load testing results in our next standup to see if we hit our latency goals.
+  - دعنا نراجع نتائج الـ load testing في اجتماع الـ standup القادم لنرى ما إذا قد حققنا أهداف زمن الانتقال.
+- Please attach the latest load testing report to this ticket before we merge the changes.
+  - يرجى إرفاق أحدث تقرير لـ load testing بهذه التذكرة قبل أن نقوم بدمج التعديلات.

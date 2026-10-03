@@ -25,3 +25,14 @@ pronunciation: "أوت-أوف-ذا-بوكس"
 ## خطأ شائع
 
 الاعتقاد بأن "out-of-the-box" تعني أن الميزة مثالية لكل الحالات؛ فغالباً ما ستحتاج إلى بعض التعديلات لتناسب منطق العمل الخاص بك.
+
+## لا تخلطه مع
+
+المقارنة بين Out-of-the-box و Custom-built: يشير مصطلح Out-of-the-box إلى الوظائف الجاهزة للاستخدام الفوري، بينما تشير الحلول المخصصة (Custom-built) إلى البرمجيات التي يتم تطويرها من الصفر لتلبية متطلبات فريدة.
+
+## قلها في العمل
+
+- Does this library have out-of-the-box support for dark mode, or do we need to implement it ourselves?
+  - هل توفر هذه المكتبة دعماً جاهزاً (out-of-the-box) للوضع الليلي، أم نحتاج إلى برمجته بأنفسنا؟
+- The current solution provides out-of-the-box integration with our cloud provider, which should significantly reduce our development time.
+  - يوفر الحل الحالي تكاملاً جاهزاً (out-of-the-box) مع مزود الخدمة السحابية الخاص بنا، مما سيقلل من وقت التطوير بشكل ملحوظ.

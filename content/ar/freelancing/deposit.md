@@ -26,3 +26,14 @@ pronunciation: "ديپوزيت"
 ## خطأ شائع
 
 الاعتقاد بأن البدء في كتابة الكود آمن قبل استلام الدفعة المقدمة، مما قد يعرضك لخسارة مستحقاتك إذا اختفى العميل.
+
+## لا تخلطه مع
+
+الفرق بين الدفعة المقدمة (Deposit) والراتب الشهري الثابت (Retainer) هو أن الدفعة المقدمة تكون لمرة واحدة لمشروع محدد، بينما الراتب الثابت هو مبلغ دوري يُدفع لضمان توافرك أو مقابل خدمات مستمرة خلال فترة زمنية معينة.
+
+## قلها في العمل
+
+- Could you please confirm when the deposit will be transferred so I can schedule the project start date?
+  - هل يمكنك تأكيد موعد تحويل الدفعة المقدمة حتى أتمكن من جدولة تاريخ بدء المشروع؟
+- Please note that work on this feature will commence immediately upon receipt of the initial deposit.
+  - يرجى العلم أن العمل على هذه الميزة سيبدأ فور استلام الدفعة المقدمة.

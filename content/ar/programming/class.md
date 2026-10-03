@@ -25,3 +25,14 @@ pronunciation: "كلاس"
 ## خطأ شائع
 
 وضع كل شيء في فئة واحدة ضخمة. الفئات الصغيرة ذات المسؤولية الواحدة أسهل في الاختبار.
+
+## لا تخلطه مع
+
+الفئة (Class) تُعرّف المخطط والبنية لإنشاء الكائنات، بينما الكائن (Object) هو النسخة الفعلية من تلك الفئة التي تعمل في الذاكرة.
+
+## قلها في العمل
+
+- Let's create a new class for the payment processing logic to keep things modular.
+  - لننشئ فئة جديدة لمنطق معالجة المدفوعات للحفاظ على تنظيم الكود وحدوياً.
+- Please ensure this class handles only single-responsibility tasks before we merge the pull request.
+  - الرجاء التأكد من أن هذه الفئة تتعامل مع مهام ذات مسؤولية واحدة فقط قبل أن ندمج طلب السحب.

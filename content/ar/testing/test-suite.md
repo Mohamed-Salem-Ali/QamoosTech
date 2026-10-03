@@ -26,3 +26,14 @@ translation: "حزمة اختبارات"
 ## خطأ شائع
 
 الاعتقاد بأن Test Suite تعني اختباراً واحداً، بينما هي في الواقع مجموعة تحتوي على العديد من الاختبارات.
+
+## لا تخلطه مع
+
+حزمة الاختبارات (Test Suite) هي مجموعة تضم عدة اختبارات، بينما حالة الاختبار (Test Case) هي سيناريو اختبار فردي واحد فقط.
+
+## قلها في العمل
+
+- Let us run the full test suite locally before merging this PR to make sure nothing is broken.
+  - دعونا نشغل حزمة الاختبارات كاملة محلياً قبل دمج طلب الدمج هذا للتأكد من عدم تعطل أي شيء.
+- Please ensure that the integration test suite passes successfully before requesting a review.
+  - يرجى التأكد من اجتياز حزمة اختبارات التكامل بنجاح قبل طلب مراجعة الكود.

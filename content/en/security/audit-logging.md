@@ -22,3 +22,12 @@ Healthcare, finance, and security reviews.
 ## Common mistake
 
 Allowing audit logs to be edited or deleted. Then nobody can trust them.
+
+## Don't confuse with
+
+Audit logging records security and business events for compliance, while standard application logging focuses on debugging technical issues and system errors.
+
+## Say it at work
+
+- Make sure we have audit logging enabled for all admin actions before we release this feature.
+- Please add audit logging to this endpoint so we can track who updates user permissions.

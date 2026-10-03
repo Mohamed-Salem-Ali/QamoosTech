@@ -25,3 +25,10 @@ pronunciation: "سي آي سي دي"
 ## خطأ شائع
 
 الخلط بين Continuous Delivery وContinuous Deployment. الأولى تعني «جاهز للنشر» والثانية «يُنشر تلقائيًا».
+
+## قلها في العمل
+
+- Can you check why the CI/CD pipeline is failing on the master branch?
+  - هل يمكنك التحقق من سبب فشل خط أنابيب CI/CD على فرع master؟
+- We need to update our CI/CD workflow to run security scans before deploying to production.
+  - يحتاج إلى تحديث مسار عمل CI/CD الخاص بنا لتشغيل فحوصات الأمان قبل النشر إلى الإنتاج.

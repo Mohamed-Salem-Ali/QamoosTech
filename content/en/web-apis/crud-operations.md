@@ -26,3 +26,12 @@ CRUD stands for Create, Read, Update, and Delete, representing the four basic fu
 ## Common mistake
 
 Assuming that every API endpoint must strictly follow CRUD operations, whereas many complex actions and workflows require custom endpoints that do not fit neatly into Create, Read, Update, or Delete.
+
+## Don't confuse with
+
+CRUD operations are often confused with RESTful API methods, but while CRUD describes the data management logic, REST is an architectural style that uses HTTP verbs to implement those operations.
+
+## Say it at work
+
+- Let's stick to standard CRUD operations for this resource instead of creating custom endpoints for every action.
+- I have implemented the necessary CRUD operations for the user model to ensure full data management capabilities.

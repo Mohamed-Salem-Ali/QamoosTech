@@ -25,3 +25,14 @@ pronunciation: "برومبت إنجنيرينج"
 ## خطأ شائع
 
 كتابة تعليمات غامضة ولوم النموذج. كن محددًا في المهمة والتنسيق والحدود.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين هندسة التعليمات (Prompt Engineering) وحقن التعليمات (Prompt Injection)؛ فالأولى هي عملية بناءة لتحسين المدخلات لتوجيه النموذج، بينما الثانية هي ثغرة أمنية حيث يتلاعب المهاجم بالمدخلات لتجاوز قيود النموذج.
+
+## قلها في العمل
+
+- I've been tweaking our prompt engineering to make the chatbot's tone more consistent with our brand guidelines.
+  - لقد كنت أعدل في هندسة التعليمات الخاصة بنا لجعل نبرة روبوت المحادثة أكثر اتساقًا مع إرشادات علامتنا التجارية.
+- Please review the updated prompt engineering documentation to ensure our system prompts follow the new security standards.
+  - يرجى مراجعة وثائق هندسة التعليمات المحدثة للتأكد من أن تعليمات النظام لدينا تتبع معايير الأمان الجديدة.

@@ -25,3 +25,14 @@ pronunciation: "تيست رانر"
 ## خطأ شائع
 
 الخلط بين الـ test runner وإطار عمل الاختبار (Testing Framework) نفسه؛ فإطار العمل يوفر البنية لكتابة الاختبارات (مثل التحققات)، بينما الـ runner هو المحرك الذي يقوم بتنفيذها فعلياً.
+
+## لا تخلطه مع
+
+الخلط بين الـ test runner وإطار عمل الاختبار (testing framework)؛ حيث يوفر إطار العمل البنية والتحققات لكتابة الاختبارات، بينما يعد الـ runner هو المحرك المسؤول عن اكتشافها وتنفيذها.
+
+## قلها في العمل
+
+- Which test runner are we using for this project to ensure our unit tests run in parallel?
+  - أي test runner نستخدمه في هذا المشروع لضمان تشغيل اختبارات الوحدة بالتوازي؟
+- I have updated the configuration file so that the test runner correctly identifies the new test suite.
+  - لقد قمت بتحديث ملف الإعدادات لكي يتمكن الـ test runner من التعرف على مجموعة الاختبارات الجديدة بشكل صحيح.

@@ -23,3 +23,12 @@ Database performance tuning sessions, schema design reviews, and when optimizing
 ## Common mistake
 
 Assuming that a composite index on `(A, B)` automatically speeds up queries that only filter by column `B` alone; it usually only works if the query includes the leftmost column `A`.
+
+## Don't confuse with
+
+Composite index vs. multi-column index: these terms are often used interchangeably, but a composite index specifically refers to the order of columns which dictates how the B-tree structure is traversed.
+
+## Say it at work
+
+- We should consider adding a composite index on these two columns to reduce the query execution time.
+- I have identified that the slow performance is due to a missing composite index on the filtering criteria.

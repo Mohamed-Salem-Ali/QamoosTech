@@ -25,3 +25,14 @@ pronunciation: "سكيلابيليتي"
 ## خطأ شائع
 
 قول «scalable» دون شرح الكيفية. وضّح ما الذي يتوسع وكيف، مثل «أفقيًا عبر حاويات بلا حالة».
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين قابلية التوسع (Scalability) والمرونة (Elasticity)؛ فبينما تعني قابلية التوسع القدرة على التعامل مع زيادة الحمل بإضافة موارد، تعني المرونة القدرة على إضافة أو إزالة هذه الموارد تلقائيًا بناءً على الطلب الفعلي.
+
+## قلها في العمل
+
+- We need to ensure our database architecture has enough scalability to handle the projected traffic spike next month.
+  - نحتاج إلى التأكد من أن بنية قاعدة البيانات لدينا تمتلك قابلية التوسع الكافية للتعامل مع ذروة الحركة المتوقعة الشهر المقبل.
+- The current monolithic structure limits our scalability, so I suggest we migrate to a microservices approach.
+  - الهيكلية الأحادية (monolithic) الحالية للنظام تحد من قابلية التوسع لدينا، لذا أقترح أن ننتقل إلى نهج الخدمات المصغرة.

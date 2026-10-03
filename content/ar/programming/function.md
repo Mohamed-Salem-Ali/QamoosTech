@@ -25,3 +25,14 @@ pronunciation: "فانكشن"
 ## خطأ شائع
 
 كتابة دالة ضخمة تفعل أشياء كثيرة. يجب أن تؤدي الدالة مهمة واحدة، وأن يسهل تسميتها.
+
+## لا تخلطه مع
+
+الدالة (Function) مقابل التابع (Method): الدالة هي كتلة برمجية مستقلة، بينما التابع هو دالة مرتبطة بكائن أو صنف معين.
+
+## قلها في العمل
+
+- I think we should break this logic down into a smaller helper function to make the code cleaner.
+  - أعتقد أنه يجب علينا تقسيم هذا المنطق إلى دالة مساعدة أصغر لنجعل الكود أكثر ترتيباً.
+- Please ensure that this function includes proper error handling before we merge the pull request.
+  - يرجى التأكد من أن هذه الدالة تتضمن معالجة مناسبة للأخطاء قبل أن نقوم بدمج طلب السحب.

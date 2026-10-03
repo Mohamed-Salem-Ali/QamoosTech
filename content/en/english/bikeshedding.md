@@ -22,3 +22,12 @@ Meetings and code reviews.
 ## Common mistake
 
 Using the word to end any discussion. Naming matters; the problem is wasting time out of proportion.
+
+## Don't confuse with
+
+Bikeshedding focuses on wasting time on trivial details, whereas yak shaving is about getting sidetracked by solving an endless chain of unexpected prerequisite problems.
+
+## Say it at work
+
+- I know we all have strong opinions on the indentation style, but let us not do any more bikeshedding on this pull request.
+- Please focus the architectural review on core scalability issues and avoid bikeshedding on minor configuration formats.

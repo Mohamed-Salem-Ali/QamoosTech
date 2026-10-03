@@ -22,3 +22,12 @@ Frontend tasks, design reviews, and client feedback ("it looks broken on my phon
 ## Common mistake
 
 Testing only on your own screen. Check at least a narrow phone width and a wide desktop width.
+
+## Don't confuse with
+
+Responsive design automatically scales layouts to fit any screen size, while adaptive design uses distinct static layouts tailored for specific predefined screen resolutions.
+
+## Say it at work
+
+- Let's make sure the responsive design handles the mobile navigation menu correctly before we merge this PR.
+- Please review the attached mockups to ensure the responsive design requirements are met across all targeted tablet and phone viewports.

@@ -22,3 +22,8 @@ Code reviews and meetings.
 ## Common mistake
 
 Being too blunt. Say "I noticed… could you take a look?" instead of "this is wrong".
+
+## Say it at work
+
+- Could you point out where the logs are stored for this microservice?
+- I would like to point out that the current implementation may cause a memory leak under high load.

@@ -23,3 +23,12 @@ During sprint reviews, project handoffs, or when discussing the final sign-off c
 ## Common mistake
 
 Confusing acceptance tests with unit tests; while unit tests check if individual code components work, acceptance tests focus on whether the entire feature fulfills the business goal.
+
+## Don't confuse with
+
+Acceptance testing is often confused with User Acceptance Testing (UAT); while acceptance testing is a broad term for verifying business requirements, UAT specifically refers to the final phase where actual end-users validate the system in a real-world environment.
+
+## Say it at work
+
+- Let's quickly go over the acceptance test criteria to make sure we're all on the same page before the demo.
+- I have updated the ticket with the latest acceptance test scenarios for your review and approval.

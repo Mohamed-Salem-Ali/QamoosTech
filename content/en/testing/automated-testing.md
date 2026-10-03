@@ -25,3 +25,12 @@ Using software tools and scripts to run tests on code automatically, rather than
 ## Common mistake
 
 Thinking that automated testing replaces manual testing entirely, rather than complementing it by handling repetitive checks.
+
+## Don't confuse with
+
+Automated testing runs pre-written scripts to check software, while manual testing relies on human explorers to interact with the application and find unexpected bugs.
+
+## Say it at work
+
+- Let's make sure we have automated testing in place for this new feature before merging the PR.
+- Please ensure that automated testing covers the edge cases we discussed before submitting the code for review.

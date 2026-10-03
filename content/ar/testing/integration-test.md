@@ -25,3 +25,14 @@ pronunciation: "إنتجريشن تست"
 ## خطأ شائع
 
 اختبار كل شيء باختبارات التكامل فقط. هي بطيئة، فاجعل معظم الاختبارات اختبارات وحدة.
+
+## لا تخلطه مع
+
+اختبار التكامل مقابل اختبار الطرف إلى الطرف (E2E): يتحقق اختبار التكامل من التفاعل بين وحدتين أو أكثر داخل النظام، بينما يحاكي اختبار الطرف إلى الطرف رحلة مستخدم كاملة عبر كامل حزمة التطبيق.
+
+## قلها في العمل
+
+- We need to add an integration test for the new payment service to ensure it communicates correctly with the database.
+  - نحتاج إلى إضافة اختبار تكامل لخدمة الدفع الجديدة للتأكد من أنها تتواصل بشكل صحيح مع قاعدة البيانات.
+- I have updated the CI pipeline to include an integration test that validates the API response against the staging environment.
+  - لقد قمت بتحديث خط أنابيب الـ CI ليشمل اختبار تكامل يتحقق من استجابة الـ API مقابل بيئة الـ staging.

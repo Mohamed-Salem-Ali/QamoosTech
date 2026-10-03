@@ -23,3 +23,8 @@ During project planning meetings, code reviews, or when discussing new feature r
 ## Common mistake
 
 Using it to mean "delaying" a task. Pushing back is an act of verbal or written negotiation, not the act of postponing the work itself.
+
+## Say it at work
+
+- We need to push back on this feature request during the planning meeting because we do not have enough capacity.
+- I pushed back on the tight deadline to ensure the team can deliver stable code without burning out.

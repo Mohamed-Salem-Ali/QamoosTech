@@ -23,3 +23,12 @@ During the CI/CD pipeline, at the start of a QA cycle, or after a new deployment
 ## Common mistake
 
 Confusing a smoke test with a comprehensive test suite; a smoke test is meant to be fast and shallow, not to cover every possible edge case or functional requirement.
+
+## Don't confuse with
+
+A smoke test checks only the most critical functions to ensure basic stability, whereas a sanity test is a quick, focused verification of a specific recently changed feature.
+
+## Say it at work
+
+- Let's run a quick smoke test on the staging environment to make sure the build is stable.
+- Please ensure the automated smoke test passes successfully before merging this pull request.

@@ -23,3 +23,12 @@ In architectural discussions, during code reviews, or when designing software co
 ## Common mistake
 
 Thinking that abstraction means removing functionality; it actually means hiding how that functionality is achieved to reduce cognitive load.
+
+## Don't confuse with
+
+Abstraction is often confused with encapsulation, but abstraction focuses on hiding the implementation details from the user, while encapsulation focuses on bundling data and methods together to protect the internal state.
+
+## Say it at work
+
+- We need more abstraction in this service layer so we can easily swap out the payment provider later.
+- Please improve the abstraction of these database calls to keep the business logic clean and decoupled.

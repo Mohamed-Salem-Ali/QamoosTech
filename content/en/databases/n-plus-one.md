@@ -22,3 +22,12 @@ ORM performance reviews and slow-page investigations.
 ## Common mistake
 
 Testing only with 5 rows. The problem appears only with thousands of rows in production.
+
+## Don't confuse with
+
+N+1 query problem is often mixed up with a slow database index, but while an index speeds up a single query, N+1 causes hundreds of unnecessary queries to run.
+
+## Say it at work
+
+- We need to fix this N+1 query issue on the dashboard before we release it to production.
+- This pull request introduces an N+1 query problem when fetching user profiles, please use eager loading instead.

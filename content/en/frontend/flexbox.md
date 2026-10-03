@@ -23,3 +23,12 @@ During frontend development meetings, CSS styling discussions, or when building 
 ## Common mistake
 
 Trying to use Flexbox for complex two-dimensional layouts, where CSS Grid would be a more appropriate and efficient tool.
+
+## Don't confuse with
+
+Flexbox is designed for one-dimensional layouts in either a row or a column, while CSS Grid is built for two-dimensional layouts controlling both rows and columns simultaneously.
+
+## Say it at work
+
+- Can we use Flexbox here so these items wrap nicely on smaller screens?
+- I updated the container style to use Flexbox for better alignment of the action buttons.

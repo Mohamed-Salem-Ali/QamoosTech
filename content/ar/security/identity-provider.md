@@ -25,3 +25,14 @@ pronunciation: "آيدينتيتي بروفايدر"
 ## خطأ شائع
 
 الخلط بين الـ Identity Provider والـ Service Provider؛ فالأول هو المسؤول عن التحقق من الهوية، بينما الثاني هو التطبيق الذي يحاول المستخدم الوصول إليه.
+
+## لا تخلطه مع
+
+الخلط بين الـ Identity Provider والـ Service Provider؛ فالأول يقوم بالتحقق من هوية المستخدم، بينما يعتمد الثاني على هذا التحقق لمنح صلاحية الوصول إلى تطبيق أو مورد معين.
+
+## قلها في العمل
+
+- We should check if our current Identity Provider supports OIDC so we can integrate it with the new dashboard.
+  - يجب أن نتحقق مما إذا كان الـ Identity Provider الحالي يدعم OIDC حتى نتمكن من دمجه مع لوحة التحكم الجديدة.
+- Please update the configuration to point to the new Identity Provider endpoint before we deploy the changes to production.
+  - يرجى تحديث الإعدادات لتشير إلى نقطة نهاية الـ Identity Provider الجديدة قبل أن نقوم بنشر التغييرات إلى بيئة الإنتاج.

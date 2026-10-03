@@ -25,3 +25,14 @@ pronunciation: "فالس نيجيتيف"
 ## خطأ شائع
 
 يخلط المهندسون غالباً بين الـ False Negative والـ False Positive؛ تذكر أن الـ False Negative يعني أن النظام "أغفل" خطأً برمجياً، بينما الـ False Positive يعني أن النظام "أبلغ عن خطأ" غير موجود أصلاً.
+
+## لا تخلطه مع
+
+يحدث الـ False Negative عندما يفشل النظام في اكتشاف خطأ موجود بالفعل، بينما يحدث الـ False Positive عندما يشير النظام بشكل خاطئ إلى وجود خطأ غير موجود أصلاً.
+
+## قلها في العمل
+
+- I suspect our latest smoke test gave us a false negative, so we should manually verify that module again.
+  - أشك أن اختبار الدخان الأخير أعطانا نتيجة False Negative، لذا يجب علينا التحقق من تلك الوحدة يدوياً مرة أخرى.
+- The automated regression suite reported a false negative for this feature; I have attached the logs for further investigation.
+  - أبلغت مجموعة اختبارات الانحدار الآلية عن نتيجة False Negative لهذه الميزة؛ لقد أرفقت السجلات لمزيد من التحقيق.

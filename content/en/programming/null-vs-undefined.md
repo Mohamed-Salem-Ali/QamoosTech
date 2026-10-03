@@ -23,3 +23,8 @@ During code reviews, debugging missing data, or checking API response payloads i
 ## Common mistake
 
 Treating them as completely interchangeable, leading to unexpected type errors when checking optional properties.
+
+## Say it at work
+
+- Let's check if the user profile is null or undefined before we render the avatar.
+- Please ensure the function handles both null and undefined parameters correctly to prevent runtime errors.

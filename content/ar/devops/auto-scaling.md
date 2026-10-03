@@ -25,3 +25,14 @@ pronunciation: "أوتو-سكيلينج"
 ## خطأ شائع
 
 الاعتقاد بأن عملية الـ auto-scaling فورية؛ فغالباً ما تستغرق الخوادم الجديدة بضع دقائق لتعمل وتتصل بموزع الأحمال (Load Balancer)، مما قد يؤدي إلى بطء مؤقت في الأداء إذا لم يتم التخطيط لذلك جيداً.
+
+## لا تخلطه مع
+
+الـ Auto-scaling يقوم بتغيير السعة ديناميكياً بناءً على الطلب، بينما توزيع الأحمال (Load Balancing) يوزع حركة المرور القادمة على الخوادم الموجودة دون تغيير عددها.
+
+## قلها في العمل
+
+- Let's check if the auto-scaling rules are properly configured before launching the new feature.
+  - دعونا نتأكد من ضبط قواعد الـ auto-scaling بشكل صحيح قبل إطلاق الميزة الجديدة.
+- Please review the pull request updating the auto-scaling thresholds for our production cluster.
+  - يرجى مراجعة طلب السحب الذي يحدّث حدود الـ auto-scaling لمجموعة خوادم الإنتاج لدينا.

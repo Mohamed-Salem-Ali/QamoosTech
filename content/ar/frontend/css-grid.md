@@ -25,3 +25,14 @@ pronunciation: "سي إس إس غريد"
 ## خطأ شائع
 
 الاعتقاد بأن CSS Grid هو بديل لـ Flexbox؛ في الواقع، يكمل كلاهما الآخر، حيث يُستخدم Grid لهيكلة الصفحة ككل، بينما يُستخدم Flexbox لمحاذاة العناصر داخل المكونات الصغيرة.
+
+## لا تخلطه مع
+
+نظام CSS Grid هو نظام تخطيط ثنائي الأبعاد للصفوف والأعمدة معاً، بينما Flexbox هو نظام أحادي الأبعاد مصمم إما لصف أو لأعمود في نفس الوقت.
+
+## قلها في العمل
+
+- Let's switch this container to CSS Grid so we can easily control both the rows and columns for the dashboard layout.
+  - دعنا نحول هذه الحاوية إلى CSS Grid حتى نتمكن من التحكم بسهولة في كل من الصفوف والأعمدة لتخطيط لوحة التحكم.
+- Please update the product listing page to use CSS Grid for a cleaner and more responsive structure.
+  - يرجى تحديث صفحة قائمة المنتجات لاستخدام CSS Grid للحصول على هيكل أكثر نظافة وتجاوباً.

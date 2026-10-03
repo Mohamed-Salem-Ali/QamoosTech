@@ -23,3 +23,12 @@ During UI debugging, when writing custom styles, or when trying to override exis
 ## Common mistake
 
 Assuming that the order of the CSS file is the only thing that matters, ignoring that a more specific selector will always win regardless of its position in the file.
+
+## Don't confuse with
+
+CSS Specificity is often confused with the CSS Cascade; while specificity determines which rule has higher priority based on selector weight, the cascade determines the final style by considering source order, specificity, and inheritance.
+
+## Say it at work
+
+- I'm struggling to override this button color because of a specificity issue with the parent container's selector.
+- Please check the CSS specificity of your new rules, as they are currently being overridden by the base styles.

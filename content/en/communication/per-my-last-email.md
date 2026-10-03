@@ -22,3 +22,12 @@ Work emails, often when information was missed.
 ## Common mistake
 
 Using "per my last email" when you are annoyed. A softer version is "As mentioned earlier…" or "Just to confirm…".
+
+## Don't confuse with
+
+Per my last email directly references a previous message with a hint of frustration, whereas as mentioned earlier is a softer and more polite way to restate information.
+
+## Say it at work
+
+- Just to answer your question, per my last email, the access tokens were already sent yesterday.
+- Per my last email, please make sure to use the new staging endpoint for your integration tests.

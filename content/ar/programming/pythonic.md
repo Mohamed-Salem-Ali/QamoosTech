@@ -25,3 +25,10 @@ pronunciation: "بايثونيك"
 ## خطأ شائع
 
 حشر كل شيء في سطر واحد «ذكي». المقصود بالبايثوني أن يكون مقروءًا لا أقصر.
+
+## قلها في العمل
+
+- I think we can make this logic more Pythonic by using a generator expression instead of that nested loop.
+  - أعتقد أنه يمكننا جعل هذه المنطق أكثر بايثونية باستخدام generator expression بدلاً من تلك الحلقة المتداخلة.
+- Please refactor the data processing module to follow Pythonic conventions, specifically by utilizing context managers for file handling.
+  - يرجى إعادة هيكلة وحدة معالجة البيانات لتتبع الأساليب البايثونية، وتحديدًا من خلال استخدام context managers للتعامل مع الملفات.

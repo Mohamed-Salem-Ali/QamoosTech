@@ -25,3 +25,14 @@ pronunciation: "باك لوج"
 ## خطأ شائع
 
 ترك الـ backlog يكبر إلى الأبد. راجعه واحذف المهام التي لن ينفذها أحد.
+
+## لا تخلطه مع
+
+الـ backlog هو مجموعة مرتبة حسب الأولوية لكل العمل المحتمل في المستقبل، بينما الـ sprint backlog يحتوي فقط على المهام المحددة للتنفيذ خلال الدورة الحالية.
+
+## قلها في العمل
+
+- Can we move this task from the backlog into the upcoming sprint?
+  - هل يمكننا نقل هذه المهمة من الـ backlog إلى الـ sprint القادم؟
+- Please review the items in the backlog before our planning session tomorrow.
+  - يرجى مراجعة العناصر الموجودة في الـ backlog قبل جلسة التخطيط الخاصة بنا غدًا.

@@ -25,3 +25,10 @@ pronunciation: "دي-تاتشْت هيد"
 ## خطأ شائع
 
 الاعتقاد بأن العمل على حالة detached HEAD سيقوم بتحديث الفرع الرئيسي تلقائياً، أو الذعر وحذف المستودع بدلاً من إنشاء فرع جديد لحفظ العمل.
+
+## قلها في العمل
+
+- Make sure you create a temporary branch right now so you do not stay in a detached HEAD state.
+  - تأكد من إنشاء فرع مؤقت الآن حتى لا تظل في حالة detached HEAD.
+- Please create a new branch from this commit to preserve your changes and avoid working in a detached HEAD state.
+  - يرجى إنشاء فرع جديد من هذا الـ commit للحفاظ على تعديلاتك وتجنب العمل في حالة detached HEAD.

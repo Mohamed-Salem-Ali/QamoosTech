@@ -25,3 +25,14 @@ pronunciation: "ستيك هولدر"
 ## خطأ شائع
 
 الاعتقاد أن صاحب المصلحة هو مديرك فقط. المستخدمون والدعم والفرق الأخرى أصحاب مصلحة أيضًا.
+
+## لا تخلطه مع
+
+الفرق بين Stakeholder و Shareholder هو أن صاحب المصلحة هو أي شخص يتأثر بنتائج المشروع، بينما المساهم هو فرد أو جهة تمتلك أسهماً في الشركة.
+
+## قلها في العمل
+
+- We need to get feedback from the key stakeholders before we finalize the design for this sprint.
+  - نحتاج للحصول على ملاحظات أصحاب المصلحة الرئيسيين قبل أن نعتمد التصميم الخاص بهذه المرحلة.
+- Please ensure that all relevant stakeholders are included in the review process for this pull request.
+  - يرجى التأكد من إدراج جميع أصحاب المصلحة المعنيين في عملية المراجعة الخاصة بطلب الدمج هذا.

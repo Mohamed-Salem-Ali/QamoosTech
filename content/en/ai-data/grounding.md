@@ -23,3 +23,12 @@ In meetings about AI architecture, RAG implementation, or when discussing how to
 ## Common mistake
 
 Thinking that grounding is the same as fine-tuning; while fine-tuning changes the model's internal weights, grounding provides the model with external context during the inference phase.
+
+## Don't confuse with
+
+Grounding provides the LLM with external context at inference time, whereas fine-tuning permanently modifies the model's internal weights using a new dataset.
+
+## Say it at work
+
+- Let's check if the grounding pipeline is fetching the latest documents correctly before we merge this PR.
+- We need to improve the grounding mechanism to ensure the chatbot references the updated product specs.

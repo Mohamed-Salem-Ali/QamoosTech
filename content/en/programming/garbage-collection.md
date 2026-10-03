@@ -23,3 +23,12 @@ In discussions about performance optimization, language runtimes, and memory man
 ## Common mistake
 
 Assuming that garbage collection eliminates the need to manage resources entirely; developers still need to manually close file handles or database connections to avoid resource exhaustion.
+
+## Don't confuse with
+
+Garbage collection is often confused with reference counting, but while garbage collection periodically scans the heap to identify unreachable objects, reference counting tracks the number of references to an object and deallocates it immediately when the count reaches zero.
+
+## Say it at work
+
+- We are seeing some performance hitches, so let's check if the garbage collection cycles are running too frequently.
+- I have optimized the object allocation pattern to reduce the pressure on the garbage collection mechanism.

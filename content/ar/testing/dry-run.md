@@ -26,3 +26,14 @@ translation: "تنفيذ تجريبي"
 ## خطأ شائع
 
 الاعتقاد بأن الـ dry run خالي تماماً من المخاطر؛ إذ قد يستهلك موارد أو يتسبب في أقفال مؤقتة حتى وإن لم يقم بكتابة البيانات.
+
+## لا تخلطه مع
+
+التنفيذ التجريبي (dry run) يختبر عملية دون إجراء تغييرات دائمة، بينما النسخ الاحتياطي (backup) ينشئ نسخة آمنة للبيانات الحالية قبل بدء التعديلات.
+
+## قلها في العمل
+
+- Let us run the deployment command with the dry run flag first to make sure there are no syntax errors.
+  - دعنا نشغل أمر النشر مع علامة التنفيذ التجريبي أولاً للتأكد من عدم وجود أخطاء في الصياغة.
+- Please attach the output logs from the dry run to the pull request description before merging.
+  - يرجى إرفاق سجلات المخرجات من التنفيذ التجريبي بوصف طلب السحب قبل الدمج.

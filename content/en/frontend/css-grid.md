@@ -23,3 +23,12 @@ During frontend development meetings, code reviews, or when discussing responsiv
 ## Common mistake
 
 Thinking that CSS Grid replaces Flexbox; in reality, they are meant to be used together, where Grid handles the overall page structure and Flexbox handles the alignment of items within smaller components.
+
+## Don't confuse with
+
+CSS Grid is a two-dimensional layout system for both rows and columns, while Flexbox is a one-dimensional system designed for either a row or a column at a time.
+
+## Say it at work
+
+- Let's switch this container to CSS Grid so we can easily control both the rows and columns for the dashboard layout.
+- Please update the product listing page to use CSS Grid for a cleaner and more responsive structure.

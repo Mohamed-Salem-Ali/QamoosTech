@@ -25,3 +25,14 @@ NestJS وSpring وAngular ونقاشات الاختبار.
 ## خطأ شائع
 
 إنشاء التبعيات بـ `new` داخل الفئة. عندها لا تستطيع استبدالها في الاختبار.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين حقن التبعيات ونمط محدد الخدمات (service locator)، ولكن بينما يقوم حقن التبعيات تمرير الكائنات المطلوبة من الخارج، فإن محدد الخدمات يتيح للكائنات سحب التبعيات بنفسها.
+
+## قلها في العمل
+
+- Let's use dependency injection for the payment service so we can mock it easily in our unit tests.
+  - دعنا نستخدم حقن التبعيات لخدمة الدفع حتى نتمكن من محاكاتها بسهولة في اختبارات الوحدة الخاصة بنا.
+- Please update this component to receive its configuration via dependency injection rather than importing the global config directly.
+  - الرجاء تحديث هذا المكون ليتقبل إعداداته عبر حقن التبعيات بدلاً من استيراد الإعدادات العامة مباشرة.

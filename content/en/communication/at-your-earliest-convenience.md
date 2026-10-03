@@ -23,3 +23,12 @@ Used in emails, Slack messages, or project management tickets when requesting a 
 ## Common mistake
 
 Using this phrase when a task is actually urgent; it can be misinterpreted as "whenever you feel like it," which might lead to delays if the recipient assumes it is low priority.
+
+## Don't confuse with
+
+At your earliest convenience is used for non-urgent tasks without a strict deadline, while ASAP demands immediate attention and action.
+
+## Say it at work
+
+- Could you take a look at my latest commit at your earliest convenience, please?
+- Kindly provide your feedback on the architecture design document at your earliest convenience.

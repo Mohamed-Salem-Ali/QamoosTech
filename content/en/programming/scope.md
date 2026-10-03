@@ -22,3 +22,12 @@ Debugging "x is not defined" errors and explaining how closures work.
 ## Common mistake
 
 Confusing it with "scope" in project management (scope creep). Same word, different meaning: context decides.
+
+## Don't confuse with
+
+Scope is often confused with context; while scope refers to the visibility and accessibility of variables in code, context refers to the object that a function is currently executing within.
+
+## Say it at work
+
+- I'm getting a reference error because that variable is out of scope inside this callback function.
+- Please ensure that we limit the scope of these temporary variables to the block where they are actually needed.

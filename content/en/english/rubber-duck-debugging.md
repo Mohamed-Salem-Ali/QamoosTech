@@ -22,3 +22,8 @@ Developer culture and pair programming.
 ## Common mistake
 
 Skipping it because it sounds silly. Saying the problem out loud forces you to think clearly.
+
+## Say it at work
+
+- I'm stuck on this logic, let me try rubber duck debugging it for a minute before we dive in together.
+- I have performed rubber duck debugging on this module and identified a missing edge case in the validation logic.

@@ -22,3 +22,12 @@ Release planning and bug reports ("does it happen in prod or staging?").
 ## Common mistake
 
 Testing on staging with fake data only. Real data can expose problems that fake data hides.
+
+## Don't confuse with
+
+Staging is often confused with Development (Dev) environments; while Dev is for active coding and debugging, Staging is a mirror of production used specifically for final validation before release.
+
+## Say it at work
+
+- Let's verify this fix on staging before we push it to production.
+- The deployment to production is scheduled for tonight, provided that the smoke tests pass on staging.

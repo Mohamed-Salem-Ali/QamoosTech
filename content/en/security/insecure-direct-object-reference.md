@@ -25,3 +25,12 @@ A security vulnerability where an application exposes a reference to an internal
 ## Common mistake
 
 Assuming that hiding the object ID in the user interface or frontend makes the endpoint secure, when the backend still fails to verify authorization.
+
+## Don't confuse with
+
+IDOR is often confused with broken object level authorization (BOLA), but while IDOR is the underlying vulnerability caused by direct references, BOLA is the broader API security category that describes the lack of proper authorization checks.
+
+## Say it at work
+
+- We need to fix this IDOR issue in the user profile endpoint before we deploy to production.
+- Please ensure that proper authorization checks are implemented to prevent potential IDOR vulnerabilities in this service.

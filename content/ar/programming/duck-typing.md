@@ -25,3 +25,14 @@ pronunciation: "دَك تايبينج"
 ## خطأ شائع
 
 الاعتقاد بأن الـ Duck Typing يعني عدم وجود نظام أنواع (Type system) على الإطلاق؛ الحقيقة هي أن التحقق من النوع يتم في وقت التشغيل (Runtime) بناءً على قدرات الكائن وليس بناءً على الوراثة الصريحة.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ Duck typing والـ structural typing؛ فبينما يتحقق الـ Duck typing من وجود الدوال أثناء وقت التشغيل، يقوم الـ structural typing بفرض هذه المتطلبات برمجياً أثناء مرحلة الترجمة.
+
+## قلها في العمل
+
+- We can simplify this function by using duck typing instead of forcing a specific class inheritance.
+  - يمكننا تبسيط هذه الدالة باستخدام الـ duck typing بدلاً من إجبار الكائنات على وراثة صنف معين.
+- The current implementation relies on duck typing, so please ensure the passed object implements the required interface methods.
+  - يعتمد التنفيذ الحالي على الـ duck typing، لذا يرجى التأكد من أن الكائن الممرر يحتوي على الدوال المطلوبة.

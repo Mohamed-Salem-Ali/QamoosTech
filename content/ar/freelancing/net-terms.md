@@ -25,3 +25,10 @@ pronunciation: "نيت تيرمز"
 ## خطأ شائع
 
 الخلط بين الـ Net terms وتاريخ الدفع الفعلي؛ فالرقم المذكور يمثل مدة فترة السماح المتاحة، وليس اليوم المحدد في التقويم الذي يجب فيه إتمام الدفع.
+
+## قلها في العمل
+
+- Can we push these Net Terms to 45 days given the scope expansion?
+  - هل يمكننا تمديد شروط الدفع هذه لتصبح 45 يوماً نظراً لتوسيع نطاق العمل؟
+- Please update the contract to reflect Net 30 terms before we proceed.
+  - يرجى تحديث العقد ليعكس شروط الدفع Net 30 قبل أن نتابع.

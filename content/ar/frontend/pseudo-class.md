@@ -25,3 +25,14 @@ pronunciation: "سودو-كلاس"
 ## خطأ شائع
 
 الخلط بين الـ pseudo-classes والـ pseudo-elements؛ تذكر أن الـ pseudo-class تستهدف حالة معينة لعنصر موجود بالفعل، بينما الـ pseudo-element تستهدف أجزاءً محددة من العنصر مثل `::before` أو `::after`.
+
+## لا تخلطه مع
+
+الفرق بين الـ pseudo-class والـ pseudo-element هو أن الـ pseudo-class تستهدف عنصراً موجوداً في حالة معينة، بينما الـ pseudo-element تقوم بإنشاء أو استهداف جزء فرعي من العنصر لا يوجد كعقدة مستقلة في الـ DOM.
+
+## قلها في العمل
+
+- I think we should add a hover pseudo-class to these cards so the user knows they are clickable.
+  - أعتقد أنه يجب علينا إضافة pseudo-class من نوع hover لهذه البطاقات حتى يعرف المستخدم أنها قابلة للنقر.
+- Please ensure that the focus pseudo-class is properly defined for all input fields to maintain accessibility standards.
+  - يرجى التأكد من تعريف الـ focus pseudo-class بشكل صحيح لجميع حقول الإدخال للحفاظ على معايير سهولة الوصول.

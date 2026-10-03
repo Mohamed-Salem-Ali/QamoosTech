@@ -25,3 +25,12 @@ High Availability refers to a system design approach that ensures continuous ope
 ## Common mistake
 
 Confusing high availability with scalability, assuming that a system that handles more traffic is automatically immune to hardware failures.
+
+## Don't confuse with
+
+High availability differs from disaster recovery in that high availability focuses on keeping the system running during minor failures, while disaster recovery focuses on restoring operations after a catastrophic event.
+
+## Say it at work
+
+- We should check if our current architecture meets the high availability requirements for this new service.
+- Please update the documentation to reflect the high availability configuration of the production cluster.

@@ -23,3 +23,12 @@ During model development, data preprocessing discussions, and when evaluating AI
 ## Common mistake
 
 Assuming that more training data always fixes bad model accuracy without checking if the data is biased or low quality.
+
+## Don't confuse with
+
+Training data vs. validation data: training data is used to fit the model parameters, while validation data is used to tune hyperparameters and evaluate the model's performance during the development process.
+
+## Say it at work
+
+- Let's check if our training data is diverse enough to prevent the model from becoming biased.
+- I have updated the training data pipeline to include the latest batch of logs for better model accuracy.

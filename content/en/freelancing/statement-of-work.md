@@ -23,3 +23,12 @@ In contract negotiations, project kickoff meetings, and scoping discussions with
 ## Common mistake
 
 Treating the Statement of Work as a flexible guideline rather than a legally binding document.
+
+## Don't confuse with
+
+A Statement of Work (SoW) defines specific project deliverables and timelines, while a Master Services Agreement (MSA) establishes the overarching terms and conditions for all future projects.
+
+## Say it at work
+
+- Let us make sure all these new requirements are documented in the Statement of Work before we start coding.
+- Please review the attached Statement of Work and let me know if any adjustments are needed regarding the project timeline.

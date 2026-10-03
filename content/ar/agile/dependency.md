@@ -26,3 +26,14 @@ translation: "اعتمادية"
 ## خطأ شائع
 
 التعامل مع جميع الاعتماديات على أنها متساوية، بدلاً من تحديد أي منها يقع على المسار الحرج ويعطل التقدم فعلياً.
+
+## لا تخلطه مع
+
+الاعتمادية (Dependency) مقابل العائق (Blocker): الاعتمادية هي متطلب منطقي لبدء المهمة، بينما العائق هو مشكلة نشطة تمنع التقدم في مهمة جارية بالفعل.
+
+## قلها في العمل
+
+- I checked the board and realized our task has a dependency on the design team finishing the UI mockups.
+  - راجعت لوحة المهام وأدركت أن مهمتنا لديها اعتمادية على انتهاء فريق التصميم من نماذج واجهة المستخدم.
+- Please note that this feature has a dependency on the latest API update, which is currently scheduled for next week.
+  - يرجى ملاحظة أن هذه الميزة لديها اعتمادية على آخر تحديث لواجهة برمجة التطبيقات، والمقرر حالياً في الأسبوع القادم.

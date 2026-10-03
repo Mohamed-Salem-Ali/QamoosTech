@@ -22,3 +22,8 @@ Security, API design, and interviews.
 ## Common mistake
 
 Using the two words as if they were the same. Remember: authN = who you are, authZ = what you can do.
+
+## Say it at work
+
+- Let us make sure our middleware handles authentication before passing the request to the authorization layer.
+- Could you please update the pull request to ensure that authorization checks are performed after successful authentication?

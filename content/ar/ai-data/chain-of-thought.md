@@ -25,3 +25,14 @@ pronunciation: "تشين أوف ثوت"
 ## خطأ شائع
 
 الاعتقاد بأن Chain-of-Thought هو ميزة تقنية مدمجة في هيكلية النموذج، بينما هو في الحقيقة استراتيجية صياغة أوامر (Prompting) تُستخدم لتوجيه عملية توليد النص.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Chain-of-Thought و Chain-of-Verification؛ فبينما يركز Chain-of-Thought على توليد خطوات منطقية للوصول إلى استنتاج، يتضمن Chain-of-Verification قيام النموذج بالتحقق من صحة إجاباته السابقة لتقليل الهلوسة.
+
+## قلها في العمل
+
+- If the model keeps getting these math problems wrong, we should try applying a Chain-of-Thought approach to force it to show its work.
+  - إذا استمر النموذج في إعطاء إجابات خاطئة لهذه المسائل الرياضية، يجب أن نجرب تطبيق نهج Chain-of-Thought لإجباره على إظهار خطوات الحل.
+- I have updated the system prompt to include Chain-of-Thought instructions, which should improve the reasoning quality for our complex user queries.
+  - لقد قمت بتحديث أمر النظام ليشمل تعليمات Chain-of-Thought، مما سيؤدي إلى تحسين جودة الاستنتاج لاستفسارات المستخدمين المعقدة.

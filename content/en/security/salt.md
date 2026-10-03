@@ -23,3 +23,12 @@ In security audits, user authentication system design, and database schema revie
 ## Common mistake
 
 Thinking that a salt is a form of encryption; it is not, because it is not intended to be secret or reversible, but rather to make brute-force attacks computationally expensive.
+
+## Don't confuse with
+
+Salt differs from pepper in password security because a salt randomizes the hash to prevent rainbow table attacks, while a pepper adds a secret system-wide key that provides an extra layer of defense even if the database is leaked.
+
+## Say it at work
+
+- Make sure we store the salt in a separate column alongside the password hash.
+- We need to update the user registration service to generate a cryptographically secure random salt for every new account.

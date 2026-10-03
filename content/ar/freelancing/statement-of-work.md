@@ -26,3 +26,14 @@ translation: "بيان العمل"
 ## خطأ شائع
 
 التعامل مع بيان العمل كدليل مرن بدلاً من اعتباره وثيقة ملزمة قانونياً.
+
+## لا تخلطه مع
+
+يحدد بيان العمل (SoW) مخرجات المشروع والجداول الزمنية المحددة، بينما تضع اتفاقية الخدمات الرئيسية (MSA) الشروط والأحكام العامة لجميع المشاريع المستقبلية.
+
+## قلها في العمل
+
+- Let us make sure all these new requirements are documented in the Statement of Work before we start coding.
+  - دعونا نتأكد من توثيق جميع هذه المتطلبات الجديدة في بيان العمل قبل أن نبدأ البرمجة.
+- Please review the attached Statement of Work and let me know if any adjustments are needed regarding the project timeline.
+  - يرجى مراجعة بيان العمل المرفق وإعلامي إذا كانت هناك أي تعديلات مطلوبة بخصوص الجدول الزمني للمشروع.

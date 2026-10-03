@@ -25,3 +25,12 @@ Git Reset is a command used to move the current branch pointer backward to a spe
 ## Common mistake
 
 Using `--hard` without realizing it permanently deletes uncommitted changes and working directory modifications, making them very difficult to recover.
+
+## Don't confuse with
+
+Git Reset moves the branch pointer and alters history, whereas Git Revert creates a new commit that undoes previous changes without rewriting history.
+
+## Say it at work
+
+- Let's run a soft git reset on that branch to clean up the last few commits before we merge.
+- Please avoid using git reset --hard on shared branches because it will break other developers' local history.

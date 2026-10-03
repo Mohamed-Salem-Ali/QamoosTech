@@ -25,3 +25,12 @@ Temperature is a hyperparameter in LLMs that controls the randomness of the gene
 ## Common mistake
 
 Thinking that a higher temperature means the model is "smarter"; it actually just increases the probability of selecting less likely tokens, which can lead to more hallucinations.
+
+## Don't confuse with
+
+Temperature controls the randomness of token selection, whereas top_p (nucleus sampling) limits the pool of available tokens based on their cumulative probability.
+
+## Say it at work
+
+- Let us try bumping up the temperature slightly in our next test to see if we get more varied responses.
+- Please ensure the temperature parameter is set to zero in the production configuration for all factual retrieval tasks.

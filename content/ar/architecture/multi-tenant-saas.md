@@ -25,3 +25,14 @@ pronunciation: "مالتي تينانت ساس"
 ## خطأ شائع
 
 نسيان فلتر الـ tenant في استعلام واحد. هذا الخطأ وحده قد يسرّب بيانات عميل إلى عميل آخر.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين تعدد العملاء (Multi-tenancy) وبين بنية النسخ المتعددة (Multi-instance)، حيث يحصل كل عميل على خادم أو قاعدة بيانات خاصة به بدلاً من مشاركة بيئة واحدة.
+
+## قلها في العمل
+
+- We need to ensure that our new reporting module is fully compatible with our multi-tenant SaaS architecture.
+  - نحتاج للتأكد من أن وحدة التقارير الجديدة لدينا متوافقة تماماً مع بنية الـ multi-tenant SaaS الخاصة بنا.
+- Please verify that the data isolation logic is implemented correctly to support the multi-tenant SaaS requirements for this release.
+  - يرجى التحقق من أن منطق عزل البيانات قد تم تنفيذه بشكل صحيح لدعم متطلبات الـ multi-tenant SaaS لهذا الإصدار.

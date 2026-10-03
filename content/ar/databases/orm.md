@@ -25,3 +25,14 @@ pronunciation: "أو آر إم"
 ## خطأ شائع
 
 عدم النظر أبدًا إلى SQL الذي يولّده. قد يخفي الـ ORM استعلامات بطيئة.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ ORM والـ ODM؛ فبينما يقوم الـ ORM بربط الكائنات بجداول قواعد البيانات العلائقية، صُمم الـ ODM خصيصاً لقواعد البيانات الموجهة للمستندات مثل MongoDB.
+
+## قلها في العمل
+
+- Let's switch to raw queries for this endpoint because the ORM is generating way too many joins.
+  - دعنا ننتقل إلى استعلامات SQL الخام لهذا الـ endpoint لأن الـ ORM يقوم بإنشاء الكثير من الـ joins.
+- I recommend using the ORM for these simple CRUD operations to keep the codebase clean and maintainable.
+  - أوصي باستخدام الـ ORM لعمليات الـ CRUD البسيطة هذه للحفاظ على نظافة الشيفرة البرمجية وسهولة صيانتها.

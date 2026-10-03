@@ -25,3 +25,14 @@ pronunciation: "سكواش آند ميرج"
 ## خطأ شائع
 
 الاعتقاد بأن عملية الـ squash تحذف عملك؛ فهي في الواقع تدمج سجل الـ commits فقط، بينما تظل حالة الكود النهائية كما هي تماماً.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Squash and merge و Rebase؛ فبينما يدمج الـ squash عدة commits في واحدة، يقوم الـ rebase بإعادة كتابة سجل الـ commits عبر نقل سلسلة الـ commits كاملة إلى قاعدة جديدة.
+
+## قلها في العمل
+
+- Let's just use squash and merge for this PR so we don't clutter the main branch with all these tiny fix commits.
+  - دعنا نستخدم squash and merge لهذا الـ PR حتى لا نملأ الفرع الرئيسي بكل هذه الـ commits الصغيرة الخاصة بالتعديلات.
+- Could you please squash and merge this pull request once the final review is approved?
+  - هل يمكنك من فضلك إجراء squash and merge لهذا الـ pull request بمجرد الموافقة على المراجعة النهائية؟

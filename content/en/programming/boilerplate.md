@@ -25,3 +25,12 @@ Boilerplate refers to sections of code that must be included in many places with
 ## Common mistake
 
 Thinking that boilerplate is always bad code; while it can be tedious, it is often a structural requirement of the language or library to ensure type safety or proper initialization.
+
+## Don't confuse with
+
+Boilerplate refers to necessary repetitive code for structure, whereas a code smell is a poor programming pattern that indicates a deeper design problem.
+
+## Say it at work
+
+- Can we use a generator to skip writing all this boilerplate for the new feature?
+- Please move the setup logic into a shared helper to reduce the boilerplate in our handlers.

@@ -23,3 +23,12 @@ During database schema design, migration planning, or when configuring ORM relat
 ## Common mistake
 
 Assuming that cascading delete is always the best choice; developers often forget that it can trigger unintended mass deletions across multiple tables if the relationship chain is long.
+
+## Don't confuse with
+
+Cascading delete automatically removes related records when the parent is deleted, whereas a soft delete merely flags a record as inactive without actually removing it from the database.
+
+## Say it at work
+
+- Make sure we set up a cascading delete on this foreign key so we don't end up with orphaned records in the table.
+- Please review the database migration to verify that enabling cascading delete will not cause unintended data loss across related tables.

@@ -30,3 +30,14 @@ pronunciation: "كرود أوبيريشنز"
 ## خطأ شائع
 
 الاعتقاد بأن كل نقطة نهاية في واجهة برمجة التطبيقات يجب أن تتبع عمليات CRUD حرفياً، بينما تتطلب العديد من الإجراءات المعقدة نقاط نهاية مخصصة لا تنطوي بالضرورة تحت الإنشاء أو القراءة أو التحديث أو الحذف.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين عمليات CRUD وطرق RESTful API، ولكن بينما تصف CRUD منطق إدارة البيانات، فإن REST هو نمط معماري يستخدم أفعال HTTP لتنفيذ تلك العمليات.
+
+## قلها في العمل
+
+- Let's stick to standard CRUD operations for this resource instead of creating custom endpoints for every action.
+  - لنلتزم بعمليات CRUD القياسية لهذا المورد بدلاً من إنشاء نقاط نهاية مخصصة لكل إجراء.
+- I have implemented the necessary CRUD operations for the user model to ensure full data management capabilities.
+  - لقد قمت بتنفيذ عمليات CRUD اللازمة لنموذج المستخدم لضمان توفر كامل إمكانيات إدارة البيانات.

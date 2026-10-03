@@ -23,3 +23,8 @@ During project setup, when cleaning up a repository, or when trying to hide sens
 ## Common mistake
 
 Thinking that adding a file to `.gitignore` will remove it from the repository if it is already being tracked; you must delete it from the Git index first using `git rm --cached`.
+
+## Say it at work
+
+- Can someone check my git ignore rules because these log files keep showing up in the status?
+- Please update the git ignore file to exclude the new IDE configuration directory before merging this pull request.

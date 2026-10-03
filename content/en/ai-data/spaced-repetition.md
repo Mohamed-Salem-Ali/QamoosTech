@@ -22,3 +22,12 @@ Flashcard apps like Anki and learning products.
 ## Common mistake
 
 Cramming everything in one day. Short reviews spread over days work much better.
+
+## Don't confuse with
+
+Spaced repetition is often confused with active recall; while spaced repetition focuses on the timing of reviews, active recall focuses on the process of retrieving information from memory without looking at the source.
+
+## Say it at work
+
+- I've been using spaced repetition to keep up with the new framework documentation.
+- Please incorporate spaced repetition techniques into the training module to ensure long-term retention of the core concepts.

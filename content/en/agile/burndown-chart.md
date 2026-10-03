@@ -23,3 +23,12 @@ In sprint planning, daily standups, and retrospective meetings.
 ## Common mistake
 
 Treating the chart as a rigid grading tool rather than a forecasting guide to help the team adjust their pace.
+
+## Don't confuse with
+
+Burndown chart vs. Burnup chart: A burndown chart tracks the remaining work to be done, while a burnup chart tracks the total work completed against the total scope.
+
+## Say it at work
+
+- Let's take a quick look at the burndown chart to see if we are on track for this sprint.
+- Based on the latest update to the burndown chart, it appears we may need to adjust our scope to meet the deadline.

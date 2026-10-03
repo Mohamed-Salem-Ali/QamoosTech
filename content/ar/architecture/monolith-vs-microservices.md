@@ -25,3 +25,10 @@ pronunciation: "مونوليث مقابل ميكروسيرفيسز"
 ## خطأ شائع
 
 اختيار microservices مبكرًا جدًا. للفرق الصغيرة غالبًا يكون monolith جيد التنظيم أبسط وأسرع.
+
+## قلها في العمل
+
+- Let's discuss if this feature should live in our monolith or as a separate microservice.
+  - دعنا نناقش ما إذا كان ينبغي لهذه الميزة أن تعيش في نظامنا الموحّد أو كخدمة مصغّرة منفصلة.
+- Moving from a monolith to microservices will help us scale this specific module independently.
+  - الإنقال من النظام الموحّد إلى الخدمات المصغّرة سيساعدنا في توسيع نطاق هذا الجزء المحدد بشكل مستقل.

@@ -23,3 +23,8 @@ During project planning meetings, initial client discovery calls, or when assign
 ## Common mistake
 
 Confusing "scoping out" with "scope creep"; the former is a proactive planning step, while the latter is the uncontrolled expansion of a project's requirements during development.
+
+## Say it at work
+
+- Can we schedule a quick call tomorrow to scope out the new payment gateway integration?
+- Please review the ticket and scope out the required changes before our next sprint planning session.

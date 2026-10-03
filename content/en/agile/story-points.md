@@ -23,3 +23,12 @@ During sprint planning meetings, backlog grooming sessions, or when discussing t
 ## Common mistake
 
 Treating story points as direct equivalents to hours or days, which undermines their purpose as a relative estimation tool.
+
+## Don't confuse with
+
+Story points measure relative effort and complexity, whereas hours estimate absolute time.
+
+## Say it at work
+
+- Let's use Fibonacci numbers to assign story points for this backlog item.
+- Could you please update the story points on this ticket before the planning meeting?

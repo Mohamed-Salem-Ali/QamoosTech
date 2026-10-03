@@ -22,3 +22,12 @@ SaaS product design and security reviews.
 ## Common mistake
 
 Forgetting the tenant filter in one query. That single bug can leak one customer's data to another.
+
+## Don't confuse with
+
+Multi-tenancy is often confused with multi-instance architecture, where each customer gets their own dedicated server or database instance rather than sharing a single shared environment.
+
+## Say it at work
+
+- We need to ensure that our new reporting module is fully compatible with our multi-tenant SaaS architecture.
+- Please verify that the data isolation logic is implemented correctly to support the multi-tenant SaaS requirements for this release.

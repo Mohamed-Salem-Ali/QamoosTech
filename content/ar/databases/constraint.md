@@ -26,3 +26,14 @@ translation: "قيد"
 ## خطأ شائع
 
 الاعتقاد بأن القيود تبطئ الأداء فقط، مع تجاهل دورها الأساسي في حماية سلامة البيانات ومنع وصول حالات غير صالحة.
+
+## لا تخلطه مع
+
+القيد يحدد البيانات المسموح بها في الجدول، بينما الفهرس (Index) يحسن أداء الاستعلامات ويسريع استرجاع البيانات.
+
+## قلها في العمل
+
+- Let us add a foreign key constraint to make sure we do not end up with orphaned records.
+  - دعنا نضيف قيد مفتاح أجنبي للتأكد من أننا لن نجد أنفسنا أمام سجلات يتيمة.
+- The build pipeline failed because the new migration violated an existing unique constraint on the users table.
+  - فشل مسار البناء لأن عملية النقل الجديدة انتهكت قيد فريد موجود مسبقاً على جدول المستخدمين.

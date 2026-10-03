@@ -23,3 +23,12 @@ In system architecture meetings, backend infrastructure discussions, and when de
 ## Common mistake
 
 Confusing an API Gateway with a Load Balancer; while a Load Balancer distributes traffic to identical instances, an API Gateway routes requests to different services based on logic or path.
+
+## Don't confuse with
+
+API Gateway vs Reverse Proxy; while a reverse proxy typically handles load balancing and security for a single backend or group of servers, an API Gateway provides additional features like request transformation, protocol translation, and complex routing for microservices.
+
+## Say it at work
+
+- Let's check if the API Gateway is correctly forwarding the headers to our internal services.
+- I have updated the API Gateway configuration to include the new endpoint for the payment service.

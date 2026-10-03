@@ -23,3 +23,8 @@ Commonly used during the sales process, client onboarding, or when responding to
 ## Common mistake
 
 Treating the discovery call as a technical consultation where you provide free solutions, rather than using it as a qualification step to assess the client's needs and budget.
+
+## Say it at work
+
+- Let us schedule a quick discovery call to discuss your requirements before sending the estimate.
+- Please find attached the notes from today's discovery call along with the proposed next steps.

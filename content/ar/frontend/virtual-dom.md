@@ -26,3 +26,14 @@ pronunciation: "فيرتشوال دوم"
 ## خطأ شائع
 
 الاعتقاد بأن الـ Virtual DOM أسرع دائماً من الـ DOM الحقيقي، في حين أنه يُستخدم في الواقع لجعل التحديثات قابلة للتنبؤ بها وأكثر كفاءة وليس مجرد مُسرع مطلق.
+
+## لا تخلطه مع
+
+الـ Virtual DOM مقابل الـ Shadow DOM: الـ Virtual DOM هو تجريد برمجي للأداء يُحفظ في الذاكرة، بينما الـ Shadow DOM هو معيار أصيل في المتصفح يُستخدم لعزل الـ CSS وعناصر الـ DOM.
+
+## قلها في العمل
+
+- We should check if the Virtual DOM is causing unnecessary re-renders in this specific component.
+  - يجب أن نتحقق مما إذا كان الـ Virtual DOM يتسبب في إعادة عرض غير ضرورية داخل هذا المكون.
+- I have optimized the state management to ensure the Virtual DOM diffing process remains efficient.
+  - لقد قمت بتحسين إدارة الحالة لضمان بقاء عملية مقارنة الـ Virtual DOM فعالة.

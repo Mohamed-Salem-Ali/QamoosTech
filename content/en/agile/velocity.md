@@ -23,3 +23,12 @@ During sprint planning meetings, retrospective sessions, or when discussing team
 ## Common mistake
 
 Using velocity as a performance metric to compare different teams against each other, which ignores the fact that story points are subjective and unique to each team's estimation process.
+
+## Don't confuse with
+
+Velocity measures the quantity of completed work per sprint, while capacity measures the actual available working hours of the team members.
+
+## Say it at work
+
+- Let's check our historical velocity to see how many story points we can safely commit to in this upcoming sprint.
+- Based on our recent drop in velocity, we should remove the lowest priority ticket from the current milestone.

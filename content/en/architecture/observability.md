@@ -23,3 +23,12 @@ In discussions about system reliability, incident response, and infrastructure m
 ## Common mistake
 
 Thinking that observability is just a synonym for monitoring; monitoring tells you that a system is broken, while observability helps you understand why it is broken.
+
+## Don't confuse with
+
+Observability explains why a system is failing based on its outputs, whereas monitoring only tells you when a system is failing.
+
+## Say it at work
+
+- Let's check our observability dashboard to see what caused the service to slow down during peak hours.
+- Please ensure that all new microservices include proper observability configurations before merging this pull request.

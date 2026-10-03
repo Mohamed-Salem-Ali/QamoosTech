@@ -22,3 +22,12 @@ CI checks and team coding standards.
 ## Common mistake
 
 Disabling lint rules whenever they are annoying. Fix the cause, or agree on the rule with the team.
+
+## Don't confuse with
+
+Linting is often confused with formatting; linting focuses on finding potential logic errors and code quality issues, while formatting only manages the visual style and layout of the code.
+
+## Say it at work
+
+- Could you please check why the linting is failing in the current branch?
+- I have updated the configuration to ensure the linting process catches these specific syntax patterns.

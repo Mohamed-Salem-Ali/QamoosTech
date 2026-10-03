@@ -22,3 +22,8 @@ Any discussion about trusting AI output.
 ## Common mistake
 
 Copying AI-generated code without running it. Test everything the model writes.
+
+## Say it at work
+
+- Let's add a validation step to catch any potential hallucinations before the data reaches the user.
+- We noticed a hallucination in the generated summary, so we need to refine the prompt.

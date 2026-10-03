@@ -22,3 +22,12 @@ Incidents and release plans.
 ## Common mistake
 
 Forgetting that a database migration may not be reversible. Plan data changes carefully.
+
+## Don't confuse with
+
+Rollback is often confused with roll-forward; rollback reverts the system to a previous stable state, whereas roll-forward applies a new fix or patch to resolve the issue in the current version.
+
+## Say it at work
+
+- The new feature is causing too many errors, so let's perform a rollback to the previous build immediately.
+- I have initiated a rollback of the production environment due to the critical memory leak identified in the latest deployment.

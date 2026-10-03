@@ -25,3 +25,10 @@ pronunciation: "جيت إيجنور"
 ## خطأ شائع
 
 الاعتقاد بأن إضافة ملف إلى `.gitignore` سيؤدي إلى إزالته من المستودع إذا كان Git يتتبعه بالفعل؛ يجب عليك إزالته من فهرس Git أولاً باستخدام الأمر `git rm --cached`.
+
+## قلها في العمل
+
+- Can someone check my git ignore rules because these log files keep showing up in the status?
+  - هل يمكن لأحد مراجعة قواعد git ignore الخاصة بي لأن ملفات السجلات هذه تظهر باستمرار في الحالة؟
+- Please update the git ignore file to exclude the new IDE configuration directory before merging this pull request.
+  - يرجى تحديث ملف git ignore لاستبعاد مجلد إعدادات بيئة التطوير الجديد قبل دمج طلب السحب هذا.

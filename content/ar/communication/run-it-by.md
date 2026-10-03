@@ -26,3 +26,14 @@ translation: "يستشير / يأخذ رأي"
 ## خطأ شائع
 
 الاعتقاد بأنها تعني طلب الإذن لكل صغيرة وكبيرة، بينما هي غالباً مجرد مراجعة سريعة لمنع حدوث مشكلات غير متوقعة.
+
+## لا تخلطه مع
+
+يتم الخلط غالباً بين run it by و get approval، لكن الأولى تعني طلب ملاحظات أو مراجعة سريعة، بينما الثانية تعني الحصول على موافقة رسمية لاعتماد القرار.
+
+## قلها في العمل
+
+- Hey, I have a quick idea for the refactoring; can I run it by you after the stand-up?
+  - مرحباً، لدي فكرة سريعة بخصوص إعادة هيكلة الكود، هل يمكنني عرضها عليك بعد اجتماع الـ stand-up؟
+- I have drafted the API documentation and would like to run it by the security team to ensure we are following the new protocols.
+  - لقد قمت بصياغة وثائق الـ API وأود عرضها على الفريق الأمني للتأكد من التزامنا بالبروتوكولات الجديدة.

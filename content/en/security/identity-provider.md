@@ -23,3 +23,12 @@ During architectural discussions about authentication flows, setting up Single S
 ## Common mistake
 
 Confusing the IdP with the Service Provider (SP); the IdP verifies the identity, while the Service Provider is the application the user is trying to access.
+
+## Don't confuse with
+
+Identity Provider (IdP) vs. Service Provider (SP); the IdP authenticates the user's identity, whereas the SP relies on that authentication to grant access to a specific application or resource.
+
+## Say it at work
+
+- We should check if our current Identity Provider supports OIDC so we can integrate it with the new dashboard.
+- Please update the configuration to point to the new Identity Provider endpoint before we deploy the changes to production.

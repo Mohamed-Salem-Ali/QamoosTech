@@ -25,3 +25,14 @@ pronunciation: "إم في بي"
 ## خطأ شائع
 
 اعتبار «الحد الأدنى» يعني «جودة سيئة». المقصود ميزات قليلة لكن يجب أن تعمل جيدًا.
+
+## لا تخلطه مع
+
+غالباً ما يُخلط بين الـ MVP وإثبات الفكرة (PoC)، لكن الـ PoC يختبر ما إذا كانت الفكرة التقنية قابلة للتنفيذ، بينما يقدم الـ MVP قيمة حقيقية للمستخدمين الفعليين.
+
+## قلها في العمل
+
+- Let's keep this feature for the next phase and focus strictly on the core MVP requirements for now.
+  - دعنا نترك هذه الميزة للمرحلة القادمة ونركز حصرياً على متطلبات الـ MVP الأساسية الآن.
+- Could you please review the attached scope document to ensure we all agree on what is included in the MVP?
+  - هل يمكنك مراجعة وثيقة النطاق المرفقة للتأكد من اتفاقنا جميعاً على ما يتم تضمينه في الـ MVP؟

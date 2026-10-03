@@ -28,3 +28,10 @@ pronunciation: "ستيت-ليس فيرسز ستيت-فول"
 ## خطأ شائع
 
 الاعتقاد بأن "عدم حفظ الحالة" يعني أن التطبيق لا يحفظ أي بيانات نهائياً، في حين أن المقصود هو أن الخادم لا يحتفظ بذاكرة الجلسة الخاصة بعميل معين بين طلبات HTTP المستقلة.
+
+## قلها في العمل
+
+- Let us make sure the backend remains stateless so we can scale out easily without managing sticky sessions.
+  - دعنا نتأكد من أن النظام الخلفي يظل عديم الحالة لكي نتمكن من التوسع بسهولة دون إدارة الجلسات المرتبطة بخادم معين.
+- Please verify if this microservice requires a stateful approach or if we can handle the user session via a distributed cache.
+  - الرجاء التحقق مما إذا كانت هذه الخدمة المصغرة تتطلب نهجاً ذا حالة أم يمكننا التعامل مع جلسة المستخدم عبر ذاكرة تخزين مؤقت موزعة.

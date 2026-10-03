@@ -23,3 +23,12 @@ In frontend code reviews, during test suite setups, or when refactoring UI compo
 ## Common mistake
 
 Treating snapshots as a replacement for real assertions, or blindly updating snapshot files without checking what actually changed in the UI.
+
+## Don't confuse with
+
+Snapshot testing is often confused with visual regression testing; while snapshot testing compares serialized code or data structures, visual regression testing compares actual pixel-by-pixel screenshots of the rendered UI.
+
+## Say it at work
+
+- Let's add snapshot testing for this component to make sure we don't accidentally break the layout during the refactor.
+- Please review the updated snapshot file in this pull request to ensure the changes to the rendered output are expected.

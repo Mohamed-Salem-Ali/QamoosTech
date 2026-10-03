@@ -25,3 +25,14 @@ pronunciation: "ترانزاكشن"
 ## خطأ شائع
 
 ترك الـ transaction مفتوحة أثناء استدعاء API خارجي. هذا يقفل الصفوف ويبطّئ الجميع.
+
+## لا تخلطه مع
+
+تضمن الـ transaction سلامة البيانات عبر خصائص الـ ACID لسلسلة محددة من العمليات، بينما تعالج الـ batch حجمًا كبيرًا من سجلات البيانات دفعة واحدة دون بالضرورة أن تتطلب اتساقًا في الوقت الفعلي.
+
+## قلها في العمل
+
+- Let's make sure this entire registration flow runs inside a single transaction so we don't end up with orphan records.
+  - دعنا نتأكد من أن تدفق التسجيل هذا بالكامل يعمل داخل transaction واحدة حتى لا ينتهي بنا المطاف بسجلات يتيمة.
+- Please ensure that the database transaction is properly committed or rolled back at the end of the request lifecycle.
+  - يرجى التأكد من أن الـ transaction الخاصة بقاعدة البيانات يتم اعتمادها أو التراجع عنها بشكل صحيح في نهاية دورة حياة الطلب.

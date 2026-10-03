@@ -23,3 +23,12 @@ In frontend development discussions regarding state management, temporary user p
 ## Common mistake
 
 Confusing it with Local Storage; remember that Session Storage data is deleted as soon as the tab is closed, whereas Local Storage persists indefinitely until explicitly cleared.
+
+## Don't confuse with
+
+Session Storage vs Local Storage: Session Storage data is cleared when the page session ends upon closing the tab, whereas Local Storage data persists even after the browser is closed and reopened.
+
+## Say it at work
+
+- Let's move these temporary form inputs to Session Storage so the data clears automatically when the user leaves.
+- I have implemented Session Storage to ensure the user's current filter state is maintained during page refreshes.

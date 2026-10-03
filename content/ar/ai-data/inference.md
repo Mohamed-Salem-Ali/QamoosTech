@@ -25,3 +25,14 @@ pronunciation: "إنفيرنس"
 ## خطأ شائع
 
 الخلط بين الـ inference والتدريب (Training)؛ التدريب هو عملية تعليم النموذج، بينما الـ inference هو عملية استخدام النموذج الجاهز للحصول على نتائج.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ inference والتدريب (Training)؛ التدريب هو عملية تحديث أوزان النموذج باستخدام مجموعة بيانات، بينما يستخدم الـ inference هذه الأوزان الثابتة لمعالجة بيانات جديدة.
+
+## قلها في العمل
+
+- Let's check if the inference latency is within our target range before we push this update to production.
+  - دعونا نتحقق مما إذا كان زمن استجابة الـ inference ضمن النطاق المستهدف قبل أن نقوم بنشر هذا التحديث.
+- Please review the attached logs to identify why the inference service is failing to process these specific inputs.
+  - يرجى مراجعة السجلات المرفقة لتحديد سبب فشل خدمة الـ inference في معالجة هذه المدخلات المحددة.

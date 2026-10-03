@@ -25,3 +25,14 @@ pronunciation: "زيرو شوت برومبتينج"
 ## خطأ شائع
 
 الاعتقاد بأن Zero-shot prompting ستنجح دائماً في المهام المعقدة أو التخصصية جداً التي تتطلب سياقاً أو تنسيقاً محدداً، مما يؤدي غالباً إلى نتائج ضعيفة كان يمكن تحسينها باستخدام تقنية Few-shot prompting.
+
+## لا تخلطه مع
+
+تعتمد تقنية Zero-shot prompting على طلب تنفيذ المهمة دون أمثلة، بينما تتضمن تقنية Few-shot prompting إضافة عدد قليل من الأمثلة داخل نص الطلب لتوجيه مخرجات النموذج بشكل أفضل.
+
+## قلها في العمل
+
+- Can we test this extraction logic with zero-shot prompting before we spend time building a full few-shot example set?
+  - هل يمكننا اختبار منطق الاستخراج هذا باستخدام zero-shot prompting قبل أن نضيّع وقتاً في بناء مجموعة أمثلة متكاملة لـ few-shot؟
+- I updated the evaluation script to compare the zero-shot prompting accuracy against our previous few-shot baseline.
+  - لقد قمت بتحديث سكريبت التقييم لمقارنة دقة الـ zero-shot prompting مع خط الأساس السابق لـ few-shot.

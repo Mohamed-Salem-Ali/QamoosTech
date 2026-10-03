@@ -24,3 +24,8 @@ To provide a useful skill, idea, resource, or value that benefits a team or proj
 ## Common mistake
 
 Thinking it refers only to physical items or code contributions, rather than broader skills, perspectives, or domain knowledge.
+
+## Say it at work
+
+- I think we should discuss what each of us can bring to the table to speed up this sprint.
+- Please outline the specific domain expertise you bring to the table for this architecture migration.

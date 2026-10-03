@@ -22,3 +22,12 @@ In every programming tutorial, code review, and bug report.
 ## Common mistake
 
 Choosing vague names like `x` or `data`. A good variable name says what it holds, e.g. `invoiceTotal`.
+
+## Don't confuse with
+
+A variable stores a single value that can change, whereas a constant holds a value that cannot be reassigned after its initial definition.
+
+## Say it at work
+
+- Let us store this API response in a new variable before we process the data.
+- Please make sure to rename this variable to something more descriptive before merging the pull request.

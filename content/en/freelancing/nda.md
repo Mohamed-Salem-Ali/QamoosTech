@@ -22,3 +22,12 @@ Starting a new client or company project.
 ## Common mistake
 
 Posting client work in your public portfolio. Ask for permission or hide the private details.
+
+## Don't confuse with
+
+NDA vs Non-Compete Agreement: An NDA strictly prohibits sharing confidential information, whereas a non-compete agreement restricts you from working for direct competitors for a specific period.
+
+## Say it at work
+
+- I've reviewed the project requirements, but I'll need to sign an NDA before I can access the repository.
+- Please find the signed NDA attached to this email so we can proceed with the onboarding process.

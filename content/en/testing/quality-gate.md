@@ -22,3 +22,12 @@ CI/CD and tools like SonarQube.
 ## Common mistake
 
 Setting the rules too strict at the start. People then write fake tests only to pass. Start reasonable and raise it slowly.
+
+## Don't confuse with
+
+Quality Gate vs. Quality Assurance (QA). A quality gate is a specific automated check in a pipeline, whereas quality assurance is the broad process of ensuring the overall quality of the software development lifecycle.
+
+## Say it at work
+
+- We need to adjust the quality gate settings because the current threshold is blocking valid PRs.
+- Please review the failing quality gate report and address the identified issues before requesting a re-review.

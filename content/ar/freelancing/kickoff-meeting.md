@@ -25,3 +25,14 @@ pronunciation: "كيك-أوف ميتينج"
 ## خطأ شائع
 
 اعتبار الاجتماع مجرد دردشة غير رسمية بدلاً من كونه جلسة منظمة لتحديد التوقعات، مما يؤدي غالباً إلى توسع غير مدروس في نطاق العمل (scope creep) لاحقاً.
+
+## لا تخلطه مع
+
+اجتماع البدء (kickoff meeting) هو جلسة التوافق الأولية لبدء المشروع، في حين أن اجتماع المتابعة (status meeting) هو لقاء دوري لمراجعة التقدم المستمر والعقبات.
+
+## قلها في العمل
+
+- Let us set up a quick kickoff meeting with the client next week to align on the final deliverables.
+  - دعنا نحدد موعداً لاجتماع kickoff سريع مع العميل الأسبوع القادم لتوحيد الرؤى حول المخرجات النهائية.
+- Could you please send out the calendar invites for the upcoming client kickoff meeting?
+  - هل يمكنك إرسال دعوات التقويم لاجتماع الـ kickoff القادم مع العميل من فضلك؟

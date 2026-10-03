@@ -22,3 +22,12 @@ Express, NestJS, Django, and Next.js backend discussions.
 ## Common mistake
 
 In Express, forgetting to call `next()`. The request then hangs forever.
+
+## Don't confuse with
+
+Middleware is often confused with interceptors; while both handle requests, middleware is typically part of the framework's core request pipeline, whereas interceptors are often used to modify data or handle responses at a more granular or service-specific level.
+
+## Say it at work
+
+- We should add a new middleware to handle rate limiting for all incoming API calls.
+- I have implemented a custom middleware to validate the request headers before processing the main logic.

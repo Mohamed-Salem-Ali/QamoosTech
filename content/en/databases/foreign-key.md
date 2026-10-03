@@ -23,3 +23,12 @@ During database design, writing SQL constraints, or discussing table relationshi
 ## Common mistake
 
 Assuming a foreign key automatically creates an index for fast lookups, which is not true for all database systems and often needs to be created manually.
+
+## Don't confuse with
+
+Foreign Key vs. Primary Key: A primary key uniquely identifies a record within its own table, whereas a foreign key is used to establish a link between data in two different tables.
+
+## Say it at work
+
+- I think we need to add a foreign key to the logs table so we can track which user triggered each event.
+- Please ensure that the foreign key constraint is properly defined in the migration file to maintain referential integrity between these two tables.

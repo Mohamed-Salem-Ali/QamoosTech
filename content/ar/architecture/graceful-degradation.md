@@ -28,3 +28,14 @@ translation: "التدهور التدريجي"
 ## خطأ شائع
 
 الخلط بينه وبين مفهوم fail-open، حيث يتعلق الأخير بالتحكم في الصلاحيات والأمان وليس بالوظائف العامة لتجربة المستخدم.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين التدهور التدريجي وprogressive enhancement؛ فبينما يبدأ التدهور التدريجي بكامل الميزات ثم يقلصها للأنظمة الأقدم، يبدأ التحسين التدريجي بالوظائف الأساسية ويضيف ميزات متقدمة للمتصفحات القادرة على دعمها.
+
+## قلها في العمل
+
+- We should implement graceful degradation here so the user can still browse products even if the search index is temporarily unavailable.
+  - يجب علينا تطبيق التدهور التدريجي هنا حتى يتمكن المستخدم من تصفح المنتجات حتى لو كان مؤشر البحث غير متاح مؤقتاً.
+- Please ensure the UI supports graceful degradation by displaying cached data if the real-time API call fails.
+  - يرجى التأكد من أن واجهة المستخدم تدعم التدهور التدريجي من خلال عرض البيانات المخزنة مؤقتاً في حال فشل استدعاء واجهة برمجة التطبيقات المباشر.

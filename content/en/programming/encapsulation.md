@@ -25,3 +25,12 @@ Encapsulation is a core concept in object-oriented programming that bundles data
 ## Common mistake
 
 Thinking encapsulation is just about data hiding with private variables, when it is actually about combining data and behavior together to protect object invariants.
+
+## Don't confuse with
+
+Encapsulation is often confused with abstraction, but encapsulation is about bundling data and hiding implementation details, while abstraction is about hiding complexity and showing only the essential features.
+
+## Say it at work
+
+- Let's apply better encapsulation here by making these properties private and adding getter methods.
+- Please ensure proper encapsulation of the state inside the new service class to prevent external tampering.

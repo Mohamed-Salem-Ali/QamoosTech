@@ -23,3 +23,12 @@ In discussions about advanced AI capabilities, research papers, and product anno
 ## Common mistake
 
 Thinking that multimodal means the model just switches between different specialized models; in reality, it is a single model architecture trained to handle multiple data types natively.
+
+## Don't confuse with
+
+Multimodal is often mixed up with multitasking, but multimodal refers to processing different data types like text and images, while multitasking means performing multiple different tasks sequentially or concurrently.
+
+## Say it at work
+
+- Can our current pipeline support multimodal inputs, or do we need to upgrade the model first?
+- Please ensure the evaluation dataset includes multimodal test cases covering both text and audio.

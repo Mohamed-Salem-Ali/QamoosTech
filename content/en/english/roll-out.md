@@ -22,3 +22,12 @@ Product and release discussions.
 ## Common mistake
 
 Using it as a synonym for deploy. Deploying is putting code on a server; a rollout is making it available to users.
+
+## Don't confuse with
+
+Roll out is often confused with deploy; while deploying means moving code to a production environment, rolling out refers to the process of gradually exposing that feature to the end users.
+
+## Say it at work
+
+- Are we ready to roll out the authentication update to the beta group this afternoon?
+- Please ensure the documentation is updated before we begin the phased roll out to all regions.

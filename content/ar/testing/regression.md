@@ -25,3 +25,14 @@ pronunciation: "ريجريشن"
 ## خطأ شائع
 
 إصلاح regression دون إضافة اختبار. قد يعود مرة أخرى.
+
+## لا تخلطه مع
+
+يتم الخلط أحياناً بين الـ regression والخطأ البرمجي الجديد، لكن الـ regression يشير تحديداً إلى ميزة كانت تعمل سابقاً ثم توقفت بسبب تغيير حديث في الكود.
+
+## قلها في العمل
+
+- I think we introduced a regression with the latest merge, so let's check the login flow again.
+  - أعتقد أننا تسببنا في regression مع آخر دمج للكود، لذا دعونا نتحقق من مسار تسجيل الدخول مجدداً.
+- Please investigate this issue, as it appears to be a regression caused by the recent database migration.
+  - يرجى التحقيق في هذه المشكلة، حيث يبدو أنها regression ناتج عن عملية ترحيل قاعدة البيانات الأخيرة.

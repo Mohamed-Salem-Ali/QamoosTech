@@ -25,3 +25,14 @@ pronunciation: "بلو-جرين ديبلويمينت"
 ## خطأ شائع
 
 الاعتقاد بأن Blue-Green Deployment هي مجرد بيئة تجريبية (Staging)؛ الهدف الأساسي منها هو وجود بيئتين جاهزتين للإنتاج فعلياً لتسهيل عملية التبديل بينهما دون انقطاع.
+
+## لا تخلطه مع
+
+الفرق بين Blue-Green Deployment و Canary Deployment هو أن الأولى تعتمد على تحويل كامل حركة المرور بين بيئتين متطابقتين، بينما تعتمد الثانية على تحويل حركة المرور تدريجياً لمجموعة صغيرة من المستخدمين لاختبار النسخة الجديدة بأمان.
+
+## قلها في العمل
+
+- Let's switch to the green environment now that the smoke tests have passed.
+  - لنقم بالتبديل إلى البيئة الخضراء (green environment) الآن بعد أن اجتازت اختبارات الدخان بنجاح.
+- We have successfully deployed the update to the idle environment and are ready to route traffic to it.
+  - لقد قمنا بنشر التحديث بنجاح في البيئة الخاملة ونحن مستعدون لتوجيه حركة المرور إليها.

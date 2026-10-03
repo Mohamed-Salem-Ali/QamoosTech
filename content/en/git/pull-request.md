@@ -22,3 +22,12 @@ Daily teamwork on GitHub and GitLab.
 ## Common mistake
 
 Opening huge PRs with many unrelated changes. Small, focused PRs get better reviews.
+
+## Don't confuse with
+
+A pull request is a proposal to merge code that triggers a review process, whereas a merge is the actual technical action of combining the code histories together.
+
+## Say it at work
+
+- Could you please take a look at my pull request when you have a moment?
+- I have addressed all the comments and updated the pull request accordingly.

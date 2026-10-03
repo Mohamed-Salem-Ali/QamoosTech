@@ -23,3 +23,12 @@ In code reviews, performance tuning discussions, and when optimizing React compo
 ## Common mistake
 
 Applying memoization to every single function by default, which adds unnecessary memory overhead and complexity without any performance gain.
+
+## Don't confuse with
+
+Memoization caches the result of a function call based on inputs, while caching usually refers to storing broader data like API responses or database queries for later use.
+
+## Say it at work
+
+- Let's add memoization to this expensive calculation so it doesn't re-run on every state change.
+- We should consider applying memoization here to resolve the noticeable UI lag during filtering.

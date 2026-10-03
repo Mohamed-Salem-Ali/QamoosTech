@@ -26,3 +26,14 @@ translation: "المستودع الرئيسي / المصدر"
 ## خطأ شائع
 
 الخلط بين upstream و origin، حيث أن origin هو المستودع البعيد الخاص بك بينما upstream هو المشروع الأساسي الأصلي.
+
+## لا تخلطه مع
+
+يشير مصطلح upstream إلى المستودع الأصلي للمصدر، بينما يشير مصطلح origin إلى نسختك الشخصية أو المستودع البعيد الخاص بك.
+
+## قلها في العمل
+
+- Did you remember to pull the latest changes from upstream before pushing your code?
+  - هل تذكرت جلب أحدث التغييرات من المستودع الرئيسي قبل دفع الكود الخاص بك؟
+- Please ensure your branch is up to date with the upstream repository before opening a pull request.
+  - يرجى التأكد من أن فرعك محدث مع المستودع الرئيسي قبل فتح طلب سحب.

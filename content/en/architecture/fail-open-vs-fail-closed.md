@@ -22,3 +22,8 @@ Resilience, security design, and rate limiting.
 ## Common mistake
 
 Always choosing fail open. For security and payments you usually want fail closed.
+
+## Say it at work
+
+- Let's make sure the gateway is configured to fail open for this non-critical widget.
+- We decided that the payment service should fail closed to prevent any unauthorized transactions during an outage.

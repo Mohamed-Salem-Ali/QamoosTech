@@ -23,3 +23,12 @@ In freelance contracts, client negotiations, project handoff discussions, and ag
 ## Common mistake
 
 Assuming that paying for the work automatically gives you the Intellectual Property rights without checking the specific clauses in the contract.
+
+## Don't confuse with
+
+Intellectual Property is often confused with NDA, but IP determines who legally owns the final product, whereas an NDA only protects confidential information from being shared.
+
+## Say it at work
+
+- We need to clarify the Intellectual Property clause in this freelance contract before we sign it.
+- Please ensure that all project deliverables and source code comply with the Intellectual Property requirements specified in the statement of work.

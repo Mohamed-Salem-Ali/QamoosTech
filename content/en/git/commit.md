@@ -22,3 +22,12 @@ Daily Git work and code reviews.
 ## Common mistake
 
 Writing messages like "fix" or "update". Say what changed and why.
+
+## Don't confuse with
+
+Commit is often confused with Push; a commit saves changes locally to your repository, while a push sends those committed changes to a remote server.
+
+## Say it at work
+
+- I'm going to commit these style fixes now so we can start testing the UI.
+- Please ensure you commit your progress before switching to the main branch.

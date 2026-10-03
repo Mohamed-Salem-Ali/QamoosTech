@@ -23,3 +23,12 @@ When pushing code, pulling updates, or managing remote repository connections.
 ## Common mistake
 
 Thinking origin is a permanent part of Git infrastructure rather than just a local nickname for a remote URL.
+
+## Don't confuse with
+
+Origin is often confused with 'upstream', but origin refers to your own fork or remote repository, while upstream typically refers to the original repository from which you originally cloned or forked.
+
+## Say it at work
+
+- I just pushed my latest changes to origin, so you should be able to see them now.
+- Please ensure your local branch is up to date with origin before submitting your pull request.

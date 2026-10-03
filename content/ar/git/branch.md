@@ -25,3 +25,10 @@ pronunciation: "برانش"
 ## خطأ شائع
 
 إبقاء الفرع حيًا لأسابيع. كلما طالت مدته صعب دمجه.
+
+## قلها في العمل
+
+- Can you please push your branch to the remote repository so I can review it?
+  - هل يمكنك من فضلك رفع الـ branch الخاص بك إلى المستودع البعيد لكي أتمكن من مراجعته؟
+- I created a new branch from main to fix the login bug.
+  - أنشأت فرعًا جديدًا من main لإصلاح مشكلة تسجيل الدخول.

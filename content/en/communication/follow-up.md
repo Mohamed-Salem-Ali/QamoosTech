@@ -22,3 +22,12 @@ Emails, chat messages, and meeting notes.
 ## Common mistake
 
 Following up too many times in one day. One polite reminder after two or three days is enough.
+
+## Don't confuse with
+
+Follow-up is checking on the progress of an existing request or task, whereas a check-in is a more general conversation to see how someone is doing or align on overall goals.
+
+## Say it at work
+
+- I'll follow up with the DevOps team to see why the deployment is still stuck in staging.
+- Please follow up on this ticket once the client confirms the new requirements.

@@ -26,3 +26,14 @@ pronunciation: "كروس سايت سكربتنج"
 ## خطأ شائع
 
 الاعتقاد بأن هجمات XSS تؤثر فقط على المستخدمين العاديين؛ إذ يمكن للمهاجمين أيضاً استخدام هجمات XSS المخزنة لاستهداف المديرين والسيطرة على التطبيق بالكامل.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين XSS و CSRF؛ فبينما تتضمن XSS حقن نصوص برمجية ضارة في الصفحة، تقوم CSRF بخداع المستخدم لتنفيذ إجراءات غير مرغوب فيها على موقع هو موثق فيه بالفعل.
+
+## قلها في العمل
+
+- We should double-check if the search results page is properly escaping output to avoid any potential XSS.
+  - يجب أن نتأكد مرة أخرى مما إذا كانت صفحة نتائج البحث تقوم بتنقية المخرجات بشكل صحيح لتجنب أي ثغرة XSS محتملة.
+- The recent security audit identified an XSS vulnerability in the feedback form, so please prioritize the fix in the next sprint.
+  - حدد التدقيق الأمني الأخير ثغرة XSS في نموذج الملاحظات، لذا يرجى إعطاء الأولوية لإصلاحها في دورة العمل القادمة.

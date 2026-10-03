@@ -22,3 +22,12 @@ Chat apps, live notifications, dashboards, and multiplayer features.
 ## Common mistake
 
 Using WebSockets for everything. If updates are rare, simple polling or Server-Sent Events is easier.
+
+## Don't confuse with
+
+WebSockets are often confused with Server-Sent Events (SSE); while WebSockets allow full-duplex communication in both directions, SSE is strictly for one-way communication from the server to the client.
+
+## Say it at work
+
+- We should implement WebSockets for this feature so the dashboard updates in real-time without needing a page refresh.
+- I have reviewed the connection handling logic and it seems that the WebSockets are not closing properly when the user logs out.

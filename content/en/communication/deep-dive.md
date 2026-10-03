@@ -23,3 +23,12 @@ In architecture reviews, team meetings, and complex technical planning sessions.
 ## Common mistake
 
 Using it for a quick status update or a surface-level overview instead of an intensive, detailed analysis.
+
+## Don't confuse with
+
+Deep dive is often confused with brainstorming; while a deep dive focuses on analyzing an existing complex subject in detail, brainstorming is about generating new ideas and creative solutions.
+
+## Say it at work
+
+- I think this bug is quite complex, so let's set up a deep dive to walk through the logs together.
+- I have attached the documentation for the new module; please review it so we can conduct a deep dive in our next sync.

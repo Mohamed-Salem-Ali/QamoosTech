@@ -25,3 +25,12 @@ Code splitting is the technique of breaking your application's JavaScript bundle
 ## Common mistake
 
 Splitting the code into too many tiny chunks, which can cause an excessive number of network requests and actually slow down the application instead of speeding it up.
+
+## Don't confuse with
+
+Code splitting is often confused with tree shaking; while code splitting breaks the bundle into smaller files loaded on demand, tree shaking removes unused code from the final bundle during the build process.
+
+## Say it at work
+
+- Let's apply code splitting to the admin dashboard routes so we don't load unnecessary modules for standard users.
+- I have enabled code splitting for the heavy components to ensure the main bundle size stays within our performance budget.

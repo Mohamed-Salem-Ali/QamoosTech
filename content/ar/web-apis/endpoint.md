@@ -25,3 +25,14 @@ pronunciation: "إندبوينت"
 ## خطأ شائع
 
 تسمية الـ endpoints بأفعال مثل `/getUsers`. في REST الفعل هو طريقة HTTP، لذلك استخدم `GET /users`.
+
+## لا تخلطه مع
+
+الـ endpoint هو مسار الـ URL المحدد الذي يمكن الوصول إلى الـ API من خلاله، بينما الـ API هو النظام بأكمله أو مجموعة القواعد التي تسمح بالتطبيقات بالتواصل.
+
+## قلها في العمل
+
+- Can you check which endpoint returns the user profile data?
+  - هل يمكنك التحقق من الـ endpoint الذي يعيد بيانات الملف الشخصي للمستخدم؟
+- Please update this endpoint to support pagination parameters in the query string.
+  - يرجى تحديث هذا الـ endpoint ليدعم معاملات التصفح في سلسلة الاستعلام.

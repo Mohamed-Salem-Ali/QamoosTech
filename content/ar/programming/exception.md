@@ -25,3 +25,14 @@ pronunciation: "إكسيبشن"
 ## خطأ شائع
 
 التقاط كل الاستثناءات وتجاهلها. يختفي الخطأ من أمام عينيك لكنه لا يختفي من الواقع.
+
+## لا تخلطه مع
+
+يمثل الاستثناء خطأ أثناء التشغيل يمكن لشيفرتك معالجته، بينما يمنع خطأ البناء الشيفرة من الترجمة أو التشغيل من الأساس.
+
+## قلها في العمل
+
+- Make sure to add a specific try-catch block here so we don't let this exception crash the background worker.
+  - تأكد من إضافة كتلة try-catch محددة هنا حتى لا نسمح لهذا الاستثناء بإيقاف العامل الخلفي.
+- Please wrap the database call in a try-catch block and log the exception details for further investigation.
+  - يرجى تغليف استدعاء قاعدة البيانات في كتلة try-catch وتجسيل تفاصيل الاستثناء لمزيد من التحقيق.

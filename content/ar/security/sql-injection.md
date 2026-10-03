@@ -26,3 +26,14 @@ pronunciation: "إس كيُو إل إِنْجيكشِن"
 ## خطأ شائع
 
 الوثوق ببيانات المستخدمين ودمج النصوص مباشرة داخل جمل SQL بدلاً من استخدام الاستعلامات المُجهزة أو أداة ربط الكائنات بقواعد البيانات (ORM).
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين حقن SQL وهجمات البرمجة عبر المواقع (XSS)؛ فبينما يستهدف حقن SQL طبقة قاعدة البيانات، يستهدف XSS متصفح المستخدم عبر حقن سكربتات خبيثة في صفحات الويب.
+
+## قلها في العمل
+
+- We need to make sure all these input fields are sanitized to avoid any potential SQL injection risks.
+  - نحتاج للتأكد من تنقية جميع حقول الإدخال هذه لتجنب أي مخاطر محتملة لحقن SQL.
+- I have updated the code to use prepared statements, which effectively mitigates the SQL injection vulnerability found in the previous module.
+  - لقد قمت بتحديث الكود لاستخدام الاستعلامات المُجهزة، مما يعالج بشكل فعال ثغرة حقن SQL التي تم العثور عليها في الوحدة السابقة.

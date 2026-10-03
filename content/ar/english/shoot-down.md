@@ -25,3 +25,14 @@ pronunciation: "شوت داون"
 ## خطأ شائع
 
 الاعتقاد بأن المصطلح يعني هجوماً شخصياً أو تصرفاً عدوانياً، بينما هو في بيئة العمل يعني ببساطة أن الاقتراح لم يُقبل أو لم يُعتبر مناسباً للتنفيذ.
+
+## لا تخلطه مع
+
+الفرق بين Shoot down و Veto هو أن الأول يشير إلى رفض فكرة بشكل قاطع أثناء النقاش، بينما الـ Veto هو سلطة رسمية يمتلكها شخص معين لرفض القرار بشكل نهائي وحصري.
+
+## قلها في العمل
+
+- I know my idea for the new API structure might get shot down, but I still think it's worth discussing.
+  - أعلم أن فكرتي لهيكلة الـ API الجديد قد تُرفض، لكنني ما زلت أعتقد أنها تستحق النقاش.
+- Please review the proposed architecture before the meeting so we can avoid having the entire plan shot down.
+  - يرجى مراجعة التصميم المقترح قبل الاجتماع حتى نتمكن من تجنب رفض الخطة بالكامل.

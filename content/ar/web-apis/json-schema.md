@@ -25,3 +25,14 @@ pronunciation: "جايسون سكيما"
 ## خطأ شائع
 
 الاعتقاد بأن JSON Schema هو تنسيق بيانات بحد ذاته؛ في الواقع هو مجموعة من القواعد المستخدمة لوصف هيكل بيانات JSON أخرى، وليس البيانات نفسها.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين JSON Schema و OpenAPI، ولكن في حين تتحقق JSON Schema من هيكل مستند JSON واحد، فإن OpenAPI يصف واجهات RESTful كاملة بما في ذلك نقاط النهاية والطرق والاستجابات.
+
+## قلها في العمل
+
+- Can we update the JSON Schema to make the email field optional for this endpoint?
+  - هل يمكننا تحديث الـ JSON Schema لجعل حقل البريد الإلكتروني اختيارياً لنقطة النهاية هذه؟
+- Please find attached the updated JSON Schema for the user profile registration payload.
+  - تجدون مرفقاً الـ JSON Schema المُحدّث الخاص ببيانات تسجيل الملف الشخصي للمستخدم.

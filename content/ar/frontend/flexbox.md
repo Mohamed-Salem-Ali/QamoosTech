@@ -25,3 +25,14 @@ pronunciation: "فليكس-بوكس"
 ## خطأ شائع
 
 استخدام Flexbox لتصميم تخطيطات معقدة ثنائية الأبعاد، حيث يكون CSS Grid هو الأداة الأنسب والأكثر كفاءة لهذا الغرض.
+
+## لا تخلطه مع
+
+صُمم Flexbox للتخطيطات أحادية البعد في صف أو عمود واحد، بينما وُضع CSS Grid للتخطيطات ثنائية البعد للتحكم في الصفوف والأعمدة في نفس الوقت.
+
+## قلها في العمل
+
+- Can we use Flexbox here so these items wrap nicely on smaller screens?
+  - هل يمكننا استخدام Flexbox هنا لكي تلتف هذه العناصر بشكل مناسب على الشاشات الأصغر؟
+- I updated the container style to use Flexbox for better alignment of the action buttons.
+  - قمت بتحديث تنسيق الحاوية لاستخدام Flexbox من أجل محاذاة أفضل لأزرار الإجراءات.

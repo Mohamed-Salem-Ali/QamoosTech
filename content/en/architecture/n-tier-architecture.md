@@ -25,3 +25,12 @@ N-tier architecture is a software design pattern that divides an application int
 ## Common mistake
 
 Confusing tiers with layers, where "layers" refer to logical code separation, while "tiers" mean the physical separation of those layers across different servers or machines.
+
+## Don't confuse with
+
+N-tier architecture is often confused with microservices; while both involve separation, N-tier focuses on organizing an application into distinct functional layers, whereas microservices involve breaking the entire system into small, independently deployable services.
+
+## Say it at work
+
+- We should consider moving to an N-tier architecture if we want to scale our database layer independently from the application server.
+- The proposed N-tier architecture ensures that the presentation layer remains decoupled from the data access logic.

@@ -25,3 +25,14 @@ pronunciation: "مونيتورينج"
 ## خطأ شائع
 
 إنشاء تنبيهات كثيرة حتى يتجاهلها الجميع. نبّه فقط على ما يحتاج إلى تدخل.
+
+## لا تخلطه مع
+
+غالبًا ما يتم الخلط بين المراقبة (Monitoring) والقابلية للملاحظة (Observability)؛ فالمراقبة تخبرك أن النظام معطل، بينما توفر القابلية للملاحظة البيانات الداخلية اللازمة لفهم سبب هذا العطل.
+
+## قلها في العمل
+
+- Let's check our monitoring dashboard to see if the latency spikes are still happening.
+  - دعونا نتحقق من لوحة تحكم المراقبة لنرى ما إذا كانت قفزات التأخير لا تزال تحدث.
+- I have updated the monitoring configuration to include more granular metrics for the database service.
+  - لقد قمت بتحديث إعدادات المراقبة لتشمل مقاييس أكثر تفصيلًا لخدمة قاعدة البيانات.

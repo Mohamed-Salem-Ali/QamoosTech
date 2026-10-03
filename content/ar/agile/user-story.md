@@ -25,3 +25,14 @@ pronunciation: "يوزر ستوري"
 ## خطأ شائع
 
 كتابة مهام تقنية بدل احتياجات المستخدم. يجب أن توضح القصة القيمة للمستخدم.
+
+## لا تخلطه مع
+
+User Story مقابل Requirement: المتطلب (Requirement) غالبًا ما يكون مواصفات رسمية ومفصلة لسلوك النظام، بينما قصة المستخدم (User Story) هي سرد غير رسمي عالي المستوى يركز على القيمة المقدمة للمستخدم النهائي.
+
+## قلها في العمل
+
+- Let's quickly review the user story for the checkout flow before we start coding.
+  - دعونا نراجع سريعًا قصة المستخدم الخاصة بمسار إتمام الشراء قبل أن نبدأ في البرمجة.
+- I have updated the user story in the backlog to better reflect the feedback we received from the stakeholders.
+  - لقد قمت بتحديث قصة المستخدم في الـ backlog لتعكس بشكل أفضل الملاحظات التي تلقيناها من أصحاب المصلحة.

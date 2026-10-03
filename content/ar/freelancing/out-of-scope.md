@@ -26,3 +26,14 @@ translation: "خارج النطاق"
 ## خطأ شائع
 
 الاعتقاد بأنه يجب عليك تنفيذ الطلبات الإضافية مجاناً فقط لإرضاء العميل، بدلاً من مناقشة طلب تغيير أو تكلفة إضافية.
+
+## لا تخلطه مع
+
+يشير مصطلح خارج النطاق إلى العمل الذي لم يكن جزءاً من الاتفاقية أبداً، بينما يعني زحف النطاق التراكم التدريجي لهذه الإضافات غير المعتمدة بمرور الوقت.
+
+## قلها في العمل
+
+- That extra reporting feature sounds great, but it is completely out of scope for our current sprint.
+  - ميزة التقارير الإضافية هذه تبدو رائعة، لكنها خارج نطاق السبرنت الحالي تماماً.
+- Please note that redesigning the checkout flow is out of scope for this phase and will require a separate change request.
+  - يرجى ملاحظة أن إعادة تصميم صفحة الدفع خارج نطاق هذه المرحلة وستتطلب طلب تغيير منفصلاً.

@@ -23,3 +23,8 @@ Database optimization discussions, slow query troubleshooting, and performance t
 ## Common mistake
 
 Assuming the database will always execute the query exactly as written, without realizing the engine might completely rearrange operations based on the plan.
+
+## Say it at work
+
+- Let's check the EXPLAIN plan for this query to see why it is doing a sequential scan instead of using our new index.
+- I attached the EXPLAIN plan output to the ticket so we can review the join bottlenecks together.

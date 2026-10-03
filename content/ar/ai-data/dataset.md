@@ -25,3 +25,10 @@ pronunciation: "ديتاسِت"
 ## خطأ شائع
 
 الاختبار على البيانات نفسها التي دُرّب عليها. احتفظ بمجموعة اختبار منفصلة.
+
+## قلها في العمل
+
+- Make sure to clean the dataset before passing it to the training pipeline.
+  - تأكد من تنظيف الـ dataset قبل تمريرها إلى مسار التدريب.
+- Could you please review the dataset attached to this ticket and verify its labels?
+  - هل يمكنك مراجعة الـ dataset المرفقة مع هذه التذكرة والتحقق من تسمياتها؟

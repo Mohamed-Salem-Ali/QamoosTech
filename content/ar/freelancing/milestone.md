@@ -25,3 +25,14 @@ pronunciation: "مايلستون"
 ## خطأ شائع
 
 جعل المراحل كبيرة جدًا. المراحل الأصغر تُظهر التقدم وتقلل مخاطر الدفع.
+
+## لا تخلطه مع
+
+الفرق بين Milestone و Deliverable هو أن الـ Milestone يمثل نقطة زمنية أو مرحلة في المشروع، بينما الـ Deliverable هو المنتج الملموس أو الوثيقة التي يتم تسليمها خلال تلك المرحلة.
+
+## قلها في العمل
+
+- Let's break the project into smaller chunks so we can define a clear milestone for the end of each month.
+  - دعونا نقسم المشروع إلى أجزاء أصغر حتى نتمكن من تحديد Milestone واضح لنهاية كل شهر.
+- I have attached the documentation for the current phase, as we have officially completed this milestone.
+  - لقد أرفقت الوثائق الخاصة بالمرحلة الحالية، حيث أننا أكملنا هذا الـ Milestone رسميًا.

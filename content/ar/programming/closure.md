@@ -25,3 +25,10 @@ pronunciation: "كلوزشر"
 ## خطأ شائع
 
 الاعتقاد بأن الـ closure هو بناء نحوي مميز، بينما هو في الحقيقة مجرد سلوك طبيعي للدوال تحتفظ فيه بالوصول إلى بيئة إنشائها.
+
+## قلها في العمل
+
+- Let's use a closure here to keep the count variable private and secure from outside modification.
+  - دعنا نستخدم closure هنا للحفاظ على متغير العد خاصاً وآمناً من أي تعديل خارجي.
+- I updated the implementation to use a closure so the callback retains access to the current configuration.
+  - قمت بتحديث التنفيذ لاستخدام closure لكي تحتفظ دالة الـ callback بالوصول إلى الإعدادات الحالية.

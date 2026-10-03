@@ -23,3 +23,12 @@ When pulling the latest changes from the main project or configuring git remotes
 ## Common mistake
 
 Confusing upstream with origin, where origin is your own remote repository and upstream is the original main project.
+
+## Don't confuse with
+
+Upstream refers to the original source repository, while origin refers to your own personal fork or remote copy of the repository.
+
+## Say it at work
+
+- Did you remember to pull the latest changes from upstream before pushing your code?
+- Please ensure your branch is up to date with the upstream repository before opening a pull request.

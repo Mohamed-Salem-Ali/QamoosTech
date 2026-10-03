@@ -23,3 +23,8 @@ When checking out an old commit, during an interactive rebase, or when trying to
 ## Common mistake
 
 Thinking that working in a detached HEAD state will automatically update your main branch, or panicking and deleting the repository instead of just creating a new branch to save your work.
+
+## Say it at work
+
+- Make sure you create a temporary branch right now so you do not stay in a detached HEAD state.
+- Please create a new branch from this commit to preserve your changes and avoid working in a detached HEAD state.

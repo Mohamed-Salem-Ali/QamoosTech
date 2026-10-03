@@ -22,3 +22,8 @@ Code reviews, documentation, and error messages such as "expected 2 arguments, g
 ## Common mistake
 
 Using the two words as if they were identical. People usually understand you, but in interviews the difference is a common question.
+
+## Say it at work
+
+- Make sure the argument you're passing matches the type defined in the function parameter.
+- I noticed a mismatch between the function parameters and the arguments provided in the service call.

@@ -22,3 +22,12 @@ React, Vue, Angular, and design systems.
 ## Common mistake
 
 Building huge components that do everything. Small focused components are easier to test and reuse.
+
+## Don't confuse with
+
+Component is often mixed up with template, but a template defines the layout and structure, whereas a component includes both the logic and the UI elements.
+
+## Say it at work
+
+- Can we extract this part of the form into a separate component so we can reuse it later?
+- I updated the navigation component to support the new responsive layout requirements.

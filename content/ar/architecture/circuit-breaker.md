@@ -26,3 +26,14 @@ translation: "قاطع الدائرة"
 ## خطأ شائع
 
 الاعتقاد بأنه مجرد مهلة زمنية (timeout)، في حين أن قاطع الدائرة يتتبع معدلات الفشل بمرور الوقت ويتوقف عن استدعاء الخدمة تماماً حتى تتعافى.
+
+## لا تخلطه مع
+
+قاطع الدائرة مقابل موازن الحمل: يقوم موازن الحمل بتوزيع حركة المرور على عدة خوادم لتحسين الأداء، بينما يقوم قاطع الدائرة بإيقاف حركة المرور إلى خدمة معطلة لمنع انهيار النظام بالكامل.
+
+## قلها في العمل
+
+- I think we should implement a circuit breaker here so that the entire system doesn't hang if the external API goes down.
+  - أعتقد أنه يجب علينا تطبيق Circuit Breaker هنا حتى لا يتوقف النظام بالكامل عن الاستجابة في حال تعطل واجهة البرمجة الخارجية.
+- Please review the pull request where I added a circuit breaker to handle potential timeouts from the authentication service.
+  - يرجى مراجعة طلب السحب (pull request) حيث قمت بإضافة Circuit Breaker للتعامل مع المهلات الزمنية المحتملة من خدمة المصادقة.

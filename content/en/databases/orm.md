@@ -22,3 +22,12 @@ Django, Prisma, TypeORM, and SQLAlchemy discussions.
 ## Common mistake
 
 Never looking at the SQL it creates. An ORM can hide slow queries.
+
+## Don't confuse with
+
+ORM is often confused with an ODM; while an ORM maps objects to relational database tables, an ODM is specifically designed for document-oriented databases like MongoDB.
+
+## Say it at work
+
+- Let's switch to raw queries for this endpoint because the ORM is generating way too many joins.
+- I recommend using the ORM for these simple CRUD operations to keep the codebase clean and maintainable.

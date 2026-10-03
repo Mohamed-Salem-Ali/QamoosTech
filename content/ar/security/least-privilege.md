@@ -26,3 +26,14 @@ translation: "مبدأ الحد الأدنى من الصلاحيات"
 ## خطأ شائع
 
 منح صلاحيات إدارية واسعة مؤقتاً لتسهيل العمل ثم نسيان إلغائها لاحقاً.
+
+## لا تخلطه مع
+
+مبدأ الحد الأدنى من الصلاحيات يقيّد ما يمكن للمستخدم أو الخدمة القيام به، بينما فصل المهام يقسم المهام بين أشخاص متعددين لمنع الاحتيال أو الأخطاء.
+
+## قلها في العمل
+
+- We need to apply the principle of least privilege to this microservice so it only accesses the storage bucket it actually requires.
+  - عليك تطبيق مبدأ الحد الأدنى من الصلاحيات على هذه الخدمة المصغرة بحيث تتمكن فقط من الوصول إلى مستودع التخزين الذي تحتاجه حقاً.
+- Please review the IAM roles to ensure that every service account adheres strictly to the least privilege model.
+  - يرجى مراجعة أدوار إدارة الهوية والصلاحيات لضمان التزام كل حساب خدمة بدقة بننموذج الحد الأدنى من الصلاحيات.

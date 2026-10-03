@@ -25,3 +25,14 @@ pronunciation: "كاسكيدينج ديليت"
 ## خطأ شائع
 
 الاعتقاد بأن الـ cascading delete هو الخيار الأمثل دائماً؛ فغالباً ما ينسى المطورون أنه قد يتسبب في عمليات حذف جماعية غير مقصودة عبر جداول متعددة إذا كانت سلسلة العلاقات طويلة.
+
+## لا تخلطه مع
+
+الحذف المتتابع (cascading delete) يحذف السجلات المرتبطة تلقائياً عند حذف السجل الرئيسي، بينما الحذف الناعم (soft delete) يضع علامة على السجل كغير فعال فقط دون إزالته فعلياً من قاعدة البيانات.
+
+## قلها في العمل
+
+- Make sure we set up a cascading delete on this foreign key so we don't end up with orphaned records in the table.
+  - تأكد من إعداد cascading delete على هذا الـ foreign key لكي لا ينتهي بنا المطاف بوجود سجلات يتيمة في الجدول.
+- Please review the database migration to verify that enabling cascading delete will not cause unintended data loss across related tables.
+  - يرجى مراجعة ترحيل قاعدة البيانات للتحقق من أن تفعيل الـ cascading delete لن يتسبب في فقدان غير مقصود للبيانات عبر الجداول المرتبطة.

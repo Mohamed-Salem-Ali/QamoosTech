@@ -23,3 +23,8 @@ During sprint planning, infrastructure discussions, or when preparing for a majo
 ## Common mistake
 
 Confusing load testing with stress testing; while load testing checks performance under expected limits, stress testing pushes the system beyond its limits to see how and when it fails.
+
+## Say it at work
+
+- Let's review the load testing results in our next standup to see if we hit our latency goals.
+- Please attach the latest load testing report to this ticket before we merge the changes.

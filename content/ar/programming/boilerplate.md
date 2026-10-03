@@ -27,3 +27,14 @@ pronunciation: "بويلر-بليت"
 ## خطأ شائع
 
 الاعتقاد بأن الـ boilerplate هو دائماً كود سيء؛ فبالرغم من كونه مملاً، إلا أنه غالباً ما يكون متطلباً هيكلياً للغة أو للمكتبة لضمان سلامة الأنواع (type safety) أو التهيئة الصحيحة.
+
+## لا تخلطه مع
+
+يشير Boilerplate إلى كود متكرر ضروري للجانب الهيكلي، بينما يشير كود سميل (code smell) إلى نمط برمجي سيء يدل على وجود مشكلة أعمق في التصميم.
+
+## قلها في العمل
+
+- Can we use a generator to skip writing all this boilerplate for the new feature?
+  - هل يمكننا استخدام مولد لتخطي كتابة كل هذا الـ boilerplate للميزة الجديدة؟
+- Please move the setup logic into a shared helper to reduce the boilerplate in our handlers.
+  - يرجى نقل منطق الإعداد إلى دالة مساعدة مشتركة لتقليل الـ boilerplate في المعالجات الخاصة بنا.

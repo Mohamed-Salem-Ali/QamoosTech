@@ -25,3 +25,14 @@ pronunciation: "إيفينت بابلينج"
 ## خطأ شائع
 
 ينسى المطورون غالباً أن الأحداث تنتقل للأعلى (تتصاعد) بشكل افتراضي، مما قد يؤدي إلى تفعيل عدة دوال معالجة عن غير قصد، وهو أمر يمكن إيقافه باستخدام `event.stopPropagation()`.
+
+## لا تخلطه مع
+
+تنتقل خاصية Event Bubbling للأعلى من العنصر المستهدف إلى العناصر الأب، بينما تنتقل خاصية Event Capturing للأسفل من الجذر إلى العنصر المستهدف.
+
+## قلها في العمل
+
+- Make sure to call event.stopPropagation here, otherwise event bubbling will trigger the parent container as well.
+  - تأكد من استدعاء event.stopPropagation هنا وإلا فإن Event Bubbling سيفعل الحاويات الأب أيضاً.
+- We can refactor this component to rely on event bubbling instead of attaching separate listeners to every single child.
+  - يمكننا إعادة هيكلة هذا المكون ليعتمد على Event Bubbling بدلاً من إرفاق مستمعين منفصلين بكل عنصر فرعي.

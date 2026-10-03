@@ -25,3 +25,10 @@ pronunciation: "سكرم سيريمونيز"
 ## خطأ شائع
 
 تحويل الـ standup إلى تقرير حالة للمدير. هو لتنسيق الفريق واكتشاف العوائق.
+
+## قلها في العمل
+
+- Let us make sure we keep all our Scrum ceremonies on schedule this week despite the holidays.
+  - دعونا نتأكد من إبقاء جميع اجتماعات سكرم في موعدها هذا هفته على الرغم من العطلات.
+- Please update the calendar invites for the upcoming Scrum ceremonies so the new developers can join.
+  - يرجى تحديث دعوات التقويم لاجتماعات سكرم القادمة لكي يتمكن المطورون الجدد من الانضمام.

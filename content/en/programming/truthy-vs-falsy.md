@@ -23,3 +23,12 @@ During code reviews, while debugging logic errors in `if` statements, or when le
 ## Common mistake
 
 Assuming that only `true` and `false` can be used in conditions; beginners often forget that values like `0`, `null`, or empty arrays are treated as falsy in many languages.
+
+## Don't confuse with
+
+Truthy vs Falsy is often confused with Null vs Undefined; while truthy/falsy refers to how a value behaves in a boolean context, null/undefined refers to the specific absence of a value or an uninitialized state.
+
+## Say it at work
+
+- Be careful with that variable, it might be falsy if the API returns an empty list.
+- I suggest adding an explicit check for null to avoid issues with other falsy values.

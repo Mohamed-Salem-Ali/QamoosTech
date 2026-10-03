@@ -23,3 +23,12 @@ During CI/CD pipeline setups, database migrations, and release planning meetings
 ## Common mistake
 
 Assuming a dry run is completely risk-free; it can still consume resources or cause temporary locks even if it does not write data.
+
+## Don't confuse with
+
+A dry run tests an operation without making permanent changes, while a backup creates a safe copy of existing data before modifications begin.
+
+## Say it at work
+
+- Let us run the deployment command with the dry run flag first to make sure there are no syntax errors.
+- Please attach the output logs from the dry run to the pull request description before merging.

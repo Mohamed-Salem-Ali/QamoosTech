@@ -23,3 +23,12 @@ During daily stand-ups, one-on-one meetings, or when asking for help in a team c
 ## Common mistake
 
 Thinking that hitting a wall means you have failed; in reality, it is a normal part of development that usually signals it is time to ask for a code review or a second pair of eyes.
+
+## Don't confuse with
+
+Hit a wall vs. Burnout: Hitting a wall refers to a specific technical obstacle on a single task, whereas burnout is a state of chronic physical and mental exhaustion caused by prolonged stress.
+
+## Say it at work
+
+- I've hit a wall with this API integration, so could someone take a look at my code?
+- I have hit a wall regarding the database migration and would appreciate a brief sync to discuss potential solutions.

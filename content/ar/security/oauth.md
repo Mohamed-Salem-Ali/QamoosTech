@@ -25,3 +25,14 @@ pronunciation: "أوأوث تو بوينت أو"
 ## خطأ شائع
 
 وصف OAuth بأنه بروتوكول مصادقة. هو للتفويض، ويضيف OpenID Connect الهوية فوقه.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين OAuth 2.0 و OpenID Connect؛ حيث يختص OAuth 2.0 بالتفويض (منح صلاحية الوصول)، بينما يعد OpenID Connect طبقة هوية مبنية فوقه للتعامل مع المصادقة.
+
+## قلها في العمل
+
+- We should implement OAuth 2.0 so users can connect their accounts without us ever seeing their actual passwords.
+  - يجب أن نطبق OAuth 2.0 حتى يتمكن المستخدمون من ربط حساباتهم دون أن نرى كلمات مرورهم الفعلية أبداً.
+- Please review the PR; I have updated the OAuth 2.0 flow to handle the token refresh process more securely.
+  - يرجى مراجعة طلب السحب (PR)؛ لقد قمت بتحديث مسار OAuth 2.0 للتعامل مع عملية تحديث الرموز المميزة (token refresh) بشكل أكثر أماناً.

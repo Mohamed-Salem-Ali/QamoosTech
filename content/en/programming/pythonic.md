@@ -22,3 +22,8 @@ Python code reviews and style discussions.
 ## Common mistake
 
 Squeezing everything into one clever line. Pythonic means readable, not shortest.
+
+## Say it at work
+
+- I think we can make this logic more Pythonic by using a generator expression instead of that nested loop.
+- Please refactor the data processing module to follow Pythonic conventions, specifically by utilizing context managers for file handling.

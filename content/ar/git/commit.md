@@ -25,3 +25,14 @@ pronunciation: "كوميت"
 ## خطأ شائع
 
 كتابة رسائل مثل «fix» أو «update». اذكر ما تغيّر ولماذا.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ commit والـ push؛ فالـ commit يحفظ التغييرات محلياً في المستودع الخاص بك، بينما يقوم الـ push بإرسال هذه التغييرات المحفوظة إلى خادم بعيد.
+
+## قلها في العمل
+
+- I'm going to commit these style fixes now so we can start testing the UI.
+  - سأقوم بعمل commit لتعديلات التنسيق هذه الآن حتى نتمكن من البدء في اختبار واجهة المستخدم.
+- Please ensure you commit your progress before switching to the main branch.
+  - يرجى التأكد من عمل commit لتقدمك في العمل قبل الانتقال إلى الفرع الرئيسي.

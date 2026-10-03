@@ -23,3 +23,12 @@ During server setup, security audits, domain certificate configuration, or when 
 ## Common mistake
 
 Thinking SSL is still actively used, when in fact it has been completely replaced by its secure successor, TLS.
+
+## Don't confuse with
+
+SSL/TLS is often confused with HTTPS; while SSL/TLS is the underlying cryptographic protocol that secures the connection, HTTPS is the actual application protocol that uses SSL/TLS to transfer data securely.
+
+## Say it at work
+
+- We should check if the load balancer is correctly terminating the SSL/TLS connection before passing the traffic to our internal service.
+- Please ensure the server configuration enforces modern SSL/TLS versions to comply with our current security policy.

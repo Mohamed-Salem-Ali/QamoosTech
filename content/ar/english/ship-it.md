@@ -25,3 +25,14 @@ pronunciation: "شيب إت"
 ## خطأ شائع
 
 استخدامها لتخطي الاختبارات أو المراجعة. «Ship it» تعني أن العمل جاهز، لا أن الفحوصات اختيارية.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Ship it ومصطلح deploy. بينما يشير deploy إلى العملية التقنية لنقل الكود إلى الخادم، فإن Ship it هو قرار أوسع بإطلاق الميزة للمستخدمين النهائيين.
+
+## قلها في العمل
+
+- The final bug fix is merged, so let's ship it and move on to the next sprint.
+  - تم دمج إصلاح الخطأ الأخير، لذا دعونا نطلقه وننتقل إلى السبرنت القادم.
+- I have verified the staging environment and everything looks stable, so we are ready to ship it.
+  - لقد تحققت من بيئة الاختبار وكل شيء يبدو مستقراً، لذا نحن جاهزون لإطلاقه.

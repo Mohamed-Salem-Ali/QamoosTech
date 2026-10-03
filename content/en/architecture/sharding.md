@@ -23,3 +23,12 @@ In system design discussions, database administration meetings, and when plannin
 ## Common mistake
 
 Thinking that sharding is a simple configuration change; it is a complex architectural decision that makes cross-shard queries and data consistency significantly harder to manage.
+
+## Don't confuse with
+
+Sharding vs partitioning: partitioning usually splits a database within a single server or instance, while sharding distributes those partitions across multiple physical servers.
+
+## Say it at work
+
+- Before we hit database limits this holiday season, we should look into sharding our user table.
+- Please review the proposed sharding strategy to ensure our cross-shard queries remain efficient.

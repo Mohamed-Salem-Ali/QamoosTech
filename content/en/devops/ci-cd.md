@@ -22,3 +22,8 @@ Job posts, DevOps talks, and pull request checks.
 ## Common mistake
 
 Mixing up Continuous Delivery and Continuous Deployment. Delivery means "ready to deploy"; deployment means "deployed automatically".
+
+## Say it at work
+
+- Can you check why the CI/CD pipeline is failing on the master branch?
+- We need to update our CI/CD workflow to run security scans before deploying to production.

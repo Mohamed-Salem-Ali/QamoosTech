@@ -23,3 +23,12 @@ During security reviews, when setting up cloud infrastructure, or when planning 
 ## Common mistake
 
 Treating secret management the same as regular environment variables, which can accidentally expose sensitive credentials in plain text logs or repository history.
+
+## Don't confuse with
+
+Secret management is often confused with environment variables; while environment variables are simple key-value pairs for configuration, secret management provides encryption, access auditing, and automatic rotation for sensitive data.
+
+## Say it at work
+
+- We need to stop storing these keys in our config files and move them into our secret management system.
+- Please ensure that the new service integration follows our established secret management policies to avoid hardcoding credentials.

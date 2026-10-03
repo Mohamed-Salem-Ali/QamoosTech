@@ -25,3 +25,14 @@ ORM للغة TypeScript تصف فيه بياناتك في ملف schema فيول
 ## خطأ شائع
 
 تشغيل `prisma generate` ونسيان تطبيق الـ migration. يتحدّث العميل لكن قاعدة البيانات لا تتحدّث.
+
+## لا تخلطه مع
+
+يتم الخلط غالبًا بين Prisma وTypeORM؛ فبينما كلاهما ORM للغة TypeScript، يستخدم Prisma لغة تعريف schema خاصة لتوليد عميل آمن الأنواع، بينما يعتمد TypeORM بشكل أساسي على الـ decorators والكلاسات.
+
+## قلها في العمل
+
+- I'm having some trouble with the Prisma client, could you take a look at my schema file?
+  - أواجه بعض المشاكل مع عميل Prisma، هل يمكنك إلقاء نظرة على ملف الـ schema الخاص بي؟
+- Please ensure that you run the migration command after updating the Prisma schema to keep the database in sync.
+  - يرجى التأكد من تشغيل أمر الـ migration بعد تحديث ملف الـ schema الخاص بـ Prisma للحفاظ على تزامن قاعدة البيانات.

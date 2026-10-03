@@ -27,3 +27,14 @@ pronunciation: "جِت فِيتش"
 ## خطأ شائع
 
 يعتقد الكثير من المبتدئين أن `git fetch` يقوم بتحديث ملفات العمل الحالية تلقائياً. في الواقع، هو يقوم فقط بتحديث البيانات الوصفية المحلية، لذا يجب عليك تنفيذ `git merge` أو `git pull` إذا كنت ترغب في تطبيق تلك التغييرات على الكود الخاص بك.
+
+## لا تخلطه مع
+
+الفرق بين git fetch و git pull هو أن fetch يقوم فقط بتحميل البيانات من المستودع البعيد دون تغيير ملفاتك المحلية، بينما يقوم pull بعملية fetch متبوعة بدمج التغييرات مباشرة في فرعك الحالي.
+
+## قلها في العمل
+
+- I'll run a quick git fetch to make sure my local tracking branches are up to date with the remote.
+  - سأقوم بتشغيل git fetch سريع للتأكد من أن فروع التتبع المحلية لدي محدثة مع الفرع البعيد.
+- Please run git fetch to retrieve the latest commits before you start working on the integration branch.
+  - يرجى تشغيل git fetch لجلب أحدث التغييرات قبل البدء بالعمل على فرع التكامل.

@@ -23,3 +23,12 @@ In discussions about LLM input limits, data preprocessing pipelines, and model t
 ## Common mistake
 
 Assuming that one token always equals one word, whereas many modern tokenizers break words into smaller sub-word units to handle complex vocabulary.
+
+## Don't confuse with
+
+Tokenization is often confused with stemming; while tokenization breaks text into discrete units, stemming reduces words to their root or base form.
+
+## Say it at work
+
+- We need to check if our current tokenization strategy is efficient enough for these long documents.
+- Please review the updated configuration to ensure the tokenization process correctly handles special characters.

@@ -25,3 +25,12 @@ Data masking is the process of hiding original sensitive information by replacin
 ## Common mistake
 
 Thinking data masking is the same as encryption. Unlike encryption, masked data is not meant to be decrypted back to its original form; it is permanently altered for safe use outside production.
+
+## Don't confuse with
+
+Data masking is often confused with data anonymization. While data masking replaces sensitive data with realistic fake values to maintain format, anonymization permanently removes or irreversibly alters data to ensure that individuals cannot be re-identified.
+
+## Say it at work
+
+- Can we run the data masking job on the production dump before we import it into the dev environment?
+- Please ensure that all PII fields in the database export are covered by our data masking policy before sharing the file.

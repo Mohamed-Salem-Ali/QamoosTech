@@ -26,3 +26,14 @@ translation: "تجهيز الموارد"
 ## خطأ شائع
 
 الخلط بين الـ provisioning والـ deployment؛ حيث يركز الأول على إعداد البنية التحتية الأساسية، بينما يركز الثاني على نقل كود التطبيق وتشغيله على تلك البنية.
+
+## لا تخلطه مع
+
+يختص الـ provisioning بإعداد البنية التحتية الأساسية، بينما يتعامل الـ deployment مع وضع كود التطبيق على تلك البنية الجاهزة.
+
+## قلها في العمل
+
+- Could you check why the provisioning script failed on the new staging cluster?
+  - هل يمكنك التحقق من سبب فشل سكربت التجهيز على مجموعة بيئة الاختبار الجديدة؟
+- Please make sure all database resources are properly set up before we start the provisioning phase.
+  - يرجى التأكد من إعداد جميع موارد قاعدة البيانات بشكل صحيح قبل أن نبدأ مرحلة تجهيز الموارد.

@@ -25,3 +25,10 @@ pronunciation: "هيت ذا جراوند رانينج"
 ## خطأ شائع
 
 قولها عن نفسك دون دليل. اشرح السبب، مثل خبرتك بأدواتهم.
+
+## قلها في العمل
+
+- I already know this framework well, so I should be able to hit the ground running.
+  - أنا أعرف هذا الإطار البرمجي جيدا بالفعل، لذا يجب أن أكون قادرا على الانطلاق بسرعة من أول يوم.
+- Since the new hire has prior experience with our cloud provider, they will hit the ground running.
+  - بما أن الموظف الجديد لديه خبرة سابقة مع مزود السحابة الخاص بنا، فسوف ينطلق بسرعة منذ البداية.

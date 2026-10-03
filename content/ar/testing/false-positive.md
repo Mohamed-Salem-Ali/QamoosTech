@@ -26,3 +26,14 @@ translation: "إنذار كاذب"
 ## خطأ شائع
 
 التعامل مع كل تنبيه على أنه خطأ حقيقي بشكل أعمى، مما يضيع وقتاً طويلاً في محاولة إصلاح كود يعمل جيداً أساساً.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الإنذار الكاذب (False positive) والنتيجة السلبية الكاذبة (False negative)؛ فالأول يشير خطأً إلى وجود مشكلة غير موجودة، بينما يفشل الثاني في اكتشاف مشكلة موجودة بالفعل.
+
+## قلها في العمل
+
+- I checked the logs and the alert seems to be a false positive, so we can probably ignore it for now.
+  - راجعت السجلات ويبدو أن هذا التنبيه مجرد إنذار كاذب، لذا يمكننا تجاهله في الوقت الحالي.
+- Please review the attached report, as some of the flagged vulnerabilities appear to be false positives due to our specific configuration.
+  - يرجى مراجعة التقرير المرفق، حيث يبدو أن بعض الثغرات المرصودة هي إنذارات كاذبة بسبب إعداداتنا الخاصة.

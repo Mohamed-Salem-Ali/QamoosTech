@@ -26,3 +26,14 @@ pronunciation: "تي-دي-دي"
 ## خطأ شائع
 
 الاعتقاد بأن منهجية TDD هي تقنية اختبار بحتة، بينما هي في الأساس تقنية لتصميم البرمجيات.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين TDD و BDD؛ فبينما يركز TDD على اختبار وحدات الكود من منظور المطور، يركز BDD على اختبار سلوك النظام من منظور المستخدم باستخدام لغة طبيعية.
+
+## قلها في العمل
+
+- Let's try to use TDD for this new module so we don't end up with a bunch of untested spaghetti code.
+  - دعونا نحاول استخدام TDD لهذا الموديول الجديد حتى لا ينتهي بنا المطاف بكود متشابك وغير مختبر.
+- I have updated the pull request to include the failing tests, adhering to the TDD approach we agreed upon.
+  - لقد قمت بتحديث طلب السحب ليشمل الاختبارات التي تفشل، التزاماً بمنهجية TDD التي اتفقنا عليها.

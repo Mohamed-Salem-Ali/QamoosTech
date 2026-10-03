@@ -22,3 +22,12 @@ Code reviews and test planning.
 ## Common mistake
 
 Testing only the happy path. Many production bugs come from edge cases.
+
+## Don't confuse with
+
+An edge case tests extreme values within design limits, while a corner case happens when multiple extreme conditions occur simultaneously.
+
+## Say it at work
+
+- Let us add a test to cover this edge case before we merge the pull request.
+- Could you please ensure that all edge cases for negative inputs are handled properly in the validation logic?

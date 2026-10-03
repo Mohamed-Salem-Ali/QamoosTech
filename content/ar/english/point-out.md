@@ -25,3 +25,10 @@ pronunciation: "بوينت أوت"
 ## خطأ شائع
 
 الحدّة الزائدة. قل «لاحظتُ… هل تلقي نظرة؟» بدل «هذا خطأ».
+
+## قلها في العمل
+
+- Could you point out where the logs are stored for this microservice?
+  - هل يمكنك الإشارة إلى مكان تخزين سجلات الأحداث (logs) الخاصة بهذه الخدمة المصغرة؟
+- I would like to point out that the current implementation may cause a memory leak under high load.
+  - أود أن أنبه إلى أن التنفيذ الحالي قد يتسبب في تسريب ذاكرة (memory leak) عند وجود ضغط عالٍ.

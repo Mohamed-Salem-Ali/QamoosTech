@@ -25,3 +25,14 @@ pronunciation: "ريت ليميتينج"
 ## خطأ شائع
 
 التحديد حسب عنوان IP فقط. كثير من المستخدمين يشتركون في عنوان واحد، لذلك حدّد أيضًا حسب الحساب أو مفتاح الـ API.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين تحديد معدل الطلبات (Rate limiting) والتقنين (Throttling)؛ فبينما يقيّد الأول عدد الطلبات خلال فترة زمنية، يتحكم الثاني تحديداً في سرعة تدفق البيانات أو المعالجة لإدارة النطاق الترددي.
+
+## قلها في العمل
+
+- We should implement rate limiting on the public endpoints to prevent our services from being overwhelmed by too many requests.
+  - يجب أن نطبّق تحديد معدل الطلبات على نقاط النهاية العامة لمنع خدماتنا من التعرض لضغط زائد بسبب كثرة الطلبات.
+- I have updated the API configuration to include stricter rate limiting, which should resolve the performance issues we observed during peak hours.
+  - لقد قمت بتحديث إعدادات الـ API لتشمل تحديداً أكثر صرامة لمعدل الطلبات، مما سيؤدي إلى حل مشاكل الأداء التي لاحظناها خلال ساعات الذروة.

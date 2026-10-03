@@ -23,3 +23,8 @@ In CI/CD pipeline reports, during code reviews, or when discussing test suite re
 ## Common mistake
 
 Assuming that a flaky test is a sign of a bug in the application code; often, the issue lies within the test infrastructure or the way the test is written rather than the feature itself.
+
+## Say it at work
+
+- Can someone look at this flaky test, because it failed twice on the main branch without any code changes?
+- We are temporarily disabling the flaky test in the pipeline to unblock the current deployments.

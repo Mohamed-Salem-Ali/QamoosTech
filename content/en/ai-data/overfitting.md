@@ -23,3 +23,12 @@ In machine learning pipeline discussions, model training evaluations, and data s
 ## Common mistake
 
 Believing that achieving a near-zero error rate on training data means the model is ready for production.
+
+## Don't confuse with
+
+Overfitting vs. underfitting: Overfitting occurs when a model captures noise instead of patterns, whereas underfitting happens when a model is too simple to capture the underlying structure of the data.
+
+## Say it at work
+
+- I think the model is overfitting because the training loss is extremely low but the validation accuracy is stalling.
+- Please review the training logs, as the current metrics suggest the model is overfitting on the training set.

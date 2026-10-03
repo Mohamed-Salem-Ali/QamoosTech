@@ -25,3 +25,14 @@ HTTPS وقواعد البيانات والامتثال.
 ## خطأ شائع
 
 حفظ المفتاح بجوار البيانات المشفّرة. احفظ المفاتيح في مكان منفصل ومحمي.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين التشفير و hashing؛ التشفير عملية ثنائية الاتجاه مصممة لتكون قابلة للعكس باستخدام مفتاح، بينما hashing عملية أحادية الاتجاه لا يمكن عكسها.
+
+## قلها في العمل
+
+- We need to make sure all sensitive user data is handled with encryption before it hits the database.
+  - نحتاج للتأكد من معالجة جميع بيانات المستخدمين الحساسة باستخدام التشفير قبل وصولها إلى قاعدة البيانات.
+- Please ensure that the configuration files are stored using encryption to comply with our security standards.
+  - يرجى التأكد من تخزين ملفات الإعدادات باستخدام التشفير للامتثال لمعايير الأمان الخاصة بنا.

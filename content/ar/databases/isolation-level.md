@@ -25,3 +25,10 @@ pronunciation: "آيسوليشن ليفل"
 ## خطأ شائع
 
 الاعتقاد بأن مستوى العزل الأعلى هو دائماً الخيار الأفضل، متجاهلين أن المستويات العالية قد تقلل من قدرة النظام على معالجة العمليات المتزامنة وتسبب بطئاً في الأداء.
+
+## قلها في العمل
+
+- Let's check the current isolation level on the database to see if it's causing these deadlocks.
+  - دعنا نتحقق من مستوى العزل الحالي في قاعدة البيانات لنرى ما إذا كان هو سبب حدوث هذه الأقفال الميتة (deadlocks).
+- Please update the transaction isolation level in the configuration file before deploying the fix.
+  - يرجى تحديث مستوى عزل العمليات في ملف الإعدادات قبل نشر الإصلاح.

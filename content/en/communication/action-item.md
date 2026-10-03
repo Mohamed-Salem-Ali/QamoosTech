@@ -22,3 +22,12 @@ Meeting notes and project tools.
 ## Common mistake
 
 Ending a meeting without owners and dates. Then nothing happens.
+
+## Don't confuse with
+
+Action items are often confused with 'tasks', but an action item is specifically a commitment made during a collaborative meeting, whereas a task is a broader unit of work in a project management system.
+
+## Say it at work
+
+- Can we quickly list the action items before we wrap up this sync?
+- I have updated the ticket description to include the action items assigned to our team.

@@ -26,3 +26,14 @@ translation: "Epic"
 ## خطأ شائع
 
 التعامل مع الـ Epic كمهمة واحدة مفردة بدلاً من اعتبارها حاوية تضم عدداً كبيراً من قصص المستخدم والمهام الأصغر.
+
+## لا تخلطه مع
+
+الـ Epic هو حاوية كبيرة لعدة مهام مترابطة، بينما قصة المستخدم (User Story) هي وحدة عمل واحدة وقابلة للتسليم تناسب سباقاً واحداً.
+
+## قلها في العمل
+
+- Let us break this new epic down into smaller user stories during our next refinement session.
+  - دعونا نقسم هذه الـ Epic الجديدة إلى قصص مستخدم أصغر خلال جلسة تنقيح قائمة المهام القادمة.
+- Please ensure all related user stories are linked to the correct epic before we start the sprint planning.
+  - يرجى التأكد من ربط جميع قصص المستخدم ذات الصلة بالـ Epic الصحيحة قبل أن نبدأ تخطيط السباق.

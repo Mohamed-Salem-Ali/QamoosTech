@@ -22,3 +22,12 @@ Cloud setups and high-availability designs.
 ## Common mistake
 
 Keeping user sessions in server memory. The next request may reach a different server and the session is gone.
+
+## Don't confuse with
+
+Load balancer vs. reverse proxy: A load balancer distributes traffic across multiple servers to improve performance, while a reverse proxy acts as an intermediary that handles requests for a single backend server to provide security or caching.
+
+## Say it at work
+
+- We should check the load balancer logs to see if the traffic is being distributed correctly among the nodes.
+- Please ensure the new instance is registered with the load balancer before we proceed with the deployment.

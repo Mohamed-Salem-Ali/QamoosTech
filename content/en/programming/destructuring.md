@@ -23,3 +23,12 @@ During code reviews, when discussing modern JavaScript or Python syntax, or when
 ## Common mistake
 
 Developers often try to destructure values from `null` or `undefined` objects, which causes the program to throw a runtime error.
+
+## Don't confuse with
+
+Destructuring is often confused with spread syntax; while destructuring extracts values out of a collection into variables, the spread operator expands the elements of a collection into a new structure.
+
+## Say it at work
+
+- I'm going to use destructuring here to pull the user ID and email directly from the response object.
+- Please consider using destructuring in this component to make the code cleaner and easier to read.

@@ -27,3 +27,14 @@ pronunciation: "بِيرَر تُوكِن"
 ## خطأ شائع
 
 التعامل مع الرمز ككلمة مرور وتخزينه في أماكن غير آمنة في المتصفح مثل `localStorage` بدلاً من الذاكرة الآمنة أو ملفات تعريف الارتباط من نوع `httpOnly`.
+
+## لا تخلطه مع
+
+يمنح رمز المصادقة (Bearer Token) وصولاً مباشراً بناءً على حيازته، بينما يحدد مفتاح واجهة برمجة التطبيقات (API Key) المشروع أو التطبيق الذي يرسل الطلب فقط.
+
+## قلها في العمل
+
+- Can you check why the API is rejecting my bearer token during this test?
+  - هل يمكنك التحقق من سبب رفض واجهة البرمجة لرمز المصادقة الخاص بي أثناء هذا الاختبار؟
+- Please ensure that the bearer token is never exposed in the client-side code.
+  - يرجى التأكد من عدم كشف رمز المصادقة (bearer token) أبداً في شفرة جهة العميل.

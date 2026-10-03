@@ -22,3 +22,12 @@ Any explanation of how the web works, API docs, and bug reports ("is it a client
 ## Common mistake
 
 Trusting data from the client. The client can be changed by users, so the server must always validate.
+
+## Don't confuse with
+
+Client vs Server is often confused with Frontend vs Backend; while they are related, client/server refers to the network architecture of the request, whereas frontend/backend refers to the separation of concerns between the user interface and the underlying business logic.
+
+## Say it at work
+
+- We need to check if the data is being corrupted on the client side before it even reaches the server.
+- Please ensure that the server logs include the client IP address for better debugging of these failed requests.

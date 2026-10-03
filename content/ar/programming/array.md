@@ -25,3 +25,14 @@ pronunciation: "آري"
 ## خطأ شائع
 
 نسيان أن العدّ يبدأ من 0، وهو سبب أخطاء off-by-one.
+
+## لا تخلطه مع
+
+المصفوفة (Array) مقابل القائمة المترابطة (Linked List): تخزن المصفوفة العناصر في مواقع ذاكرة متجاورة مما يسمح بالوصول السريع عبر الفهرس، بينما تستخدم القائمة المترابطة عقدًا تحتوي على مؤشرات لتسهيل عمليات الإضافة والحذف.
+
+## قلها في العمل
+
+- I think we should store these configuration flags in an array so we can iterate through them easily.
+  - أعتقد أنه يجب علينا تخزين أعلام الإعدادات هذه في مصفوفة حتى نتمكن من المرور عليها بسهولة.
+- Please ensure the function returns an empty array instead of null if no results are found to avoid runtime errors.
+  - يرجى التأكد من أن الدالة تعيد مصفوفة فارغة بدلاً من null في حال عدم العثور على نتائج لتجنب أخطاء وقت التشغيل.

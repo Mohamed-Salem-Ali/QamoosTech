@@ -23,3 +23,8 @@ In team meetings, status updates, or casual chats when a release date is very cl
 ## Common mistake
 
 Thinking crunch time is a normal, sustainable way to work every week, rather than a temporary emergency measure.
+
+## Say it at work
+
+- Things are getting really crazy with crunch time, so let me know if anyone needs help with their tasks.
+- Please ensure all code reviews are done quickly during this crunch time so we do not delay the release.

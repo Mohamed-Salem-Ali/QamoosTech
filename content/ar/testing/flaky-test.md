@@ -25,3 +25,10 @@ pronunciation: "فلايكي تيست"
 ## خطأ شائع
 
 الاعتقاد بأن الـ flaky test يشير دائماً إلى وجود خطأ (bug) في كود التطبيق؛ غالباً ما تكون المشكلة في بيئة الاختبار نفسها أو في طريقة كتابة الاختبار وليس في الميزة البرمجية.
+
+## قلها في العمل
+
+- Can someone look at this flaky test, because it failed twice on the main branch without any code changes?
+  - هل يمكن لأحد أن يلقي نظرة على هذا الـ flaky test، لأنه فشل مرتين على الفرع الرئيسي دون أي تغييرات في الكود؟
+- We are temporarily disabling the flaky test in the pipeline to unblock the current deployments.
+  - نقوم مؤقتاً بتعطيل الـ flaky test في خط الإنتاج لإلغاء حظر عمليات النشر الحالية.

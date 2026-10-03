@@ -23,3 +23,12 @@ In CI/CD pipelines, code reviews, and when discussing overall application qualit
 ## Common mistake
 
 Treating a test suite as a single test case instead of a collection of multiple tests.
+
+## Don't confuse with
+
+A test suite is a collection of multiple tests, whereas a test case is just a single individual test scenario.
+
+## Say it at work
+
+- Let us run the full test suite locally before merging this PR to make sure nothing is broken.
+- Please ensure that the integration test suite passes successfully before requesting a review.

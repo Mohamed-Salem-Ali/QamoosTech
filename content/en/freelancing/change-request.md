@@ -22,3 +22,12 @@ Client projects after the contract is signed.
 ## Common mistake
 
 Making changes first and talking about price later. Agree on cost and time before you start.
+
+## Don't confuse with
+
+A change request is a formal process to alter the agreed scope with a new estimate, while scope creep is the uncontrolled expansion of a project without formal approval or adjusted timelines.
+
+## Say it at work
+
+- Can you please submit a change request for this extra feature so we can estimate the extra time?
+- Please note that the design adjustments mentioned in the ticket will require a formal change request before implementation.

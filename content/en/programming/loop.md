@@ -22,3 +22,12 @@ Basic tutorials, performance discussions ("this loop is slow"), and code reviews
 ## Common mistake
 
 Forgetting the stop condition, which creates an infinite loop and freezes the program.
+
+## Don't confuse with
+
+Loop vs recursion: A loop repeats a block of code using a control structure, whereas recursion occurs when a function calls itself to solve smaller instances of the same problem.
+
+## Say it at work
+
+- I think we can optimize this by breaking out of the loop early once we find the matching ID.
+- Please ensure the loop condition is correctly defined to prevent any potential memory leaks during execution.

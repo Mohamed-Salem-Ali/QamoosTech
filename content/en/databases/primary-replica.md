@@ -25,3 +25,12 @@ A database architecture pattern where all write operations go to a single primar
 ## Common mistake
 
 Assuming that replicas receive data updates instantly, leading to unexpected stale reads if the application reads data immediately after writing it.
+
+## Don't confuse with
+
+Primary / Replica is often mixed up with Active / Active clustering, where multiple nodes handle both reads and writes simultaneously, whereas a primary handles writes and replicas handle reads.
+
+## Say it at work
+
+- Can we route these heavy analytics queries to the replica so we do not slow down the primary?
+- Please ensure that the application connection string points write operations exclusively to the primary node.

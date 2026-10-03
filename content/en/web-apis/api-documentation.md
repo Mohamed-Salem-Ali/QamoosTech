@@ -23,3 +23,12 @@ During API development, onboarding new developers, or when integrating a third-p
 ## Common mistake
 
 Assuming that the code is self-documenting and skipping the creation of a formal guide, which makes it difficult for other developers to understand how to interact with the system.
+
+## Don't confuse with
+
+API documentation is often confused with API specification; while the documentation is a human-readable guide for users, the specification is a machine-readable file like OpenAPI that defines the API structure.
+
+## Say it at work
+
+- I'm having trouble with the authentication flow, does the API documentation cover the token refresh process?
+- Could you please review the updated API documentation to ensure all new endpoints are accurately described before we merge this PR?

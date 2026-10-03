@@ -22,3 +22,12 @@ Chatbots over company documents.
 ## Common mistake
 
 Believing RAG makes answers always correct. Retrieval can miss the right document.
+
+## Don't confuse with
+
+RAG updates what the LLM knows by fetching documents, whereas fine-tuning actually modifies the model weights to learn new styles or facts.
+
+## Say it at work
+
+- Let us check if setting up a RAG pipeline will help reduce those hallucination issues in the chatbot.
+- We need to update our document retriever configuration to improve the accuracy of the RAG responses.

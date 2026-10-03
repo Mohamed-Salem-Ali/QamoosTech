@@ -23,3 +23,12 @@ During product demos, technical sales meetings, or when evaluating third-party l
 ## Common mistake
 
 Assuming that "out-of-the-box" means the feature is perfect for every use case; it often requires some tweaking to fit specific business logic.
+
+## Don't confuse with
+
+Out-of-the-box vs. Custom-built: Out-of-the-box refers to pre-packaged functionality ready for immediate use, whereas custom-built solutions are specifically developed from scratch to meet unique requirements.
+
+## Say it at work
+
+- Does this library have out-of-the-box support for dark mode, or do we need to implement it ourselves?
+- The current solution provides out-of-the-box integration with our cloud provider, which should significantly reduce our development time.

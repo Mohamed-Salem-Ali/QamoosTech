@@ -25,3 +25,10 @@ pronunciation: "باراميتر مقابل أرجيومنت"
 ## خطأ شائع
 
 استخدام الكلمتين كأنهما شيء واحد. غالبًا سيفهمك الناس، لكن الفرق بينهما سؤال شائع في المقابلات.
+
+## قلها في العمل
+
+- Make sure the argument you're passing matches the type defined in the function parameter.
+  - تأكد من أن الوسيط الذي تمرره يطابق النوع المحدد في معامل الدالة.
+- I noticed a mismatch between the function parameters and the arguments provided in the service call.
+  - لاحظت وجود عدم تطابق بين معاملات الدالة والوسطاء المقدمة في استدعاء الخدمة.

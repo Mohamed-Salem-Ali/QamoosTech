@@ -23,3 +23,12 @@ You hear this when designing database schemas, writing SQL queries, or configuri
 ## Common mistake
 
 Assuming that a primary key can contain duplicate values or nulls, which would break the fundamental rule of database uniqueness.
+
+## Don't confuse with
+
+Primary key uniquely identifies each row and cannot be null, while a foreign key links to a primary key in another table and can sometimes accept null values.
+
+## Say it at work
+
+- Can we use a composite primary key for this mapping table, or should we stick to an auto-incrementing ID?
+- Please ensure that every table created in this migration has a proper primary key defined.

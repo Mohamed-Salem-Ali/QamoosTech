@@ -23,3 +23,12 @@ In security audits, penetration testing reports, code reviews, and when discussi
 ## Common mistake
 
 Thinking XSS only affects other users; attackers can also use stored XSS to target administrators and compromise the entire application.
+
+## Don't confuse with
+
+XSS is often confused with CSRF; while XSS involves injecting malicious scripts into a page, CSRF tricks a user into performing unwanted actions on a site where they are already authenticated.
+
+## Say it at work
+
+- We should double-check if the search results page is properly escaping output to avoid any potential XSS.
+- The recent security audit identified an XSS vulnerability in the feedback form, so please prioritize the fix in the next sprint.

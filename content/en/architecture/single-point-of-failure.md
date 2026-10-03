@@ -22,3 +22,12 @@ Reliability reviews and architecture interviews ("SPOF").
 ## Common mistake
 
 Adding a second server but keeping one shared load balancer. The failure point just moved.
+
+## Don't confuse with
+
+Single point of failure is often confused with a bottleneck; while a SPOF causes a total system outage if it fails, a bottleneck merely limits the system's performance or throughput without necessarily crashing it.
+
+## Say it at work
+
+- We need to address this database instance because it's currently a major single point of failure for our entire service.
+- I have identified a single point of failure in the authentication module and recommend implementing a redundant service to improve our availability.

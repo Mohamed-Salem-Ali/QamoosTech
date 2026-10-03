@@ -25,3 +25,14 @@ pronunciation: "دي-ستراكشرينج"
 ## خطأ شائع
 
 يحاول المبرمجون أحياناً إجراء Destructuring على كائنات قيمتها `null` أو `undefined`، مما يؤدي إلى توقف البرنامج عن العمل بسبب خطأ في وقت التشغيل (Runtime Error).
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Destructuring و Spread syntax؛ فبينما تقوم Destructuring باستخراج القيم من المجموعة إلى متغيرات، يقوم معامل الانتشار (Spread operator) بتوسيع عناصر المجموعة داخل هيكل جديد.
+
+## قلها في العمل
+
+- I'm going to use destructuring here to pull the user ID and email directly from the response object.
+  - سأستخدم Destructuring هنا لاستخراج معرف المستخدم والبريد الإلكتروني مباشرة من كائن الاستجابة.
+- Please consider using destructuring in this component to make the code cleaner and easier to read.
+  - يرجى النظر في استخدام Destructuring في هذا المكون لجعل الكود أكثر ترتيباً وأسهل في القراءة.

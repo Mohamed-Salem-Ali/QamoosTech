@@ -25,3 +25,14 @@ pronunciation: "فاست-فورورد"
 ## خطأ شائع
 
 الاعتقاد بأن عملية الدمج من نوع fast-forward تنشئ دائماً التزام دمج (merge commit)؛ في الواقع، هي تتجنب إنشاءه تماماً، مما قد يجعل من الصعب أحياناً تحديد متى تم دمج فرع ميزة معين في الفرع الرئيسي.
+
+## لا تخلطه مع
+
+الدمج السريع (fast-forward) يحرك مؤشر الفرع مباشرة بدون التزام جديد، بينما الدمج ثلاثي الاتجاهات (three-way merge) يدمج الفروع المتباعدة وينشئ التزام دمج متميزاً.
+
+## قلها في العمل
+
+- Let's do a fast-forward merge for this PR since nobody else pushed to the main branch.
+  - دعنا نقوم بدمج سريع (fast-forward) لهذا الـ PR بما أن لم يقم أي شخص آخر بالدفع إلى الفرع الرئيسي.
+- Please ensure your branch is up to date with main so we can perform a clean fast-forward merge.
+  - يرجى التأكد من أن فرعك محدث مع الفرع الرئيسي لكي نتمكن من إجراء دمج سريع ونظيف.

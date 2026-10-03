@@ -22,3 +22,12 @@ Gradual releases and A/B testing.
 ## Common mistake
 
 Never removing old flags. They pile up and make the code confusing.
+
+## Don't confuse with
+
+A feature flag controls functionality dynamically without a deployment, while a branch is a separate line of development in version control that requires a merge and deployment to reach production.
+
+## Say it at work
+
+- Let us wrap this new UI component behind a feature flag before we merge it.
+- Please ensure the feature flag is enabled for all beta testers in the upcoming release.

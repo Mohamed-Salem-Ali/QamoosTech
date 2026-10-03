@@ -23,3 +23,12 @@ In project management discussions, contract negotiations, or when a freelancer n
 ## Common mistake
 
 Assuming the client has a direct legal or professional relationship with the subcontractor, when in fact the primary contractor is solely responsible for the subcontractor's work.
+
+## Don't confuse with
+
+Subcontractor vs. Freelancer: A subcontractor is hired by a primary contractor to work on a specific part of a larger project, whereas a freelancer is usually hired directly by the end client to perform work independently.
+
+## Say it at work
+
+- I'm thinking of bringing in a subcontractor to handle the database migration so we can hit our deadline.
+- Please ensure that the subcontractor has signed the necessary non-disclosure agreements before they gain access to the repository.

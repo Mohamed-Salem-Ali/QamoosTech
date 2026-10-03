@@ -22,3 +22,12 @@ Freelancing and client billing.
 ## Common mistake
 
 Sending invoices without clear payment terms. State the due date and the payment method.
+
+## Don't confuse with
+
+Invoice vs. Quote: An invoice is a request for payment after work is completed, whereas a quote is a price estimate provided to a client before starting the project.
+
+## Say it at work
+
+- Hey, could you double-check the invoice I sent over to make sure the hours look correct?
+- Please find the attached invoice for the completed milestone; let me know if you need any further documentation.

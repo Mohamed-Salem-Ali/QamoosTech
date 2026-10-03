@@ -23,3 +23,12 @@ Commonly discussed when styling layouts, debugging spacing issues, or learning t
 ## Common mistake
 
 Many beginners forget that the `margin` is outside the border and does not contribute to the element's background color or size calculation, often leading to unexpected spacing issues.
+
+## Don't confuse with
+
+Margin vs padding are often confused, but margin creates space outside the element's border, whereas padding adds space inside the border around the content.
+
+## Say it at work
+
+- Let's check the box model in the browser dev tools to see why this card is overflowing.
+- Please ensure the box model calculations are correct before adjusting the outer layout.

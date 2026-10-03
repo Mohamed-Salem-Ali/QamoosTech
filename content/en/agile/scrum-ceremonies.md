@@ -22,3 +22,8 @@ Team calendars and interviews.
 ## Common mistake
 
 Turning the standup into a status report for the manager. It is for the team to sync and find blockers.
+
+## Say it at work
+
+- Let us make sure we keep all our Scrum ceremonies on schedule this week despite the holidays.
+- Please update the calendar invites for the upcoming Scrum ceremonies so the new developers can join.

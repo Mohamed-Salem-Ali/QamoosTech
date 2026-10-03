@@ -23,3 +23,12 @@ In microservices architecture discussions, resilience planning, and system relia
 ## Common mistake
 
 Confusing it with a simple timeout, whereas a circuit breaker tracks failure rates over time and stops calling the service entirely until it recovers.
+
+## Don't confuse with
+
+Circuit breaker vs. Load balancer: A load balancer distributes incoming traffic across multiple instances to improve performance, whereas a circuit breaker stops traffic to a failing service to prevent system overload.
+
+## Say it at work
+
+- I think we should implement a circuit breaker here so that the entire system doesn't hang if the external API goes down.
+- Please review the pull request where I added a circuit breaker to handle potential timeouts from the authentication service.

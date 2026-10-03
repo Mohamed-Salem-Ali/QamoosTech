@@ -25,3 +25,14 @@ pronunciation: "كْريدينشلز"
 ## خطأ شائع
 
 الخلط بين بيانات الاعتماد (Credentials) والصلاحيات (Permissions)؛ فبيانات الاعتماد تُستخدم لإثبات هويتك، بينما تحدد الصلاحيات ما يمكنك فعله بعد إثبات هويتك بنجاح.
+
+## لا تخلطه مع
+
+بيانات الاعتماد تثبت من أنت عبر التحقق من هويتك، بينما تحدد الصلاحيات ما يُسمح لك بالوصول إليه بعد عملية المصادقة.
+
+## قلها في العمل
+
+- Make sure you update your credentials in the environment variables before running the service locally.
+  - تأكد من تحديث بيانات الاعتماد الخاصة بك في متغيرات البيئة قبل تشغيل الخدمة محلياً.
+- The automated test suite failed because the expired credentials were not refreshed in the configuration file.
+  - فشلت مجموعة الاختبارات التلقائية لعدم تحديث بيانات الاعتماد منتهية الصلاحية في ملف الإعدادات.

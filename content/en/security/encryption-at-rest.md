@@ -23,3 +23,12 @@ In security audits, cloud infrastructure configuration, and compliance discussio
 ## Common mistake
 
 Confusing it with encryption in transit, which protects data while it is being moved across a network rather than when it is stored on a disk.
+
+## Don't confuse with
+
+Encryption at rest protects data stored on physical media, while encryption in transit secures data as it travels across a network.
+
+## Say it at work
+
+- Can we double-check if encryption at rest is enabled on the new storage volumes?
+- Please ensure that all customer databases have encryption at rest configured before we migrate to production.

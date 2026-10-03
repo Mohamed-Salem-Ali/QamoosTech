@@ -27,3 +27,14 @@ pronunciation: "كروس-سايت ريكويست فورجري"
 ## خطأ شائع
 
 الخلط بين CSRF و XSS (Cross-Site Scripting). فبينما يعتمد XSS على حقن سكربتات خبيثة في الصفحة، يركز CSRF على إجبار المستخدم على تنفيذ إجراءات غير مقصودة باستخدام بيانات جلسته الحالية.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين CSRF واختطاف الجلسة (Session Hijacking). فبينما تجبر ثغرة CSRF متصفح الضحية على تنفيذ إجراء نيابة عنه، يتضمن اختطاف الجلسة سرقة رمز الجلسة لانتحال شخصية المستخدم بالكامل.
+
+## قلها في العمل
+
+- Did we remember to add the anti-forgery tokens to the new form, or are we leaving it exposed to CSRF?
+  - هل تذكرنا إضافة رموز الحماية من التزوير (anti-forgery tokens) إلى النموذج الجديد، أم أننا سنتركه معرضاً لثغرة CSRF؟
+- Please ensure that all state-changing API endpoints are protected against CSRF attacks before we merge this PR.
+  - يرجى التأكد من أن جميع نقاط النهاية في واجهة البرمجة التي تغير حالة البيانات محمية ضد هجمات CSRF قبل دمج طلب السحب هذا.

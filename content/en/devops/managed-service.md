@@ -23,3 +23,12 @@ In cloud architecture discussions, vendor selection meetings, and infrastructure
 ## Common mistake
 
 Thinking that using a managed service removes the need for any configuration or monitoring; you still need to manage your application settings and resource scaling policies.
+
+## Don't confuse with
+
+Managed service differs from unmanaged infrastructure because the provider handles routine maintenance and patches, whereas unmanaged services leave all system administration to your team.
+
+## Say it at work
+
+- Can we just use a managed service for the cache layer so we don't have to patch clusters manually?
+- Please ensure the proposed architecture relies on a managed service for the message queue to reduce our maintenance overhead.

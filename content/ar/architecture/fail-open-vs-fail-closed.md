@@ -25,3 +25,10 @@ pronunciation: "فيل أوبن مقابل فيل كلوزد"
 ## خطأ شائع
 
 اختيار fail open دائمًا. في الأمان والمدفوعات تريد عادةً fail closed.
+
+## قلها في العمل
+
+- Let's make sure the gateway is configured to fail open for this non-critical widget.
+  - دعنا نتأكد من ضبط البوابة على العمل بنظام fail open لهذا العنصر غير الحرج.
+- We decided that the payment service should fail closed to prevent any unauthorized transactions during an outage.
+  - لقد قررنا أن خدمة الدفع يجب أن تعمل بنظام fail closed لمنع أي معاملات غير مصرح بها أثناء انقطاع الخدمة.

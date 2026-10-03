@@ -25,3 +25,14 @@ pronunciation: "نورمالايزيشن"
 ## خطأ شائع
 
 الاعتقاد بأن Normalization تؤدي دائماً إلى أفضل أداء؛ أحياناً يكون الـ Denormalization أفضل في الأنظمة التي تعتمد بكثرة على القراءة لتقليل عدد عمليات الربط (joins) المعقدة.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Normalization و Denormalization، حيث تركز الـ Normalization على تقليل التكرار عبر تقسيم الجداول، بينما تضيف الـ Denormalization التكرار عمداً لتحسين أداء القراءة.
+
+## قلها في العمل
+
+- Let's perform some normalization on this schema to clean up these redundant columns before we start coding.
+  - دعونا نقوم ببعض الـ Normalization على هذا الـ schema لتنظيف هذه الأعمدة المتكررة قبل أن نبدأ في البرمجة.
+- I have reviewed the database model and suggest applying further normalization to ensure data integrity across the new modules.
+  - لقد راجعت نموذج قاعدة البيانات وأقترح تطبيق المزيد من الـ Normalization لضمان سلامة البيانات عبر الوحدات البرمجية الجديدة.

@@ -22,3 +22,12 @@ API docs, authentication, caching, and CORS issues.
 ## Common mistake
 
 Forgetting that headers can be read and changed by the client. Never rely on them alone for security.
+
+## Don't confuse with
+
+HTTP header is often confused with HTTP body; the header contains metadata about the request or response, while the body contains the actual data being transmitted.
+
+## Say it at work
+
+- Can you check the network tab and see if the custom HTTP header is being sent correctly in the request?
+- Please update the API documentation to specify which HTTP header is required for the authentication token.

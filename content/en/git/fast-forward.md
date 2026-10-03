@@ -23,3 +23,12 @@ During pull request reviews, team discussions about repository history, or when 
 ## Common mistake
 
 Assuming that a fast-forward merge always creates a merge commit; in reality, it avoids creating one entirely, which can sometimes make it harder to identify when a specific feature branch was integrated.
+
+## Don't confuse with
+
+Fast-forward merge moves the branch pointer directly without a new commit, while a three-way merge combines divergent branches and creates a distinct merge commit.
+
+## Say it at work
+
+- Let's do a fast-forward merge for this PR since nobody else pushed to the main branch.
+- Please ensure your branch is up to date with main so we can perform a clean fast-forward merge.

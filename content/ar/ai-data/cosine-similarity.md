@@ -25,3 +25,14 @@ pronunciation: "كوساين سيميلاريتي"
 ## خطأ شائع
 
 الخلط بينه وبين المسافة الإقليدية (Euclidean distance)، حيث تقيس المسافة الإقليدية البعد المباشر بين النقاط، بينما يقيس هذا المقياس الزاوية بين المتجهات.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين Cosine similarity و Dot product؛ فبينما يرتبطان ببعضهما، يقوم Cosine similarity بمعايرة المتجهات للتركيز على الاتجاه، في حين أن Dot product يتأثر بطول وحجم المتجهات.
+
+## قلها في العمل
+
+- Let's check if the cosine similarity score is high enough to consider these two documents as a match.
+  - دعونا نتحقق مما إذا كانت درجة الـ Cosine similarity عالية بما يكفي لاعتبار هذين المستندين متطابقين.
+- The current retrieval results are poor, so I suggest we switch from Euclidean distance to cosine similarity to better capture semantic relationships.
+  - نتائج الاسترجاع الحالية ضعيفة، لذا أقترح أن ننتقل من استخدام Euclidean distance إلى Cosine similarity لنتمكن من رصد العلاقات الدلالية بشكل أفضل.

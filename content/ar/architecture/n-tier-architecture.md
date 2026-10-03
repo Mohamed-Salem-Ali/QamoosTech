@@ -28,3 +28,14 @@ pronunciation: "إن-تير أركيتكتشر"
 ## خطأ شائع
 
 الخلط بين الطبقات المنطقية (Layers) والطبقات الفيزيائية أو البنيوية (Tiers)، حيث تشير الأولى إلى فصل الكود برمجياً، بينما تعني الثانية الفصل الفعلي لتلك الطبقات على خوادم أو أجهزة مختلفة.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين معمارية N-tier والخدمات المصغرة (microservices)؛ فبينما يركز النمط الأول على تنظيم التطبيق في طبقات وظيفية متميزة، تعتمد الخدمات المصغرة على تقسيم النظام بأكمله إلى خدمات صغيرة ومستقلة قابلة للنشر بشكل منفصل.
+
+## قلها في العمل
+
+- We should consider moving to an N-tier architecture if we want to scale our database layer independently from the application server.
+  - يجب أن نفكر في الانتقال إلى معمارية متعددة الطبقات (N-tier) إذا أردنا توسيع نطاق طبقة قاعدة البيانات بشكل مستقل عن خادم التطبيق.
+- The proposed N-tier architecture ensures that the presentation layer remains decoupled from the data access logic.
+  - تضمن معمارية N-tier المقترحة بقاء طبقة العرض منفصلة عن منطق الوصول إلى البيانات.

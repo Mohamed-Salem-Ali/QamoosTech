@@ -25,3 +25,14 @@ pronunciation: "سبرنت"
 ## خطأ شائع
 
 إضافة عمل جديد في منتصف الـ sprint. هذا يكسر الخطة وتركيز الفريق.
+
+## لا تخلطه مع
+
+الـ sprint هو فترة زمنية محددة للتنفيذ، بينما الـ release هو التسليم الفعلي للبرمجيات لمستخدمي الإنتاج.
+
+## قلها في العمل
+
+- Can we pull this ticket into the current sprint, or is capacity already full?
+  - هل يمكننا جلب هذه التذكرة إلى الـ sprint الحالي، أم أن السعة ممتلئة بالفعل؟
+- Please ensure all completed items are verified and closed before we close out the sprint.
+  - يرجى التأكد من التحقق من جميع العناصر المكتملة وإغلاقها قبل أن ننهي الـ sprint.

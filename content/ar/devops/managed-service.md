@@ -25,3 +25,14 @@ pronunciation: "مانجد سيرفيس"
 ## خطأ شائع
 
 الاعتقاد بأن الاعتماد على Managed Service يعني عدم الحاجة لأي إعدادات أو مراقبة؛ فما زلت بحاجة إلى ضبط إعدادات تطبيقك ومراقبة أداء الموارد التي تستخدمها.
+
+## لا تخلطه مع
+
+تختلف الخدمة المُدارة (Managed Service) عن البنية التحتية غير المُدارة في أن مزود الخدمة يتولى الصيانة الدورية والتحديثات، بينما تترك الخدمات غير المُدارة كل مسؤوليات إدارة النظام لفريقك.
+
+## قلها في العمل
+
+- Can we just use a managed service for the cache layer so we don't have to patch clusters manually?
+  - هل يمكننا استخدام Managed Service لطبقة التخزين المؤقت حتى لا نضطر لتحديث المجموعات يدوياً؟
+- Please ensure the proposed architecture relies on a managed service for the message queue to reduce our maintenance overhead.
+  - يرجى التأكد من أن البنية المقترحة تعتمد على Managed Service لطابور الرسوميات لتقليل عبء الصيانة لدينا.

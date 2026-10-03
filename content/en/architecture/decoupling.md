@@ -23,3 +23,12 @@ In system design discussions, architectural reviews, and when planning migration
 ## Common mistake
 
 Engineers often think decoupling means removing all connections between components, but it actually means managing those connections so they are loose and flexible rather than tightly coupled.
+
+## Don't confuse with
+
+Decoupling reduces dependencies so components can evolve independently, while separation of concerns simply divides a system into distinct functional sections that may still be tightly coupled.
+
+## Say it at work
+
+- Let's work on decoupling this module so we can test the database layer without hitting the network.
+- Please ensure we are decoupling the notification logic from the user registration flow before merging this pull request.

@@ -25,3 +25,14 @@ pronunciation: "فولو أب"
 ## خطأ شائع
 
 المتابعة مرات كثيرة في اليوم الواحد. يكفي تذكير مهذب واحد بعد يومين أو ثلاثة.
+
+## لا تخلطه مع
+
+المتابعة (Follow-up) هي التحقق من تقدم طلب أو مهمة قائمة، بينما تفقد الحال (Check-in) هو محادثة أكثر عمومية لمعرفة حال شخص ما أو التوافق على الأهداف العامة.
+
+## قلها في العمل
+
+- I'll follow up with the DevOps team to see why the deployment is still stuck in staging.
+  - سأقوم بمتابعة الأمر مع فريق الـ DevOps لمعرفة سبب توقف النشر في بيئة الـ staging حتى الآن.
+- Please follow up on this ticket once the client confirms the new requirements.
+  - يرجى متابعة هذه التذكرة بمجرد أن يؤكد العميل المتطلبات الجديدة.

@@ -23,3 +23,12 @@ In cloud infrastructure management, server deployment, and virtualization discus
 ## Common mistake
 
 Confusing an instance with the underlying physical hardware; an instance is a virtualized slice of resources, not the entire physical machine itself.
+
+## Don't confuse with
+
+Instance is often confused with 'container'; while an instance typically runs its own full operating system, a container shares the host's operating system kernel for better efficiency.
+
+## Say it at work
+
+- I'm going to restart the staging instance to see if that clears up the connection timeout issue.
+- Please ensure that the new instance is configured with the correct security group settings before we deploy the production build.

@@ -25,3 +25,14 @@ pronunciation: "شو-ستوبر"
 ## خطأ شائع
 
 استخدام المصطلح لوصف أخطاء بسيطة أو إزعاجات طفيفة. يجب أن يكون الـ show-stopper مشكلة جوهرية تمنع الوظائف الأساسية للمنتج من العمل نهائياً.
+
+## لا تخلطه مع
+
+توقف مشكلة الـ show-stopper إطلاق المنتج تماماً، بينما قد تتسبب الـ blocker العادية في تعطيل مهمة محددة أو فريق معين فقط.
+
+## قلها في العمل
+
+- Is this login error really a show-stopper, or can we fix it in a hotfix after release?
+  - هل خطأ تسجيل الدخول هذا يعتبر show-stopper فعلاً، أم يمكننا إصلاحه في تحديث طارئ بعد الإطلاق؟
+- Please do not merge this pull request as it introduces a show-stopper that breaks the checkout process.
+  - رجاءً لا تقم بدمج طلب السحب هذا لأنه يسبب مشكلة show-stopper تعطل عملية الدفع بالكامل.

@@ -25,3 +25,14 @@ pronunciation: "سينك أب"
 ## خطأ شائع
 
 الاعتقاد بأن الـ "sync up" هو اجتماع رسمي وطويل؛ الغرض منه هو السرعة والتركيز على نقاط محددة وليس الخوض في تفاصيل تقنية معقدة.
+
+## لا تخلطه مع
+
+اجتماع المزامنة هو لقاء سريع وغير رسمي لمواءمة حالة العمل، بينما التعمق (deep dive) هو جلسة مكثفة مخصصة لتحل مشاكل تقنية معقدة.
+
+## قلها في العمل
+
+- Let's sync up tomorrow morning to go over the deployment blockers before the release.
+  - دعنا نتزامن صباح الغد لمراجعة معوقات النشر قبل الإصدار.
+- Could we sync up briefly on this ticket to clarify the expected acceptance criteria?
+  - هل يمكننا التزامن لفترة قصيرة بشأن هذه التذكرة لتوضيح معايير القبول المطلوبة؟

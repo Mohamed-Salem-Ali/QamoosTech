@@ -25,3 +25,14 @@ pronunciation: "بروت-فورس أتاك"
 ## خطأ شائع
 
 الاعتقاد بأن هجوم الـ Brute-Force هو نفسه هجوم الـ Dictionary Attack؛ الفرق هو أن الـ Brute-Force يجرب كل التوليفات الممكنة من الحروف والأرقام، بينما الـ Dictionary Attack يكتفي بتجربة كلمات موجودة في قائمة محددة مسبقاً.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين هجوم الـ Brute-force وهجوم الـ Credential stuffing؛ فبينما يحاول الـ Brute-force تخمين بيانات الاعتماد بتجربة كل الاحتمالات، يعتمد الـ Credential stuffing على استخدام أزواج من أسماء المستخدمين وكلمات المرور المسربة مسبقاً للدخول بشكل غير مصرح به.
+
+## قلها في العمل
+
+- We should check the logs to see if someone is attempting a brute-force attack on our API endpoints.
+  - يجب أن نتحقق من السجلات لنرى ما إذا كان هناك شخص ما يحاول شن هجوم Brute-force على نقاط نهاية الـ API الخاصة بنا.
+- Please review the security report, as it indicates that our login service is vulnerable to a brute-force attack.
+  - يرجى مراجعة تقرير الأمان، حيث يشير إلى أن خدمة تسجيل الدخول لدينا معرضة لهجوم Brute-force.

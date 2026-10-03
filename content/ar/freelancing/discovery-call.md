@@ -25,3 +25,10 @@ pronunciation: "ديسكفري كول"
 ## خطأ شائع
 
 التعامل مع الـ Discovery Call كاستشارة تقنية تقدم فيها حلولاً مجانية، بدلاً من استخدامه كخطوة لتقييم احتياجات العميل وميزانيته ومدى جدية المشروع.
+
+## قلها في العمل
+
+- Let us schedule a quick discovery call to discuss your requirements before sending the estimate.
+  - دعنا نجدول اجتماع ديسكفري كول سريعاً لمناقشة متطلباتك قبل إرسال التقدير المالي.
+- Please find attached the notes from today's discovery call along with the proposed next steps.
+  - تجدون مرفقاً الملاحظات الخاصة باجتماع ديسكفري كول اليوم إلى جانب الخطوات القادمة المقترحة.

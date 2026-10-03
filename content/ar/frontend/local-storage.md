@@ -25,3 +25,14 @@ pronunciation: "لوكال ستوريج"
 ## خطأ شائع
 
 تخزين معلومات حساسة مثل كلمات المرور أو الرموز الأمنية (tokens) في Local Storage، لأن أي سكربت يعمل على الصفحة يمكنه الوصول إليها، مما يجعلها غير آمنة للبيانات الخاصة.
+
+## لا تخلطه مع
+
+يحفظ Local Storage البيانات بشكل دائم حتى يتم حذفها صراحة، بينما يقوم Session Storage بحذف البيانات بمجرد إغلاق تبويب أو نافذة المتصفح.
+
+## قلها في العمل
+
+- Can we save this filter preference in Local Storage so it stays when the user comes back?
+  - هل يمكننا حفظ تفضيل الفلتر هذا في Local Storage ليبقى عندما يعود المستخدم؟
+- Please ensure that no sensitive auth tokens are being stored in Local Storage.
+  - يرجى التأكد من عدم تخزين أي رموز مصادقة حساسة في Local Storage.

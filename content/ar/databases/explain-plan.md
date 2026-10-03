@@ -26,3 +26,10 @@ translation: "خطة التنفيذ"
 ## خطأ شائع
 
 الاعتقاد بأن قاعدة البيانات تنفذ الاستعلام تماماً كما كتبته، دون إدراك أن المحرك قد يغير ترتيب العمليات كلياً بناءً على الخطة.
+
+## قلها في العمل
+
+- Let's check the EXPLAIN plan for this query to see why it is doing a sequential scan instead of using our new index.
+  - دعنا نتحقق من خطة التنفيذ (EXPLAIN plan) لهذا الاستعلام لنرى لماذا يقوم بمسح تسلسلي بدلاً من استخدام فهرسنا الجديد.
+- I attached the EXPLAIN plan output to the ticket so we can review the join bottlenecks together.
+  - لقد أرفقت مخرجات خطة التنفيذ بالتذكرة حتى نتمكن من مراجعة اختناقات عمليات الربط معاً.

@@ -30,3 +30,14 @@ pronunciation: "اتش تي تي بي ميثودز"
 ## خطأ شائع
 
 استخدام طلب `GET` لإرسال بيانات حساسة أو تعديل حالة الخادم، وهو أمر غير آمن ويخالف معايير بروتوكول HTTP لأن طلبات `GET` يجب أن تكون آمنة ولا تغير شيئاً.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين طرق HTTP ورموز حالة HTTP، حيث تحدد الطرق الإجراء الذي يريد العميل تنفيذه، بينما تشير رموز الحالة إلى رد الخادم على ذلك الإجراء.
+
+## قلها في العمل
+
+- We should change this endpoint to a PATCH request since we are only updating a specific field instead of replacing the whole resource.
+  - يجب علينا تغيير نقطة النهاية هذه إلى طلب PATCH لأننا نقوم فقط بتحديث حقل معين بدلاً من استبدال المورد بالكامل.
+- Please ensure that the API documentation specifies the correct HTTP methods for each endpoint to avoid confusion during integration.
+  - يرجى التأكد من أن وثائق واجهة برمجة التطبيقات تحدد طرق HTTP الصحيحة لكل نقطة نهاية لتجنب أي ارتباك أثناء عملية الربط.

@@ -18,10 +18,21 @@ pronunciation: "تيبل، رو، كولم"
 ## أمثلة
 
 - The `users` table has a column called `email`.
-  - جدول `users` فيه عمود اسمه `email`.
+  - جدول `users` يحتوي على عمود اسمه `email`.
 - This query updates only one row.
   - هذا الاستعلام يحدّث صفًا واحدًا فقط.
 
 ## خطأ شائع
 
 قول «row» وأنت تقصد الجدول كله. الصف سجل واحد فقط.
+
+## لا تخلطه مع
+
+الفرق بين الجدول (Table) والعرض (View) هو أن الجدول بنية تخزين فيزيائية تحتوي على البيانات الفعلية، بينما العرض هو جدول افتراضي يعتمد على نتائج استعلام SQL.
+
+## قلها في العمل
+
+- Could you check if we need to add a new column to the orders table to track the shipping status?
+  - هل يمكنك التحقق مما إذا كنا بحاجة إلى إضافة عمود جديد إلى جدول الطلبات لتتبع حالة الشحن؟
+- I noticed that the migration script failed because it tried to insert a duplicate value into a unique column for this row.
+  - لاحظت أن سكربت الترحيل فشل لأنه حاول إدخال قيمة مكررة في عمود فريد لهذا الصف.

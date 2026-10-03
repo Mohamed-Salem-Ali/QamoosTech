@@ -22,3 +22,12 @@ Git workflows and interviews.
 ## Common mistake
 
 Rebasing shared branches. It rewrites history and breaks your teammates' copies.
+
+## Don't confuse with
+
+Rebase rewrites the commit history to create a linear path, while merge preserves the exact history by combining branches with a new commit.
+
+## Say it at work
+
+- Let's quickly rebase our feature branches to pick up the latest bug fixes from main.
+- Please rebase your branch on top of the latest development branch and resolve any conflicts before requesting a review.

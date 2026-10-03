@@ -25,3 +25,14 @@ pronunciation: "يونِت تست"
 ## خطأ شائع
 
 كتابة اختبارات تعتمد على الشبكة أو قاعدة البيانات. يجب أن يكون الـ unit test سريعًا ومعزولًا.
+
+## لا تخلطه مع
+
+يفحص اختبار الوحدة (unit test) جزءًا واحدًا معزولًا من الشيفرة، بينما يتحقق اختبار التكامل (integration test) من كيفية عمل عدة مكونات معًا.
+
+## قلها في العمل
+
+- Can you make sure to write a unit test for this new helper function before we merge?
+  - هل يمكنك التأكد من كتابة unit test لهذه الدالة المساعدة الجديدة قبل أن نقوم بالدمج؟
+- I updated the unit test to cover the edge cases we discussed during the review.
+  - لقد قمت بتحديث الـ unit test لتغطية الحالات الاستثنائية التي ناقشناها أثناء المراجعة.

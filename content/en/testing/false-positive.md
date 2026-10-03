@@ -23,3 +23,12 @@ In CI/CD pipelines, security audits, static analysis tools, and automated test s
 ## Common mistake
 
 Treating every alert as a real bug without investigating, which wastes time trying to fix code that is already correct.
+
+## Don't confuse with
+
+False positive is often confused with false negative; a false positive incorrectly flags an issue that does not exist, while a false negative fails to detect an issue that is actually present.
+
+## Say it at work
+
+- I checked the logs and the alert seems to be a false positive, so we can probably ignore it for now.
+- Please review the attached report, as some of the flagged vulnerabilities appear to be false positives due to our specific configuration.

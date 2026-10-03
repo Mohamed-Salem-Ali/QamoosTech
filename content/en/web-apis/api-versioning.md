@@ -23,3 +23,8 @@ During architectural planning, backend development meetings, and when updating d
 ## Common mistake
 
 Assuming that every small change requires a new version, which leads to unnecessary complexity and maintenance overhead for the API team.
+
+## Say it at work
+
+- Let us check how we are handling API versioning for this new endpoint before we merge the code.
+- Please update the documentation to reflect the new API versioning strategy we agreed on.

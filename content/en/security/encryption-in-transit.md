@@ -23,3 +23,12 @@ During security audits, infrastructure setup, and when configuring SSL/TLS certi
 ## Common mistake
 
 Confusing it with encryption at rest, which protects data stored on a physical disk rather than data currently moving across a network.
+
+## Don't confuse with
+
+Encryption in transit is often confused with encryption at rest; the former secures data moving across a network, while the latter protects data stored on physical or cloud storage media.
+
+## Say it at work
+
+- Let's double-check our load balancer configuration to ensure encryption in transit is enabled for all incoming traffic.
+- The security audit report indicates that we need to implement TLS 1.3 to improve our encryption in transit standards.

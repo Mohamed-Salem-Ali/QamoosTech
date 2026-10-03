@@ -23,3 +23,12 @@ In security audits, penetration testing reports, and code reviews when checking 
 ## Common mistake
 
 Trusting input data from users and concatenating strings directly into SQL statements instead of using prepared statements or an ORM.
+
+## Don't confuse with
+
+SQL injection is often confused with Cross-Site Scripting (XSS); while SQL injection targets the database layer, XSS targets the client-side browser by injecting malicious scripts into web pages.
+
+## Say it at work
+
+- We need to make sure all these input fields are sanitized to avoid any potential SQL injection risks.
+- I have updated the code to use prepared statements, which effectively mitigates the SQL injection vulnerability found in the previous module.

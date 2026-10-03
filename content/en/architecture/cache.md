@@ -22,3 +22,12 @@ Performance work and the famous "clear your cache" advice.
 ## Common mistake
 
 Caching without a plan to refresh it. Users then see old data and nobody knows why.
+
+## Don't confuse with
+
+Cache stores data temporarily for faster access, while a database stores the source of truth permanently.
+
+## Say it at work
+
+- Let's add a cache layer here so we can reduce the load on the main database.
+- Please invalidate the cache after updating user profiles to prevent stale data issues.

@@ -22,3 +22,12 @@ Daily work, bug trackers, and client messages.
 ## Common mistake
 
 Reporting "it does not work" without details. Always add steps, expected result, and actual result.
+
+## Don't confuse with
+
+A bug is an unintended flaw in the code, whereas a feature request is a proposal for new functionality that the software does not currently possess.
+
+## Say it at work
+
+- I think I just hit a bug in the login flow, let me double-check the logs.
+- Could you please review this ticket, as I have identified a critical bug that prevents the user from completing the registration.

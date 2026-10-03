@@ -23,3 +23,12 @@ In frontend layout discussions, fixing overlapping elements, or building dropdow
 ## Common mistake
 
 Expecting `z-index` to work on elements with a `position` value of `static`, even though it only affects positioned elements.
+
+## Don't confuse with
+
+Z-index vs Stacking Context: Z-index is a property applied to a single element, while a stacking context is a conceptual layer created by specific CSS properties that groups elements together.
+
+## Say it at work
+
+- I'm having trouble getting the tooltip to show up, I think I need to adjust the z-index.
+- Please update the z-index for the sidebar component to ensure it remains visible above the main content area.

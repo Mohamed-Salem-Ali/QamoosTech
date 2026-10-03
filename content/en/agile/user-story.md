@@ -22,3 +22,12 @@ Planning and requirement discussions.
 ## Common mistake
 
 Writing technical tasks instead of user needs. A story should explain the value for the user.
+
+## Don't confuse with
+
+User Story vs. Requirement: A requirement is often a formal, detailed specification of system behavior, whereas a user story is a high-level, informal narrative focused on the value delivered to the end user.
+
+## Say it at work
+
+- Let's quickly review the user story for the checkout flow before we start coding.
+- I have updated the user story in the backlog to better reflect the feedback we received from the stakeholders.

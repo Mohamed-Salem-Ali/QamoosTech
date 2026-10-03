@@ -23,3 +23,8 @@ During team meetings, project syncs, or when resolving misunderstandings about a
 ## Common mistake
 
 Thinking that "getting on the same page" means everyone must agree with every detail, rather than simply ensuring everyone has the same interpretation of the facts and goals.
+
+## Say it at work
+
+- Let us take five minutes to get on the same page regarding the API response format before we continue.
+- I left a comment on the ticket to help us get on the same page about the expected edge cases.

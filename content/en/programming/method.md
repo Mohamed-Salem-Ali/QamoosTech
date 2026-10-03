@@ -23,3 +23,12 @@ In object-oriented programming, when defining what an object can do, or when cal
 ## Common mistake
 
 Calling any function a method, even when it is written outside of any class or object context.
+
+## Don't confuse with
+
+Method vs function: A function is a standalone block of code, whereas a method is a function that is bound to an object or a class.
+
+## Say it at work
+
+- I think we should move this logic into a private method to keep the class clean.
+- Please ensure that the new method includes proper error handling before merging the pull request.

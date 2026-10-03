@@ -22,3 +22,12 @@ Deployments and team workflows with Django, Prisma, or Rails.
 ## Common mistake
 
 Editing an old migration. Create a new one so every environment follows the same history.
+
+## Don't confuse with
+
+Migration updates the database structure over time, whereas a seed populates the database with initial or test data.
+
+## Say it at work
+
+- Did someone add a new migration for the user profile table, or should I create one?
+- Please make sure to run the latest migration before testing the changes on the staging environment.

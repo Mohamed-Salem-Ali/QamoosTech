@@ -23,3 +23,12 @@ During system design discussions, API integration planning, and when debugging p
 ## Common mistake
 
 Assuming that asynchronous code always runs in parallel or on multiple threads, when it is often just a way to handle waiting for I/O operations efficiently on a single thread.
+
+## Don't confuse with
+
+Synchronous vs Asynchronous differs from Blocking vs Non-blocking, because synchronous/asynchronous refers to how tasks are coordinated, while blocking/non-blocking refers to whether the calling thread is suspended while waiting for the result.
+
+## Say it at work
+
+- Let's make this API call asynchronous so it doesn't block the main thread.
+- Please ensure that file processing is handled asynchronously to improve overall application responsiveness.

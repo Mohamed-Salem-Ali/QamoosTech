@@ -23,3 +23,12 @@ During technical planning meetings, project kickoff phases, or when evaluating n
 ## Common mistake
 
 Confusing a PoC with an MVP; a PoC is a throwaway experiment to test feasibility, while an MVP is a functional product intended for real users.
+
+## Don't confuse with
+
+A PoC is a technical experiment to verify feasibility, whereas a Prototype is a visual or functional model used to demonstrate the look and feel of the product.
+
+## Say it at work
+
+- Let's run a quick PoC to see if this API integration works as expected before we commit to it.
+- I have attached the documentation for the PoC; please review it to confirm that the proposed technical approach is viable.

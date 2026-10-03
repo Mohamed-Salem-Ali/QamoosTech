@@ -22,3 +22,12 @@ Proposals, contracts, and project updates.
 ## Common mistake
 
 Writing vague deliverables like "build the backend". Say exactly what the client will receive.
+
+## Don't confuse with
+
+Deliverable vs. Milestone: A deliverable is a tangible product or document provided to the client, whereas a milestone is a specific point in time used to track project progress.
+
+## Say it at work
+
+- Let's make sure we are aligned on the final deliverable before we start the next sprint.
+- I have attached the documentation as the final deliverable for this task for your review.

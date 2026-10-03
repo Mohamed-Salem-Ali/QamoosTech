@@ -22,3 +22,12 @@ Meetings, requirements, and project reports.
 ## Common mistake
 
 Thinking a stakeholder is just your manager. Users, support, and other teams are stakeholders too.
+
+## Don't confuse with
+
+Stakeholder vs. Shareholder: A stakeholder is anyone impacted by the project's outcome, whereas a shareholder is specifically an individual or entity that owns equity or stock in the company.
+
+## Say it at work
+
+- We need to get feedback from the key stakeholders before we finalize the design for this sprint.
+- Please ensure that all relevant stakeholders are included in the review process for this pull request.

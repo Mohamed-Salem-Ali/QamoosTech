@@ -25,3 +25,14 @@ pronunciation: "ديد-لوك"
 ## خطأ شائع
 
 الخلط بين الـ Deadlock والاستعلام البطيء؛ فالـ Deadlock هو حالة اعتماد متبادل تمنع العمليات من الإكمال، بينما الاستعلام البطيء هو مجرد مشكلة في الأداء لا تمنع العمليات من الانتهاء.
+
+## لا تخلطه مع
+
+غالباً ما يتم الخلط بين الـ Deadlock وحالة السباق (Race Condition)؛ فالـ Deadlock هو حالة انتظار متبادل تمنع العمليات من التقدم، بينما تحدث حالة السباق عندما تعتمد مخرجات النظام على التوقيت غير المنضبط أو ترتيب الأحداث.
+
+## قلها في العمل
+
+- I think we hit a deadlock in the staging environment, so I'm going to restart the service to clear the locks.
+  - أعتقد أننا واجهنا حالة Deadlock في بيئة الاختبار، لذا سأقوم بإعادة تشغيل الخدمة لإلغاء الأقفال.
+- Please review the attached logs, as they indicate that a deadlock is preventing the transaction from committing successfully.
+  - يرجى مراجعة السجلات المرفقة، حيث تشير إلى أن حالة Deadlock تمنع المعاملة من الاكتمال بنجاح.

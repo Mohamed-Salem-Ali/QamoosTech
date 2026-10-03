@@ -25,3 +25,14 @@ pronunciation: "سينكرونوس فيرسز آي-سينكرونوس"
 ## خطأ شائع
 
 الاعتقاد بأن الكود غير المتزامن يعمل دائماً بالتوازي (Parallel) أو على خيوط معالجة (Threads) متعددة، بينما في كثير من الأحيان يكون مجرد وسيلة لإدارة عمليات الإدخال والإخراج (I/O) بكفاءة على خيط معالجة واحد.
+
+## لا تخلطه مع
+
+يختلف synchronous vs asynchronous عن blocking vs non-blocking، لأن الأول يتعلق بكيفية تنسيق المهام، بينما يتعلق الثاني بما إذا كان خيط المعالجة المستدعي يتوقف عن العمل أثناء انتظار النتيجة أم لا.
+
+## قلها في العمل
+
+- Let's make this API call asynchronous so it doesn't block the main thread.
+  - دعنا نجعل استدعاء API هذا غير متزامن لكي لا يقوم بحظر الخيط الرئيسي.
+- Please ensure that file processing is handled asynchronously to improve overall application responsiveness.
+  - يرجى التأكد من معالجة الملفات بشكل غير متزامن لتحسين استجابة التطبيق بشكل عام.

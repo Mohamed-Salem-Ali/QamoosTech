@@ -22,3 +22,8 @@ Architecture discussions and interviews.
 ## Common mistake
 
 Choosing microservices too early. For small teams a well-organized monolith is usually simpler and faster.
+
+## Say it at work
+
+- Let's discuss if this feature should live in our monolith or as a separate microservice.
+- Moving from a monolith to microservices will help us scale this specific module independently.

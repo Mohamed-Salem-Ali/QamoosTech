@@ -25,3 +25,10 @@ pronunciation: "إيه بي آي فيرجنينج"
 ## خطأ شائع
 
 الاعتقاد بأن كل تغيير بسيط يتطلب إصداراً جديداً، مما يؤدي إلى تعقيد غير ضروري وصعوبة في صيانة الـ API.
+
+## قلها في العمل
+
+- Let us check how we are handling API versioning for this new endpoint before we merge the code.
+  - دعنا نتحقق من كيفية التعامل مع الـ API versioning لهذا الـ endpoint الجديد قبل أن نقوم بدمج الكود.
+- Please update the documentation to reflect the new API versioning strategy we agreed on.
+  - يرجى تحديث الوثائق لتعكس استراتيجية الـ API versioning الجديدة التي اتفقنا عليها.

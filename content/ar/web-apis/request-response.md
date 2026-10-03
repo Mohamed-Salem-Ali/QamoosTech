@@ -25,3 +25,10 @@ pronunciation: "ريكويست / ريسبونس"
 ## خطأ شائع
 
 الخلط بين الاثنين عند الإبلاغ عن خطأ. وضّح هل المشكلة فيما أرسلتَه أم فيما عاد إليك.
+
+## قلها في العمل
+
+- Let us check the payload of this request and see what response the server returns.
+  - دعنا نتحقق من حمولة هذا الطلب (payload) ونرى الاستجابة التي يعيدها الخادم.
+- Please attach the request headers and the response logs to the Jira ticket.
+  - يرجى إرفاق ترويسات الطلب (headers) وسجلات الاستجابة بتذكرة Jira.

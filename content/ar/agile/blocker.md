@@ -25,3 +25,14 @@ pronunciation: "بلوكر"
 ## خطأ شائع
 
 الانتظار بصمت لساعات. أبلغ عن العائق فور اكتشافه.
+
+## لا تخلطه مع
+
+الفرق بين Blocker و Bottleneck هو أن الـ Blocker مشكلة محددة تمنع الفرد من إكمال مهمته، بينما الـ Bottleneck هو نقطة في سير العمل يتباطأ فيها الإنتاج بسبب محدودية القدرة الاستيعابية.
+
+## قلها في العمل
+
+- Hey team, I've hit a blocker with the database permissions, so I might need some help to move forward.
+  - مرحباً يا فريق، لقد واجهت عائقاً (blocker) يتعلق بصلاحيات قاعدة البيانات، لذا قد أحتاج إلى بعض المساعدة للمضي قدماً.
+- Please note that the integration task is currently marked as a blocker for the upcoming release.
+  - يرجى العلم أن مهمة الربط (integration) مصنفة حالياً كعائق (blocker) أمام الإصدار القادم.

@@ -25,3 +25,10 @@ pronunciation: "باي-إن"
 ## خطأ شائع
 
 الاعتقاد بأن Buy-in يعني مجرد إبلاغ الآخرين بالقرار؛ في الواقع، يتطلب الأمر مشاركة فعالة وبناء توافق في الآراء لضمان شعور أصحاب المصلحة بأن أصواتهم مسموعة وأنهم جزء من النتيجة النهائية.
+
+## قلها في العمل
+
+- Let us schedule a quick sync tomorrow to secure buy-in on the new migration strategy from everyone.
+  - دعنا نجدول اجتماع مزامنة سريعاً غداً لضمان الحصول على دعم الجميع لاستراتيجية الترحيل الجديدة.
+- Please review the attached architectural document so we can get team buy-in before the sprint starts.
+  - يرجى مراجعة مستند المعمارية المرفق حتى نتمكن من الحصول على موافقة الفريق قبل بدء دورة العمل.

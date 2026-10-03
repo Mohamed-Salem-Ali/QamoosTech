@@ -24,3 +24,14 @@ Python (`@login_required`)، وأطر TypeScript مثل NestJS، وفي الحد
 ## خطأ شائع
 
 في Python، نسيان `functools.wraps` فتفقد الدالة المغلّفة اسمها ووصفها.
+
+## لا تخلطه مع
+
+الـ decorator يغلّف دالة لتعديل سلوكها بشكل ديناميكي، بينما الـ inheritance تنشئ فئة فرعية جديدة لتوسيع الوظائف بشكل ثابت.
+
+## قلها في العمل
+
+- Can we write a custom decorator to handle the caching for these API endpoints?
+  - هل يمكننا كتابة decorator مخصّص للتعامل مع التخزين المؤقت لهذه الـ API endpoints؟
+- Please use the authentication decorator on the new routes to ensure proper access control.
+  - يرجى استخدام decorator المصادقة على المسارات الجديدة لضمان التحكم الصحيح في الصلاحيات.

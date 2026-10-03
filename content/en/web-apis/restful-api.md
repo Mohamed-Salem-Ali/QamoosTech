@@ -22,3 +22,12 @@ System design, backend interviews, and API documentation.
 ## Common mistake
 
 Calling every HTTP API "REST". Many APIs are just "HTTP APIs" and do not follow REST rules like using the right verbs.
+
+## Don't confuse with
+
+RESTful API is often confused with GraphQL, but while REST uses multiple endpoints and standard HTTP methods, GraphQL uses a single endpoint and allows clients to request exactly the data they need.
+
+## Say it at work
+
+- Let's make sure our new RESTful API endpoints follow standard naming conventions before we publish the documentation.
+- Please update the authentication headers in this RESTful API pull request so the frontend tests can pass successfully.

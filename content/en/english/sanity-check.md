@@ -23,3 +23,12 @@ In code reviews, testing discussions, and daily standups.
 ## Common mistake
 
 Treating a sanity check as a complete, rigorous test suite rather than a fast, surface-level verification.
+
+## Don't confuse with
+
+A sanity check is a quick, basic check to ensure a solution is generally reasonable, whereas unit testing is a formal, automated suite that thoroughly verifies specific functions.
+
+## Say it at work
+
+- Can we do a quick sanity check on the login form before we call this ticket done?
+- I performed a sanity check on the deployment outputs to ensure the basic routes are responding correctly.
