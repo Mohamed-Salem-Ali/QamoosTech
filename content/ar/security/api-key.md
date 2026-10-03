@@ -19,7 +19,7 @@ translation: "مفتاح واجهة برمجة التطبيقات"
 ## أمثلة
 
 - Include the API key in the request header to authenticate your weather service calls.
-  - ضمّن مفتاح واجهة برمجة التطبيقات في ترويسة الطلب لتوثيق طلبات خدمة الطقس الخاصة بك.
+  - ضمّن مفتاح واجهة برمجة التطبيقات في ترويسة الطلب لمصادقة طلبات خدمة الطقس الخاصة بك.
 - Never expose your secret API key in frontend client code.
   - لا تكشف أبداً عن مفتاح واجهة برمجة التطبيقات السري الخاص بك في كود الواجهة الأمامية للعميل.
 

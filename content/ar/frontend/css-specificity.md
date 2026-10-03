@@ -4,7 +4,7 @@ category: frontend
 level: beginner
 related: []
 term: "CSS Specificity"
-pronunciation: "سي-إس إس سبيسيفيسيتي"
+pronunciation: "سي إس إس سبيسيفيسيتي"
 ---
 
 ## التعريف
@@ -20,8 +20,8 @@ pronunciation: "سي-إس إس سبيسيفيسيتي"
 - The ID selector has higher specificity than the class selector.
   - محدد المعرف (ID) له أولوية أعلى من محدد الصنف (Class).
 - I had to increase the specificity of my rule to override the default library style.
-  - اضطررت لزيادة دقة (specificity) القاعدة الخاصة بي لتجاوز تنسيق المكتبة الافتراضي.
+  - اضطررت لزيادة أولوية (specificity) القاعدة الخاصة بي لتجاوز تنسيق المكتبة الافتراضي.
 
 ## خطأ شائع
 
-الاعتقاد بأن ترتيب كتابة الأكواد في ملف الـ CSS هو العامل الوحيد لتطبيق التنسيق، وتجاهل أن المحدد الأكثر دقة (Specific) سيفوز دائماً بغض النظر عن موقعه في الملف.
+الاعتقاد بأن ترتيب كتابة الأكواد في ملف الـ CSS هو العامل الوحيد لتطبيق التنسيق، وتجاهل أن المحدد الأعلى أولوية (Specific) سيفوز دائماً بغض النظر عن موقعه في الملف.

@@ -21,7 +21,7 @@ translation: "حل مؤقت"
 - We need a work-around for this validation bug before the release tomorrow.
   - نحتاج إلى حل مؤقت لخطأ التحقق هذا قبل الإطلاق غداً.
 - The documentation suggests a simple work-around for the missing feature.
-  - توفر التوثيق حلاً مؤقتاً بسيطة للميزة المفقودة.
+  - يقترح التوثيق حلاً مؤقتاً بسيطاً للميزة المفقودة.
 
 ## خطأ شائع
 

@@ -4,7 +4,7 @@ category: architecture
 level: beginner
 related: [load-balancer, single-point-of-failure, health-check]
 term: "High Availability (HA)"
-pronunciation: "هاي أفيسابيليتي"
+pronunciation: "هاي أفيلابيليتي"
 translation: "التوافر العالي"
 ---
 

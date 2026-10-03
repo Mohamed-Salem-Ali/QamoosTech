@@ -5,7 +5,7 @@ level: intermediate
 related: [single-point-of-failure, health-check, rollback]
 term: "Graceful Degradation"
 pronunciation: "جريسفول ديجراديشن"
-translation: "التدهور الحميد"
+translation: "التدهور التدريجي"
 ---
 
 ## التعريف
@@ -21,9 +21,9 @@ translation: "التدهور الحميد"
 ## أمثلة
 
 - If the recommendation service is down, the e-commerce app displays standard items instead of crashing.
-  - إذا توفقت خدمة التوصيات، يعرض تطبيق التجارة الإلكترونية المنتجات العادية بدلاً من الانهيار.
+  - إذا توقفت خدمة التوصيات، يعرض تطبيق التجارة الإلكترونية المنتجات العادية بدلاً من الانهيار.
 - The web app hides advanced animations when the browser's performance drops.
-  - يقوم تطبيق الويب بإخفاء الرسوم المتحركة المتقدمة عندما تنخفض أداء المتصفح.
+  - يقوم تطبيق الويب بإخفاء الرسوم المتحركة المتقدمة عندما ينخفض أداء المتصفح.
 
 ## خطأ شائع
 

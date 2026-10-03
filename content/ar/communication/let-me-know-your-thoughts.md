@@ -20,7 +20,7 @@ pronunciation: "ليت مي نو يور ثوتس"
 - I have updated the documentation; let me know your thoughts.
   - لقد قمت بتحديث التوثيق، أخبرني برأيك.
 - Here is the draft for the new API design, let me know your thoughts.
-  - هذا هو المسودة لتصميم الـ API الجديد، أخبرني برأيك.
+  - هذه هي المسودة لتصميم الـ API الجديد، أخبرني برأيك.
 
 ## خطأ شائع
 

@@ -5,6 +5,7 @@ level: beginner
 related: [encryption, field-level-encryption]
 term: "Encryption at Rest"
 pronunciation: "إنكريبتشن أت ريست"
+translation: "تشفير البيانات المخزنة"
 ---
 
 ## التعريف
@@ -18,10 +19,10 @@ pronunciation: "إنكريبتشن أت ريست"
 ## أمثلة
 
 - We must enable encryption at rest for our database backups.
-  - يجب علينا تفعيل التشفير أثناء السكون (Encryption at rest) لنسخنا الاحتياطية من قاعدة البيانات.
+  - يجب علينا تفعيل تشفير البيانات المخزنة (Encryption at rest) لنسخنا الاحتياطية من قاعدة البيانات.
 - The security policy requires encryption at rest for all sensitive user files.
-  - تتطلب سياسة الأمان تفعيل التشفير أثناء السكون لجميع ملفات المستخدمين الحساسة.
+  - تتطلب سياسة الأمان تفعيل تشفير البيانات المخزنة لجميع ملفات المستخدمين الحساسة.
 
 ## خطأ شائع
 
-الخلط بينها وبين التشفير أثناء النقل (Encryption in transit)، حيث يحمي الأخير البيانات أثناء انتقالها عبر الشبكة، بينما يحمي التشفير أثناء السكون البيانات المخزنة على القرص فقط.
+الخلط بينه وبين التشفير أثناء النقل (Encryption in transit)، حيث يحمي الأخير البيانات أثناء انتقالها عبر الشبكة، بينما يحمي تشفير البيانات المخزنة البيانات المخزنة على القرص فقط.

@@ -5,7 +5,6 @@ level: intermediate
 related: [inheritance, design-pattern, separation-of-concerns]
 term: "Composition"
 pronunciation: "kom-po-ZISH-un"
-translation: "التركيب"
 ---
 
 ## Definition

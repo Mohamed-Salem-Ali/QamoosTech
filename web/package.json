@@ -11,7 +11,9 @@
     "audio": "node scripts/generate-audio.mjs",
     "ai": "node scripts/ai.mjs",
     "qa": "node scripts/qa-review.mjs",
-    "terms": "node scripts/terms-agent.mjs"
+    "terms": "node scripts/terms-agent.mjs",
+    "qa-fix": "node scripts/qa-fix.mjs",
+    "scan": "node scripts/scan-scripts.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

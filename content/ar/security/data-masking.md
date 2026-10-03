@@ -23,7 +23,7 @@ translation: "إخفاء البيانات"
 - We need to apply data masking to the user table before copying it to the staging environment.
   - نحتاج إلى تطبيق إخفاء البيانات على جدول المستخدمين قبل نسخه إلى بيئة الاختبار.
 - The script replaces real email addresses with random ones during the data masking process.
-  - يقوم السكريبت استبدال عناوين البريد الإلكتروني الحقيقية بأخرى عشوائية أثناء عملية إخفاء البيانات.
+  - يقوم السكريبت باستبدال عناوين البريد الإلكتروني الحقيقية بأخرى عشوائية أثناء عملية إخفاء البيانات.
 
 ## خطأ شائع
 

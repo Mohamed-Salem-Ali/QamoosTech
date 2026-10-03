@@ -4,7 +4,7 @@ category: communication
 level: beginner
 related: [loop-in, heads-up, follow-up]
 term: "In the loop"
-pronunciation: "إن ذو لوب"
+pronunciation: "إن ذَ لوب"
 translation: "على اطلاع دائم / ضمن المتابعين"
 ---
 
@@ -19,7 +19,7 @@ translation: "على اطلاع دائم / ضمن المتابعين"
 ## أمثلة
 
 - Please keep me in the loop regarding any changes to the API schema.
-  - أرجو إبقائي على اطلاع دائم بأي تغييرات طرأت على هيكلية واجهة البرمجة.
+  - أرجو إبقائي على اطلاع دائم بأي تغييرات في مخطط الـ API.
 - She is in the loop on all major architecture decisions.
   - إنها ضمن المتابعين لجميع قرارات البنية الهندسية الرئيسية.
 

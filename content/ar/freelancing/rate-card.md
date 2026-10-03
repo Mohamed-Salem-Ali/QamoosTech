@@ -5,7 +5,7 @@ level: beginner
 related: [estimate, proposal]
 term: "Rate Card"
 pronunciation: "ريت كارد"
-translation: "قائمة الأسعار"
+translation: "قائمة الأسعار (Rate Card)"
 ---
 
 ## التعريف
@@ -19,9 +19,9 @@ translation: "قائمة الأسعار"
 ## أمثلة
 
 - I updated my rate card to reflect my new senior developer hourly fee.
-  - قمت بتحديث قائمة الأسعار الخاصة بي لتعكس رسومي الجديدة بالساعة كمطور برمجيات متقدم.
+  - قمت بتحديث قائمة الأسعار الخاصة بي لتعكس رسومي الجديدة بالساعة كمطور برمجيات أول.
 - The client asked for a rate card before discussing the backend migration project.
-  - طلب العميل قائمة الأسعار قبل مناقشة مشروع نقل النظام الخلفي.
+  - طلب العميل قائمة الأسعار قبل مناقشة مشروع ترحيل النظام الخلفي (Backend).
 
 ## خطأ شائع
 

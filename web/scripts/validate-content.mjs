@@ -3,6 +3,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseTerm } from '../src/lib/parse-term.mjs'
+import { scanText } from './scan-scripts.mjs'
 
 const contentDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', 'content')
 const categories = JSON.parse(fs.readFileSync(path.join(contentDir, 'categories.json'), 'utf8')).map((c) => c.id)
@@ -17,7 +18,11 @@ for (const lang of languages) {
     if (!fs.statSync(dir).isDirectory()) continue
     for (const file of fs.readdirSync(dir)) {
       const where = `${lang}/${category}/${file}`
-      const { term, errors: errs } = parseTerm(fs.readFileSync(path.join(dir, file), 'utf8'))
+      const source = fs.readFileSync(path.join(dir, file), 'utf8')
+      const { term, errors: errs } = parseTerm(source)
+      const stray = scanText(source, lang)
+      if (stray.length) errs.push(`unexpected characters (${stray.slice(0, 3).map((h) => `${h.code} on line ${h.line}`).join(', ')}): wrong writing system for this language`)
+      if (lang !== 'ar' && source.match(/^translation:/m)) errs.push('"translation:" is only for the Arabic file')
       errs.forEach((e) => errors.push(`${where}: ${e}`))
       if (term.id + '.md' !== file) errors.push(`${where}: id "${term.id}" must match the filename`)
       if (term.category !== category) errors.push(`${where}: category "${term.category}" must match its folder`)

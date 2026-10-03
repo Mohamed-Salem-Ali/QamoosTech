@@ -17,7 +17,7 @@ When integrating third-party services, setting up mobile apps, or working with c
 
 ## Examples
 
-- We used the Stripe SDK to process credit card payments in our app.
+- We used a payment provider's SDK to process card payments in our app.
 - The new mobile SDK makes it easy to track user analytics.
 
 ## Common mistake

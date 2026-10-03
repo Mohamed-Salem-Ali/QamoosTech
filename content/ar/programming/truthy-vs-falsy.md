@@ -20,7 +20,7 @@ pronunciation: "تروثي فيرسز فالسي"
 - An empty string is considered falsy, so the code inside the block will not execute.
   - السلسلة النصية الفارغة تُعتبر falsy، لذا لن يتم تنفيذ الكود الموجود داخل الشرط.
 - A non-zero number is considered truthy, allowing it to pass a conditional check.
-  - الرقم غير الصفر يُعتبر truthy، مما يسمح له بتجاوز فحص الشرط.
+  - الرقم الذي لا يساوي صفراً يُعتبر truthy، مما يسمح له بتجاوز فحص الشرط.
 
 ## خطأ شائع
 

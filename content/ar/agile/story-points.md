@@ -20,7 +20,7 @@ pronunciation: "ستوري بوينتس"
 - We assigned five story points to this task because it involves complex database migrations.
   - قمنا بتعيين خمس نقاط لهذه المهمة لأنها تتضمن عمليات ترحيل قاعدة بيانات معقدة.
 - The team decided that this user story is too large and needs to be broken down into smaller story points.
-  - قرر الفريق أن هذه الـ user story كبيرة جداً وتحتاج إلى تقسيمها إلى نقاط أصغر.
+  - قرر الفريق أن قصة المستخدم هذه كبيرة جداً وتحتاج إلى تقسيمها إلى قصص أصغر ذات نقاط أقل.
 
 ## خطأ شائع
 

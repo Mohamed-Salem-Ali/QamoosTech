@@ -23,7 +23,7 @@ pronunciation: "كرود أوبيريشنز"
 - The user registration form triggers a Create operation to save a new record in the database.
   - يؤدي نموذج تسجيل المستخدمين إلى تشغيل عملية إنشاء (Create) لحفظ سجل جديد في قاعدة البيانات.
 - The application performs a Read operation to fetch user profile details for the dashboard.
-  - يقوم التطبيق بعملية قراءة (Read) لجلب تفاصيل ملف تعريف المستخدم لوحة التحكم.
+  - يقوم التطبيق بعملية قراءة (Read) لجلب تفاصيل ملف تعريف المستخدم في لوحة التحكم.
 - An admin panel executes a Delete operation to remove inactive accounts from the system.
   - تنفذ لوحة التحكم الخاصة بالمسؤول عملية حذف (Delete) لإزالة الحسابات غير النشطة من النظام.
 

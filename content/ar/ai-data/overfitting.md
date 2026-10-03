@@ -5,7 +5,7 @@ level: intermediate
 related: [fine-tuning]
 term: "Overfitting"
 pronunciation: "أوفرفيتينج"
-translation: "فرط التخصيص / الإفراط في التخصيص"
+translation: "فرط الملاءمة / الإفراط في الملاءمة"
 ---
 
 ## التعريف
@@ -19,9 +19,9 @@ translation: "فرط التخصيص / الإفراط في التخصيص"
 ## أمثلة
 
 - The model shows high accuracy on the training set, but its performance drops significantly during testing due to overfitting.
-  - يُظهر النموذج دقة عالية في بيانات التدريب، لكن أداءه ينخفض بشكل كبير أثناء الاختبار بسبب فرط التخصيص.
+  - يُظهر النموذج دقة عالية في بيانات التدريب، لكن أداءه ينخفض بشكل كبير أثناء الاختبار بسبب فرط الملاءمة.
 - We need to add regularization techniques to prevent the neural network from overfitting.
-  - نحتاج إلى إضافة تقنيات التنظيم لمنع الشبكة العصبية من الإفراط في التخصيص.
+  - نحتاج إلى إضافة تقنيات التنظيم لمنع الشبكة العصبية من الإفراط في الملاءمة.
 
 ## خطأ شائع
 

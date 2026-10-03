@@ -5,7 +5,7 @@ level: intermediate
 related: [rbac, authentication-vs-authorization, vulnerability]
 term: "Least Privilege"
 pronunciation: "ليست بريفيليج"
-translation: "مبدأ اقل صلاحية"
+translation: "مبدأ الحد الأدنى من الصلاحيات"
 ---
 
 ## التعريف

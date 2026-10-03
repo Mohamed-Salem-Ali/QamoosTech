@@ -19,10 +19,10 @@ translation: "انتقاء الالتزامات"
 ## أمثلة
 
 - We need to cherry-pick that bug fix commit into the release branch.
-  - نحتاج إلى عمل cherry-pick لالتزام إصلاح العلية هذا في فرع الإصدار.
+  - نحتاج إلى عمل cherry-pick لالتزام إصلاح الخطأ هذا في فرع الإصدار.
 - I used cherry-pick to grab just the latest feature update without the other experimental changes.
   - لقد استخدمت cherry-pick لجلب تحديث الميزة الأخير فقط دون التغييرات التجريبية الأخرى.
 
 ## خطأ شائع
 
-الاعتقاد بأن هذه الطريقة تغني تماماً عن الدمج (merge)، مما يتسبب في تكرار الالتزامات وتعقيد تاريخ المشروع إذا تم استخدامها بافراط.
+الاعتقاد بأن هذه الطريقة تغني تماماً عن الدمج (merge)، مما يتسبب في تكرار الالتزامات وتعقيد تاريخ المشروع إذا تم استخدامها بإفراط.

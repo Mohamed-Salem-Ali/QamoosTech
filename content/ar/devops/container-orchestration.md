@@ -5,7 +5,7 @@ level: intermediate
 related: [containerization, deployment, load-balancer]
 term: "Container Orchestration"
 pronunciation: "كونتينر أوركستريشن"
-translation: "إدارة الحاويات الآلية"
+translation: "أوركسترا الحاويات"
 ---
 
 ## التعريف

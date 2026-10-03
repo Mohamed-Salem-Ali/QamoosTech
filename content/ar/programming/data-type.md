@@ -19,7 +19,7 @@ translation: "نوع البيانات"
 ## أمثلة
 
 - The variable stores an integer data type.
-  - هذا المتغير يخزن نوع بيانات من نوع عدد صحيح.
+  - هذا المتغير يخزن قيمة من نوع عدد صحيح.
 - You must ensure the function receives the correct data type.
   - يجب أن تتأكد من أن الدالة تستقبل نوع البيانات الصحيح.
 

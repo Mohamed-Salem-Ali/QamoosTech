@@ -21,7 +21,7 @@ translation: "التحميل الكسول"
 - We implemented lazy loading for all images below the fold to improve initial page load speed.
   - قمنا بتطبيق التحميل الكسول لجميع الصور الموجودة أسفل الشاشة لتحسين سرعة التحميل الأولي للصفحة.
 - The application uses lazy loading to fetch heavy dashboard components only when the user visits that specific tab.
-  - يستخدم التطبيق التحميل الكسول لجلب مكونات لوحة التحكم الثقيلة فقط عندما يزور المستخدم تلك العلامة التبويب المحددة.
+  - يستخدم التطبيق التحميل الكسول لجلب مكونات لوحة التحكم الثقيلة فقط عندما يزور المستخدم تلك علامة التبويب المحددة.
 
 ## خطأ شائع
 

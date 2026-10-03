@@ -17,8 +17,8 @@ pronunciation: "إس دي كي"
 
 ## أمثلة
 
-- We used the Stripe SDK to process credit card payments in our app.
-  - استخدَمنا حزمة تطوير البرمجيات من Stripe لمعالجة مدفوعات بطاقات الائتمان في تطبيقنا.
+- We used a payment provider's SDK to process card payments in our app.
+  - استخدمنا حزمة تطوير برمجيات خاصة بالدفع لمعالجة مدفوعات بطاقات الائتمان في تطبيقنا.
 - The new mobile SDK makes it easy to track user analytics.
   - حزمة تطوير البرمجيات الجديدة للهواتف تجعل تتبع تحليلات المستخدمين أمراً سهلاً.
 

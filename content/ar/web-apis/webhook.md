@@ -17,8 +17,8 @@ pronunciation: "ويب هوك"
 
 ## أمثلة
 
-- Stripe sends a webhook when the payment succeeds.
-  - ترسل Stripe webhook عند نجاح الدفع.
+- The payment provider sends a webhook when the payment succeeds.
+  - يرسل مزوّد الدفع webhook عند نجاح الدفع.
 - Verify the webhook signature before trusting the payload.
   - تحقق من توقيع الـ webhook قبل الوثوق بالـ payload.
 

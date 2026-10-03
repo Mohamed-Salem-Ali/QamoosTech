@@ -4,7 +4,7 @@ category: frontend
 level: intermediate
 related: [component, rendering, state]
 term: "Virtual DOM"
-translation: "شجرة عناصر واجهة المستخدم الوهمية"
+translation: "الـ Virtual DOM (أو DOM الافتراضي)"
 pronunciation: "فيرتشوال دوم"
 ---
 
@@ -25,4 +25,4 @@ pronunciation: "فيرتشوال دوم"
 
 ## خطأ شائع
 
-الاعتقاد بأن الـ Virtual DOM أسرع دائماً من الـ DOM الحقيقي، في حين أنه يُستخدم في الواقع لجعل التحديثات أكثر تووقعاً وكفاءة وليس مجرد مُسرع مطلق.
+الاعتقاد بأن الـ Virtual DOM أسرع دائماً من الـ DOM الحقيقي، في حين أنه يُستخدم في الواقع لجعل التحديثات أكثر توقعاً وكفاءة وليس مجرد مُسرع مطلق.

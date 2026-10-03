@@ -4,7 +4,7 @@ category: communication
 level: beginner
 related: [follow-up, touch-base, heads-up]
 term: "Ping me"
-pronunciation: "پينج مي"
+pronunciation: "بينج مي"
 ---
 
 ## التعريف
@@ -18,9 +18,9 @@ pronunciation: "پينج مي"
 ## أمثلة
 
 - Ping me when the deployment finishes.
-  - أرسل لي رسالة (بينغ) عندما ينتهي نشر التحديث (deployment).
+  - أرسل لي رسالة سريعة (ping) عندما ينتهي نشر التحديث.
 - Can you ping me the link to the documentation?
-  - هل يمكنك إرسال رابط التوثيق لي في رسالة سريعة؟
+  - هل يمكنك إرسال رابط التوثيق لي في رسالة سريعة (ping)؟
 
 ## خطأ شائع
 

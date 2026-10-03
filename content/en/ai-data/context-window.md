@@ -5,7 +5,6 @@ level: beginner
 related: [llm, prompt-engineering, token]
 term: "Context Window"
 pronunciation: "KON-tekst WIN-do"
-translation: "نافذة السياق"
 ---
 
 ## Definition

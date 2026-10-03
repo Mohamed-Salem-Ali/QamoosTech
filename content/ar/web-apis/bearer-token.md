@@ -4,7 +4,6 @@ category: web-apis
 level: beginner
 related: [http-header, jwt, oauth]
 term: "Bearer Token"
-translation: "رمز حامل"
 pronunciation: "بِيرَر تُوكِن"
 ---
 

@@ -20,7 +20,7 @@ pronunciation: "مولتي-بارت فورم داتا"
 - The browser sets the Content-Type header to multipart/form-data when a user submits a file upload form.
   - يقوم المتصفح بضبط ترويسة Content-Type على multipart/form-data عندما يرسل المستخدم نموذجاً يحتوي على ملف.
 - You must configure your backend server to parse multipart/form-data to handle incoming image uploads.
-  - يجب عليك تهيئة خادم الواجهة الخلفية لمعالجة multipart/form-data للتعامل مع صور الملفات المرفوعة.
+  - يجب عليك تهيئة خادم الواجهة الخلفية لمعالجة multipart/form-data للتعامل مع الصور المرفوعة.
 
 ## خطأ شائع
 

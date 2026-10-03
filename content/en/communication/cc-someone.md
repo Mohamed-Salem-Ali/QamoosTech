@@ -5,7 +5,6 @@ level: beginner
 related: [follow-up, heads-up, loop-in]
 term: "CC someone"
 pronunciation: "SEE-see SUM-wun"
-translation: "أرسل نسخة كربونية لفلان"
 ---
 
 ## Definition

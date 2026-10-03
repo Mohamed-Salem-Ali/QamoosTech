@@ -5,7 +5,6 @@ level: intermediate
 related: [class, object, inheritance, separation-of-concerns]
 term: "Encapsulation"
 pronunciation: "en-KAP-sue-lay-shun"
-translation: "التغليف"
 ---
 
 ## Definition

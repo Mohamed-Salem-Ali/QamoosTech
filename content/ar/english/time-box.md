@@ -21,7 +21,7 @@ translation: "تخصيص وقت محدد"
 - We will time-box this architectural discussion to thirty minutes so we can move on to other tasks.
   - سنقوم بتخصيص وقت محدد مدته ثلاثون دقيقة لهذا النقاش المعماري لكي نتمكن من الانتقال إلى مهام أخرى.
 - Let us time-box the research phase of this feature to two days.
-  - دعنا نحدد وقتاً صارماً لمرحلة البحث الخاصة بهذه الميزة في يومين.
+  - دعنا نخصص وقتاً مدته يومان لمرحلة البحث الخاصة بهذه الميزة.
 
 ## خطأ شائع
 

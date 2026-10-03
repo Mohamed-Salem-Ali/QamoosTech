@@ -20,7 +20,7 @@ pronunciation: "برينج تو ذا تايبل"
 ## أمثلة
 
 - Senior engineers bring years of architecture experience to the table.
-  - يُقدّم مهندسو البرمجيات الكبار سنوات من خبرة هندسة الأنظمة إلى الطاولة.
+  - يُقدّم مهندسو البرمجيات الكبار خبراتهم الطويلة في هندسة الأنظمة.
 - Let us review what each team member brings to the table for this project.
   - دعنا نراجع ما يُقدّمه كل عضو في الفريق لهذا المشروع.
 

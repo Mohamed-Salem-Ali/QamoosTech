@@ -18,9 +18,9 @@ pronunciation: "ديسكفري كول"
 ## أمثلة
 
 - I have a discovery call scheduled with a new lead tomorrow morning.
-  - لدي اجتماع "ديسكفري كول" مجدول مع عميل محتمل صباح الغد.
+  - لدي اجتماع ديسكفري كول مجدول مع عميل محتمل صباح الغد.
 - We should hold a discovery call to better understand the project scope.
-  - يجب أن نعقد "ديسكفري كول" لفهم نطاق المشروع بشكل أفضل.
+  - يجب أن نعقد ديسكفري كول لفهم نطاق المشروع بشكل أفضل.
 
 ## خطأ شائع
 

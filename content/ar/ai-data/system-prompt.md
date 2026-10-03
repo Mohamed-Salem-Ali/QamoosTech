@@ -4,7 +4,7 @@ category: ai-data
 level: beginner
 related: [llm, prompt-engineering]
 term: "System Prompt"
-pronunciation: "سيسشتم برومبت"
+pronunciation: "سيستم برومبت"
 translation: "موجه النظام"
 ---
 

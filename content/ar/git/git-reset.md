@@ -5,7 +5,6 @@ level: intermediate
 related: [commit, rollback]
 term: "Git Reset"
 pronunciation: "جيت ريسيت"
-translation: "إعادة ضبط جيت"
 ---
 
 ## التعريف

@@ -4,7 +4,7 @@ category: communication
 level: beginner
 related: [loop-in, heads-up, follow-up]
 term: "In the loop"
-pronunciation: "in thə loop"
+pronunciation: "in thuh loop"
 ---
 
 ## Definition

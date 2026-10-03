@@ -5,7 +5,7 @@ level: beginner
 related: []
 term: "Quota"
 pronunciation: "كْوُوتَا"
-translation: "حصص الموارد"
+translation: "حصة (Quota)"
 ---
 
 ## التعريف
@@ -19,9 +19,9 @@ translation: "حصص الموارد"
 ## أمثلة
 
 - We hit our storage quota and cannot upload any more files to the bucket.
-  - لقد وصلنا إلى حد حصة التخزين لدينا ولا يمكننا رفع المزيد من الملفات إلى الحاوية.
+  - لقد وصلنا إلى حد حصة التخزين لدينا ولا يمكننا رفع المزيد من الملفات إلى مخزن (bucket).
 - Please check the service quotas in the cloud dashboard before spinning up the cluster.
-  - يرجى التحقق من حصص الخدمات في لوحة التحكم السحابية قبل تشغيل العنقود.
+  - يرجى التحقق من حصص الخدمات في لوحة التحكم السحابية قبل تشغيل الـ cluster.
 
 ## خطأ شائع
 

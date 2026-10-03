@@ -4,7 +4,7 @@ category: databases
 level: intermediate
 related: [query, index]
 term: "EXPLAIN Plan"
-pronunciation: "إكسپلين پلآن"
+pronunciation: "إكس-بلين بلان"
 translation: "خطة التنفيذ"
 ---
 

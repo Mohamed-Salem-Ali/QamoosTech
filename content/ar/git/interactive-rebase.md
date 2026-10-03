@@ -5,7 +5,6 @@ level: intermediate
 related: [commit, rebase]
 term: "Interactive Rebase"
 pronunciation: "إنترأكتيف ريبايز"
-translation: "إعادة قاعدة تفاعلية"
 ---
 
 ## التعريف

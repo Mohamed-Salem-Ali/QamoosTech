@@ -5,7 +5,6 @@ level: beginner
 related: [class, function, object]
 term: "Method"
 pronunciation: "METH-ud"
-translation: "تابعة"
 ---
 
 ## Definition

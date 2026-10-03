@@ -5,7 +5,6 @@ level: beginner
 related: [database, schema, query]
 term: "Constraint"
 pronunciation: "kuhn-STRAYNT"
-translation: "قيد"
 ---
 
 ## Definition

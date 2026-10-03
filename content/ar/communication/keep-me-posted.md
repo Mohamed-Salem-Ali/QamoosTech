@@ -5,7 +5,7 @@ level: beginner
 related: [follow-up, heads-up, touch-base]
 term: "Keep me posted"
 translation: "أبقِني على اطلاع"
-pronunciation: "كيوب مي بوستيد"
+pronunciation: "كيب مي بوستيد"
 ---
 
 ## التعريف
@@ -14,12 +14,12 @@ pronunciation: "كيوب مي بوستيد"
 
 ## أين تسمعه؟
 
-في رسائل سلاك، والاجتماعات اليومية السريعة، وررسائل البريد الإلكتروني الخاصة بمتابعة الحالة.
+في رسائل سلاك، والاجتماعات اليومية السريعة، ورسائل البريد الإلكتروني الخاصة بمتابعة الحالة.
 
 ## أمثلة
 
 - Keep me posted on how the deployment goes tonight.
-  - أبقِني على اطلاع بما سيسير عليه نشر التحديث (التدبيلمنت) ليلة اليوم.
+  - أبقِني على اطلاع بسير عملية النشر (deployment) الليلة.
 - Keep me posted if you find any new bugs during testing.
   - أبقِني على اطلاع إذا وجدت أي أخطاء برمجية جديدة أثناء الاختبار.
 

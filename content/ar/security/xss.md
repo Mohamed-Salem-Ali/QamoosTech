@@ -5,7 +5,7 @@ level: intermediate
 related: [cors, vulnerability]
 term: "Cross-Site Scripting (XSS)"
 translation: "البرمجة عبر الموقع"
-pronunciation: "كروس سايت سكريبمينج"
+pronunciation: "كروس سايت سكربتنج"
 ---
 
 ## التعريف

@@ -5,7 +5,7 @@ level: beginner
 related: [class, function, object]
 term: "Method"
 pronunciation: "ميثود"
-translation: "تابعة"
+translation: "ميثود"
 ---
 
 ## التعريف

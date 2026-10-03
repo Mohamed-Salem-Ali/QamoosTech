@@ -21,9 +21,9 @@ pronunciation: "أوتوميتيد تيستينج"
 ## أمثلة
 
 - We added automated testing to check our payment flow on every commit.
-  - أضفنا الاختبار الآلي للتحقق من تدفق الدفع مع كل عملية دمج (`commit`).
+  - أضفنا الاختبار الآلي للتحقق من تدفق الدفع مع كل عملية تثبيت (`commit`).
 - Automated testing helps us catch regressions before code reaches production.
-  - يساعدنا الاختبار الآلي في اكتشاف الأخطاء المتراجعة (`regressions`) قبل وصول الكود إلى بيئة الإنتاج.
+  - يساعدنا الاختبار الآلي في اكتشاف أخطاء التراجع (`regressions`) قبل وصول الكود إلى بيئة الإنتاج.
 
 ## خطأ شائع
 

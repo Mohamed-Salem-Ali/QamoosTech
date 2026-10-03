@@ -4,7 +4,7 @@ category: ai-data
 level: beginner
 related: [llm, token]
 term: "Tokenization"
-pronunciation: "توكين-آي-زيشن"
+pronunciation: "توكنايزيشن"
 ---
 
 ## التعريف

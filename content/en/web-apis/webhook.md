@@ -16,7 +16,7 @@ Payment gateways, GitHub, Slack, and any "notify me when…" integration.
 
 ## Examples
 
-- Stripe sends a webhook when the payment succeeds.
+- The payment provider sends a webhook when the payment succeeds.
 - Verify the webhook signature before trusting the payload.
 
 ## Common mistake
