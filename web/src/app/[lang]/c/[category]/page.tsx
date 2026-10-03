@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { ExploreCategory } from '@/components/Explore'
 import { Reveal } from '@/components/Reveal'
 import { pageAlternates } from '@/lib/alternates'
 import { getCategories, getTermsByCategory } from '@/lib/content'
@@ -23,6 +24,9 @@ export default function CategoryPage({ params }: { params: Params }) {
   const category = getCategories().find((c) => c.id === params.category)
   if (!category) notFound()
   const terms = getTermsByCategory(lang, category.id)
+  const all = getCategories()
+  const idx = all.findIndex((c) => c.id === category.id)
+  const others = [1, 2].map((n) => all[(idx + n) % all.length]).map((c) => ({ id: c.id, name: c.name[lang], description: c.description[lang] }))
 
   return (
     <div className="container page">
@@ -47,6 +51,7 @@ export default function CategoryPage({ params }: { params: Params }) {
           </Reveal>
         ))}
       </div>
+      <ExploreCategory lang={lang} categoryId={category.id} others={others} />
     </div>
   )
 }

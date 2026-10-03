@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { ExploreTerm } from '@/components/Explore'
 import { Reveal } from '@/components/Reveal'
 import { RichText } from '@/components/RichText'
 import { Speak } from '@/components/Speak'
 import { pageAlternates } from '@/lib/alternates'
 import { getAudioSources, voiceHints } from '@/lib/audio'
-import { getCategories, getTerm, getTerms } from '@/lib/content'
+import { getCategories, getTerm, getTerms, getTermsByCategory } from '@/lib/content'
 import { languages, ui, type Lang } from '@/lib/i18n'
 
 type Params = { lang: Lang; id: string }
@@ -31,6 +32,13 @@ export default function TermPage({ params }: { params: Params }) {
   const term = getTerm(lang, params.id)
   if (!term) notFound()
   const category = getCategories().find((c) => c.id === term.category)!
+  // previous / next in the same category (alphabetical, wrapping around) and a few more from it
+  const siblings = getTermsByCategory(lang, term.category)
+  const at = siblings.findIndex((x) => x.id === term.id)
+  const prev = siblings.length > 1 ? siblings[(at - 1 + siblings.length) % siblings.length] : undefined
+  const next = siblings.length > 1 ? siblings[(at + 1) % siblings.length] : undefined
+  const more = siblings.filter((x) => x.id !== term.id && x.id !== prev?.id && x.id !== next?.id).slice(0, 6)
+  const toItem = (x: { id: string; term: string; translation?: string }) => ({ id: x.id, term: x.term, translation: x.translation })
   const related = term.related.map((id) => getTerm(lang, id)).filter((x) => x !== undefined)
 
   return (
@@ -102,6 +110,15 @@ export default function TermPage({ params }: { params: Params }) {
           </section>
         </Reveal>
       )}
+      <ExploreTerm
+        lang={lang}
+        current={term.id}
+        categoryId={category.id}
+        categoryName={category.name[lang]}
+        prev={prev && toItem(prev)}
+        next={next && toItem(next)}
+        more={more.map(toItem)}
+      />
     </article>
   )
 }

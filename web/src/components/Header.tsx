@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { LogoMark } from './Logo'
+import { RandomTerm } from './RandomTerm'
 import { languages, ui, type Lang } from '@/lib/i18n'
 
 export function Header({ lang }: { lang: Lang }) {
@@ -58,6 +59,7 @@ export function Header({ lang }: { lang: Lang }) {
           >
             {t.switchTo}
           </Link>
+          <RandomTerm lang={lang} label={t.hero.random} variant="icon" />
           <button className="icon-btn" onClick={toggleTheme} aria-label="Toggle theme" type="button">
             {theme === 'dark' ? (
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">

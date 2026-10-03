@@ -1189,3 +1189,115 @@ html[lang='ar'] .panel h2 {
     animation: none !important;
   }
 }
+
+/* ---------- Keep exploring (term and category pages) ---------- */
+.explore {
+  margin-block-start: 40px;
+  padding: clamp(20px, 3.5vw, 32px);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--brand) 9%, var(--bg-elev)), var(--bg-elev) 65%);
+  box-shadow: var(--shadow);
+}
+.explore__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-block-end: 18px;
+}
+.explore__head h2 {
+  font-size: 1.25rem;
+}
+.explore__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.explore__pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 640px) {
+  .explore__pair { grid-template-columns: 1fr; }
+}
+.explore__card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--bg-elev);
+  transition: transform 0.3s var(--ease), border-color 0.2s, box-shadow 0.3s var(--ease);
+}
+.explore__card:hover {
+  transform: translateY(-3px);
+  border-color: var(--brand);
+  box-shadow: var(--shadow-lg);
+}
+.explore__card--next, .explore__card:not(.explore__card--prev) { justify-content: space-between; }
+.explore__card > span {
+  display: grid;
+  gap: 2px;
+  min-inline-size: 0;
+}
+.explore__card small {
+  color: var(--ink-mute);
+  font-size: 0.8rem;
+}
+.explore__card strong {
+  font-size: 1.05rem;
+  text-align: start;
+  overflow-wrap: anywhere;
+}
+.explore__card em {
+  font-style: normal;
+  color: var(--brand);
+  font-size: 0.92rem;
+}
+.explore__arrow {
+  flex: none;
+  color: var(--brand);
+  transition: transform 0.3s var(--ease);
+}
+/* arrows point toward the direction of reading: next = forward, previous = back, in both LTR and RTL */
+.explore__arrow--prev { transform: scaleX(-1); }
+html[dir='rtl'] .explore__arrow--prev { transform: none; }
+html[dir='rtl'] .explore__arrow--next { transform: scaleX(-1); }
+.explore__card--next:hover .explore__arrow--next { transform: translateX(4px); }
+.explore__card--prev:hover .explore__arrow--prev { transform: scaleX(-1) translateX(4px); }
+html[dir='rtl'] .explore__card--next:hover .explore__arrow--next { transform: scaleX(-1) translateX(4px); }
+html[dir='rtl'] .explore__card--prev:hover .explore__arrow--prev { transform: translateX(4px); }
+.explore__more {
+  margin-block-start: 20px;
+}
+.explore__label {
+  color: var(--ink-mute);
+  font-size: 0.9rem;
+  margin-block-end: 10px;
+}
+.chip--all {
+  background: transparent;
+  color: var(--brand);
+  border-style: dashed;
+}
+
+/* busy state of "Surprise me" buttons */
+.is-busy {
+  opacity: 0.7;
+}
+.is-busy svg {
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.icon-btn:hover svg, .cta--ghost:hover svg {
+  transform: rotate(-12deg) scale(1.08);
+}
+.icon-btn svg, .cta--ghost svg {
+  transition: transform 0.3s var(--ease);
+}

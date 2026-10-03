@@ -101,7 +101,7 @@ export default function Home({ params }: { params: { lang: Lang } }) {
                 <path d="M12 5v14M5 12l7 7 7-7" />
               </svg>
             </Link>
-            <RandomTerm ids={terms.map((x) => x.id)} lang={lang} label={h.random} />
+            <RandomTerm lang={lang} label={h.random} />
           </div>
           <ul className="stats" aria-label="Stats">
             <li><CountUp to={terms.length} /><span>{h.stats.terms}</span></li>
