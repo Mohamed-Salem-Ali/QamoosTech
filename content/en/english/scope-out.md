@@ -5,6 +5,7 @@ level: intermediate
 related: [align-on-scope, scope-creep]
 term: "Scope out"
 pronunciation: "SKOHP OWT"
+keywords: ["define project requirements","plan project boundaries","analyze task goals","estimate project work","initial project planning","determine feature scope","clarify project tasks","what is in scope","break down project requirements","prepare for development phase","تحديد متطلبات المشروع","وضع حدود المشروع","تحليل أهداف المهمة","التخطيط المبدئي للمشروع","توضيح نطاق العمل","ما هو داخل النطاق","تقدير حجم العمل المطلوب","دراسة تفاصيل المهمة","تحديد معالم المشروع","التحضير لبدء التنفيذ"]
 ---
 
 ## Definition

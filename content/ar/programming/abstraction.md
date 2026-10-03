@@ -6,6 +6,7 @@ related: [interface, design-pattern, separation-of-concerns]
 term: "Abstraction"
 translation: "التجريد"
 pronunciation: "أب-ستراك-شن"
+keywords: ["إخفاء تفاصيل التنفيذ المعقدة","تبسيط واجهة التعامل البرمجية","تقليل العبء الذهني للمبرمج","فصل منطق العمل عن التفاصيل","مفهوم التجريد في البرمجة","كيفية تصميم واجهات برمجية بسيطة","إدارة تعقيد الكود البرمجي","مبادئ هندسة البرمجيات","تسهيل استبدال مكونات النظام","مفهوم أبستراكشن في البرمجة","hiding complex implementation details","simplifying code interface","reducing cognitive load in programming","decoupling system components","concept of hiding logic","how to design simplified interfaces","managing complexity in software","abstracting away technical details","cleaner code architecture","software design principles"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: beginner
 related: [cache]
 term: "Session Storage"
 pronunciation: "سيشن ستوريج"
+keywords: ["تخزين البيانات مؤقتا في المتصفح","حفظ بيانات النموذج عند التحديث","تخزين مؤقت لعلامة التبويب","ذاكرة المتصفح للجلسة الواحدة","الفرق بين التخزين المحلي والمؤقت","حفظ حالة المستخدم في المتصفح","تخزين بيانات الجلسة الحالية","بيانات المتصفح التي تحذف بالإغلاق","سيشن ستوريج","تخزين قيم ومفاتيح مؤقتة","temporary browser data storage","save form state on refresh","browser tab specific memory","store data until tab closes","difference between local and session","temporary key value pairs","frontend short term storage","web storage for current session","session storage vs local storage","keep data during page reload"]
 ---
 
 ## التعريف

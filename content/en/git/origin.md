@@ -5,6 +5,7 @@ level: beginner
 related: [repository, branch, commit]
 term: "Origin"
 pronunciation: "OR-i-jin"
+keywords: ["default git remote name","git push target alias","where did i clone from","remote repository shorthand","git origin vs upstream","what is git origin","remote url nickname","git remote connection name","cloned repo default name","git remote repository reference","الاسم الافتراضي للمستودع البعيد","ما هو المستودع الأصلي في جيت","الاسم المختصر للمستودع في git","الفرق بين origin و upstream","تغيير رابط المستودع البعيد","اسم المستودع الذي نسخت منه","التعامل مع المستودعات البعيدة","معنى كلمة أوريجين في البرمجة","إعدادات المستودع البعيد في جيت","الاسم المستعار لرابط المشروع"]
 ---
 
 ## Definition

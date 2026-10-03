@@ -6,6 +6,7 @@ related: [scalability, separation-of-concerns]
 term: "Monolith vs Microservices"
 translation: "النظام الموحّد مقابل الخدمات المصغّرة"
 pronunciation: "مونوليث مقابل ميكروسيرفيسز"
+keywords: ["الفرق بين النظام الموحد والخدمات المصغرة","هل نستخدم المونوليث أم الميكروسيرفيس","تحويل النظام الموحد الى خدمات مصغرة","معمارية البرمجيات الموحدة والموزعة","مقارنة بين المونوليث والخدمات المصغرة","مميزات وعيوب الميكروسيرفيس","متى نستخدم الخدمات المصغرة","التطبيق وحيد الوحدة مقابل الخدمات","monolithic architecture vs microservices","single unit application vs distributed services","difference between monolith and microservices","should we use microservices or monolith","breaking down a monolith into services","monolith vs microservice pros and cons","choosing software architecture style","moving from monolith to microservices"]
 ---
 ## التعريف
 

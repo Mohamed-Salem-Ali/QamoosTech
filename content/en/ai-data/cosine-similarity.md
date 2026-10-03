@@ -5,6 +5,7 @@ level: intermediate
 related: [embeddings, llm]
 term: "Cosine Similarity"
 pronunciation: "KOH-sine sim-i-LAR-i-tee"
+keywords: ["measure angle between vectors","compare semantic meaning of text","calculate vector similarity score","find similar embeddings easily","cosine sim calculation","compare text vectors in ai","vector angle metric","semantic search matching metric","حساب التشابه بين المتجهات","قياس الزاوية بين المتجهات","مقارنة المعاني الدلالية للنصوص","تحديد مدى تطابق النصوص","كوساين سيميلاريتي","مقارنة الـ embeddings","حساب تشابه النصوص بالذكاء الاصطناعي","مقياس التشابه الاتجاهي"]
 ---
 
 ## Definition

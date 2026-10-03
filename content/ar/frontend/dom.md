@@ -6,6 +6,7 @@ related: [rendering, state]
 term: "DOM"
 pronunciation: "دي-أو-إم"
 translation: "نموذج كائنات المستند"
+keywords: ["هيكل صفحة الويب","واجهة برمجة مستندات اتش تي ام ال","تعديل عناصر الصفحة برمجيا","تمثيل المستند كشجرة","كيف يتعامل المتصفح مع العناصر","نموذج كائنات المستند","تحديث واجهة المستخدم برمجيا","التعامل مع عناصر الصفحة","الفرق بين دوم والافتراضي","تغيير محتوى الصفحة ديناميكيا","html tree structure","browser document interface","how javascript changes html","manipulating web page elements","document object model","web page node structure","update ui elements dynamically","accessing html via javascript","virtual vs real dom","browser api for html"]
 ---
 
 ## التعريف

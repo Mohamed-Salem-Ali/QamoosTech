@@ -5,6 +5,7 @@ level: beginner
 related: [restful-api, endpoint, request-response]
 term: "API Documentation"
 pronunciation: "آي بي آي دوكيومنتيشن"
+keywords: ["دليل استخدام الواجهة البرمجية","كيفية الربط مع الـ api","شرح نقاط النهاية للـ api","توثيق واجهة برمجة التطبيقات","دليل المطربين للـ api","معلومات الطلبات والاستجابات للـ api","دليل الـ api التقني","كيفية استخدام الـ api","how to use this api","api guide and reference","endpoint parameters and responses","third party integration guide","api user manual","rest api documentation","api docs","how to integrate with api","api reference manual"]
 ---
 
 ## التعريف

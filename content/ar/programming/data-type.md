@@ -6,6 +6,7 @@ related: [variable, object]
 term: "Data Type"
 pronunciation: "داتا تايب"
 translation: "نوع البيانات"
+keywords: ["تحديد نوع المتغير","هل القيمة نص أم رقم","تعريف طبيعة البيانات","أنواع المتغيرات في البرمجة","كيفية تخزين القيم برمجيا","داتا تايب","تحديد نوع المدخلات","الفرق بين الرقم والنص","توصيف نوع البيانات","أنواع القيم في الكود","kind of variable value","is this number or string","defining variable content type","integer vs string vs boolean","how to specify data format","programming variable classification","data type definition","what kind of value","variable storage format","primitive types in code"]
 ---
 
 ## التعريف

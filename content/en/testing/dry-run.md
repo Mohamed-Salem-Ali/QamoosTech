@@ -5,6 +5,7 @@ level: beginner
 related: [ci-cd, staging-vs-production]
 term: "Dry Run"
 pronunciation: "DRAI RUHN"
+keywords: ["test script without saving changes","preview deployment changes safely","run migration without modifying database","simulate command execution","test run before production","check script for errors safely","preview command output","dai run","dryran","تنفيذ تجريبي بدون تغييرات","اختبار الأوامر دون حفظ","معاينة التغييرات قبل النشر","تشغيل السكريبت للاختبار فقط","التنفيذ الوهمي للنشر","فحص الترحيل بدون تعديل قاعدة البيانات","دراي ران","تجربة النشر برمجيا"]
 ---
 
 ## Definition

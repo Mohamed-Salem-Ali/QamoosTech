@@ -5,6 +5,7 @@ level: intermediate
 related: [scalability, monitoring]
 term: "Load Testing"
 pronunciation: "لود تيستينج"
+keywords: ["محاكاة ضغط المستخدمين على النظام","اختبار أداء الخوادم تحت الضغط","معرفة تحمل السيرفر لعدد المستخدمين","اختبار النظام قبل موسم الأعياد","فحص استقرار التطبيق وقت الذروة","قياس سرعة الاستجابة تحت الضغط","لود تيستينج","اختبار الحمل على السيرفر","فحص قدرة الخادم على التحمل","test system under high traffic","simulate multiple concurrent users","check server performance peak hours","measure application speed under pressure","performance testing process","stress testing vs load testing","lod testing","load test api endpoints","check server capacity before launch","handle heavy user traffic"]
 ---
 
 ## التعريف

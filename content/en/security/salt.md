@@ -5,6 +5,7 @@ level: intermediate
 related: [hashing, authentication-vs-authorization]
 term: "Salt"
 pronunciation: "SAWLT"
+keywords: ["random string added to password","prevent rainbow table attacks","make password hashing unique","secure user passwords from cracking","protect passwords with random data","password hashing security technique","add random bits to password hash","prevent dictionary attacks on passwords","بيانات عشوائية لكلمات المرور","منع هجمات جداول قوس قزح","تأمين كلمات المرور من الاختراق","حماية الهاش بقيم عشوائية","إضافة بيانات عشوائية للتجزئة","حماية كلمات المرور المسجلة","سولت كلمات المرور","تجنب اختراق الهاش بالتخمين"]
 ---
 
 ## Definition

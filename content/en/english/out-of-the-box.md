@@ -5,6 +5,7 @@ level: beginner
 related: [mvp]
 term: "Out-of-the-box"
 pronunciation: "OWT-uv-thuh-BOX"
+keywords: ["plug and play features","ready to use software","prebuilt functionality without config","works immediately after installation","built in features","out of the box","oob features","pre packaged solutions","zero configuration setup","ready out of the box","مميزات جاهزة للاستخدام","تعمل فور التثبيت","بدون إعدادات مسبقة","وظائف جاهزة بدون برمجة","حلول جاهزة للاستخدام","دعم مدمج بالبرنامج","ميزات جاهزة بدون تعديل","أوت أوف ذا بوكس","جاهز للعمل مباشرة"]
 ---
 
 ## Definition

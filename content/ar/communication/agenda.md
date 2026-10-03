@@ -6,6 +6,7 @@ related: [action-item]
 term: "Agenda"
 translation: "جدول أعمال"
 pronunciation: "أجندا"
+keywords: ["قائمة مواضيع الاجتماع","جدول أعمال الاجتماع","مواضيع النقاش في الاجتماع","خطة الاجتماع القادم","تحضير جدول الاجتماع","أجندا","جدول الأعمال","ماذا سنناقش اليوم","meeting topics list","topics to discuss in meeting","what are we discussing today","meeting plan and schedule","list of topics for sync","meeting preparation list","aghanda","meeting outline","what is on the schedule","prepare for the meeting"]
 ---
 ## التعريف
 

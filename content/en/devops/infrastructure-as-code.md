@@ -5,6 +5,7 @@ level: intermediate
 related: [deployment, ci-cd]
 term: "Infrastructure as Code (IaC)"
 pronunciation: "IN-fruh-struk-cher az KOHD"
+keywords: ["manage servers with code files","terraform configuration files instead of dashboard","infrastructure as code","define servers in code","cloud infrastructure automation scripts","infrastructure as code deployment","write servers setup in files","avoid manual cloud console changes","البنية التحتية كشيفرة","إدارة السيرفرات عبر الكود","إنشاء الخوادم بملفات برمجية","كتابة البنية التحتية كملفات","اي سي","توفير السيرفرات برمجيا","إعدادات السحابة بالملفات","التحكم بالسيرفرات بالبرمجة"]
 ---
 ## Definition
 

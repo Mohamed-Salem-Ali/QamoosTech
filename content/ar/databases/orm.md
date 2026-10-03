@@ -6,6 +6,7 @@ related: [query, prisma, n-plus-one]
 term: "ORM"
 translation: "الربط الكائني العلائقي"
 pronunciation: "أو آر إم"
+keywords: ["الربط الكائني العلائقي","التعامل مع قواعد البيانات بالكائنات","أداة لربط الجداول بالكائنات البرمجية","استعلام قواعد البيانات بدون اس كيو ال","كتابة استعلامات قاعدة البيانات بالكود","أو آر إم","تحويل الجداول إلى كائنات برمجية","بديل كتابة استعلامات اس كيو ال","write database queries with objects","map database tables to code","query database without writing sql","object relational mapping","prisma typeorm sequelize tool","generate sql from code objects","interact with database using classes","avoid writing raw sql queries"]
 ---
 ## التعريف
 

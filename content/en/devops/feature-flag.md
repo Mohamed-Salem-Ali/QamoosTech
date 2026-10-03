@@ -5,6 +5,7 @@ level: intermediate
 related: [rollback, deployment]
 term: "Feature Flag"
 pronunciation: "FEE-cher FLAG"
+keywords: ["toggle features without deployment","enable code for specific users","turn off broken features instantly","gradual rollout control switch","dynamic feature toggling","conditional code execution switch","beta testing release control","feature toggle pattern","remote configuration switch","kill switch for features","تفعيل الميزة بدون نشر جديد","مفتاح تشغيل الميزات برمجيا","التحكم في ظهور الميزات","إصدار الميزات بشكل تدريجي","إيقاف الميزات عند حدوث أعطال","تفعيل الميزة لمستخدمين محددين","مفتاح تبديل الوظائف البرمجية","فيتشر فلاج","التحكم في الميزات عن بعد","مفاتيح تفعيل الخصائص"]
 ---
 ## Definition
 

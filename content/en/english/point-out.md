@@ -5,6 +5,7 @@ level: beginner
 related: [code-review]
 term: "Point out"
 pronunciation: "POYNT OWT"
+keywords: ["draw attention to a problem","mention an issue in code","bring up during code review","point out code mistake","highlight a bug","suggest a better idea","notify about an error","point out","لفت الانتباه إلى مشكلة","التنبيه إلى خطأ في الكود","الإشارة إلى ملاحظة في المراجعة","تنبيه المبرمج إلى مشكلة","ذكر ملاحظة في الاجتماع","الاعتراض على طريقة التنفيذ","يشير إلى","ينبه إلى مشكلة"]
 ---
 ## Definition
 

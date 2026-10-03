@@ -5,6 +5,7 @@ level: beginner
 related: [blocker, point-out]
 term: "Flag an issue"
 pronunciation: "فلاج آن إيشو"
+keywords: ["التنبيه إلى مشكلة محتملة","التحذير من خطر في المشروع","الإشارة إلى عائق محتمل","لفت انتباه الفريق لمشكلة","رفع تنبيه بمشكلة","الإبلاغ عن خطر مستقبلي","التنبيه المبكر للمشاكل","فلاج آن إيشو","notify team about risk","report a potential problem","raise a concern early","highlight a project risk","warn about a blocker","point out an obstacle","proactive issue notification","bring up a problem","flagging an issue"]
 ---
 
 ## التعريف

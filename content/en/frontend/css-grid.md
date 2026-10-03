@@ -5,6 +5,7 @@ level: intermediate
 related: [responsive-design, viewport]
 term: "CSS Grid"
 pronunciation: "SEE-ESS-ESS GRID"
+keywords: ["css rows and columns layout","two dimensional web layout system","create complex web page layouts","align items in rows and columns","css grid vs flexbox","responsive web page structuring","grid layout in cascading style sheets","build dashboard layout with css","css grid system","web design grid template","تخطيط صفوف وأعمدة في سي إس إس","تصميم صفحات الويب ثنائي الأبعاد","ترتيب العناصر في صفوف وأعمدة","نظام تخطيط صفحات الويب","تخطيط لوحة التحكم بالواجهات الأمامية","تصميم تخطيطات معقدة في سي إس إس","الفرق بين غريد وفليكس بوكس","تنسيق العناصر ثنائي الأبعاد","نظام الجدولة في سي إس إس"]
 ---
 
 ## Definition

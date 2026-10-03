@@ -5,6 +5,7 @@ level: intermediate
 related: [payload, schema, restful-api]
 term: "JSON Schema"
 pronunciation: "جايسون سكيما"
+keywords: ["التحقق من صحة بيانات جايسون","قواعد هيكل بيانات جيسون","مخطط التحقق من ملفات جيسون","التاكد من تطابق بيانات جيسون","تحديد هيكل طلبات اي بي آي","التحقق من صحة المدخلات","مخطط بيانات جيسون","فحص هيكل ملفات جيسون","validate json payload structure","json data validation rules","check json format requirements","json schema validator","define json object structure","validate api request body","json structure definition language","json validation schema","enforce json schema rules"]
 ---
 
 ## التعريف

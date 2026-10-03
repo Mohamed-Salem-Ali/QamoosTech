@@ -6,6 +6,7 @@ related: [follow-up, heads-up, touch-base]
 term: "Keep me posted"
 translation: "أبقِني على اطلاع"
 pronunciation: "كيب مي بوستيد"
+keywords: ["أبقِني على اطلاع","أخبرني بآخر المستجدات","أعلمني بأي جديد","تابع معي التطورات","أرسل لي تحديثات الحالة","أبلغني بما يستجد","أبقِني في الصورة","أخبرني عند حدوث تغيير","كيب مي بوستيد","طلب تحديثات مستمرة","send me regular updates","let me know what happens","give me progress reports","notify me about changes","keep me in the loop","tell me when it finishes","send status updates","inform me of developments","keep me updated","send me news later"]
 ---
 
 ## التعريف

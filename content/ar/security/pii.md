@@ -6,6 +6,7 @@ related: [gdpr-deletion, field-level-encryption]
 term: "PII (Personally Identifiable Information)"
 translation: "المعلومات الشخصية المعرِّفة"
 pronunciation: "بي آي آي"
+keywords: ["المعلومات الشخصية المعرِّفة","بيانات تحدد هوية الشخص","إخفاء البيانات الشخصية","معلومات المستخدم الشخصية","بيانات تتعلق بهوية المستخدم","البيانات الشخصية الحساسة","حماية خصوصية المستخدمين","منع تسريب البيانات الشخصية","data that identifies a person","personal data in logs","mask user phone numbers","hide user email addresses","personally identifiable information","user identity data","handle user privacy safely","sensitive user details"]
 ---
 ## التعريف
 

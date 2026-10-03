@@ -5,6 +5,7 @@ level: beginner
 related: [deadline, estimate]
 term: "ETA (Estimated Time of Arrival)"
 pronunciation: "EE-tee-AY"
+keywords: ["estimated time of arrival","when will it be done","expected completion time","prediction for finish time","how long will it take","status update time estimate","bug fix time prediction","ee-tee-ay","الوقت المتوقع للإنجاز","متى ينتهي العمل","موعد الانتهاء المتوقع","كم ستستغرق من الوقت","تقدير وقت الانتهاء","متى سيكون جاهزا","إي تي إيه","توقع وقت الإصلاح"]
 ---
 ## Definition
 

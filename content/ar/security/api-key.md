@@ -6,6 +6,7 @@ related: [authentication-vs-authorization, jwt, oauth]
 term: "API Key"
 pronunciation: "إي بي كي"
 translation: "مفتاح واجهة برمجة التطبيقات"
+keywords: ["رمز سري للوصول للخدمة","مفتاح تفعيل واجهة البرمجة","رمز تعريف التطبيق للخدمة","كيفية ربط التطبيق بالخادم","مفتاح المصادقة على الطلبات","رمز سري لطلبات الاتصال","إي بي كي","مفتاح دخول المطورين","رمز تعريف المشروع للخدمة","طريقة تعريف التطبيق برمجيا","unique token for backend access","secret string for api authentication","how to identify my application","service provider access code","api secret token","application identification string","request header authentication token","api access credential","how to authorize api calls","secure key for service connection"]
 ---
 
 ## التعريف

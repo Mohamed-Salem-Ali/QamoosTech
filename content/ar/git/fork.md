@@ -6,6 +6,7 @@ related: [repository, pull-request]
 term: "Fork"
 translation: "نسخة مشتقة (فورك)"
 pronunciation: "فورك"
+keywords: ["نسخ مستودع شخص آخر","عمل نسخة من المشروع","المساهمة في المشاريع المفتوحة","إنشاء نسخة مشتقة","كيفية عمل فورك","نسخ الكود لحسابي الشخصي","تعديل مشاريع الآخرين","الفرق بين فورك وكلون","نسخة خاصة من المستودع","تطوير نسخة من المشروع","copy someone else repo","create personal repository copy","contribute to open source","forking a project","how to fork git","server side repo copy","make personal version of code","git fork vs clone","suggest changes to others","personal branch of repository"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [code-review, ship-it]
 term: "LGTM"
 translation: "يبدو جيدًا بالنسبة لي"
 pronunciation: "إل جي تي إم"
+keywords: ["الموافقة على كود ريفيو","كيف أوافق على طلب الدمج","اختصار يبدو جيدا بالنسبة لي","الموافقة السريعة على الكود","اختصار مراجعة الكود البرمجي","كلمة الموافقة على التعديلات","الموافقة على الpull request","كيف أقول الكود مقبول","looks good to me","how to approve pull request","code review approval comment","short for looks good","github review shorthand","approve code changes fast","lgtm meaning in coding","code looks fine to me","informal pull request approval"]
 ---
 ## التعريف
 

@@ -5,6 +5,7 @@ level: beginner
 related: [bug, logging, rubber-duck-debugging]
 term: "Debugging"
 pronunciation: "dee-BUG-ing"
+keywords: ["how to fix code errors","find why code fails","step through code execution","troubleshoot software issues","remove bugs from program","using breakpoints to fix code","code diagnostic process","how to trace software bugs","fixing broken logic","debuging spelling","طريقة إصلاح أخطاء البرمجة","كيفية تتبع أخطاء الكود","اكتشاف سبب تعطل البرنامج","حل المشاكل البرمجية","تتبع الكود خطوة بخطوة","ديباجينج الكود","تصحيح العيوب البرمجية","فحص الأخطاء في النظام","إصلاح الثغرات البرمجية","تحديد مكان الخطأ برمجيا"]
 ---
 ## Definition
 

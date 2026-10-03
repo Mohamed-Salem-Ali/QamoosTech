@@ -6,6 +6,7 @@ related: [prompt-engineering, llm]
 term: "Few-shot Prompting"
 pronunciation: "فيو شوت برومبتنج"
 translation: "التوجيه بالأمثلة القليلة"
+keywords: ["تعليم النموذج عبر أمثلة","توجيه الذكاء الاصطناعي بأمثلة","تحسين نتائج النموذج بأمثلة قليلة","التوجيه بالأمثلة داخل البرومبت","تقديم نماذج للإجابة للذكاء الاصطناعي","تزويد النموذج بأمثلة توضيحية","طريقة فيو شوت برومبتنج","تحسين دقة النموذج بدون تدريب","استخدام أمثلة قليلة للبرومبت","توجيه النموذج بأمثلة محددة","teach ai with examples","prompting with input output pairs","how to guide llm output","few shot learning technique","improve llm accuracy with examples","few shot prompt engineering","in context learning examples","giving model sample responses","fewshot prompting","few shot prompt method"]
 ---
 
 ## التعريف

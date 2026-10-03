@@ -6,6 +6,7 @@ related: [component, rtl]
 term: "Accessibility (a11y)"
 translation: "إتاحة الوصول"
 pronunciation: "أكسيسيبيليتي"
+keywords: ["إتاحة الوصول للمواقع","معايير استخدام قارئات الشاشة","جعل الموقع مناسب لذوي الإعاقة","دعم التنقل عبر لوحة المفاتيح","ماذا يعني اختصار a11y","تحسين تجربة المستخدم لذوي الاحتياجات","تطوير مواقع شاملة للجميع","تطبيق معايير الوصول الرقمي","طريقة كتابة النصوص البديلة","أكسيسيبيليتي في تطوير الويب","make website usable for disabled","a11y meaning","web standards for screen readers","keyboard navigation support","inclusive web design practices","how to make site accessible","alt text and labels","semantic html for screen readers","improving site usability for impaired","a11y compliance checklist"]
 ---
 ## التعريف
 

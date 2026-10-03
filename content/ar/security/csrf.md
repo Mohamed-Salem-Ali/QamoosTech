@@ -5,6 +5,7 @@ level: intermediate
 related: [authentication-vs-authorization, vulnerability, cookie]
 term: "Cross-Site Request Forgery (CSRF)"
 pronunciation: "كروس-سايت ريكويست فورجري"
+keywords: ["تزوير الطلبات عبر المواقع","ثغرة تزوير الطلبات","حماية تطبيق الويب من التزوير","منع تنفيذ طلبات غير مصرح بها","رموز الحماية ضد التزوير","ثغرة تخدع المتصفح لتنفيذ إجراءات","تأمين نقاط النهاية ضد الاختراق","كروس سايت ريكويست فورجري","حماية النماذج من الهجمات","cross site request forgery","stop unauthorized requests from browser","prevent cross site forgery","csrf vulnerability protection","anti forgery tokens for forms","secure state changing endpoints","force user browser actions exploit","site forgery attack prevention","session riding vulnerability","corsf spelling mistake"]
 ---
 
 ## التعريف

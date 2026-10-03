@@ -6,6 +6,7 @@ related: [load-balancer, single-point-of-failure, health-check]
 term: "High Availability (HA)"
 pronunciation: "هاي أفيلابيليتي"
 translation: "التوافر العالي"
+keywords: ["ضمان استمرار عمل النظام","تقليل وقت توقف الخدمة","منع توقف النظام كليا","تصميم انظمة لا تتوقف","كيفية تجنب اعطال الخوادم","بنية تحتية بدون توقف","مفهوم التوفر العالي","تجاوز اعطال الخوادم تلقائيا","هاي افيلابيليتي","ضمان جاهزية الخدمة دائما","ensure system stays online","prevent service downtime","eliminate single point failure","keep servers running constantly","always on system design","server redundancy architecture","fault tolerant system setup","how to avoid outages","ha configuration","continuous uptime design"]
 ---
 
 ## التعريف

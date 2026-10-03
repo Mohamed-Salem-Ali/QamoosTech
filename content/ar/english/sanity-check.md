@@ -6,6 +6,7 @@ related: [lgtm, rubber-duck-debugging]
 term: "Sanity check"
 pronunciation: "سانيتي تشيك"
 translation: "فحص منطقي سريع"
+keywords: ["فحص منطقي سريع","اختبار أولي بسيط","التأكد من صحة الكود","فحص مبدئي سريع","اختبار معقولية النتائج","تحقق سريع من المنطق","فحص سطحي للبرمجيات","سانيتي تشيك","اختبار سريع قبل التعمق","التأكد من سلامة الكود","quick logic verification","basic code health check","surface level test","check if it makes sense","preliminary validation check","quick smoke test","verify basic functionality","ensure logic is reasonable","sanity test","informal code check","fast initial check"]
 ---
 
 ## التعريف

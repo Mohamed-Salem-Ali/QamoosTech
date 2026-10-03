@@ -49,6 +49,7 @@ export default function Home({ params }: { params: { lang: Lang } }) {
     category: x.category,
     categoryName: catName(x.category),
     summary: x.definition,
+    keywords: x.keywords,
   }))
 
   const cards: FloatCard[] = HERO_CARDS.flatMap((c) => {

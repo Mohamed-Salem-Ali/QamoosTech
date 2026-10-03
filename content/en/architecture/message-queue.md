@@ -5,6 +5,7 @@ level: intermediate
 related: [event-driven, idempotency]
 term: "Message Queue"
 pronunciation: "MES-ij KYOO"
+keywords: ["background job processing","handle tasks asynchronously","buffer for incoming requests","decouple services with queues","task distribution system","worker queue pattern","message broker service","queueing system for jobs","process tasks in background","event processing queue","msg queue","async task runner","نظام معالجة المهام الخلفية","طريقة تنفيذ المهام لاحقا","ترتيب تنفيذ العمليات برمجيا","تأجيل معالجة الطلبات","نظام توزيع المهام","ميسيج كيو","طابور تنفيذ الأوامر","آلية معالجة الرسائل المؤجلة","فصل الخدمات عن بعضها","تنظيم تدفق البيانات","طابور الطلبات المعلقة"]
 ---
 ## Definition
 

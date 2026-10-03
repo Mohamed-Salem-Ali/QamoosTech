@@ -6,6 +6,7 @@ related: [parameter-vs-argument, callback]
 term: "Function"
 translation: "دالة"
 pronunciation: "فانكشن"
+keywords: ["كتلة برمجية قابلة لإعادة الاستخدام","دالة برمجية","تابع أو دالة","كتابة دالة جديدة","استدعاء الدالة","دالة مساعدة","دالة نقية","الفرق بين الدالة والتابع","فانكشن","reusable block of code","block of code that returns a result","method vs function","helper function","pure function","define a function","call a function","code block for a specific task","function","functin"]
 ---
 ## التعريف
 

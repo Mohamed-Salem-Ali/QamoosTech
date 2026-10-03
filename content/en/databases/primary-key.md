@@ -5,6 +5,7 @@ level: beginner
 related: [database, table-row-column, schema]
 term: "Primary Key"
 pronunciation: "PRY-meh-ree KEE"
+keywords: ["unique identifier for table row","column to prevent duplicate entries","field that cannot be null","database record id","main table index","how to uniquely identify rows","primary key definition","unique row constraint","db table identifier","id column setup","معرف فريد للصفوف","عمود لتمييز السجلات","منع تكرار البيانات في الجدول","المفتاح الرئيسي لقاعدة البيانات","تحديد صفوف الجدول برقم فريد","حقل لا يقبل القيمة الفارغة","المفتاح الأساسي في الجداول","برايمري كي","كيفية تمييز سجلات قاعدة البيانات","تعريف المفتاح الأساسي"]
 ---
 
 ## Definition

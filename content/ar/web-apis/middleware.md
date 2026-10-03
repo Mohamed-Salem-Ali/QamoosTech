@@ -6,6 +6,7 @@ related: [request-response, dependency-injection]
 term: "Middleware"
 translation: "برمجية وسيطة"
 pronunciation: "ميدلوير"
+keywords: ["برمجية وسيطة","ميدلوير","كود بين الطلب والاستجابة","فحص الطلب قبل تنفيذه","معالجة الطلبات الواردة مسبقا","دالة التحقق من الصلاحيات","تسجيل الطلبات في الخادم","الوسيط بين الروتر والكونترولر","code between request and response","handle authentication before route logic","express next function helper","log every incoming api request","intercept requests before controller","http request pipeline handler","custom request validation wrapper","midleware","meddleware"]
 ---
 ## التعريف
 

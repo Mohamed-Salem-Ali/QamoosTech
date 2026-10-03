@@ -6,6 +6,7 @@ related: [separation-of-concerns, monolith-vs-microservices, message-queue]
 term: "Decoupling"
 pronunciation: "دي-كابلينج"
 translation: "فك الارتباط"
+keywords: ["فك الارتباط بين المكونات البرمجية","تقليل الاعتمادية بين الخدمات","جعل الخدمات مستقلة عن بعضها","فصل الواجهة عن الخلفية","تصميم البرمجيات بمرونة","تقليل الترابط بين الأنظمة","فك ارتباط الخدمات المصغرة","دي كابلينج","reduce dependencies between software components","make services independent","separate frontend and backend","loose coupling architecture","decouple microservices","remove tight coupling","independent software modules","decouple system components"]
 ---
 
 ## التعريف

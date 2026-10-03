@@ -6,6 +6,7 @@ related: [database, idempotency]
 term: "Transaction"
 translation: "معاملة"
 pronunciation: "ترانزاكشن"
+keywords: ["عمليات قاعدة البيانات الذرية","ضمان نجاح التحديثات بالكامل","تنفيذ مجموعة عمليات متكاملة","التراجع عن التغييرات الخاطئة","معاملات قاعدة البيانات","تجنب تحديث البيانات جزئيا","مجموعة أوامر sql مترابطة","ترانزاكشن في قاعدة البيانات","اعتماد التغييرات أو إلغاؤها","ضمان اتساق البيانات","مبدأ الكل أو لا شيء","atomic database operations","all or nothing updates","ensure data consistency","commit or rollback changes","prevent partial database updates","database unit of work","multi step operation safety","acid compliant database changes","grouping sql queries together","transection spelling","db transaction block"]
 ---
 ## التعريف
 

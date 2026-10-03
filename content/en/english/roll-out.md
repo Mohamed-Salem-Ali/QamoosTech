@@ -5,6 +5,7 @@ level: intermediate
 related: [wrap-up, spin-up]
 term: "Roll out"
 pronunciation: "ROHL OWT"
+keywords: ["release feature gradually to users","phased feature release process","deploy vs roll out difference","gradual release to production","push update to users slowly","rollout new design step by step","make feature available to users","beta release to audience","rolout","rollout strategy","إطلاق الميزات تدريجيا للمستخدمين","نشر التحديثات على مراحل","طرح ميزة جديدة للمستخدمين","الفرق بين النشر والطرح","إصدار التحديث تدريجيا","تفعيل الميزة بشكل تدريجي","طرح التحديث على مراحل","رول أوت","إطلاق تدريجي للتطبيق"]
 ---
 ## Definition
 

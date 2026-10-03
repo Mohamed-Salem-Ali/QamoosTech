@@ -6,6 +6,7 @@ related: [encryption, authentication-vs-authorization]
 term: "SSL / TLS"
 translation: "طبقة المقابس الآمنة / أمان طبقة النقل"
 pronunciation: "إس-إس-إل / تي-إل-إس"
+keywords: ["تشفير البيانات بين المتصفح والخادم","تأمين الموقع بشهادة الحماية","بروتوكول التشفير الآمن","تجديد شهادة الموقع الإلكتروني","حل مشكلة خطأ الشهادة الأمنية","طبقة المقابس الآمنة","أمان طبقة النقل","إعداد شهادات الأمان للموقع","حماية الاتصال بين العميل والخادم","encrypt data between client and server","secure website with https certificate","fix err ssl protocol error","website security certificate configuration","tls encryption protocol","ssl certificate renewal","secure connection between browser and server","http traffic encryption","transport layer security","secure sockets layer"]
 ---
 
 ## التعريف

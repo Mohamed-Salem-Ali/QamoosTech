@@ -6,6 +6,7 @@ related: [single-point-of-failure, health-check, rollback]
 term: "Graceful Degradation"
 pronunciation: "جريسفول ديجراديشن"
 translation: "التدهور التدريجي"
+keywords: ["التدهور التدريجي","الحفاظ على الوظائف الأساسية عند التعطل","منع انهيار النظام بالكامل","العمل حتى عند سقوط الخدمات","التعامل مع تعطل المكونات الخارجية","تخفيف الميزات عند ضعف الأداء","التحول إلى الميزات البسيطة","جريسفول ديجراديشن","تصميم الأنظمة القابلة للتحمل","keep working when service fails","handle component failure without crashing","maintain core functionality during outage","fall back to basic features","prevent total system crash","degrade gracefully under load","fallback when api fails","partial failure handling","gresful degradation","progressive enhancement vs degradation"]
 ---
 
 ## التعريف

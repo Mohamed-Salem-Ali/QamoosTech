@@ -6,6 +6,7 @@ related: [estimate, proposal]
 term: "Rate Card"
 pronunciation: "ريت كارد"
 translation: "قائمة الأسعار (Rate Card)"
+keywords: ["قائمة أسعار خدمات البرمجة","جدول تكاليف المطور الحر","أسعار العمل بالساعة","قائمة خدمات المطور","وثيقة تسعير المشاريع البرمجية","كم أتقاضى مقابل البرمجة","ريت كارد للمستقلين","جدول أسعار تطوير البرمجيات","قائمة رسوم المطور","تحديد أسعار خدمات البرمجة","جدول تكاليف الاستشارات التقنية","freelance service price list","developer hourly rates document","standard software development fees","pricing sheet for clients","how much i charge table","service menu for developers","project pricing breakdown","rate card definition","software consulting price list","freelancer pricing guide","base rates for coding work"]
 ---
 
 ## التعريف

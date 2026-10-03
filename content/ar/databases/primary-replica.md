@@ -6,6 +6,7 @@ related: [database, query, scalability, single-point-of-failure]
 term: "Primary / Replica"
 translation: "الرئيسي والنسخ المتماثلة"
 pronunciation: "برايمري / ريبليكا"
+keywords: ["فصل عمليات القراءة والكتابة","توزيع ضغط قاعدة البيانات","النسخ المتماثل لقواعد البيانات","العقدة الرئيسية والعقد التابعة","تحسين أداء استعلامات القراءة","استخدام نسخ للقراءة فقط","توسيع نطاق قاعدة البيانات","نظام العقدة الأساسية والنسخ","توجيه القراءة للنسخ المتماثلة","تخفيف الحمل عن العقدة الرئيسية","database read write separation","master slave database architecture","scaling database read performance","database replication setup","primary and secondary nodes","offload reads to replica","database read only nodes","handle heavy read traffic","primary replica pattern","database node promotion","master replica database setup"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: beginner
 related: [query-parameter, request-response]
 term: "URL Encoding"
 pronunciation: "YOO-AR-EL en-KOH-ding"
+keywords: ["percent encoding special characters in links","convert spaces to 20 in urls","fix broken links with special characters","url escaping and encoding","encode query parameters for api","handle special symbols in web links","urle ncoding","percent encode string","ترميز الروابط للانتترنت","تحويل المسافات في الروابط","معالجة الرموز الخاصة في الرابط","ترميز الرابط في الويب","اصلاح الروابط المعطلة في المتصفح","يو آر إل إنكودينج","ترميز قيم الاستعلام للرابط","تشفير الرموز الخاصة في الurl"]
 ---
 
 ## Definition

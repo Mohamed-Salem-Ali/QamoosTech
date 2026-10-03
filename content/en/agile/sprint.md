@@ -5,6 +5,7 @@ level: beginner
 related: [backlog, scrum-ceremonies]
 term: "Sprint"
 pronunciation: "SPRINT"
+keywords: ["fixed period for teamwork","scrum iteration cycle","agile development cycle","two week work period","scrum work interval","sprint planning cycle","development timebox","scrum time box","فترة العمل القصيرة في اسكرام","دورة التطوير السريعة","فترة زمنية محددة للتنفيذ","دورة العمل الأسبوعية","سبرنت","دورة اسكرام","فترة العمل المخططة"]
 ---
 ## Definition
 

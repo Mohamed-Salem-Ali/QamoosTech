@@ -5,6 +5,7 @@ level: intermediate
 related: [function, recursion, debugging]
 term: "Call Stack"
 pronunciation: "KAWL STAK"
+keywords: ["list of active functions","trace where code crashed","how functions track execution","lifo data structure","view function call sequence","stack trace debugging","recursion depth error","execution context memory","call stack definition","kool stak","function return addresses","program execution history","قائمة الدوال النشطة","تتبع تسلسل استدعاء الدوال","معرفة سبب توقف البرنامج","هيكل بيانات تنفيذ الدوال","مكدس الاستدعاءات","تتبع مسار الخطأ","كول ستاك","أين توقف تنفيذ الكود","إدارة سياق تنفيذ الدوال","تتبع الدوال المتداخلة","مبدأ آخر من يدخل أول من يخرج","فحص المكدس عند الانهيار"]
 ---
 
 ## Definition

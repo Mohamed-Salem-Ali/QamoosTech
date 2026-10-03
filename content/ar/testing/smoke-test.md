@@ -5,6 +5,7 @@ level: beginner
 related: [ci-cd, regression, unit-test]
 term: "Smoke Test"
 pronunciation: "سموك تيست"
+keywords: ["اختبار استقرار النظام الأولي","فحص الوظائف الأساسية للنظام","التأكد من عمل التطبيق","فحص سريع بعد النشر","اختبار الصحة الأولي للنظام","سموك تيست","اختبار التأكد من استقرار النسخة","فحص أولي قبل الاختبارات الشاملة","التحقق من عمل الميزات الحرجة","اختبار مبدئي للبرمجيات","check if build is stable","preliminary software stability check","verify critical features work","quick sanity check after deployment","basic functionality verification test","initial system health check","automated build verification test","fast testing after deployment","ensure application is not broken","smoketest","smoke testing"]
 ---
 
 ## التعريف

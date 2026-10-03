@@ -5,6 +5,7 @@ level: intermediate
 related: [containerization, deployment, load-balancer]
 term: "Container Orchestration"
 pronunciation: "kun-TAY-ner or-kuh-STRAY-shun"
+keywords: ["automate docker containers deployment","manage multiple containers across servers","scale microservices automatically","kubernetes cluster management tool","container lifecycle management","restart failed docker instances","docker orchestration system","container management platform","تنسيق الحاويات البرمجية","إدارة الحاويات تلقائيا","التحكم التلقائي في الحاويات","أداة إدارة كوبرنيتس","نشر الحاويات على عدة سيرفرات","إدارة دورة حياة الحاويات","توسيع نطاق الخدمات المصغرة","تشغيل الحاويات آليا"]
 ---
 
 ## Definition

@@ -6,6 +6,7 @@ related: [load-balancer, http-header]
 term: "Reverse Proxy"
 translation: "وكيل عكسي"
 pronunciation: "ريفيرس بروكسي"
+keywords: ["خادم امام التطبيق لتوجيه الطلبات","حل مشكلة 502 bad gateway","توجيه الطلبات الى السيرفر الخلفي","وكيل عكسي","الفرق بين الوكيل الامامي والعكسي","ادارة شهادات ssl على السيرفر","اعدادات سيرفر nginx","سيرفر لاستقبال طلبات المستخدمين","server in front of app","handle https certificates server","route requests to backend","fix 502 bad gateway","nginx routing configuration","ssl termination server","forward vs reverse proxy","proxy server for backend","distribute traffic to servers"]
 ---
 ## التعريف
 

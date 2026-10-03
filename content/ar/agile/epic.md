@@ -6,6 +6,7 @@ related: [backlog, user-story]
 term: "Epic"
 pronunciation: "إيبك"
 translation: "Epic"
+keywords: ["مهمة كبيرة في أجايل","مجموعة قصص مستخدم","مشروع كبير في التخطيط","تقسيم العمل إلى مهام","إيبك في إدارة المشاريع","حاوية قصص المستخدم الكبيرة","ميزة أكبر من السباق","تخطيط الإصدارات الرشيقة","large body of work agile","big user story container","feature too big for sprint","agile project management task","break down into user stories","product backlog large item","epic agile development","group of user stories","release planning large feature"]
 ---
 
 ## التعريف

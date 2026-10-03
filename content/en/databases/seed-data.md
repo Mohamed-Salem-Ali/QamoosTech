@@ -5,6 +5,7 @@ level: beginner
 related: [database, migration, schema]
 term: "Seed Data"
 pronunciation: "SEED DAY-tuh"
+keywords: ["initial database records","populate database with defaults","database seeder script","default application configuration data","sample data for testing","first time database setup","loading startup records","database seeding process","inserting baseline data","seed data vs migration","predefined database entries","إدخال بيانات أولية للقاعدة","تعبئة قاعدة البيانات بالقيم الافتراضية","سكربت تغذية قاعدة البيانات","بيانات تجريبية عند التشغيل","إعداد قاعدة البيانات لأول مرة","سجلات افتراضية للتطبيق","طريقة استخدام سيد داتا","ملء الجداول ببيانات بدائية","إضافة بيانات أساسية للنظام","تجهيز بيئة العمل ببيانات","الفرق بين المايجريشن والسيد"]
 ---
 
 ## Definition

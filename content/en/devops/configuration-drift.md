@@ -5,6 +5,7 @@ level: intermediate
 related: [infrastructure-as-code, source-of-truth, rollback]
 term: "Configuration Drift"
 pronunciation: "kuhn-fig-yuh-RAY-shun DRIFT"
+keywords: ["servers changed over time","production settings do not match code","manual server changes lost","infrastructure state mismatch","servers out of sync","baseline configuration changed","config drift","server state drift","fix server inconsistency","untracked server changes","انحراف الإعدادات","تغير إعدادات الخادم بمرور الوقت","عدم تطابق الإعدادات مع الكود","فقدان التعديلات اليدوية على الخادم","الخوادم غير متطابقة مع البايزلين","كونفيجريشن دريفت","اختلاف إعدادات بيئة الإنتاج","تغير حالة الخوادم تدريجيا"]
 ---
 
 ## Definition

@@ -5,6 +5,7 @@ level: beginner
 related: [repository, merge]
 term: "Git Fetch"
 pronunciation: "جِت فِيتش"
+keywords: ["جلب التغييرات من المستودع","تحديث فروع التتبع البعيدة","تحميل تحديثات الخادم فقط","جيت فيتش","الفرق بين فيتش وسحب","استلام التعديلات بدون دمج","تحديث المراجع المحلية","جلب الكوميتات الجديدة","معرفة التحديثات الجديدة","كيفية مزامنة المستودع المحلي","download remote changes","update local tracking branches","get latest commits only","git fetch vs pull","check for remote updates","sync remote repository metadata","fetch remote branches","git update without merge","retrieve new remote data","git get remote changes"]
 ---
 
 ## التعريف

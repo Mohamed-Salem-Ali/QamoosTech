@@ -6,6 +6,7 @@ related: [blocker, deadline, milestone]
 term: "Dependency"
 pronunciation: "دي-بيندنسي"
 translation: "اعتمادية"
+keywords: ["مهام تعتمد على أخرى","متطلبات البدء في العمل","انتظار انتهاء فريق آخر","علاقة المهام ببعضها","الاعتماديات في المشروع","مهام متوقفة على غيرها","تداخل سير العمل","شروط إنجاز المهمة","دي بندنسي","تحديد المهام المترابطة","معوقات سير العمل","ما يجب إنجازه أولاً","tasks waiting on others","prerequisites for project tasks","waiting for another team","things blocking my progress","linked work items","software project requirements","task relies on another","managing project bottlenecks","interconnected work tasks","what needs to finish first","dependancy misspelling","agile task relationships"]
 ---
 
 ## التعريف

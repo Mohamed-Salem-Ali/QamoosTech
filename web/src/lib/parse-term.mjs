@@ -12,7 +12,7 @@ import matter from 'gray-matter'
  *   id: string, category: string, level: 'beginner' | 'intermediate', related: string[],
  *   term: string, translation?: string, pronunciation: string,
  *   definition: string, context: string, examples: Example[], mistake: string,
- *   confuse?: string, say?: Example[],
+ *   confuse?: string, say?: Example[], keywords?: string[],
  * }} Term
  */
 
@@ -87,6 +87,7 @@ export function parseTerm(source) {
       mistake,
       confuse,
       say,
+      keywords: Array.isArray(data.keywords) ? data.keywords.map(String) : undefined,
     },
   }
 }

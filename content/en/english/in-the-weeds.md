@@ -5,6 +5,7 @@ level: intermediate
 related: [bikeshedding, yak-shaving]
 term: "In the weeds"
 pronunciation: "IN THUH WEEDZ"
+keywords: ["stuck on minor details","getting lost in minutiae","losing sight of big picture","overly focused on small stuff","distracted by technical edge cases","too much detail oriented","missing the forest for trees","getting bogged down in details","need to zoom out","stop overcomplicating simple things","الغرق في التفاصيل الدقيقة","تشتت التركيز في أمور ثانوية","فقدان الرؤية الشاملة للمشروع","الانشغال بتفاصيل لا تهم","الخروج عن مسار النقاش الرئيسي","التركيز المفرط على الجوانب التقنية","إضاعة الوقت في أمور هامشية","الانغماس في تعقيدات غير ضرورية","تجنب الغرق في التفاصيل","الابتعاد عن الهدف الأساسي"]
 ---
 
 ## Definition

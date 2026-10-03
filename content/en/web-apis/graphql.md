@@ -5,6 +5,7 @@ level: intermediate
 related: [restful-api, endpoint]
 term: "GraphQL"
 pronunciation: "GRAF-ik-ew-el"
+keywords: ["query specific data fields","alternative to rest api","single endpoint api style","fetch exact data needed","graph query language","api for frontend developers","avoid overfetching api data","schema based data fetching","flexible api request format","grapqhl typo","grapql tech","جلب البيانات بدقة","بديل لـ rest api","لغة استعلام البيانات","جلب الحقول المطلوبة فقط","واجهة برمجة تطبيقات مرنة","استعلامات الواجهة الأمامية","جراف كيو إل","تقليل البيانات غير الضرورية","نقطة نهاية واحدة للبيانات","تصميم استعلامات api"]
 ---
 ## Definition
 

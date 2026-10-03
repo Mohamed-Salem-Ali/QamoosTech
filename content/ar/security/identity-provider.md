@@ -5,6 +5,7 @@ level: intermediate
 related: [authentication-vs-authorization, oauth, jwt]
 term: "Identity Provider (IdP)"
 pronunciation: "آيدينتيتي بروفايدر"
+keywords: ["مزود الهوية الرقمية","نظام التحقق من هوية المستخدم","خدمة تسجيل الدخول الموحد","خادم إدارة هويات المستخدمين","ما هو الـ idp","الجهة المسؤولة عن التحقق","نظام إدارة بيانات المستخدمين","خدمة المصادقة المركزية","التحقق من هوية المستخدمين","آيدينتيتي بروفايدر","centralized user authentication service","system that verifies user identity","single sign on server","manage user login credentials","what is an idp","third party identity service","authentication authority for apps","identity management system","idp vs service provider","user authentication provider"]
 ---
 
 ## التعريف

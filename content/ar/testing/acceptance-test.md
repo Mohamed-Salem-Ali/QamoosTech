@@ -6,6 +6,7 @@ related: [user-story, deliverable]
 term: "Acceptance Test"
 pronunciation: "أكسيبتانس تيست"
 translation: "اختبار القبول"
+keywords: ["اختبار جاهزية النظام","معايير الموافقة النهائية","التأكد من متطلبات العمل","اختبارات ما قبل التسليم","التحقق من قصة المستخدم","اختبار قبول البرمجيات","تأكيد مطابقة النظام للمتطلبات","سيناريوهات اختبار القبول","أكسيبتانس تيست","اختبارات التحقق من الميزات","verify business requirements","final system sign off","ready for delivery check","feature completion criteria","ensure software meets needs","uat vs acceptance test","validation against user stories","project handoff testing","functional business verification","acceptance testing process"]
 ---
 
 ## التعريف

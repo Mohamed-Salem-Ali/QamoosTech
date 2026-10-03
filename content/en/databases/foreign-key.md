@@ -5,6 +5,7 @@ level: beginner
 related: [database, schema, table-row-column, join]
 term: "Foreign Key"
 pronunciation: "FAWR-uh-n KEE"
+keywords: ["link two tables together","enforce referential integrity in sql","reference primary key in another table","database relationship constraint","connect tables with id","foreign key","forign key","foriegn key","fk constraint","table relationship field","مفتاح أجنبي","ربط جدولين مع بعض","قيد التكامل المرجعي","العلاقة بين جدولين في قاعدة البيانات","الربط بواسطة المفتاح الأساسي","فوريان كي","ربط جدول بجدول آخر","منع حذف بيانات مرتبطة"]
 ---
 
 ## Definition

@@ -6,6 +6,7 @@ related: [database, index, query, schema]
 term: "Denormalization"
 pronunciation: "دي-نورمالايزيشن"
 translation: "إلغاء التطبيع / إدراج تكرار البيانات"
+keywords: ["تسريع استعلامات قاعدة البيانات","تكرار البيانات لتحسين الأداء","تجنب عمليات الربط المكلفة","إلغاء التطبيع في الجداول","تحسين سرعة قراءة البيانات","إضافة بيانات مكررة عمداً","تقليل عمليات الربط المعقدة","دي نورمالايزيشن","تخفيف ضغط استعلامات القراءة","تصميم قاعدة بيانات غير مطبعة","speed up database reads","add redundant data columns","avoid expensive table joins","optimize query performance","intentional data duplication","improve read heavy performance","denormalise database schema","reduce complex query joins","database schema optimization","denormalization technique"]
 ---
 
 ## التعريف

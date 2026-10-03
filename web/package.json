@@ -14,7 +14,8 @@
     "terms": "node scripts/terms-agent.mjs",
     "qa-fix": "node scripts/qa-fix.mjs",
     "scan": "node scripts/scan-scripts.mjs",
-    "enrich": "node scripts/enrich.mjs"
+    "enrich": "node scripts/enrich.mjs",
+    "keywords": "node scripts/enrich-keywords.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

@@ -5,6 +5,7 @@ level: intermediate
 related: [rate-limiting, single-point-of-failure]
 term: "Fail Open vs Fail Closed"
 pronunciation: "FAYL OH-pen versus FAYL KLOHZD"
+keywords: ["what happens when system breaks","system behavior during service outage","default state after component failure","allow or block during crash","security vs availability trade off","fail safe design patterns","fail open fail closed meaning","handling errors in critical services","system resilience strategy","default access after service failure","سلوك النظام عند تعطل المكونات","ماذا يحدث عند توقف الخدمة","استراتيجية التعامل مع أعطال النظام","السماح بالدخول عند فشل النظام","منع الوصول عند تعطل الخدمة","الفشل المفتوح مقابل الفشل المغلق","تصميم الأنظمة عند حدوث خطأ","تحديد حالة النظام عند الانهيار","مفهوم الفشل الآمن في البرمجيات","الفرق بين الفشل المفتوح والمغلق"]
 ---
 ## Definition
 

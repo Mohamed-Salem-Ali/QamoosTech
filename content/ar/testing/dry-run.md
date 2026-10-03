@@ -6,6 +6,7 @@ related: [ci-cd, staging-vs-production]
 term: "Dry Run"
 pronunciation: "دراي ران"
 translation: "تنفيذ تجريبي"
+keywords: ["تنفيذ تجريبي بدون تغييرات","اختبار الأوامر دون حفظ","معاينة التغييرات قبل النشر","تشغيل السكريبت للاختبار فقط","التنفيذ الوهمي للنشر","فحص الترحيل بدون تعديل قاعدة البيانات","دراي ران","تجربة النشر برمجيا","test script without saving changes","preview deployment changes safely","run migration without modifying database","simulate command execution","test run before production","check script for errors safely","preview command output","dai run","dryran"]
 ---
 
 ## التعريف

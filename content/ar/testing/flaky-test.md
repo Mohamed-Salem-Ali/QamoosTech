@@ -5,6 +5,7 @@ level: intermediate
 related: [unit-test, integration-test, debugging]
 term: "Flaky Test"
 pronunciation: "فلايكي تيست"
+keywords: ["اختبار ينجح مرة ويفشل أخرى","نتائج اختبار متناقضة بدون تغيير الكود","فشل الاختبارات بشكل عشوائي","اختبارات غير موثوقة في البناء","اختبارات غير حتمية النتائج","فشل الاختبار على خادم البناء","فلايكي تيست","إصلاح الاختبارات غير المستقرة","test passes sometimes and fails sometimes","inconsistent test results without code changes","random test failures in ci cd","unreliable tests in pipeline","non deterministic test","intermittent test failure","flaky test","fix unstable automated tests","tests failing randomly on server"]
 ---
 
 ## التعريف

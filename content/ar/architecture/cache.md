@@ -6,6 +6,7 @@ related: [latency-vs-throughput, scalability]
 term: "Cache"
 translation: "ذاكرة تخزين مؤقت"
 pronunciation: "كاش"
+keywords: ["ذاكرة مؤقتة سريعة","تسريع جلب البيانات","تقليل الضغط على السيرفر","حفظ نسخة من البيانات","حل مشكلة بطء الاستجابة","تخزين مؤقت للبيانات","تحديث البيانات المخزنة","مسح ذاكرة التخزين","تحسين أداء التطبيق","تخزين البيانات في الذاكرة","fast temporary data storage","speed up database queries","reduce server load time","keep copy of frequent data","improve application response speed","memory for quick access","stale data issues fix","caching layer implementation","temporary retrieval storage","how to clear cache"]
 ---
 ## التعريف
 

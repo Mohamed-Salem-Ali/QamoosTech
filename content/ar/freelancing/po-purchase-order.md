@@ -6,6 +6,7 @@ related: [invoice, milestone, deliverable]
 term: "Purchase Order (PO)"
 pronunciation: "بيرتشيس أوردر"
 translation: "أمر شراء"
+keywords: ["أمر شراء","رقم أمر الشراء للفاتورة","مستند طلب الشراء","الفرق بين أمر الشراء والفاتورة","تفويض العمل من العميل","مستند الموافقة على المشروع","أمر شراء للعمل الحر","purchase order document","po number for invoice","client authorization document","freelance purchasing document","difference between po and invoice","purchase order vs contract","official buying request","vendor work authorization"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: intermediate
 related: [object, variable]
 term: "Garbage Collection"
 pronunciation: "GAR-bij kuh-LEK-shun"
+keywords: ["automatic memory management","clean up unused objects","free up memory automatically","prevent memory leaks","memory cleanup in runtime","garbage collection","reclaim unused memory space","handle memory deallocation","إدارة الذاكرة التلقائية","تنظيف الذاكرة تلقائيا","جمع المهملات","التخلص من الكائنات القديمة","منع تسريب الذاكرة","تحرير الذاكرة غير المستخدمة","جاربيج كوليكشن","عملية تنظيف الذاكرة","حذف الكائنات غير القابلة للوصول"]
 ---
 
 ## Definition

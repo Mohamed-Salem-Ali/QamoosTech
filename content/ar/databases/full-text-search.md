@@ -6,6 +6,7 @@ related: [database, index, query]
 term: "Full-Text Search"
 translation: "البحث في كامل النص"
 pronunciation: "فول-تيكست سورتش"
+keywords: ["البحث في النصوص الطويلة","البحث داخل المستندات","البحث عن الكلمات المفتاحية","بديل معامل لايك في البحث","البحث المتقدم في قاعدة البيانات","فول تيكست سورتش","البحث في كامل النص","تحليل النصوص للبحث عنها","search inside long text","search for words in documents","sql like alternative for search","search with relevance ranking","search documents by keywords","linguistic text search","fultext search","search engine for database"]
 ---
 
 ## التعريف

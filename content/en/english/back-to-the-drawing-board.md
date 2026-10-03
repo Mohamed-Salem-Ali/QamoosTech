@@ -5,6 +5,7 @@ level: intermediate
 related: [reinventing-the-wheel]
 term: "Back to the drawing board"
 pronunciation: "BAK too the DRAW-ing BORD"
+keywords: ["start planning from scratch","failed plan redesign","restart project architecture","redigitalize failed prototype","back to drawing board","strategy failed completely","rethinking software design","start over from beginning","العودة إلى نقطة البداية","البدء من جديد تماما","إعادة التخطيط من الصفر","فشلت الخطة الأولى تماما","إعادة تصميم النظام المعماري","بناء الفكرة من جديد","العودة لطاولة الرسم","إلغاء الخطة الحالية"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [pull-request, lgtm]
 term: "Code Review"
 translation: "مراجعة الشيفرة"
 pronunciation: "كود ريفيو"
+keywords: ["مراجعة الكود قبل الدمج","طلب فحص الشيفرة البرمجية","كود ريفيو","فحص تعديلات المبرمجين","الحصول على ملاحظات برمجية","تدقيق الشيفرة من الزملاء","مراجعة الـ pull request","تحسين جودة الكود جماعياً","فحص الأخطاء قبل النشر","تقييم الكود من الفريق","check my code changes","peer feedback on code","reviewing pull requests","team code inspection","find bugs before merge","improve code quality process","code walkthrough for team","codereview","getting feedback on commits","validate code before merging"]
 ---
 ## التعريف
 

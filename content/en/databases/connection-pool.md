@@ -5,6 +5,7 @@ level: intermediate
 related: [database, query, latency-vs-throughput]
 term: "Connection Pool"
 pronunciation: "ku-NEK-shun pool"
+keywords: ["reuse database connections","speed up database queries","database connection cache","too many open connections","connection pool settings","avoid opening new database connections","backend performance optimization","connection limit exhausted","database connection recycling","pooling connections","إعادة استخدام اتصالات قاعدة البيانات","تسريع الاستعلامات قاعدة البيانات","مجمع الاتصالات","إعدادات الاتصال بقاعدة البيانات","تجنب فتح اتصال جديد","استنفاد اتصالات قاعدة البيانات","تحسين أداء قاعدة البيانات","ذاكرة الاتصالات المؤقتة","حجم مجمع الاتصالات"]
 ---
 
 ## Definition

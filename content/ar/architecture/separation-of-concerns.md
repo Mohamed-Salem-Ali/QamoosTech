@@ -6,6 +6,7 @@ related: [design-pattern, component]
 term: "Separation of Concerns"
 translation: "فصل الاهتمامات"
 pronunciation: "سيباريشن أوف كونسيرنز"
+keywords: ["تنظيم الكود في طبقات","فصل منطق العمل عن العرض","تقسيم المهام في النظام","منع تداخل وظائف الكود","هيكلة البرمجيات بشكل نظيف","مبدأ فصل الاهتمامات","تحسين صيانة الشيفرة البرمجية","تقسيم الكود إلى وحدات","سيباريشن أوف كونسيرنز","توزيع المسؤوليات في النظام","organize code into distinct parts","keep business logic separate","avoid mixing ui and data","modularize software architecture","decouple code components","clean code structure principles","stop mixing concerns in modules","divide system into layers","soc software design","improve code maintainability"]
 ---
 ## التعريف
 

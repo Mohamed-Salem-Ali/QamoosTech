@@ -6,6 +6,7 @@ related: [monitoring, audit-logging]
 term: "Logging"
 translation: "تسجيل الأحداث"
 pronunciation: "لوجينج"
+keywords: ["تسجيل أحداث النظام","تتبع أخطاء التطبيق","كتابة سجلات النشاط","معرفة سبب فشل الطلبات","لوجينج","حفظ مسار تنفيذ البرنامج","مراقبة سلوك التطبيق","استخراج سجلات الأخطاء","طريقة تتبع المشاكل","تسجيل البيانات في ملفات","تتبع سير العمل","track application events","write messages to console","debug production errors","record system execution flow","save app activity history","see what happened before crash","application log files","print statements for debugging","loggin","trace execution path","monitor app behavior"]
 ---
 ## التعريف
 

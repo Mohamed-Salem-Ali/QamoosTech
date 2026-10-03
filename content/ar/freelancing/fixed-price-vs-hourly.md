@@ -6,6 +6,7 @@ related: [scope-creep, retainer, estimate]
 term: "Fixed-price vs Hourly"
 translation: "سعر ثابت أم بالساعة"
 pronunciation: "فيكسد برايس مقابل أورلي"
+keywords: ["طرق محاسبة المستقلين","الفرق بين السعر الثابت والساعة","كيف أحدد سعر مشروعي","نظام الدفع بالساعة أم بالمشروع","عقود العمل الحر","تحديد أجر المبرمج","اتفاقية السعر الثابت","حساب تكلفة تطوير البرمجيات","الدفع مقابل الوقت المستغرق","نماذج تسعير المشاريع البرمجية","billing models for freelancers","charging per hour vs project","fixed price or hourly contract","how to charge for software","project based vs time based","freelance payment methods","hourly rate vs flat fee","choosing a payment structure","contract types for developers","fixed price vs time and materials"]
 ---
 ## التعريف
 

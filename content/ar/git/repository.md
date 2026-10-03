@@ -6,6 +6,7 @@ related: [commit, branch]
 term: "Repository"
 translation: "مستودع"
 pronunciation: "ريبوزيتوري"
+keywords: ["مجلد مشروع جيت","مكان حفظ تاريخ المشروع","كيفية استنساخ المستودع","ما هو الريبوزيتوري","مجلد تتبع الملفات","مستودع الكود المصدري","مكان تخزين ملفات المشروع","تعريف مستودع جيت","مجلد التحكم في الإصدارات","طريقة فتح المستودع","git project folder","where git saves history","how to clone a repo","git storage location","project version control folder","what is a repo","git repository definition","files tracked by git","remote git project","git source code folder"]
 ---
 ## التعريف
 

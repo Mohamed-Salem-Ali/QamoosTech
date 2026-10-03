@@ -5,6 +5,7 @@ level: beginner
 related: [unit-test, integration-test, ci-cd]
 term: "Test Suite"
 pronunciation: "TEST swoot"
+keywords: ["collection of test cases","run all tests together","group of tests","execute multiple tests","test collection","full tests package","run test suite","all tests runner","test suite","مجموعة اختبارات برمجية","تشغيل كل الاختبارات معا","حزمة اختبارات البرمجيات","مجموعة حالات الاختبار","تشغيل اختبارات النظام","تست سويت","ملف اختبارات شامل","تنفيذ حزمة الاختبار"]
 ---
 
 ## Definition

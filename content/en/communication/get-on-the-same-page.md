@@ -5,6 +5,7 @@ level: beginner
 related: [align-on-scope, touch-base, loop-in]
 term: "Get on the same page"
 pronunciation: "GET on the SAYM PAYJ"
+keywords: ["ensure team alignment","reach shared understanding","be on the same wavelength","sync on project goals","clarify team expectations","avoid project misunderstandings","get everyone in sync","unified project vision","confirm common interpretation","make sure we agree","align team members","get on the same page idiom","توحيد فهم الفريق","الوصول لفهم مشترك","التوافق على أهداف المشروع","ضمان اتفاق أعضاء الفريق","تنسيق الرؤية بين المبرمجين","تجنب سوء الفهم التقني","تطابق وجهات نظر الفريق","التأكد من فهم المتطلبات","الوصول إلى أرضية مشتركة","تنسيق العمل الجماعي","الترجمة الحرفية جيت أون ذا سيم بيج"]
 ---
 
 ## Definition

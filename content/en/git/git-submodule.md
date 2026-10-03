@@ -5,6 +5,7 @@ level: intermediate
 related: [repository, commit]
 term: "Git Submodule"
 pronunciation: "GIT SUB-mod-yool"
+keywords: ["include repo inside another","git nested repository","manage shared code dependencies","git submodule vs subtree","link external repository pointer","git submodule recursive clone","git sub module","tracking external git project","git submodule update pointer","embedded git repository","تضمين مستودع داخل مستودع","مستودع جيت فرعي","ربط مشاريع جيت ببعضها","إدارة المستودعات المتداخلة","استخدام مستودع داخل مستودع آخر","تحديث مؤشر المستودع الفرعي","الفرق بين سب مودول وسب تري","جيت سب مودول","استنساخ مستودع مع الملحقات","مستودع خارجي داخل مشروع"]
 ---
 ## Definition
 

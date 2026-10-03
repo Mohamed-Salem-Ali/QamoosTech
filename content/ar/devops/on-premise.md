@@ -5,6 +5,7 @@ level: beginner
 related: [deployment, monolith-vs-microservices]
 term: "On-premise"
 pronunciation: "أون-بريميس"
+keywords: ["تشغيل الخوادم داخل الشركة","استضافة محلية على أجهزة الشركة","البنية التحتية المحلية","خوادم داخل مقر العمل","النشر المحلي للبرمجيات","الخوادم المحلية للشركة","بدون استخدام السحابة","تخزين البيانات محليا","run servers in our office","self hosted infrastructure","local data center deployment","not in the cloud","hardware inside our building","on premise software","on prem deployment","internal servers setup","local server hosting"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: intermediate
 related: [ci-cd, infrastructure-as-code, pull-request]
 term: "Ephemeral Environment"
 pronunciation: "ih-FEM-er-uhl en-VI-ruhn-muhnt"
+keywords: ["temporary test environment for pull request","spin up environment per pr","short lived infrastructure copy","automatic preview environment for branch","ephemeral environment","temporary dev server","dynamic test environment","testing environment deleted after merge","preview deployment for pull request","auto generated test server","بيئة مؤقتة لطلب الدمج","إنشاء بيئة اختبار لكل فرع","بيئة معاينة مؤقتة","بيئة اختبار مؤقتة تحذف تلقائيا","بيئة عمل مؤقتة","إفيميرال إنفايرونمنت","بيئة مؤقتة للـ بر","تشغيل بيئة اختبار مؤقتة","بنية تحتية مؤقتة للتنفيذ"]
 ---
 
 ## Definition

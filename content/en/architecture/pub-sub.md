@@ -5,6 +5,7 @@ level: intermediate
 related: [event-driven, message-queue]
 term: "Pub/Sub"
 pronunciation: "PUB-SUB"
+keywords: ["publish subscribe messaging pattern","broadcast messages to multiple services","decouple services with events","topic based messaging system","publish and subscribe architecture","send messages without knowing receivers","pubsub event streaming","publishers and subscribers pattern","نمط النشر والاشتراك لتبادل الرسائل","بث الرسائل لعدة خدمات في وقت واحد","فصل الخدمات عن طريق الأحداث","نظام مراسلة يعتمد على المواضيع","إرسال رسائل بدون معرفة المستلم","ارسال رسائل للمشتركين تلقائيا","نمط النشر والاشتراك","نظام الناشر والمستلم"]
 ---
 
 ## Definition

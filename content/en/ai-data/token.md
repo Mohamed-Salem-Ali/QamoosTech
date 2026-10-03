@@ -5,6 +5,7 @@ level: beginner
 related: [llm, prompt-engineering]
 term: "Token"
 pronunciation: "TOH-ken"
+keywords: ["what is an ai token","how llms count text","text piece for llm","gpt text unit","token limit in chatgpt","ai model pricing units","context window size in tokens","word pieces for language models","auth token vs ai token","llm input length unit","ما هو التوكن في الذكاء الاصطناعي","كيف تقيس نماذج اللغات النص","حجم نافذة السياق بالتوكن","وحدة قياس تكلفة الذكاء الاصطناعي","عدد الكلمات والتوكنز في ال ال ام","تحديد عدد الرموز للذكاء الاصطناعي","ما الفرق بين توكن الأمان وتوكن الذكاء","تقطيع النص إلى توكنز"]
 ---
 ## Definition
 

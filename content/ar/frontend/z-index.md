@@ -5,6 +5,7 @@ level: beginner
 related: [responsive-design]
 term: "Z-index"
 pronunciation: "زِي إنديكس"
+keywords: ["ترتيب طبقات العناصر فوق بعضها","جعل العنصر يظهر في المقدمة","التحكم في عمق العناصر css","حل مشكلة تداخل العناصر","خاصية ترتيب العناصر في css","جعل القائمة تظهر فوق المحتوى","ترتيب العناصر على المحور العمقي","تحديد طبقة العنصر في الواجهة","زاي إنديكس في سي اس اس","تحريك العناصر للأمام وللخلف","layering elements on screen","css stack order property","bring element to front","how to overlap html elements","fix elements hidden behind others","css depth control property","z axis position css","control element stacking order","make modal appear on top","zindex css property","css element layering priority"]
 ---
 
 ## التعريف

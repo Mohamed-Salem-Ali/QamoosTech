@@ -5,6 +5,7 @@ level: beginner
 related: [llm, token]
 term: "Tokenization"
 pronunciation: "توكنايزيشن"
+keywords: ["تقسيم النصوص إلى وحدات","تحويل الكلام إلى توكنز","تجزئة الكلمات للذكاء الاصطناعي","كيف تفهم النماذج النصوص","معالجة النصوص قبل النموذج","تقطيع الجمل إلى أجزاء","طريقة عمل التوكنايزيشن","تجهيز البيانات للنماذج اللغوية","تحويل النص إلى أرقام","وحدات بناء النصوص البرمجية","breaking text into pieces","how llms read words","split string into tokens","text preprocessing for ai","convert sentences to units","subword segmentation method","tokanization spelling","prepare text for models","count tokens in text","splitting words into chunks"]
 ---
 
 ## التعريف

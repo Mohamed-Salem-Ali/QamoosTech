@@ -5,6 +5,7 @@ level: intermediate
 related: [unit-test, integration-test]
 term: "Test Fixture"
 pronunciation: "تيست فيكستشر"
+keywords: ["بيئة اختبار ثابتة وموحدة","تجهيز بيانات وبيئة الاختبار","تهيئة حالة التطبيق للاختبار","إعداد وتنظيف بيانات الاختبار","قاعدة بيانات افتراضية للاختبار","تيست فيكستشر","تهيئة بيئة التشغيل للاختبارات","حالة ثابتة لتشغيل الاختبارات","consistent test baseline environment","setup test data and state","test preparation and cleanup code","fixed environment for running tests","initialize database before running tests","test fixture","test setup and teardown state","reset application state for testing","test environment configuration data","tiyst fikstur"]
 ---
 
 ## التعريف

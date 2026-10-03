@@ -5,6 +5,7 @@ level: beginner
 related: [edge-case, unit-test]
 term: "Happy Path"
 pronunciation: "HAP-ee PATH"
+keywords: ["ideal user scenario","standard flow without errors","default successful execution path","testing core functionality","main system flow","happy flow testing","normal operation scenario","everything working as expected","successful user journey","basic feature test case","السيناريو الافتراضي للعمل","المسار الصحيح للتطبيق","اختبار سير العمل الطبيعي","حالة النجاح في النظام","المسار المثالي للبرمجيات","تتبع خطوات المستخدم الناجحة","سيناريو عمل النظام بدون أخطاء","المسار السعيد في الاختبار","التدفق الأساسي للوظائف","اختبار العمليات السليمة"]
 ---
 
 ## Definition

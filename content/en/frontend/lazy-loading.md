@@ -5,6 +5,7 @@ level: beginner
 related: [bundle, rendering, viewport]
 term: "Lazy Loading"
 pronunciation: "LAY-zee LOH-ding"
+keywords: ["load images only when visible","defer loading non critical resources","speed up initial page load","load components on demand","reduce initial bundle size","fetch data when needed","optimize frontend performance","delay asset loading","lazyload images","load content as user scrolls","تحميل الصور عند الحاجة","تأخير تحميل الموارد غير الضرورية","تحسين سرعة فتح الصفحة","جلب البيانات عند الوصول إليها","التحميل عند التمرير","تقليل حجم الحزمة البرمجية","تحميل المكونات عند الطلب","التحميل الكسول","ليزي لودينج","تأجيل تحميل العناصر"]
 ---
 
 ## Definition

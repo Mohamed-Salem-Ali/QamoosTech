@@ -6,6 +6,7 @@ related: [function]
 term: "Parameter vs Argument"
 translation: "المعامل والوسيط"
 pronunciation: "باراميتر مقابل أرجيومنت"
+keywords: ["الفرق بين المعامل والوسيط","الفرق بين الباراميتر والأرجيومنت","معاملات والدوال والوسائط","ما هو الباراميتر في الدالة","ما هو الوسيط في البرمجة","القيم الممررة للدالة","تعريف معاملات الدالة","الفرق بين parameter و argument","difference between parameter and argument","what is a function parameter","what is a function argument","passing values to functions","parameters vs arguments interview question","function input variables and values","arguments passed to function","parameters defined in function","argument vs parameter distinction"]
 ---
 ## التعريف
 

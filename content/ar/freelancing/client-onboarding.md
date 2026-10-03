@@ -5,6 +5,7 @@ level: beginner
 related: [proposal, nda, handoff]
 term: "Client Onboarding"
 pronunciation: "كلاينت أون-بوردينج"
+keywords: ["إجراءات بدء العمل مع عميل","خطوات تهيئة العميل الجديد","تنظيم متطلبات المشروع الجديد","جمع بيانات العميل للبدء","عملية استقبال العميل","تجهيز الصلاحيات للمشروع الجديد","إجراءات ما قبل البدء بالمشروع","كلاينت أون بوردينج","خطوات الترحيب بالعميل الجديد","ترتيب اتفاقيات العميل الجديد","new client setup process","how to start a project","freelance project intake steps","gathering requirements from clients","client welcome workflow","getting access from new clients","client onboarding checklist","preparing for a new project","standardizing new client intake","onboarding new freelance clients"]
 ---
 
 ## التعريف

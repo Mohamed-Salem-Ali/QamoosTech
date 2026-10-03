@@ -5,6 +5,7 @@ level: beginner
 related: [infrastructure-as-code, staging-vs-production]
 term: "Instance"
 pronunciation: "إن-ستانس"
+keywords: ["نسخة خادم افتراضي","تشغيل خادم جديد","سيرفر افتراضي سحابي","بيئة تنفيذ معزولة","نسخة تطبيق تعمل","تشغيل نسخة سحابية","خادم افتراضي قيد التشغيل","إنشاء سيرفر جديد","virtual server copy","running server copy","cloud virtual machine","spin up new server","application deployment environment","isolated execution environment","virtualized server slice","running copy of app","server instance"]
 ---
 
 ## التعريف

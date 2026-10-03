@@ -5,6 +5,7 @@ level: beginner
 related: [staging-vs-production, containerization]
 term: "Environment Variable"
 pronunciation: "en-VY-run-ment VAIR-ee-uh-bul"
+keywords: ["store secrets outside code","database url in config","env file configuration","api key storage setting","runtime system variables","pass configuration to app","hidden settings for deployment","environment variables","env var","dotenv file","حفظ الإعدادات خارج الكود","تخزين مفاتيح الربط بأمان","متغيرات بيئة العمل","إعدادات قاعدة البيانات الخارجية","ملف المتغيرات البيئية","متغير بيئة","إنفايرونمنت فيريابل","إعدادات التشغيل الخارجية"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [bug, tech-debt]
 term: "Work-around"
 pronunciation: "وِرك أراوند"
 translation: "حل مؤقت"
+keywords: ["حل مؤقت للمشكلة","تجاوز خطأ في النظام","طريقة بديلة مؤقتة","حل سريع ومؤقت","تخطي عيوب برمجية","إصلاح غير دائم","وورك أراوند","حل بديل للخلل","تجاوز قيود النظام","إيجاد مخرج للمشكلة","temporary fix for bug","bypass system limitation","quick patch for now","alternative way to solve","hack to unblock users","non permanent solution","workaround spelling","stopgap measure for code","avoiding the root cause","temporary software fix","work around vs fix"]
 ---
 
 ## التعريف

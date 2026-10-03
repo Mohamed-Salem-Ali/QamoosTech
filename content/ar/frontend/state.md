@@ -6,6 +6,7 @@ related: [props, component]
 term: "State"
 translation: "الحالة"
 pronunciation: "ستيت"
+keywords: ["بيانات تتغير في التطبيق","تخزين بيانات المكون","متغيرات تحدث واجهة المستخدم","حفظ حالة المكون","إدارة بيانات الشاشة","البيانات المتغيرة في الصفحة","الحالة المحلية للمكون","متغيرات تفاعل المستخدم","data that changes over time","component data storage","variables that update the ui","track user input in component","react local state","manage changing app data","storing screen data","ui component memory","state"]
 ---
 ## التعريف
 

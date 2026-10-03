@@ -6,6 +6,7 @@ related: [logging, immutable, gdpr-deletion]
 term: "Audit Logging"
 translation: "سجل التدقيق"
 pronunciation: "أوديت لوجينج"
+keywords: ["تسجيل من فعل ماذا ومتى","معرفة من عدل على النظام","سجل النشاطات الأمنية","تتبع إجراءات المسؤولين","سجل الامتثال","أوديت لوجينج","سجلات لا يمكن تعديلها","تتبع تعديلات المستخدمين","track who did what","record user actions system","compliance logging","security activity log","track admin actions","append only logs","investigate security problems","audit trail","user activity tracking","odit login"]
 ---
 ## التعريف
 

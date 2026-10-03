@@ -6,6 +6,7 @@ related: [circling-back, touch-base]
 term: "Follow up"
 translation: "متابعة"
 pronunciation: "فولو أب"
+keywords: ["كيف أطلب تحديثا للمهمة","طريقة تذكير الزملاء بالعمل","معنى كلمة متابعة في العمل","كيف أكتب رسالة تذكير","الاستفسار عن حالة الطلب","ماذا يعني فولو أب","متابعة حالة التذكرة المعلقة","طريقة طلب الرد على الإيميل","مصطلح المتابعة في المشاريع","الفرق بين المتابعة وتفقد الحال","check status of request","ask for an update","send a reminder email","circling back on task","touch base about progress","followup status check","get a reply on ticket","polite nudge for response","tracking pending work","follow up pronunciation"]
 ---
 ## التعريف
 

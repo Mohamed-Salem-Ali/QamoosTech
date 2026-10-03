@@ -5,6 +5,7 @@ level: intermediate
 related: [sprint, stakeholder]
 term: "Cross-functional Team"
 pronunciation: "KROS-FUNK-shun-ul TEEM"
+keywords: ["team with all skills","multidisciplinary product team","agile team with developers and designers","self sufficient delivery team","cross functional team","team that doesn't depend on others","mixed skills development team","cross functional squad","independent agile team","فريق متعدد التخصصات","فريق يملك كل المهارات","فريق عمل متكامل المهارات","كروس فانكشنال تيم","فريق مستقل لتطوير المنتجات","فريق يضم مطورين ومصممين","فريق أجايل متكامل","فريق غير معتمد على الأقسام الأخرى"]
 ---
 ## Definition
 

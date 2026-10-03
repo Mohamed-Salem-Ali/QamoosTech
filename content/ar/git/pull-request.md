@@ -6,6 +6,7 @@ related: [branch, code-review, merge]
 term: "Pull Request (PR)"
 translation: "طلب دمج"
 pronunciation: "بول ريكويست"
+keywords: ["طلب دمج الكود","ارسال الكود للمراجعة","طلب مراجعة الكود","بول ريكويست","فتح طلب دمج","دمج الفرع مع الرئيسي","مراجعة التغييرات قبل الدمج","طلب دمج الفرع","request to merge code","submit code for review","git pr","open a pr","code review request","merge my branch into main","pull request","propose code changes","review my code changes"]
 ---
 ## التعريف
 

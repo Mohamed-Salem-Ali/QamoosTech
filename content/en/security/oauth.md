@@ -5,6 +5,7 @@ level: intermediate
 related: [jwt, authentication-vs-authorization]
 term: "OAuth 2.0"
 pronunciation: "OH-awth too-point-oh"
+keywords: ["sign in with google","third party account access","authorization framework for apps","grant limited access tokens","connect external accounts safely","oauth protocol","auth 2","social login integration","delegated access standard","api authorization flow","تسجيل الدخول بحساب جوجل","منح صلاحيات لتطبيق خارجي","تسجيل الدخول عبر منصة أخرى","بروتوكول التفويض والتخويل","ربط الحسابات الخارجية بأمان","بروتوكول اوauth","نظام الصلاحيات والتصريح","الدخول بحساب سوشيال ميديا"]
 ---
 ## Definition
 

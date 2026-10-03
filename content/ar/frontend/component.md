@@ -6,6 +6,7 @@ related: [props, state]
 term: "Component"
 translation: "مكوّن"
 pronunciation: "كومبوننت"
+keywords: ["قطعة واجهة قابلة لإعادة الاستخدام","بناء واجهات برمجية","تقسيم كود الواجهة","عنصر واجهة مستقل","مكونات فرونت اند","وحدات بناء الواجهة","نظام المكونات","كومبوننت","برمجة الواجهات المعيارية","أجزاء الصفحة القابلة للتكرار","reusable ui building block","self contained interface piece","split code into smaller parts","custom html element","modular frontend element","ui widget","reusable view fragment","react view part","component architecture","frontend code snippet","web interface module"]
 ---
 ## التعريف
 

@@ -5,6 +5,7 @@ level: intermediate
 related: [load-balancer, cache, single-point-of-failure]
 term: "Scalability"
 pronunciation: "skay-luh-BIL-ih-tee"
+keywords: ["handle more users and traffic","grow system capacity easily","scale up and scale out","horizontal and vertical scaling","system capacity planning","support high traffic load","scalabilty","skalability","prepare for traffic growth","handle increased load","قابلية التوسع","القدرة على تحمل ضغط المستخدمين","التوسع الأفقي والرأسي للنظام","زيادة قدرة النظام على التحمل","التعامل مع زيادة حجم العمل","التوسع لاستيعاب عدد أكبر","سكيلابيليتي","تحمل زيادة حركة المرور","تطوير النظام لزيادة المستخدمين"]
 ---
 ## Definition
 

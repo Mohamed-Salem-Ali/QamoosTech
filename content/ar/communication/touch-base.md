@@ -6,6 +6,7 @@ related: [circling-back, follow-up]
 term: "Touch base"
 translation: "تواصل سريع"
 pronunciation: "تاتش بيس"
+keywords: ["اجتماع متابعة سريع","محادثة قصيرة للاطمئنان","تحديث سريع للحالة","تواصل سريع مع المدير","دردشة خفيفة عن العمل","جلسة تنسيق قصيرة","تاتش بيس","الاطمئنان على سير العمل","اجتماع دوري قصير","quick check in meeting","short status update chat","catch up with manager","have a quick chat","check progress informally","tatch base","touch base meeting","brief status check","talk about project updates"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [loop, object]
 term: "Array"
 translation: "مصفوفة"
 pronunciation: "آري"
+keywords: ["قائمة مرتبة من القيم","تخزين عناصر متعددة في المتغيرات","مجموعة بيانات مرتبة","هيكل بيانات المصفوفة","العنصر الأول يبدأ من الصفر","قائمة تبدأ الفهارس من صفر","مصفوفة البرمجة","نوع البيانات آري","ordered list of values","store multiple items in variables","list indexed starting at zero","javascript array structure","collection of data items","access element by index number","iterable list of elements","ari data type","arary data structure"]
 ---
 ## التعريف
 

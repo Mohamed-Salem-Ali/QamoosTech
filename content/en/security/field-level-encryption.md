@@ -5,6 +5,7 @@ level: intermediate
 related: [encryption, pii]
 term: "Field-Level Encryption"
 pronunciation: "FEELD-LEV-ul en-KRIP-shun"
+keywords: ["encrypt specific database columns","encrypting sensitive user data columns","protect personal data in database","column level encryption","encrypt specific fields in database","hide sensitive database columns","application layer encryption","pii encryption in database","field level encryption","encrypt credit card numbers column","تشفير أعمدة قاعدة البيانات الحساسة","تشفير البيانات الشخصية في القاعدة","حماية البيانات الحساسة في الأعمدة","التشفير على مستوى العمود","تشفير الحقول في قاعدة البيانات","إخفاء البيانات الشخصية بالتشفير","تشفير رقم الهواتف في القاعدة","التشفير على مستوى الحقل","فيلد ليفل إنكريبشن"]
 ---
 ## Definition
 

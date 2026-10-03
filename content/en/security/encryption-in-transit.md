@@ -5,6 +5,7 @@ level: beginner
 related: [encryption]
 term: "Encryption in Transit"
 pronunciation: "en-KRIP-shun in TRAN-zit"
+keywords: ["protect data moving across network","secure data in transit","encrypt network traffic","ssl tls certificates setup","prevent interception of api requests","https enforcement for traffic","data security during transfer","encrypting client server communication","transit encryption","network data protection","تشفير البيانات أثناء النقل","حماية البيانات المنقولة عبر الشبكة","تأمين حركة المرور بين الخادم","تفعيل بروتوكول اتش تي تي بي اس","منع اعتراض البيانات المرسلة","تشفير الاتصال بين العميل والخادم","تشفير البيانات في الطريق","حماية البيانات المتحركة"]
 ---
 
 ## Definition

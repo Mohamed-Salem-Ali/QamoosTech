@@ -5,6 +5,7 @@ level: beginner
 related: [async-await, callback, message-queue]
 term: "Synchronous vs Asynchronous"
 pronunciation: "SING-kro-nus vs ay-SING-kro-nus"
+keywords: ["tasks running in background","wait for task completion","non blocking vs blocking","execute tasks one after another","async vs sync explained","prevent ui freezing during requests","running tasks in parallel","sequential vs concurrent execution","handling io operations efficiently","make api call non blocking","الفرق بين العمليات المتزامنة وغير المتزامنة","تنفيذ المهام في الخلفية","كيفية عمل الكود غير المتزامن","منع تجمد واجهة المستخدم","العمليات المتتابعة مقابل المتوازية","شرح مفهوم async و sync","الفرق بين العمليات المباشرة والمؤجلة","معالجة الطلبات دون انتظار الرد","إدارة المهام في البرمجة","تنفيذ العمليات بشكل غير متزامن"]
 ---
 
 ## Definition

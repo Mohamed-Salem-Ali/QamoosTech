@@ -6,6 +6,7 @@ related: [dataset, fine-tuning]
 term: "Training Data"
 pronunciation: "تراينينج داتا"
 translation: "بيانات التدريب"
+keywords: ["بيانات لتدريب الذكاء الاصطناعي","تاريخ تعليم نموذج التعلم الآلي","مجموعة بيانات لتعليم النموذج","تنظيف بيانات التدريب","بيانات إدخال الذكاء الاصطناعي","ملفات تدريب النماذج","بيانات تعلم الآلة","تراينينج داتا","بيانات تدريب النموذج","data used to teach ai models","dataset for machine learning","examples to train a model","input data for ai training","feed model with examples","cleaning training dataset","machine learning dataset","ai model training set","training data pipeline","supervised learning input"]
 ---
 
 ## التعريف

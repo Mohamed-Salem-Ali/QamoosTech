@@ -5,6 +5,7 @@ level: intermediate
 related: [mvp, ci-cd]
 term: "Shortening the feedback loop"
 pronunciation: "SHOR-tun-ing the FEED-bak LOOP"
+keywords: ["reduce time to get feedback","faster development cycles","getting user input earlier","speed up testing process","reduce wait time for results","agile feedback cycle","improve iteration speed","get results faster","minimize time between work and review","rapid feedback mechanism","تقليل وقت الحصول على ملاحظات","تسريع دورة التطوير","الحصول على رأي العميل مبكرا","تقليل وقت انتظار النتائج","تسريع عملية الاختبار","تقليص فجوة التغذية الراجعة","تحسين سرعة التكرار في العمل","تسريع وتيرة العمل البرمجي","تقصير حلقة الملاحظات","آلية الحصول على ردود سريعة"]
 ---
 ## Definition
 

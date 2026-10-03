@@ -5,6 +5,7 @@ level: intermediate
 related: [deployment, feature-flag]
 term: "Rollback"
 pronunciation: "ROHL-bak"
+keywords: ["revert to previous version","undo bad software release","go back to stable build","cancel recent deployment","restore previous working state","roll back production changes","revert deployment errors","how to perform rollback","previous version recovery","reverting failed update","العودة للإصدار السابق","التراجع عن التحديث الأخير","إلغاء عملية النشر الحالية","استعادة النسخة المستقرة","طريقة التراجع عن الإصدار","الرجوع لحالة النظام السابقة","إصلاح أخطاء الإصدار الجديد","تراجع عن التغييرات البرمجية","عملية رول باك للنظام","استرجاع النظام بعد العطل"]
 ---
 ## Definition
 

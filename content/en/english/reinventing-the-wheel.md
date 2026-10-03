@@ -5,6 +5,7 @@ level: beginner
 related: [back-to-the-drawing-board]
 term: "Reinventing the wheel"
 pronunciation: "ree-in-VEN-ting the WEEL"
+keywords: ["building things from scratch","avoiding duplicate work","using existing libraries instead","why build custom solutions","stop writing redundant code","don't make your own framework","wasting time on solved problems","recreating existing functionality","custom implementation vs library","idiom for redundant development","بناء حلول موجودة مسبقا","تجنب تكرار العمل البرمجي","لماذا نبني من الصفر","إضاعة الوقت في حلول جاهزة","تجنب كتابة أكواد مكررة","استخدام المكتبات بدلا من البرمجة","بدائل بناء الأنظمة المخصصة","مصطلح إعادة اختراع العجلة","تطوير ميزات موجودة بالفعل","تجنب الجهود البرمجية المكررة"]
 ---
 ## Definition
 

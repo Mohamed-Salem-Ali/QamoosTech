@@ -6,6 +6,7 @@ related: [sprint, blocker]
 term: "Scrum Ceremonies"
 translation: "اجتماعات سكرم"
 pronunciation: "سكرم سيريمونيز"
+keywords: ["اجتماعات سكرم الدورية","الاجتماعات اليومية والاسبرنت","اجتماعات منهجية أجايل","مواعيد اجتماعات السبرنت","الاجتماع اليومي وتخطيط السبرنت","اجتماعات فريق العمل أجايل","فعاليات سكرم الأساسية","جدول اجتماعات سكرم","agile meetings list","daily standup and sprint planning","scrum ritual meetings","sprint retrospective and review","agile team meetings","scrum events schedule","project management meetings","regular scrum meetings","sprint ceremonies"]
 ---
 ## التعريف
 

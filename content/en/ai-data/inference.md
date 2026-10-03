@@ -5,6 +5,7 @@ level: beginner
 related: [llm, dataset]
 term: "Inference"
 pronunciation: "IN-fuh-runss"
+keywords: ["running a trained model","using ai for predictions","ai model production stage","making predictions with model","model output generation","how to serve ai models","inference vs training","deploying machine learning models","real time model execution","processing input with ai","تشغيل نموذج الذكاء الاصطناعي","استخدام النموذج للحصول على نتائج","مرحلة التنبؤ في النماذج","الفرق بين التدريب والتشغيل","توليد مخرجات من النموذج","تنفيذ النموذج على بيانات جديدة","مصطلح إنفيرنس في الذكاء الاصطناعي","كيفية عمل النماذج المدربة","استخدام النموذج في بيئة الإنتاج","معالجة البيانات بواسطة النموذج"]
 ---
 
 ## Definition

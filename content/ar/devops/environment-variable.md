@@ -6,6 +6,7 @@ related: [staging-vs-production, containerization]
 term: "Environment Variable"
 translation: "متغير بيئة"
 pronunciation: "إنفايرونمنت فيريابل"
+keywords: ["حفظ الإعدادات خارج الكود","تخزين مفاتيح الربط بأمان","متغيرات بيئة العمل","إعدادات قاعدة البيانات الخارجية","ملف المتغيرات البيئية","متغير بيئة","إنفايرونمنت فيريابل","إعدادات التشغيل الخارجية","store secrets outside code","database url in config","env file configuration","api key storage setting","runtime system variables","pass configuration to app","hidden settings for deployment","environment variables","env var","dotenv file"]
 ---
 ## التعريف
 

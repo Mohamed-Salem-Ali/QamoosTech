@@ -5,6 +5,7 @@ level: intermediate
 related: [bug, unit-test, integration-test]
 term: "False Negative"
 pronunciation: "FAWLS NEG-uh-tiv"
+keywords: ["missed bug in tests","test failed to catch defect","falsely passing test","test says pass but has bug","undetected error in testing","false negative test result","fals negative","test missed a real bug","test failed to detect issue","hidden bug in test suite","اختبار لم يكتشف الخطأ","فشل الاختبار في رصد المشكلة","نتيجة اختبار سلبية خاطئة","الاختبار نجح رغم وجود خطأ","النظام أغفل خطأ برمجي","فالس نيجيتيف","خطأ لم يتم رصده في الاختبار","اختبار يفوت الأخطاء الموجودة","عدم كشف الثغرة في الاختبار"]
 ---
 
 ## Definition

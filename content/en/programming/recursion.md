@@ -5,6 +5,7 @@ level: intermediate
 related: [loop, function]
 term: "Recursion"
 pronunciation: "rih-KUR-zhun"
+keywords: ["function calls itself","solve smaller problem with function","function calling itself repeatedly","recursion in programming","stackoverflow from function","base case missing in function","traverse tree with function","rekursion","recursive function definition","دالة تستدعي نفسها","الاستدعاء الذاتي للدالة","حل المشكلة باستدعاء نفسها","دالة تعيد استدعاء نفسها","نسيان حالة التوقف للدالة","المرور على الشجرة بالاستدعاء","ريكيرجن","الاستدعاء التكراري للدالة"]
 ---
 ## Definition
 

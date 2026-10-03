@@ -5,6 +5,7 @@ level: intermediate
 related: [sprint, backlog]
 term: "Burndown Chart"
 pronunciation: "BURN-down chart"
+keywords: ["graph showing remaining work in sprint","track remaining tasks against time","agile progress graph for sprint","sprint remaining work chart","visual graph of sprint progress","project management burn down chart","track sprint deadline and tasks","burn down graph agile","burndown","رسم بياني للعمل المتبقي في السبرنت","مخطط الاحتراق للسبرنت","معرفة المهام المتبقية في السبرنت","رسم بياني لتقدم المشروع أجايل","مخطط تقدم العمل في السبرنت","تتبع المهام المتبقية والوقت","مخطط بيرن داون","رسم بياني يوضح العمل المتبقي"]
 ---
 
 ## Definition

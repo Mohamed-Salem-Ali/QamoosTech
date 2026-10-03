@@ -6,6 +6,7 @@ related: [fine-tuning, ocr]
 term: "Dataset"
 translation: "مجموعة بيانات"
 pronunciation: "ديتاسِت"
+keywords: ["مجموعة معلومات للتدريب","بيانات لتعلم الآلة","مجموعة بيانات للنموذج","بيانات التدريب والاختبار","مجموعة صور موسومة","ديتاسيت","بيانات خام للتحليل","مجموعة بيانات للذكاء الاصطناعي","مدخلات تدريب النموذج","بيانات مصنفة للبحث","collection of training examples","data for machine learning","labeled information for model","data used for testing","input for ai training","data corpus","training samples collection","data set","data-set","raw information for analysis"]
 ---
 ## التعريف
 

@@ -5,6 +5,7 @@ level: beginner
 related: [request-response, endpoint]
 term: "Client vs Server"
 pronunciation: "KLY-ent versus SER-ver"
+keywords: ["difference between client and server","how web requests work","client vs server architecture","browser and backend communication","who handles the request","frontend and backend basics","client side vs server side","understanding web app structure","الفرق بين العميل والخادم","كيف يعمل الويب","الفرق بين كلاينت وسيرفر","من المسؤول عن الطلب","هيكلية الشبكة للويب","العميل والخادم في التطبيقات","الفرق بين الواجهة والخلفية","معمارية الطلب والاستجابة"]
 ---
 ## Definition
 

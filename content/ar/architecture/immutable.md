@@ -6,6 +6,7 @@ related: [event-driven, audit-logging]
 term: "Immutable"
 translation: "غير قابل للتغيير"
 pronunciation: "إميوتابل"
+keywords: ["بيانات لا يمكن تعديلها","منع تغيير البيانات بعد إنشائها","إنشاء نسخة جديدة بدل التعديل","كائنات ثابتة في البرمجة","الفرق بين للقراءة فقط وغير القابل للتغيير","تجنب الآثار الجانبية للبرمجة","هياكل بيانات غير قابلة للتغيير","اميوتابل","منع تعديل الكائنات برمجيا","data that cannot be changed","prevent object modification after creation","read only vs immutable","create new version instead of update","avoid side effects in code","imutable data structure","constant objects in programming","thread safe immutable objects","stop data mutation bugs"]
 ---
 ## التعريف
 

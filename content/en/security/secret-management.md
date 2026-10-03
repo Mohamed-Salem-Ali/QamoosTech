@@ -5,6 +5,7 @@ level: intermediate
 related: [encryption, environment-variable]
 term: "Secret Management"
 pronunciation: "SEE-krit MAN-ij-ment"
+keywords: ["secure storage for api keys","how to store passwords safely","prevent hardcoded credentials","centralized credential rotation","managing sensitive environment variables","vault for application secrets","secure access to database passwords","protecting private keys in code","best practices for secret storage","storing configuration secrets safely","تخزين كلمات المرور بشكل آمن","طريقة حفظ مفاتيح البرمجة","حماية بيانات الاعتماد الحساسة","إدارة مفاتيح الدخول المشفرة","تجنب كتابة كلمات السر برمجيا","نظام حفظ الأسرار والرموز","تحديث بيانات الاعتماد تلقائيا","تخزين آمن للمفاتيح الخاصة","سيكرت مانيدجمنت","أدوات حماية الأسرار البرمجية"]
 ---
 
 ## Definition

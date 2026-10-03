@@ -6,6 +6,7 @@ related: [accessibility, responsive-design]
 term: "RTL (Right-to-Left)"
 translation: "من اليمين إلى اليسار"
 pronunciation: "آر تي إل"
+keywords: ["دعم اللغة العربية في التصميم","عكس اتجاه الواجهة البرمجية","تخطيط من اليمين لليسار","دعم اللغات العربية والعبرية","ضبط اتجاه عناصر الموقع","تصميم واجهات تدعم العربية","انعكاس الواجهة في المواقع","طريقة تحويل الموقع للعربية","ضبط اتجاه النص والواجهة","تنسيق المواقع للغة العربية","right to left layout","mirrored interface design","arabic language web support","flip layout for localization","css direction property","arabic text alignment","mirroring ui components","left to right vs right to left","internationalization layout support","web design for arabic users"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [commit, merge, pull-request]
 term: "Branch"
 translation: "فرع"
 pronunciation: "برانش"
+keywords: ["فرع في جيت","خط عمل منفصل في git","إنشاء فرع جديد للتطوير","برانش","فرع جديد للكود","تطوير ميزة في فرع منفصل","كيف أعمل برانش","فرع العمل الرئيسي","separate line of work in git","create a new feature workspace","git branch","isolated development line","work on feature without breaking main","barnch","brnach","git checkout new line","parallel version of code"]
 ---
 ## التعريف
 

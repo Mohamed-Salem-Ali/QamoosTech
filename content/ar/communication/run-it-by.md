@@ -6,6 +6,7 @@ related: [loop-in, touch-base, follow-up]
 term: "Run it by"
 pronunciation: "رَان إيت بَاي"
 translation: "يستشير / يأخذ رأي"
+keywords: ["استشارة شخص قبل تنفيذ خطة","أخذ رأي الزميل في الكود","عرض الفكرة على الفريق أولا","مراجعة سريعة قبل دمج الكود","طلب ملاحظات على التصميم","استطلاع رأي المطورين","عرض الخطة على المهندس","فحص فكرة مع قائد الفريق","get feedback on code idea","ask for quick sanity check","share design plan for review","check with someone before merging","get opinion before taking action","run an idea past someone","ask teammate for quick review","consult colleague on a plan"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: beginner
 related: [restful-api]
 term: "SDK (Software Development Kit)"
 pronunciation: "es-dee-kay"
+keywords: ["tools to build apps","software development package","library for third party integration","helper code for external services","official development toolkit","how to integrate external services","set of libraries and documentation","prebuilt code for api calls","es-dee-kay","development kit for mobile apps","أدوات برمجية لبناء التطبيقات","حزمة تطوير البرمجيات","مكتبات لدمج خدمات خارجية","أدوات مساعدة للاتصال بالخدمات","مجموعة أدوات المطورين","كيفية دمج خدمات طرف ثالث","إس دي كي","أدوات رسمية لتطوير البرامج","مكتبات برمجية جاهزة للاستخدام","حزمة أدوات دمج الخدمات"]
 ---
 
 ## Definition

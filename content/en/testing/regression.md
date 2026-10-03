@@ -5,6 +5,7 @@ level: intermediate
 related: [unit-test, bug]
 term: "Regression"
 pronunciation: "rih-GRESH-un"
+keywords: ["feature stopped working suddenly","broke existing functionality after update","bug introduced by recent changes","code change broke old feature","unexpected side effect after deployment","recurrent software defect","regression testing","old bug returned","preventing feature breakage","issue after merge","عودة خطأ تم إصلاحه سابقاً","توقف ميزة كانت تعمل","خطأ ناتج عن تحديث","خلل بعد دمج الكود","تراجع في جودة النظام","مشكلة ظهرت بعد التعديل","ظهور عيوب برمجية قديمة","حدوث خطأ في وظيفة سابقة","ريجريشن","تعطل خصائص عملت سابقاً"]
 ---
 ## Definition
 

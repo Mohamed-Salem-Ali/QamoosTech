@@ -6,6 +6,7 @@ related: [deadline, sla]
 term: "Turnaround Time (TAT)"
 translation: "مدة الإنجاز"
 pronunciation: "ترنأراوند تايم"
+keywords: ["مدة الإنجاز","وقت إتمام الطلب","سرعة تسليم المهام","الوقت المستغرق للإنهاء","مدة تسليم المشروع","ترنأراوند تايم","وقت إنجاز العمل","time to complete a task","how long to finish a feature","delivery speed for requests","request completion duration","time from request to delivery","turn around time","task processing duration"]
 ---
 ## التعريف
 

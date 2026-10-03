@@ -6,6 +6,7 @@ related: [llm, prompt-engineering]
 term: "System Prompt"
 pronunciation: "سيستم برومبت"
 translation: "موجه النظام"
+keywords: ["تعليمات أولية للذكاء الاصطناعي","تحديد شخصية النموذج اللغوي","تعليمات النظام للذكاء الاصطناعي","موجه النظام","برومبت النظام","توجيهات النموذج الأساسية","إعداد سلوك الشات بوت","تحديد قواعد المحادثة للذكاء الاصطناعي","التعليمات البرمجية للنموذج","initial instructions for ai model","define llm behavior and persona","instructions given to ai before chat","global constraints for large language model","system instruction","ai personality configuration","developer prompt for chatgpt","base prompt for llm","system prompt","setup prompt for ai"]
 ---
 
 ## التعريف

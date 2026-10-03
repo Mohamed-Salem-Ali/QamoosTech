@@ -5,6 +5,7 @@ level: intermediate
 related: [component]
 term: "MDX"
 pronunciation: "em-dee-EKS"
+keywords: ["write react inside markdown","markdown with react components","embed components in markdown files","react markdown format","interactive documentation files","mdx format","mdx file extension","mdx components","كتابة رياكت داخل ماركداون","مكونات رياكت في ملفات ماركداون","دمج مكونات في النصوص","صيغة ملفات إم دي إكس","ملفات التوثيق التفاعلية","ماركداون مع مكونات رياكت"]
 ---
 ## Definition
 

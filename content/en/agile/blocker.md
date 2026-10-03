@@ -5,6 +5,7 @@ level: beginner
 related: [scrum-ceremonies, handoff]
 term: "Blocker"
 pronunciation: "BLOK-er"
+keywords: ["something stopping my work","waiting for another team","missing access to server","stuck on a task","issues in daily standup","task blocking progress","cant continue working","development roadblock","dependency preventing work","شيء يمنعني من العمل","متوقف عن إكمال مهمتي","مشكلة تعطل سير العمل","انتظار فريق آخر","نقص صلاحيات الوصول","عائق في الاجتماع اليومي","معطلات العمل البرمجي","مشكلة تؤخر المشروع","لا استطيع المتابعة"]
 ---
 ## Definition
 

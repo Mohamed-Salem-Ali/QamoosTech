@@ -6,6 +6,7 @@ related: [viewport, component]
 term: "Responsive Design"
 translation: "التصميم المتجاوب"
 pronunciation: "ريسبونسيف ديزاين"
+keywords: ["تصميم موقع للجوال","جعل الصفحة تناسب جميع الشاشات","التصميم المتجاوب","موقع متوافق مع الموبايل","تغيير حجم الصفحة تلقائيا","ريسبونسيف ديزاين","تكييف الموقع مع حجم الشاشة","تصميم الواجهات للجوال","صفحات ويب مرنة الحجم","make website work on mobile","adapt layout to screen size","mobile friendly web design","flexible screen size layout","resizing web pages automatically","rih-sponsiv dizyn","mobile first layouts","resize for phones and tablets","responsive web design","screen adaptation frontend"]
 ---
 ## التعريف
 

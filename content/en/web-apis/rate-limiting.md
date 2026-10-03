@@ -5,6 +5,7 @@ level: intermediate
 related: [status-code, fail-open-vs-fail-closed]
 term: "Rate Limiting"
 pronunciation: "RAYT LIM-it-ing"
+keywords: ["stop users spamming my api","too many requests error","limit api requests per user","prevent api abuse","request throttling","api quota limits","block excessive requests","rate limiter","too many requests","protect server from overload","منع المستخدمين من إرسال طلبات كثيرة","خطأ عدد الطلبات الكثيرة","تحديد عدد طلبات الـ api","حماية الخادم من الضغط","تحديد معدل الاستخدام","الحد الأقصى للطلبات","منع إساءة استخدام الـ api","ريت ليميتينج","تقنين الطلبات"]
 ---
 ## Definition
 

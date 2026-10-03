@@ -6,6 +6,7 @@ related: [database, query, latency-vs-throughput]
 term: "Connection Pool"
 translation: "مجمع اتصالات"
 pronunciation: "كُونيكْشِن بُول"
+keywords: ["إعادة استخدام اتصالات قاعدة البيانات","تسريع الاستعلامات قاعدة البيانات","مجمع الاتصالات","إعدادات الاتصال بقاعدة البيانات","تجنب فتح اتصال جديد","استنفاد اتصالات قاعدة البيانات","تحسين أداء قاعدة البيانات","ذاكرة الاتصالات المؤقتة","حجم مجمع الاتصالات","reuse database connections","speed up database queries","database connection cache","too many open connections","connection pool settings","avoid opening new database connections","backend performance optimization","connection limit exhausted","database connection recycling","pooling connections"]
 ---
 
 ## التعريف

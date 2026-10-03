@@ -6,6 +6,7 @@ related: [database, schema]
 term: "Table, Row, Column"
 translation: "الجدول والصف والعمود"
 pronunciation: "تيبل، رو، كولم"
+keywords: ["الجدول والصف والعمود في قواعد البيانات","ما هو جدول قاعدة البيانات","الفرق بين الصف والعمود","اضافة عمود الى جدول اس كيو ال","هقسيمة قاعدة البيانات العلائقية","الاعمدة والصفوف في اس كيو ال","سجل وحقل في قاعدة البيانات","شرح الجداول في قواعد البيانات","database table and columns","sql rows and fields","what is a database table","difference between row and column","database record and field","add column to sql table","tebel ro kolum","relational database structure basics"]
 ---
 ## التعريف
 

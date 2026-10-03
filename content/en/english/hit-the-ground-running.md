@@ -5,6 +5,7 @@ level: intermediate
 related: [wrap-up]
 term: "Hit the ground running"
 pronunciation: "HIT the GROUND RUN-ing"
+keywords: ["start working productively immediately","ready to work from day one","no training period needed","hit the ground running meaning","get up to speed quickly","quick start on new project","productive from the start","immediate contribution to team","fast onboarding process","start working without delay","الانطلاق في العمل بسرعة","الإنتاجية من أول يوم","بدء العمل بدون تدريب","الانخراط في المشروع فوراً","جاهز للعمل من البداية","بدء المهام بدون تأخير","العمل بفعالية منذ اليوم الأول","مصطلح الانطلاق السريع في العمل","كيف أقول أنني سأبدأ فوراً","الإنتاجية المباشرة عند التوظيف"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [message-queue, immutable]
 term: "Event-driven"
 translation: "مبني على الأحداث"
 pronunciation: "إيفنت دريفن"
+keywords: ["تصميم مبني على الأحداث","معمارية مدفوعة بالأحداث","الأنظمة المتفاعلة مع الأحداث","ربط الخدمات عبر الأحداث","إيفنت دريفن","تصميم الخدمات غير المترابطة","معمارية الميكروسيرفس المتفاعلة","التصميم غير المتزامن للأحداث","systems that react to events","loosely coupled microservices design","architecture based on triggers","asynchronous state change pattern","event driven architecture","eda pattern","reactive system design","services reacting to actions","decoupled backend architecture"]
 ---
 ## التعريف
 

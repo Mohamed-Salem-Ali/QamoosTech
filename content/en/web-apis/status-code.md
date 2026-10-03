@@ -5,6 +5,7 @@ level: beginner
 related: [request-response, endpoint]
 term: "Status Code"
 pronunciation: "STAY-tus KOHD"
+keywords: ["http response numbers","api success error codes","what does 404 mean","http error digits","check request result code","server response status","api status numbers","http status codes list","meaning of 200 404 500","http return values","أرقام استجابة الخادم","رموز نجاح أو فشل الطلب","معاني أرقام الـ http","ماذا تعني أرقام الخطأ","رموز حالة الطلبات","ستاتس كود","رموز استجابة الـ api","أرقام نتائج الـ http","كيف أعرف حالة الطلب","رموز الخطأ في الخادم"]
 ---
 ## Definition
 

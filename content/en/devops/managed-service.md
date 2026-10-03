@@ -5,6 +5,7 @@ level: beginner
 related: [serverless, scalability]
 term: "Managed Service"
 pronunciation: "MAN-ijd SUR-vis"
+keywords: ["cloud provider handles maintenance","outsourced infrastructure management","stop patching servers manually","fully hosted database solution","vendor managed cloud components","reduce devops operational overhead","managed services vs unmanaged","platform as a service","automated server administration","offload infrastructure maintenance","managed service provider model","خدمة سحابية مدارة بالكامل","استضافة تدار بواسطة المزود","تخفيف عبء صيانة الخوادم","خدمات تقنية مدارة خارجياً","الفرق بين الخدمة المدارة والذاتية","من يتولى تحديث البنية التحتية","خدمات سحابية لا تحتاج صيانة","مانجد سيرفيس","إدارة البنية التحتية من المزود","تقليل مهام فريق التشغيل","خدمات مقدمة من طرف ثالث"]
 ---
 
 ## Definition

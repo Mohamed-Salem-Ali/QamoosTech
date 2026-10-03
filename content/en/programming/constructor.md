@@ -5,6 +5,7 @@ level: beginner
 related: [class, object]
 term: "Constructor"
 pronunciation: "kun-STRUK-ter"
+keywords: ["initialize new object instance","class initialization method","set initial property values","create object from class","construktor","constractor","init method in class","object instantiation function","run automatically on creation","دالة تهيئة الكائن","إنشاء كائن جديد من الفئة","دالة البناء في البرمجة","تهيئة القيم الأولية للفئة","المُنشئ","كونستركتور","دالة الإنشاء التلقائية","تعيين خصائص الكائن الأولية"]
 ---
 
 ## Definition

@@ -6,6 +6,7 @@ related: [backlog, mvp]
 term: "User Story"
 translation: "قصة مستخدم"
 pronunciation: "يوزر ستوري"
+keywords: ["وصف ميزات النظام","بصفتي مستخدم أريد","كتابة متطلبات أجايل","تحديد احتياجات المستخدم","يوزر ستوري","قصة المستخدم","شرح الميزة من وجهة نظر المستخدم","صيغة طلب الميزات","متطلبات البرمجيات البسيطة","وصف مختصر لطلب العميل","تخطيط المهام البرمجية","سرد احتياجات المستخدم","agile feature description","as a user i want","simple requirement format","user needs documentation","writing agile requirements","user centered feature request","yoozer storee","agile backlog item","short feature narrative","defining product features","user story format","customer goal description"]
 ---
 ## التعريف
 

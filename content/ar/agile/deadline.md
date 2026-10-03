@@ -6,6 +6,7 @@ related: [estimate, milestone]
 term: "Deadline"
 translation: "موعد نهائي"
 pronunciation: "ديدلاين"
+keywords: ["تاريخ تسليم المشروع","آخر موعد للتسليم","موعد الانتهاء من العمل","تاريخ استحقاق المهام","متى ينتهي العمل","الحد الزمني للمشروع","ديدلاين المشروع","تاريخ الإنجاز المطلوب","موعد التسليم النهائي","تاريخ انتهاء المهمة","final delivery date","project completion date","due date for tasks","when is this finished","last day for submission","time limit for project","target completion date","firm date for delivery","dedline spelling","project schedule constraint"]
 ---
 ## التعريف
 

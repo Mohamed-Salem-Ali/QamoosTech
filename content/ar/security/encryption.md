@@ -6,6 +6,7 @@ related: [hashing, field-level-encryption]
 term: "Encryption"
 translation: "التشفير"
 pronunciation: "إنكريبشن"
+keywords: ["تحويل البيانات لرموز غير مفهومة","حماية البيانات من الاختراق","تأمين المعلومات الحساسة","طريقة قفل البيانات بمفتاح","تشفير قاعدة البيانات","إخفاء محتوى الملفات","الفرق بين التشفير والهاش","حماية البيانات اثناء النقل","إنكريبشن","تأمين البيانات المخزنة","جعل البيانات غير قابلة للقراءة","تشفير البيانات الحساسة","make data unreadable","scramble sensitive information","secure data with keys","protect files from unauthorized access","data at rest security","encrypting user information","how to hide data","reversible data protection","encoding data for privacy","encryption vs hashing","data obfuscation techniques","protecting database fields"]
 ---
 ## التعريف
 

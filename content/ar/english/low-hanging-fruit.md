@@ -6,6 +6,7 @@ related: [move-the-needle]
 term: "Low-hanging fruit"
 translation: "المكاسب السهلة"
 pronunciation: "لو هانجينج فروت"
+keywords: ["المكاسب السهلة","المهام السهلة أولا","أشياء سهلة وسريعة القيمة","مهام سهلة التنفيذ","حلول سريعة وسهلة","ترتيب الأولويات السهلة","لو هانجينج فروت","مكاسب سريعة للتخطيط","easy tasks for quick wins","tasks to do first","quick value features","simple tasks in backlog","easy performance improvements","low hanging fruit","quick wins prioritization","easy items to implement","lo hanging fruit"]
 ---
 ## التعريف
 

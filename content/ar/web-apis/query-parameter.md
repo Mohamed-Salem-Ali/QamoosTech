@@ -6,6 +6,7 @@ related: [endpoint, pagination]
 term: "Query Parameter"
 translation: "معامل الاستعلام"
 pronunciation: "كويري باراميتر"
+keywords: ["متغيرات نهاية الرابط","معامل الاستعلام في الـ url","تصفية النتائج عبر الرابط","باراميتر البحث في الرابط","المتغيرات بعد علامة الاستفهام","مرشحات الرابط الإلكتروني","معاملات البحث الاختيارية","كيف أضيف باراميتر للرابط","قيم الفلترة في الـ api","معامل الاستعلام","filter results using url","variables after question mark","get request parameters","url parameters","query string","optional url variables","filtering api results","passing arguments in url","url search params","query param"]
 ---
 ## التعريف
 

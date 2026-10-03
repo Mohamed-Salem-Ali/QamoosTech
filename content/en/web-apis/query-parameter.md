@@ -5,6 +5,7 @@ level: beginner
 related: [endpoint, pagination]
 term: "Query Parameter"
 pronunciation: "KWEER-ee puh-RAM-ih-ter"
+keywords: ["filter results using url","variables after question mark","get request parameters","url parameters","query string","optional url variables","filtering api results","passing arguments in url","url search params","query param","متغيرات نهاية الرابط","معامل الاستعلام في الـ url","تصفية النتائج عبر الرابط","باراميتر البحث في الرابط","المتغيرات بعد علامة الاستفهام","مرشحات الرابط الإلكتروني","معاملات البحث الاختيارية","كيف أضيف باراميتر للرابط","قيم الفلترة في الـ api","معامل الاستعلام"]
 ---
 ## Definition
 

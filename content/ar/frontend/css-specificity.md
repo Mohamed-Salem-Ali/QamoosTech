@@ -5,6 +5,7 @@ level: beginner
 related: []
 term: "CSS Specificity"
 pronunciation: "سي إس إس سبيسيفيسيتي"
+keywords: ["ترتيب أولوية محددات سي إس إس","حل مشكلة عدم تطبيق التنسيقات","تجاوز تنسيقات ملفات سي إس إس","أولوية الكلاسات والآي دي في سي إس إس","لماذا لا يعمل كود السي إس إس","حساب وزن المحددات في سي إس إس","الفرق بين الأولوية والتسلسل في سي إس إس","توليف أولوية تنسيقات الويب","css selector priority order","override existing framework styles","why is my css not applying","css weights and selectors","element selector ranking algorithm","fix overridden css rules","css specificity vs cascade","make css rule more specific","css specificity calculation"]
 ---
 
 ## التعريف

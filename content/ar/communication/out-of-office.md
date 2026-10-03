@@ -6,6 +6,7 @@ related: [heads-up]
 term: "Out of office (OOO)"
 translation: "خارج المكتب"
 pronunciation: "أوت أوف أوفيس"
+keywords: ["رسالة غياب تلقائية","تفعيل الرد التلقائي","إشعار خارج المكتب","رسالة إجازة رسمية","تنبيه عدم التواجد","ضبط حالة الغياب","رد البريد الإلكتروني التلقائي","إبلاغ الفريق بالغياب","أوت أوف أوفيس","كيفية كتابة رد الغياب","automated away message","email auto reply","away for vacation status","notify team of absence","ooo email response","setting holiday status","vacation mode auto responder","out of office notification","away from work message","how to set ooo"]
 ---
 ## التعريف
 

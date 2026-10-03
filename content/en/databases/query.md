@@ -5,6 +5,7 @@ level: beginner
 related: [index, join]
 term: "Query"
 pronunciation: "KWEER-ee"
+keywords: ["request data from database","sql statement to read data","find slow database requests","retrieve records from sql","database search command","write sql select statement","optimize slow database code","fetch data from tables","db query","kwery","طلب بيانات من قاعدة البيانات","جلب معلومات من قاعدة البيانات","البحث في قواعد البيانات","كتابة أوامر اس كيو ال","استعلام قاعدة البيانات","تحسين أداء الاستعلامات البطاء","استرجاع السجلات من الجدول","كويري","جملة استعلام sql"]
 ---
 ## Definition
 

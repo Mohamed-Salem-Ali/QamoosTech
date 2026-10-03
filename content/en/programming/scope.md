@@ -5,6 +5,7 @@ level: beginner
 related: [variable, function]
 term: "Scope"
 pronunciation: "SKOHP"
+keywords: ["where variables can be accessed","variable visibility in functions","fix variable is not defined","variable lifespan in code","block level variable access","function variable availability","global vs local variables","code block visibility","skop","variable context","مدى رؤية المتغيرات","أين يمكن استخدام المتغير","النطاق البرمجي للمتغيرات","المتغيرات المحلية والعالمية","حل خطأ متغير غير معرف","مكان ظهور المتغير","حياة المتغير في الكود","سكوب المتغيرات","نطاق المتغير"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [llm, prompt-engineering, token]
 term: "Context Window"
 pronunciation: "كونتيكست ويندو"
 translation: "نافذة السياق"
+keywords: ["الحد الأقصى للنصوص للذكاء الاصطناعي","سعة ذاكرة نموذج اللغة","حجم المدخلات المسموح بها للنموذج","كمية النصوص التي يتذكرها النموذج","نافذة سياق نموذج اللغة","حد الرموز في المحادثة","سعة معالجة النصوص للذكاء الاصطناعي","الحد الأقصى لطول الـ prompt","ذاكرة الجلسة الحالية للنموذج","تجاوز حد الذاكرة المؤقتة","llm memory limit","ai token capacity","maximum prompt length","model input buffer size","context window size","how much text can ai read","ai session memory limit","model text processing limit","token limit per prompt","ai conversation history capacity"]
 ---
 
 ## التعريف

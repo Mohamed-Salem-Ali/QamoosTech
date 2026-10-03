@@ -5,6 +5,7 @@ level: beginner
 related: [responsive-design]
 term: "Box Model"
 pronunciation: "بوكس موديل"
+keywords: ["نموذج الصندوق في css","الحشوة والهوامش والحدود في التصميم","كيفية حساب حجم عنصر html","مشاكل المسافات بين عناصر الموقع","الفرق بين الهوامش والحشوة","تنسيق عناصر صفحات الويب","خصائص الحجم والهوامش في css","تصميم التنسيقات والمسافات","css element layout spacing","content padding border margin","how browser calculates element size","fix unexpected spacing in css","box sizing properties","css rectangular box structure","margin vs padding difference","inspect element layout in devtools"]
 ---
 
 ## التعريف

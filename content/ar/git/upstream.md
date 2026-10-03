@@ -6,6 +6,7 @@ related: [branch, fork, repository]
 term: "Upstream"
 pronunciation: "أب-ستريم"
 translation: "المستودع الرئيسي / المصدر"
+keywords: ["المستودع الأصلي في جيت","ربط الفرع بالمستودع الرئيسي","الفرق بين أوريجين وأبستريم","المستودع الأساسي للمشروع","جلب التغييرات من المصدر","تحديث النسخة من المستودع الأصلي","إضافة المستودع البعيد الأصلي","أبستريم في جيت","original repository after forking","git remote upstream vs origin","track main project repository","pull from original repo","link fork to original","upstream repository in git","configure remote upstream","difference between origin and upstream"]
 ---
 
 ## التعريف

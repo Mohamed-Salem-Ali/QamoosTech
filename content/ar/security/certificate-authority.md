@@ -5,6 +5,7 @@ level: intermediate
 related: [authentication-vs-authorization, encryption]
 term: "Certificate Authority (CA)"
 pronunciation: "سيرتيفيكيت أوثوريتي"
+keywords: ["جهة إصدار الشهادات الرقمية","الجهة الموثوقة لتأمين المواقع","إصدار شهادات ssl","مزود شهادات التشفير","التحقق من هوية المواقع","سيرتيفيكيت أوثوريتي","الجهة المسؤولة عن التوقيع الرقمي","مرجع الثقة للشهادات","جهة التصديق الرقمي","إصدار شهادات https","ssl certificate issuer","digital identity verifier","trusted security provider","how to get https certificate","root of trust entity","website security signer","who issues ssl certificates","public key infrastructure provider","ca certificate authority","ssl signing authority"]
 ---
 
 ## التعريف

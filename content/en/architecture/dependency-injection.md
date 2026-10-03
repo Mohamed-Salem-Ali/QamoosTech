@@ -5,6 +5,7 @@ level: intermediate
 related: [unit-test, mocking, middleware]
 term: "Dependency Injection"
 pronunciation: "dih-PEN-den-see in-JEK-shun"
+keywords: ["pass objects from outside","avoid new keyword inside","make code easier to test","decouple classes and services","di pattern for architecture","injecting services into components","dependency injection pattern","how to mock dependencies","inversion of control pattern","provide dependencies to classes","تمرير الكائنات من الخارج","تجنب استخدام كلمة new","جعل الكود قابلا للاختبار","فصل الخدمات عن الفئات","نمط حقن التبعيات","تزويد المكونات بالخدمات","ديبندنسي إنجكشن","طريقة حقن الخدمات","هيكلة الكود المعتمد","تسهيل عمل اختبارات الوحدة"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [low-hanging-fruit]
 term: "Move the needle"
 translation: "يُحدث فرقًا ملموسًا"
 pronunciation: "موف ذا نيدل"
+keywords: ["إحداث تغيير جوهري","تحقيق نتائج ملموسة","تطوير ذو أثر واضح","إضافة قيمة حقيقية","تغيير يؤثر في الأداء","نتائج قابلة للقياس","موف ذا نيدل","ما الذي يفرق فعليا","تحسينات ذات أثر كبير","تغيير ملموس في النتائج","make a significant impact","achieve measurable results","create noticeable improvement","drive real progress","have a substantial effect","significant performance boost","worth the effort","bring meaningful change","deliver high value results","impact key metrics"]
 ---
 ## التعريف
 

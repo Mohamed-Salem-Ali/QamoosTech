@@ -6,6 +6,7 @@ related: [blocker, dependency-injection, latency-vs-throughput]
 term: "Bottleneck"
 pronunciation: "بوتل-نيك"
 translation: "عنق زجاجة"
+keywords: ["أسباب بطء أداء النظام","نقطة ازدحام في العمل","محدودية القدرة الاستيعابية","مشاكل بطء تدفق المهام","تحديد معوقات الأداء","عنق الزجاجة في البرمجة","تأخر العمل بسبب نقص الموارد","نقطة اختناق في النظام","تحليل أسباب تأخر السبرنت","بوتل نيك في الأداء","what slows down system performance","workflow capacity limit","process speed constraint","why is my code slow","performance constraint point","identifying system throughput issues","common development process delays","bottelneck spelling","points of congestion in software","resource capacity planning issues"]
 ---
 
 ## التعريف

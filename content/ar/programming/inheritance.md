@@ -6,6 +6,7 @@ related: [class, interface]
 term: "Inheritance"
 translation: "الوراثة"
 pronunciation: "إنهيرتانس"
+keywords: ["إعادة استخدام خصائص الكلاس","علاقة هو نوع من","البرمجة كائنية التوجه","اشتقاق كلاس من آخر","الوراثة في البرمجة","وراثة الدوال والخصائص","إنشاء كلاس فرعي","الفرق بين الوراثة والتركيب","توسيع وظائف الكلاس الأساسي","مفهوم الوراثة في oop","reuse class properties","child class from parent","is a relationship","object oriented programming concepts","extending base class methods","subclassing in code","oop class hierarchy","inheritance vs composition","sharing code between classes","parent child class structure"]
 ---
 ## التعريف
 

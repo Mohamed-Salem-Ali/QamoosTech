@@ -6,6 +6,7 @@ related: [query, table-row-column, n-plus-one]
 term: "Join"
 translation: "ربط الجداول"
 pronunciation: "جوين"
+keywords: ["ربط جدولين في قاعدة البيانات","دمج جدولين بناء على عمود","استعلام من جدولين مختلفين","ربط بيانات جدولين sql","كيف أعمل join بين جدولين","الفرق بين join و union","ربط الجداول في قواعد البيانات","امر الربط في sql","combine two tables in sql","merge tables on shared column","sql join operation","inner join and left join","link tables using id","query data from multiple tables","sql table relationship query","join vs union sql","connect two tables together"]
 ---
 ## التعريف
 

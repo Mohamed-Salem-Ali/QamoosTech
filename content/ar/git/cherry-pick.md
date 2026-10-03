@@ -6,6 +6,7 @@ related: [commit, merge, rebase]
 term: "Cherry-pick"
 pronunciation: "تشيري بيك"
 translation: "انتقاء الالتزامات"
+keywords: ["نقل التزام واحد بين الفروع","نسخ كوميت معين لفرع آخر","اخذ التزام بدون دمج الفرع","نقل إصلاح من فرع لآخر","تشيري بيك","انتقاء الالتزامات","تطبيق كوميت محدد","جلب التزام معين في جيت","apply single commit to another branch","copy specific commit to branch","take commit from another branch","grab one commit without merging","git apply specific commit","transfer single commit git","cherry pick","chery pick","git copy commit"]
 ---
 
 ## التعريف

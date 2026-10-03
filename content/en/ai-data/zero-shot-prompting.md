@@ -5,6 +5,7 @@ level: intermediate
 related: [llm, prompt-engineering]
 term: "Zero-shot Prompting"
 pronunciation: "ZEER-oh shot PROMP-ting"
+keywords: ["prompt llm without examples","zero shot learning","ask ai without examples","zero shot text generation","prompting without training data","zero shot inference","direct prompt without examples","zeroshot prompt technique","base llm instruction prompt","توجيه النموذج بدون أمثلة مسبقة","الطلب من الذكاء الاصطناعي بدون أمثلة","استخدام النموذج اللغوي بدون أمثلة","كتابة الأوامر بدون أمثلة توضيحية","تقنية زيرو شوت برومبتينج","الاعتماد على معرفة النموذج السابقة","سؤال النموذج مباشرة بدون أمثلة","برمجة الأوامر بدون أمثلة"]
 ---
 
 ## Definition

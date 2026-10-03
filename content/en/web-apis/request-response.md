@@ -5,6 +5,7 @@ level: beginner
 related: [client-vs-server, status-code]
 term: "Request / Response"
 pronunciation: "rih-KWEST / rih-SPONS"
+keywords: ["client server communication pattern","how browser talks to server","api call and return","sending data to server","getting server response back","http message exchange","network request lifecycle","request response cycle","check network traffic logs","client server interaction model","نمط التواصل بين العميل والخادم","كيفية إرسال واستقبال البيانات","دورة الطلب والاستجابة","آلية عمل الويب الأساسية","معالجة طلبات الخادم","فحص حركة الشبكة في المتصفح","الاستعلام والرد من الخادم","تبادل البيانات بين العميل والخادم","ريكويست وريسبونس","فهم دورة حياة الطلب"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [nda, proposal, milestone, scope-creep]
 term: "Freelance Contract"
 translation: "عقد عمل حر"
 pronunciation: "فريلانس كونتراكت"
+keywords: ["اتفاقية قانونية بين المستقل والعميل","حفظ حقوقي مع العميل المستقل","عقد عمل حر للمبرمجين","تحديد نطاق العمل وشروط الدفع","كتابة عقد عمل حر","اتفاقية بدء المشروع البرمجي","عقد المستقلين مع العملاء","نموذج عقد عمل حر","عقد الخدمات المستقلة","agreement between freelancer and client","protect myself before starting project","client project agreement template","freelancer legal agreement document","define payment terms and scope","independent contractor agreement","prevent scope creep with contract","freelance work contract","client onboarding contract","freelance agreement"]
 ---
 
 ## التعريف

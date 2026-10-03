@@ -6,6 +6,7 @@ related: [scalability, rbac]
 term: "Multi-tenant SaaS"
 translation: "برمجيات كخدمة متعددة العملاء"
 pronunciation: "مالتي تينانت ساس"
+keywords: ["بنية تطبيق لعدة عملاء","عزل بيانات العملاء في النظام","تطبيق واحد يخدم مستخدمين مختلفين","استراتيجية مشاركة قاعدة البيانات","تعدد المستأجرين في البرمجيات","كيفية فصل بيانات العملاء برمجيا","تصميم نظام متعدد العملاء","منع تداخل بيانات المستخدمين","مفهوم المالتي تينانت","بنية الساس متعددة العملاء","shared database for multiple customers","isolating tenant data in saas","how to implement multi tenancy","single application multiple clients architecture","shared environment different user data","tenant id filtering logic","multi tenant architecture design","saas data isolation strategies","hosting many clients in one app","multi tenancy vs multi instance","secure data separation for tenants"]
 ---
 ## التعريف
 

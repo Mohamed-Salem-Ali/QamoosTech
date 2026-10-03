@@ -5,6 +5,7 @@ level: beginner
 related: [follow-up, heads-up, loop-in]
 term: "CC someone"
 pronunciation: "SEE-see SUM-wun"
+keywords: ["add someone to email thread","keep manager in the loop","copy someone on email","include person for visibility","send email copy to others","keep team informed via email","carbon copy email recipient","notify someone via email thread","see someone on email","add person to conversation thread","وضع شخص في نسخة البريد","إدراج شخص للاطلاع فقط","إرسال نسخة من الإيميل","إبقاء المدير في الصورة","إضافة شخص للمراسلات","نسخ شخص في الإيميل","متابعة المحادثة عبر الإيميل","وضع شخص في الـ سي سي","إعلام شخص عبر البريد","إدراج طرف ثالث في المحادثة"]
 ---
 
 ## Definition

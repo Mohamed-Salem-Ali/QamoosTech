@@ -6,6 +6,7 @@ related: [deliverable, estimate, fixed-price-vs-hourly]
 term: "Proposal"
 translation: "عرض"
 pronunciation: "بروبوزال"
+keywords: ["عرض سعر لمشروع","تقديم عرض للعميل","كتابة عرض عمل حر","عرض فني ومالي","كيفية الحصول على مشاريع","نموذج عرض عمل","بروبوزال عمل حر","عرض تقديم خدمات برمجية","مستند عرض المشروع","طريقة مراسلة العملاء","freelance project bid","how to pitch clients","client project offer document","writing a project scope","business bid for work","project quote and timeline","freelance job application","professional service offer","pruposal spelling","bidding on freelance jobs"]
 ---
 ## التعريف
 

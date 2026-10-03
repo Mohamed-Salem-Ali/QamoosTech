@@ -6,6 +6,7 @@ related: [llm, token]
 term: "Prompt Engineering"
 translation: "هندسة التعليمات"
 pronunciation: "برومبت إنجنيرينج"
+keywords: ["كيف أكتب تعليمات للذكاء الاصطناعي","تحسين مدخلات نماذج اللغات الكبيرة","الحصول على نتائج أفضل من الذكاء الاصطناعي","هندسة الأوامر","كتابة الأوامر للذكاء الاصطناعي","تحسين صياغة التعليمات","برومبت إنجنيرينج","طريقة كتابة البرومبت","توجيه نماذج الذكاء الاصطناعي","how to write ai prompts","optimizing inputs for llm","getting better answers from chatgpt","writing system prompts effectively","improving ai model responses","prompt tuning and design","crafting instructions for ai","how to talk to llms","prompt enjineering","ai instructions optimization"]
 ---
 ## التعريف
 

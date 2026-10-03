@@ -6,6 +6,7 @@ related: [rollback, deployment]
 term: "Feature Flag"
 translation: "مفتاح تفعيل الميزة"
 pronunciation: "فيتشر فلاج"
+keywords: ["تفعيل الميزة بدون نشر جديد","مفتاح تشغيل الميزات برمجيا","التحكم في ظهور الميزات","إصدار الميزات بشكل تدريجي","إيقاف الميزات عند حدوث أعطال","تفعيل الميزة لمستخدمين محددين","مفتاح تبديل الوظائف البرمجية","فيتشر فلاج","التحكم في الميزات عن بعد","مفاتيح تفعيل الخصائص","toggle features without deployment","enable code for specific users","turn off broken features instantly","gradual rollout control switch","dynamic feature toggling","conditional code execution switch","beta testing release control","feature toggle pattern","remote configuration switch","kill switch for features"]
 ---
 ## التعريف
 

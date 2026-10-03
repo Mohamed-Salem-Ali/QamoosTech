@@ -6,6 +6,7 @@ related: [responsive-design, viewport]
 term: "Media Query"
 pronunciation: "ميديا كويري"
 translation: "استعلام الوسائط"
+keywords: ["تنسيق الموقع حسب حجم الشاشة","جعل التصميم متجاوب مع الجوال","تغيير شكل الموقع في الموبايل","استعلامات الوسائط في سي اس اس","تعديل التنسيق حسب عرض الشاشة","برمجة المواقع المتجاوبة","ميديا كويري","تغيير ستايل الموقع عند التصغير","تنسيق العناصر بناء على الجهاز","استعلامات الشاشة في css","responsive css breakpoints","make website fit mobile","css for different screen sizes","adjust layout for tablets","detect screen resolution in css","media queries syntax","mobile friendly css rules","responsive design code technique","css width based styling","adapt design to device size"]
 ---
 
 ## التعريف

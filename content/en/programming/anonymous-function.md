@@ -5,6 +5,7 @@ level: beginner
 related: [function, callback]
 term: "Anonymous Function"
 pronunciation: "uh-NON-uh-muhs FUHNGk-shuhn"
+keywords: ["function without a name","define function inline","pass logic as argument","lambda expression syntax","unnamed function definition","callback function inline","functional programming helper","anonymous function spelling","function assigned to variable","quick function definition","دالة بدون اسم","تعريف دالة داخلية","دالة استرجاعية مباشرة","دالة بلا اسم","طريقة تعريف دالة مجهولة","استخدام دالة كمعامل","دالة لامبدا","دالة مجهولة الهوية","تعريف دالة داخل متغير","دالة غير مسماة"]
 ---
 
 ## Definition

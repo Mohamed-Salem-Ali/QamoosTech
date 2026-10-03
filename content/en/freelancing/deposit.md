@@ -5,6 +5,7 @@ level: beginner
 related: [invoice, milestone, proposal, retainer]
 term: "Deposit"
 pronunciation: "duh-POZ-it"
+keywords: ["upfront payment before starting project","initial project fee for freelancers","secure project with advance payment","advance payment for freelance work","client pays before writing code","down payment for software project","initial project deposit","freelance upfront fee","depozit","دفعة مقدمة قبل بدء المشروع","عربون للعمل الحر","دفع مقدم للمستقلين","الدفعة الأولى من العميل","عربون لتأكيد المشروع","دفع جزء من المبلغ مقدماً","تغطية التكاليف الأولية للمشروع","ديپوزيت"]
 ---
 
 ## Definition

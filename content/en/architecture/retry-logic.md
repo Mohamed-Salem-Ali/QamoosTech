@@ -5,6 +5,7 @@ level: beginner
 related: [idempotency, exception]
 term: "Retry Logic"
 pronunciation: "REE-try LAJ-ik"
+keywords: ["automatically repeat failed requests","handle transient network errors","re-attempt failed api calls","exponential backoff implementation","resilience pattern for failures","retry mechanism for services","try again after failure","automatic operation recovery","handle temporary service downtime","retry logic pattern","إعادة تنفيذ الطلبات الفاشلة","تكرار المحاولة عند الخطأ","معالجة أخطاء الشبكة المؤقتة","نمط إعادة المحاولة التلقائية","إعادة إرسال طلبات api","تجاوز انقطاع الاتصال المؤقت","آلية إعادة المحاولة","إعادة تنفيذ العمليات المتقطعة","ريتراي لوجيك","تكرار العملية عند الفشل"]
 ---
 
 ## Definition

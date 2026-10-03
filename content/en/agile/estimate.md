@@ -5,6 +5,7 @@ level: beginner
 related: [deadline, sprint]
 term: "Estimate"
 pronunciation: "ES-tih-mit"
+keywords: ["how long will it take","calculate effort for task","predict project timeline","rough guess for development","agile task sizing","time allocation for features","predicting work duration","effort estimation techniques","planning sprint workload","give a time quote","software development forecasting","تخمين الوقت المطلوب للمهمة","حساب الجهد اللازم للعمل","توقع مدة تنفيذ المهام","تحديد الجدول الزمني للمشروع","تقدير العمل في اجايل","كم من الوقت يستغرق","تخمين تقريبي للعمل","توزيع الوقت على المهام","تخطيط حجم العمل البرمجي","إستيميت المهام البرمجية"]
 ---
 ## Definition
 

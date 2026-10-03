@@ -6,6 +6,7 @@ related: [vulnerability, database, query]
 term: "SQL Injection (SQLi)"
 translation: "حقن إس كيو إل"
 pronunciation: "إس كيُو إل إِنْجيكشِن"
+keywords: ["ثغرة حقن قواعد البيانات","اختراق قاعدة البيانات عبر المدخلات","حقن إس كيو إل","تجاوز تسجيل الدخول بثغرة","تأمين المدخلات ضد الاختراق","منع حقن قاعدة البيانات","استخدام الاستعلامات المجهزة","ثغرة sqli الأمنية","دمج النصوص في الاستعلامات","hack database via input form","sqli vulnerability","sql injection","bypass login with quotes","malicious sql query execution","unsafe string concatenation in queries","sanitize user input for database","prevent database hacking attacks","use prepared statements","parameterized queries"]
 ---
 
 ## التعريف

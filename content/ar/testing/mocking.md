@@ -6,6 +6,7 @@ related: [unit-test, dependency-injection]
 term: "Mocking"
 translation: "المحاكاة"
 pronunciation: "موكينج"
+keywords: ["إنشاء كائنات وهمية للاختبار","استبدال التبعيات في الاختبارات","محاكاة استدعاءات قاعدة البيانات","تجنب الاتصال بخدمات حقيقية","عمل موك للخدمات الخارجية","كيفية عمل محاكاة برمجية","استخدام كائنات وهمية في الاختبار","بدائل الخدمات الحقيقية أثناء الاختبار","موكينج للبرمجيات","محاكاة استجابة الـ api","fake external service in tests","replace dependency with dummy object","simulate api responses for testing","avoid calling real payment gateway","mocking vs stubbing","create test doubles","unit test isolation techniques","how to mock database calls","testing code without real dependencies","prevent real email during tests"]
 ---
 ## التعريف
 

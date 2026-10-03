@@ -5,6 +5,7 @@ level: beginner
 related: [debugging]
 term: "Rubber duck debugging"
 pronunciation: "RUB-er DUK dee-BUG-ing"
+keywords: ["explaining code out loud","finding bugs by talking","duck debugging method","talk to a duck","debugging with a toy","explain code to duck","rubber duck method","talk through your code","debugging technique for beginners","شرح الكود بصوت عال","البطة المطاطية للبرمجة","التصحيح عن طريق الشرح","حل المشاكل بشرح الكود","طريقة البطة المطاطية","التحدث إلى بطة","اكتشاف الأخطاء بالشرح","تصحيح الأخطاء للبطة"]
 ---
 ## Definition
 

@@ -5,6 +5,7 @@ level: intermediate
 related: [bikeshedding]
 term: "Yak shaving"
 pronunciation: "YAK SHAY-ving"
+keywords: ["getting distracted by side tasks","chain of prerequisite tasks","fixing unrelated things first","lost in minor tasks","getting sidetracked from main goal","unnecessary preparatory work","going down a rabbit hole","yak shaving","yakshaving","مهام جانبية تشتت عن الهدف","التدقيق في مهام فرعية","الوقوع في سلسلة مهام لا تنتهي","الإنشغال بأمور فرعية عن المهمة","القيام بمهام غير ضرورية أولا","التشتت عن المهمة الأصلية","ياك شيفينج","سلسلة مهام جانبية"]
 ---
 ## Definition
 

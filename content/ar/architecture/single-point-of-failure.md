@@ -6,6 +6,7 @@ related: [load-balancer, fail-open-vs-fail-closed]
 term: "Single Point of Failure"
 translation: "نقطة فشل وحيدة"
 pronunciation: "سنجل بوينت أوف فيلر"
+keywords: ["نقطة فشل وحيدة","مكون يعطل النظام كاملاً","مكون يؤدي لسقوط النظام","نقطة الضعف في النظام","مكان تعطل النظام بالكامل","خطر تعطل الخادم الوحيد","سنجل بوينت أوف فيلر","إزالة نقطة الفشل","spof","component that crashes the system","single point of failure","weak link in architecture","system fails if one part breaks","critical failure component","avoiding system downtime","server outage risk","single point of failure abbreviation"]
 ---
 ## التعريف
 

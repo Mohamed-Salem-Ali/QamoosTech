@@ -5,6 +5,7 @@ level: intermediate
 related: [separation-of-concerns, monolith-vs-microservices, message-queue]
 term: "Decoupling"
 pronunciation: "dee-KUP-ling"
+keywords: ["reduce dependencies between software components","make services independent","separate frontend and backend","loose coupling architecture","decouple microservices","remove tight coupling","independent software modules","decouple system components","فك الارتباط بين المكونات البرمجية","تقليل الاعتمادية بين الخدمات","جعل الخدمات مستقلة عن بعضها","فصل الواجهة عن الخلفية","تصميم البرمجيات بمرونة","تقليل الترابط بين الأنظمة","فك ارتباط الخدمات المصغرة","دي كابلينج"]
 ---
 
 ## Definition

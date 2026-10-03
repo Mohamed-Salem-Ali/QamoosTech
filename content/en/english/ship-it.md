@@ -5,6 +5,7 @@ level: beginner
 related: [lgtm, roll-out]
 term: "Ship it"
 pronunciation: "SHIP IT"
+keywords: ["release to production now","push the feature live","stop polishing and deploy","ready for release","release it now","push to users","deploy the update","ship it","finish and release","أطلقه الآن","انشر التحديث للمستخدمين","ارفع الميزة للإنتاج","جاهز للإطلاق","انشر الكود الآن","أنهِ العمل وانشره","شيب إت","طرح الميزة الجديدة"]
 ---
 ## Definition
 

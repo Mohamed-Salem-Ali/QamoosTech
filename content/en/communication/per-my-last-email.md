@@ -5,6 +5,7 @@ level: intermediate
 related: [follow-up]
 term: "Per my last email"
 pronunciation: "PER MY LAST EE-mayl"
+keywords: ["referencing previous email message","as stated in earlier email","reminding someone of past info","politely pointing to previous message","reiterating what was already sent","referring back to email thread","per my previous email","as mentioned before in email","pointing out ignored information","formal way to restate facts","كما ذكرت في رسالتي السابقة","الإشارة إلى إيميل سابق","تذكير الطرف الآخر بالمعلومات","الرد بناء على رسالة سابقة","كما ورد في بريدي السابق","بير ماي لاست إيميل","طريقة لقول سبق وذكرت ذلك","إعادة التأكيد على ما أرسلته","توضيح معلومة تم إرسالها مسبقا","عبارة للرد على تجاهل المعلومات"]
 ---
 ## Definition
 

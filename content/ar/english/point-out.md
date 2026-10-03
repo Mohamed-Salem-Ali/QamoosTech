@@ -6,6 +6,7 @@ related: [code-review]
 term: "Point out"
 translation: "يشير إلى / ينبّه"
 pronunciation: "بوينت أوت"
+keywords: ["لفت الانتباه إلى مشكلة","التنبيه إلى خطأ في الكود","الإشارة إلى ملاحظة في المراجعة","تنبيه المبرمج إلى مشكلة","ذكر ملاحظة في الاجتماع","الاعتراض على طريقة التنفيذ","يشير إلى","ينبه إلى مشكلة","draw attention to a problem","mention an issue in code","bring up during code review","point out code mistake","highlight a bug","suggest a better idea","notify about an error","point out"]
 ---
 ## التعريف
 

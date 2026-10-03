@@ -5,6 +5,7 @@ level: beginner
 related: [estimate, milestone]
 term: "Deadline"
 pronunciation: "DED-lyn"
+keywords: ["final delivery date","project completion date","due date for tasks","when is this finished","last day for submission","time limit for project","target completion date","firm date for delivery","dedline spelling","project schedule constraint","تاريخ تسليم المشروع","آخر موعد للتسليم","موعد الانتهاء من العمل","تاريخ استحقاق المهام","متى ينتهي العمل","الحد الزمني للمشروع","ديدلاين المشروع","تاريخ الإنجاز المطلوب","موعد التسليم النهائي","تاريخ انتهاء المهمة"]
 ---
 ## Definition
 

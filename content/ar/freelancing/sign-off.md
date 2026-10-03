@@ -5,6 +5,7 @@ level: beginner
 related: [deliverable, milestone, scope-creep]
 term: "Sign-off"
 pronunciation: "ساين-أوف"
+keywords: ["الحصول على موافقة رسمية","اعتماد المرحلة من العميل","الموافقة النهائية على التسليمات","إقرار بانتهاء العمل","تأكيد إنجاز المشروع","معنى كلمة ساين أوف","طلب الموافقة الرسمية","اعتماد مخرجات المشروع","الموافقة على اكتمال المرحلة","توثيق قبول العميل للعمل","formal approval of project phase","client agreement on completed work","getting project milestone approval","confirming work meets requirements","final project acceptance process","sign off meaning","how to get client approval","formal project signoff","client sign off definition","approving deliverables formally","project stage completion confirmation"]
 ---
 
 ## التعريف

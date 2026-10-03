@@ -6,6 +6,7 @@ related: [milestone, proposal, deliverable]
 term: "Project Roadmap"
 pronunciation: "بروجيكت رودماب"
 translation: "خارطة طريق المشروع"
+keywords: ["خارطة طريق المشروع","الخط الزمني للمشروع","مراحل تنفيذ المشروع","جدول زمني عالي المستوى","خطة العمل للمشروع","جدول إطلاق الميزات","بروجيكت رودماب","معالم المشروع الرئيسية","project timeline overview","major phases timeline","feature rollout schedule","high level plan","project milestones timeline","client project roadmap","project roadmap","project roadmap template","strategic project plan"]
 ---
 
 ## التعريف

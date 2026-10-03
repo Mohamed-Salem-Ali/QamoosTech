@@ -5,6 +5,7 @@ level: beginner
 related: [recursion, array]
 term: "Loop"
 pronunciation: "LOOP"
+keywords: ["repeat code while condition true","loop through list of items","for loop syntax example","how to stop infinite loop","code block repetition structure","iterate over array items","running code multiple times","while loop implementation","looping construct in programming","تكرار كود برمجي أكثر من مرة","حلقة تكرارية لتنفيذ الأوامر","المرور على عناصر المصفوفة","حلقة لا نهائية توقف البرنامج","كيفية عمل اللوب في البرمجة","تنفيذ شيفرة بشكل متكرر","حلقة فور البرمجية","شروط التوقف في الحلقات"]
 ---
 ## Definition
 

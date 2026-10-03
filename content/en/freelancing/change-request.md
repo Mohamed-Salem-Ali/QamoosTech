@@ -5,6 +5,7 @@ level: intermediate
 related: [scope-creep, estimate]
 term: "Change Request"
 pronunciation: "CHAYNJ rih-KWEST"
+keywords: ["formal request to update scope","ask client for more money","document for project changes","requesting extra features after contract","process for scope adjustment","official change order document","how to handle feature requests","managing project scope changes","update estimate for new work","formalizing project requirement changes","طلب تعديل نطاق العمل","توثيق التغييرات في المشروع","إجراء إضافة ميزات جديدة","طلب ميزانية إضافية للمشروع","كيفية التعامل مع طلبات العميل","إجراء رسمي لتعديل العقد","تقديم طلب تغيير رسمي","تحديث الجدول الزمني للمشروع","إضافة مهام جديدة للعقد","طلب تغيير المتطلبات المتفق عليها"]
 ---
 ## Definition
 

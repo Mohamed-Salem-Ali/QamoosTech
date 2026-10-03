@@ -6,6 +6,7 @@ related: [authentication-vs-authorization, multi-tenant-saas]
 term: "RBAC (Role-Based Access Control)"
 translation: "التحكم في الوصول حسب الأدوار"
 pronunciation: "آر باك"
+keywords: ["التحكم في الوصول حسب الأدوار","إدارة صلاحيات المستخدمين بالأدوار","تحديد الصلاحيات بناء على الدور","نظام منح الصلاحيات للمجموعات","إسناد المستخدمين إلى أدوار وظيفية","آر باك للتحكم بالصلاحيات","توزيع المهام والصلاحيات للمستخدمين","منع التعديل الفردي للصلاحيات","إدارة الوصول للمدير والمحرر","نظام الأدوار في لوحة التحكم","manage user permissions by role","assign access levels to groups","role based access control","restrict user actions by role","admin editor viewer permission system","authorization based on user roles","avoid per user permission settings","rbac security model","centralized permission management","ar-bak security","user role management"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [llm, dataset]
 term: "Fine-tuning"
 translation: "الضبط الدقيق"
 pronunciation: "فاين تيونينج"
+keywords: ["الضبط الدقيق للنماذج","تدريب نموذج الذكاء الاصطناعي على بياناتي","تخصيص نموذج اللغة للعمل","فاين تيونينج","تعديل أوزان النموذج","تحسين أداء نموذج الذكاء الاصطناعي","تدريب النموذج على بيانات الشركة","ضبط نموذج ذكاء اصطناعي","train ai model on custom data","customize llm with own dataset","adapt pretrained model for specific task","train existing model further","fine tuning llm","finetuning","adjust model weights for domain","teach ai model company data","custom ai model training"]
 ---
 ## التعريف
 

@@ -5,6 +5,7 @@ level: intermediate
 related: [commit, rebase]
 term: "Interactive Rebase"
 pronunciation: "IN-ter-AK-tiv RE-bays"
+keywords: ["edit git commit history","squash multiple commits together","clean up local branch commits","rewrite git history locally","reorder commits in git","git rebase dash i","modify previous git commits","combine commits before push","git squash commits command","interactive git history editor","تعديل تاريخ الالتزامات","دمج عدة التزامات برمجية","تنظيف سجل غيت المحلي","إعادة ترتيب سجل الالتزامات","أمر دمج الالتزامات المتعددة","تعديل سجل غيت التفاعلي","تجميع الالتزامات في واحدة","تغيير تاريخ الالتزامات برمجيا","إنترأكتيف ريبايز","تحسين سجل العمل في غيت"]
 ---
 
 ## Definition

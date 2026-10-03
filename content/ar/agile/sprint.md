@@ -6,6 +6,7 @@ related: [backlog, scrum-ceremonies]
 term: "Sprint"
 translation: "سبرنت"
 pronunciation: "سبرنت"
+keywords: ["فترة العمل القصيرة في اسكرام","دورة التطوير السريعة","فترة زمنية محددة للتنفيذ","دورة العمل الأسبوعية","سبرنت","دورة اسكرام","فترة العمل المخططة","fixed period for teamwork","scrum iteration cycle","agile development cycle","two week work period","scrum work interval","sprint planning cycle","development timebox","scrum time box"]
 ---
 ## التعريف
 

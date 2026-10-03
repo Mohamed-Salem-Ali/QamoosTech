@@ -5,6 +5,7 @@ level: beginner
 related: [encryption, field-level-encryption]
 term: "Encryption at Rest"
 pronunciation: "en-KRIP-shun at REST"
+keywords: ["encrypt stored database files","secure data on disk","protecting hard drive data","encryption for saved data","disk level security","data at rest protection","how to secure database storage","encrypting backups on server","prevent unauthorized disk access","storage volume encryption","تشفير البيانات المحفوظة","تأمين البيانات على القرص","تشفير قواعد البيانات المخزنة","حماية البيانات في وسائط التخزين","تشفير الملفات المخزنة","تأمين النسخ الاحتياطية للبيانات","تشفير وحدات التخزين","حماية البيانات من السرقة المادية","تشفير البيانات عند السكون","انكريبتشن أت ريست"]
 ---
 
 ## Definition

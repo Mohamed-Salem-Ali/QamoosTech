@@ -5,6 +5,7 @@ level: intermediate
 related: [database, index, query, schema]
 term: "Denormalization"
 pronunciation: "dee-NOR-mal-ih-ZAY-shun"
+keywords: ["speed up database reads","add redundant data columns","avoid expensive table joins","optimize query performance","intentional data duplication","improve read heavy performance","denormalise database schema","reduce complex query joins","database schema optimization","denormalization technique","تسريع استعلامات قاعدة البيانات","تكرار البيانات لتحسين الأداء","تجنب عمليات الربط المكلفة","إلغاء التطبيع في الجداول","تحسين سرعة قراءة البيانات","إضافة بيانات مكررة عمداً","تقليل عمليات الربط المعقدة","دي نورمالايزيشن","تخفيف ضغط استعلامات القراءة","تصميم قاعدة بيانات غير مطبعة"]
 ---
 
 ## Definition

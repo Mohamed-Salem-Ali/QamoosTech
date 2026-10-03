@@ -6,6 +6,7 @@ related: [cors, vulnerability]
 term: "Cross-Site Scripting (XSS)"
 translation: "البرمجة عبر الموقع"
 pronunciation: "كروس سايت سكربتنج"
+keywords: ["ثغرة حقن السكريبتات في الموقع","حماية الموقع من هجمات اكس اس اس","تنقية مدخلات المستخدم لمنع الثغرات","حقن نصوص برمجية ضارة في المتصفح","ثغرات البرمجة عبر الموقع","مشكلة حقن السكريبتات في الويب","كيفية منع ثغرات xss","فحص ثغرات الأمان في التطبيق","inject malicious scripts into web pages","prevent stored xss attacks","cross site scripting vulnerability","sanitize user input in browser","client side script injection","fix xss security issue","crosssite scripting","xss attack prevention","escaping user output in html"]
 ---
 
 ## التعريف

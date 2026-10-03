@@ -5,6 +5,7 @@ level: beginner
 related: [branch, merge, pull-request, repository]
 term: "Protected Branch"
 pronunciation: "بُروتيكتيد برانش"
+keywords: ["منع الدفع المباشر للفرع","حماية الفرع الرئيسي من التعديل","إعدادات أمان فروع الكود","قفل الفرع لمنع الحذف","إجبارية مراجعة الكود للدمج","تقييد صلاحيات الكتابة على الفرع","حماية فرع الإنتاج من التغيير","تفعيل مراجعة طلبات الدمج","منع التعديلات العشوائية على الكود","طريقة قفل فروع المستودع","prevent direct pushes to main","restrict branch deletion","require code review for merge","lock main branch","git branch security settings","disable force push to branch","enforce pull request approvals","protect production branch","git branch access control","cannot push to master error"]
 ---
 
 ## التعريف

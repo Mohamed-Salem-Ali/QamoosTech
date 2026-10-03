@@ -5,6 +5,7 @@ level: beginner
 related: [table-row-column, query]
 term: "Database"
 pronunciation: "DAY-tuh-bays"
+keywords: ["store and query app info","organized system for storing data","backend data storage","databas","save and search records","sql storage system","manage persistent application data","where users and orders are saved","نظام تخزين البيانات","حفظ معلومات المستخدمين","ديتابيس","تخزين واسترجاع المعلومات","جدولة وحفظ البيانات","مكان حفظ البيانات","قاعدة بيانات التطبيق","ادارة معلومات البرمجيات"]
 ---
 ## Definition
 

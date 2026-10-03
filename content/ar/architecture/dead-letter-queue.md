@@ -6,6 +6,7 @@ related: [message-queue]
 term: "Dead Letter Queue (DLQ)"
 pronunciation: "ديد لتر كيو"
 translation: "طابور الرسائل التالفة"
+keywords: ["طابور الرسائل الفاشلة","مكان تخزين الرسائل المتعثرة","معالجة الرسائل التي لم تكتمل","طابور المهام التي فشلت","أين تذهب الرسائل التالفة","طابور الرسائل غير القابلة للمعالجة","طريقة التعامل مع الرسائل المرفوضة","تخزين الرسائل بعد فشل المحاولات","ديد لتر كيو","طابور الأخطاء في المراسلة","failed message storage","handle unprocessable queue items","where do failed messages go","dlq meaning","message broker error handling","queue for failed tasks","storing rejected messages","debugging failed background jobs","dead letter exchange","retry limit exceeded queue"]
 ---
 
 ## التعريف

@@ -6,6 +6,7 @@ related: [serverless, latency-vs-throughput, spin-up]
 term: "Cold Start"
 pronunciation: "كولْد ستارت"
 translation: "بدء تشغيل بارد"
+keywords: ["تأخير في أول طلب","بطء استجابة دالة سيرفرلس","تجهيز الموارد عند الطلب","مشكلة بدء التشغيل البارد","تحسين زمن استجابة السيرفرلس","تأخير تهيئة الحاوية الخاملة","كولد ستارت","جعل الدوال دافئة دائما","تأخير تحميل الكود الابتدائي","تجنب بطء الاستجابة الأولية","initial delay in serverless functions","slow first request latency","serverless container spin up delay","idle function initialization time","why is my lambda slow","warm up serverless functions","prevent cold start penalty","first request takes too long","container startup time issues","kold start","serverless latency optimization"]
 ---
 
 ## التعريف

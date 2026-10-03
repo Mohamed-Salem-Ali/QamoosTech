@@ -6,6 +6,7 @@ related: [handoff, shortening-feedback-loop]
 term: "End-to-end"
 translation: "من البداية إلى النهاية"
 pronunciation: "إند تو إند"
+keywords: ["من البداية إلى النهاية","عملية شاملة متكاملة","تغطية كاملة للمسار","اختبار رحلة المستخدم كاملة","إند تو إند","تنفيذ المشروع بالكامل","حل متكامل من البداية","اختبار النظام بشكل كامل","تغطية كافة مراحل العمل","تطوير الميزة من الصفر","full process coverage","entire user journey testing","from start to finish","complete feature development","integrated system flow","e2e testing","end to end process","full lifecycle implementation","comprehensive solution design","entire workflow validation"]
 ---
 ## التعريف
 

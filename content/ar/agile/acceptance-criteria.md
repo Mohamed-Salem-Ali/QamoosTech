@@ -6,6 +6,7 @@ related: [scope-creep, user-story, deliverable]
 term: "Acceptance Criteria"
 translation: "معايير القبول"
 pronunciation: "أكسبتانز كرايتيريا"
+keywords: ["شروط الموافقة على المهمة","متطلبات إنهاء قصة المستخدم","كيف نعرف أن الميزة جاهزة","قائمة التحقق من جودة العمل","معايير تسليم الميزات البرمجية","شروط قبول الميزة من العميل","متطلبات الاختبار قبل الإغلاق","أكسبتانز كرايتيريا","قواعد اعتماد المهام البرمجية","معايير إنهاء المهام في السبرنت","conditions to finish a task","requirements for user story completion","how to know if feature works","definition of feature success","checklist for ticket approval","what makes a task done","testable requirements for development","agile feature sign off rules","acceptance criteria shorthand","ac for software tickets"]
 ---
 
 ## التعريف

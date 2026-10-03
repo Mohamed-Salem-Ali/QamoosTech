@@ -5,6 +5,7 @@ level: intermediate
 related: [design-pattern, monolith-vs-microservices, single-point-of-failure]
 term: "Circuit Breaker"
 pronunciation: "SER-kit BRAY-ker"
+keywords: ["prevent cascading failures in microservices","stop calling failing external api","handle api timeouts and errors","resilience design pattern for services","circuit breaker pattern","serkit breyker","fallback when service is down","prevent system overload from errors","automatic retry after service failure","منع انتشار الأعطال في النظام","إيقاف الطلبات للخدمة المعطلة مؤقتا","نمط تصميم لتحمل الأعطال","قاطع الدائرة","سيركيت بريكر","التعامل مع تعطل الخدمات الخارجية","منع انهيار النظام بسبب الأخطاء","إعادة المحاولة بعد فشل الخدمة"]
 ---
 
 ## Definition

@@ -5,6 +5,7 @@ level: beginner
 related: [follow-up, touch-base]
 term: "Take it offline"
 pronunciation: "TAYK IT OFF-layn"
+keywords: ["move discussion to private chat","continue this chat privately","take conversation offline","discuss this separately","lets talk about this later","stop wasting meeting time","move to a side conversation","tack it offline","teke it offline","نقل النقاش لمحادثة خاصة","مناقشة الموضوع بشكل جانبي","تكملة الكلام في اجتماع ثنائي","تأجيل التفاصيل لاجتماع خاص","تيك إت أوفلاين","نقل الحديث خارج الاجتماع العام","مواصلة الحوار في جلسة خاصة","الحديث بشكل جانبي عن المشكلة"]
 ---
 
 ## Definition

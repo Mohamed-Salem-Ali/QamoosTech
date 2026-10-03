@@ -5,6 +5,7 @@ level: beginner
 related: [follow-up]
 term: "Heads-up"
 pronunciation: "HEDZ-up"
+keywords: ["early warning message","advance notice to team","quick warning before change","heads up notification","let people know in advance","preemptive warning message","heads up alert","advance notice about maintenance","give a heads up","تنبيه مسبق","تحذير مبكر للفريق","إشعار مبكر قبل التعديل","تنبيه سريع قبل التغيير","إعطاء تنبيه مبكر","تحذير استباقي للمشروع","إعلام الفريق مسبقا","رسالة تنبيه سريعة"]
 ---
 ## Definition
 

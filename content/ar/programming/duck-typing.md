@@ -5,6 +5,7 @@ level: intermediate
 related: [object, pythonic]
 term: "Duck Typing"
 pronunciation: "دَك تايبينج"
+keywords: ["دك تايبينج","التحقق من نوع الكائن حسب سلوكه","الأنواع بناء على الدوال لا الوراثة","مفهوم الأنواع في لغات البرمجة الديناميكية","استخدام الكائنات بدون فحص الصنف","التحقق من الدوال أثناء وقت التشغيل","التعامل مع الكائنات حسب قدراتها","برمجة بايثون بدون واجهات صارمة","duck typing","dynamic type checking by behavior","if it walks like a duck","types based on methods not inheritance","runtime method checking in python","using objects without checking class","dynamic language typing concept","duck typing vs structural typing"]
 ---
 
 ## التعريف

@@ -6,6 +6,7 @@ related: [merge, rebase]
 term: "Merge Conflict"
 translation: "تعارض في الدمج"
 pronunciation: "ميرج كونفليكت"
+keywords: ["تعارض في الدمج","مشكلة في دمج الكود","جيت لا يستطيع الدمج تلقائيا","تعديل نفس السطر في جيت","حل مشكلة التعارض","ميرج كونفليكت","خطأ دمج الفروع","تداخل التعديلات في جيت","git cannot combine changes automatically","two people edited same lines","resolve git conflict manually","git wont merge branches","overlapping edits in git","merge conflict error","fix git conflict","git merge stop","marge conflict","code merge problem"]
 ---
 ## التعريف
 

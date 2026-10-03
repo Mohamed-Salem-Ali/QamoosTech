@@ -6,6 +6,7 @@ related: [scalability, reverse-proxy, single-point-of-failure]
 term: "Load Balancer"
 translation: "موزّع الأحمال"
 pronunciation: "لود بالانسر"
+keywords: ["توزيع الطلبات على الخوادم","موزع الأحمال","منع الضغط على خادم واحد","توزيع حركة المرور","توجيه الطلبات للسيرفرات","لود بالانسر","موازن الأحمال","توزيع الترافيك على السيرفرات","distribute traffic across servers","prevent server overload","spread incoming requests","balance network traffic","reverse proxy vs load balancer","lod balancer","load balancr","route requests to multiple servers","high availability traffic routing"]
 ---
 ## التعريف
 

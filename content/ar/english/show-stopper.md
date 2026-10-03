@@ -5,6 +5,7 @@ level: intermediate
 related: [blocker, bug]
 term: "Show-stopper"
 pronunciation: "شو-ستوبر"
+keywords: ["مشكلة تمنع إطلاق البرنامج","خطأ تقني يوقف العمل","مشكلة حرجة جدا","عائق يمنع صدور التحديث","خطأ برمجى فادح","معنى كلمة شو ستوبر","مشكلة توقف سير المشروع","تعريف الخطأ القاتل","أخطاء تمنع العمل بالكامل","مصطلح توقف التطوير","critical bug stopping release","major issue halting development","severe technical blocker","fatal software error","bug that prevents launch","critical system failure","showstopper spelling","blocking issue definition","major project impediment","critical defect preventing deployment"]
 ---
 
 ## التعريف

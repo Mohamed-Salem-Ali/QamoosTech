@@ -5,6 +5,7 @@ level: intermediate
 related: [vulnerability, http-header, cors]
 term: "Content Security Policy (CSP)"
 pronunciation: "KONT-ent se-KYUR-i-tee POL-i-see"
+keywords: ["prevent xss attacks with headers","restrict loaded scripts in browser","http header to block inline scripts","configure csp header in web app","stop unauthorized js execution","content security policy","browser resource loading policy","fix blocked scripts in console","website security headers configuration","منع هجمات اكس اس اس","ترويسة منع السكريبتات الخبيثة","سياسة أمان المحتوى","حظر السكريبتات الخارجية في المتصفح","تحديد مصادر تحميل السكريبتات","اعدادات ترويسات الأمان للموقع","منع تنفيذ الكود الخبيث بالمتصفح","كونتنت سيكيوريتي بوليسي"]
 ---
 
 ## Definition

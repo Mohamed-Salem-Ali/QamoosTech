@@ -5,6 +5,7 @@ level: intermediate
 related: [embeddings, rag, database]
 term: "Vector Database"
 pronunciation: "VEK-ter DAY-ta-base"
+keywords: ["database for ai embeddings","similarity search storage","high dimensional data storage","vector store for rag","semantic search database","storing machine learning vectors","vector db","nearest neighbor search engine","vector indexing system","embedding database","قاعدة بيانات للمتجهات","تخزين مخرجات الذكاء الاصطناعي","نظام بحث دلالي","قاعدة بيانات للبحث عن التشابه","تخزين الـ embeddings","قاعدة بيانات للذكاء الاصطناعي","فيكتور داتابيس","نظام فهرسة المتجهات","قاعدة بيانات للبحث المتجهي","تخزين البيانات عالية الأبعاد"]
 ---
 
 ## Definition

@@ -5,6 +5,7 @@ level: beginner
 related: [restful-api, request-response]
 term: "Endpoint"
 pronunciation: "END-point"
+keywords: ["api url path","url to call api","backend route address","api route url","where to send request","api address","endpoint","indpoint","rest api url path","call backend service url","عنوان url للـ api","مسار الـ api","رابط الاتصال بالخادم","عنوان الطلب","نقطة نهاية","إندبوينت","عنوان الـ url المخصص","مسار طلب البيانات","رابط خدمة الويب"]
 ---
 ## Definition
 

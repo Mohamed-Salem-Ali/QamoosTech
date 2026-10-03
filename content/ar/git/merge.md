@@ -6,6 +6,7 @@ related: [branch, merge-conflict, rebase]
 term: "Merge"
 translation: "دمج"
 pronunciation: "ميرج"
+keywords: ["دمج الفروع في جيت","جمع التغييرات من فرع لآخر","كيف أعمل ميرج","دمج الكود في الفروع","تطبيق الـ pull request","دمج التحديثات الأخيرة","ميرج الفروع الفرعية","ضم الكود المطور","combine git branches","merge feature branch","bring changes from main","put code together git","merge pull request","integrate branch changes","how to merge in git","marge branch","git combination"]
 ---
 ## التعريف
 

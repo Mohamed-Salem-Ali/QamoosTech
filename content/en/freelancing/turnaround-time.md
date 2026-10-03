@@ -5,6 +5,7 @@ level: beginner
 related: [deadline, sla]
 term: "Turnaround Time (TAT)"
 pronunciation: "TERN-uh-round TYM"
+keywords: ["time to complete a task","how long to finish a feature","delivery speed for requests","request completion duration","time from request to delivery","turn around time","task processing duration","مدة الإنجاز","وقت إتمام الطلب","سرعة تسليم المهام","الوقت المستغرق للإنهاء","مدة تسليم المشروع","ترنأراوند تايم","وقت إنجاز العمل"]
 ---
 ## Definition
 

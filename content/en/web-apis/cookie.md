@@ -5,6 +5,7 @@ level: beginner
 related: [http-header, authentication-vs-authorization]
 term: "Cookie"
 pronunciation: "KOOK-ee"
+keywords: ["small piece of browser data","keep user logged in token","send data with every request","http session storage","browser cookie","session cookie","cooki","http state management","store session id in browser","ملف تعريف الارتباط","حفظ بيانات الجلسة في المتصفح","البقاء مسجل الدخول في الموقع","البيانات المخزنة في المتصفح","إرسال البيانات مع كل طلب","كوكي","ملفات الكوكيز للمتصفح","معرف الجلسة في المتصفح"]
 ---
 ## Definition
 

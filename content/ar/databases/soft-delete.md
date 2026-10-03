@@ -5,6 +5,7 @@ level: beginner
 related: [database, table-row-column]
 term: "Soft Delete"
 pronunciation: "سوفت ديليت"
+keywords: ["الحذف المنطقي للبيانات","اخفاء السجلات بدلا من حذفها","تمييز السجل كحذف مؤقت","استعادة السجلات المحذوفة","الحذف الوهمي من قاعدة البيانات","الاحتفاظ بالسجلات المحذوفة","عمود تاريخ الحذف","سوفت ديليت","hide records instead of deleting","mark record as deleted","logical delete pattern","recover deleted database rows","deleted at timestamp column","is deleted status flag","keep history after delete","soft deletion implementation"]
 ---
 
 ## التعريف

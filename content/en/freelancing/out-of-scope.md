@@ -5,6 +5,7 @@ level: beginner
 related: [scope-creep, change-request, align-on-scope]
 term: "Out of Scope"
 pronunciation: "OWT ov SKOHP"
+keywords: ["not part of the project","tasks beyond original agreement","features not in contract","beyond project boundaries","outside the initial plan","work not included","extra work requested","not in the sprint","beyond current requirements","outside the project scope","خارج نطاق المشروع","مهام غير متفق عليها","خارج حدود الاتفاق","أعمال خارج العقد","طلبات إضافية غير مدرجة","خارج خطة العمل","ليست ضمن المتطلبات","خارج نطاق العمل","أوت أوف سكوب","خارج نطاق المرحلة الحالية"]
 ---
 
 ## Definition

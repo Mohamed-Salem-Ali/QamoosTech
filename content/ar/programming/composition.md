@@ -6,6 +6,7 @@ related: [inheritance, design-pattern, separation-of-concerns]
 term: "Composition"
 pronunciation: "كومبوزيشن"
 translation: "التركيب"
+keywords: ["بديل الوراثة في البرمجة","بناء الكائنات من أجزاء صغيرة","مبدأ التركيب البرمجي","تجنب تسلسل الوراثة العميق","دمج الدوال والوحدات البرمجية","تصميم البرمجيات القابل لإعادة الاستخدام","علاقة الاحتواء بدلاً من الوراثة","طريقة تركيب المكونات","مفهوم الكومبوزيشن","هيكلة الكود باستخدام التركيب","alternatives to class inheritance","building objects from smaller parts","designing with reusable components","avoiding deep inheritance hierarchies","combining functions and modules","decoupling code with composition","has a vs is a relationship","object composition principle","functional composition techniques","modular software design patterns"]
 ---
 
 ## التعريف

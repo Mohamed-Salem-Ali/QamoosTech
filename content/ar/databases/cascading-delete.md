@@ -5,6 +5,7 @@ level: intermediate
 related: [database, schema, table-row-column]
 term: "Cascading Delete"
 pronunciation: "كاسكيدينج ديليت"
+keywords: ["حذف السجلات التابعة تلقائيا","مسح البيانات المرتبطة عند الحذف","منع وجود سجلات يتيمة","تفعيل الحذف المتتابع في الجداول","حذف الصفوف المرتبطة بقاعدة البيانات","تنظيف البيانات المرتبطة تلقائيا","إعدادات الحذف التلقائي للعلاقات","كاسكيدينج ديليت","حذف السجل الرئيسي والتابع","تلقائية حذف البيانات المرتبطة","delete child records automatically","remove related rows on delete","prevent orphaned database records","automatic cleanup of foreign keys","database relationship delete behavior","cascade row removal","delete parent and children together","sql automatic record deletion","automatic table row cleanup","handle foreign key constraints delete"]
 ---
 
 ## التعريف

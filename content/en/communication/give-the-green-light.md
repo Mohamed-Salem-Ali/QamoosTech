@@ -5,6 +5,7 @@ level: intermediate
 related: [stakeholder, milestone]
 term: "Give the green light"
 pronunciation: "GIV thuh GREEN LYT"
+keywords: ["approve project start","get permission to deploy","authorize a new feature","manager approval to proceed","wait for client approval","start deployment clearance","official go ahead for project","green light deployment","approve production release","الضوء الأخضر لبدء المشروع","الحصول على الموافقة للبدء","إذن بدء نشر التحديثات","الموافقة على إطلاق الميزة","انتظار موافقة العميل للبدء","تصريح البدء في العمل","الموافقة الرسمية على النشر","إعطاء الإذن للمضي قدما"]
 ---
 
 ## Definition

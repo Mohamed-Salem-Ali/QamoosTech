@@ -6,6 +6,7 @@ related: [loop-in, heads-up, follow-up]
 term: "In the loop"
 pronunciation: "إن ذَ لوب"
 translation: "على اطلاع دائم / ضمن المتابعين"
+keywords: ["أبقني على اطلاع","أضفني في المراسلات","أريد متابعة التحديثات","أبقني في الصورة","ضمن دائرة التواصل","أريد معرفة المستجدات","أشركني في النقاش","إرسال آخر التطورات","ضمن المتابعين للمشروع","البقاء على دراية","keep me updated","include me in emails","stay informed on project","cc me on threads","loop me in","need project updates","make sure i know","informed about decisions","keep me posted","part of communication chain"]
 ---
 
 ## التعريف

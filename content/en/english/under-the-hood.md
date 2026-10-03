@@ -5,6 +5,7 @@ level: beginner
 related: [separation-of-concerns]
 term: "Under the hood"
 pronunciation: "UN-der thuh HOOD"
+keywords: ["internal implementation details","how it works internally","hidden logic of code","behind the scenes","source code internals","what happens inside framework","peek at internal logic","deep dive into implementation","under the bonnet","core engine mechanics","التفاصيل الداخلية للبرمجيات","كيف يعمل النظام داخليا","خلف الكواليس في الكود","آلية العمل الداخلية","فهم المنطق البرمجي المخفي","ما يحدث داخل المكتبة","التنفيذ الداخلي للكود","شرح الأجزاء المخفية","تحت الغطاء","استكشاف نواة النظام"]
 ---
 
 ## Definition

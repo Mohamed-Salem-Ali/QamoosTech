@@ -5,6 +5,7 @@ level: beginner
 related: [request-response, restful-api, status-code]
 term: "HTTP Methods"
 pronunciation: "AY-TCH TEE-PEE METH-uhds"
+keywords: ["get post put delete actions","api request types","http verbs list","how to send api requests","define action on resource","rest api request types","http request actions","client server communication verbs","web api call types","http method names","أفعال بروتوكول اتش تي تي بي","أنواع طلبات واجهة البرمجة","طرق إرسال طلبات السيرفر","أوامر جلب وحذف البيانات","ما هي أفعال http","أنواع العمليات في api","أفعال طلبات الويب","كيفية تحديد نوع الطلب","رموز طلبات الخادم","طرق بروتوكول اتش تي تي بي"]
 ---
 
 ## Definition

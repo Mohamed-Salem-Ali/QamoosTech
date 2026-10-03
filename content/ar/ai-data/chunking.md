@@ -6,6 +6,7 @@ related: [embeddings, rag, token]
 term: "Chunking"
 pronunciation: "تشنكينج"
 translation: "تقطيع النص"
+keywords: ["تقطيع النص إلى أجزاء صغيرة","تقسيم المستندات الكبيرة لنموذج الذكاء الاصطناعي","تجهيز البيانات لنظام راغ","استراتيجية تقطيع المستندات","تقطيع النصوص لتوليد التضمينات","تشنكينج النصوص","تقسيم النص إلى مقاطع دلالية","تجزئة المستندات الطويلة","split large documents for embeddings","divide text into smaller segments","prepare documents for rag","text splitting strategy","segment documents for vector database","document chunking","chunking","tshinking","split text by paragraph"]
 ---
 
 ## التعريف

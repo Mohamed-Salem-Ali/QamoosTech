@@ -6,6 +6,7 @@ related: [separation-of-concerns, monolith-vs-microservices]
 term: "N-tier Architecture"
 translation: "معمارية متعددة الطبقات"
 pronunciation: "إن-تير أركيتكتشر"
+keywords: ["معمارية متعددة الطبقات","تقسيم التطبيق إلى طبقات","تصميم الأنظمة متعدد الطبقات","فصل قاعدة البيانات عن الواجهة","بنية البرمجيات متعددة الطبقات","تصميم البرمجيات الطبقي","ان تير أركيتكتشر","معمارية n-tier","فصل طبقة العرض عن البيانات","multi tier system design","split application into layers","presentation logic data separation","n tier architecture pattern","physical layers software design","enterprise application structure","separate database from frontend","layered software architecture","multitier application design","backend layer separation"]
 ---
 
 ## التعريف

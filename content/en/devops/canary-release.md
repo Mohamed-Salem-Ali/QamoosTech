@@ -5,6 +5,7 @@ level: intermediate
 related: [ci-cd, deployment, rollback]
 term: "Canary Release"
 pronunciation: "KAN-uh-ree ri-LEES"
+keywords: ["roll out new version to few users","test update on subset of users","deploy to small percentage of traffic","gradual traffic shifting deployment","canary deployment strategy","monitor new release before full rollout","test new features safely in production","canary deployment","canary update","نشر التحديث لمجموعة صغيرة من المستخدمين","إطلاق التحديث تدريجيا للمستخدمين","فحص النسخة الجديدة على نسبة قليلة","نشر التحديثات بحذر للتاكد من الاستقرار","تحويل جزء من حركة المرور للتجربة","استراتيجية النشر التدريجي","اصدار الكناري","كاناري ريليس"]
 ---
 
 ## Definition

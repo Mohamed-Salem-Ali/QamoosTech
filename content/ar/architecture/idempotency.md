@@ -6,6 +6,7 @@ related: [webhook, message-queue, transaction]
 term: "Idempotency"
 translation: "الإيدمبوتنسي"
 pronunciation: "آيدمبوتنسي"
+keywords: ["منع خصم المبلغ مرتين","تكرار طلبات الـ api بأمان","تجنب معالجة الطلبات المكررة","التعامل مع إعادة المحاولة بأمان","منع دفع العميل مرتين","تنفيذ العملية عدة مرات بنفس النتيجة","إيدمبوتنسي","مفتاح لمنع التكرار في المدفوعات","prevent double payment on retry","safe to repeat api requests","same result when called multiple times","handle duplicate webhook events safely","idempotency key for payments","make api calls safe to retry","avoid processing duplicate orders","idemoptency","idempotent operations in architecture"]
 ---
 ## التعريف
 

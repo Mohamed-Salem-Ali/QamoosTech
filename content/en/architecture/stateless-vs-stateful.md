@@ -5,6 +5,7 @@ level: intermediate
 related: [load-balancer, serverless, restful-api]
 term: "Stateless vs Stateful"
 pronunciation: "STAYT-les versuhs STAYT-ful"
+keywords: ["managing user sessions on server","storing client state between requests","scaling applications horizontally","sticky sessions vs stateless","difference between stateful and stateless","server memory for user sessions","stateless architecture benefits","how to handle session data","stateless vs stateful explained","persistent session data on backend","الفرق بين عديم الحالة وذو الحالة","تخزين بيانات الجلسة على الخادم","إدارة جلسات المستخدمين في النظام","هيكلية النظام عديمة الحالة","ما معنى ستيت ليس وستيت فول","الفرق بين الأنظمة ذات الحالة","هل يحتاج الخادم لحفظ الجلسة","توسيع النظام بدون حفظ الحالة","مفهوم الأنظمة عديمة الحالة","الفرق بين stateless و stateful"]
 ---
 
 ## Definition

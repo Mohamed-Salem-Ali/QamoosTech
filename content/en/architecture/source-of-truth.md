@@ -5,6 +5,7 @@ level: beginner
 related: [database, cache]
 term: "Source of Truth"
 pronunciation: "SORS uv TROOTH"
+keywords: ["where data officially lives","authoritative data location","primary data store","master record location","ssot","single source of truth","original data copy","resolve conflicting data","database versus cache","authoritative source","المصدر المرجعي للبيانات","المكان الرسمي للمعلومة","المصدر الأساسي للمعلومات","المرجع الأساسي للبيانات","المصدر الموثوق للبيانات","حل تعارض النسخ","سورس أوف ثروث","المصدر المرجعي الوحيد","قاعدة البيانات الأساسية"]
 ---
 ## Definition
 

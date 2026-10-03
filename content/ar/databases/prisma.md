@@ -6,6 +6,7 @@ related: [orm, migration, schema]
 term: "Prisma"
 translation: "بريزما"
 pronunciation: "بريزما"
+keywords: ["أورم لتيسكريبت لقواعد البيانات","بريزما لقواعد البيانات","أداة ربط قواعد البيانات تيسكريبت","توليد كود قاعدة البيانات تلقائيا","أورم يعتمد على ملف مخطط","إدارة قاعدة البيانات في نكست جي إس","الفرق بين بريزما وتايب أورم","تشغيل هجرة قاعدة البيانات بريزما","typescript orm for databases","generate type safe db client","node js schema based orm","prisma vs typeorm","prisma migration tool","schema file database mapper","nextjs typescript database orm","run prisma generate command"]
 ---
 ## التعريف
 

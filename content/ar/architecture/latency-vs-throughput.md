@@ -6,6 +6,7 @@ related: [cache, scalability]
 term: "Latency vs Throughput"
 translation: "زمن الاستجابة والإنتاجية"
 pronunciation: "ليتنسي مقابل ثرووبوت"
+keywords: ["الفرق بين زمن الاستجابة والإنتاجية","الفرق بين latency و throughput","قياس أداء النظام والسرعة","ما هو الفرق بين ليتنسي وثرووبوت","الفرق بين سرعة الطلب وعدد الطلبات","مفاهيم قياس كفاءة الخادم","الفرق بين وقت الاستجابة والقدرة الاستيعابية","شرح الفرق بين زمن المعالجة والإنتاجية","كيفية قياس سرعة استجابة النظام","معايير قياس الأداء في الأنظمة","difference between latency and throughput","speed versus capacity in systems","how to measure system performance","request time vs total volume","latency vs throughput explained","processing speed vs concurrent requests","is latency the same as throughput","system throughput calculation","understanding response time vs capacity","performance metrics for backend systems"]
 ---
 ## التعريف
 

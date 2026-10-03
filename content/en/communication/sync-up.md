@@ -5,6 +5,7 @@ level: beginner
 related: [touch-base, follow-up]
 term: "Sync up"
 pronunciation: "SINK UP"
+keywords: ["quick status update meeting","short check in call","align on project progress","brief team alignment session","get on the same page","quick catch up meeting","informal progress discussion","short meeting for updates","syncing up with team","briefly discuss next steps","اجتماع سريع لمتابعة العمل","لقاء قصير لتحديث الحالة","التنسيق حول سير المشروع","اجتماع مواءمة غير رسمي","جلسة سريعة لتوحيد الرؤية","مناقشة سريعة للخطوات القادمة","سينك أب","اجتماع قصير للمزامنة","مراجعة سريعة للمهام","التأكد من فهم الجميع"]
 ---
 
 ## Definition

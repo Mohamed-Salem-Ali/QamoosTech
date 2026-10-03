@@ -5,6 +5,7 @@ level: intermediate
 related: [async-await, function]
 term: "Callback"
 pronunciation: "KAWL-bak"
+keywords: ["function passed as argument","run function after task finishes","handle asynchronous response function","javascript event handler function","callback hell problem","nested functions in nodejs","pass function to another function","execute code later asynchronously","call back function","colback","دالة تمرر لدالة أخرى","تنفيذ دالة بعد انتهاء المهمة","دالة استدعاء لاحق","جحيم الـ callbacks في البرمجة","معالجة غير متزامنة بالدورات","تمرير دالة كمتغير","استدعاء دالة عند انتهاء الطلب","دالة كولباك","كول باك"]
 ---
 ## Definition
 

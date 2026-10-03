@@ -5,6 +5,7 @@ level: beginner
 related: [deployment, environment-variable]
 term: "Staging vs Production"
 pronunciation: "STAY-jing versus pruh-DUK-shun"
+keywords: ["staging vs production environments","difference between staging and prod","what is a staging environment","live system vs test server","prod vs stage difference","pre production vs production","test before releasing live","mirror of production environment","staging server vs live server","الفرق بين بيئة الاختبار والإنتاج","ما هي بيئة الإنتاج","ما هي بيئة التجربة","الفرق بين برودكشن وستيجينج","بيئة التشغيل الفعلية للمستخدمين","الفرق بين السيرفر التجريبي والحقيقي","بيئة التجربة قبل النشر","الفرق بين بيئة dev و prod"]
 ---
 ## Definition
 

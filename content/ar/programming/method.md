@@ -6,6 +6,7 @@ related: [class, function, object]
 term: "Method"
 pronunciation: "ميثود"
 translation: "ميثود"
+keywords: ["دالة داخل كلاس","دالة مرتبطة بكائن","وظيفة داخل الصنف","الفرق بين الدالة والميثود","سلوك الكائن البرمجي","استدعاء دالة الكائن","ميثود الكلاس","طريقة البرمجة الكائنية","function inside a class","object oriented function","member function","class behavior","call function on object","difference between function and method","methd","methode","write a method for class"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: beginner
 related: [component, state]
 term: "Props"
 pronunciation: "PROPS"
+keywords: ["passing data to components","react component arguments","how to use properties","read only component inputs","passing variables between components","react props explained","what are component properties","avoiding prop drilling","parent to child communication","component input parameters","تمرير البيانات للمكونات","مدخلات المكونات في رياكت","كيفية تمرير الخصائص","الفرق بين الخصائص والحالة","تمرير المتغيرات بين المكونات","شرح البروبس في رياكت","الخصائص الممررة للمكون","تجنب تمرير الخصائص المتعدد","استقبال البيانات في المكون","معاملات المكونات البرمجية"]
 ---
 ## Definition
 

@@ -5,6 +5,7 @@ level: beginner
 related: [move-the-needle]
 term: "Low-hanging fruit"
 pronunciation: "LOH-HANG-ing FROOT"
+keywords: ["easy tasks for quick wins","tasks to do first","quick value features","simple tasks in backlog","easy performance improvements","low hanging fruit","quick wins prioritization","easy items to implement","lo hanging fruit","المكاسب السهلة","المهام السهلة أولا","أشياء سهلة وسريعة القيمة","مهام سهلة التنفيذ","حلول سريعة وسهلة","ترتيب الأولويات السهلة","لو هانجينج فروت","مكاسب سريعة للتخطيط"]
 ---
 ## Definition
 

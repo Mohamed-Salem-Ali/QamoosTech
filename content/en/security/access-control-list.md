@@ -5,6 +5,7 @@ level: intermediate
 related: [authentication-vs-authorization, rbac]
 term: "Access Control List (ACL)"
 pronunciation: "AK-ses kohn-trohl list"
+keywords: ["list of permissions for resource","control who can access file","cloud storage bucket permissions","network firewall rules list","acl permissions list","user access rights list","restrict file access permissions","access control list","resource permission rules","manage user permissions list","قائمة صلاحيات الوصول للملفات","تحديد من يمكنه الوصول للمورد","قائمة التحكم في الوصول","صلاحيات مساحات التخزين السحابية","اكسيس كونترول ليست","قائمة الصلاحيات المرتبطة بالمورد","منع المستخدمين من الوصول للملفات","قائمة أمان الملفات والصلاحيات","اعدادات جدار الحماية والصلاحيات"]
 ---
 
 ## Definition

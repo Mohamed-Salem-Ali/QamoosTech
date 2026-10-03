@@ -5,6 +5,7 @@ level: intermediate
 related: [unit-test, regression]
 term: "Snapshot Testing"
 pronunciation: "سناپشوت تيسْتينج"
+keywords: ["اختبار واجهة المستخدم بالمقارنة","اختبار السنابشوت","حفظ ناتج المكون للاختبار","مقارنة الناتج المعروض تلقائيا","اكتشاف تغييرات واجهة المستخدم","فحص شكل المكونات برمجيا","اختبارات المكونات المرئية","سناپشوت تيسْتينج","مقارنة ملفات المراجع للاختبار","test ui component output","compare rendered output against reference file","detect unexpected ui changes","ui regression test","serialize component structure test","snapshot test","automatic ui comparison testing","verify component html output","snpshot testing","test component rendering changes"]
 ---
 
 ## التعريف

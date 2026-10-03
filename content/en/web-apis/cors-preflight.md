@@ -5,6 +5,7 @@ level: intermediate
 related: [cors, http-header, request-response]
 term: "CORS Preflight"
 pronunciation: "KORS PREE-flayt"
+keywords: ["browser options request","check cross origin permissions","fix cors request failure","automatic preflight check","handle options http method","cors access control check","why is my api failing","api security handshake","cors pre-flight error","browser security verification request","طلب التحقق التمهيدي","فحص صلاحيات الوصول للمتصفح","مشاكل طلبات كروس اوريجين","طلب خيارات المتصفح التلقائي","حل خطأ cors في المتصفح","التحقق من أذونات الخادم","طلب خيارات قبل الإرسال","فحص أمان واجهة البرمجة","كورز بري فلايت","تجاوز قيود المصادر المختلفة"]
 ---
 
 ## Definition

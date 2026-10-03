@@ -5,6 +5,7 @@ level: intermediate
 related: [cross-functional-team, follow-up]
 term: "Deep dive"
 pronunciation: "DEEP DYV"
+keywords: ["thorough technical discussion","detailed architectural review meeting","deep dive session","analyze complex problem together","detailed system analysis","deep dive meeting","comprehensive technical overview","discuss architecture in detail","deep dive translation","dip dive","نقاش معمق","تحليل تفصيلي للمشكلة","اجتماع مراجعة تقنية","فحص معمق للنظام","ديب دايف","نقاش تقني شامل","جلسة تحليل متعمقة","مراجعة معمارية مفصلة"]
 ---
 
 ## Definition

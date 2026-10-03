@@ -6,6 +6,7 @@ related: [follow-up, heads-up, loop-in]
 term: "CC someone"
 pronunciation: "سي سي سام ون"
 translation: "ضع فلان في الـ CC"
+keywords: ["وضع شخص في نسخة البريد","إدراج شخص للاطلاع فقط","إرسال نسخة من الإيميل","إبقاء المدير في الصورة","إضافة شخص للمراسلات","نسخ شخص في الإيميل","متابعة المحادثة عبر الإيميل","وضع شخص في الـ سي سي","إعلام شخص عبر البريد","إدراج طرف ثالث في المحادثة","add someone to email thread","keep manager in the loop","copy someone on email","include person for visibility","send email copy to others","keep team informed via email","carbon copy email recipient","notify someone via email thread","see someone on email","add person to conversation thread"]
 ---
 
 ## التعريف

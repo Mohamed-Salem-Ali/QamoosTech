@@ -5,6 +5,7 @@ level: intermediate
 related: [monolith-vs-microservices, load-balancer, reverse-proxy]
 term: "API Gateway"
 pronunciation: "إيه بي آي جيت واي"
+keywords: ["نقطة دخول موحدة للخدمات","بوابة إدارة طلبات البرمجيات","توجيه الطلبات للخدمات المصغرة","إدارة مركزية لطلبات الـ api","خادم وسيط للخدمات المصغرة","بوابة الربط البرمجي","إيه بي آي جيت واي","تنظيم الاتصال بين الخدمات","بوابة توجيه الطلبات البرمجية","مركز التحكم في طلبات النظام","single entry point for services","microservices traffic router","manage api requests centrally","centralized authentication and rate limiting","api management server","routing requests to microservices","unified api access layer","gateway for backend services","api proxy for microservices","handle cross cutting concerns"]
 ---
 
 ## التعريف

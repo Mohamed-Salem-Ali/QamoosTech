@@ -6,6 +6,7 @@ related: [llm, rag]
 term: "Hallucination"
 translation: "هلوسة النموذج"
 pronunciation: "هالوسينيشن"
+keywords: ["الذكاء الاصطناعي يخترع معلومات خاطئة","هلوسة نموذج الذكاء الاصطناعي","اجابات خاطئة من الـ ai","الذكاء الاصطناعي يعطي نتائج وهمية","كيف امنع الذكاء الاصطناعي من الكذب","اختلاق مصادر غير موجودة","اخطاء توليد النصوص","هالوسينيشن","ai gives wrong confident answers","model invents fake information","fake sources in llm output","ai generating false code","how to stop ai lying","model fabrication","ai outputs incorrect facts","handling llm errors","halucination","ai hallucinating"]
 ---
 ## التعريف
 

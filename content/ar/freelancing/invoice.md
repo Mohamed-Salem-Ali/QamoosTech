@@ -6,6 +6,7 @@ related: [milestone, retainer]
 term: "Invoice"
 translation: "فاتورة"
 pronunciation: "إنفويس"
+keywords: ["طلب الدفع من العميل","مستند المطالبة بالمبلغ","فاتورة العمل الحر","ارسال الفاتورة للعميل","فاتورة","إنفويس","طلب الأموال","مستند الفاتورة","request payment from client","bill for completed work","document showing amount due","freelance billing document","send bill to client","payment request form","invoice vs quote","invocie","bill"]
 ---
 ## التعريف
 

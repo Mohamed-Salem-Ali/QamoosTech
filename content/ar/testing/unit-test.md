@@ -6,6 +6,7 @@ related: [integration-test, mocking, test-coverage]
 term: "Unit Test"
 translation: "اختبار وحدة"
 pronunciation: "يونِت تست"
+keywords: ["اختبار دالة واحدة فقط","فحص الكود بشكل منفصل","اختبارات برمجية صغيرة","التحقق من صحة الدوال","اختبار منطق الكود","طريقة اختبار الكود المعزول","كتابة اختبارات للوظائف","اختبارات برمجية تلقائية","تطبيق اختبارات الوحدة","فحص أجزاء الكود الصغيرة","يونيت تست","اختبارات برمجية بسيطة","test a single function","isolate code for testing","small automated code checks","verify logic in isolation","basic code testing method","unit testing framework","write tests for functions","test code without database","check individual code blocks","testing small components","unit tests vs integration","fast automated code validation"]
 ---
 ## التعريف
 

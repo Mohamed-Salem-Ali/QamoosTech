@@ -5,6 +5,7 @@ level: intermediate
 related: [unit-test, refactoring, ci-cd]
 term: "TDD (Test-Driven Development)"
 pronunciation: "TEE-dee-dee"
+keywords: ["write tests before code","red green refactor cycle","test first development","test driven approach","tdd methodology","automated unit testing process","developing software with tests","writing failing tests first","test based design technique","tdd cycle explained","test driven workflow","كتابة الاختبار قبل الكود","دورة الفشل والنجاح البرمجية","التطوير المعتمد على الاختبار","منهجية تي دي دي","كتابة اختبارات تفشل أولا","تصميم البرمجيات عبر الاختبار","طريقة التطوير بالاختبارات","دورة إعادة هيكلة الكود","مفهوم التطوير الموجه بالاختبار","تطوير البرمجيات بالاختبارات أولا"]
 ---
 
 ## Definition

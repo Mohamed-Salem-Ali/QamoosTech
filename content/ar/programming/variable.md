@@ -6,6 +6,7 @@ related: [scope, function]
 term: "Variable"
 translation: "متغيّر"
 pronunciation: "فيريابل"
+keywords: ["مكان تخزين القيم في الذاكرة","طريقة حفظ البيانات في البرمجة","حاوية للقيم البرمجية","تعريف قيم قابلة للتغيير","كيفية تسمية القيم في الكود","حجز مكان في الذاكرة","مصطلح فيريابل","الفرق بين الثابت والمتغير","تخزين البيانات في البرنامج","تعريف متغير جديد","place to store values","named memory container","how to save data in code","programming containers for values","declaring a new value holder","temporary storage in programming","vairiable spelling","assigning values to names","memory location for data","what is a var","changeable data storage"]
 ---
 ## التعريف
 

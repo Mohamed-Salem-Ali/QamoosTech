@@ -5,6 +5,7 @@ level: beginner
 related: [align-on-scope, milestone, stakeholder]
 term: "Kickoff Meeting"
 pronunciation: "كيك-أوف ميتينج"
+keywords: ["اجتماع بداية المشروع","أول لقاء مع العميل","جلسة انطلاق المشروع","اجتماع التوافق الأول","اجتماع البدء الرسمي","تحديد أهداف المشروع الأولية","جلسة تعريفية بالمشروع","اجتماع كيك أوف","بدء العمل مع العميل","اجتماع التخطيط الأول","first meeting with client","project initiation call","aligning on project goals","starting a new project","initial client onboarding session","project launch meeting","kick off call","project start up meeting","define project scope meeting","kick off session"]
 ---
 
 ## التعريف

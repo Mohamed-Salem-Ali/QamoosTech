@@ -6,6 +6,7 @@ related: [deadline, sprint]
 term: "Crunch time"
 pronunciation: "كرانش تايم"
 translation: "فترة الضغط النهائي"
+keywords: ["فترة العمل المكثف","أيام الضغط قبل التسليم","مرحلة الطوارئ النهائية","ساعات العمل الإضافية المكثفة","فترة ما قبل الإصدار","العمل تحت ضغط الوقت","مرحلة تسريع وتيرة العمل","كرانش تايم","الضغط قبل موعد التسليم","فترة العمل الشاق المؤقتة","intense work before deadline","final push before release","working long hours to finish","high pressure development phase","last minute project stress","crunch period in software","emergency sprint to release","overtime before project launch","heavy workload before delivery","tight schedule final stage"]
 ---
 
 ## التعريف

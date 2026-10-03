@@ -6,6 +6,7 @@ related: [ci-cd, staging-vs-production]
 term: "Deployment"
 translation: "النشر"
 pronunciation: "ديبلويمنت"
+keywords: ["رفع الكود على السيرفر","تحديث البرنامج للمستخدمين","نقل البرمجيات لبيئة الإنتاج","عملية إطلاق التحديثات","كيفية نشر الموقع","ديبلويمنت","طريقة رفع التحديثات","نشر التطبيق على الخادم","تجهيز البرنامج للاستخدام","إصدار نسخة جديدة","تطبيق التغييرات على الخادم","pushing code to production","how to update server software","releasing new app version","moving code to live environment","uploading build to server","getting software to users","software release process","deploying application updates","go live procedure","automated build delivery","dployement misspelling","uploading site to production"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [follow-up, touch-base]
 term: "Circling back"
 translation: "العودة إلى الموضوع"
 pronunciation: "سيركلنج باك"
+keywords: ["العودة إلى الموضوع السابق","متابعة موضوع تم تأجيله","الرجوع للنقاش في أمر","الاستفسار عن نتيجة سابقة","العودة إلى التذكرة مجددا","تذكير بموضوع معلق","العودة إلى النقاش لاحقا","سيركلنج باك","returning to previous topic","follow up on postponed task","touching base again later","checking back on ticket","continuing earlier discussion","revisiting pending question","getting back to you","circle back to this"]
 ---
 ## التعريف
 

@@ -5,6 +5,7 @@ level: intermediate
 related: [responsive-design, viewport]
 term: "Flexbox"
 pronunciation: "FLEKS-boks"
+keywords: ["css flexible box layout","align items in css row","distribute space inside container","one dimensional css layout","center elements horizontally and vertically","css flex layout module","make responsive items wrap","flaxbox","flex box css","تخطيط سي اس اس المرن","محاذاة العناصر في صف واحد","توزيع المساحات بين العناصر","ترتيب العناصر في الواجهات","تصميم واجهات متجاوبة مرنة","توسيط العناصر في سي اس اس","وحدة التخطيط المرن","فليكس بوكس","تخطيط صف وعمود سي اس اس"]
 ---
 
 ## Definition

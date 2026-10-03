@@ -5,6 +5,7 @@ level: beginner
 related: []
 term: "Quota"
 pronunciation: "KWOH-tuh"
+keywords: ["cloud storage maximum limit","api request limit allocation","maximum resource usage cap","service limits in cloud","storage capacity allowance","request volume ceiling","resource usage restriction","increase service limit","maximum allowed consumption","الحد الأقصى للموارد السحابية","حصة التخزين السحابي المسموحة","زيادة حد الاستخدام المسموح","الحد الأقصى لطلبات واجهة البرمجة","حصة استهلاك الموارد","تجاوز الحد الأقصى للخدمة","الحد المخصص للتخزين","كيفية زيادة حصة الخدمات"]
 ---
 
 ## Definition

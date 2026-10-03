@@ -6,6 +6,7 @@ related: [rendering, nextjs]
 term: "Hydration"
 translation: "التفعيل (الهيدريشن)"
 pronunciation: "هايدريشن"
+keywords: ["جعل صفحة الويب تفاعلية","ربط الجافا سكريبت بالـ html","حل مشكلة تطابق الـ hydration","تفعيل الأزرار بعد تحميل الصفحة","أخطاء العرض بين الخادم والعميل","تفعيل المكونات بعد العرض الساكن","مشاكل الهيدريشن في react","ربط الأحداث بصفحة الخادم","تطابق الحالة بين الخادم والمتصفح","شرح مصطلح الهيدريشن","أخطاء التفعيل في nextjs","جعل الموقع يستجيب للنقر","make static html interactive","attach javascript to server html","react hydration error fix","why buttons not working initially","hydration mismatch solution","server side rendering interactivity","binding events to static page","client side script attachment","fix page interactivity delay","nextjs hydration issues","hydrating react components","rendering mismatch troubleshooting"]
 ---
 ## التعريف
 

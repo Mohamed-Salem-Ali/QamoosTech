@@ -5,6 +5,7 @@ level: beginner
 related: [milestone, proposal, deliverable]
 term: "Project Roadmap"
 pronunciation: "PROJ-ekt ROAD-map"
+keywords: ["project timeline overview","major phases timeline","feature rollout schedule","high level plan","project milestones timeline","client project roadmap","project roadmap","project roadmap template","strategic project plan","خارطة طريق المشروع","الخط الزمني للمشروع","مراحل تنفيذ المشروع","جدول زمني عالي المستوى","خطة العمل للمشروع","جدول إطلاق الميزات","بروجيكت رودماب","معالم المشروع الرئيسية"]
 ---
 
 ## Definition

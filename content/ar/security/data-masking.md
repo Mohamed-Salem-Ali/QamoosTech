@@ -6,6 +6,7 @@ related: [pii, encryption, staging-vs-production]
 term: "Data Masking"
 pronunciation: "ديتا ماسكينج"
 translation: "إخفاء البيانات"
+keywords: ["إخفاء المعلومات الحساسة","استبدال البيانات ببيانات وهمية","حماية بيانات المستخدمين في الاختبار","تغيير قيم قاعدة البيانات","تشفير البيانات للاختبار","طريقة إخفاء البيانات","تغطية البيانات الحساسة","ديتا ماسكينج","تغيير بيانات الإنتاج للاختبار","إخفاء الهوية في قواعد البيانات","hide sensitive database fields","replace real data with fake","protect pii in staging","obfuscate production database export","make test data realistic","data masking vs encryption","scramble user information safely","masking sensitive columns","data redaction techniques","protecting privacy in development"]
 ---
 
 ## التعريف

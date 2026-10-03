@@ -6,6 +6,7 @@ related: [restful-api, database]
 term: "CRUD Operations"
 translation: "عمليات الإنشـاء والقراءة والتحديث والحذف"
 pronunciation: "كرود أوبيريشنز"
+keywords: ["العمليات الأساسية للتعامل مع البيانات","كيفية إنشاء وقراءة وتعديل البيانات","العمليات الأربع لإدارة قواعد البيانات","مفهوم الكرود في البرمجة","طرق التعامل مع سجلات قاعدة البيانات","العمليات الأساسية في واجهات البرمجة","شرح عمليات الإنشاء والقراءة والحذف","إدارة الموارد في واجهات الويب","ما هي عمليات crud","تطبيق عمليات قاعدة البيانات الأساسية","basic database management functions","create read update delete","standard api resource actions","how to handle database records","mapping http verbs to database","four basic data operations","crud logic in backend","managing persistent storage records","api endpoint design patterns","crud operations explained","database interaction methods"]
 ---
 
 ## التعريف

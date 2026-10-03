@@ -5,6 +5,7 @@ level: intermediate
 related: [asap-eod, follow-up]
 term: "At your earliest convenience"
 pronunciation: "أت يور إيرليست كونفينينس"
+keywords: ["عبارات مهذبة لطلب إنجاز مهام","كيف أطلب مراجعة كود بلطف","طريقة احترافية لطلب عمل غير عاجل","صيغ بريد إلكتروني مهنية","طلب مراجعة بدون موعد نهائي","عبارات لبقة في المراسلات التقنية","كيف أقول في أقرب وقت يناسبك","تعبيرات مهنية لطلب المساعدة","طريقة طلب تحديثات العمل بلطف","مصطلحات التواصل في بيئة العمل","polite way to ask for tasks","professional email request phrases","how to ask for non urgent work","requesting review without setting deadline","soft way to ask for feedback","professional business email etiquette","how to say do it when free","formal request for task completion","alternatives to asap in emails","polite follow up phrasing"]
 ---
 
 ## التعريف

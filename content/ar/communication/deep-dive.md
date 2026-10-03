@@ -6,6 +6,7 @@ related: [cross-functional-team, follow-up]
 term: "Deep dive"
 pronunciation: "ديب دايف"
 translation: "نقاش معمق"
+keywords: ["نقاش معمق","تحليل تفصيلي للمشكلة","اجتماع مراجعة تقنية","فحص معمق للنظام","ديب دايف","نقاش تقني شامل","جلسة تحليل متعمقة","مراجعة معمارية مفصلة","thorough technical discussion","detailed architectural review meeting","deep dive session","analyze complex problem together","detailed system analysis","deep dive meeting","comprehensive technical overview","discuss architecture in detail","deep dive translation","dip dive"]
 ---
 
 ## التعريف

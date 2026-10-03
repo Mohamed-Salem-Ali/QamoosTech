@@ -6,6 +6,7 @@ related: [authentication-vs-authorization]
 term: "Two-Factor Authentication (2FA)"
 translation: "التحقق بخطوتين"
 pronunciation: "تو فاكتر أوثنتيكيشن"
+keywords: ["التحقق بخطوتين","المصادقة الثنائية","تسجيل دخول برمز إضافي","تفعيل التحقق عبر الهاتف","حماية الحساب برمز دخول","تأمين الدخول بخطوتين","تو فاكتر أوثنتيكيشن","التحقق من هوية المستخدم","زيادة أمان تسجيل الدخول","رمز التحقق على الهاتف","two factor login","2fa security","login with phone code","multi factor authentication","mfa setup","two step verification","account verification code","extra login security","add phone verification","secure login process"]
 ---
 ## التعريف
 

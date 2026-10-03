@@ -5,6 +5,7 @@ level: beginner
 related: [variable]
 term: "Truthy vs Falsy"
 pronunciation: "TROO-thee vs FAL-see"
+keywords: ["values evaluated as boolean","how if statements check variables","truthy and falsy concepts","boolean evaluation of non-boolean","check if value is empty","javascript implicit boolean conversion","is zero true or false","truthy vs falsy meaning","programming conditional logic basics","values treated as false","قيم تُعامل معاملة المنطق","كيف تعمل الشروط البرمجية","متى يعتبر المتغير صحيحا","تحويل القيم إلى منطقية","قيم تعتبر خاطئة برمجيا","الفرق بين تروثي وفالسي","سلوك القيم في جمل الشرط","تقييم المتغيرات في البرمجة","مفهوم القيم المنطقية الضمنية","فهم القيم التي تساوي خطأ"]
 ---
 
 ## Definition

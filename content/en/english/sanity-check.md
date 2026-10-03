@@ -5,6 +5,7 @@ level: beginner
 related: [lgtm, rubber-duck-debugging]
 term: "Sanity check"
 pronunciation: "SAN-i-tee chek"
+keywords: ["quick logic verification","basic code health check","surface level test","check if it makes sense","preliminary validation check","quick smoke test","verify basic functionality","ensure logic is reasonable","sanity test","informal code check","fast initial check","فحص منطقي سريع","اختبار أولي بسيط","التأكد من صحة الكود","فحص مبدئي سريع","اختبار معقولية النتائج","تحقق سريع من المنطق","فحص سطحي للبرمجيات","سانيتي تشيك","اختبار سريع قبل التعمق","التأكد من سلامة الكود"]
 ---
 
 ## Definition

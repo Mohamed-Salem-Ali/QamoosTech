@@ -6,6 +6,7 @@ related: [change-request, align-on-scope, fixed-price-vs-hourly]
 term: "Scope Creep"
 translation: "تضخّم النطاق"
 pronunciation: "سكوب كريب"
+keywords: ["زيادة طلبات العميل دون زيادة السعر","المشروع يكبر بدون ميزانية إضافية","تعديلات كثيرة خارج العقد","نمو متطلبات المشروع بلا توقف","إضافات بدون تعديل الموعد النهائي","تضخم المتطلبات في العمل الحر","سكوب كريب","تضخم نطاق العمل","project keeps getting bigger","extra requests without extra money","clients adding more work","unauthorized project additions","fixed price project growing","requirements expanding without budget","feature creep","scope crip","skope creep","managing project boundaries"]
 ---
 ## التعريف
 

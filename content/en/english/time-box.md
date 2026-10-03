@@ -5,6 +5,7 @@ level: intermediate
 related: [align-on-scope, deadline, estimate]
 term: "Time-box"
 pronunciation: "TYM-boks"
+keywords: ["limit time for task","stop endless discussions","fixed time allocation","prevent over engineering","timeboxing technique","set time limit","time box management","allocate max time","taime box","timebox limit","تحديد وقت للمهمة","منع النقاشات الطويلة","تخصيص وقت محدد","وضع حد زمني","حصر وقت النقاش","تايم بوكس","تحديد مدة زمنية","الوقاية من المبالغة في الهندسة"]
 ---
 
 ## Definition

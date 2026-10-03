@@ -6,6 +6,7 @@ related: [bikeshedding]
 term: "Yak shaving"
 translation: "سلسلة مهام جانبية لا تنتهي"
 pronunciation: "ياك شيفينج"
+keywords: ["مهام جانبية تشتت عن الهدف","التدقيق في مهام فرعية","الوقوع في سلسلة مهام لا تنتهي","الإنشغال بأمور فرعية عن المهمة","القيام بمهام غير ضرورية أولا","التشتت عن المهمة الأصلية","ياك شيفينج","سلسلة مهام جانبية","getting distracted by side tasks","chain of prerequisite tasks","fixing unrelated things first","lost in minor tasks","getting sidetracked from main goal","unnecessary preparatory work","going down a rabbit hole","yak shaving","yakshaving"]
 ---
 ## التعريف
 

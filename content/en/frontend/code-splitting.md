@@ -5,6 +5,7 @@ level: intermediate
 related: [bundle]
 term: "Code Splitting"
 pronunciation: "KOHD SPLIT-ing"
+keywords: ["load javascript on demand","reduce initial bundle size","lazy load frontend modules","split js into chunks","improve web page performance","dynamic imports for performance","smaller javascript files","optimize frontend load time","code splitting technique","split application code","تقسيم ملفات الجافاسكريبت","تحميل الأكواد عند الطلب","تحسين سرعة تحميل الموقع","تجزئة حزمة التطبيق","تقليل حجم ملفات الجافاسكريبت","تحميل الأجزاء الضرورية فقط","تفعيل التحميل الكسول","كود سبلتينج","تقسيم الكود البرمجي","تحسين أداء الواجهات الأمامية"]
 ---
 
 ## Definition

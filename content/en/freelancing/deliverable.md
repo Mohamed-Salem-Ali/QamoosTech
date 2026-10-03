@@ -5,6 +5,7 @@ level: beginner
 related: [milestone, scope-creep, handoff]
 term: "Deliverable"
 pronunciation: "dih-LIV-er-uh-bul"
+keywords: ["what to hand over to client","project output or product","final items for client","things promised in contract","project output documentation","what is being delivered","client project handoff item","list of project outputs","tangible project result","ما يتم تسليمه للعميل","مخرجات المشروع المطلوبة","العناصر المسلمة للعميل","تحديد ما سيتم تسليمه","المنتج النهائي للعميل","قائمة مخرجات المشروع","ملفات التسليم النهائية","العمل المراد تسليمه"]
 ---
 ## Definition
 

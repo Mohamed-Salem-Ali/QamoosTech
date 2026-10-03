@@ -6,6 +6,7 @@ related: [heads-up, stakeholder]
 term: "Loop in"
 translation: "إشراك شخص في الموضوع"
 pronunciation: "لوب إن"
+keywords: ["إضافة شخص للمحادثة","إدخال شخص في الموضوع","إشراك شخص في النقاش","وضع شخص في الصورة","إضافة لبريد إلكتروني","إشراك المدير في الإيميل","تحديث شخص بالموضوع","إضافة للتشات","لوب إن","add someone to email thread","include someone in conversation","keep someone updated on chat","add colleagues to discussion","bring someone into project chat","cc someone on email","keep in the loop","add to email chain","loop someone in"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [cross-functional-team, stakeholder]
 term: "Bring to the table"
 translation: "يُقدّم أو يُساهم بـ"
 pronunciation: "برينج تو ذا تايبل"
+keywords: ["ما الذي تقدمه للفريق","المهارات التي يساهم بها الشخص","ما هي قيمتك المضافة للفريق","مساهمات الأفراد في المشروع","تقديم خبرات ومهارات للعمل","طرح أفكار ومهارات مفيدة","تعريف مصطلح برينج تو ذا تايبل","ماذا يقدم كل عضو للفريق","what value do you add","individual team contributions and skills","provide useful skills to project","what do you offer the team","bring value to the team","sharing domain expertise at work","professional skills and resources","team member contribution discussion"]
 ---
 
 ## التعريف

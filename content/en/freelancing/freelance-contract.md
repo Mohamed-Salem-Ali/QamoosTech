@@ -5,6 +5,7 @@ level: beginner
 related: [nda, proposal, milestone, scope-creep]
 term: "Freelance Contract"
 pronunciation: "FREE-lans KON-trakt"
+keywords: ["agreement between freelancer and client","protect myself before starting project","client project agreement template","freelancer legal agreement document","define payment terms and scope","independent contractor agreement","prevent scope creep with contract","freelance work contract","client onboarding contract","freelance agreement","اتفاقية قانونية بين المستقل والعميل","حفظ حقوقي مع العميل المستقل","عقد عمل حر للمبرمجين","تحديد نطاق العمل وشروط الدفع","كتابة عقد عمل حر","اتفاقية بدء المشروع البرمجي","عقد المستقلين مع العملاء","نموذج عقد عمل حر","عقد الخدمات المستقلة"]
 ---
 
 ## Definition

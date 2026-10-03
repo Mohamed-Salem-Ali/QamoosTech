@@ -5,6 +5,7 @@ level: intermediate
 related: [state]
 term: "Pseudo-class"
 pronunciation: "SOO-doh-klas"
+keywords: ["css state selector","style based on interaction","hover active focus styles","css colon selectors","pseudo class vs element","dynamic css styling","styling element states","css keyword for state","pseudo selector syntax","change style on mouseover","تنسيق عناصر حسب الحالة","محددات الحالة في سي اس اس","تغيير شكل الزر عند الضغط","الفرق بين سودو كلاس وسودو المنت","تنسيق العناصر التفاعلية","كلمات مفتاحية لتنسيق العناصر","سودو كلاس في سي اس اس","تحديد حالة العنصر برمجيا","تنسيق العناصر عند التمرير","محددات سي اس اس المتقدمة"]
 ---
 
 ## Definition

@@ -6,6 +6,7 @@ related: [roll-out]
 term: "Wrap up"
 translation: "ينهي / يختتم"
 pronunciation: "راب أب"
+keywords: ["إنهاء الاجتماع الحالي","ختام الاجتماعات","الانتهاء من المهمة","على وشك الانتهاء","إنهاء السبرنت","اقتراب انتهاء المهمة","ختم العمل اليوم","راب أب الاجتماع","finish up a meeting","end the sprint","conclude a task","almost done with ticket","wrap things up","finish the current task","end the meeting now","finalize the sprint","rap up meeting"]
 ---
 ## التعريف
 

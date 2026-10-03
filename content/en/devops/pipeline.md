@@ -5,6 +5,7 @@ level: beginner
 related: [ci-cd, deployment, staging-vs-production]
 term: "Pipeline"
 pronunciation: "PYP-lin"
+keywords: ["automated build and deploy sequence","ci cd workflow steps","software release automation process","steps from commit to production","build test deploy stages","devops deployment automation","continuous integration delivery flow","automated software delivery chain","code deployment script sequence","cicd pipeline configuration","automated build process","deployment workflow automation","خطوات أتمتة بناء البرمجيات","سلسلة مراحل النشر البرمجي","أتمتة نقل الكود للإنتاج","مسار تنفيذ عمليات النشر","خطوات الاختبار والبناء الآلي","إعدادات التكامل والنشر المستمر","سلسلة خطوات البناء والرفع","أتمتة دورة حياة البرمجيات","مسار العمل البرمجي الآلي","خطوات النشر التلقائي للكود","نظام أتمتة مراحل التطوير","تنسيق مراحل بناء البرمجيات"]
 ---
 
 ## Definition

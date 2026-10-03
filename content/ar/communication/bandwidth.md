@@ -6,6 +6,7 @@ related: [estimate, deadline]
 term: "Bandwidth"
 translation: "السعة المتاحة للعمل"
 pronunciation: "باند ويدث"
+keywords: ["هل لدي وقت كاف","الوقت المتاح لمهام جديدة","الطاقة الاستيعابية للعمل","مستوى ضغط العمل الحالي","هل لديك وقت للمساعدة","السعة المتاحة للعمل","مدى التفرغ لمهام جديدة","باند ويدث","do i have enough time","free time for new tasks","availability for extra work","personal workload capacity","time and energy for tasks","team availability for projects","bandwith","band width"]
 ---
 ## التعريف
 

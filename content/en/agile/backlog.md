@@ -5,6 +5,7 @@ level: beginner
 related: [sprint, user-story]
 term: "Backlog"
 pronunciation: "BAK-log"
+keywords: ["list of future tasks","pending work items","product feature queue","ordered list of requirements","upcoming development tasks","project work pool","to do list for team","agile task repository","unstarted development work","back log","list of bugs and features","قائمة المهام المستقبلية","قائمة العمل المطلوبة","قائمة الميزات والأخطاء","ترتيب أولويات العمل","قائمة المهام المؤجلة","قائمة تطوير المنتج","قائمة المهام غير المنفذة","باك لوج","قائمة الأعمال المطلوبة","تخطيط مهام الفريق"]
 ---
 ## Definition
 

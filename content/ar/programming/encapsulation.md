@@ -6,6 +6,7 @@ related: [class, object, inheritance, separation-of-concerns]
 term: "Encapsulation"
 pronunciation: "إن-كابسولايشن"
 translation: "التغليف"
+keywords: ["مبدأ التغليف في البرمجة","إخفاء البيانات داخل الكلاس","تقييد الوصول للمتغيرات","دمج البيانات مع الدوال","حماية الحالة الداخلية للكائن","استخدام محددات الوصول","مفهوم التغليف البرمجي","منع التعديل المباشر للبيانات","الفرق بين التغليف والتجريد","كيفية تطبيق التغليف","مصطلح إنكابسولايشن","hide internal class data","make variables private","restrict access to properties","bundle data and methods","protect object state integrity","oop visibility modifiers","getter and setter usage","prevent direct field access","data hiding principles","encapsulation definition","encapsulation in programming"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: intermediate
 related: [class, inheritance]
 term: "Interface"
 pronunciation: "IN-ter-fays"
+keywords: ["define a contract for methods","abstract method requirements","programming interface definition","how to decouple code components","enforce structure on classes","java interface vs abstract class","typescript interface usage","code against an interface","define required class properties","software design contract pattern","inter face programming term","تحديد عقد للبرمجة","تعريف الدوال المطلوبة","الفرق بين الواجهة والكلاس","كيفية فصل الكود برمجيا","تطبيق مبدأ الواجهات","واجهة برمجية للعقود","إنترفيس في البرمجة","فرض هيكلية على الفئات","تعريف خصائص الكلاس","استخدام الواجهات في تايب سكريبت","واجهة تنفيذ الدوال"]
 ---
 ## Definition
 

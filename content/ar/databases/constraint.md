@@ -6,6 +6,7 @@ related: [database, schema, query]
 term: "Constraint"
 pronunciation: "كونستراينت"
 translation: "قيد"
+keywords: ["قواعد لتقييد إدخال البيانات","فرض شروط على الأعمدة","منع إدخال بيانات غير صالحة","ضمان سلامة بيانات الجدول","قواعد التحقق من البيانات","شروط على أعمدة قاعدة البيانات","تحديد القيم المسموح بها","طريقة منع تكرار البيانات","قيد أو شرط في الجدول","التحقق من صحة المدخلات","مفاهيم تصميم قواعد البيانات","ضبط جودة بيانات الجداول","rules for database columns","restrict data input values","ensure database data integrity","prevent invalid table entries","enforce column value rules","database schema validation rules","limit allowed column data","ensure unique table values","database column restrictions","check for valid data entry","sql column validation rules","database field requirements"]
 ---
 
 ## التعريف

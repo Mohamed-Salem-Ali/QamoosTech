@@ -6,6 +6,7 @@ related: [component, rendering, state]
 term: "Virtual DOM"
 translation: "الـ Virtual DOM (أو DOM الافتراضي)"
 pronunciation: "فيرتشوال دوم"
+keywords: ["نسخة الذاكرة لواجهة المستخدم","تحسين أداء عرض العناصر","مزامنة واجهة المستخدم برمجيا","تقليل التعديلات المباشرة بالمتصفح","مفهوم الـ دوم الافتراضي","طريقة عمل الواجهات الأمامية","الفرق بين شادو ودوم","تحديثات الواجهة الفعالة","عملية مقارنة العناصر برمجيا","نسخة خفيفة من الـ دوم","lightweight ui memory copy","improve frontend rendering performance","syncing dom with memory","efficient web page updates","react dom abstraction concept","how to optimize dom manipulation","what is vdom in javascript","difference between shadow and virtual","predictable ui state updates","virtual dom diffing process"]
 ---
 
 ## التعريف

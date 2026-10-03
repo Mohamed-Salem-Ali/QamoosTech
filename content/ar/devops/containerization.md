@@ -6,6 +6,7 @@ related: [deployment, environment-variable]
 term: "Containerization (Docker)"
 translation: "تقنية الحاويات"
 pronunciation: "كونتينرايزيشن"
+keywords: ["تقنية عزل التطبيقات","تشغيل التطبيق على أي جهاز","تغليف البرمجيات مع متطلباتها","بديل خفيف للأجهزة الافتراضية","حل مشكلة يعمل على جهازي","طريقة عمل دوكر","استخدام الحاويات في البرمجة","تنظيم بيئة تشغيل التطبيق","تجهيز التطبيق للنشر السحابي","تقنية الكونتينر","run app everywhere same way","package software with dependencies","docker style application deployment","avoid works on my machine","lightweight alternative to virtual machines","isolate software execution environment","deploy apps using containers","standardize application runtime environment","containerize my software project","devops packaging technology"]
 ---
 ## التعريف
 

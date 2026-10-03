@@ -5,6 +5,7 @@ level: beginner
 related: [staging-vs-production, integration-test]
 term: "Sandbox"
 pronunciation: "ساندبوكس"
+keywords: ["بيئة اختبار معزولة","بيئة تجريبية آمنة","تشغيل الأكواد بشكل آمن","بيئة الفحص للاختبار","اختبار واجهات البرمجة بأمان","بيئة محاكاة الإنتاج","ساندبوكس","بيئة الـ sandbox","isolated testing environment","safe space to test code","test api without real data","experimental development environment","mock environment for testing","test payment gateway safely","run untrusted code safely","sandbox","test environment"]
 ---
 
 ## التعريف

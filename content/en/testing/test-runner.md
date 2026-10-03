@@ -5,6 +5,7 @@ level: beginner
 related: [unit-test, ci-cd]
 term: "Test Runner"
 pronunciation: "TEST RUN-er"
+keywords: ["tool to execute test files","automate running unit tests","software for test execution","test suite manager","test execution engine","how to run my tests","test automation tool","cli for running tests","test runner software","test framework executor","أداة تنفيذ الاختبارات البرمجية","برنامج تشغيل ملفات الاختبار","محرك تنفيذ الاختبارات تلقائيا","كيفية تشغيل الاختبارات برمجيا","أداة أتمتة اختبار الكود","تيست رانر","مشغل ملفات الاختبار","أداة إدارة مجموعات الاختبار","برنامج فحص الكود تلقائيا","أداة تنفيذ التستات"]
 ---
 
 ## Definition

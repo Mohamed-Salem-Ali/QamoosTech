@@ -6,6 +6,7 @@ related: [merge, merge-conflict]
 term: "Rebase"
 translation: "إعادة تأسيس الفرع"
 pronunciation: "ريبيس"
+keywords: ["إعادة تأسيس الفرع","ترتيب الـ commits بشكل خطي","تحديث الفرع بأحدث التغييرات","الفرق بين ريبيرس ومرج","نقل الـ commits فوق الفرع الرئيسي","عمل ريبس لفرع جيت","تنظيف تاريخ الـ commits","تاريخ جيت المستقيم","move commits to top of main","clean git history linear path","rewrite commit history git","git rebase vs merge","update feature branch with latest changes","put my commits on latest main","git ribas","rebasing shared branches mistake"]
 ---
 ## التعريف
 

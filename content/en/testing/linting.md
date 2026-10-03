@@ -5,6 +5,7 @@ level: beginner
 related: [quality-gate, code-review]
 term: "Linting"
 pronunciation: "LIN-ting"
+keywords: ["automatic code quality check","find syntax errors automatically","check for unused variables","enforce coding standards tool","static code analysis tool","fix common programming mistakes","automated style guide checker","linter configuration issues","prevent bad code patterns","code smell detection tool","فحص جودة الكود تلقائيا","أداة اكتشاف أخطاء البرمجة","تطبيق معايير كتابة الكود","البحث عن متغيرات غير مستخدمة","فحص أخطاء الصيغة البرمجية","أداة مراجعة الكود الآلية","تحسين جودة الشيفرة برمجيا","التأكد من سلامة الكود","تطبيق قواعد البرمجة القياسية","اكتشاف المشاكل في الكود"]
 ---
 ## Definition
 

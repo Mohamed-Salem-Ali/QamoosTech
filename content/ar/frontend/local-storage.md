@@ -5,6 +5,7 @@ level: beginner
 related: [cache, cookie]
 term: "Local Storage"
 pronunciation: "لوكال ستوريج"
+keywords: ["تخزين البيانات في المتصفح","الحفظ المحلي في المتصفح","تخزين تفضيلات المستخدم محلياً","حفظ البيانات بدون تاريخ إنهاء","التخزين المؤقت في المتصفح","لوكال ستوريج","تخزين المفتاح والقيمة محلياً","حفظ حالة التطبيق بالمتصفح","تخزين البيانات على جهاز المستخدم","save data in browser","persistent client side storage","browser key value store","store user preferences locally","browser storage without expiration","lokal storage","web storage api","save state in browser","client storage like cookies","keep data after browser close"]
 ---
 
 ## التعريف

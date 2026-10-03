@@ -5,6 +5,7 @@ level: intermediate
 related: [nda, proposal]
 term: "Intellectual Property (IP)"
 pronunciation: "in-tuh-LEK-choo-ul PROP-ur-tee"
+keywords: ["who owns the source code","legal rights to software code","software ownership contract clauses","copyright of freelance projects","can i reuse my code","client ownership of deliverables","intellectual property rights explained","legal protection for developers","defining product ownership rights","ip in software contracts","من يمتلك الكود المصدري","حقوق ملكية البرمجيات","بنود ملكية المنتج في العقود","هل يحق لي إعادة استخدام الكود","حقوق المطور في العمل الحر","اتفاقية نقل ملكية المشروع","شرح الملكية الفكرية للمبرمجين","حقوق التأليف والنشر للبرمجيات","تحديد مالك الكود النهائي","قوانين الملكية في عقود البرمجة"]
 ---
 
 ## Definition

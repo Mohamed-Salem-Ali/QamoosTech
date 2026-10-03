@@ -5,6 +5,7 @@ level: beginner
 related: [sprint, estimate, backlog]
 term: "Capacity"
 pronunciation: "كاباسيتي"
+keywords: ["حجم العمل المتاح للفريق","حساب قدرة الفريق للسبيرنت","ما يمكن إنجازه في السبرنت","قياس طاقة الفريق الإنتاجية","تحديد الموارد المتاحة للعمل","الفرق بين السرعة والقدرة","تقدير ساعات عمل الفريق","كاباسيتي الفريق التقني","تخطيط مهام السبرنت","مدى توفر أعضاء الفريق","team workload limit","calculate sprint availability","how much work can we do","team bandwidth for tasks","sprint planning resource check","available developer hours","total team output potential","velocity vs capacity difference","estimating team output","workforce planning agile"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: intermediate
 related: [ci-cd, deployment, rollback]
 term: "Blue-Green Deployment"
 pronunciation: "بلو-جرين ديبلويمينت"
+keywords: ["النشر بدون انقطاع الخدمة","استراتيجية النشر الثنائي","التبديل بين بيئتين متطابقتين","نشر التحديثات بدون توقف","التراجع السريع عن الإصدار","النشر بين بيئتي إنتاج","بلو جرين ديبلويمينت","استراتيجية بلو جرين","zero downtime deployment strategy","switch traffic between two environments","instant rollback deployment method","two identical production environments","blue green release","deploy without downtime","fast environment switching","active idle deployment","blue green deploy"]
 ---
 
 ## التعريف

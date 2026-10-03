@@ -5,6 +5,7 @@ level: beginner
 related: [vulnerability, database, query]
 term: "SQL Injection (SQLi)"
 pronunciation: "ES-KYOO-EL in-JEK-shun"
+keywords: ["hack database via input form","sqli vulnerability","sql injection","bypass login with quotes","malicious sql query execution","unsafe string concatenation in queries","sanitize user input for database","prevent database hacking attacks","use prepared statements","parameterized queries","ثغرة حقن قواعد البيانات","اختراق قاعدة البيانات عبر المدخلات","حقن إس كيو إل","تجاوز تسجيل الدخول بثغرة","تأمين المدخلات ضد الاختراق","منع حقن قاعدة البيانات","استخدام الاستعلامات المجهزة","ثغرة sqli الأمنية","دمج النصوص في الاستعلامات"]
 ---
 
 ## Definition

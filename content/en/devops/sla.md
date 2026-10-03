@@ -5,6 +5,7 @@ level: intermediate
 related: [monitoring, turnaround-time]
 term: "SLA (Service Level Agreement)"
 pronunciation: "es-el-AY"
+keywords: ["service level agreement","guaranteed uptime percentage","contractual response time","customer service quality promise","uptime commitment metrics","service level contract","technical support turnaround time","agreed service availability","customer support response guarantee","sla definition","اتفاقية مستوى الخدمة","ضمان جودة الخدمة","نسبة تشغيل النظام المتفق عليها","عقد الالتزام بالخدمة","وقت الاستجابة للعملاء","اتفاقية الالتزام التقني","تعهد توفر الخدمة","مصطلح إس إل إيه","معايير جودة الخدمة","عقود الدعم الفني"]
 ---
 ## Definition
 

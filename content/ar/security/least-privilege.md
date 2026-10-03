@@ -6,6 +6,7 @@ related: [rbac, authentication-vs-authorization, vulnerability]
 term: "Least Privilege"
 pronunciation: "ليست بريفيليج"
 translation: "مبدأ الحد الأدنى من الصلاحيات"
+keywords: ["مبدأ الحد الأدنى من الصلاحيات","منح أقل صلاحيات ممكنة","تقييد صلاحيات المستخدمين والخدمات","صلاحيات محدودة للخدمات والعمليات","تحديد صلاحيات الوصول بدقة","ليست بريفيليج","تقليل الصلاحيات لتجنب الاختراق","منع إعطاء صلاحيات إدارية كاملة","restrict user permissions to minimum","give service account only needed access","principle of least privilege","limit damage from compromised component","minimum required access security","least privilege model","restrict permissions by default","minimal access control","prevent excessive admin rights"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: beginner
 related: [branch, commit, repository]
 term: "Stash"
 pronunciation: "ستاش"
+keywords: ["حفظ التعديلات بشكل مؤقت","تخزين التعديلات جانبا في جيت","حفظ التعديلات قبل الانتقال للفرع","امر حفظ التعديلات المؤقتة","استرجاع التعديلات المخزنة مؤقتا","ستاش الكود","حفظ العمل الحالي مؤقتا","الاحتفاظ بالتعديلات دون كوميت","save uncommitted changes temporarily","shelve working directory modifications","git stash command","store changes without committing","pause work to switch branch","hide local modifications temporarily","git save work in progress","retrieve stashed changes","git pop stash"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: beginner
 related: [refactoring, design-pattern]
 term: "Boilerplate"
 pronunciation: "بويلر-بليت"
+keywords: ["أكواد برمجية متكررة","كود إعداد المشروع الأساسي","تقليل التكرار في الكود","هيكل الكود المتكرر","ما هو البويلر بليت","أكواد ضرورية لإطار العمل","تكرار الكود بدون تغيير","نمط الكود الموحد","كود التهيئة المتكرر","مفهوم الـ boilerplate برمجياً","repetitive code blocks","standard project setup code","excessive configuration files","boilerplate code definition","reduce code verbosity","template code for frameworks","boilerplate meaning in programming","structural code requirements","common repetitive programming patterns","code that must be included","boilerplate vs code smell"]
 ---
 
 ## التعريف

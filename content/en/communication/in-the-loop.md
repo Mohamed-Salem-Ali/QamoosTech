@@ -5,6 +5,7 @@ level: beginner
 related: [loop-in, heads-up, follow-up]
 term: "In the loop"
 pronunciation: "in thuh loop"
+keywords: ["keep me updated","include me in emails","stay informed on project","cc me on threads","loop me in","need project updates","make sure i know","informed about decisions","keep me posted","part of communication chain","أبقني على اطلاع","أضفني في المراسلات","أريد متابعة التحديثات","أبقني في الصورة","ضمن دائرة التواصل","أريد معرفة المستجدات","أشركني في النقاش","إرسال آخر التطورات","ضمن المتابعين للمشروع","البقاء على دراية"]
 ---
 
 ## Definition

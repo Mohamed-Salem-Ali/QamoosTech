@@ -5,6 +5,7 @@ level: intermediate
 related: [callback]
 term: "Async / Await"
 pronunciation: "AY-sink uh-WAYT"
+keywords: ["write non blocking code easily","wait for network call completion","handle promises without then callbacks","asynchronous programming keywords","sequential code for slow tasks","avoid callback hell easily","javascript async await syntax","python async functions","await database query result","async await keywords","كتابة تعليمة برمجية غير متزامنة","انتظار طلب الشبكة بدون حظر","التعامل مع الوعود بدون كول باك","جملة الانتظار في البرمجة","منع حظر الخيط الرئيسي","البرمجة غير المتزامنة ببساطة","تشغيل المهام بشكل غير متزامن","استخدام أسينك أويت في الكود","الفرق بين المتزامن وغير المتزامن"]
 ---
 ## Definition
 

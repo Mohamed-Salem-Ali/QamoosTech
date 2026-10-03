@@ -6,6 +6,7 @@ related: [embeddings, llm, rag]
 term: "Semantic Search"
 translation: "البحث الدلالي"
 pronunciation: "سيمانتيك سيرتش"
+keywords: ["البحث الدلالي","البحث حسب المعنى والقصد","البحث باستخدام الذكاء الاصطناعي","البحث في قواعد البيانات المتجهية","محرك بحث ذكي","البحث بالمفهوم وليس الكلمات","سيمانتيك سيرتش","تقنية البحث المعتمدة على المعنى","فهم نية استعلام المستخدم","search by meaning instead of keywords","find documents using intent and context","vector database search technique","ai powered search engine","query by conceptual meaning","rag pipeline search method","embeddings based search","understand user query intent","semantic search","smart search engine"]
 ---
 
 ## التعريف

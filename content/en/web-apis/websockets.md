@@ -5,6 +5,7 @@ level: intermediate
 related: [request-response]
 term: "WebSockets"
 pronunciation: "WEB-sok-its"
+keywords: ["persistent connection between client and server","real time bidirectional communication protocol","keep connection open for messages","chat app live messaging protocol","websocket connection","websokets","websocket vs polling","two way browser communication","streaming data to browser","اتصال مستمر بين الخادم والعميل","بروتوكول الدردشة الفورية","فتح اتصال دائم مع السيرفر","اتصال ثنائي الاتجاه بالويب","تحديث لوحة التحكم لحظيا","ويب سوكتس","تقنية الاتصال المباشر بالمتصفح","ارسال رسائل فورية بدون طلبات جديدة"]
 ---
 ## Definition
 

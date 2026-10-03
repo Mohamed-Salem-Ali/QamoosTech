@@ -5,6 +5,7 @@ level: beginner
 related: [http-header, jwt, oauth]
 term: "Bearer Token"
 pronunciation: "BEAR-er TO-ken"
+keywords: ["authorization header string","access token for api","how to authenticate api requests","send identity in http request","token used for bearer auth","bearer token misspelling","secure api request credentials","get access with token","oauth authentication string","verify user identity via header","رمز التحقق من الهوية","ترويسة المصادقة في الطلبات","كيفية إرسال رمز الدخول","رمز الوصول للموارد المحمية","طريقة استخدام بيرر توكن","توثيق الطلبات عبر الويب","رمز المصادقة في الهيدر","استخدام الرموز في api","نظام صلاحيات الوصول","التعامل مع bearer token"]
 ---
 
 ## Definition

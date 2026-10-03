@@ -5,6 +5,7 @@ level: beginner
 related: [http-header, request-response, payload]
 term: "Content-Type"
 pronunciation: "KON-tent TYP"
+keywords: ["tell server data format","http header for media type","define request body type","specify json or form data","fix 415 unsupported media error","mime type header","set payload format header","how to define data type","request header for parsing","content type vs accept header","تحديد صيغة بيانات الطلب","ترويسة نوع المحتوى","تعريف نوع البيانات المرسلة","حل خطأ 415 في الـ API","تحديد تنسيق جسم الطلب","إخبار الخادم بنوع البيانات","الفرق بين كونتنت تايب وأكسيبت","ضبط صيغة الـ JSON في الطلب","ترويسة تعريف صيغة الملفات","كيفية تحديد نوع الوسائط"]
 ---
 
 ## Definition

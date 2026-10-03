@@ -5,6 +5,7 @@ level: intermediate
 related: [fine-tuning]
 term: "Overfitting"
 pronunciation: "OH-ver-fit-ing"
+keywords: ["model memorizing training data","poor performance on test data","high training accuracy low validation","preventing model from overlearning","model captures noise not patterns","over fit","overfitting in machine learning","model too complex for data","overfitted model","why is my model failing validation","avoiding model memorization","فرط الملاءمة في النماذج","النموذج يحفظ بيانات التدريب","مشكلة الإفراط في التعلم","أوفرفيتينج في التعلم الآلي","النموذج لا يعمل على بيانات جديدة","دقة عالية في التدريب وضعف في الاختبار","تجنب حفظ بيانات التدريب","لماذا يفشل النموذج في الاختبار","الإفراط في مطابقة البيانات","مشاكل تدريب النماذج الذكية"]
 ---
 
 ## Definition

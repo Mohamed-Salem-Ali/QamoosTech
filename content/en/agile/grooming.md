@@ -5,6 +5,7 @@ level: intermediate
 related: [backlog, scrum-ceremonies, user-story]
 term: "Grooming"
 pronunciation: "GROOM-ing"
+keywords: ["refine product backlog items","prepare user stories for sprint","backlog refinement meeting","prioritize backlog tasks","estimate user story effort","break down complex stories","agile backlog session","grooming meeting","تنقيح قائمة المهام","ترتيب أولويات الباكلج","تجهيز قصص المستخدم","جلسة هندسة الباكلج","اجتماع تنقيح المهام","تقدير جهد قصص المستخدم","تحديث قائمة الأعمال","جلسة جرومينج"]
 ---
 
 ## Definition

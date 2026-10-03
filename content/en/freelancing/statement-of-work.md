@@ -5,6 +5,7 @@ level: intermediate
 related: [deliverable, milestone, nda, scope-creep]
 term: "Statement of Work (SoW)"
 pronunciation: "STAYT-ment ov WURK"
+keywords: ["project scope document","contract for project deliverables","freelance project agreement","detailed work requirements document","sow meaning","what is a sow","project timeline and payment document","formal project task list","scope of work agreement","client project contract template","وثيقة نطاق المشروع","اتفاقية مخرجات العمل","عقد تفاصيل المشروع","ما هو بيان العمل","وثيقة تحديد مهام المشروع","نموذج اتفاقية الخدمات","تحديد متطلبات العمل التقني","عقد بين العميل والمبرمج","ستيتمنت أوف وورك","وثيقة الجدول الزمني للمشروع"]
 ---
 
 ## Definition

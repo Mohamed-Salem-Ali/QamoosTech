@@ -6,6 +6,7 @@ related: [tech-debt, unit-test]
 term: "Refactoring"
 translation: "إعادة هيكلة الشيفرة"
 pronunciation: "ريفاكتورينج"
+keywords: ["تحسين بنية الكود","تنظيف الشيفرة البرمجية","إعادة تنظيم الكود","تحسين قراءة الكود","ريفاكتورينج","تعديل هيكلية البرنامج","تطوير الكود دون تغيير الوظيفة","إعادة صياغة الشيفرة","تحسين جودة الكود المصدري","تنظيم الدوال المعقدة","improve code structure","clean up messy code","make code easier to read","restructuring code without changing behavior","code cleanup process","refactor code","improving software design","reorganizing existing code","refactoring techniques","optimize code readability"]
 ---
 ## التعريف
 

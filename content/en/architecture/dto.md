@@ -5,6 +5,7 @@ level: intermediate
 related: [payload, dependency-injection]
 term: "DTO (Data Transfer Object)"
 pronunciation: "dee-tee-OH"
+keywords: ["object to carry data","define api request shape","validate incoming json payload","separate database from api","data transfer object","simple data container class","transfer data between layers","dto vs entity","model for api response","define request body structure","data transfer pattern","كائن لنقل البيانات","تعريف شكل البيانات الواردة","حاوية لنقل المعلومات","فصل قاعدة البيانات عن الواجهة","التحقق من بيانات الطلب","هيكل بيانات للـ api","الفرق بين الكيان والـ dto","نموذج نقل البيانات","كائن لتمرير المعطيات","تحديد حقول الطلب","دي تي أو"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [deployment, unit-test, rollback]
 term: "CI/CD"
 translation: "التكامل والنشر المستمر"
 pronunciation: "سي آي سي دي"
+keywords: ["أتمتة بناء ونشر البرمجيات","خط أنابيب النشر التلقائي","كيفية أتمتة اختبار الكود","التكامل والنشر المستمر","أدوات النشر التلقائي للبرمجيات","أتمتة دورة حياة التطوير","شرح مفهوم سي آي سي دي","أتمتة رفع التحديثات للخادم","مسار العمل التلقائي للبرمجة","أتمتة عمليات النشر والدمج","تطوير البرمجيات بشكل مستمر","أتمتة الاختبارات عند الدمج","automate code testing and deployment","continuous integration and delivery","pipeline for software releases","automatic build and deploy process","devops automation workflow","how to automate code deployment","continuous deployment tools","ci cd pipeline explanation","software delivery automation","automate testing on merge","ci cd meaning","continuous integration explained"]
 ---
 ## التعريف
 

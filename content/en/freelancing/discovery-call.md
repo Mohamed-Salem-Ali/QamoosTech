@@ -5,6 +5,7 @@ level: beginner
 related: [proposal, align-on-scope]
 term: "Discovery Call"
 pronunciation: "dis-KUV-uh-ree KAWL"
+keywords: ["initial meeting with potential client","first chat before project start","qualifying a new lead","client needs assessment meeting","pre-project interview","freelance client screening call","discussing project scope requirements","introductory sales meeting","first project consultation","determining project fit","discovery meeting","discovery session","اجتماع أولي مع العميل","جلسة فهم متطلبات المشروع","مقابلة العميل المحتمل","ديسكفري كول","اجتماع تقييم العميل","جلسة التعارف الأولى","تحديد نطاق العمل","اجتماع ما قبل التعاقد","استكشاف احتياجات العميل","مكالمة استكشافية للمشروع"]
 ---
 
 ## Definition

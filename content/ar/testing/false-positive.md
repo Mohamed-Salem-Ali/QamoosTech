@@ -6,6 +6,7 @@ related: [bug, debugging, regression]
 term: "False Positive"
 pronunciation: "فولس بوزیتیڤ"
 translation: "إنذار كاذب"
+keywords: ["إنذار كاذب في البرمجة","بلاغ خطأ غير صحيح","أداة الفحص تظهر خطأ وهمي","تنبيه أمني غير حقيقي","نتيجة اختبار خاطئة","رصد ثغرة غير موجودة","فحص الكود يعطي نتائج خاطئة","خطأ في تقرير الفحص","فولس بوزيتيف","تحذير خاطئ من أداة التحليل","incorrect error report","scanner flagged wrong issue","tool reporting bug incorrectly","false alarm in testing","security alert not real","linter showing phantom errors","test failed but code works","wrong vulnerability detection","false positive error","incorrect automated test failure"]
 ---
 
 ## التعريف

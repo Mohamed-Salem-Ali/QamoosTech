@@ -6,6 +6,7 @@ related: [estimate, user-story, sprint]
 term: "Spike"
 pronunciation: "سبايك"
 translation: "مهمة بحثية"
+keywords: ["مهمة بحثية محددة بزمن","دراسة جدوى تقنية سريعة","استكشاف تحديات برمجية","نموذج أولي قبل التطوير","مهمة لتقليل الغموض التقني","البحث عن حل تقني","تذكرة بحث وتجربة","مهمة تقنية استكشافية","استكشاف قبل تقدير العمل","سبايك تقني","time boxed research task","investigate technical uncertainty","prototype before development","short research sprint task","exploratory coding ticket","technical feasibility study","how to estimate unknown work","agile research activity","task to reduce risk","quick proof of concept"]
 ---
 
 ## التعريف

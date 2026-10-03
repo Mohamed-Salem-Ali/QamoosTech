@@ -5,6 +5,7 @@ level: intermediate
 related: [llm, hallucination, rag]
 term: "Grounding"
 pronunciation: "GROUND-ing"
+keywords: ["make ai stick to facts","stop llm from hallucinating","link chatbot to external data","provide context to llm","verify ai model responses","prevent ai from lying","connect model to trusted sources","improve chatbot accuracy with data","grounding vs fine tuning","how to reduce ai hallucinations","ربط النموذج بمصادر خارجية","منع هلوسة الذكاء الاصطناعي","جعل إجابات الذكاء الاصطناعي دقيقة","تزويد النموذج بسياق خارجي","الاعتماد على بيانات موثوقة","تقليل أخطاء روبوت المحادثة","جراوندينج للنماذج اللغوية","الفرق بين جراوندينج والضبط الدقيق","تحسين دقة ردود الذكاء الاصطناعي","ربط النموذج بوثائق الشركة"]
 ---
 
 ## Definition

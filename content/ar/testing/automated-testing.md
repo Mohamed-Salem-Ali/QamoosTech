@@ -6,6 +6,7 @@ related: [unit-test, regression, ci-cd]
 term: "Automated Testing"
 translation: "الاختبار الآلي"
 pronunciation: "أوتوميتيد تيستينج"
+keywords: ["الاختبار البرمجي التلقائي","تشغيل الاختبارات بدون تدخل بشري","أتمتة فحص الكود","استخدام سكربتات لاختبار البرمجيات","أدوات الاختبار الآلي","توفير وقت الاختبار اليدوي","فحص الميزات برمجيا","أوتوميتيد تيستينج","تفعيل الاختبارات التلقائية","تغطية الكود بالاختبارات","run tests without manual effort","scripts to check code quality","replace manual testing tasks","auto test software features","automated test scripts","ci cd testing tools","test code automatically","software testing automation","check for regressions automatically","automated unit and integration tests"]
 ---
 
 ## التعريف

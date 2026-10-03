@@ -10,14 +10,17 @@ const ALLOWED_PUNCT = /[ «»·×–—‘’“”…→≈°•‎‏٪-٭]/
 
 export function scanText(text, lang) {
   const found = []
-  let line = 1
-  for (const ch of text) {
-    if (ch === '\n') line++
-    const code = ch.codePointAt(0)
-    if (code < 128 || ALLOWED_PUNCT.test(ch)) continue
-    if (lang === 'ar' && ARABIC.test(ch)) continue
-    if (/\p{Emoji_Presentation}/u.test(ch)) continue
-    found.push({ line, ch, code: 'U+' + code.toString(16).toUpperCase().padStart(4, '0') })
+  const lines = text.split('\n')
+  for (let n = 0; n < lines.length; n++) {
+    // the `keywords:` list holds search phrases in BOTH languages, in every file
+    if (lines[n].startsWith('keywords:')) continue
+    for (const ch of lines[n]) {
+      const code = ch.codePointAt(0)
+      if (code < 128 || ALLOWED_PUNCT.test(ch)) continue
+      if (lang === 'ar' && ARABIC.test(ch)) continue
+      if (/\p{Emoji_Presentation}/u.test(ch)) continue
+      found.push({ line: n + 1, ch, code: 'U+' + code.toString(16).toUpperCase().padStart(4, '0') })
+    }
   }
   return found
 }

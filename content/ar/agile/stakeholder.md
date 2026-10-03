@@ -6,6 +6,7 @@ related: [user-story, mvp]
 term: "Stakeholder"
 translation: "صاحب مصلحة"
 pronunciation: "ستيك هولدر"
+keywords: ["أطراف معنية بالمشروع","من يتأثر بنتائج المشروع","الأشخاص المهتمون بنجاح المشروع","أصحاب المصالح في البرمجيات","من يحضر اجتماعات عرض المشروع","أطراف لها علاقة بالمنتج","ستيك هولدر","الأشخاص المؤثرون في المشروع","المشاركون في اتخاذ القرار","من يراجع متطلبات النظام","people impacted by project","who cares about project results","everyone involved in the project","business partners and users","anyone affected by software changes","project decision makers","key project participants","stake holder spelling","stakeholders vs shareholders","people to present demo to","who needs to approve requirements"]
 ---
 ## التعريف
 

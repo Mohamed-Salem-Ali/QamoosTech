@@ -6,6 +6,7 @@ related: [dataset]
 term: "OCR (Optical Character Recognition)"
 translation: "التعرف الضوئي على الحروف"
 pronunciation: "أو سي آر"
+keywords: ["استخراج النص من الصور","قراءة النص من الصور","التعرف الضوئي على الحروف","تحويل الصورة إلى نص","مسح المستندات واستخراج النص","برنامج قراءة النصوص المصورة","تحويل المستند الممسوح إلى نص","أو سي آر","extract text from images","read text from picture","optical character recognition","scan documents to text","convert image to editable text","image to text converter","ocr tool","recognize text in photos","extract words from scanned invoice"]
 ---
 ## التعريف
 

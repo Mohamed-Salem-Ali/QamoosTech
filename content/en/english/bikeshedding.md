@@ -5,6 +5,7 @@ level: intermediate
 related: [yak-shaving]
 term: "Bikeshedding"
 pronunciation: "BYK-shed-ing"
+keywords: ["wasting time on trivial details","focusing on minor issues","arguing over unimportant code changes","overanalyzing small design decisions","pointless debate during code review","avoiding big decisions for small ones","getting stuck on minor details","excessive focus on simple tasks","bikeshedding definition","what is bikeshedding","meaning of bikeshedding","الجدل في التفاهات","إضاعة الوقت في تفاصيل صغيرة","التركيز على الأمور غير المهمة","الانشغال بتفاصيل لا تستحق","تضييع الوقت في نقاشات جانبية","ما معنى بايكشيدينج","تجاهل القرارات المهمة والتركيز على التافه","الخوض في تفاصيل ثانوية","تجنب الجدل في التفاهات","معنى كلمة بايكشيدينج"]
 ---
 ## Definition
 

@@ -5,6 +5,7 @@ level: intermediate
 related: [database, schema, table-row-column]
 term: "Normalization"
 pronunciation: "نورمالايزيشن"
+keywords: ["تقليل تكرار البيانات في قاعدة البيانات","تنظيم الجداول في قاعدة البيانات","تقسيم الجداول الكبيرة إلى جداول","ضمان سلامة البيانات في الداتا بيس","تصميم هيكل قاعدة البيانات","تطهير البيانات المتكررة","تنظيم الداتا بيس","قواعد تسوية البيانات","organize database tables to reduce redundancy","minimize data duplication in sql","split tables into related ones","database schema design best practices","ensure data integrity and consistency","db normalization rules","fix repeating columns in database","database forms first second third"]
 ---
 
 ## التعريف

@@ -5,6 +5,7 @@ level: intermediate
 related: [circling-back, follow-up]
 term: "Touch base"
 pronunciation: "TUCH BAYS"
+keywords: ["quick check in meeting","short status update chat","catch up with manager","have a quick chat","check progress informally","tatch base","touch base meeting","brief status check","talk about project updates","اجتماع متابعة سريع","محادثة قصيرة للاطمئنان","تحديث سريع للحالة","تواصل سريع مع المدير","دردشة خفيفة عن العمل","جلسة تنسيق قصيرة","تاتش بيس","الاطمئنان على سير العمل","اجتماع دوري قصير"]
 ---
 ## Definition
 

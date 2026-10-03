@@ -5,6 +5,7 @@ level: intermediate
 related: [embeddings, rag, token]
 term: "Chunking"
 pronunciation: "CHUNK-ing"
+keywords: ["split large documents for embeddings","divide text into smaller segments","prepare documents for rag","text splitting strategy","segment documents for vector database","document chunking","chunking","tshinking","split text by paragraph","تقطيع النص إلى أجزاء صغيرة","تقسيم المستندات الكبيرة لنموذج الذكاء الاصطناعي","تجهيز البيانات لنظام راغ","استراتيجية تقطيع المستندات","تقطيع النصوص لتوليد التضمينات","تشنكينج النصوص","تقسيم النص إلى مقاطع دلالية","تجزئة المستندات الطويلة"]
 ---
 
 ## Definition

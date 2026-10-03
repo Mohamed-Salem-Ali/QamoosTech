@@ -5,6 +5,7 @@ level: intermediate
 related: [unit-test, bug]
 term: "Edge Case"
 pronunciation: "EJ KAYS"
+keywords: ["extreme input values testing","handling boundary conditions","unexpected data scenarios","testing outside happy path","corner case vs edge case","uncommon system states","input validation limits","testing empty or null inputs","edge cases in software","boundary value analysis","rare execution paths","اختبار القيم المتطرفة","معالجة الحالات الحدية","سيناريوهات غير متوقعة","اختبار حدود المدخلات","تغطية حالات المدخلات الفارغة","ما هي الحالات الحدية","الفرق بين الحالات الحدية والزاوية","سيناريوهات الاستخدام النادرة","فحص القيم عند الحدود","إيدج كيس في البرمجة"]
 ---
 ## Definition
 

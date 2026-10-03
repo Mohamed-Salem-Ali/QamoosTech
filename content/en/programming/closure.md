@@ -5,6 +5,7 @@ level: intermediate
 related: [function, scope, variable]
 term: "Closure"
 pronunciation: "KLO-zhur"
+keywords: ["function remembers outer variables","keep variables private in js","function scope retention","inner function accessing outer scope","javascript closure concept","create private variables with functions","function execution context preservation","closre","clousure","lexical scope closure","دالة تحتفظ بالمتغيرات الخارجية","إنشاء متغيرات خاصة في جافاسكريبت","الوصول لمتغيرات الدالة الخارجية","مفهوم الـ closure في البرمجة","دالة تحتفظ بنطاقها الأصلي","حفظ حالة المتغيرات داخل دالة","الكلوزشر في جافاسكريبت","الدوال المغلقة في البرمجة"]
 ---
 
 ## Definition

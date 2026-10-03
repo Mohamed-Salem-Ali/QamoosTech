@@ -5,6 +5,7 @@ level: intermediate
 related: [class, object, inheritance, separation-of-concerns]
 term: "Encapsulation"
 pronunciation: "en-KAP-sue-lay-shun"
+keywords: ["hide internal class data","make variables private","restrict access to properties","bundle data and methods","protect object state integrity","oop visibility modifiers","getter and setter usage","prevent direct field access","data hiding principles","encapsulation definition","encapsulation in programming","مبدأ التغليف في البرمجة","إخفاء البيانات داخل الكلاس","تقييد الوصول للمتغيرات","دمج البيانات مع الدوال","حماية الحالة الداخلية للكائن","استخدام محددات الوصول","مفهوم التغليف البرمجي","منع التعديل المباشر للبيانات","الفرق بين التغليف والتجريد","كيفية تطبيق التغليف","مصطلح إنكابسولايشن"]
 ---
 
 ## Definition

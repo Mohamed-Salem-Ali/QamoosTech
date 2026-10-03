@@ -5,6 +5,7 @@ level: beginner
 related: [deliverable, invoice, deadline]
 term: "Milestone"
 pronunciation: "MYL-stohn"
+keywords: ["project checkpoint","project phase goal","payment stage in project","break project into chunks","deliverable check point","project progress marker","malestone","milstone","project timeline stage","define project stages","مرحلة رئيسية في المشروع","نقطة إنجاز في المشروع","مرحلة تسليم ودفع","تقسيم المشروع إلى مراحل","محطة رئيسية للمشروع","دفعة مالية للمشروع","مايلستون","مراحل العمل في العقد"]
 ---
 ## Definition
 

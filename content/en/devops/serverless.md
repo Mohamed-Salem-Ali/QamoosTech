@@ -5,6 +5,7 @@ level: intermediate
 related: [deployment, scalability]
 term: "Serverless"
 pronunciation: "SER-ver-less"
+keywords: ["run code without managing servers","cloud functions pay per use","event driven compute architecture","deploy code without server config","auto scaling backend functions","serverless computing platform","running tasks without provisioning","lambda style code execution","cloud provider managed backend","pay only for execution time","server less architecture","managed function as a service","تشغيل الكود بدون إدارة خوادم","الحوسبة السحابية بدون سيرفرات","دوال برمجية عند الطلب","تشغيل الشيفرة بدون تجهيز خوادم","خدمات الحوسبة بدون إدارة بنية","تطبيقات تعمل بدون سيرفر خاص","سيرفرليس","تنفيذ الدوال في السحابة","الدفع مقابل وقت التشغيل فقط","معمارية بدون خوادم","تشغيل المهام في الخلفية سحابيا","خدمة الدوال السحابية"]
 ---
 ## Definition
 

@@ -5,6 +5,7 @@ level: beginner
 related: [table-row-column, migration]
 term: "Schema"
 pronunciation: "SKEE-muh"
+keywords: ["database structure definition","how to organize tables","define data types and relations","database design blueprint","api request validation format","skima spelling","database map layout","data model structure","table column configuration","database schema definition","data structure blueprint","بنية قاعدة البيانات","تصميم هيكل الجداول","تحديد أنواع البيانات والعلاقات","مخطط قاعدة البيانات","طريقة تنظيم البيانات","تعريف هيكلية الجداول","سكيما قاعدة البيانات","شكل البيانات في الجدول","مواصفات هيكل البيانات","كيفية تصميم جداول البيانات"]
 ---
 ## Definition
 

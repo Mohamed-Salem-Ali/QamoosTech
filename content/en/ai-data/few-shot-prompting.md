@@ -5,6 +5,7 @@ level: intermediate
 related: [prompt-engineering, llm]
 term: "Few-shot Prompting"
 pronunciation: "FYOO-shot PROM-pt-ing"
+keywords: ["teach ai with examples","prompting with input output pairs","how to guide llm output","few shot learning technique","improve llm accuracy with examples","few shot prompt engineering","in context learning examples","giving model sample responses","fewshot prompting","few shot prompt method","تعليم النموذج عبر أمثلة","توجيه الذكاء الاصطناعي بأمثلة","تحسين نتائج النموذج بأمثلة قليلة","التوجيه بالأمثلة داخل البرومبت","تقديم نماذج للإجابة للذكاء الاصطناعي","تزويد النموذج بأمثلة توضيحية","طريقة فيو شوت برومبتنج","تحسين دقة النموذج بدون تدريب","استخدام أمثلة قليلة للبرومبت","توجيه النموذج بأمثلة محددة"]
 ---
 
 ## Definition

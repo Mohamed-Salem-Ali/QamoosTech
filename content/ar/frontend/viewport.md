@@ -6,6 +6,7 @@ related: [responsive-design]
 term: "Viewport"
 translation: "منفذ العرض"
 pronunciation: "فيوبورت"
+keywords: ["المساحة المرئية من صفحة الويب","منفذ العرض","حجم نافذة المتصفح","مساحة الشاشة في المتصفح","مقاسات الشاشة للتصميم المرن","عرض الشاشة في الجوال","وسم ميسان الشاشة","فيوبورت","وحدات القياس في سي إس إس","visible area of web page","browser window display size","screen size in css","mobile screen width tag","vw and vh units","responsive design screen area","page area inside browser","device screen dimensions","viewport meta tag","visible browser area"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [query, index]
 term: "EXPLAIN Plan"
 pronunciation: "إكس-بلين بلان"
 translation: "خطة التنفيذ"
+keywords: ["كيفية تنفيذ الاستعلام","تحليل أداء الاستعلامات","معرفة سبب بطء الاستعلام","خطة تنفيذ قاعدة البيانات","تحسين أداء قواعد البيانات","فحص مسار تنفيذ الاستعلام","هل يستخدم الاستعلام الفهرس","أداة تحليل استعلامات sql","فهم خطوات تنفيذ الاستعلام","تتبع عمليات قاعدة البيانات","how database executes query","view query execution path","debug slow sql queries","database query optimization tool","check if index is used","sql execution roadmap","analyze query performance bottlenecks","why is my query slow","database operation sequence","sql explain command"]
 ---
 
 ## التعريف

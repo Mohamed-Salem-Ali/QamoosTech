@@ -6,6 +6,7 @@ related: [test-coverage, ci-cd, linting]
 term: "Quality Gate"
 translation: "بوابة الجودة"
 pronunciation: "كوالتي جيت"
+keywords: ["بوابة الجودة","شروط دمج الكود","فحص الكود تلقائيا قبل الدمج","منع دمج الكود سيء الجودة","قواعد الفحص التلقائي في السي آي","الحد الأدنى لتغطية الاختبارات","كوالتي جيت","معايير قبول الكود البرمجي","automated code check rules","block merge on test fail","sonar check before merge","ci cd pass criteria","minimum coverage requirement","code quality threshold check","prevent merge on low coverage","automated pipeline checks","quality gate","kwolity gate"]
 ---
 ## التعريف
 

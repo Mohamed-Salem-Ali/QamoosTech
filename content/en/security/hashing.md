@@ -5,6 +5,7 @@ level: intermediate
 related: [encryption, authentication-vs-authorization]
 term: "Hashing"
 pronunciation: "HASH-ing"
+keywords: ["turn data into fixed length fingerprint","store passwords safely without plaintext","one way cryptographic function","difference between hash and encryption","check data integrity safely","generate password hash with bcrypt","convert text to irreversible string","hash function for security","تحويل البيانات إلى بصمة ثابتة","تخزين كلمات المرور بشكل آمن","دالة تشفير لا يمكن عكسها","الفرق بين التشفير والتجزئة","خوارزمية الهاش لكلمات المرور","التحقق من سلامة البيانات بالهاش","عمل تشفير باتجاه واحد","حفظ كلمة المرور كهاش"]
 ---
 ## Definition
 

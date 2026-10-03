@@ -6,6 +6,7 @@ related: [request-response, restful-api, status-code]
 term: "HTTP Methods"
 translation: "طرق بروتوكول HTTP"
 pronunciation: "اتش تي تي بي ميثودز"
+keywords: ["أفعال بروتوكول اتش تي تي بي","أنواع طلبات واجهة البرمجة","طرق إرسال طلبات السيرفر","أوامر جلب وحذف البيانات","ما هي أفعال http","أنواع العمليات في api","أفعال طلبات الويب","كيفية تحديد نوع الطلب","رموز طلبات الخادم","طرق بروتوكول اتش تي تي بي","get post put delete actions","api request types","http verbs list","how to send api requests","define action on resource","rest api request types","http request actions","client server communication verbs","web api call types","http method names"]
 ---
 
 ## التعريف

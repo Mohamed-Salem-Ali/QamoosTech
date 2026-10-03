@@ -5,6 +5,7 @@ level: beginner
 related: [object, inheritance, interface]
 term: "Class"
 pronunciation: "KLAS"
+keywords: ["blueprint for creating objects","object oriented programming blueprint","define data and behavior template","klas","kelas","create new object blueprint","code template for objects","group data and methods together","java python typescript class","مخطط لإنشاء الكائنات","قالب البرمجة كائنية التوجه","كلاس","تعريف الكائنات في البرمجة","مخطط البيانات والسلوك","إنشاء كلاس جديد","هيكل الكائن البرمجي"]
 ---
 ## Definition
 

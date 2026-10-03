@@ -5,6 +5,7 @@ level: beginner
 related: [object, array]
 term: "Destructuring"
 pronunciation: "dee-STRUK-chur-ing"
+keywords: ["unpack object properties into variables","extract values from array javascript","assign array elements to variables","cleaner way to get object keys","destructing syntax in javascript","distructuring","extract data from object quickly","javascript object unpacking","python destructuring syntax","استخراج القيم من الكائنات","فك المصفوفة إلى متغيرات","أخذ خصائص الكائن في متغيرات","استخراج بيانات من المصفوفة","طريقة مختصرة لتعيين المتغيرات","تفكيك الكائنات في جافاسكريبت","ديستراكشرينج","استخراج حقول الكائن"]
 ---
 
 ## Definition

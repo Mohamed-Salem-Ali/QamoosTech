@@ -5,6 +5,7 @@ level: beginner
 related: [unit-test, regression, bug]
 term: "Test Case"
 pronunciation: "TEST KAYSS"
+keywords: ["steps to test a feature","expected outcome verification","qa verification steps","test script","testing scenario","validate software behavior","check if feature works","test cases","tst case","خطوات اختبار ميزة معينة","حالة اختبار البرمجيات","التحقق من النتائج المتوقعة","سيناريو اختبار النظام","خطوات فحص الكود","كتابة حالات الاختبار","تيست كيس","حالات الاختبار"]
 ---
 
 ## Definition

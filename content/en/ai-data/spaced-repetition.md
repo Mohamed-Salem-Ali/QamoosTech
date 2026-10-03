@@ -5,6 +5,7 @@ level: beginner
 related: [dataset]
 term: "Spaced Repetition"
 pronunciation: "SPAYSD rep-ih-TISH-un"
+keywords: ["learning with increasing intervals","memorization technique for long term","spaced repetition algorithm","anki style learning method","how to remember new terms","reviewing content at intervals","spaced practice for retention","avoiding cramming for exams","smart flashcard study system","distributed practice technique","طريقة حفظ المعلومات بفعالية","مراجعة المادة على فترات","تقنية التكرار المتباعد","كيفية ترسيخ المعلومات في الذاكرة","توزيع المراجعة على أيام","تجنب حشر المعلومات للدراسة","تطبيقات التذكر الذكي","خوارزميات المراجعة المتباعدة","تعلم المفاهيم على المدى الطويل","سبيسد ريبيتيشن"]
 ---
 ## Definition
 

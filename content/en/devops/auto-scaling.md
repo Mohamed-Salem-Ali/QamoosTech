@@ -5,6 +5,7 @@ level: intermediate
 related: [load-balancer, scalability]
 term: "Auto-scaling"
 pronunciation: "AW-toh SKAY-ling"
+keywords: ["dynamic server capacity adjustment","handle traffic spikes automatically","increase server count based on load","cloud infrastructure resource management","scale servers up and down","automatically add compute instances","optimize cloud costs by scaling","dynamic resource allocation for servers","autoscaling vs load balancing","automatic cloud instance provisioning","زيادة عدد الخوادم تلقائيا","ضبط سعة الخوادم ديناميكيا","التحكم التلقائي في موارد السحابة","توسيع البنية التحتية تلقائيا","إضافة خوادم عند زيادة الضغط","تقليل التكاليف عبر السعة التلقائية","أوتو سكيلينج","تغيير عدد الخوادم بناء على الطلب","إدارة موارد الخوادم تلقائيا","توسيع نطاق النظام ذاتيا"]
 ---
 
 ## Definition

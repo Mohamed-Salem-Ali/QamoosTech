@@ -5,6 +5,7 @@ level: beginner
 related: [authentication-vs-authorization, two-factor-authentication]
 term: "Credentials"
 pronunciation: "كْريدينشلز"
+keywords: ["بيانات تسجيل الدخول","اسم المستخدم وكلمة المرور","إثبات هوية المستخدم","معلومات التحقق من الهوية","كلمات المرور والمفاتيح","بيانات الاعتماد البرمجية","طريقة دخول المستخدم للنظام","كْريدينشلز","بيانات الدخول الآمنة","تخزين معلومات الوصول","التحقق من هوية المستخدم","مفاتيح الوصول للتطبيقات","username and password pair","login information for apps","how to verify identity","secure access keys","authentication data for login","user identity proof","api keys and secrets","storing user login details","credientials spelling","login tokens and keys","prevent hardcoding passwords","identity verification info"]
 ---
 
 ## التعريف

@@ -6,6 +6,7 @@ related: [schema, orm]
 term: "Migration"
 translation: "ترحيل (تغيير بنية القاعدة)"
 pronunciation: "مايجريشن"
+keywords: ["تحديث بنية قاعدة البيانات","تتبع تغييرات جداول البيانات","ملفات إصدارات قاعدة البيانات","تطبيق تغييرات الهيكلية برمجيا","مايجريشن","تغيير أعمدة قاعدة البيانات","سجل تغييرات قاعدة البيانات","أداة ترحيل البيانات","تحديث هيكل قاعدة البيانات","إدارة إصدارات القاعدة","database schema version control","apply database structure changes","track database table updates","versioned database evolution script","how to update db schema","run database change files","manage database table history","database migration tool","sync database across environments","mygration","db schema evolution"]
 ---
 ## التعريف
 

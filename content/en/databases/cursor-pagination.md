@@ -5,6 +5,7 @@ level: intermediate
 related: [pagination, index]
 term: "Cursor Pagination"
 pronunciation: "KUR-ser paj-ih-NAY-shun"
+keywords: ["faster than offset pagination","infinite scroll database technique","paging using last item pointer","avoiding offset performance issues","keyset pagination implementation","fetching next page with cursor","stable pagination for large datasets","cursor based data fetching","pagination without skip offset","efficient database record navigation","بديل ترقيم الصفحات التقليدي","طريقة ترقيم الصفحات السريعة","جلب البيانات باستخدام المؤشر","تجنب بطء التصفح في الجداول","الترقيم المعتمد على القيمة","تحسين أداء التمرير اللانهائي","استخدام كيرسور في الاستعلامات","تصفح البيانات بدون استخدام أوفست","طريقة الترقيم بالمؤشر","جلب السجلات التالية برمجيا"]
 ---
 ## Definition
 

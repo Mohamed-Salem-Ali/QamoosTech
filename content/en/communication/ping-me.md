@@ -5,6 +5,7 @@ level: beginner
 related: [follow-up, touch-base, heads-up]
 term: "Ping me"
 pronunciation: "PING MEE"
+keywords: ["send me a message","notify me on slack","drop me a line","send a quick message","ping me","message me when ready","notify me later","send chat notification","أرسل لي رسالة سريعة","راسلني على السلاك","أعطني خبرا","أبلغني عندما تنتهي","راسلني عندما تجهز","بينج مي","أرسل لي إشعارا","تواصل معي عبر الدردشة"]
 ---
 
 ## Definition

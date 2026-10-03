@@ -6,6 +6,7 @@ related: [component]
 term: "MDX"
 translation: "إم دي إكس"
 pronunciation: "إم دي إكس"
+keywords: ["كتابة رياكت داخل ماركداون","مكونات رياكت في ملفات ماركداون","دمج مكونات في النصوص","صيغة ملفات إم دي إكس","ملفات التوثيق التفاعلية","ماركداون مع مكونات رياكت","write react inside markdown","markdown with react components","embed components in markdown files","react markdown format","interactive documentation files","mdx format","mdx file extension","mdx components"]
 ---
 ## التعريف
 

@@ -5,6 +5,7 @@ level: intermediate
 related: [fixed-price-vs-hourly, invoice]
 term: "Retainer"
 pronunciation: "rih-TAY-ner"
+keywords: ["monthly retainer agreement","regular client payment contract","reserve time for client","stable freelance income model","monthly availability fee","retainer vs subscription","maintenance contract payment","monthly support hours fee","دفعة شهرية ثابتة","عقد صيانة شهري للعملاء","حجز وقت المستقل للعميل","دخل ثابت للعمل الحر","اتفاقية دعم شهري منتظمة","رسوم التوفر الشهري","الفرق بين الرتيتر والاشتراك","حجز ساعات عمل شهرية"]
 ---
 ## Definition
 

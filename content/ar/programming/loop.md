@@ -6,6 +6,7 @@ related: [recursion, array]
 term: "Loop"
 translation: "حلقة تكرارية"
 pronunciation: "لوب"
+keywords: ["تكرار كود برمجي أكثر من مرة","حلقة تكرارية لتنفيذ الأوامر","المرور على عناصر المصفوفة","حلقة لا نهائية توقف البرنامج","كيفية عمل اللوب في البرمجة","تنفيذ شيفرة بشكل متكرر","حلقة فور البرمجية","شروط التوقف في الحلقات","repeat code while condition true","loop through list of items","for loop syntax example","how to stop infinite loop","code block repetition structure","iterate over array items","running code multiple times","while loop implementation","looping construct in programming"]
 ---
 ## التعريف
 

@@ -5,6 +5,7 @@ level: beginner
 related: [class, array]
 term: "Object"
 pronunciation: "OB-jekt"
+keywords: ["data structure with properties","instance of a class","key value pair container","grouping data and methods","javascript object literal","python dictionary equivalent","json data structure","entity with state and behavior","programming object definition","data object in memory","حاوية بيانات وخصائص","نسخة من صنف برمجي","تجميع البيانات في كائن","هيكل بيانات مفتاح وقيمة","تعريف الكائن في البرمجة","ما هو الأوبجكت","مجموعة بيانات مترابطة","كائن برمجي في الذاكرة","الفرق بين الكائن والصنف","بيانات على شكل كائن"]
 ---
 ## Definition
 

@@ -5,6 +5,7 @@ level: intermediate
 related: [decorator]
 term: "Pythonic"
 pronunciation: "pie-THON-ik"
+keywords: ["writing code like python","idiomatic python code","best practices for python","clean python code style","standard python coding conventions","pythonic way of coding","how to write better python","python style guide","pythonic code examples","python idiomatic expressions","كتابة كود بأسلوب بايثون","أفضل ممارسات لغة بايثون","طريقة كتابة الكود الصحيحة","كود بايثوني احترافي","اتفاقيات كتابة كود بايثون","كيف أكتب كود بايثون نظيف","أسلوب البرمجة في بايثون","معايير لغة بايثون البرمجية","كتابة كود بايثون مقروء","تعلم أسلوب بايثون"]
 ---
 ## Definition
 

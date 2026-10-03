@@ -5,6 +5,7 @@ level: intermediate
 related: [endpoint, status-code, graphql]
 term: "RESTful API"
 pronunciation: "REST-ful AY-pee-eye"
+keywords: ["rest api design standard","http methods get post put","web api with urls","build standard web api","restful webservice","api using http verbs","resource based api","rest api architecture","تصميم واجهات برمجة التطبيقات","واجهة برمجة تطبيقات تعتمد على ريست","استخدام طرق اتش تي تي بي","بناء واجهة برمجية قياسية","واجهة ريست","خدمات الويب ريستفل","بناء ايه بي آي قياسي","التعامل مع طلبات اتش تي تي بي"]
 ---
 ## Definition
 

@@ -5,6 +5,7 @@ level: beginner
 related: [llm]
 term: "Multimodal"
 pronunciation: "MULL-tee-MOH-dull"
+keywords: ["ai models processing images and text","models handling multiple media types","ai that understands video and audio","cross modal ai architectures","models working with different data formats","integrated text image audio ai","multi format input artificial intelligence","multimodel ai","ai systems combining diverse inputs","processing text and images simultaneously","نماذج الذكاء الاصطناعي متعددة الوسائط","معالجة النصوص والصور معاً","أنظمة تفهم الفيديو والصوت","نماذج ذكاء اصطناعي شاملة","التعامل مع أنواع بيانات مختلفة","ذكاء اصطناعي يجمع بين الوسائط","نماذج تدعم مدخلات متنوعة","تحليل الصور والنصوص في نموذج واحد","مصطلح مولتي مودال","نماذج الذكاء الاصطناعي الهجينة"]
 ---
 
 ## Definition

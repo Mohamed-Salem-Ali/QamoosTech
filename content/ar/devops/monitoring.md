@@ -6,6 +6,7 @@ related: [logging, health-check, sla]
 term: "Monitoring"
 translation: "المراقبة"
 pronunciation: "مونيتورينج"
+keywords: ["مراقبة صحة النظام","تتبع أداء السيرفر","لوحة تحكم الأخطاء","تنبيهات استهلاك المعالج","مراقبة السيرفرات في الإنتاج","فحص حالة النظام","مونيتورينج","مراقبة الأخطاء والسرعة","اكتشاف المشكلات مبكرا","watch system health and metrics","track cpu usage and errors","system performance dashboard","production alerts and metrics","check server health status","set up server alerts","montoring","monitering","track latency spikes","system health checks"]
 ---
 ## التعريف
 

@@ -6,6 +6,7 @@ related: [edge-case, unit-test]
 term: "Happy Path"
 pronunciation: "هأبي باث"
 translation: "المسار المثالي"
+keywords: ["السيناريو الافتراضي للعمل","المسار الصحيح للتطبيق","اختبار سير العمل الطبيعي","حالة النجاح في النظام","المسار المثالي للبرمجيات","تتبع خطوات المستخدم الناجحة","سيناريو عمل النظام بدون أخطاء","المسار السعيد في الاختبار","التدفق الأساسي للوظائف","اختبار العمليات السليمة","ideal user scenario","standard flow without errors","default successful execution path","testing core functionality","main system flow","happy flow testing","normal operation scenario","everything working as expected","successful user journey","basic feature test case"]
 ---
 
 ## التعريف

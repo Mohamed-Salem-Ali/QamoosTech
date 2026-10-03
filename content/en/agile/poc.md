@@ -5,6 +5,7 @@ level: beginner
 related: [mvp, deliverable]
 term: "Proof of Concept (PoC)"
 pronunciation: "PROOF uv KON-sept"
+keywords: ["verify technical feasibility","test if idea works","small validation project","technical experiment before development","check if technology is viable","proof of concept meaning","poc abbreviation","validate technical assumptions","initial feasibility study","quick test of concept","التحقق من جدوى الفكرة","تجربة تقنية أولية","إثبات مفهوم البرمجيات","اختبار صلاحية التقنية","مشروع تجريبي مصغر","التأكد من قابلية التنفيذ","اختبار مبدئي للفكرة","بروف أوف كونسيبت","نموذج تقني للتحقق","دراسة جدوى تقنية سريعة"]
 ---
 
 ## Definition

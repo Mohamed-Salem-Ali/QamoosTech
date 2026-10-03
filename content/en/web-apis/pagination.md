@@ -5,6 +5,7 @@ level: beginner
 related: [query-parameter, cursor-pagination]
 term: "Pagination"
 pronunciation: "paj-ih-NAY-shun"
+keywords: ["split long list into pages","load results page by page","limit api response size","page and limit parameters","handle large data lists","cursor pagination alternative","paginaton","pagnation","split api results into chunks","get data in pages","تقسيم نتائج البحث إلى صفحات","عرض النتائج على صفحات متعددة","تقليل حجم استجابة الـ api","تحديد عدد العناصر في الصفحة","عرض البيانات على دفعات","ترقيم الصفحات","باجينيشن","عرض القوائم الكبيرة على صفحات"]
 ---
 ## Definition
 

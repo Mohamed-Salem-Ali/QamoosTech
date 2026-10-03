@@ -5,6 +5,7 @@ level: beginner
 related: [debugging, regression]
 term: "Bug"
 pronunciation: "BUG"
+keywords: ["software error in code","unexpected behavior in app","something is broken here","app crash and issue","coding mistake or flaw","issue in the system","debugging failed feature","fix broken code problem","software defect or issue","خطأ في الشيفرة البرمجية","مشكلة في عمل البرنامج","البرنامج لا يعمل بشكل صحيح","خلل في الكود البرمجي","اكتشاف مشكلة في التطبيق","وجود عيب في النظام","خطأ يمنع عمل البرنامج","باج في التطبيق"]
 ---
 ## Definition
 

@@ -6,6 +6,7 @@ related: [infrastructure-as-code]
 term: "Provisioning"
 pronunciation: "بُروفِيجِنينج"
 translation: "تجهيز الموارد"
+keywords: ["تجهيز البنية التحتية","إعداد الموارد التقنية","تخصيص الخوادم للعمل","تهيئة بيئة التشغيل","تجهيز الموارد سحابيا","إعداد قواعد البيانات آليا","بدء تشغيل الخوادم","تخصيص موارد النظام","بروفيجينينج الموارد","إعداد بيئة الاختبار","setting up cloud infrastructure","allocate server resources","preparing environment for deployment","automated infrastructure setup","configure databases and networks","server resource assignment","cloud resource initialization","infrastructure provisioning process","setup staging environment","readying backend resources"]
 ---
 
 ## التعريف

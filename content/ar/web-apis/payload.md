@@ -6,6 +6,7 @@ related: [request-response, dto]
 term: "Payload"
 translation: "الحمولة (البيانات المرسلة)"
 pronunciation: "بايلود"
+keywords: ["البيانات الفعلية داخل الطلب","محتوى جسم الطلب","معنى كلمة بايلود","البيانات المرسلة في الـ api","ماذا يوجد داخل الطلب","الفرق بين الجسم والحمولة","البيانات الأساسية للرسالة","محتوى الـ webhook","تعريف الحمولة البرمجية","البيانات دون الترويسات","البيانات المفيدة في الطلب","معنى payload في البرمجة","actual data in api request","what is inside http body","data sent in webhook","useful business data","api request content","meaning of payload","request body vs payload","data without headers","api response content","inspecting sent data","payload definition","transported data package"]
 ---
 ## التعريف
 

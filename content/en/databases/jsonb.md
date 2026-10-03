@@ -5,6 +5,7 @@ level: intermediate
 related: [database, query, schema]
 term: "JSONB"
 pronunciation: "JAY-SON-BEE"
+keywords: ["binary json in postgresql","store json efficiently database","postgresql json storage format","index json data postgres","json vs jsonb postgresql","query semi structured data","decomposed binary json format","jsonb column postgresql","تخزين البيانات الثنائية في بوستجريس","صيغة جيسون الثنائية في قواعد البيانات","فهرسة بيانات جيسون في بوستجريس","الفرق بين جيسون وجيسون بي","تخزين بيانات شبه مهيكلة","تسريع الاستعلام عن بيانات جيسون","نوع بيانات جيسون الثنائي","استخدام جيسون بي في بوستجريس"]
 ---
 
 ## Definition

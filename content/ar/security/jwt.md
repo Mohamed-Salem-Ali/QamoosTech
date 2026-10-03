@@ -6,6 +6,7 @@ related: [authentication-vs-authorization, http-header, oauth]
 term: "JWT (JSON Web Token)"
 translation: "رمز JWT"
 pronunciation: "جوت"
+keywords: ["رمز التحقق من الهوية","طريقة مصادقة بدون جلسة","رمز الوصول للواجهات البرمجية","توكن المصادقة الموقعة","شرح رمز جوت","كيفية تأمين طلبات الـ api","رمز تعريف المستخدم المشفر","استخدام الرموز في المصادقة","الفرق بين الجلسة والتوكن","رمز التحقق المعتمد على json","stateless authentication token","json web token","secure api access token","bearer token for api","how to authenticate api requests","signed user identity token","token based authentication","jwt authentication explained","web token for sessions","encoded identity string"]
 ---
 ## التعريف
 

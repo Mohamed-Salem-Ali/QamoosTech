@@ -5,6 +5,7 @@ level: intermediate
 related: [logging, immutable, gdpr-deletion]
 term: "Audit Logging"
 pronunciation: "AW-dit LOG-ing"
+keywords: ["track who did what","record user actions system","compliance logging","security activity log","track admin actions","append only logs","investigate security problems","audit trail","user activity tracking","odit login","تسجيل من فعل ماذا ومتى","معرفة من عدل على النظام","سجل النشاطات الأمنية","تتبع إجراءات المسؤولين","سجل الامتثال","أوديت لوجينج","سجلات لا يمكن تعديلها","تتبع تعديلات المستخدمين"]
 ---
 ## Definition
 
