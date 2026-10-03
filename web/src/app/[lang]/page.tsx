@@ -30,6 +30,9 @@ const HERO_CARDS: { id: string; className: string; depth: number }[] = [
   { id: 'rollback', className: 'hc6', depth: 34 },
 ]
 
+// Each rotating headline phrase opens the section that helps with it (same order as ui.hero.words).
+const WORD_LINKS = ['c/git', 'c/communication', 'c/agile', 'c/programming', 'c/architecture']
+
 export default function Home({ params }: { params: { lang: Lang } }) {
   const lang = params.lang
   const t = ui[lang]
@@ -75,12 +78,12 @@ export default function Home({ params }: { params: { lang: Lang } }) {
             {h.eyebrow(roundedCount)}
           </p>
           <h1 className="hero__title" aria-label={`${h.prefix} ${h.words[0]}`}>
-            <span aria-hidden="true">{h.prefix}</span>{' '}
-            <span className="rotator" aria-hidden="true">
+            <span>{h.prefix}</span>{' '}
+            <span className="rotator">
               {h.words.map((w, i) => (
-                <span key={w} className="rotator__word" style={{ ['--i' as string]: i }}>
+                <Link key={w} href={`/${lang}/${WORD_LINKS[i]}/`} className="rotator__word" style={{ ['--i' as string]: i }}>
                   {w}
-                </span>
+                </Link>
               ))}
             </span>
           </h1>
@@ -109,10 +112,10 @@ export default function Home({ params }: { params: { lang: Lang } }) {
             <li><CountUp to={languages.length} /><span>{h.stats.languages}</span></li>
           </ul>
         </div>
-        <div className="ticker" aria-hidden="true" dir="ltr">
+        <div className="ticker" dir="ltr">
           <div className="ticker__track">
             {[...ticker, ...ticker].map((x, i) => (
-              <span key={i} className="ticker__chip">{x.term}</span>
+              <Link key={i} href={`/${lang}/t/${x.id}/`} className="ticker__chip" tabIndex={i < ticker.length ? 0 : -1} aria-hidden={i >= ticker.length}>{x.term}</Link>
             ))}
           </div>
         </div>

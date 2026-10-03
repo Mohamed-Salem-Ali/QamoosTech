@@ -1,0 +1,27 @@
+---
+id: bearer-token
+category: web-apis
+level: beginner
+related: [http-header, jwt, oauth]
+term: "Bearer Token"
+pronunciation: "BEAR-er TO-ken"
+---
+
+## Definition
+
+A Bearer Token is a security token sent in an HTTP request to prove the user's identity. The name implies that whoever holds (bears) the token is granted access to the protected resources.
+
+## Where you hear it
+
+- In API documentation under authentication headers
+- During OAuth login implementation
+- When inspecting HTTP headers in browser developer tools
+
+## Examples
+
+- Send the bearer token in the Authorization header of your API request.
+- The server returns a bearer token after a successful login.
+
+## Common mistake
+
+Treating a bearer token like a password and storing it in insecure browser storage like localStorage instead of secure memory or httpOnly cookies.

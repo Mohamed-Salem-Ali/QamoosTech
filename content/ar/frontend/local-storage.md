@@ -1,0 +1,27 @@
+---
+id: local-storage
+category: frontend
+level: beginner
+related: [cache, cookie]
+term: "Local Storage"
+pronunciation: "لوكال ستوريج"
+---
+
+## التعريف
+
+واجهة برمجة تطبيقات (API) تتيح لمواقع الويب تخزين البيانات على شكل أزواج من المفتاح والقيمة (key-value pairs) مباشرة في متصفح المستخدم. على عكس ملفات تعريف الارتباط (cookies)، لا تنتهي صلاحية هذه البيانات وتظل محفوظة حتى بعد إغلاق المتصفح.
+
+## أين تسمعه؟
+
+يُستخدم هذا المصطلح عند تطوير واجهات المستخدم (Frontend) لمناقشة حفظ بيانات المستخدم أو تفضيلاته أو حالة التطبيق محلياً في المتصفح.
+
+## أمثلة
+
+- Use Local Storage to save the user's preferred theme setting.
+  - استخدم Local Storage لحفظ إعدادات السمة (Theme) المفضلة لدى المستخدم.
+- We save the shopping cart items in Local Storage so they remain after a page refresh.
+  - نقوم بحفظ عناصر سلة التسوق في Local Storage لتبقى موجودة بعد تحديث الصفحة.
+
+## خطأ شائع
+
+تخزين معلومات حساسة مثل كلمات المرور أو الرموز الأمنية (tokens) في Local Storage، لأن أي سكربت يعمل على الصفحة يمكنه الوصول إليها، مما يجعلها غير آمنة للبيانات الخاصة.

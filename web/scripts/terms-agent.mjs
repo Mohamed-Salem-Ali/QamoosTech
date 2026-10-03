@@ -211,7 +211,10 @@ function promote() {
       for (const lang of ['en', 'ar']) {
         const outDir = path.join(contentDir, lang, category)
         fs.mkdirSync(outDir, { recursive: true })
-        fs.copyFileSync(path.join(dir, `${id}.${lang}.md`), path.join(outDir, `${id}.md`))
+        // same layout as the hand-written files: a blank line after every "##" heading
+        const raw = fs.readFileSync(path.join(dir, `${id}.${lang}.md`), 'utf8').replace(/\r\n/g, '\n')
+        const text = raw.replace(/^(## .*)\n(?!\n)/gm, '$1\n\n')
+        fs.writeFileSync(path.join(outDir, `${id}.md`), text.endsWith('\n') ? text : text + '\n')
         fs.rmSync(path.join(dir, `${id}.${lang}.md`))
       }
       moved++

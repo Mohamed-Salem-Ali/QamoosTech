@@ -1,0 +1,25 @@
+---
+id: test-runner
+category: testing
+level: beginner
+related: [unit-test, ci-cd]
+term: "Test Runner"
+pronunciation: "TEST RUN-er"
+---
+
+## Definition
+
+A test runner is a software tool that automatically executes your test code, monitors the results, and provides a report on which tests passed or failed. It simplifies the testing process by handling the discovery and execution of test files in your project.
+
+## Where you hear it
+
+In CI/CD pipelines, during local development, or when setting up a new testing framework.
+
+## Examples
+
+- I need to configure the test runner to ignore the integration tests.
+- The test runner failed because of a syntax error in one of the test files.
+
+## Common mistake
+
+Confusing the test runner with the testing framework itself; the framework provides the structure for writing tests (like assertions), while the runner is the engine that actually executes them.

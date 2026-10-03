@@ -1301,3 +1301,66 @@ html[dir='rtl'] .explore__card--prev:hover .explore__arrow--prev { transform: tr
 .icon-btn svg, .cta--ghost svg {
   transition: transform 0.3s var(--ease);
 }
+
+/* ---- clickable rotating headline words and ticker chips ---- */
+.rotator__word {
+  position: relative;
+  pointer-events: none; /* only the visible word is clickable */
+  text-decoration: none;
+}
+.rotator__word::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: -0.02em;
+  block-size: 0.07em;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--cyan), var(--brand), var(--violet));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s var(--ease);
+}
+html[dir='rtl'] .rotator__word::after { transform-origin: right; }
+.rotator:hover .rotator__word::after,
+.rotator__word:focus-visible::after { transform: scaleX(1); }
+.rotator:hover .rotator__word { cursor: pointer; }
+/* pause on hover or keyboard focus so the word cannot vanish under the pointer */
+.rotator:hover .rotator__word,
+.rotator:focus-within .rotator__word { animation-play-state: paused; }
+.rotator__word:focus-visible {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+  outline: none;
+  z-index: 2;
+}
+@keyframes word-click {
+  0%, 2.9% { pointer-events: none; }
+  3%, 17% { pointer-events: auto; }
+  17.1%, 100% { pointer-events: none; }
+}
+.rotator__word {
+  animation: word 15s ease-in-out infinite, shine 7s linear infinite, word-click 15s linear infinite;
+  animation-delay: calc(var(--i) * 3s - 1.5s), 0s, calc(var(--i) * 3s - 1.5s);
+}
+.ticker__chip {
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, transform 0.2s var(--ease);
+}
+.ticker__chip:hover,
+.ticker__chip:focus-visible {
+  border-color: var(--brand);
+  color: var(--brand);
+  transform: translateY(-2px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .rotator__word { pointer-events: auto; }
+}
+
+/* term cards: keep the level badge its natural size when a card has no Arabic subtitle */
+.term-card {
+  align-content: start;
+}
+.term-card .level {
+  align-self: start;
+}

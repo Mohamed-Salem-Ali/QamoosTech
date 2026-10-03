@@ -1,0 +1,25 @@
+---
+id: closure
+category: programming
+level: intermediate
+related: [function, scope, variable]
+term: "Closure"
+pronunciation: "KLO-zhur"
+---
+
+## Definition
+
+A closure is a function that remembers and has access to variables in its outer lexical scope, even after that outer function has finished executing.
+
+## Where you hear it
+
+In JavaScript interviews, functional programming discussions, and when explaining data privacy in code.
+
+## Examples
+
+- The inner function forms a closure over the counter variable to keep track of the state.
+- We use a closure to create private variables that cannot be modified directly from the outside.
+
+## Common mistake
+
+Thinking a closure is a special syntax, when it is actually just a natural behavior of functions retaining access to their creation environment.

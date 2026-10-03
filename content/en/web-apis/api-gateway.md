@@ -1,0 +1,25 @@
+---
+id: api-gateway
+category: web-apis
+level: intermediate
+related: [monolith-vs-microservices, load-balancer, reverse-proxy]
+term: "API Gateway"
+pronunciation: "AY-PEE GAYT-way"
+---
+
+## Definition
+
+An API Gateway is a server that acts as a single entry point for a system, routing incoming requests to the appropriate microservices. It handles cross-cutting concerns like authentication, rate limiting, and logging before forwarding the request.
+
+## Where you hear it
+
+In system architecture meetings, backend infrastructure discussions, and when designing microservices.
+
+## Examples
+
+- We need to configure the API Gateway to route traffic to the new user service.
+- The API Gateway handles all authentication checks so our microservices don't have to.
+
+## Common mistake
+
+Confusing an API Gateway with a Load Balancer; while a Load Balancer distributes traffic to identical instances, an API Gateway routes requests to different services based on logic or path.

@@ -1,0 +1,25 @@
+---
+id: primary-key
+category: databases
+level: beginner
+related: [database, table-row-column, schema]
+term: "Primary Key"
+pronunciation: "PRY-meh-ree KEE"
+---
+
+## Definition
+
+A primary key is a column or a set of columns in a database table that uniquely identifies each row. It ensures that no two rows have the same value in this field and that the value is never null.
+
+## Where you hear it
+
+You hear this when designing database schemas, writing SQL queries, or configuring an ORM.
+
+## Examples
+
+- The `user_id` column is set as the primary key for the users table.
+- Every table in the database must have a primary key to ensure data integrity.
+
+## Common mistake
+
+Assuming that a primary key can contain duplicate values or nulls, which would break the fundamental rule of database uniqueness.

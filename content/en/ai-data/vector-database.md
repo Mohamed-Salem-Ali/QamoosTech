@@ -1,0 +1,25 @@
+---
+id: vector-database
+category: ai-data
+level: intermediate
+related: [embeddings, rag, database]
+term: "Vector Database"
+pronunciation: "VEK-ter DAY-ta-base"
+---
+
+## Definition
+
+A specialized database designed to store, manage, and query high-dimensional vector embeddings efficiently using similarity search.
+
+## Where you hear it
+
+In AI and machine learning discussions, particularly when building RAG systems or semantic search engines.
+
+## Examples
+
+- We need a vector database to store the document embeddings for our semantic search.
+- The new vector database allows us to perform similarity searches across millions of items in milliseconds.
+
+## Common mistake
+
+Thinking a traditional relational database can handle high-dimensional vector similarity search with the same speed and indexing techniques as a dedicated vector database.

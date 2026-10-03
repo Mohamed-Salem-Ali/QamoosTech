@@ -1,0 +1,27 @@
+---
+id: high-availability
+category: architecture
+level: beginner
+related: [load-balancer, single-point-of-failure, health-check]
+term: "High Availability (HA)"
+pronunciation: "HY a-vuh-luh-BIL-i-tee"
+---
+
+## Definition
+
+High Availability refers to a system design approach that ensures continuous operation and minimal downtime, typically by eliminating single points of failure. It allows services to remain accessible even if a server or component fails.
+
+## Where you hear it
+
+- In infrastructure planning meetings
+- In SLA discussions
+- During architecture reviews
+
+## Examples
+
+- We need to configure a load balancer to achieve high availability across our server instances.
+- The database cluster is set up for high availability with automated failover.
+
+## Common mistake
+
+Confusing high availability with scalability, assuming that a system that handles more traffic is automatically immune to hardware failures.

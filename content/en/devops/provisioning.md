@@ -1,0 +1,25 @@
+---
+id: provisioning
+category: devops
+level: intermediate
+related: [infrastructure-as-code]
+term: "Provisioning"
+pronunciation: "pro-VIZH-uh-ning"
+---
+
+## Definition
+
+Provisioning is the process of setting up and configuring IT infrastructure, such as servers, databases, or networks, to make them ready for use. It involves allocating the necessary resources so that applications can run effectively.
+
+## Where you hear it
+
+In cloud infrastructure management, DevOps team meetings, and documentation for infrastructure-as-code tools.
+
+## Examples
+
+- The team is provisioning new cloud servers for the upcoming release.
+- We use automated scripts for provisioning our staging environment.
+
+## Common mistake
+
+Confusing provisioning with deployment; provisioning is about setting up the underlying infrastructure, while deployment is about moving the application code onto that infrastructure.
