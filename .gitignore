@@ -44,3 +44,4 @@ AGENTS.md
 .vscode/
 .idea/
 .ai-usage.json
+.next-build/

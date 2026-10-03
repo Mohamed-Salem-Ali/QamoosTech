@@ -19,19 +19,34 @@ const flag = (n) => {
   return i === -1 ? undefined : args[i + 1]
 }
 const only = flag('only') ? new Set(flag('only').split(',')) : null
+const drafts = args.includes('--drafts')
 const limit = flag('limit') ? Number(flag('limit')) : Infinity
 
 const terms = []
-for (const category of fs.readdirSync(path.join(contentDir, 'en'))) {
-  for (const file of fs.readdirSync(path.join(contentDir, 'en', category))) {
-    const id = file.replace(/\.md$/, '')
-    if (only && !only.has(id)) continue
-    terms.push({
-      id,
-      category,
-      en: fs.readFileSync(path.join(contentDir, 'en', category, file), 'utf8'),
-      ar: fs.readFileSync(path.join(contentDir, 'ar', category, file), 'utf8'),
-    })
+if (drafts) {
+  // review drafts/<category>/<id>.{en,ar}.md written by `npm run terms -- draft`
+  const draftsDir = path.join(webDir, '..', 'drafts')
+  for (const category of fs.existsSync(draftsDir) ? fs.readdirSync(draftsDir) : []) {
+    const dir = path.join(draftsDir, category)
+    if (!fs.statSync(dir).isDirectory()) continue
+    for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.en.md'))) {
+      const id = f.replace(/\.en\.md$/, '')
+      if (only && !only.has(id)) continue
+      terms.push({ id, category, en: fs.readFileSync(path.join(dir, f), 'utf8'), ar: fs.readFileSync(path.join(dir, `${id}.ar.md`), 'utf8') })
+    }
+  }
+} else {
+  for (const category of fs.readdirSync(path.join(contentDir, 'en'))) {
+    for (const file of fs.readdirSync(path.join(contentDir, 'en', category))) {
+      const id = file.replace(/\.md$/, '')
+      if (only && !only.has(id)) continue
+      terms.push({
+        id,
+        category,
+        en: fs.readFileSync(path.join(contentDir, 'en', category, file), 'utf8'),
+        ar: fs.readFileSync(path.join(contentDir, 'ar', category, file), 'utf8'),
+      })
+    }
   }
 }
 const batch = terms.slice(0, limit)
@@ -96,10 +111,10 @@ for (const sev of ['high', 'medium', 'low']) {
   if (!list.length) continue
   md += `\n## ${sev.toUpperCase()} (${list.length})\n\n`
   for (const i of list) {
-    md += `### ${i.id} · ${i.lang} · ${i.field}\n- File: \`content/${i.lang}/${i.category}/${i.id}.md\`\n- Problem: ${i.problem}\n- Suggestion: ${i.suggestion || '-'}\n\n`
+    md += `### ${i.id} · ${i.lang} · ${i.field}\n- File: \`${drafts ? `drafts/${i.category}/${i.id}.${i.lang}.md` : `content/${i.lang}/${i.category}/${i.id}.md`}\`\n- Problem: ${i.problem}\n- Suggestion: ${i.suggestion || '-'}\n\n`
   }
 }
 fs.mkdirSync(docsDir, { recursive: true })
-fs.writeFileSync(path.join(docsDir, `qa-report-${date}.md`), md)
-fs.writeFileSync(path.join(docsDir, `qa-report-${date}.json`), JSON.stringify({ date, results }, null, 2))
-console.log(`Done. ${count('high')} high, ${count('medium')} medium, ${count('low')} low. Report: docs/qa-report-${date}.md`)
+fs.writeFileSync(path.join(docsDir, `qa-report-${drafts ? 'drafts-' : ''}${date}.md`), md)
+fs.writeFileSync(path.join(docsDir, `qa-report-${drafts ? 'drafts-' : ''}${date}.json`), JSON.stringify({ date, results }, null, 2))
+console.log(`Done. ${count('high')} high, ${count('medium')} medium, ${count('low')} low. Report: docs/qa-report-${drafts ? 'drafts-' : ''}${date}.md`)

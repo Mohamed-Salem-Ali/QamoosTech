@@ -36,7 +36,7 @@ export function Header({ lang }: { lang: Lang }) {
   return (
     <header className={`header${scrolled ? ' header--scrolled' : ''}`}>
       <div className="container header__inner">
-        <Link href={`/${lang}/`} className="brand" aria-label={t.siteName}>
+        <Link href={`/${lang}/`} className="brand" aria-label="QamoosTech">
           <LogoMark size={34} />
           <span className="brand__name" dir="ltr">
             Qamoos<b>Tech</b>

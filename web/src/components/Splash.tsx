@@ -22,11 +22,11 @@ export function Splash({ lang }: { lang: Lang }) {
       sessionStorage.setItem('splash', '1')
     } catch {}
     document.documentElement.classList.add('is-splashing')
-    const a = setTimeout(() => setState('leaving'), 1900)
+    const a = setTimeout(() => setState('leaving'), 1300)
     const b = setTimeout(() => {
       setState('gone')
       document.documentElement.classList.remove('is-splashing')
-    }, 2600)
+    }, 1900)
     return () => {
       clearTimeout(a)
       clearTimeout(b)

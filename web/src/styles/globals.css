@@ -184,7 +184,7 @@ code {
   transform: rotate(-8deg) scale(1.08);
 }
 .brand__name b {
-  font-weight: 700;
+  font-weight: 600;
   background: linear-gradient(90deg, var(--cyan), var(--brand));
   -webkit-background-clip: text;
   background-clip: text;
@@ -247,14 +247,14 @@ code {
   pointer-events: none;
 }
 .splash__mark {
-  animation: splash-pop 0.9s var(--ease) both;
+  animation: splash-pop 0.6s var(--ease) both;
   filter: drop-shadow(0 0 28px rgba(34, 211, 238, 0.45));
 }
 .splash__name {
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.02em;
-  animation: rise 0.8s 0.35s var(--ease) both;
+  animation: rise 0.5s 0.2s var(--ease) both;
 }
 .splash__name b {
   background: linear-gradient(90deg, #22d3ee, #8b8ef5);
@@ -265,7 +265,7 @@ code {
 .splash__ar {
   opacity: 0.75;
   font-size: 1.1rem;
-  animation: rise 0.8s 0.55s var(--ease) both;
+  animation: rise 0.5s 0.3s var(--ease) both;
 }
 .splash__bar {
   inline-size: 140px;
@@ -281,7 +281,7 @@ code {
   block-size: 100%;
   background: linear-gradient(90deg, #22d3ee, #8b8ef5);
   transform-origin: left;
-  animation: bar 1.7s 0.2s var(--ease) both;
+  animation: bar 1.1s 0.1s var(--ease) both;
 }
 html[dir='rtl'] .splash__bar span {
   transform-origin: right;
@@ -294,6 +294,10 @@ html[dir='rtl'] .splash__bar span {
 @keyframes rise {
   from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: none; }
+}
+@keyframes lift {
+  from { transform: translateY(12px); }
+  to { transform: none; }
 }
 @keyframes bar {
   from { transform: scaleX(0); }
@@ -331,12 +335,13 @@ html[dir='rtl'] .splash__bar span {
   gap: 18px;
 }
 .hero__inner > * {
-  animation: rise 0.8s var(--ease) both;
+  /* transform-only entrance: the text is visible immediately, so it never delays first paint */
+  animation: lift 0.6s var(--ease) both;
 }
-.hero__inner > :nth-child(2) { animation-delay: 0.08s; }
-.hero__inner > :nth-child(3) { animation-delay: 0.16s; }
-.hero__inner > :nth-child(4) { animation-delay: 0.24s; }
-.hero__inner > :nth-child(5) { animation-delay: 0.32s; }
+.hero__inner > :nth-child(2) { animation-delay: 0.04s; }
+.hero__inner > :nth-child(3) { animation-delay: 0.08s; }
+.hero__inner > :nth-child(4) { animation-delay: 0.12s; }
+.hero__inner > :nth-child(5) { animation-delay: 0.16s; }
 
 .eyebrow {
   font-size: 0.85rem;
@@ -351,7 +356,7 @@ html[dir='rtl'] .splash__bar span {
 .hero__title {
   overflow-wrap: anywhere;
   font-size: clamp(2rem, 5.4vw, 3.6rem);
-  font-weight: 700;
+  font-weight: 600;
   max-inline-size: 22ch;
   text-wrap: balance;
 }
@@ -376,7 +381,7 @@ html[dir='rtl'] .splash__bar span {
 }
 .stats strong {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--brand);
 }
 .stats span {
@@ -655,7 +660,7 @@ html[dir='rtl'] .splash__bar span {
 }
 .term__title {
   font-size: clamp(2.2rem, 7vw, 3.8rem);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.1;
   background: linear-gradient(90deg, var(--ink), var(--brand));
   -webkit-background-clip: text;
@@ -738,7 +743,7 @@ html[dir='rtl'] .splash__bar span {
 }
 .panel h2 {
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--brand);

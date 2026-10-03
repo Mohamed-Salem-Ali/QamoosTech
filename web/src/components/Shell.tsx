@@ -2,16 +2,22 @@ import { Inter, IBM_Plex_Sans_Arabic, JetBrains_Mono } from 'next/font/google'
 import '@/styles/globals.css'
 import { dirOf, type Lang } from '@/lib/i18n'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-latin', display: 'swap' })
-const arabic = IBM_Plex_Sans_Arabic({ subsets: ['arabic'], weight: ['400', '500', '600', '700'], variable: '--font-arabic', display: 'swap' })
-const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono', display: 'swap' })
+// Only the font of the page's own language is preloaded; the others load on demand (display: swap).
+// Fewer weights = fewer bytes before first paint: 400 for text, 600 for headings/bold.
+const arabicPreload = IBM_Plex_Sans_Arabic({ subsets: ['arabic'], weight: ['400', '600'], variable: '--font-arabic', display: 'swap', preload: true })
+const arabicLazy = IBM_Plex_Sans_Arabic({ subsets: ['arabic'], weight: ['400', '600'], variable: '--font-arabic', display: 'swap', preload: false })
+const latinPreload = Inter({ subsets: ['latin'], variable: '--font-latin', display: 'swap', preload: true })
+const latinLazy = Inter({ subsets: ['latin'], variable: '--font-latin', display: 'swap', preload: false })
+const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['400'], variable: '--font-mono', display: 'swap', preload: false })
 
 // Applies the saved theme before first paint so there is no flash.
 const themeScript = `try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}`
 
 export function Shell({ lang, children }: { lang: Lang; children: React.ReactNode }) {
+  const arabic = lang === 'ar' ? arabicPreload : arabicLazy
+  const latin = lang === 'ar' ? latinLazy : latinPreload
   return (
-    <html lang={lang} dir={dirOf(lang)} className={`${inter.variable} ${arabic.variable} ${mono.variable}`} suppressHydrationWarning>
+    <html lang={lang} dir={dirOf(lang)} className={`${latin.variable} ${arabic.variable} ${mono.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>

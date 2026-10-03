@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   if (!isLang(params.lang)) return {}
   const t = ui[params.lang]
   return {
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://qamoostech.vercel.app'),
     title: { default: `QamoosTech | ${t.siteName}`, template: `%s | QamoosTech` },
     description: t.intro,
     alternates: { languages: Object.fromEntries(languages.map((l) => [l.code, `/${l.code}/`])) },
