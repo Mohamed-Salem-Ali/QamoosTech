@@ -5,7 +5,7 @@ level: intermediate
 related: [encryption, environment-variable]
 term: "Secret Management"
 translation: "إدارة الأسرار"
-pronunciation: "سيجرت مانيدجمنت"
+pronunciation: "سيكرت مانيدجمنت"
 ---
 
 ## التعريف

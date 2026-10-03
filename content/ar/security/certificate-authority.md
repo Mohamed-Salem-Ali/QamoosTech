@@ -20,7 +20,7 @@ pronunciation: "سيرتيفيكيت أوثوريتي"
 - The server requires a valid certificate signed by a trusted Certificate Authority to enable HTTPS.
   - يتطلب الخادم شهادة صالحة وموقعة من Certificate Authority موثوقة لتفعيل بروتوكول HTTPS.
 - We need to renew our domain certificate before the Certificate Authority expires it.
-  - نحتاج إلى تجديد شهادة النطاق الخاصة بنا قبل انتهاء صلاحيتها.
+  - نحتاج إلى تجديد شهادة النطاق الخاصة بنا قبل أن تقوم الـ Certificate Authority بإلغاء صلاحيتها.
 
 ## خطأ شائع
 

@@ -4,7 +4,7 @@ category: programming
 level: intermediate
 related: [object, variable]
 term: "Garbage Collection"
-translation: "جمع القمامة"
+translation: "Garbage Collection (جمع المهملات)"
 pronunciation: "جاربيج كوليكشن"
 ---
 

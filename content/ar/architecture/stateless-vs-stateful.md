@@ -4,7 +4,7 @@ category: architecture
 level: intermediate
 related: [load-balancer, serverless, restful-api]
 term: "Stateless vs Stateful"
-translation: "عدم حفظ الحالة مقابل حفظ الحالة"
+translation: "عديم الحالة مقابل ذو الحالة"
 pronunciation: "ستيت-ليس فيرسز ستيت-فول"
 ---
 

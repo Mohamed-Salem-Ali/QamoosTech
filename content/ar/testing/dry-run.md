@@ -5,7 +5,7 @@ level: beginner
 related: [ci-cd, staging-vs-production]
 term: "Dry Run"
 pronunciation: "دراي ران"
-translation: "تجربة افتراضية / تنفيذ تجريبي"
+translation: "تنفيذ تجريبي"
 ---
 
 ## التعريف
@@ -19,7 +19,7 @@ translation: "تجربة افتراضية / تنفيذ تجريبي"
 ## أمثلة
 
 - Let's do a dry run of the migration script on the staging database before touching production.
-  - دعنا نقوم بتنفيذ تجريبي لسكريبت الترحيل على قاعدة بيانات التجهيز قبل المساس ببيئة الإنتاج.
+  - دعنا نقوم بتنفيذ تجريبي لسكريبت الترحيل على قاعدة بيانات بيئة الاختبار (Staging) قبل المساس ببيئة الإنتاج.
 - The deployment tool supports a dry run flag so we can preview the changes.
   - أداة النشر تدعم علامة التنفيذ التجريبي لكي نتمكن من معاينة التغييرات.
 

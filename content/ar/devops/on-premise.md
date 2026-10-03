@@ -18,9 +18,9 @@ pronunciation: "أون-بريميس"
 ## أمثلة
 
 - We need to maintain our database on-premise for strict regulatory compliance.
-  - نحتاج إلى الاحتفاظ بقاعدة بياناتنا بنظام On-premise للامتثال الصارم للوائح التنظيمية.
+  - نحتاج إلى الاحتفاظ بقاعدة بياناتنا محلياً (On-premise) للامتثال الصارم للوائح التنظيمية.
 - The legacy application is hosted on-premise in our local data center.
-  - التطبيق القديم مستضاف بنظام On-premise في مركز البيانات المحلي الخاص بنا.
+  - التطبيق القديم مستضاف محلياً (On-premise) في مركز البيانات المحلي الخاص بنا.
 
 ## خطأ شائع
 

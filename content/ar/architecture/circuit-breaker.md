@@ -19,9 +19,9 @@ translation: "قاطع الدائرة"
 ## أمثلة
 
 - The circuit breaker opened after the payment service threw too many errors, falling back to a cached response.
-  - انفتح قاطع الدائرة بعد أن أثارت خدمة الدفع أخطاء كثيرة جداً، مما أدى إلى الرجوع لاستجابة مخزنة مؤقتاً.
+  - انفتح قاطع الدائرة بعد أن أطلقت خدمة الدفع أخطاء كثيرة جداً، مما أدى إلى الرجوع لاستجابة مخزنة مؤقتاً.
 - We configured the circuit breaker to automatically retry the remote API after a thirty-second cooling period.
-  - قمنا بتكوين قاطع الدائرة لإعادة محاولة الاتصال بواجهة برمجة التطبيقات البعيدة تلقائياً بعد فترة تهدئة مدتها ثلاثون ثانية.
+  - قمنا بتكوين قاطع الدائرة لإعادة محاولة الاتصال بواجهة برمجة التطبيقات البعيدة تلقائياً بعد فترة انتظار مدتها ثلاثون ثانية.
 
 ## خطأ شائع
 
