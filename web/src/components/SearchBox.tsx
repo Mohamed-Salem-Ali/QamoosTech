@@ -6,14 +6,23 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { runSearch, type SearchItem } from '@/lib/search'
 import type { Lang } from '@/lib/i18n'
 
-type Props = { lang: Lang; items: SearchItem[]; placeholder: string; empty: string; label: string }
+type Props = { lang: Lang; items: SearchItem[]; placeholder: string; empty: string; label: string; hintPrefix?: string; hintExamples?: string[] }
 
-export function SearchBox({ lang, items, placeholder, empty, label }: Props) {
+export function SearchBox({ lang, items, placeholder, empty, label, hintPrefix, hintExamples }: Props) {
   const router = useRouter()
   const [q, setQ] = useState('')
   const [active, setActive] = useState(0)
+  const [hint, setHint] = useState(0)
+  const [focused, setFocused] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const results = useMemo(() => runSearch(items, q), [items, q])
+
+  // cycles example searches in the placeholder while the box is empty and not focused
+  useEffect(() => {
+    if (!hintExamples?.length || q || focused || matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const id = setInterval(() => setHint((h) => (h + 1) % hintExamples.length), 2600)
+    return () => clearInterval(id)
+  }, [hintExamples, q, focused])
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -56,7 +65,9 @@ export function SearchBox({ lang, items, placeholder, empty, label }: Props) {
             setActive(0)
           }}
           onKeyDown={onKeyDown}
-          placeholder={placeholder}
+          placeholder={hintExamples?.length ? `${hintPrefix} "${hintExamples[hint]}"` : placeholder}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
           aria-label={label}
           role="combobox"
           aria-expanded={results.length > 0}

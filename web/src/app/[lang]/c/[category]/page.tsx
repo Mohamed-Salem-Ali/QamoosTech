@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { Reveal } from '@/components/Reveal'
+import { pageAlternates } from '@/lib/alternates'
 import { getCategories, getTermsByCategory } from '@/lib/content'
 import { languages, ui, type Lang } from '@/lib/i18n'
 
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: Params }): Metadata {
   const c = getCategories().find((x) => x.id === params.category)
-  return { title: c?.name[params.lang], description: c?.description[params.lang] }
+  return { title: c?.name[params.lang], description: c?.description[params.lang], alternates: pageAlternates(params.lang, (l) => `/${l}/c/${params.category}/`) }
 }
 
 export default function CategoryPage({ params }: { params: Params }) {

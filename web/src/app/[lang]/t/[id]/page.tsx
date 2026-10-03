@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { Reveal } from '@/components/Reveal'
 import { RichText } from '@/components/RichText'
 import { Speak } from '@/components/Speak'
+import { pageAlternates } from '@/lib/alternates'
 import { getAudioSources, voiceHints } from '@/lib/audio'
 import { getCategories, getTerm, getTerms } from '@/lib/content'
 import { languages, ui, type Lang } from '@/lib/i18n'
@@ -20,6 +21,7 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
   return {
     title: term.translation ? `${term.term} — ${term.translation}` : term.term,
     description: term.definition.replace(/[`*]/g, '').slice(0, 160),
+    alternates: pageAlternates(params.lang, (l) => `/${l}/t/${params.id}/`),
   }
 }
 

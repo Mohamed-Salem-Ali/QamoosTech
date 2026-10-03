@@ -4,7 +4,8 @@ export const languages = [
 ] as const
 
 export type Lang = (typeof languages)[number]['code']
-export const defaultLang: Lang = 'ar'
+// Default language of the site (used by the root redirect). Arabic stays one click away.
+export const defaultLang: Lang = 'en'
 
 export function isLang(value: string): value is Lang {
   return languages.some((l) => l.code === value)
@@ -20,6 +21,17 @@ export const ui = {
     siteName: 'قاموس تك',
     tagline: 'افهم الكلمات الإنجليزية التي يستخدمها المبرمجون كل يوم',
     intro: 'قاموس ثنائي اللغة لمصطلحات هندسة البرمجيات: شرح بالعربية، ونطق، وأمثلة حقيقية من العمل والدراسة.',
+    hero: {
+      eyebrow: (n: number) => `قاموس ثنائي اللغة · ${n}+ مصطلح`,
+      prefix: 'افهم الإنجليزية في',
+      words: ['مراجعات الشيفرة', 'رسائل العملاء', 'الاجتماعات اليومية', 'التوثيق التقني', 'مقابلات العمل'],
+      intro: (n: number) => `تعريفات واضحة، ونطق طبيعي، وأمثلة من بيئة العمل لأكثر من ${n} مصطلحًا برمجيًا، بعربية مبسطة وإنجليزية واضحة.`,
+      browse: 'تصفح التصنيفات',
+      random: 'مصطلح عشوائي',
+      try: 'جرّب',
+      examples: ['idempotency', 'pull request', 'scope creep', 'rate limiting', 'cache'],
+      stats: { terms: 'مصطلح', categories: 'تصنيف', languages: 'لغات' },
+    },
     searchPlaceholder: 'ابحث عن مصطلح بالإنجليزية أو العربية…',
     searchLabel: 'بحث',
     noResults: 'لا توجد نتائج مطابقة.',
@@ -40,12 +52,27 @@ export const ui = {
     notFound: 'لم نجد هذه الصفحة.',
     backHome: 'العودة إلى الرئيسية',
     contribute: 'ساهم في المشروع',
+    builtBy: 'صُنع بواسطة',
+    aboutText: 'أبني هذا القاموس ليفهم المبرمجون العرب الإنجليزية التي يقابلونها في العمل والدراسة. المشروع مفتوح المصدر، وملاحظاتك تجعله أفضل.',
+    portfolio: 'موقعي الشخصي',
+    madeBy: 'من تطوير',
     footer: 'مشروع مفتوح المصدر. المحتوى بترخيص CC BY-SA 4.0.',
   },
   en: {
     siteName: 'QamoosTech',
     tagline: 'Understand the English words software engineers use every day',
     intro: 'A bilingual dictionary of software-engineering vocabulary: clear explanations, pronunciation, and real examples from work and study.',
+    hero: {
+      eyebrow: (n: number) => `Bilingual dictionary · ${n}+ terms`,
+      prefix: 'Understand the English of',
+      words: ['code reviews', 'client emails', 'daily stand-ups', 'technical docs', 'job interviews'],
+      intro: (n: number) => `Clear definitions, natural pronunciation, and real workplace examples for ${n}+ software terms, in simple Arabic and English.`,
+      browse: 'Browse categories',
+      random: 'Surprise me',
+      try: 'Try',
+      examples: ['idempotency', 'pull request', 'scope creep', 'rate limiting', 'cache'],
+      stats: { terms: 'terms', categories: 'categories', languages: 'languages' },
+    },
     searchPlaceholder: 'Search a term in English or Arabic…',
     searchLabel: 'Search',
     noResults: 'No matching terms.',
@@ -66,6 +93,10 @@ export const ui = {
     notFound: "We couldn't find that page.",
     backHome: 'Back to home',
     contribute: 'Contribute',
+    builtBy: 'Built by',
+    aboutText: 'I am building this dictionary so Arabic-speaking engineers can understand the English they meet at work and in courses. It is open source, and your feedback makes it better.',
+    portfolio: 'My portfolio',
+    madeBy: 'Made by',
     footer: 'Open source. Content licensed CC BY-SA 4.0.',
   },
 } satisfies Record<Lang, Record<string, unknown>>
