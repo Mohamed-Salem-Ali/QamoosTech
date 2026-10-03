@@ -1,0 +1,29 @@
+{
+  "name": "qamoostech-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-content.mjs",
+    "prebuild": "npm run validate",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "audio": "node scripts/generate-audio.mjs",
+    "ai": "node scripts/ai.mjs",
+    "qa": "node scripts/qa-review.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.35",
+    "typescript": "^5"
+  }
+}

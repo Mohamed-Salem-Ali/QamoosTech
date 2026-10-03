@@ -1,0 +1,24 @@
+---
+id: schema
+category: databases
+level: beginner
+related: [table-row-column, migration]
+term: "Schema"
+pronunciation: "SKEE-muh"
+---
+## Definition
+
+The structure of your data: which tables exist, which columns they have, their types, and the relations between them.
+
+## Where you hear it
+
+Database design, Prisma, and API validation.
+
+## Examples
+
+- Update the schema, then create a migration.
+- The request does not match the schema, so it is rejected.
+
+## Common mistake
+
+Designing the schema without thinking about future queries. Think about how data will be read.

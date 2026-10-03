@@ -1,0 +1,6 @@
+{
+  "extends": "next/core-web-vitals",
+  "overrides": [
+    { "files": ["src/components/Shell.tsx"], "rules": { "@next/next/no-head-element": "off" } }
+  ]
+}

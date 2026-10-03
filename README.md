@@ -1,62 +1,49 @@
 <div align="center">
-  <img src="logo.png" alt="QamoosTech Logo" width="200" />
-  <h1>QamoosTech (قاموس تك)</h1>
+  <img src="assets/logo.svg" alt="QamoosTech logo" width="120" />
+  <h1>QamoosTech · قاموس تك</h1>
+  <p>A bilingual dictionary of the English words software engineers meet every day.<br/>
+  قاموس ثنائي اللغة لكلمات الإنجليزية التي يقابلها المبرمجون كل يوم.</p>
 </div>
 
-> A personal knowledge base for mastering technical English and professional communication — built by a backend engineer, for engineers.
+## What is this?
 
-## 📊 Stats
+QamoosTech explains the English vocabulary of software work: code and architecture,
+daily team talk, emails with clients, and the words you meet in courses and
+documentation. Each term has a clear definition, where you hear it, real examples,
+a common mistake, and pronunciation.
 
-| Section | Files | Entries |
-|---|---|---|
-| Technical Engineering | 8 | 25+ |
-| Professional Communication | 4 | 18+ |
-| General English | 3 | 15+ |
-| **Total** | **15** | **58+** |
+- **Arabic first** (simple Modern Standard Arabic), English second, more languages welcome.
+- **~180 terms** in 14 categories, beginner to intermediate.
+- A fast static website with RTL support and instant search in both languages.
 
-## 📁 Structure
+## Repository layout
 
 ```
-01-Technical-Engineering/    Technical concepts, architectures, and stacks
-├── Backend/                 APIs, architecture, security, infrastructure, Git
-├── Frontend/                UI/UX, frameworks, patterns
-├── AI-and-Data/             LLMs, OCR, pipelines, data engineering
-└── Languages/               Python, TypeScript, Go idioms
-
-02-Professional-Communication/   Workplace communication and soft skills
-├── Emails/                  Templates, action verbs, high-impact phrases
-└── Conversations/           Meetings, Agile, negotiations
-
-03-General-English/          Broader language improvement
-├── idioms-and-phrases.md    Common English idioms
-├── phrasal-verbs.md         Phrasal verbs for tech contexts
-└── technical-slang.md       Developer slang and jargon
+content/
+  categories.json        category names and descriptions per language
+  ar/<category>/<id>.md  Arabic entries (default language)
+  en/<category>/<id>.md  English entries
+  LICENSE.md             content license (CC BY-SA 4.0)
+web/                     Next.js site (static export, i18n: ar, en)
+assets/                  logo
+CONTRIBUTING.md          how to add terms and languages
 ```
 
-## 📝 Entry Format
+## Run the website
 
-Every entry follows a consistent template for maximum learning value:
-
-```markdown
-### Term or Phrase
-- **Pronunciation**: "HEW-mun REE-duh-bul" · هيومن ريدابل
-- **Arabic**: الترجمة العربية
-- **Definition**: Clear, concise explanation.
-- **Context**: Where you'd encounter or use this.
-- **Usage Examples**:
-  - *Formal*: "..."
-  - *Casual*: "..."
-- **Common Mistake**: What people get wrong.
-- **Related Terms**: [Term], [Term]
+```bash
+cd web
+npm install
+npm run dev        # http://localhost:3000
+npm run validate   # checks all content
+npm run build      # static export to web/out
 ```
 
-## 🚀 How to Use
+## Contributing
 
-1. **Encounter a new word** in your daily work (Slack, email, code review, meeting).
-2. **Open the right file** based on the category.
-3. **Add the entry** using the template above.
-4. **Review periodically** — skim a file before a meeting or interview for instant confidence.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Adding a language means adding a folder under
+`content/` and a few UI strings, nothing else.
 
-## 📄 License
+## License
 
-Personal knowledge base. Feel free to fork and adapt for your own learning journey.
+Code: [MIT](LICENSE). Content: [CC BY-SA 4.0](content/LICENSE.md).

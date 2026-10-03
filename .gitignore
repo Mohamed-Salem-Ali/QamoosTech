@@ -1,0 +1,46 @@
+# ---------- dependencies and build output ----------
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.DS_Store
+Thumbs.db
+
+# ---------- secrets (never commit) ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------- generated local state ----------
+# daily TTS quota counter written by web/scripts/generate-audio.mjs
+.audio-usage.json
+
+# ---------- internal working documents (not for the public repo) ----------
+# Plans, feature roadmap, review notes, drafts, and anything private we write while working.
+docs/
+internal/
+notes/
+drafts/
+scratch/
+tasks/
+*.private.md
+*.internal.md
+TODO.private.md
+
+# ---------- AI assistant and tooling files ----------
+.claude/
+.agents/
+.playwright-mcp/
+CLAUDE.md
+AGENTS.md
+.cursor/
+.windsurf/
+
+# ---------- editor files ----------
+.vscode/
+.idea/
+.ai-usage.json

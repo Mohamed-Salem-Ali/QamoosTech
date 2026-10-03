@@ -1,0 +1,156 @@
+[
+  {
+    "id": "programming",
+    "name": {
+      "en": "Programming Fundamentals",
+      "ar": "أساسيات البرمجة"
+    },
+    "description": {
+      "en": "Core words you meet in every language and tutorial.",
+      "ar": "الكلمات الأساسية التي تظهر في كل لغة برمجة وكل شرح."
+    }
+  },
+  {
+    "id": "web-apis",
+    "name": {
+      "en": "Web & APIs",
+      "ar": "الويب وواجهات البرمجة"
+    },
+    "description": {
+      "en": "How clients and servers talk to each other.",
+      "ar": "كيف يتواصل العميل مع الخادم."
+    }
+  },
+  {
+    "id": "frontend",
+    "name": {
+      "en": "Frontend",
+      "ar": "الواجهة الأمامية"
+    },
+    "description": {
+      "en": "Building what users see and touch in the browser.",
+      "ar": "بناء ما يراه المستخدم ويتفاعل معه في المتصفح."
+    }
+  },
+  {
+    "id": "databases",
+    "name": {
+      "en": "Databases",
+      "ar": "قواعد البيانات"
+    },
+    "description": {
+      "en": "Storing, querying, and evolving data.",
+      "ar": "تخزين البيانات والاستعلام عنها وتطويرها."
+    }
+  },
+  {
+    "id": "architecture",
+    "name": {
+      "en": "Architecture & Design",
+      "ar": "المعمارية والتصميم"
+    },
+    "description": {
+      "en": "Designing systems that scale and survive failure.",
+      "ar": "تصميم أنظمة تتحمل النمو والأعطال."
+    }
+  },
+  {
+    "id": "devops",
+    "name": {
+      "en": "DevOps & Cloud",
+      "ar": "ديف أوبس والسحابة"
+    },
+    "description": {
+      "en": "Shipping, running, and watching software in production.",
+      "ar": "نشر البرمجيات وتشغيلها ومراقبتها في بيئة الإنتاج."
+    }
+  },
+  {
+    "id": "git",
+    "name": {
+      "en": "Git & Collaboration",
+      "ar": "جيت والتعاون"
+    },
+    "description": {
+      "en": "Working on the same code with other people.",
+      "ar": "العمل على الشيفرة نفسها مع الآخرين."
+    }
+  },
+  {
+    "id": "security",
+    "name": {
+      "en": "Security",
+      "ar": "الأمان"
+    },
+    "description": {
+      "en": "Protecting users, data, and systems.",
+      "ar": "حماية المستخدمين والبيانات والأنظمة."
+    }
+  },
+  {
+    "id": "testing",
+    "name": {
+      "en": "Testing & Quality",
+      "ar": "الاختبار والجودة"
+    },
+    "description": {
+      "en": "Making sure the code does what it should.",
+      "ar": "التأكد من أن الشيفرة تعمل كما ينبغي."
+    }
+  },
+  {
+    "id": "ai-data",
+    "name": {
+      "en": "AI & Data",
+      "ar": "الذكاء الاصطناعي والبيانات"
+    },
+    "description": {
+      "en": "Vocabulary for LLMs, search, and data work.",
+      "ar": "مصطلحات النماذج اللغوية والبحث وعمل البيانات."
+    }
+  },
+  {
+    "id": "agile",
+    "name": {
+      "en": "Agile & Teamwork",
+      "ar": "أجايل والعمل الجماعي"
+    },
+    "description": {
+      "en": "Words used in sprints, standups, and planning.",
+      "ar": "كلمات السبرنت والاجتماعات اليومية والتخطيط."
+    }
+  },
+  {
+    "id": "freelancing",
+    "name": {
+      "en": "Clients & Freelancing",
+      "ar": "العملاء والعمل الحر"
+    },
+    "description": {
+      "en": "Scope, pricing, and contracts with clients.",
+      "ar": "النطاق والتسعير والعقود مع العملاء."
+    }
+  },
+  {
+    "id": "communication",
+    "name": {
+      "en": "Emails & Meetings",
+      "ar": "البريد والاجتماعات"
+    },
+    "description": {
+      "en": "Phrases that make workplace English clear and polite.",
+      "ar": "عبارات تجعل الإنجليزية في العمل واضحة ومهذبة."
+    }
+  },
+  {
+    "id": "english",
+    "name": {
+      "en": "Idioms & Slang",
+      "ar": "التعابير واللغة الدارجة"
+    },
+    "description": {
+      "en": "Idioms, phrasal verbs, and slang from engineering teams.",
+      "ar": "تعابير وأفعال مركبة وعبارات دارجة بين المهندسين."
+    }
+  }
+]
