@@ -18,7 +18,7 @@ pronunciation: "أكسيسيبيليتي"
 ## أمثلة
 
 - Add an `alt` text to every image for accessibility.
-  - أضف نصًا بديلًا `alt` لكل صورة من أجل إتاحة الوصول.
+  - أضف نصًا بديلًا `alt` لكل صورة لضمان إتاحة الوصول.
 - Can you reach every button using only the keyboard?
   - هل تستطيع الوصول إلى كل زر باستخدام لوحة المفاتيح فقط؟
 

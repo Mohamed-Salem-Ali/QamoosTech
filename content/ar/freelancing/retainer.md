@@ -4,7 +4,7 @@ category: freelancing
 level: intermediate
 related: [fixed-price-vs-hourly, invoice]
 term: "Retainer"
-translation: "اتفاق شهري ثابت"
+translation: "دفعة شهرية ثابتة"
 pronunciation: "ريتينر"
 ---
 ## التعريف

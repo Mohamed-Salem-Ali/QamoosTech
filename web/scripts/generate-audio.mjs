@@ -46,7 +46,7 @@ const force = flag('force') === true
 const statusOnly = flag('status') === true
 const only = typeof flag('only') === 'string' ? new Set(flag('only').split(',')) : null
 const voices = (typeof flag('voices') === 'string' ? flag('voices') : process.env.AUDIO_VOICES || 'Kore,Puck').split(',').map((v) => v.trim())
-const models = (process.env.AUDIO_MODELS || 'gemini-3.8-flash-tts,gemini-3.8-flash-lite-tts,gemini-3.1-flash-tts-preview').split(',').map((m) => m.trim())
+const models = (process.env.AUDIO_MODELS || 'gemini-3.8-flash-tts,gemini-3.8-flash-lite-tts').split(',').map((m) => m.trim())
 const dailyLimit = Number(process.env.AUDIO_DAILY_LIMIT || 10) // requests per day per model per key
 const minGapMs = Number(process.env.AUDIO_MIN_GAP_MS || 21000) // 3 requests/minute per model per key
 const sampleRate = Number(process.env.AUDIO_SAMPLE_RATE || 16000)

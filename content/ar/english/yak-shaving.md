@@ -18,7 +18,7 @@ pronunciation: "ياك شيفينج"
 ## أمثلة
 
 - I wanted to fix a typo, but now I am upgrading Node. Classic yak shaving.
-  - أردتُ تصحيح خطأ إملائي، والآن أرقّي Node. يا لها من yak shaving.
+  - أردتُ تصحيح خطأ إملائي، والآن أرقّي Node. هذا yak shaving بعينه.
 - Stop yak shaving and go back to the original ticket.
   - توقف عن الـ yak shaving وعد إلى المهمة الأصلية.
 

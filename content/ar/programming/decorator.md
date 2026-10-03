@@ -4,7 +4,6 @@ category: programming
 level: intermediate
 related: [function]
 term: "Decorator"
-translation: "مُزخرِف"
 pronunciation: "ديكوريتر"
 ---
 ## التعريف

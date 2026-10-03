@@ -4,7 +4,7 @@ category: devops
 level: intermediate
 related: [deployment, environment-variable]
 term: "Containerization (Docker)"
-translation: "الحاويات"
+translation: "تقنية الحاويات"
 pronunciation: "كونتينرايزيشن"
 ---
 ## التعريف

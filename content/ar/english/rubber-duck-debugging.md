@@ -20,7 +20,7 @@ pronunciation: "رابر داك ديباجينج"
 - I explained the bug to my rubber duck and found the problem.
   - شرحتُ الخطأ لبطتي المطاطية فاكتشفت المشكلة.
 - Try rubber duck debugging before you ask for help.
-  - جرّب التصحيح بشرح الشيفرة قبل أن تطلب المساعدة.
+  - جرّب التصحيح بالبطة المطاطية قبل أن تطلب المساعدة.
 
 ## خطأ شائع
 

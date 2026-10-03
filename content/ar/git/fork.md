@@ -18,7 +18,7 @@ pronunciation: "فورك"
 ## أمثلة
 
 - Fork the repo, fix the typo, and open a pull request.
-  - اعمل fork للمستودع وصحح الخطأ المطبعي وافتح pull request.
+  - أنشئ fork للمستودع وصحح الخطأ المطبعي وافتح pull request.
 - Our company keeps a private fork of the library.
   - تحتفظ شركتنا بـ fork خاص من المكتبة.
 

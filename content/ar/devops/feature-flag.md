@@ -20,7 +20,7 @@ pronunciation: "فيتشر فلاج"
 - The new checkout is behind a feature flag for 10% of users.
   - صفحة الدفع الجديدة خلف feature flag لعشرة بالمئة من المستخدمين.
 - If something breaks, just switch the flag off.
-  - إذا انكسر شيء فأطفئ الـ flag فقط.
+  - إذا حدث خلل فأطفئ الـ flag فقط.
 
 ## خطأ شائع
 

@@ -20,7 +20,7 @@ ORM للغة TypeScript تصف فيه بياناتك في ملف schema فيول
 - We use Prisma with PostgreSQL.
   - نستخدم Prisma مع PostgreSQL.
 - Run `prisma migrate deploy` in production, not only `generate`.
-  - شغّل `prisma migrate deploy` في الإنتاج، وليس `generate` فقط.
+  - شغّل `prisma migrate deploy` في بيئة الإنتاج، وليس `generate` فقط.
 
 ## خطأ شائع
 

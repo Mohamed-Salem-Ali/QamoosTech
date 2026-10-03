@@ -4,7 +4,7 @@ category: testing
 level: beginner
 related: [bug, logging, rubber-duck-debugging]
 term: "Debugging"
-translation: "تتبّع الأخطاء وإصلاحها"
+translation: "تصحيح الأخطاء"
 pronunciation: "ديباجينج"
 ---
 ## التعريف
@@ -18,7 +18,7 @@ pronunciation: "ديباجينج"
 ## أمثلة
 
 - I spent two hours debugging a missing comma.
-  - قضيتُ ساعتين في تتبّع فاصلة ناقصة.
+  - قضيتُ ساعتين في تتبّع فاصلة مفقودة.
 - Add a breakpoint and debug it step by step.
   - أضف breakpoint وتتبّعها خطوة بخطوة.
 

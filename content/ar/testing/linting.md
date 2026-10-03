@@ -4,7 +4,7 @@ category: testing
 level: beginner
 related: [quality-gate, code-review]
 term: "Linting"
-translation: "فحص أسلوب الشيفرة"
+translation: "فحص جودة الشيفرة"
 pronunciation: "لينتينج"
 ---
 ## التعريف
@@ -20,7 +20,7 @@ pronunciation: "لينتينج"
 - The linter found an unused variable.
   - اكتشف الـ linter متغيرًا غير مستخدم.
 - Run the linter before you push.
-  - شغّل الـ linter قبل أن تدفع التغييرات.
+  - شغّل الـ linter قبل أن ترفع التغييرات (push).
 
 ## خطأ شائع
 

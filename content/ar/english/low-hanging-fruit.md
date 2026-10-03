@@ -18,7 +18,7 @@ pronunciation: "لو هانجينج فروت"
 ## أمثلة
 
 - Let's fix the low-hanging fruit before the big redesign.
-  - لنصلح المكاسب السهلة قبل إعادة التصميم الكبيرة.
+  - لننجز المكاسب السهلة قبل إعادة التصميم الكبيرة.
 - Compressing images is low-hanging fruit for page speed.
   - ضغط الصور مكسب سهل لتحسين سرعة الصفحة.
 

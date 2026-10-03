@@ -20,8 +20,8 @@ pronunciation: "مايجريشن"
 - Run the migration before starting the new version.
   - شغّل الـ migration قبل تشغيل الإصدار الجديد.
 - Never edit a migration that already ran in production.
-  - لا تعدّل أبدًا migration تم تشغيله في الإنتاج.
+  - لا تعدّل أبدًا migration تم تشغيله في بيئة الإنتاج.
 
 ## خطأ شائع
 
-تعديل migration قديم. أنشئ migration جديدًا حتى تتبع كل البيئات التاريخ نفسه.
+تعديل migration قديم. أنشئ migration جديدًا حتى تتبع كل البيئات السجل نفسه.

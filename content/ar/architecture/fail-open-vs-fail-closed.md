@@ -18,9 +18,9 @@ pronunciation: "فيل أوبن مقابل فيل كلوزد"
 ## أمثلة
 
 - If Redis is down, the rate limiter fails open and lets users in.
-  - إذا توقف Redis فإن محدد المعدل يفشل مفتوحًا ويسمح بدخول المستخدمين.
+  - إذا توقف Redis فإن محدد المعدل يعمل بنظام fail open ويسمح بدخول المستخدمين.
 - Login must fail closed: if the auth service is down, nobody gets in.
-  - تسجيل الدخول يجب أن يفشل مغلقًا: إذا توقفت خدمة المصادقة فلا يدخل أحد.
+  - تسجيل الدخول يجب أن يعمل بنظام fail closed: إذا توقفت خدمة المصادقة فلا يدخل أحد.
 
 ## خطأ شائع
 

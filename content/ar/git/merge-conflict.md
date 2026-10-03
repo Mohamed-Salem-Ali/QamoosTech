@@ -20,7 +20,7 @@ pronunciation: "ميرج كونفليكت"
 - I have a merge conflict in `package.json`.
   - لدي merge conflict في `package.json`.
 - Resolve the conflict, then commit the result.
-  - احلّ التعارض ثم احفظ النتيجة بـ commit.
+  - حلّ التعارض ثم احفظ النتيجة بـ commit.
 
 ## خطأ شائع
 

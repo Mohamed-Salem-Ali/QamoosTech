@@ -20,7 +20,7 @@ pronunciation: "برانش"
 - Create a new branch for the payment feature.
   - أنشئ branch جديدًا لميزة الدفع.
 - Do not push directly to the `main` branch.
-  - لا تدفع مباشرةً إلى فرع `main`.
+  - لا تعمل push مباشرةً إلى فرع `main`.
 
 ## خطأ شائع
 

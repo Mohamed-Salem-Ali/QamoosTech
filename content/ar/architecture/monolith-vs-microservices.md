@@ -4,7 +4,7 @@ category: architecture
 level: intermediate
 related: [scalability, separation-of-concerns]
 term: "Monolith vs Microservices"
-translation: "النظام الموحّد والخدمات المصغّرة"
+translation: "النظام الموحّد مقابل الخدمات المصغّرة"
 pronunciation: "مونوليث مقابل ميكروسيرفيسز"
 ---
 ## التعريف

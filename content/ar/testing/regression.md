@@ -4,7 +4,7 @@ category: testing
 level: intermediate
 related: [unit-test, bug]
 term: "Regression"
-translation: "انحدار (عودة خطأ قديم)"
+translation: "تراجع (عودة خطأ قديم)"
 pronunciation: "ريجريشن"
 ---
 ## التعريف

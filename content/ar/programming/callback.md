@@ -4,7 +4,7 @@ category: programming
 level: intermediate
 related: [async-await, function]
 term: "Callback"
-translation: "دالة رجوع"
+translation: "دالة استدعاء"
 pronunciation: "كولباك"
 ---
 ## التعريف

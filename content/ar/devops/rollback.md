@@ -18,7 +18,7 @@ pronunciation: "رولباك"
 ## أمثلة
 
 - The release broke login, so we rolled back in two minutes.
-  - كسر الإصدار تسجيل الدخول، فتراجعنا خلال دقيقتين.
+  - تسبب الإصدار في تعطّل تسجيل الدخول، فتراجعنا خلال دقيقتين.
 - Always have a rollback plan before you deploy.
   - احرص دائمًا على وجود خطة تراجع قبل النشر.
 

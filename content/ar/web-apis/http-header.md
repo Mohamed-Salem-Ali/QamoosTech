@@ -20,7 +20,7 @@ pronunciation: "إتش تي تي بي هيدر"
 - Send the token in the `Authorization` header.
   - أرسل الـ token في ترويسة `Authorization`.
 - Set `Content-Type: application/json` or the server will not parse the body.
-  - اضبط `Content-Type: application/json` وإلا لن يقرأ الخادم المحتوى.
+  - اضبط `Content-Type: application/json` وإلا لن يحلّل الخادم المحتوى.
 
 ## خطأ شائع
 
