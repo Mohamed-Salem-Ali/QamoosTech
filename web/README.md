@@ -20,7 +20,7 @@ Google's Gemini TTS using free [AI Studio](https://aistudio.google.com/) keys. T
 re-run every day (it only creates missing files).
 
 ```bash
-# web/.env.local (never committed)
+# web/.env.local (never committed; see .env.example)
 GEMINI_API_KEY_A=...
 GEMINI_API_KEY_B=...        # optional second account
 
@@ -30,6 +30,14 @@ npm run audio -- --voices Kore      # one voice = half the work
 npm run audio                       # everything missing, until today's quota is used up
 ```
 
-Details, quotas, and strategy: `Workspace/google-ai-studio/README.md` in the Career hub. Files land in
-`public/audio/<Voice>/<id>.wav` and are committed, so the site stays static and keys are never exposed. The page shows a
+Quotas change, so check Google's current limits before a big run. Files land in
+`public/audio/<Voice>/<id>.mp3` (WAV if `ffmpeg` is missing) and are committed, so the site stays static and keys are never exposed. The page shows a
 voice picker automatically when more than one voice exists.
+
+## Scripts
+
+| Command | What it does |
+|---|---|
+| `npm run validate` | Checks that every term exists in every language, categories are valid and `related` ids exist |
+| `npm run audio` | Generates missing pronunciation files (see above) |
+| `npm run ai`, `qa`, `qa-fix`, `terms`, `enrich`, `scan` | Optional maintainer tools that use Gemini to draft, review and enrich terms. A human reviews every change; they need API keys and are not required to build the site |

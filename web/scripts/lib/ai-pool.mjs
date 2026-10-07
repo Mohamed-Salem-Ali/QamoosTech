@@ -3,8 +3,7 @@
 // - Every key in .env/.env.local named gemini-api-key-<account> (or GEMINI_API_KEY_*) is used.
 // - Models are grouped in tiers; a request tries the tier's slots, spreads load, respects per-minute pacing and
 //   per-day budgets (tracked in .ai-usage.json, reset at midnight Pacific), and falls back on 429/5xx/bad output.
-// - Quotas are per account per model, so more keys × more models = more free requests. See
-//   Workspace/google-ai-studio/README.md in the Career hub.
+// - Quotas are per account per model, so more keys × more models = more free requests.
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'

@@ -2,7 +2,7 @@
 //
 // TTS free quota is tiny: ~3 requests/minute and ~10 requests/DAY per model per account, so this script
 // spreads work over every (API key × TTS model) "slot", tracks daily usage, and is safe to re-run each day:
-// it only creates missing files. See Workspace/google-ai-studio/README.md for the numbers and strategy.
+// it only creates missing files.
 //
 //   web/.env.local:
 //     gemini-api-key-<account>=...   one line per account; GEMINI_API_KEY_A / GEMINI_API_KEY_B / GEMINI_API_KEY work too

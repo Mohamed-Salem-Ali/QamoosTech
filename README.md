@@ -3,22 +3,29 @@
   <h1>QamoosTech · قاموس تك</h1>
   <p>A bilingual dictionary of the English words software engineers meet every day.<br/>
   قاموس ثنائي اللغة لكلمات الإنجليزية التي يقابلها المبرمجون كل يوم.</p>
+  <p>
+    <a href="https://qamoostech.mohamedyounes.dev/en/">Live site</a> ·
+    <a href="https://qamoostech.mohamedyounes.dev/ar/">النسخة العربية</a> ·
+    <a href="CONTRIBUTING.md">Contribute</a>
+  </p>
 </div>
 
 ## What is this?
 
-QamoosTech explains the English vocabulary of software work: code and architecture,
-daily team talk, emails with clients, and the words you meet in courses and
-documentation. Each term has a clear definition, where you hear it, real examples,
-a common mistake, and pronunciation.
+QamoosTech explains the English vocabulary of software work: code and architecture, daily team talk, emails with clients, and the words you meet in courses and documentation. Each term has a clear definition, where you hear it, real examples, a common mistake, and pronunciation.
 
-- **Arabic first** (simple Modern Standard Arabic), English second, more languages welcome.
-- **~180 terms** in 14 categories, beginner to intermediate.
-- A fast static website with RTL support and instant search in both languages.
+- **Arabic first** (simple Modern Standard Arabic), English second. More languages are welcome.
+- **388 terms** in 14 categories, from beginner to intermediate.
+- **Natural pronunciation audio** for many terms, with the browser's built-in voice as a fallback.
+- A fast static website with RTL support, light and dark themes, and instant search in both languages.
+
+## Categories
+
+Programming fundamentals · Web and APIs · Frontend · Databases · Architecture and design · DevOps and cloud · Git and collaboration · Security · Testing and quality · AI and data · Agile and teamwork · Clients and freelancing · Emails and meetings · Idioms and slang.
 
 ## Repository layout
 
-```
+```text
 content/
   categories.json        category names and descriptions per language
   ar/<category>/<id>.md  Arabic entries (default language)
@@ -31,6 +38,8 @@ CONTRIBUTING.md          how to add terms and languages
 
 ## Run the website
 
+Requires Node.js 20+.
+
 ```bash
 cd web
 npm install
@@ -39,10 +48,15 @@ npm run validate   # checks all content
 npm run build      # static export to web/out
 ```
 
+The site needs no API keys. Keys are only used by the optional maintainer scripts described in [web/README.md](web/README.md).
+
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Adding a language means adding a folder under
-`content/` and a few UI strings, nothing else.
+Corrections, new terms and new languages are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md), or open an issue with the **Suggest a term** or **Report a mistake** template.
+
+## Built by
+
+[Mohamed Salem Younes](https://www.mohamedyounes.dev), a backend-focused software engineer in Cairo, Egypt.
 
 ## License
 
