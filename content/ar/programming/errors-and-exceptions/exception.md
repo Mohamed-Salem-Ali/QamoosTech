@@ -4,6 +4,7 @@ category: programming
 subcategory: errors-and-exceptions
 level: beginner
 related: [debugging]
+aliases: ["exception handling", "try except", "raise"]
 term: "Exception"
 translation: "استثناء"
 pronunciation: "إكسيبشن"

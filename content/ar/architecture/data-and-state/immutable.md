@@ -4,6 +4,7 @@ category: architecture
 subcategory: data-and-state
 level: intermediate
 related: [event-driven, audit-logging]
+aliases: ["mutable", "mutability"]
 term: "Immutable"
 translation: "غير قابل للتغيير"
 pronunciation: "إميوتابل"

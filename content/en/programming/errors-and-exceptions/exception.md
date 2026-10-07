@@ -4,6 +4,7 @@ category: programming
 subcategory: errors-and-exceptions
 level: beginner
 related: [debugging]
+aliases: ["exception handling", "try except", "raise"]
 term: "Exception"
 pronunciation: "ik-SEP-shun"
 keywords: ["runtime error handling","code crash prevention","try catch block","how to handle errors","unexpected program stop","program execution interruption","debugging runtime issues","catching code errors","error throwing mechanism","fix application crashes","معالجة أخطاء وقت التشغيل","إيقاف انهيار البرنامج","التقاط الأخطاء البرمجية","كيفية التعامل مع الاستثناءات","رسائل الخطأ أثناء التشغيل","تجنب توقف البرنامج المفاجئ","تغليف الكود بـ try catch","مصطلح إكسيبشن في البرمجة","أخطاء التنفيذ البرمجية","التعامل مع تعطل الكود"]

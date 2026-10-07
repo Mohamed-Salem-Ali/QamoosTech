@@ -4,6 +4,7 @@ category: programming
 subcategory: data-structures
 level: beginner
 related: [loop, object]
+aliases: ["list", "python list"]
 term: "Array"
 translation: "مصفوفة"
 pronunciation: "آري"
