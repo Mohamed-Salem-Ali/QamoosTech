@@ -4,6 +4,7 @@ category: web-apis
 subcategory: http-and-requests
 level: beginner
 related: [client-vs-server, status-code]
+aliases: ["request response cycle"]
 term: "Request / Response"
 translation: "الطلب والاستجابة"
 pronunciation: "ريكويست / ريسبونس"
