@@ -8,6 +8,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { generate, mapPool } from './lib/ai-pool.mjs'
+import { findTermFile, walkTermFiles } from '../src/lib/content-fs.mjs'
 
 const webDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '..')
 const contentDir = path.join(webDir, '..', 'content')
@@ -36,17 +37,15 @@ if (drafts) {
     }
   }
 } else {
-  for (const category of fs.readdirSync(path.join(contentDir, 'en'))) {
-    for (const file of fs.readdirSync(path.join(contentDir, 'en', category))) {
-      const id = file.replace(/\.md$/, '')
-      if (only && !only.has(id)) continue
-      terms.push({
-        id,
-        category,
-        en: fs.readFileSync(path.join(contentDir, 'en', category, file), 'utf8'),
-        ar: fs.readFileSync(path.join(contentDir, 'ar', category, file), 'utf8'),
-      })
-    }
+  for (const f of walkTermFiles(contentDir, 'en')) {
+    const id = f.file.replace(/\.md$/, '')
+    if (only && !only.has(id)) continue
+    terms.push({
+      id,
+      category: f.category,
+      en: fs.readFileSync(f.path, 'utf8'),
+      ar: fs.readFileSync(findTermFile(contentDir, 'ar', id).path, 'utf8'),
+    })
   }
 }
 const batch = terms.slice(0, limit)

@@ -9,7 +9,8 @@ import matter from 'gray-matter'
 /**
  * @typedef {{ text: string, translation?: string }} Example
  * @typedef {{
- *   id: string, category: string, level: 'beginner' | 'intermediate', related: string[],
+ *   id: string, category: string, subcategory?: string, level: 'beginner' | 'intermediate', related: string[],
+ *   tags: string[], aliases: string[],
  *   term: string, translation?: string, pronunciation: string,
  *   definition: string, context: string, examples: Example[], mistake: string,
  *   confuse?: string, say?: Example[], keywords?: string[],
@@ -76,8 +77,11 @@ export function parseTerm(source) {
     term: {
       id: String(data.id ?? ''),
       category: String(data.category ?? ''),
+      subcategory: data.subcategory ? String(data.subcategory) : undefined,
       level: data.level ?? 'beginner',
       related: Array.isArray(data.related) ? data.related.map(String) : [],
+      tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
+      aliases: Array.isArray(data.aliases) ? data.aliases.map(String) : [],
       term: String(data.term ?? ''),
       translation: data.translation ? String(data.translation) : undefined,
       pronunciation: String(data.pronunciation ?? ''),

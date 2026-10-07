@@ -9,6 +9,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { generate, mapPool } from './lib/ai-pool.mjs'
+import { findTermFile, walkTermFiles } from '../src/lib/content-fs.mjs'
 import { parseTerm } from '../src/lib/parse-term.mjs'
 import { scanText } from './scan-scripts.mjs'
 
@@ -32,14 +33,12 @@ Rules: no single generic words ("system", "data", "code"); no phrase that is jus
 Answer with JSON only: {"en":["..."],"ar":["..."]}`
 
 const terms = []
-for (const category of fs.readdirSync(path.join(contentDir, 'en'))) {
-  for (const f of fs.readdirSync(path.join(contentDir, 'en', category))) {
-    const id = f.replace(/\.md$/, '')
-    if (only && !only.has(id)) continue
-    const en = fs.readFileSync(path.join(contentDir, 'en', category, f), 'utf8')
+for (const f of walkTermFiles(contentDir, 'en')) {
+  const id = f.file.replace(/\.md$/, '')
+  if (only && !only.has(id)) continue
+  const en = fs.readFileSync(f.path, 'utf8')
     if (/^keywords:/m.test(en)) continue
-    terms.push({ id, category, en, ar: fs.readFileSync(path.join(contentDir, 'ar', category, f), 'utf8') })
-  }
+  terms.push({ id, category: f.category, en, ar: fs.readFileSync(findTermFile(contentDir, 'ar', id).path, 'utf8') })
 }
 const batch = terms.slice(0, limit)
 console.log(`Generating search phrases for ${batch.length} term(s)…`)
@@ -76,7 +75,7 @@ await mapPool(
       const ar = clean(r.data.ar, true).slice(0, 12)
       for (const [lang, list] of [['en', [...en, ...ar]], ['ar', [...ar, ...en]]]) {
         // each file carries both languages' phrases, so people can search in either language from any page
-        const file = path.join(contentDir, lang, t.category, `${t.id}.md`)
+        const file = findTermFile(contentDir, lang, t.id).path
         const next = withKeywords(lang === 'en' ? t.en : t.ar, list)
         const { errors } = parseTerm(next)
         if (errors.length) throw new Error(`${lang}: ${errors.join('; ')}`)

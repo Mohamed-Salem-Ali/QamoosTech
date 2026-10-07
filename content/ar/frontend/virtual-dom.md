@@ -3,6 +3,7 @@ id: virtual-dom
 category: frontend
 level: intermediate
 related: [component, rendering, state]
+tags: [react]
 term: "Virtual DOM"
 translation: "الـ Virtual DOM (أو DOM الافتراضي)"
 pronunciation: "فيرتشوال دوم"

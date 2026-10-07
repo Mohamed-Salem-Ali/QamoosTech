@@ -3,6 +3,7 @@ id: props
 category: frontend
 level: beginner
 related: [component, state]
+tags: [react]
 term: "Props"
 translation: "الخصائص الممرَّرة"
 pronunciation: "بروبس"

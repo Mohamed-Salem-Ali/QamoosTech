@@ -4,6 +4,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { walkTermFiles } from '../src/lib/content-fs.mjs'
 
 const ARABIC = /[؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]/
 const ALLOWED_PUNCT = /[ «»·×–—‘’“”…→≈°•‎‏٪-٭]/
@@ -29,11 +30,11 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const contentDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', 'content')
   let n = 0
   for (const lang of ['ar', 'en']) {
-    for (const cat of fs.readdirSync(path.join(contentDir, lang))) {
-      const dir = path.join(contentDir, lang, cat)
-      if (!fs.statSync(dir).isDirectory()) continue
-      for (const f of fs.readdirSync(dir)) {
-        const text = fs.readFileSync(path.join(dir, f), 'utf8')
+    for (const file of walkTermFiles(contentDir, lang)) {
+      const cat = file.subcategory ? `${file.category}/${file.subcategory}` : file.category
+      const f = file.file
+      {
+        const text = fs.readFileSync(file.path, 'utf8')
         const hits = scanText(text, lang)
         if (hits.length) {
           n++

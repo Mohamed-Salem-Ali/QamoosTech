@@ -38,6 +38,8 @@ voice picker automatically when more than one voice exists.
 
 | Command | What it does |
 |---|---|
-| `npm run validate` | Checks that every term exists in every language, categories are valid and `related` ids exist |
+| `npm run validate` | Checks the taxonomy, that every term exists in every language, `related` ids exist, and no name or alias is used twice |
+| `npm run dedupe -- file.txt` | Checks a list of candidate terms against everything already explained (ids, titles, acronyms, aliases) |
+| `npm run stats` | Prints the canonical numbers (terms, categories, subcategories, audio coverage) to copy into READMEs and other projects |
 | `npm run audio` | Generates missing pronunciation files (see above) |
 | `npm run ai`, `qa`, `qa-fix`, `terms`, `enrich`, `scan` | Optional maintainer tools that use Gemini to draft, review and enrich terms. A human reviews every change; they need API keys and are not required to build the site |
