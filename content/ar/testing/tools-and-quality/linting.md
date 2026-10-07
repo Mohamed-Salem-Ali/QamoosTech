@@ -4,6 +4,7 @@ category: testing
 subcategory: tools-and-quality
 level: beginner
 related: [quality-gate, code-review]
+aliases: ["linter", "ruff"]
 term: "Linting"
 translation: "الـ Linting"
 pronunciation: "لينتينج"
