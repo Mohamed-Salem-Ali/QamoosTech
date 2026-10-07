@@ -4,6 +4,7 @@ category: programming
 subcategory: functions-and-scope
 level: intermediate
 related: [loop, function]
+aliases: ["base case"]
 term: "Recursion"
 translation: "الاستدعاء الذاتي"
 pronunciation: "ريكيرجن"

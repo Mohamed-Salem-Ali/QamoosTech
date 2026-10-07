@@ -4,6 +4,7 @@ category: programming
 subcategory: functions-and-scope
 level: beginner
 related: [function]
+aliases: ["keyword argument", "positional argument", "default argument", "default parameter"]
 term: "Parameter vs Argument"
 translation: "المعامل والوسيط"
 pronunciation: "باراميتر مقابل أرجيومنت"
