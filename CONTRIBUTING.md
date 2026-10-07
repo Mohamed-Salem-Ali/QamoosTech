@@ -63,3 +63,21 @@ localized per language).
 ## Code changes
 
 Keep changes small and run `npm run lint` and `npm run build` before opening a PR.
+
+## Branches and pull requests
+
+`main` is always releasable and is never committed to directly. Work flows like this:
+
+```text
+feat/<topic>  ──squash──▶  dev  ──merge commit──▶  main
+```
+
+1. Branch from `dev`: `git switch dev && git pull && git switch -c feat/rate-limiting-terms`.
+   Use a short prefix: `feat/` (new terms or features), `fix/` (corrections), `chore/` (tooling, docs).
+2. Commit as often as you like on your branch, then open a pull request **into `dev`**. CI must pass.
+   Pull requests into `dev` are **squash-merged**, so each one becomes a single tidy commit.
+3. When `dev` holds a finished batch, open a pull request from `dev` into `main` and merge it with a
+   **merge commit** so every release is a visible point in the history.
+4. Delete the feature branch after merging.
+
+Commit messages: a short imperative summary (`Add 12 Python terms`), with details in the body if needed.
