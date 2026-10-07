@@ -4,6 +4,7 @@ category: databases
 subcategory: transactions
 level: intermediate
 related: [database, idempotency]
+aliases: ["atomic operation", "atomicity"]
 term: "Transaction"
 translation: "معاملة"
 pronunciation: "ترانزاكشن"
