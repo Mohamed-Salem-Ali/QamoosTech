@@ -5,7 +5,7 @@ subcategory: routing-and-views
 level: beginner
 related: [view, endpoint, url-reversing]
 tags: [django, python]
-aliases: ["urlconf", "url conf", "routing", "routes"]
+aliases: ["urlconf", "url conf", "routing"]
 term: "URL Routing"
 translation: "توجيه الروابط"
 pronunciation: "يو آر إل راوتينج"

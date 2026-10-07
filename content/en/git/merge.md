@@ -3,6 +3,7 @@ id: merge
 category: git
 level: beginner
 related: [branch, merge-conflict, rebase]
+aliases: ["merge commit"]
 term: "Merge"
 pronunciation: "MERJ"
 keywords: ["combine git branches","merge feature branch","bring changes from main","put code together git","merge pull request","integrate branch changes","how to merge in git","marge branch","git combination","دمج الفروع في جيت","جمع التغييرات من فرع لآخر","كيف أعمل ميرج","دمج الكود في الفروع","تطبيق الـ pull request","دمج التحديثات الأخيرة","ميرج الفروع الفرعية","ضم الكود المطور"]
