@@ -3,6 +3,7 @@ id: nextjs
 category: frontend
 level: beginner
 related: [rendering, component]
+tags: [nextjs]
 term: "Next.js"
 pronunciation: "NEKST jay-ess"
 keywords: ["react framework with server side rendering","build seo friendly react website","react fullstack web framework","nextjs routing and pages","framework built on top of react","server side rendering for react","next js app router","react framework for production","nextjs static site generation","إطار عمل للواجهات مبني على رياكت","توليد الصفحات من الخادم رياكت","إطار عمل رياكت متكامل","نكست جي إس","تحسين محركات البحث لرياكت","توجيه الصفحات في رياكت","بناء موقع رياكت سريع","إطار عمل رياكت مع عرض من الخادم"]

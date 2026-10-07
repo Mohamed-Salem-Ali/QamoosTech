@@ -21,6 +21,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseTerm } from '../src/lib/parse-term.mjs'
+import { walkTermFiles } from '../src/lib/content-fs.mjs'
 
 const webDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '..')
 const contentDir = path.join(webDir, '..', 'content', 'en')
@@ -180,13 +181,9 @@ async function synthesize(text, voice) {
 
 // collect terms from the English content
 const terms = []
-for (const category of fs.readdirSync(contentDir)) {
-  const dir = path.join(contentDir, category)
-  if (!fs.statSync(dir).isDirectory()) continue
-  for (const file of fs.readdirSync(dir)) {
-    const { term } = parseTerm(fs.readFileSync(path.join(dir, file), 'utf8'))
-    if (!only || only.has(term.id)) terms.push({ id: term.id, text: speakable(term.term, term.id) })
-  }
+for (const f of walkTermFiles(path.join(contentDir, '..'), 'en')) {
+  const { term } = parseTerm(fs.readFileSync(f.path, 'utf8'))
+  if (!only || only.has(term.id)) terms.push({ id: term.id, text: speakable(term.term, term.id) })
 }
 if (only) for (const id of only) if (!terms.some((t) => t.id === id)) console.warn(`Unknown term id: ${id}`)
 

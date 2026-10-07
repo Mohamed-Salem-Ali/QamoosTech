@@ -8,7 +8,86 @@
     "description": {
       "en": "Core words you meet in every language and tutorial.",
       "ar": "الكلمات الأساسية التي تظهر في كل لغة برمجة وكل شرح."
-    }
+    },
+    "subcategories": [
+      {
+        "id": "language-basics",
+        "name": {
+          "en": "Language basics",
+          "ar": "أساسيات اللغة"
+        }
+      },
+      {
+        "id": "functions-and-scope",
+        "name": {
+          "en": "Functions and scope",
+          "ar": "الدوال والنطاق"
+        }
+      },
+      {
+        "id": "data-structures",
+        "name": {
+          "en": "Data structures",
+          "ar": "هياكل البيانات"
+        }
+      },
+      {
+        "id": "iteration-and-generators",
+        "name": {
+          "en": "Iteration and generators",
+          "ar": "التكرار والمولدات"
+        }
+      },
+      {
+        "id": "object-oriented",
+        "name": {
+          "en": "Object-oriented programming",
+          "ar": "البرمجة كائنية التوجه"
+        }
+      },
+      {
+        "id": "errors-and-exceptions",
+        "name": {
+          "en": "Errors and exceptions",
+          "ar": "الأخطاء والاستثناءات"
+        }
+      },
+      {
+        "id": "types-and-typing",
+        "name": {
+          "en": "Types and typing",
+          "ar": "الأنواع والتحقق منها"
+        }
+      },
+      {
+        "id": "code-quality",
+        "name": {
+          "en": "Code quality",
+          "ar": "جودة الكود"
+        }
+      },
+      {
+        "id": "modules-and-libraries",
+        "name": {
+          "en": "Modules and libraries",
+          "ar": "الوحدات والمكتبات"
+        }
+      },
+      {
+        "id": "runtime-and-memory",
+        "name": {
+          "en": "Runtime and memory",
+          "ar": "بيئة التشغيل والذاكرة"
+        }
+      },
+      {
+        "id": "text-and-data-formats",
+        "name": {
+          "en": "Text and data formats",
+          "ar": "النصوص وصيغ البيانات"
+        }
+      }
+    ]
   },
   {
     "id": "web-apis",
@@ -19,7 +98,44 @@
     "description": {
       "en": "How clients and servers talk to each other.",
       "ar": "كيف يتواصل العميل مع الخادم."
-    }
+    },
+    "subcategories": [
+      {
+        "id": "http-and-requests",
+        "name": {
+          "en": "HTTP and requests",
+          "ar": "HTTP والطلبات"
+        }
+      },
+      {
+        "id": "routing-and-views",
+        "name": {
+          "en": "Routing and views",
+          "ar": "التوجيه والعرض"
+        }
+      },
+      {
+        "id": "api-design",
+        "name": {
+          "en": "API design",
+          "ar": "تصميم واجهات البرمجة"
+        }
+      },
+      {
+        "id": "data-formats",
+        "name": {
+          "en": "Data formats",
+          "ar": "صيغ البيانات"
+        }
+      },
+      {
+        "id": "realtime",
+        "name": {
+          "en": "Real time",
+          "ar": "الوقت الفعلي"
+        }
+      }
+    ]
   },
   {
     "id": "frontend",
@@ -41,7 +157,51 @@
     "description": {
       "en": "Storing, querying, and evolving data.",
       "ar": "تخزين البيانات والاستعلام عنها وتطويرها."
-    }
+    },
+    "subcategories": [
+      {
+        "id": "fundamentals",
+        "name": {
+          "en": "Fundamentals",
+          "ar": "الأساسيات"
+        }
+      },
+      {
+        "id": "modeling",
+        "name": {
+          "en": "Data modeling",
+          "ar": "تصميم البيانات"
+        }
+      },
+      {
+        "id": "querying",
+        "name": {
+          "en": "Querying",
+          "ar": "الاستعلام"
+        }
+      },
+      {
+        "id": "orm-and-migrations",
+        "name": {
+          "en": "ORM and migrations",
+          "ar": "ORM والترحيلات"
+        }
+      },
+      {
+        "id": "transactions",
+        "name": {
+          "en": "Transactions",
+          "ar": "المعاملات"
+        }
+      },
+      {
+        "id": "performance",
+        "name": {
+          "en": "Performance",
+          "ar": "الأداء"
+        }
+      }
+    ]
   },
   {
     "id": "architecture",
@@ -52,7 +212,37 @@
     "description": {
       "en": "Designing systems that scale and survive failure.",
       "ar": "تصميم أنظمة تتحمل النمو والأعطال."
-    }
+    },
+    "subcategories": [
+      {
+        "id": "patterns",
+        "name": {
+          "en": "Patterns",
+          "ar": "الأنماط المعمارية"
+        }
+      },
+      {
+        "id": "reliability",
+        "name": {
+          "en": "Reliability",
+          "ar": "الموثوقية"
+        }
+      },
+      {
+        "id": "scaling",
+        "name": {
+          "en": "Scaling and performance",
+          "ar": "التوسع والأداء"
+        }
+      },
+      {
+        "id": "data-and-state",
+        "name": {
+          "en": "Data and state",
+          "ar": "البيانات والحالة"
+        }
+      }
+    ]
   },
   {
     "id": "devops",
@@ -63,7 +253,44 @@
     "description": {
       "en": "Shipping, running, and watching software in production.",
       "ar": "نشر البرمجيات وتشغيلها ومراقبتها في بيئة الإنتاج."
-    }
+    },
+    "subcategories": [
+      {
+        "id": "environments-and-packaging",
+        "name": {
+          "en": "Environments and packaging",
+          "ar": "البيئات والحزم"
+        }
+      },
+      {
+        "id": "command-line",
+        "name": {
+          "en": "Command line",
+          "ar": "سطر الأوامر"
+        }
+      },
+      {
+        "id": "ci-cd-and-delivery",
+        "name": {
+          "en": "CI/CD and delivery",
+          "ar": "التكامل والتسليم المستمر"
+        }
+      },
+      {
+        "id": "infrastructure",
+        "name": {
+          "en": "Infrastructure",
+          "ar": "البنية التحتية"
+        }
+      },
+      {
+        "id": "operations-and-monitoring",
+        "name": {
+          "en": "Operations and monitoring",
+          "ar": "التشغيل والمراقبة"
+        }
+      }
+    ]
   },
   {
     "id": "git",
@@ -85,7 +312,30 @@
     "description": {
       "en": "Protecting users, data, and systems.",
       "ar": "حماية المستخدمين والبيانات والأنظمة."
-    }
+    },
+    "subcategories": [
+      {
+        "id": "authentication-and-access",
+        "name": {
+          "en": "Authentication and access",
+          "ar": "المصادقة والصلاحيات"
+        }
+      },
+      {
+        "id": "application-security",
+        "name": {
+          "en": "Application security",
+          "ar": "أمان التطبيقات"
+        }
+      },
+      {
+        "id": "data-protection",
+        "name": {
+          "en": "Data protection",
+          "ar": "حماية البيانات"
+        }
+      }
+    ]
   },
   {
     "id": "testing",
@@ -96,7 +346,37 @@
     "description": {
       "en": "Making sure the code does what it should.",
       "ar": "التأكد من أن الشيفرة تعمل كما ينبغي."
-    }
+    },
+    "subcategories": [
+      {
+        "id": "test-types",
+        "name": {
+          "en": "Types of tests",
+          "ar": "أنواع الاختبارات"
+        }
+      },
+      {
+        "id": "test-design",
+        "name": {
+          "en": "Test design",
+          "ar": "تصميم الاختبارات"
+        }
+      },
+      {
+        "id": "mocking-and-test-doubles",
+        "name": {
+          "en": "Mocking and test doubles",
+          "ar": "المحاكاة والبدائل الاختبارية"
+        }
+      },
+      {
+        "id": "tools-and-quality",
+        "name": {
+          "en": "Tools and quality",
+          "ar": "الأدوات والجودة"
+        }
+      }
+    ]
   },
   {
     "id": "ai-data",

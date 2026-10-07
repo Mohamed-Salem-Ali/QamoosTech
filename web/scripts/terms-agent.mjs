@@ -8,6 +8,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { generate, mapPool } from './lib/ai-pool.mjs'
 import { parseTerm } from '../src/lib/parse-term.mjs'
+import { termPath, walkTermFiles } from '../src/lib/content-fs.mjs'
 
 const webDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '..')
 const repoDir = path.join(webDir, '..')
@@ -25,11 +26,9 @@ const categories = JSON.parse(fs.readFileSync(path.join(contentDir, 'categories.
 
 function existingTerms() {
   const out = []
-  for (const c of fs.readdirSync(path.join(contentDir, 'en'))) {
-    for (const f of fs.readdirSync(path.join(contentDir, 'en', c))) {
-      const { term } = parseTerm(fs.readFileSync(path.join(contentDir, 'en', c, f), 'utf8'))
-      out.push({ id: term.id, term: term.term, category: c })
-    }
+  for (const f of walkTermFiles(contentDir, 'en')) {
+    const { term } = parseTerm(fs.readFileSync(f.path, 'utf8'))
+    out.push({ id: term.id, term: term.term, category: f.category })
   }
   return out
 }
@@ -102,8 +101,11 @@ Answer with JSON only: {"terms":[{"id":"...","term":"Display Name","level":"begi
 const FORMAT_EN = `---
 id: rate-limiting
 category: web-apis
+subcategory: api-design
 level: intermediate
 related: [status-code]
+tags: []
+aliases: ["throttling"]
 term: "Rate Limiting"
 pronunciation: "RAYT LIM-it-ing"
 ---
@@ -133,7 +135,8 @@ For ONE term, write BOTH files: the English file and the Arabic file. Rules:
 - Arabic "أمثلة": each English example sentence stays in English, followed on the next line by its Arabic translation as a nested bullet ("  - ...").
 - pronunciation: English file = respelling like "RAYT LIM-it-ing"; Arabic file = the same sound written in Arabic letters like "ريت ليميتينج".
 - related: 1 to 3 ids chosen ONLY from the list of existing ids you are given (or [] if none fit).
-- level is beginner or intermediate. id, category, level, related, term are IDENTICAL in both files.
+- subcategory: ONE id from the SUBCATEGORIES list you are given for the category (omit the line if the list is empty). tags: [] or ids from the TAGS list (technologies the term belongs to). aliases: other common names for the same concept in that file's language ([] if none); never the term itself and never the name of another existing term.
+- level is beginner or intermediate. id, category, subcategory, level, related, tags, term are IDENTICAL in both files.
 - Code, commands and identifiers go in backticks.
 Answer with JSON only: {"en":"<full english file text>","ar":"<full arabic file text>"}
 
@@ -163,7 +166,7 @@ async function draft() {
         const r = await generate({
           tiers: ['draft', 'bulk'],
           system: DRAFT_SYSTEM,
-          prompt: `TERM: ${t.term}\nid: ${t.id}\ncategory: ${t.category}\nlevel: ${t.level}\nWhy it matters: ${t.why}\nEXISTING IDS (for related): ${relatedPool}`,
+          prompt: `TERM: ${t.term}\nid: ${t.id}\ncategory: ${t.category}\nlevel: ${t.level}\nWhy it matters: ${t.why}\nSUBCATEGORIES for this category: ${(categories.find((c) => c.id === t.category)?.subcategories ?? []).map((x) => x.id).join(', ') || '(none)'}\nTAGS: ${JSON.parse(fs.readFileSync(path.join(contentDir, 'tags.json'), 'utf8')).map((x) => x.id).join(', ')}\nEXISTING IDS (for related): ${relatedPool}`,
           json: true,
           temperature: 0.4,
           maxOutputTokens: 4096,
@@ -207,14 +210,15 @@ function promote() {
       const arSrc = path.join(dir, `${id}.ar.md`)
       if (!fs.existsSync(arSrc)) { console.warn(`skip ${id}: missing Arabic draft`); continue }
       const bad = [enSrc, arSrc].flatMap((p) => parseTerm(fs.readFileSync(p, 'utf8')).errors)
+      const draftTerm = parseTerm(fs.readFileSync(enSrc, 'utf8')).term
       if (bad.length || existingIds.has(id)) { console.warn(`skip ${id}: ${bad.join('; ') || 'id already exists'}`); continue }
       for (const lang of ['en', 'ar']) {
-        const outDir = path.join(contentDir, lang, category)
-        fs.mkdirSync(outDir, { recursive: true })
+        const target = termPath(contentDir, lang, { category, subcategory: draftTerm.subcategory, id })
+        fs.mkdirSync(path.dirname(target), { recursive: true })
         // same layout as the hand-written files: a blank line after every "##" heading
         const raw = fs.readFileSync(path.join(dir, `${id}.${lang}.md`), 'utf8').replace(/\r\n/g, '\n')
         const text = raw.replace(/^(## .*)\n(?!\n)/gm, '$1\n\n')
-        fs.writeFileSync(path.join(outDir, `${id}.md`), text.endsWith('\n') ? text : text + '\n')
+        fs.writeFileSync(target, text.endsWith('\n') ? text : text + '\n')
         fs.rmSync(path.join(dir, `${id}.${lang}.md`))
       }
       moved++

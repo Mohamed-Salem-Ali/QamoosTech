@@ -3,6 +3,7 @@ id: hydration
 category: frontend
 level: intermediate
 related: [rendering, nextjs]
+tags: [react]
 term: "Hydration"
 translation: "التفعيل (الهيدريشن)"
 pronunciation: "هايدريشن"

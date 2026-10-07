@@ -20,6 +20,8 @@ export type SearchItem = {
   summary: string
   /** natural-language phrases people might type to find this term (both languages), generated at build time */
   keywords?: string[]
+  /** other names for the same concept (dict / dictionary / hash map) */
+  aliases?: string[]
 }
 
 // Very common words that should not make a multi-word query match everything.
@@ -29,7 +31,7 @@ const tokens = (s: string) => s.split(' ').filter((w) => w.length > 1 && !STOP.h
 
 /**
  * Ranking, highest first:
- * 100 exact term/translation · 80 prefix · 60 a word starts with it · 40 contained
+ * 100 exact term/translation/alias · 80 prefix · 60 a word starts with it · 40 contained
  * 50 matches a generated search phrase · 12-45 multi-word query: share of its words found in term/phrases/summary
  */
 export function runSearch(items: SearchItem[], query: string, limit = 8) {
@@ -42,9 +44,10 @@ export function runSearch(items: SearchItem[], query: string, limit = 8) {
     const tr = normalize(item.translation ?? '')
     const body = normalize(item.summary)
     const keys = (item.keywords ?? []).map(normalize)
+    const aliases = (item.aliases ?? []).map(normalize)
     let score = 0
-    if (term === q || tr === q) score = 100
-    else if (term.startsWith(q) || tr.startsWith(q)) score = 80
+    if (term === q || tr === q || aliases.includes(q)) score = 100
+    else if (term.startsWith(q) || tr.startsWith(q) || aliases.some((a) => a.startsWith(q))) score = 80
     else if (term.split(' ').some((w) => w.startsWith(q)) || tr.split(' ').some((w) => w.startsWith(q))) score = 60
     else if (keys.some((k) => k === q || k.startsWith(q))) score = 55
     else if (term.includes(q) || tr.includes(q)) score = 40

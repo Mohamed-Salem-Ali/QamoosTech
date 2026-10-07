@@ -3,6 +3,7 @@ id: nextjs
 category: frontend
 level: beginner
 related: [rendering, component]
+tags: [nextjs]
 term: "Next.js"
 translation: "نكست جي إس"
 pronunciation: "نكست جي إس"
