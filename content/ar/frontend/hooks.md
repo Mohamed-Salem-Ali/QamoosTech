@@ -3,6 +3,7 @@ id: hooks
 category: frontend
 level: intermediate
 related: [component, state]
+tags: [react]
 term: "Hooks"
 pronunciation: "هُوكس"
 keywords: ["استخدام الحالة بدون كلاسات","دوال رياكت للكمبوننت","مشاركه المنطق بين المكونات","هووكس رياكت","دوال الحالة في رياكت","الربط بدورة حياة المكون","هوكس","react lifecycle in functions","use state without classes","custom react functions","share logic between components","react state functions","usestate useeffect alternative","function component features","react hooks","hoks"]

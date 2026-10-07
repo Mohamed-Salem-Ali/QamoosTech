@@ -1433,3 +1433,58 @@ html[dir='rtl'] .rotator__word::after { transform-origin: right; }
   color: var(--ok);
   border-color: var(--ok);
 }
+
+/* subcategories on a category page, and tags / subcategory pills on a term page */
+.subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-block-end: 28px;
+}
+.subnav__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-block-size: 44px;
+  padding-inline: 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: border-color 0.2s var(--ease), background 0.2s var(--ease);
+}
+.subnav__link:hover {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+}
+.subnav__count,
+.subgroup__count {
+  color: var(--ink-soft);
+  font-weight: 500;
+  font-size: 0.85em;
+}
+.subgroup {
+  margin-block-start: 36px;
+  scroll-margin-block-start: 90px;
+}
+.subgroup:first-of-type {
+  margin-block-start: 0;
+}
+.subgroup__title {
+  font-size: 1.25rem;
+  margin-block-end: 14px;
+}
+.pill--sub {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+}
+.pill--sub:hover {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+.pill--tag {
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+  color: var(--ink-soft);
+}

@@ -8,6 +8,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { generate, mapPool } from './lib/ai-pool.mjs'
+import { findTermFile, walkTermFiles } from '../src/lib/content-fs.mjs'
 import { parseTerm } from '../src/lib/parse-term.mjs'
 import { scanText } from './scan-scripts.mjs'
 
@@ -42,14 +43,12 @@ Answer with JSON only, exactly this shape:
 {"confuse":null | {"en":"...","ar":"..."},"say":[{"en":"...","ar":"..."},{"en":"...","ar":"..."}]}`
 
 const terms = []
-for (const category of fs.readdirSync(path.join(contentDir, 'en'))) {
-  for (const f of fs.readdirSync(path.join(contentDir, 'en', category))) {
-    const id = f.replace(/\.md$/, '')
-    if (only && !only.has(id)) continue
-    const en = fs.readFileSync(path.join(contentDir, 'en', category, f), 'utf8')
+for (const f of walkTermFiles(contentDir, 'en')) {
+  const id = f.file.replace(/\.md$/, '')
+  if (only && !only.has(id)) continue
+  const en = fs.readFileSync(f.path, 'utf8')
     if (parseTerm(en).term.say) continue // already enriched
-    terms.push({ id, category, en, ar: fs.readFileSync(path.join(contentDir, 'ar', category, f), 'utf8') })
-  }
+  terms.push({ id, category: f.category, en, ar: fs.readFileSync(findTermFile(contentDir, 'ar', id).path, 'utf8') })
 }
 const batch = terms.slice(0, limit)
 console.log(`Enriching ${batch.length} term(s)…`)
@@ -96,7 +95,7 @@ await mapPool(
         if (errors.length) throw new Error(`${lang}: ${errors.join('; ')}`)
         if (scanText(next[lang], lang).length) throw new Error(`${lang}: wrong-script characters`)
       }
-      for (const lang of ['en', 'ar']) fs.writeFileSync(path.join(contentDir, lang, t.category, `${t.id}.md`), next[lang])
+      for (const lang of ['en', 'ar']) fs.writeFileSync(findTermFile(contentDir, lang, t.id).path, next[lang])
       ok++
     } catch (e) {
       failed.push(`${t.id}: ${e.message.slice(0, 120)}`)

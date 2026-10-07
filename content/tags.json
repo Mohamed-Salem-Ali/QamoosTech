@@ -1,0 +1,58 @@
+[
+  {
+    "id": "python",
+    "name": {
+      "en": "Python",
+      "ar": "بايثون"
+    }
+  },
+  {
+    "id": "django",
+    "name": {
+      "en": "Django",
+      "ar": "جانغو"
+    }
+  },
+  {
+    "id": "javascript",
+    "name": {
+      "en": "JavaScript",
+      "ar": "جافاسكريبت"
+    }
+  },
+  {
+    "id": "typescript",
+    "name": {
+      "en": "TypeScript",
+      "ar": "تايب سكريبت"
+    }
+  },
+  {
+    "id": "react",
+    "name": {
+      "en": "React",
+      "ar": "رياكت"
+    }
+  },
+  {
+    "id": "nextjs",
+    "name": {
+      "en": "Next.js",
+      "ar": "نكست جي إس"
+    }
+  },
+  {
+    "id": "sql",
+    "name": {
+      "en": "SQL",
+      "ar": "SQL"
+    }
+  },
+  {
+    "id": "postgresql",
+    "name": {
+      "en": "PostgreSQL",
+      "ar": "بوستجري إس كيو إل"
+    }
+  }
+]

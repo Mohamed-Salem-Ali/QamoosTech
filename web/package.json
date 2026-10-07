@@ -15,7 +15,9 @@
     "qa-fix": "node scripts/qa-fix.mjs",
     "scan": "node scripts/scan-scripts.mjs",
     "enrich": "node scripts/enrich.mjs",
-    "keywords": "node scripts/enrich-keywords.mjs"
+    "keywords": "node scripts/enrich-keywords.mjs",
+    "dedupe": "node scripts/check-candidates.mjs",
+    "stats": "node scripts/stats.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

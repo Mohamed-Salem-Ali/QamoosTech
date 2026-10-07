@@ -8,7 +8,7 @@ import { RichText } from '@/components/RichText'
 import { Speak } from '@/components/Speak'
 import { pageAlternates } from '@/lib/alternates'
 import { getAudioSources, voiceHints } from '@/lib/audio'
-import { getCategories, getTerm, getTerms, getTermsByCategory } from '@/lib/content'
+import { getCategories, getTags, getTerm, getTerms, getTermsByCategory } from '@/lib/content'
 import { languages, ui, type Lang } from '@/lib/i18n'
 
 type Params = { lang: Lang; id: string }
@@ -33,6 +33,8 @@ export default function TermPage({ params }: { params: Params }) {
   const term = getTerm(lang, params.id)
   if (!term) notFound()
   const category = getCategories().find((c) => c.id === term.category)!
+  const subcategory = category.subcategories?.find((s) => s.id === term.subcategory)
+  const tagNames = term.tags.map((id) => getTags().find((x) => x.id === id)?.name[lang] ?? id)
   // previous / next in the same category (alphabetical, wrapping around) and a few more from it
   const siblings = getTermsByCategory(lang, term.category)
   const at = siblings.findIndex((x) => x.id === term.id)
@@ -53,7 +55,13 @@ export default function TermPage({ params }: { params: Params }) {
       <header className="term__head">
         <div className="term__badges">
           <span className="pill">{category.name[lang]}</span>
+          {subcategory && (
+            <Link href={`/${lang}/c/${category.id}/#${subcategory.id}`} className="pill pill--sub">{subcategory.name[lang]}</Link>
+          )}
           <span className={`level level--${term.level}`}>{t.level[term.level]}</span>
+          {tagNames.map((name) => (
+            <span key={name} className="pill pill--tag" dir="ltr">{name}</span>
+          ))}
         </div>
         <h1 className="term__title" dir="ltr">{term.term}</h1>
         {term.translation && <p className="term__translation">{term.translation}</p>}

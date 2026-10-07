@@ -7,19 +7,25 @@ Thank you for helping Arabic-speaking engineers understand the English they meet
 Every term has **one file per language** with the same file name:
 
 ```
-content/en/<category>/<id>.md
-content/ar/<category>/<id>.md
+content/en/<category>/<subcategory>/<id>.md
+content/ar/<category>/<subcategory>/<id>.md
 ```
 
-1. Pick a category from `content/categories.json` and a lowercase `id` (`rate-limiting`).
-2. Copy an existing term in the same category and edit both language files.
-3. Run the checks from `web/`:
+Small categories have no subcategories yet and keep files directly in the category folder.
+
+1. **Check it is not already there.** Put your candidate in a text file and run
+   `npm run dedupe -- candidates.txt` from `web/`. It matches ids, titles, acronyms and aliases, so
+   "dict" finds "Dictionary". One concept = one entry: if the idea exists under another name, add an
+   `aliases` entry to the existing term instead.
+2. Pick a category and subcategory from `content/categories.json` and a lowercase `id` (`rate-limiting`).
+3. Copy an existing term in the same subcategory and edit both language files.
+4. Run the checks from `web/`:
    ```bash
    npm install
-   npm run validate   # same terms in every language, valid categories and related ids
+   npm run validate   # same terms in every language, valid taxonomy, no duplicate names or aliases
    npm run build
    ```
-4. Open a pull request.
+5. Open a pull request into `dev` (see "Branches and pull requests" below).
 
 ### File format
 
@@ -27,8 +33,11 @@ content/ar/<category>/<id>.md
 ---
 id: rate-limiting            # = file name
 category: web-apis           # = folder name
+subcategory: api-design      # = folder name inside the category (required when the category has subcategories)
 level: intermediate          # beginner | intermediate
 related: [status-code]       # ids that exist
+tags: [python]               # optional: technologies from content/tags.json (the same in every language)
+aliases: ["throttling"]      # optional: other names for the same concept (can differ per language)
 term: "Rate Limiting"        # the English term, in every language file
 translation: "تحديد معدل الطلبات"   # optional, Arabic file only
 pronunciation: "RAYT LIM-it-ing"    # respelling in the file's own language
@@ -63,21 +72,3 @@ localized per language).
 ## Code changes
 
 Keep changes small and run `npm run lint` and `npm run build` before opening a PR.
-
-## Branches and pull requests
-
-`main` is always releasable and is never committed to directly. Work flows like this:
-
-```text
-feat/<topic>  ──squash──▶  dev  ──merge commit──▶  main
-```
-
-1. Branch from `dev`: `git switch dev && git pull && git switch -c feat/rate-limiting-terms`.
-   Use a short prefix: `feat/` (new terms or features), `fix/` (corrections), `chore/` (tooling, docs).
-2. Commit as often as you like on your branch, then open a pull request **into `dev`**. CI must pass.
-   Pull requests into `dev` are **squash-merged**, so each one becomes a single tidy commit.
-3. When `dev` holds a finished batch, open a pull request from `dev` into `main` and merge it with a
-   **merge commit** so every release is a visible point in the history.
-4. Delete the feature branch after merging.
-
-Commit messages: a short imperative summary (`Add 12 Python terms`), with details in the body if needed.
