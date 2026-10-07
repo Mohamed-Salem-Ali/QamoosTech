@@ -4,6 +4,7 @@ category: architecture
 subcategory: reliability
 level: beginner
 related: [load-balancer, single-point-of-failure, health-check]
+aliases: ["availability", "uptime"]
 term: "High Availability (HA)"
 pronunciation: "هاي أفيلابيليتي"
 translation: "التوافر العالي"

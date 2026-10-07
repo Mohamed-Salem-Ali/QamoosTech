@@ -4,6 +4,7 @@ category: architecture
 subcategory: reliability
 level: beginner
 related: [load-balancer, single-point-of-failure, health-check]
+aliases: ["availability", "uptime"]
 term: "High Availability (HA)"
 pronunciation: "HY a-vuh-luh-BIL-i-tee"
 keywords: ["ensure system stays online","prevent service downtime","eliminate single point failure","keep servers running constantly","always on system design","server redundancy architecture","fault tolerant system setup","how to avoid outages","ha configuration","continuous uptime design","ضمان استمرار عمل النظام","تقليل وقت توقف الخدمة","منع توقف النظام كليا","تصميم انظمة لا تتوقف","كيفية تجنب اعطال الخوادم","بنية تحتية بدون توقف","مفهوم التوفر العالي","تجاوز اعطال الخوادم تلقائيا","هاي افيلابيليتي","ضمان جاهزية الخدمة دائما"]
