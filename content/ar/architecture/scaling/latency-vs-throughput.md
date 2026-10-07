@@ -4,6 +4,7 @@ category: architecture
 subcategory: scaling
 level: intermediate
 related: [cache, scalability]
+aliases: ["latency", "throughput"]
 term: "Latency vs Throughput"
 translation: "زمن الاستجابة والإنتاجية"
 pronunciation: "ليتنسي مقابل ثرووبوت"

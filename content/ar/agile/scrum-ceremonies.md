@@ -3,6 +3,7 @@ id: scrum-ceremonies
 category: agile
 level: beginner
 related: [sprint, blocker]
+aliases: ["sprint goal", "sprint review", "sprint retrospective", "retrospective", "daily standup"]
 term: "Scrum Ceremonies"
 translation: "اجتماعات سكرم"
 pronunciation: "سكرم سيريمونيز"

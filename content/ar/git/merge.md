@@ -3,6 +3,7 @@ id: merge
 category: git
 level: beginner
 related: [branch, merge-conflict, rebase]
+aliases: ["merge commit"]
 term: "Merge"
 translation: "دمج"
 pronunciation: "ميرج"
