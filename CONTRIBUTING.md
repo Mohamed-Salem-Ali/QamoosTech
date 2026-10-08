@@ -39,7 +39,7 @@ related: [status-code]       # ids that exist
 tags: [python]               # optional: technologies from content/tags.json (the same in every language)
 aliases: ["throttling"]      # optional: other names for the same concept (can differ per language)
 term: "Rate Limiting"        # the English term, in every language file
-translation: "تحديد معدل الطلبات"   # optional, Arabic file only
+translation: "تحديد معدل الطلبات"   # required in every language except English (the reference)
 pronunciation: "RAYT LIM-it-ing"    # respelling in the file's own language
 ---
 
@@ -59,15 +59,22 @@ localized per language).
 - **Examples:** short, generic, in English. Never use real clients, employers,
   private numbers, or personal data.
 - **Pronunciation** is separate for each language; do not mix Arabic letters into the
-  English file.
+  English file. The one exception is the `keywords:` line: its search phrases are in both
+  languages in every file, so Arabic phrases are allowed there even in the English file.
 - One idea per entry, no marketing language.
 
 ## Add a language
 
-1. Add the language to `web/src/lib/i18n.ts` (`languages` and the `ui` strings).
-2. Add its names to `content/categories.json`.
-3. Create `content/<code>/` with a translation of every term. `npm run validate`
-   lists what is still missing.
+1. Add the language to `web/src/lib/i18n.ts`: an entry in `languages` and a complete `ui` block
+   (TypeScript fails until every string is there).
+2. Add its writing system to `web/src/lib/writing-systems.mjs` (`arabic` or `latin`). The validator
+   rejects letters from any other script in that language's files.
+3. Add its names to `content/categories.json` and `content/tags.json`.
+4. Create `content/<code>/` with a translation of every term, each with a `translation:` line.
+   `npm run validate` lists what is still missing.
+5. Run `npm run validate`, `npm test`, and `npm run build` from `web/`.
+
+The language switch and the root redirect read the `languages` list, so they need no changes. A language in a script the site does not load yet (not Latin or Arabic) also needs its font added in `web/src/components/Shell.tsx`.
 
 ## Code changes
 

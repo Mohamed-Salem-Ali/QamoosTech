@@ -15,13 +15,13 @@
 QamoosTech explains the English vocabulary of software work: code and architecture, daily team talk, emails with clients, and the words you meet in courses and documentation. Each term has a clear definition, where you hear it, real examples, a common mistake, and pronunciation.
 
 - **Arabic first** (simple Modern Standard Arabic), English second. More languages are welcome.
-- **657 terms** in 14 categories and 38 subcategories, from beginner to intermediate.
-- **Natural pronunciation audio**: 197 of 657 terms so far (about 40 more added each day), with the browser's built-in voice as a fallback for the rest.
+- **727 terms** in 14 categories and 38 subcategories, from beginner to intermediate.
+- **Natural pronunciation audio**: 237 of 727 terms so far (about 40 more added each day), with the browser's built-in voice as a fallback for the rest.
 - A fast static website with RTL support, light and dark themes, and instant search in both languages.
 
 ## Categories
 
-Programming fundamentals · Web and APIs · Frontend · Databases · Architecture and design · DevOps and cloud · Git and collaboration · Security · Testing and quality · AI and data · Agile and teamwork · Clients and freelancing · Emails and meetings · Idioms and slang.
+Programming Fundamentals · Web & APIs · Frontend · Databases · Architecture & Design · DevOps & Cloud · Git & Collaboration · Security · Testing & Quality · AI & Data · Agile & Teamwork · Clients & Freelancing · Emails & Meetings · Idioms & Slang.
 
 ## Repository layout
 
