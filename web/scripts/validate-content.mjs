@@ -6,6 +6,8 @@ import { walkTermFiles } from '../src/lib/content-fs.mjs'
 import { termNames, normName } from '../src/lib/term-names.mjs'
 import { parseTerm } from '../src/lib/parse-term.mjs'
 import { scanText } from './scan-scripts.mjs'
+import { writingSystems } from '../src/lib/writing-systems.mjs'
+import { oneWayLinks } from '../src/lib/links.mjs'
 
 const contentDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..', 'content')
 const readJson = (name) => JSON.parse(fs.readFileSync(path.join(contentDir, name), 'utf8'))
@@ -14,6 +16,8 @@ const categoryList = readJson('categories.json')
 const categories = new Map(categoryList.map((c) => [c.id, new Set((c.subcategories ?? []).map((s) => s.id))]))
 const tags = new Set(readJson('tags.json').map((t) => t.id))
 const languages = fs.readdirSync(contentDir).filter((n) => fs.statSync(path.join(contentDir, n)).isDirectory())
+// English is the reference: every other language translates it, and the reference has no "translation:" field
+const referenceLang = languages.includes('en') ? 'en' : languages[0]
 
 const errors = []
 
@@ -27,6 +31,7 @@ for (const c of categoryList) {
 
 const byLang = {}
 for (const lang of languages) {
+  if (!writingSystems[lang]) errors.push('content/' + lang + ': no writing system for this language (add it to src/lib/writing-systems.mjs)')
   byLang[lang] = new Map()
   for (const f of walkTermFiles(contentDir, lang)) {
     const where = `${lang}/${f.category}${f.subcategory ? '/' + f.subcategory : ''}/${f.file}`
@@ -34,7 +39,11 @@ for (const lang of languages) {
     const { term, errors: errs } = parseTerm(source)
     const stray = scanText(source, lang)
     if (stray.length) errs.push(`unexpected characters (${stray.slice(0, 3).map((h) => `${h.code} on line ${h.line}`).join(', ')}): wrong writing system for this language`)
-    if (lang !== 'ar' && source.match(/^translation:/m)) errs.push('"translation:" is only for the Arabic file')
+    if (lang === referenceLang && source.match(/^translation:/m)) errs.push('"translation:" belongs in the translated files, not in the reference language')
+    if (lang !== referenceLang && !source.match(/^translation:/m)) errs.push('missing "translation:" (the term in this language)')
+    // a misspelling is a useful search phrase on its own; a label such as "dedline spelling" is a note and is not
+    if (source.split('\n').some((l) => l.startsWith('keywords:') && /"[^"]*\b(spelling|misspelling|typo)\b[^"]*"/.test(l)))
+      errs.push('keywords contain a label ("... spelling", "... typo"): keep only the phrase itself')
     errs.forEach((e) => errors.push(`${where}: ${e}`))
 
     if (term.id + '.md' !== f.file) errors.push(`${where}: id "${term.id}" must match the filename`)
@@ -58,7 +67,6 @@ for (const lang of languages) {
 }
 
 // every language must contain the same terms with the same shared metadata
-const referenceLang = languages.includes('en') ? 'en' : languages[0]
 const reference = byLang[referenceLang]
 for (const lang of languages) {
   for (const [id, t] of byLang[lang]) {
@@ -72,6 +80,20 @@ for (const lang of languages) {
   }
   for (const id of reference.keys()) if (!byLang[lang].has(id)) errors.push(`${lang}/${id}: translation missing`)
 }
+
+// the home page hero shows six featured terms, one per slot 1 to 6: each slot filled once, in every language
+const heroSlots = new Map()
+for (const t of reference.values()) {
+  if (t.featured === undefined) continue
+  if (!(t.featured >= 1 && t.featured <= 6)) errors.push(`en/${t.id}: featured must be 1 to 6`)
+  else if (heroSlots.has(t.featured)) errors.push(`en/${t.id}: featured ${t.featured} is already used by "${heroSlots.get(t.featured)}"`)
+  else heroSlots.set(t.featured, t.id)
+}
+for (const lang of languages) for (const t of byLang[lang].values()) {
+  const ref = reference.get(t.id)
+  if (ref && ref.featured !== t.featured) errors.push(`${lang}/${t.id}: featured differs from the reference language`)
+}
+if (heroSlots.size && heroSlots.size !== 6) errors.push(`featured: the hero needs 6 slots, found ${heroSlots.size}`)
 
 // no redundancy: one concept = one entry. Names (id, title, acronym) and aliases must never collide.
 for (const lang of languages) {
@@ -91,6 +113,19 @@ for (const lang of languages) {
       else claim(a, t.id, 'alias')
     }
   }
+}
+
+// warnings do not fail the build: a term that no other term links to is hard to reach from the site
+const linked = new Set()
+for (const t of reference.values()) for (const r of t.related) linked.add(r)
+const orphans = [...reference.keys()].filter((id) => !linked.has(id))
+if (orphans.length) {
+  console.warn(`Warning: ${orphans.length} term(s) have no related link from another term: ${orphans.slice(0, 10).join(', ')}${orphans.length > 10 ? ', ...' : ''}`)
+}
+// one-way links are allowed, but the number is shown so a growing count is noticed (see tasks/tasks.md, A-6)
+const oneWay = oneWayLinks([...reference.values()])
+if (oneWay.length) {
+  console.warn(`Warning: ${oneWay.length} related link(s) are one-way (A lists B, B does not list A). Allowed; first five: ${oneWay.slice(0, 5).map(([a, b]) => `${a} -> ${b}`).join(', ')}, ...`)
 }
 
 if (errors.length) {

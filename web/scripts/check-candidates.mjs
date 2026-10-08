@@ -21,7 +21,7 @@ if (!input) {
 const raw = fs.readFileSync(input, 'utf8').trim()
 const candidates = raw.startsWith('[')
   ? JSON.parse(raw).map((x) => (typeof x === 'string' ? x : x.term))
-  : raw.split(/\r?\n/).map((l) => l.replace(/^[-*\d.\s[\]x]+/i, '').trim()).filter(Boolean)
+  : raw.split(/\r?\n/).map((l) => l.replace(/^\s*(?:[-*]\s+|\d+[.)]\s+)?(?:\[[ xX]?\]\s*)?/, '').trim()).filter(Boolean)
 
 const owner = new Map() // normalised name or alias -> { id, via }
 for (const f of walkTermFiles(contentDir, 'en')) {

@@ -5,11 +5,14 @@ import { CopyButton } from '@/components/CopyButton'
 import { ExploreTerm } from '@/components/Explore'
 import { Reveal } from '@/components/Reveal'
 import { RichText } from '@/components/RichText'
+import { SaveTerm } from '@/components/SaveTerm'
 import { Speak } from '@/components/Speak'
-import { pageAlternates } from '@/lib/alternates'
+import { pageAlternates, socialFor } from '@/lib/alternates'
+import type { Term } from '@/lib/content'
+import { SITE_URL } from '@/lib/site'
 import { getAudioSources, voiceHints } from '@/lib/audio'
 import { getCategories, getTags, getTerm, getTerms, getTermsByCategory } from '@/lib/content'
-import { languages, ui, type Lang } from '@/lib/i18n'
+import { dirOf, languages, ui, type Lang } from '@/lib/i18n'
 
 type Params = { lang: Lang; id: string }
 
@@ -20,10 +23,27 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: Params }): Metadata {
   const term = getTerm(params.lang, params.id)
   if (!term) return {}
+  const title = term.translation ? `${term.term} — ${term.translation}` : term.term
+  const description = term.definition.replace(/[`*]/g, '').slice(0, 160)
   return {
-    title: term.translation ? `${term.term} — ${term.translation}` : term.term,
-    description: term.definition.replace(/[`*]/g, '').slice(0, 160),
+    title,
+    description,
     alternates: pageAlternates(params.lang, (l) => `/${l}/t/${params.id}/`),
+    ...socialFor(params.lang, title, description),
+  }
+}
+
+// schema.org DefinedTerm: lets search engines show the term as a definition, in the page's own language
+function definedTermJson(lang: Lang, term: Term) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTerm',
+    name: term.term,
+    alternateName: [term.translation, ...term.aliases].filter((x): x is string => Boolean(x)),
+    description: term.definition.replace(/[`*]/g, ''),
+    inLanguage: lang,
+    url: `${SITE_URL}/${lang}/t/${term.id}/`,
+    inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'QamoosTech', url: SITE_URL },
   }
 }
 
@@ -46,6 +66,7 @@ export default function TermPage({ params }: { params: Params }) {
 
   return (
     <article className="container page term">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermJson(lang, term)).replace(/</g, '\\u003c') }} />
       <nav className="crumbs" aria-label="Breadcrumb">
         <Link href={`/${lang}/`}>{t.home}</Link>
         <span aria-hidden="true">/</span>
@@ -67,8 +88,9 @@ export default function TermPage({ params }: { params: Params }) {
         {term.translation && <p className="term__translation">{term.translation}</p>}
         <div className="term__pron">
           <span className="term__pron-label">{t.pronunciation}</span>
-          <span className="term__pron-text" dir={lang === 'ar' ? 'rtl' : 'ltr'}>{term.pronunciation}</span>
+          <span className="term__pron-text" dir={dirOf(lang)}>{term.pronunciation}</span>
           <Speak text={term.term} label={t.listen} browserLabel={t.browserVoice} sources={getAudioSources(term.id).map((a) => ({ ...a, label: voiceHints[a.voice] ? `${a.voice} · ${voiceHints[a.voice]}` : a.voice }))} />
+          <SaveTerm lang={lang} term={{ id: term.id, term: term.term, translation: term.translation }} labels={{ save: t.saved.save, saved: t.saved.saved }} />
         </div>
       </header>
 

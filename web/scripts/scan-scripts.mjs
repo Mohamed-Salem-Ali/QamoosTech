@@ -1,15 +1,17 @@
 // Finds characters from the wrong writing system inside content files (for example Hindi or Russian letters
-// inside Arabic text, a known AI-drafting failure). Arabic files may contain Arabic + Latin only; English files Latin only.
+// inside Arabic text, a known AI-drafting failure). Each file may use only the letters of its language's writing system
+// (src/lib/writing-systems.mjs), plus ASCII and punctuation.
 // Used by validate-content.mjs; can also be run directly: node scripts/scan-scripts.mjs
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { walkTermFiles } from '../src/lib/content-fs.mjs'
+import { scriptLetters, writingSystems } from '../src/lib/writing-systems.mjs'
 
-const ARABIC = /[؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]/
 const ALLOWED_PUNCT = /[ «»·×–—‘’“”…→≈°•‎‏٪-٭]/
 
 export function scanText(text, lang) {
+  const letters = scriptLetters[writingSystems[lang]]
   const found = []
   const lines = text.split('\n')
   for (let n = 0; n < lines.length; n++) {
@@ -18,7 +20,7 @@ export function scanText(text, lang) {
     for (const ch of lines[n]) {
       const code = ch.codePointAt(0)
       if (code < 128 || ALLOWED_PUNCT.test(ch)) continue
-      if (lang === 'ar' && ARABIC.test(ch)) continue
+      if (letters?.test(ch)) continue
       if (/\p{Emoji_Presentation}/u.test(ch)) continue
       found.push({ line: n + 1, ch, code: 'U+' + code.toString(16).toUpperCase().padStart(4, '0') })
     }

@@ -36,8 +36,16 @@ export function getTerms(lang: Lang): Term[] {
   return terms
 }
 
+const byId = new Map<Lang, Map<string, Term>>()
+
+/** One term by id, from a map built once per language (term pages look up related terms by id). */
 export function getTerm(lang: Lang, id: string) {
-  return getTerms(lang).find((t) => t.id === id)
+  let map = byId.get(lang)
+  if (!map) {
+    map = new Map(getTerms(lang).map((t) => [t.id, t]))
+    byId.set(lang, map)
+  }
+  return map.get(id)
 }
 
 export function getTermsByCategory(lang: Lang, category: string) {

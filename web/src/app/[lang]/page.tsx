@@ -6,32 +6,29 @@ import { RandomTerm } from '@/components/RandomTerm'
 import { Reveal } from '@/components/Reveal'
 import { SearchBox } from '@/components/SearchBox'
 import { Splash } from '@/components/Splash'
-import { pageAlternates } from '@/lib/alternates'
+import { pageAlternates, socialFor } from '@/lib/alternates'
 import { author } from '@/lib/author'
 import { getCategories, getTerm, getTerms } from '@/lib/content'
 import { languages, ui, type Lang } from '@/lib/i18n'
-import type { SearchItem } from '@/lib/search'
 
 export function generateStaticParams() {
   return languages.map((l) => ({ lang: l.code }))
 }
 
 export function generateMetadata({ params }: { params: { lang: Lang } }): Metadata {
-  return { alternates: pageAlternates(params.lang, (l) => `/${l}/`) }
+  return { alternates: pageAlternates(params.lang, (l) => `/${l}/`), ...socialFor(params.lang, 'QamoosTech', ui[params.lang].intro) }
 }
 
-// Terms shown as floating cards in the hero (each needs an Arabic translation in content/ar).
-const HERO_CARDS: { id: string; className: string; depth: number }[] = [
-  { id: 'idempotency', className: 'hc1', depth: 18 },
-  { id: 'pull-request', className: 'hc2', depth: 30 },
-  { id: 'scope-creep', className: 'hc3', depth: 22 },
-  { id: 'rate-limiting', className: 'hc4', depth: 26 },
-  { id: 'deadline', className: 'hc5', depth: 16 },
-  { id: 'rollback', className: 'hc6', depth: 34 },
+// The six floating cards in the hero. Slot n is filled by the term whose frontmatter says `featured: n`
+// (each needs an Arabic translation in content/ar). The class and depth only set the look of each slot.
+const HERO_SLOTS: { className: string; depth: number }[] = [
+  { className: 'hc1', depth: 18 },
+  { className: 'hc2', depth: 30 },
+  { className: 'hc3', depth: 22 },
+  { className: 'hc4', depth: 26 },
+  { className: 'hc5', depth: 16 },
+  { className: 'hc6', depth: 34 },
 ]
-
-// Each rotating headline phrase opens the section that helps with it (same order as ui.hero.words).
-const WORD_LINKS = ['c/git', 'c/communication', 'c/agile', 'c/programming', 'c/architecture']
 
 export default function Home({ params }: { params: { lang: Lang } }) {
   const lang = params.lang
@@ -39,24 +36,15 @@ export default function Home({ params }: { params: { lang: Lang } }) {
   const h = t.hero
   const terms = getTerms(lang)
   const categories = getCategories()
-  const catName = (id: string) => categories.find((c) => c.id === id)!.name[lang]
   const roundedCount = Math.floor(terms.length / 10) * 10
 
-  const items: SearchItem[] = terms.map((x) => ({
-    id: x.id,
-    term: x.term,
-    translation: x.translation,
-    category: x.category,
-    categoryName: catName(x.category),
-    summary: x.definition,
-    keywords: x.keywords,
-    aliases: x.aliases,
-  }))
-
-  const cards: FloatCard[] = HERO_CARDS.flatMap((c) => {
-    const en = getTerm('en', c.id)
-    const ar = getTerm('ar', c.id)
-    return en && ar?.translation ? [{ id: c.id, term: en.term, translation: ar.translation, depth: c.depth, className: c.className }] : []
+  // a slot with no featured term fails the build here, instead of silently leaving a gap in the hero
+  const featured = getTerms('en').filter((t) => t.featured !== undefined)
+  const cards: FloatCard[] = HERO_SLOTS.map((slot, i) => {
+    const en = featured.find((t) => t.featured === i + 1)
+    const ar = en && getTerm('ar', en.id)
+    if (!en || !ar?.translation) throw new Error(`hero slot ${i + 1} needs a featured English term with an Arabic translation`)
+    return { id: en.id, term: en.term, translation: ar.translation, depth: slot.depth, className: slot.className }
   })
 
   const ticker = terms.filter((_, i) => i % 3 === 0).slice(0, 14)
@@ -79,12 +67,12 @@ export default function Home({ params }: { params: { lang: Lang } }) {
             <span className="eyebrow__dot" aria-hidden="true" />
             {h.eyebrow(roundedCount)}
           </p>
-          <h1 className="hero__title" aria-label={`${h.prefix} ${h.words[0]}`}>
+          <h1 className="hero__title" aria-label={`${h.prefix} ${h.words[0].text}`}>
             <span>{h.prefix}</span>{' '}
             <span className="rotator">
               {h.words.map((w, i) => (
-                <Link key={w} href={`/${lang}/${WORD_LINKS[i]}/`} className="rotator__word" style={{ ['--i' as string]: i }}>
-                  {w}
+                <Link key={w.text} href={`/${lang}/c/${w.category}/`} className="rotator__word" style={{ ['--i' as string]: i }}>
+                  {w.text}
                 </Link>
               ))}
             </span>
@@ -92,7 +80,6 @@ export default function Home({ params }: { params: { lang: Lang } }) {
           <p className="hero__intro">{h.intro(roundedCount)}</p>
           <SearchBox
             lang={lang}
-            items={items}
             placeholder={t.searchPlaceholder}
             empty={t.noResults}
             label={t.searchLabel}

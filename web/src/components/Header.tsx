@@ -31,8 +31,8 @@ export function Header({ lang }: { lang: Lang }) {
     } catch {}
   }
 
-  const other = languages.find((l) => l.code !== lang)!
-  const otherHref = pathname.replace(/^\/[^/]+/, `/${other.code}`)
+  // one link to each other language, labelled in its own script
+  const others = languages.filter((l) => l.code !== lang)
 
   return (
     <header className={`header${scrolled ? ' header--scrolled' : ''}`}>
@@ -47,17 +47,25 @@ export function Header({ lang }: { lang: Lang }) {
           <Link className="btn btn--ghost header__link" href={`/${lang}/#categories`}>
             {t.categories}
           </Link>
-          <Link
-            className="btn btn--ghost"
-            href={otherHref}
-            hrefLang={other.code}
-            onClick={() => {
-              try {
-                localStorage.setItem('lang', other.code)
-              } catch {}
-            }}
-          >
-            {t.switchTo}
+          {others.map((other) => (
+            <Link
+              key={other.code}
+              className="btn btn--ghost"
+              href={pathname.replace(/^\/[^/]+/, `/${other.code}`)}
+              hrefLang={other.code}
+              onClick={() => {
+                try {
+                  localStorage.setItem('lang', other.code)
+                } catch {}
+              }}
+            >
+              {other.label}
+            </Link>
+          ))}
+          <Link className="icon-btn" href={`/${lang}/saved/`} aria-label={t.saved.title} title={t.saved.title}>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" aria-hidden="true">
+              <path d="M6 3h12v18l-6-4-6 4V3Z" />
+            </svg>
           </Link>
           <RandomTerm lang={lang} label={t.hero.random} variant="icon" />
           <button className="icon-btn" onClick={toggleTheme} aria-label="Toggle theme" type="button">

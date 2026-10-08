@@ -39,6 +39,8 @@ voice picker automatically when more than one voice exists.
 | Command | What it does |
 |---|---|
 | `npm run validate` | Checks the taxonomy, that every term exists in every language, `related` ids exist, and no name or alias is used twice |
+| `npm test` | Runs the search ranking and normalization tests against the real glossary (`tests/search.test.mjs`) |
+| `npm run search-index` | Writes `public/search/<lang>.json`, the search index the search box downloads (also runs before `dev` and `build`) |
 | `npm run dedupe -- file.txt` | Checks a list of candidate terms against everything already explained (ids, titles, acronyms, aliases) |
 | `npm run stats` | Prints the canonical numbers (terms, categories, subcategories, audio coverage) to copy into READMEs and other projects |
 | `npm run audio` | Generates missing pronunciation files (see above) |

@@ -1,6 +1,7 @@
 import { Inter, IBM_Plex_Sans_Arabic, JetBrains_Mono } from 'next/font/google'
 import '@/styles/globals.css'
 import { dirOf, type Lang } from '@/lib/i18n'
+import { writingSystems } from '@/lib/writing-systems.mjs'
 
 // Only the font of the page's own language is preloaded; the others load on demand (display: swap).
 // Fewer weights = fewer bytes before first paint: 400 for text, 600 for headings/bold.
@@ -14,8 +15,10 @@ const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['400'], variable: '--
 const themeScript = `try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}`
 
 export function Shell({ lang, children }: { lang: Lang; children: React.ReactNode }) {
-  const arabic = lang === 'ar' ? arabicPreload : arabicLazy
-  const latin = lang === 'ar' ? latinLazy : latinPreload
+  // the font of the page's own writing system is preloaded; the other loads on demand
+  const arabicPage = writingSystems[lang] === 'arabic'
+  const arabic = arabicPage ? arabicPreload : arabicLazy
+  const latin = arabicPage ? latinLazy : latinPreload
   return (
     <html lang={lang} dir={dirOf(lang)} className={`${latin.variable} ${arabic.variable} ${mono.variable}`} suppressHydrationWarning>
       <head>

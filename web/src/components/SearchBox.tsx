@@ -3,19 +3,38 @@
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { runSearch, type SearchItem } from '@/lib/search'
+import { createSearchIndex, runSearch, type SearchItem } from '@/lib/search.mjs'
 import type { Lang } from '@/lib/i18n'
 
-type Props = { lang: Lang; items: SearchItem[]; placeholder: string; empty: string; label: string; hintPrefix?: string; hintExamples?: string[] }
+type Props = { lang: Lang; placeholder: string; empty: string; label: string; hintPrefix?: string; hintExamples?: string[] }
 
-export function SearchBox({ lang, items, placeholder, empty, label, hintPrefix, hintExamples }: Props) {
+export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExamples }: Props) {
   const router = useRouter()
   const [q, setQ] = useState('')
   const [active, setActive] = useState(0)
   const [hint, setHint] = useState(0)
   const [focused, setFocused] = useState(false)
+  // The index is downloaded the first time the box is used, so the home page HTML stays small (public/search, from scripts/build-search-index.mjs).
+  const [items, setItems] = useState<SearchItem[] | null>(null)
+  const requested = useRef(false)
   const inputRef = useRef<HTMLInputElement>(null)
-  const results = useMemo(() => runSearch(items, q), [items, q])
+  const index = useMemo(() => (items ? createSearchIndex(items) : null), [items])
+  const results = useMemo(() => (index ? runSearch(index, q) : []), [index, q])
+
+  function loadIndex() {
+    if (requested.current) return
+    requested.current = true
+    fetch(`/search/${lang}.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error(`search index: ${r.status}`)
+        return r.json() as Promise<SearchItem[]>
+      })
+      .then(setItems)
+      .catch(() => {
+        // allow another try on the next focus or keystroke
+        requested.current = false
+      })
+  }
 
   // cycles example searches in the placeholder while the box is empty and not focused
   useEffect(() => {
@@ -63,25 +82,29 @@ export function SearchBox({ lang, items, placeholder, empty, label, hintPrefix, 
           onChange={(e) => {
             setQ(e.target.value)
             setActive(0)
+            loadIndex()
           }}
           onKeyDown={onKeyDown}
           placeholder={hintExamples?.length ? `${hintPrefix} "${hintExamples[hint]}"` : placeholder}
-          onFocus={() => setFocused(true)}
+          onFocus={() => {
+            setFocused(true)
+            loadIndex()
+          }}
           onBlur={() => setFocused(false)}
           aria-label={label}
-          role="combobox"
-          aria-expanded={results.length > 0}
-          aria-controls="search-results"
+          aria-describedby="search-status"
           autoComplete="off"
           spellCheck={false}
         />
         <kbd aria-hidden="true">/</kbd>
       </label>
-      {q.trim() !== '' && (
-        <ul className="search__results" id="search-results" role="listbox">
+      {/* announces "no results" to screen readers; the results themselves are a plain list of links below */}
+      <p id="search-status" className="sr-only" aria-live="polite">{q.trim() !== '' && index && results.length === 0 ? empty : ''}</p>
+      {q.trim() !== '' && index && (
+        <ul className="search__results" id="search-results">
           {results.length === 0 && <li className="search__empty">{empty}</li>}
           {results.map((r, i) => (
-            <li key={r.id} role="option" aria-selected={i === active}>
+            <li key={r.id} aria-current={i === active ? 'true' : undefined}>
               <Link href={`/${lang}/t/${r.id}/`} className={`search__item${i === active ? ' is-active' : ''}`} onMouseEnter={() => setActive(i)}>
                 <span className="search__term" dir="ltr">{r.term}</span>
                 {r.translation && <span className="search__tr">{r.translation}</span>}

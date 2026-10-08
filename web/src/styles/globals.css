@@ -469,6 +469,18 @@ html[dir='rtl'] .splash__bar span {
   from { opacity: 0; transform: translateY(-6px) scale(0.98); }
   to { opacity: 1; transform: none; }
 }
+/* text for screen readers only (live announcements) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .search__item {
   display: flex;
   align-items: center;
@@ -1435,6 +1447,32 @@ html[dir='rtl'] .rotator__word::after { transform-origin: right; }
 }
 
 /* subcategories on a category page, and tags / subcategory pills on a term page */
+/* tag filter on category pages: the chips are buttons, so reset their font and mark the chosen tag */
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-block-end: 12px;
+}
+.tag-filter__chip {
+  min-block-size: 40px;
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--ink);
+  cursor: pointer;
+}
+.tag-filter__chip[aria-pressed='true'] {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--brand-ink);
+}
+.tag-filter__status {
+  min-block-size: 1.4em;
+  margin-block-end: 16px;
+  color: var(--ink-mute);
+  font-size: 0.9rem;
+}
+
 .subnav {
   display: flex;
   flex-wrap: wrap;
@@ -1487,4 +1525,141 @@ html[dir='rtl'] .rotator__word::after { transform-origin: right; }
 .pill--tag {
   background: color-mix(in srgb, var(--ink) 7%, transparent);
   color: var(--ink-soft);
+}
+
+/* save to review (term page) and the saved-terms list */
+.save-btn {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.save-btn:hover {
+  border-color: var(--brand);
+}
+.save-btn[aria-pressed="true"] {
+  background: var(--brand-soft);
+  border-color: var(--brand);
+  color: var(--brand);
+}
+.saved {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.saved__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--bg-elev);
+}
+.saved__link {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+}
+.saved__tr {
+  color: var(--ink-mute);
+  font-weight: 400;
+}
+.saved__remove {
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  color: var(--ink-mute);
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+.saved__remove:hover {
+  color: var(--ink);
+}
+
+/* practice with flashcards on the saved page */
+.saved__practise {
+  margin-block-end: 16px;
+}
+.flashcards {
+  margin-block-end: 24px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--bg-elev);
+  box-shadow: var(--shadow);
+}
+.flashcards__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-block-end: 16px;
+  color: var(--ink-mute);
+  font-size: 0.9rem;
+}
+.flashcards__close {
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  color: var(--ink-mute);
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+.flashcards__close:hover {
+  color: var(--ink);
+}
+.flashcard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.flashcard__term {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.flashcard__tr {
+  color: var(--ink-soft);
+}
+.flashcard__answer {
+  width: 100%;
+  margin-block-start: 8px;
+  padding-block-start: 14px;
+  border-block-start: 1px solid var(--line);
+}
+.flashcard__answer p {
+  margin: 0 0 16px;
+  line-height: 1.7;
+}
+.flashcard__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.flashcards__done {
+  text-align: center;
+  padding-block: 12px;
+}
+.flashcards__done p {
+  margin: 0 0 16px;
+}
+.saved__empty {
+  color: var(--ink-mute);
 }

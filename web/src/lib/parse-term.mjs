@@ -13,7 +13,7 @@ import matter from 'gray-matter'
  *   tags: string[], aliases: string[],
  *   term: string, translation?: string, pronunciation: string,
  *   definition: string, context: string, examples: Example[], mistake: string,
- *   confuse?: string, say?: Example[], keywords?: string[],
+ *   confuse?: string, say?: Example[], keywords?: string[], featured?: number,
  * }} Term
  */
 
@@ -61,6 +61,7 @@ export function parseTerm(source) {
 
   const examples = parseBullets(examplesRaw)
 
+  if (data.featured !== undefined && !Number.isInteger(Number(data.featured))) errors.push(`invalid featured "${data.featured}" (a whole number 1 to 6)`)
   for (const key of ['id', 'category', 'level', 'term', 'pronunciation']) {
     if (!data[key]) errors.push(`missing frontmatter "${key}"`)
   }
@@ -92,6 +93,8 @@ export function parseTerm(source) {
       confuse,
       say,
       keywords: Array.isArray(data.keywords) ? data.keywords.map(String) : undefined,
+      // 1 to 6: the hero card this term fills (see app/[lang]/page.tsx)
+      featured: data.featured === undefined ? undefined : Number(data.featured),
     },
   }
 }
