@@ -2,7 +2,7 @@
 id: memoization
 category: frontend
 level: intermediate
-related: [state, component]
+related: [state, component, referential-transparency]
 term: "Memoization"
 pronunciation: "mem-oh-uy-ZAY-shun"
 keywords: ["cache function return values","speed up react components","avoid recalculating expensive functions","optimize component re-rendering","save function output in cache","prevent heavy calculations on render","memozation","memotization","cache function results by input","fix slow react rendering","حفظ نتائج الدوال المؤقت","منع إعادة حساب الدوال الثقيلة","تحسين أداء مكونات واجهات المستخدم","تخزين نتائج العمليات الحسابية مؤقتا","تسريع تطبيق رياكت البطيء","تجنب إعادة تصيير المكونات بلا داع","ميموإيزيشن","تخزين نتائج الدوال حسب المدخلات","تحسين أداء الدوال البرمجية"]

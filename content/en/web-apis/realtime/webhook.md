@@ -3,7 +3,7 @@ id: webhook
 category: web-apis
 subcategory: realtime
 level: intermediate
-related: [payload, idempotency]
+related: [payload, idempotency, real-time]
 term: "Webhook"
 pronunciation: "WEB-hook"
 keywords: ["notify my server of events","automatic callback url","push data to my endpoint","receive updates from external services","event driven http requests","alternative to api polling","listen for remote events","web hook","webhook url setup","handle incoming server notifications","رابط لاستقبال الإشعارات التلقائية","إرسال تنبيهات عند وقوع حدث","تلقي بيانات من خدمة خارجية","بديل لعملية استطلاع البيانات","ويب هوك","استقبال طلبات من خادم آخر","رابط معالجة الأحداث الخارجية","إخطار الخادم بحدوث تغيير","تفعيل التنبيهات عبر الرابط","تلقي إشعارات الدفع التلقائية"]

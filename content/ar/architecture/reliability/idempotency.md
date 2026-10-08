@@ -3,6 +3,7 @@ id: idempotency
 category: architecture
 subcategory: reliability
 level: intermediate
+featured: 1
 related: [webhook, message-queue, transaction]
 term: "Idempotency"
 translation: "الإيدمبوتنسي"

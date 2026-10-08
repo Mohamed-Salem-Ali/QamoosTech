@@ -26,6 +26,8 @@ keywords: ["مجموعة قيم فريدة", "إزالة التكرار من ق�
   - حوّل القائمة إلى set لإزالة عناوين البريد المكررة.
 - The intersection of the two sets gives the users who are in both groups.
   - تقاطع المجموعتين يعطي المستخدمين الموجودين في المجموعتين.
+- A set of user IDs makes it fast to check whether a user has already voted.
+  - تجعل المجموعة (set) من معرّفات المستخدمين التحقق من تصويت المستخدم سريعاً.
 
 ## خطأ شائع
 

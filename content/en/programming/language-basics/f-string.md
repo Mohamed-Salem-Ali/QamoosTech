@@ -8,7 +8,7 @@ tags: [python]
 aliases: ["formatted string", "string interpolation"]
 term: "f-string"
 pronunciation: "EF-string"
-keywords: ["format text with variables", "f\"hello {name}\"", "string interpolation python", "put variable inside string", "format numbers in string", "print with variables", "تنسيق النص بالمتغيرات", "f\"hello {name}\"", "استبدال المتغيرات داخل النص", "وضع متغير داخل نص", "تنسيق الأرقام داخل النص", "الطباعة مع المتغيرات"]
+keywords: ["format text with variables", "f\"hello {name}\"", "string interpolation python", "put variable inside string", "format numbers in string", "print with variables", "تنسيق النص بالمتغيرات", "استبدال المتغيرات داخل النص", "وضع متغير داخل نص", "تنسيق الأرقام داخل النص", "الطباعة مع المتغيرات"]
 ---
 
 ## Definition
@@ -23,6 +23,7 @@ In Python tutorials and code reviews that replace older string formatting.
 
 - `f"Hello, {name}!"` puts the name into the greeting.
 - `f"{price:,.2f}"` formats a number with commas and two decimals.
+- Build the log line with an f-string that includes the number of rows.
 
 ## Common mistake
 

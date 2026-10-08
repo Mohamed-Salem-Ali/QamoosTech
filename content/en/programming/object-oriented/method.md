@@ -21,6 +21,7 @@ In object-oriented programming, when defining what an object can do, or when cal
 
 - The `user` object has a `save` method to persist its data to the database.
 - We added a helper method to calculate the total price of the cart items.
+- The cart object has a total method that returns the sum of its items.
 
 ## Common mistake
 

@@ -25,6 +25,8 @@ keywords: ["وُجد في الذاكرة المؤقتة", "لم يوجد في ا
   - نسبة الإصابة 95% فلا تكاد قاعدة البيانات تلاحظ الزيارات.
 - A cold cache means every request is a miss.
   - الذاكرة المؤقتة الباردة تعني أن كل طلب إخفاق.
+- The first request is a miss and loads from the database; the next ones are hits.
+  - يُسجَّل الطلب الأول إخفاقاً (miss) ويُحمَّل من قاعدة البيانات، أما الطلبات التالية فإصابات (hits).
 
 ## خطأ شائع
 

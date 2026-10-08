@@ -22,6 +22,7 @@ In Python tutorials, error messages such as `IndentationError`, and style discus
 
 - The body of the loop must be indented by four spaces.
 - Mixing tabs and spaces causes an indentation error.
+- The function body needs four spaces of indentation under the def line.
 
 ## Common mistake
 

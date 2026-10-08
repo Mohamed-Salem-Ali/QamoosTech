@@ -20,6 +20,7 @@ During team meetings, video conferences, or public Slack channels.
 
 - This sounds like a specific edge case; let's take it offline.
 - I think we are getting into too much detail here, let's take it offline.
+- This edge case is detailed, so let's take it offline and talk after the standup.
 
 ## Common mistake
 

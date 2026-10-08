@@ -2,7 +2,7 @@
 id: prompt-engineering
 category: ai-data
 level: beginner
-related: [llm, token]
+related: [llm, token, chain-of-thought, few-shot-prompting, zero-shot-prompting]
 term: "Prompt Engineering"
 pronunciation: "PROMPT en-jin-EER-ing"
 keywords: ["how to write ai prompts","optimizing inputs for llm","getting better answers from chatgpt","writing system prompts effectively","improving ai model responses","prompt tuning and design","crafting instructions for ai","how to talk to llms","prompt enjineering","ai instructions optimization","كيف أكتب تعليمات للذكاء الاصطناعي","تحسين مدخلات نماذج اللغات الكبيرة","الحصول على نتائج أفضل من الذكاء الاصطناعي","هندسة الأوامر","كتابة الأوامر للذكاء الاصطناعي","تحسين صياغة التعليمات","برومبت إنجنيرينج","طريقة كتابة البرومبت","توجيه نماذج الذكاء الاصطناعي"]
@@ -19,6 +19,7 @@ Building AI features and using AI tools daily.
 
 - Better prompt engineering reduced wrong answers.
 - Give the model two examples of the output format you want.
+- Adding the expected JSON shape to the prompt cut the parsing errors in half.
 
 ## Common mistake
 

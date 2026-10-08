@@ -3,7 +3,7 @@ id: type-narrowing
 category: programming
 subcategory: types-and-typing
 level: intermediate
-related: [interface]
+related: [interface, type-assertion]
 term: "Type Narrowing"
 translation: "تضييق النوع"
 pronunciation: "تايب ناروينج"

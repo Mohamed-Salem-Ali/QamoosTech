@@ -3,7 +3,7 @@ id: test-double
 category: testing
 subcategory: mocking-and-test-doubles
 level: intermediate
-related: [mocking, system-under-test, monkeypatching]
+related: [mocking, system-under-test, monkeypatching, dummy-object]
 tags: [python]
 aliases: ["fake", "stub", "mock object", "spy"]
 term: "Test Double"

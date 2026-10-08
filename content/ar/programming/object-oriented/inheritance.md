@@ -3,7 +3,7 @@ id: inheritance
 category: programming
 subcategory: object-oriented
 level: intermediate
-related: [class, interface]
+related: [class, interface, oop, prototype-chain]
 term: "Inheritance"
 translation: "الوراثة"
 pronunciation: "إنهيرتانس"

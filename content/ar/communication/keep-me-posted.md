@@ -23,6 +23,8 @@ keywords: ["أبقِني على اطلاع","أخبرني بآخر المستج�
   - أبقِني على اطلاع بسير عملية النشر (deployment) الليلة.
 - Keep me posted if you find any new bugs during testing.
   - أبقِني على اطلاع إذا وجدت أي أخطاء برمجية جديدة أثناء الاختبار.
+- Keep me posted on the contract, and tell me as soon as the client replies.
+  - أبقِني على اطلاع بشأن العقد، وأخبرني فور رد العميل.
 
 ## خطأ شائع
 

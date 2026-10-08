@@ -22,6 +22,7 @@ In Cloudflare, AWS CloudFront and Vercel settings, performance audits and cache-
 
 - Put the images behind a CDN so Cairo users get them from a nearby edge.
 - Purge the CDN cache after deploying.
+- Product images load faster in Cairo once they are served from the CDN.
 
 ## Common mistake
 

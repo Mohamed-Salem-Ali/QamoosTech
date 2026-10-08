@@ -4,6 +4,7 @@ category: frontend
 level: beginner
 related: [cache, cookie]
 term: "Local Storage"
+translation: "التخزين المحلي"
 pronunciation: "لوكال ستوريج"
 keywords: ["تخزين البيانات في المتصفح","الحفظ المحلي في المتصفح","تخزين تفضيلات المستخدم محلياً","حفظ البيانات بدون تاريخ إنهاء","التخزين المؤقت في المتصفح","لوكال ستوريج","تخزين المفتاح والقيمة محلياً","حفظ حالة التطبيق بالمتصفح","تخزين البيانات على جهاز المستخدم","save data in browser","persistent client side storage","browser key value store","store user preferences locally","browser storage without expiration","lokal storage","web storage api","save state in browser","client storage like cookies","keep data after browser close"]
 ---
@@ -22,6 +23,8 @@ keywords: ["تخزين البيانات في المتصفح","الحفظ الم�
   - استخدم Local Storage لحفظ إعدادات السمة (Theme) المفضلة لدى المستخدم.
 - We save the shopping cart items in Local Storage so they remain after a page refresh.
   - نقوم بحفظ عناصر سلة التسوق في Local Storage لتبقى موجودة بعد تحديث الصفحة.
+- The app keeps the draft in local storage, so a refresh does not lose the text.
+  - يحفظ التطبيق المسودة في التخزين المحلي (local storage)، فلا يضيع النص عند التحديث.
 
 ## خطأ شائع
 

@@ -20,6 +20,7 @@ In client meetings, proposal discussions, and when reviewing new feature request
 
 - Adding user authentication is out of scope for this initial landing page project.
 - The client asked for a mobile app, but that request is out of scope.
+- Dark mode is out of scope for this release, so it goes into the backlog.
 
 ## Common mistake
 

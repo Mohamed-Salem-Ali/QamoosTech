@@ -20,6 +20,7 @@ Used during frontend development when discussing client-side data persistence, u
 
 - Use Local Storage to save the user's preferred theme setting.
 - We save the shopping cart items in Local Storage so they remain after a page refresh.
+- The app keeps the draft in local storage, so a refresh does not lose the text.
 
 ## Common mistake
 

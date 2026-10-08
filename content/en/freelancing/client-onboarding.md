@@ -20,6 +20,7 @@ In project management meetings, freelance business planning, and client communic
 
 - We need to complete the client onboarding before we can start the development phase.
 - I have a standard checklist to streamline my client onboarding process.
+- Send the client the onboarding form and the access checklist before we start.
 
 ## Common mistake
 

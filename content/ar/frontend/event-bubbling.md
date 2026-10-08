@@ -2,8 +2,9 @@
 id: event-bubbling
 category: frontend
 level: intermediate
-related: [event-driven]
+related: [event-driven, event-delegation]
 term: "Event Bubbling"
+translation: "انتشار الأحداث"
 pronunciation: "إيفينت بابلينج"
 keywords: ["انتقال الحدث للأعلى في dom","توقف الحدث عند العناصر الأب","تفعيل الحدث في العناصر المتداخلة","آلية تصاعد الأحداث في جافا سكريبت","منع وصول الحدث للعنصر الأب","شرح تفويض الأحداث في البرمجة","كيفية إيقاف تصاعد الأحداث","انتقال الحدث من الابن للأب","الفرق بين bubbling و capturing","تداخل مستمعي الأحداث في المتصفح","event propagation up dom tree","stop child click triggering parent","how to handle nested events","event delegation pattern explanation","events moving to parent elements","js event bubbling behavior","preventing event propagation in js","event bubbling vs capturing","click event propagates to container","event listener hierarchy in dom"]
 ---

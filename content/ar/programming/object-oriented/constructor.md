@@ -3,7 +3,7 @@ id: constructor
 category: programming
 subcategory: object-oriented
 level: beginner
-related: [class, object]
+related: [class, object, class-method-vs-static-method]
 term: "Constructor"
 pronunciation: "كونستركتور"
 translation: "المُنشئ"
@@ -24,6 +24,8 @@ keywords: ["دالة تهيئة الكائن","إنشاء كائن جديد من
   - تمتلك فئة `User` مُنشئاً يستقبل بريداً إلكترونياً وكلمة مرور.
 - Make sure to call the parent constructor using `super()` inside your subclass.
   - تأكد من استدعاء مُنشئ الفئة الأب باستخدام `super()` داخل فئتك الفرعية.
+- The constructor sets the balance to zero when a new account is created.
+  - يضبط المُنشئ (constructor) الرصيد على صفر عند إنشاء حساب جديد.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: cors
 category: web-apis
 subcategory: http-and-requests
 level: intermediate
-related: [http-header, client-vs-server]
+related: [http-header, client-vs-server, cors-preflight]
 term: "CORS"
 translation: "مشاركة الموارد بين النطاقات"
 pronunciation: "كورس"

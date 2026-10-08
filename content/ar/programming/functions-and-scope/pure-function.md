@@ -3,7 +3,7 @@ id: pure-function
 category: programming
 subcategory: functions-and-scope
 level: intermediate
-related: [side-effect, function, immutable]
+related: [side-effect, function, immutable, method-chaining]
 aliases: ["pure functions"]
 term: "Pure Function"
 translation: "الدالة النقية"

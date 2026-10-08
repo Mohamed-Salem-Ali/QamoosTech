@@ -4,6 +4,7 @@ category: agile
 level: beginner
 related: [sprint, estimate, backlog]
 term: "Capacity"
+translation: "القدرة الإنتاجية للفريق"
 pronunciation: "كاباسيتي"
 keywords: ["حجم العمل المتاح للفريق","حساب قدرة الفريق للسبيرنت","ما يمكن إنجازه في السبرنت","قياس طاقة الفريق الإنتاجية","تحديد الموارد المتاحة للعمل","الفرق بين السرعة والقدرة","تقدير ساعات عمل الفريق","كاباسيتي الفريق التقني","تخطيط مهام السبرنت","مدى توفر أعضاء الفريق","team workload limit","calculate sprint availability","how much work can we do","team bandwidth for tasks","sprint planning resource check","available developer hours","total team output potential","velocity vs capacity difference","estimating team output","workforce planning agile"]
 ---
@@ -22,6 +23,8 @@ keywords: ["حجم العمل المتاح للفريق","حساب قدرة ال
   - نحتاج للتحقق من الـ capacity الخاصة بنا قبل الالتزام بـ user stories الجديدة هذه.
 - Our team's capacity is reduced this sprint due to upcoming holidays.
   - الـ capacity الخاصة بفريقنا منخفضة في هذا الـ sprint بسبب العطلات القادمة.
+- We have capacity for two medium tasks, but not for the whole redesign.
+  - لدينا طاقة تكفي لمهمتين متوسطتين، لكنها لا تكفي لإعادة التصميم كاملة.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: constraint
 category: databases
 subcategory: modeling
 level: beginner
-related: [database, schema, query]
+related: [database, schema, query, invariant]
 term: "Constraint"
 pronunciation: "كونستراينت"
 translation: "قيد"
@@ -24,6 +24,8 @@ keywords: ["قواعد لتقييد إدخال البيانات","فرض شرو�
   - عمود البريد الإلكتروني يحتوي على قيد `UNIQUE` لمنع تكرار الحسابات.
 - The age column includes a `CHECK` constraint to ensure values are greater than zero.
   - عمود العمر يتضمن قيد `CHECK` لضمان أن القيم أكبر من الصفر.
+- The database refuses a second account with the same email because of the unique constraint.
+  - ترفض قاعدة البيانات حساباً ثانياً بالبريد نفسه بسبب القيد (constraint) الفريد.
 
 ## خطأ شائع
 

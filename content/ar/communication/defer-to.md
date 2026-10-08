@@ -4,6 +4,7 @@ category: communication
 level: intermediate
 related: [cross-functional-team, stakeholder]
 term: "Defer to"
+translation: "تفويض القرار إلى"
 pronunciation: "دي-فير تو"
 keywords: ["ترك القرار لشخص آخر","اعتماد رأي الخبير","التنازل عن القرار لزميل","الوثوق في تقييم الآخرين","منح الصلاحية لغيري","اترك لك حرية الاختيار","الاعتماد على خبرة الزميل","الموافقة على رأي المختص","دي فير تو معنى","كيف أقول أترك القرار لك","الرجوع إلى صاحب الاختصاص","let someone else decide","trusting another person judgment","yielding to expert opinion","leave it to the expert","accepting another decision","deferring to a teammate","letting others take lead","respecting domain knowledge","follow someone else lead","agreeing with their choice","defer to meaning","how to say i trust your decision"]
 ---

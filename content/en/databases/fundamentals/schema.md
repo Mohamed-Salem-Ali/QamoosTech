@@ -3,10 +3,10 @@ id: schema
 category: databases
 subcategory: fundamentals
 level: beginner
-related: [table-row-column, migration]
+related: [table-row-column, migration, cascading-delete]
 term: "Schema"
 pronunciation: "SKEE-muh"
-keywords: ["database structure definition","how to organize tables","define data types and relations","database design blueprint","api request validation format","skima spelling","database map layout","data model structure","table column configuration","database schema definition","data structure blueprint","بنية قاعدة البيانات","تصميم هيكل الجداول","تحديد أنواع البيانات والعلاقات","مخطط قاعدة البيانات","طريقة تنظيم البيانات","تعريف هيكلية الجداول","سكيما قاعدة البيانات","شكل البيانات في الجدول","مواصفات هيكل البيانات","كيفية تصميم جداول البيانات"]
+keywords: ["database structure definition","how to organize tables","define data types and relations","database design blueprint","api request validation format","skima","database map layout","data model structure","table column configuration","database schema definition","data structure blueprint","بنية قاعدة البيانات","تصميم هيكل الجداول","تحديد أنواع البيانات والعلاقات","مخطط قاعدة البيانات","طريقة تنظيم البيانات","تعريف هيكلية الجداول","سكيما قاعدة البيانات","شكل البيانات في الجدول","مواصفات هيكل البيانات","كيفية تصميم جداول البيانات"]
 ---
 ## Definition
 
@@ -20,6 +20,7 @@ Database design, Prisma, and API validation.
 
 - Update the schema, then create a migration.
 - The request does not match the schema, so it is rejected.
+- The schema says price is a decimal with two places after the point.
 
 ## Common mistake
 

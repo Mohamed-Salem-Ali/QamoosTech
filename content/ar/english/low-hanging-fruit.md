@@ -22,6 +22,8 @@ keywords: ["المكاسب السهلة","المهام السهلة أولا","�
   - لننجز المكاسب السهلة قبل إعادة التصميم الكبيرة.
 - Compressing images is low-hanging fruit for page speed.
   - ضغط الصور مكسب سهل لتحسين سرعة الصفحة.
+- Adding missing alt text to the images is low-hanging fruit that improves accessibility.
+  - إضافة النص البديل (alt text) للصور الناقصة من الثمار القريبة من اليد، وهي تحسّن إمكانية الوصول.
 
 ## خطأ شائع
 

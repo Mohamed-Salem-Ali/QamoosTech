@@ -2,7 +2,7 @@
 id: handoff
 category: agile
 level: intermediate
-related: [deliverable, blocker]
+related: [deliverable, blocker, end-to-end]
 term: "Handoff"
 pronunciation: "HAND-of"
 keywords: ["passing work to another team","transferring tasks between developers","design to development transition","project phase transition","sharing project context","handover documentation","how to transfer tasks","moving work between colleagues","task transition process","software project delivery steps","تسليم العمل لفريق آخر","نقل المهام بين المطورين","انتقال التصميم إلى البرمجة","مستندات تسليم المشروع","عملية تسليم المهام","تنسيق تسليم العمل","تسليم المسؤوليات التقنية","نقل العمل بين الزملاء","خطوات تسليم المشروع","هاند أوف"]

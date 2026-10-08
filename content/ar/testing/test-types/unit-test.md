@@ -3,7 +3,7 @@ id: unit-test
 category: testing
 subcategory: test-types
 level: beginner
-related: [integration-test, mocking, test-coverage]
+related: [integration-test, mocking, test-coverage, parametrized-test, automated-testing]
 term: "Unit Test"
 translation: "اختبار وحدة"
 pronunciation: "يونِت تست"
@@ -23,6 +23,8 @@ keywords: ["اختبار دالة واحدة فقط","فحص الكود بشكل
   - من فضلك أضف unit test لدالة الخصم.
 - All 120 unit tests passed in 3 seconds.
   - نجحت كل اختبارات الوحدة البالغة 120 اختبارًا خلال 3 ثوانٍ.
+- The unit test checks that the discount is zero for orders under 100.
+  - يتحقق الاختبار الوحدوي من أن الخصم صفر للطلبات التي تقل عن 100.
 
 ## خطأ شائع
 

@@ -22,6 +22,7 @@ During code reviews, debugging missing data, or checking API response payloads i
 
 - Declaring a variable without a value automatically sets its state to `undefined`.
 - Developers explicitly assign `null` to clear a variable or indicate a missing resource.
+- The API returns null when the user has no middle name, to show the field was left empty on purpose.
 
 ## Common mistake
 

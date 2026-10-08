@@ -2,7 +2,7 @@
 id: fixed-price-vs-hourly
 category: freelancing
 level: beginner
-related: [scope-creep, retainer, estimate]
+related: [scope-creep, retainer, estimate, budget]
 term: "Fixed-price vs Hourly"
 translation: "سعر ثابت أم بالساعة"
 pronunciation: "فيكسد برايس مقابل أورلي"
@@ -22,6 +22,8 @@ keywords: ["طرق محاسبة المستقلين","الفرق بين السع�
   - عندما تكون المتطلبات غير واضحة أوصي بعقد بالساعة.
 - The fixed-price quote covers exactly these five features.
   - يغطي عرض السعر الثابت هذه الميزات الخمس بالضبط.
+- The fixed-price quote suits the landing page, but the app needs hourly billing.
+  - يناسب عرض السعر الثابت صفحة الهبوط، لكن التطبيق يحتاج إلى فوترة بالساعة.
 
 ## خطأ شائع
 

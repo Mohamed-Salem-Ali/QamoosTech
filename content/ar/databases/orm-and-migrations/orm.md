@@ -3,7 +3,7 @@ id: orm
 category: databases
 subcategory: orm-and-migrations
 level: intermediate
-related: [query, prisma, n-plus-one]
+related: [query, prisma, n-plus-one, model]
 term: "ORM"
 translation: "الربط الكائني العلائقي"
 pronunciation: "أو آر إم"

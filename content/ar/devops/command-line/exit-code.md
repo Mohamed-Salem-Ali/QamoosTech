@@ -26,6 +26,8 @@ keywords: ["رقم يعود إلى الطرفية", "الصفر يعني الن�
   - فشلت الاختبارات فيخرج الأمر برمز 1 ويتوقف CI.
 - Call `sys.exit(2)` when the arguments are invalid.
   - استدعِ `sys.exit(2)` عندما تكون المعاملات غير صالحة.
+- The deploy script exits with code 0 only when every health check passes.
+  - ينتهي سكربت النشر بالرمز 0 فقط حين تنجح كل فحوص الصحة.
 
 ## خطأ شائع
 

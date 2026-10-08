@@ -2,7 +2,7 @@
 id: merge
 category: git
 level: beginner
-related: [branch, merge-conflict, rebase]
+related: [branch, merge-conflict, rebase, fast-forward, squash-and-merge]
 aliases: ["merge commit"]
 term: "Merge"
 translation: "دمج"
@@ -23,6 +23,8 @@ keywords: ["دمج الفروع في جيت","جمع التغييرات من ف�
   - تمت الموافقة على الـ pull request ودمجه.
 - Merge `main` into your branch to get the latest changes.
   - ادمج `main` في فرعك لتحصل على آخر التغييرات.
+- After the merge, the feature is on the main branch but not yet deployed.
+  - بعد الدمج صارت الميزة على الفرع الرئيسي main، لكنها لم تُنشر بعد.
 
 ## خطأ شائع
 

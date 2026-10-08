@@ -22,6 +22,7 @@ During code reviews, when discussing modern JavaScript or Python syntax, or when
 
 - You can use destructuring to extract specific fields from a user object into local variables.
 - Destructuring an array allows you to assign its elements to individual variables in one line.
+- const { name, email } = user pulls two fields out of the user object at once.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: function
 category: programming
 subcategory: functions-and-scope
 level: beginner
-related: [parameter-vs-argument, callback]
+related: [parameter-vs-argument, callback, docstring]
 term: "Function"
 translation: "دالة"
 pronunciation: "فانكشن"
@@ -23,6 +23,8 @@ keywords: ["كتلة برمجية قابلة لإعادة الاستخدام","�
   - انقل منطق التحقق إلى دالة مستقلة.
 - This function returns `null` when the user is not found.
   - هذه الدالة تعيد `null` عندما لا يوجد المستخدم.
+- The function takes a price and a tax rate, and returns the total.
+  - تأخذ الدالة السعر ونسبة الضريبة، وتعيد المجموع.
 
 ## خطأ شائع
 

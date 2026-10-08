@@ -3,12 +3,12 @@ id: import
 category: programming
 subcategory: modules-and-libraries
 level: beginner
-related: [module, package, standard-library]
+related: [module, package, standard-library, circular-import, wildcard-import]
 tags: [python, javascript]
 aliases: ["import statement", "relative import", "absolute import"]
 term: "Import"
 pronunciation: "IM-port"
-keywords: ["use code from another file", "import statement", "from x import y", "circular import error", "importerror", "bring in a library", "استخدام كود من ملف آخر", "جملة import", "‏from x import y", "خطأ الاستيراد الدائري", "ImportError", "جلب مكتبة"]
+keywords: ["use code from another file", "import statement", "from x import y", "circular import error", "importerror", "bring in a library", "استخدام كود من ملف آخر", "جملة import", "‏from x import y", "خطأ الاستيراد الدائري", "جلب مكتبة"]
 ---
 
 ## Definition
@@ -23,6 +23,7 @@ At the top of nearly every Python or JavaScript file, and in errors such as `Imp
 
 - Import only the names you need from the module.
 - A circular import happens when two modules import each other.
+- The report script imports the date helpers from the utils module.
 
 ## Common mistake
 

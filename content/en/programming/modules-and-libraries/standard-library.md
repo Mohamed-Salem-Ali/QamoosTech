@@ -23,6 +23,7 @@ In tutorials, when someone asks whether to add a dependency, and in code reviews
 
 - The standard library already handles JSON, so no extra package is needed.
 - Check the standard library before adding a dependency.
+- The standard library has datetime, so we did not need another package for dates.
 
 ## Common mistake
 

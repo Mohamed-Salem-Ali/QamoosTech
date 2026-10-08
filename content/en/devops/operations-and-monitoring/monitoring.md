@@ -3,7 +3,7 @@ id: monitoring
 category: devops
 subcategory: operations-and-monitoring
 level: intermediate
-related: [logging, health-check, sla]
+related: [logging, health-check, sla, load-testing]
 term: "Monitoring"
 pronunciation: "MON-ih-ter-ing"
 keywords: ["watch system health and metrics","track cpu usage and errors","system performance dashboard","production alerts and metrics","check server health status","set up server alerts","montoring","monitering","track latency spikes","system health checks","مراقبة صحة النظام","تتبع أداء السيرفر","لوحة تحكم الأخطاء","تنبيهات استهلاك المعالج","مراقبة السيرفرات في الإنتاج","فحص حالة النظام","مونيتورينج","مراقبة الأخطاء والسرعة","اكتشاف المشكلات مبكرا"]

@@ -3,7 +3,7 @@ id: latency-vs-throughput
 category: architecture
 subcategory: scaling
 level: intermediate
-related: [cache, scalability]
+related: [cache, scalability, connection-pool]
 aliases: ["latency", "throughput"]
 term: "Latency vs Throughput"
 pronunciation: "LAY-ten-see versus THROO-put"

@@ -3,12 +3,12 @@ id: type-hint
 category: programming
 subcategory: types-and-typing
 level: intermediate
-related: [dynamic-typing, static-typing, data-type]
+related: [dynamic-typing, static-typing, data-type, enum]
 tags: [python, typescript]
 aliases: ["type annotation", "type hints", "type annotations"]
 term: "Type Hint"
 pronunciation: "TYPE hint"
-keywords: ["annotate function parameters", "tell the editor the type", "python type annotations", "def f(x: int) -> str", "mypy checks", "typescript types", "تحديد أنواع معاملات الدالة", "إخبار المحرر بالنوع", "تعليقات النوع في بايثون", "def f(x: int) -> str", "فحص mypy", "أنواع TypeScript"]
+keywords: ["annotate function parameters", "tell the editor the type", "python type annotations", "def f(x: int) -> str", "mypy checks", "typescript types", "تحديد أنواع معاملات الدالة", "إخبار المحرر بالنوع", "تعليقات النوع في بايثون", "فحص mypy", "أنواع TypeScript"]
 ---
 
 ## Definition

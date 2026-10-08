@@ -2,7 +2,7 @@
 id: commit
 category: git
 level: beginner
-related: [repository, branch]
+related: [repository, branch, cherry-pick, interactive-rebase]
 term: "Commit"
 pronunciation: "kuh-MIT"
 keywords: ["save changes in git","take snapshot of code","git save point","record file changes locally","how to commit code","git commit command","save progress to repository","create git checkpoint","submit changes to git","git commit vs push","save local work history","حفظ التغييرات في git","أخذ لقطة للكود","حفظ تقدم العمل برمجيا","كيفية عمل كوميت","إنشاء نقطة حفظ برمجية","حفظ التعديلات محليا","تسجيل تغييرات الملفات","ما هو الكوميت في git","أمر حفظ التعديلات","تثبيت التغييرات في المستودع"]
@@ -19,6 +19,7 @@ Daily Git work and code reviews.
 
 - Commit your changes with a clear message.
 - This commit fixes the login bug.
+- Each commit should do one thing, so the history stays easy to read.
 
 ## Common mistake
 

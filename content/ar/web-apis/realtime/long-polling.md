@@ -3,7 +3,7 @@ id: long-polling
 category: web-apis
 subcategory: realtime
 level: intermediate
-related: [request-response, websockets]
+related: [request-response, websockets, streaming, real-time]
 term: "Long Polling"
 pronunciation: "لونج بولينج"
 translation: "الاستعلام الطويل"

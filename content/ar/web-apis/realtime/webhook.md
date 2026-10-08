@@ -3,7 +3,7 @@ id: webhook
 category: web-apis
 subcategory: realtime
 level: intermediate
-related: [payload, idempotency]
+related: [payload, idempotency, real-time]
 term: "Webhook"
 translation: "ويب هوك"
 pronunciation: "ويب هوك"

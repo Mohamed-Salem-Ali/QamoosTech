@@ -4,6 +4,7 @@ category: agile
 level: intermediate
 related: [sprint, user-story]
 term: "Definition of Done (DoD)"
+translation: "تعريف الإنجاز"
 pronunciation: "ديفينيشن أوف دون"
 keywords: ["قائمة مهام العمل المكتمل","معايير اكتمال المهمة في الارجايل","متى تعتبر قصة المستخدم منتهية","شروط انهاء التذكرة في السبرنت","الفرق بين معايير القبول والاتمام","قائمة التحقق الخاصة بجودة الكود","تعريف الانتهاء في العمل البرمجي","معايير جودة الفريق البرمجي","agile completion checklist","when is a story done","team quality standards checklist","dod in agile","task completion criteria","difference between dod and acceptance criteria","agile checklist for finished work","definition of done checklist","software development completion rules"]
 ---

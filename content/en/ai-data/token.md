@@ -2,7 +2,7 @@
 id: token
 category: ai-data
 level: beginner
-related: [llm, prompt-engineering]
+related: [llm, prompt-engineering, context-window, temperature, tokenization]
 term: "Token"
 pronunciation: "TOH-ken"
 keywords: ["what is an ai token","how llms count text","text piece for llm","gpt text unit","token limit in chatgpt","ai model pricing units","context window size in tokens","word pieces for language models","auth token vs ai token","llm input length unit","ما هو التوكن في الذكاء الاصطناعي","كيف تقيس نماذج اللغات النص","حجم نافذة السياق بالتوكن","وحدة قياس تكلفة الذكاء الاصطناعي","عدد الكلمات والتوكنز في ال ال ام","تحديد عدد الرموز للذكاء الاصطناعي","ما الفرق بين توكن الأمان وتوكن الذكاء","تقطيع النص إلى توكنز"]
@@ -19,6 +19,7 @@ AI pricing and context limits. Note: "token" also means a login token in securit
 
 - The prompt is 2,000 tokens, so it fits in the context window.
 - We limit the output to 500 tokens to control cost.
+- The article is 3,000 words, which is about 4,000 tokens for most models.
 
 ## Common mistake
 

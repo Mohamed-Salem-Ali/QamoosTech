@@ -4,6 +4,7 @@ category: communication
 level: beginner
 related: [align-on-scope, touch-base, loop-in]
 term: "Get on the same page"
+translation: "الاتفاق على تصور مشترك"
 pronunciation: "جيت أون ذا سيم بيج"
 keywords: ["توحيد فهم الفريق","الوصول لفهم مشترك","التوافق على أهداف المشروع","ضمان اتفاق أعضاء الفريق","تنسيق الرؤية بين المبرمجين","تجنب سوء الفهم التقني","تطابق وجهات نظر الفريق","التأكد من فهم المتطلبات","الوصول إلى أرضية مشتركة","تنسيق العمل الجماعي","الترجمة الحرفية جيت أون ذا سيم بيج","ensure team alignment","reach shared understanding","be on the same wavelength","sync on project goals","clarify team expectations","avoid project misunderstandings","get everyone in sync","unified project vision","confirm common interpretation","make sure we agree","align team members","get on the same page idiom"]
 ---
@@ -22,6 +23,8 @@ keywords: ["توحيد فهم الفريق","الوصول لفهم مشترك","
   - لنعقد مكالمة سريعة لنتفق على فهم موحد لمتطلبات المشروع.
 - We need to get on the same page before we start implementing this feature.
   - نحتاج أن نكون على نفس الصفحة (متفقين في الفهم) قبل أن نبدأ في تنفيذ هذه الميزة.
+- Let's get on the same page about the deadline before we tell the client.
+  - لنتفق على الموعد النهائي قبل أن نخبر العميل.
 
 ## خطأ شائع
 

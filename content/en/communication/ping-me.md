@@ -20,6 +20,7 @@ In team chat apps like Slack or Microsoft Teams when coordinating tasks.
 
 - Ping me when the deployment finishes.
 - Can you ping me the link to the documentation?
+- Ping me on Slack when the report is ready.
 
 ## Common mistake
 

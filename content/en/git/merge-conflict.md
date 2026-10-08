@@ -19,6 +19,7 @@ Any team project.
 
 - I have a merge conflict in `package.json`.
 - Resolve the conflict, then commit the result.
+- The merge conflict was in the checkout template, so I kept both changes.
 
 ## Common mistake
 

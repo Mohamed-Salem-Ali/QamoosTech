@@ -23,6 +23,7 @@ Using software tools and scripts to run tests on code automatically, rather than
 
 - We added automated testing to check our payment flow on every commit.
 - Automated testing helps us catch regressions before code reaches production.
+- The pipeline runs the automated tests before it deploys to staging.
 
 ## Common mistake
 

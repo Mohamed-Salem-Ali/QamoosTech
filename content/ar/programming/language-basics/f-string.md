@@ -9,7 +9,7 @@ aliases: ["formatted string", "string interpolation"]
 term: "f-string"
 translation: "النص المنسّق"
 pronunciation: "إف سترينج"
-keywords: ["تنسيق النص بالمتغيرات", "f\"hello {name}\"", "استبدال المتغيرات داخل النص", "وضع متغير داخل نص", "تنسيق الأرقام داخل النص", "الطباعة مع المتغيرات", "format text with variables", "f\"hello {name}\"", "string interpolation python", "put variable inside string", "format numbers in string", "print with variables"]
+keywords: ["تنسيق النص بالمتغيرات", "f\"hello {name}\"", "استبدال المتغيرات داخل النص", "وضع متغير داخل نص", "تنسيق الأرقام داخل النص", "الطباعة مع المتغيرات", "format text with variables", "string interpolation python", "put variable inside string", "format numbers in string", "print with variables"]
 ---
 
 ## التعريف
@@ -26,6 +26,8 @@ keywords: ["تنسيق النص بالمتغيرات", "f\"hello {name}\"", "ا�
   - `f"Hello, {name}!"` تضع الاسم في التحية.
 - `f"{price:,.2f}"` formats a number with commas and two decimals.
   - `f"{price:,.2f}"` تنسّق الرقم بفواصل ورقمين عشريين.
+- Build the log line with an f-string that includes the number of rows.
+  - ابنِ سطر السجل بـ f-string يتضمّن عدد الصفوف.
 
 ## خطأ شائع
 

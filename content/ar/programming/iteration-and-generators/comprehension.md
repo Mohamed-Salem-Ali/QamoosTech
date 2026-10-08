@@ -3,7 +3,7 @@ id: comprehension
 category: programming
 subcategory: iteration-and-generators
 level: beginner
-related: [loop, generator, array]
+related: [loop, generator, array, map-and-filter]
 tags: [python]
 aliases: ["list comprehension", "dictionary comprehension"]
 term: "Comprehension"
@@ -26,6 +26,8 @@ keywords: ["بناء قائمة في سطر واحد", "‏[x for x in items]", 
   - `[n * n for n in numbers if n > 0]` تبني مربعات الأعداد الموجبة.
 - A dictionary comprehension turns the list of pairs into a lookup table.
   - استيعاب القاموس يحوّل قائمة الأزواج إلى جدول بحث.
+- This comprehension keeps only the active users and collects their emails.
+  - تحتفظ صيغة التوليد المختصر (comprehension) هذه بالمستخدمين النشطين فقط، وتجمع بريدهم الإلكتروني.
 
 ## خطأ شائع
 

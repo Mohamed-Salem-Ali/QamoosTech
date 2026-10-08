@@ -3,7 +3,7 @@ id: regular-expression
 category: programming
 subcategory: text-and-data-formats
 level: intermediate
-related: [query, unicode, payload]
+related: [query, unicode, payload, parsing, escape-sequence]
 aliases: ["regex", "regexp", "regular expressions"]
 term: "Regular Expression"
 translation: "التعبير النمطي"

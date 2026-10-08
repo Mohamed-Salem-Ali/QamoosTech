@@ -2,7 +2,7 @@
 id: milestone
 category: freelancing
 level: beginner
-related: [deliverable, invoice, deadline]
+related: [deliverable, invoice, deadline, give-the-green-light, kickoff-meeting]
 term: "Milestone"
 translation: "مرحلة رئيسية"
 pronunciation: "مايلستون"
@@ -22,6 +22,8 @@ keywords: ["مرحلة رئيسية في المشروع","نقطة إنجاز ف
   - المرحلة الأولى هي تسجيل دخول يعمل، مع دفعة 30%.
 - We reached the second milestone on time.
   - وصلنا إلى المرحلة الثانية في موعدها.
+- The second milestone is the payment page, and the client pays after it is approved.
+  - المرحلة الثانية هي صفحة الدفع، ويدفع العميل بعد اعتمادها.
 
 ## خطأ شائع
 

@@ -2,7 +2,7 @@
 id: commit
 category: git
 level: beginner
-related: [repository, branch]
+related: [repository, branch, cherry-pick, interactive-rebase]
 term: "Commit"
 translation: "حفظ تغييرات (كوميت)"
 pronunciation: "كوميت"
@@ -22,6 +22,8 @@ keywords: ["حفظ التغييرات في git","أخذ لقطة للكود","ح
   - احفظ تغييراتك (commit) برسالة واضحة.
 - This commit fixes the login bug.
   - هذا الـ commit يصلح خطأ تسجيل الدخول.
+- Each commit should do one thing, so the history stays easy to read.
+  - ينبغي أن يقوم كل إيداع (commit) بعمل واحد، حتى يبقى السجل سهل القراءة.
 
 ## خطأ شائع
 

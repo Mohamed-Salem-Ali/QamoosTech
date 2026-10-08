@@ -3,7 +3,7 @@ id: pytest
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [test-runner, test-fixture, assertion]
+related: [test-runner, test-fixture, assertion, test-marker]
 tags: [python]
 term: "pytest"
 translation: "إطار اختبار pytest"
@@ -25,6 +25,8 @@ keywords: ["إطار اختبار بايثون", "تشغيل الاختبارا�
   - شغّل `pytest -k payment` لتشغيل اختبارات الدفع فقط.
 - pytest rewrites assert so failures show both values.
   - تعيد pytest كتابة assert فتعرض الفشلات القيمتين معاً.
+- pytest reports which test failed and shows the values that did not match.
+  - يُبلغ pytest عن الاختبار الذي فشل، ويعرض القيم التي لم تتطابق.
 
 ## خطأ شائع
 

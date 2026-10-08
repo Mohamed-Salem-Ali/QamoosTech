@@ -2,7 +2,7 @@
 id: deliverable
 category: freelancing
 level: beginner
-related: [milestone, scope-creep, handoff]
+related: [milestone, scope-creep, handoff, po-purchase-order, sign-off, subcontractor]
 term: "Deliverable"
 translation: "مُخرَج (ما يُسلَّم)"
 pronunciation: "ديليفرابل"
@@ -22,6 +22,8 @@ keywords: ["ما يتم تسليمه للعميل","مخرجات المشروع 
   - المخرج الرئيسي للمرحلة الأولى هو لوحة إدارة تعمل.
 - Please list the deliverables in the proposal.
   - من فضلك اذكر المخرجات في العرض.
+- The deliverable for this phase is a signed-off design for the checkout page.
+  - المخرج المطلوب في هذه المرحلة هو تصميم صفحة الدفع بعد اعتماده.
 
 ## خطأ شائع
 

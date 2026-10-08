@@ -3,7 +3,7 @@ id: eventual-consistency
 category: architecture
 subcategory: data-and-state
 level: intermediate
-related: [strong-consistency, primary-replica, acid]
+related: [strong-consistency, primary-replica, acid, logical-clock]
 aliases: ["eventually consistent"]
 term: "Eventual Consistency"
 translation: "الاتساق النهائي"

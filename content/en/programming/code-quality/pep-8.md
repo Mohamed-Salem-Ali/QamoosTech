@@ -23,6 +23,7 @@ In Python code reviews, linter and formatter settings, and onboarding documents 
 
 - Please follow PEP 8: four spaces and `snake_case` names.
 - The linter reports a PEP 8 violation on that line.
+- PEP 8 asks for two blank lines before a top-level class.
 
 ## Common mistake
 

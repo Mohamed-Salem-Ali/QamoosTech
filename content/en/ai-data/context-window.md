@@ -22,6 +22,7 @@ The maximum amount of text, measured in tokens, that a large language model can 
 
 - We need to shorten our system prompt to fit within the model's context window.
 - Uploading this large PDF failed because it exceeds the context window of our current LLM.
+- A long chat history fills the context window, so the oldest messages drop out.
 
 ## Common mistake
 

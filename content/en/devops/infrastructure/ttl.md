@@ -22,6 +22,7 @@ In DNS settings, CDN and Redis caching rules, and before migrating a site.
 
 - Lower the TTL to 300 a day before we switch servers.
 - The Redis key expires after its TTL.
+- The session cache uses a TTL of 30 minutes, so old sessions expire on their own.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ In frontend development discussions regarding state management, temporary user p
 
 - Use Session Storage to save the current step of a multi-page form so the user doesn't lose progress if they refresh the page.
 - We store the temporary filter settings in Session Storage so they reset automatically when the user closes the tab.
+- The wizard keeps its current step in session storage, so a refresh stays on the same page.
 
 ## Common mistake
 

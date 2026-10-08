@@ -5,7 +5,7 @@ level: beginner
 related: [llm, token]
 term: "Tokenization"
 pronunciation: "TOH-kuh-nih-ZAY-shun"
-keywords: ["breaking text into pieces","how llms read words","split string into tokens","text preprocessing for ai","convert sentences to units","subword segmentation method","tokanization spelling","prepare text for models","count tokens in text","splitting words into chunks","تقسيم النصوص إلى وحدات","تحويل الكلام إلى توكنز","تجزئة الكلمات للذكاء الاصطناعي","كيف تفهم النماذج النصوص","معالجة النصوص قبل النموذج","تقطيع الجمل إلى أجزاء","طريقة عمل التوكنايزيشن","تجهيز البيانات للنماذج اللغوية","تحويل النص إلى أرقام","وحدات بناء النصوص البرمجية"]
+keywords: ["breaking text into pieces","how llms read words","split string into tokens","text preprocessing for ai","convert sentences to units","subword segmentation method","tokanization","prepare text for models","count tokens in text","splitting words into chunks","تقسيم النصوص إلى وحدات","تحويل الكلام إلى توكنز","تجزئة الكلمات للذكاء الاصطناعي","كيف تفهم النماذج النصوص","معالجة النصوص قبل النموذج","تقطيع الجمل إلى أجزاء","طريقة عمل التوكنايزيشن","تجهيز البيانات للنماذج اللغوية","تحويل النص إلى أرقام","وحدات بناء النصوص البرمجية"]
 ---
 
 ## Definition
@@ -20,6 +20,7 @@ In discussions about LLM input limits, data preprocessing pipelines, and model t
 
 - The model failed because the input text exceeded the maximum tokenization limit.
 - Our preprocessing script handles tokenization before sending the data to the API.
+- Tokenization splits the word unbelievable into several pieces before the model reads it.
 
 ## Common mistake
 

@@ -26,6 +26,8 @@ keywords: ["نمط معمارية Django", "النموذج والقالب وال
   - في MTV يحمل النموذج البيانات ويعرضها القالب وتقرر الـ view ما يُعرض.
 - Django's views are what other frameworks call controllers.
   - الـ views في Django هي ما تسميه أطر أخرى متحكمات.
+- In the Django view we fetch the invoices and pass them to the template to render.
+  - في عرض Django نجلب الفواتير ونمرّرها إلى القالب (template) لعرضها.
 
 ## خطأ شائع
 

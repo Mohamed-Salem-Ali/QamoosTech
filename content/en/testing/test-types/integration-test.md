@@ -3,7 +3,7 @@ id: integration-test
 category: testing
 subcategory: test-types
 level: intermediate
-related: [unit-test, ci-cd]
+related: [unit-test, ci-cd, sandbox, end-to-end-test]
 term: "Integration Test"
 pronunciation: "in-tuh-GRAY-shun TEST"
 keywords: ["test multiple components together","api test with database","test modules working together","system integration testing","interation test","backend testing with db","tests slower than unit tests","test api and database connection","component interaction testing","اختبار التكامل","فحص عدة أجزاء معاً","اختبار الـ api مع قاعدة البيانات","اختبار المكونات معاً","انتجريشن تست","اختبار الاتصال بقاعدة البيانات","فحص عمل الوحدات معاً","اختبار النظام المدمج"]

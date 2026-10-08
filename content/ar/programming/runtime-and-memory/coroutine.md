@@ -3,7 +3,7 @@ id: coroutine
 category: programming
 subcategory: runtime-and-memory
 level: intermediate
-related: [async-await, generator, thread]
+related: [async-await, generator, thread, goroutine]
 aliases: ["coroutines", "async function", "cooperative multitasking"]
 term: "Coroutine"
 translation: "الروتين المتعاون"

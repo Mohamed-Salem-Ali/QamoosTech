@@ -23,6 +23,7 @@ In every web framework's first tutorial, in API design (`/circles/12/payments`),
 
 - Add a route that sends `/circles/<id>/` to the detail view.
 - The first matching pattern wins, so order matters.
+- The request to /orders/15/ is routed to the order detail view.
 
 ## Common mistake
 

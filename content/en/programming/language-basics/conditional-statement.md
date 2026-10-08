@@ -22,6 +22,7 @@ In every programming course, and in code reviews about long chains of conditions
 
 - Add an `else` branch to handle the case where the user is not logged in.
 - The conditional checks the role before showing the button.
+- If the cart is empty, show a message instead of the checkout button.
 
 ## Common mistake
 

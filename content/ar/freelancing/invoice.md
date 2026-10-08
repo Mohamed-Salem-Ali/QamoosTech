@@ -2,7 +2,7 @@
 id: invoice
 category: freelancing
 level: beginner
-related: [milestone, retainer]
+related: [milestone, retainer, deposit, net-terms]
 term: "Invoice"
 translation: "فاتورة"
 pronunciation: "إنفويس"
@@ -22,6 +22,8 @@ keywords: ["طلب الدفع من العميل","مستند المطالبة ب
   - سأرسل الفاتورة بعد التسليم.
 - The invoice is due within 14 days.
   - تُستحق الفاتورة خلال 14 يومًا.
+- The invoice lists the three milestones and the amount due for each one.
+  - تسرد الفاتورة المراحل الثلاث والمبلغ المستحق عن كل منها.
 
 ## خطأ شائع
 

@@ -20,6 +20,7 @@ During backlog refinement, release planning, and product roadmap discussions.
 
 - We created a new epic to track the entire user authentication redesign.
 - This feature is too large for the current sprint, so we should convert it into an epic.
+- The checkout redesign is an epic with twelve user stories under it.
 
 ## Common mistake
 

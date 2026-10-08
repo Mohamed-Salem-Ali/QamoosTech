@@ -3,7 +3,7 @@ id: design-pattern
 category: architecture
 subcategory: patterns
 level: intermediate
-related: [separation-of-concerns, dependency-injection]
+related: [separation-of-concerns, dependency-injection, registry-pattern]
 term: "Design Pattern"
 translation: "نمط تصميم"
 pronunciation: "ديزاين باترن"

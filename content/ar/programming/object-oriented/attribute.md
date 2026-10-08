@@ -9,7 +9,7 @@ aliases: ["instance variable", "field", "member variable"]
 term: "Attribute"
 translation: "الخاصية"
 pronunciation: "أتريبيوت"
-keywords: ["بيانات مخزنة على كائن", "object.field", "متغير الكائن", "متغير عضو", "self.name في بايثون", "حقل الصنف", "data stored on an object", "object.field", "instance variable", "member variable", "self.name in python", "field of a class"]
+keywords: ["بيانات مخزنة على كائن", "object.field", "متغير الكائن", "متغير عضو", "self.name في بايثون", "حقل الصنف", "data stored on an object", "instance variable", "member variable", "self.name in python", "field of a class"]
 ---
 
 ## التعريف
@@ -26,6 +26,8 @@ keywords: ["بيانات مخزنة على كائن", "object.field", "متغي�
   - كائن العضو له خاصيتان: اسم وعدد حصص.
 - The error says the object has no attribute called `total`.
   - يقول الخطأ إن الكائن لا يملك خاصية اسمها `total`.
+- The user object has an email attribute that the login form reads.
+  - لكائن المستخدم سمة email يقرؤها نموذج تسجيل الدخول.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: monitoring
 category: devops
 subcategory: operations-and-monitoring
 level: intermediate
-related: [logging, health-check, sla]
+related: [logging, health-check, sla, load-testing]
 term: "Monitoring"
 translation: "المراقبة"
 pronunciation: "مونيتورينج"

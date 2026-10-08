@@ -22,10 +22,12 @@ keywords: ["مجلد من الوحدات", "الملف __init__.py", "تثبيت
 
 ## أمثلة
 
-- The `gameya` package contains the schedule and money modules.
-  - تحتوي حزمة `gameya` على وحدتي الجدول والمال.
+- The `billing` package contains the invoice and payment modules.
+  - تحتوي حزمة `billing` على وحدتي الفواتير والمدفوعات.
 - Install the package with pip before running the script.
   - ثبّت الحزمة بـ pip قبل تشغيل السكريبت.
+- The team published the utils package on PyPI, so other projects can install it.
+  - نشر الفريق حزمة utils على PyPI، فتستطيع المشاريع الأخرى تثبيتها.
 
 ## خطأ شائع
 

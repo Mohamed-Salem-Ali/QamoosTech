@@ -21,6 +21,7 @@ In backend integration discussions, developer settings dashboards, and security 
 
 - Include the API key in the request header to authenticate your weather service calls.
 - Never expose your secret API key in frontend client code.
+- Store the API key in an environment variable, not in the source code.
 
 ## Common mistake
 

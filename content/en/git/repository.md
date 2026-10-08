@@ -2,7 +2,7 @@
 id: repository
 category: git
 level: beginner
-related: [commit, branch]
+related: [commit, branch, git-fetch, git-submodule, origin]
 term: "Repository"
 pronunciation: "rih-POZ-ih-tor-ee"
 keywords: ["git project folder","where git saves history","how to clone a repo","git storage location","project version control folder","what is a repo","git repository definition","files tracked by git","remote git project","git source code folder","مجلد مشروع جيت","مكان حفظ تاريخ المشروع","كيفية استنساخ المستودع","ما هو الريبوزيتوري","مجلد تتبع الملفات","مستودع الكود المصدري","مكان تخزين ملفات المشروع","تعريف مستودع جيت","مجلد التحكم في الإصدارات","طريقة فتح المستودع"]
@@ -19,6 +19,7 @@ Every team: "clone the repo", "open the repo".
 
 - Clone the repository and run `npm install`.
 - The repo is private, so ask for access.
+- The repository has three folders: the app, the docs and the scripts.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In terminals (`ps`, `top`, `kill`), server administration, Docker discussions an
 
 - Find the process using port 8000 and kill it.
 - The web server runs as several worker processes.
+- Each worker process handles its own requests, so one crash does not stop the others.
 
 ## Common mistake
 

@@ -4,6 +4,7 @@ category: ai-data
 level: beginner
 related: [llm, dataset]
 term: "Inference"
+translation: "الاستدلال"
 pronunciation: "إنفيرنس"
 keywords: ["تشغيل نموذج الذكاء الاصطناعي","استخدام النموذج للحصول على نتائج","مرحلة التنبؤ في النماذج","الفرق بين التدريب والتشغيل","توليد مخرجات من النموذج","تنفيذ النموذج على بيانات جديدة","مصطلح إنفيرنس في الذكاء الاصطناعي","كيفية عمل النماذج المدربة","استخدام النموذج في بيئة الإنتاج","معالجة البيانات بواسطة النموذج","running a trained model","using ai for predictions","ai model production stage","making predictions with model","model output generation","how to serve ai models","inference vs training","deploying machine learning models","real time model execution","processing input with ai"]
 ---
@@ -22,6 +23,8 @@ keywords: ["تشغيل نموذج الذكاء الاصطناعي","استخدا
   - يقوم النموذج بعملية الـ inference في أجزاء من الثانية عندما يرسل المستخدم طلباً.
 - We need to optimize our infrastructure to handle high-volume inference requests.
   - نحتاج إلى تحسين بنيتنا التحتية للتعامل مع عدد كبير من طلبات الـ inference.
+- Inference runs on the server, so the phone app only sends the prompt and shows the answer.
+  - يعمل الاستدلال (inference) على الخادم، فيرسل تطبيق الهاتف الطلب فقط ويعرض الإجابة.
 
 ## خطأ شائع
 

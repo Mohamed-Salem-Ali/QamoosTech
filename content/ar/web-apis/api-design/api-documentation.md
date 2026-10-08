@@ -5,6 +5,7 @@ subcategory: api-design
 level: beginner
 related: [restful-api, endpoint, request-response]
 term: "API Documentation"
+translation: "توثيق واجهة البرمجة"
 pronunciation: "آي بي آي دوكيومنتيشن"
 keywords: ["دليل استخدام الواجهة البرمجية","كيفية الربط مع الـ api","شرح نقاط النهاية للـ api","توثيق واجهة برمجة التطبيقات","دليل المطربين للـ api","معلومات الطلبات والاستجابات للـ api","دليل الـ api التقني","كيفية استخدام الـ api","how to use this api","api guide and reference","endpoint parameters and responses","third party integration guide","api user manual","rest api documentation","api docs","how to integrate with api","api reference manual"]
 ---
@@ -23,6 +24,8 @@ keywords: ["دليل استخدام الواجهة البرمجية","كيفية
   - يرجى مراجعة الـ API documentation لمعرفة الحقول المطلوبة لهذا الطلب.
 - Our team needs to update the API documentation before we release the new version.
   - يحتاج فريقنا إلى تحديث الـ API documentation قبل إطلاق النسخة الجديدة.
+- The docs list three query parameters, and the sample response shows the JSON format.
+  - تسرد الوثائق ثلاثة معاملات للاستعلام، ويوضّح الرد النموذجي صيغة JSON.
 
 ## خطأ شائع
 

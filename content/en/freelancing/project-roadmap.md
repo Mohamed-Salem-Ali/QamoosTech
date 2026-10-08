@@ -20,6 +20,7 @@ During project planning, client pitch meetings, and scope discussions.
 
 - We shared the project roadmap with the client before signing the contract.
 - The project roadmap outlines the deliverables for each quarter.
+- The roadmap shows the payment feature in Q3 and the reports in Q4.
 
 ## Common mistake
 

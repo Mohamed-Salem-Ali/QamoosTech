@@ -23,6 +23,7 @@ When installing a library, publishing your own package, or checking a package's 
 
 - The package is on PyPI, so `pip install` finds it.
 - Check the PyPI page for the latest release.
+- The new version of the package appeared on PyPI an hour after the release.
 
 ## Common mistake
 

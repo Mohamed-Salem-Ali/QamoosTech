@@ -26,6 +26,8 @@ keywords: ["مشروع Django وتطبيقاته", "الموقع كله مقاب
   - أنشئ تطبيقاً جديداً للدفعات وأضفه إلى `INSTALLED_APPS`.
 - One project can hold many apps.
   - يمكن لمشروع واحد أن يضم تطبيقات كثيرة.
+- The shop project has three apps: catalog, cart and accounts.
+  - يضم مشروع المتجر ثلاثة تطبيقات (apps): الكتالوج والسلة والحسابات.
 
 ## خطأ شائع
 

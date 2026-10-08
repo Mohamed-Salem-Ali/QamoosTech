@@ -30,7 +30,7 @@ Using one-to-one when the data could simply be columns on the same table. Split 
 
 ## Don't confuse with
 
-A one-to-many relationship, where one row can match many rows, like one gameya with many members.
+A one-to-many relationship, where one row can match many rows, like one customer with many orders.
 
 ## Say it at work
 

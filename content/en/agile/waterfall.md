@@ -21,6 +21,7 @@ In agile vs traditional comparisons, contracts and fixed-scope projects, and int
 
 - The government contract was run as waterfall with signed-off phases.
 - In waterfall, a change late in testing is expensive.
+- The compliance project used waterfall, so the design was frozen before any coding started.
 
 ## Common mistake
 

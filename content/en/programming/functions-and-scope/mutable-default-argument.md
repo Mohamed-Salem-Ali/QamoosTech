@@ -8,7 +8,7 @@ tags: [python]
 aliases: ["mutable default", "default argument bug"]
 term: "Mutable Default Argument"
 pronunciation: "MYOO-tuh-bul dih-FAWLT AR-gyoo-ment"
-keywords: ["list as default parameter bug", "default list shared between calls", "python gotcha default argument", "def f(x, items=[])", "use none as default", "function remembers previous call data", "unexpected shared state", "classic python interview question", "خطأ استخدام قائمة كقيمة افتراضية", "القائمة الافتراضية مشتركة بين الاستدعاءات", "فخ بايثون مع القيم الافتراضية", "def f(x, items=[])", "استخدام None كقيمة افتراضية", "الدالة تتذكر بيانات الاستدعاء السابق", "حالة مشتركة غير متوقعة", "سؤال مقابلات بايثون كلاسيكي"]
+keywords: ["list as default parameter bug", "default list shared between calls", "python gotcha default argument", "def f(x, items=[])", "use none as default", "function remembers previous call data", "unexpected shared state", "classic python interview question", "خطأ استخدام قائمة كقيمة افتراضية", "القائمة الافتراضية مشتركة بين الاستدعاءات", "فخ بايثون مع القيم الافتراضية", "استخدام None كقيمة افتراضية", "الدالة تتذكر بيانات الاستدعاء السابق", "حالة مشتركة غير متوقعة", "سؤال مقابلات بايثون كلاسيكي"]
 ---
 
 ## Definition

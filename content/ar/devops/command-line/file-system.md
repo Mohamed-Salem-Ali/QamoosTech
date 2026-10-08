@@ -25,6 +25,8 @@ keywords: ["كيف تُخزَّن الملفات وتُوجد", "‏ext4 وNTFS 
   - يُمحى نظام ملفات الحاوية عند إزالتها.
 - Mount the volume at `/data`.
   - اربط الحجم عند `/data`.
+- The uploads are stored on the file system in a folder named by date.
+  - تُخزَّن الملفات المرفوعة في نظام الملفات داخل مجلد باسم التاريخ.
 
 ## خطأ شائع
 

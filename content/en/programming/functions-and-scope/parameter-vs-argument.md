@@ -3,7 +3,7 @@ id: parameter-vs-argument
 category: programming
 subcategory: functions-and-scope
 level: beginner
-related: [function]
+related: [function, args-and-kwargs, mutable-default-argument]
 aliases: ["keyword argument", "positional argument", "default argument", "default parameter"]
 term: "Parameter vs Argument"
 pronunciation: "puh-RAM-ih-ter versus AR-gyuh-ment"
@@ -21,6 +21,7 @@ Code reviews, documentation, and error messages such as "expected 2 arguments, g
 
 - The function takes two parameters: `name` and `age`.
 - You passed three arguments, but it expects two.
+- The parameter is total; the argument is the 250 that the caller passes in.
 
 ## Common mistake
 

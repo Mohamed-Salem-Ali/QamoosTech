@@ -4,6 +4,7 @@ category: devops
 subcategory: infrastructure
 level: beginner
 related: [containerization, pipeline, deployment]
+tags: [docker]
 aliases: ["docker registry", "docker hub", "image registry"]
 term: "Container Registry"
 pronunciation: "kun-TAY-ner REJ-is-tree"
@@ -22,6 +23,7 @@ In CI/CD pipelines, Kubernetes manifests (`image:` lines) and deployment scripts
 
 - The pipeline builds the image and pushes it to the registry.
 - Pin the deployment to a specific tag, not `latest`.
+- CI pushes the new image to the registry, and the server pulls that exact version.
 
 ## Common mistake
 

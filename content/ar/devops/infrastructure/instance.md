@@ -5,6 +5,7 @@ subcategory: infrastructure
 level: beginner
 related: [infrastructure-as-code, staging-vs-production]
 term: "Instance"
+translation: "النسخة المُشغّلة"
 pronunciation: "إن-ستانس"
 keywords: ["نسخة خادم افتراضي","تشغيل خادم جديد","سيرفر افتراضي سحابي","بيئة تنفيذ معزولة","نسخة تطبيق تعمل","تشغيل نسخة سحابية","خادم افتراضي قيد التشغيل","إنشاء سيرفر جديد","virtual server copy","running server copy","cloud virtual machine","spin up new server","application deployment environment","isolated execution environment","virtualized server slice","running copy of app","server instance"]
 ---
@@ -23,6 +24,8 @@ keywords: ["نسخة خادم افتراضي","تشغيل خادم جديد","س
   - نحتاج إلى تشغيل Instance جديدة للتعامل مع زيادة حركة المرور.
 - The application instance crashed due to an out-of-memory error.
   - توقفت الـ Instance الخاصة بالتطبيق عن العمل بسبب خطأ في الذاكرة.
+- Each customer gets its own instance of the app, so their data stays separate.
+  - يحصل كل عميل على نسخة مستقلة (instance) من التطبيق، فتبقى بياناته منفصلة.
 
 ## خطأ شائع
 

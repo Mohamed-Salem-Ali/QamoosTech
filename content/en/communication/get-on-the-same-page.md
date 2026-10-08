@@ -20,6 +20,7 @@ During team meetings, project syncs, or when resolving misunderstandings about a
 
 - Let's have a quick call to get on the same page about the project requirements.
 - We need to get on the same page before we start implementing this feature.
+- Let's get on the same page about the deadline before we tell the client.
 
 ## Common mistake
 

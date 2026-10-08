@@ -20,6 +20,7 @@ Job posts, frontend projects, and full-stack tutorials.
 
 - We built the marketing site with Next.js.
 - Next.js handles routing, so we do not need extra libraries.
+- The blog pages in Next.js are generated at build time, so they load quickly.
 
 ## Common mistake
 

@@ -2,7 +2,7 @@
 id: memoization
 category: frontend
 level: intermediate
-related: [state, component]
+related: [state, component, referential-transparency]
 term: "Memoization"
 pronunciation: "ميموإيزيشن"
 translation: "Memoization (تخزين النتائج)"

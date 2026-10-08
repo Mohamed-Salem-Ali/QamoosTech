@@ -20,6 +20,7 @@ Used during sprint planning, team meetings, or when discussing future product fe
 
 - This bug is on the radar, but we will fix it in the next sprint.
 - Adding dark mode is on the radar for the next quarter.
+- The slow search results are on the radar, and we will look at them after the release.
 
 ## Common mistake
 

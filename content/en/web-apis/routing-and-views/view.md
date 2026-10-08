@@ -23,6 +23,7 @@ In Django and Flask code, MVC and MVT discussions, and bug reports that name "th
 
 - The view loads the circle, then renders the page.
 - Keep business rules out of the view; call a service function.
+- The view checks the user's role before it returns the admin page.
 
 ## Common mistake
 

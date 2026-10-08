@@ -4,6 +4,7 @@ category: english
 level: intermediate
 related: [proposal, code-review]
 term: "Shoot down"
+translation: "رفض الفكرة"
 pronunciation: "شوت داون"
 keywords: ["رفض مقترح بشكل قاطع","استبعاد فكرة في الاجتماع","رفض الاقتراح التقني","رفض الفكرة أثناء النقاش","رفض التصميم المقترح","تم رفض فكرتي","استبعاد مقترح برمجي","شوت داون","رفض فكرة جديدة","reject a proposal abruptly","dismiss an idea in meeting","idea rejected by team","proposal gets shot down","shut down a suggestion","shoot down technical approach","idea was turned down","proposal not accepted","criticize a design idea"]
 ---

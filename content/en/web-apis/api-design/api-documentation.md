@@ -21,6 +21,7 @@ During API development, onboarding new developers, or when integrating a third-p
 
 - Please check the API documentation to see which fields are required for this request.
 - Our team needs to update the API documentation before we release the new version.
+- The docs list three query parameters, and the sample response shows the JSON format.
 
 ## Common mistake
 

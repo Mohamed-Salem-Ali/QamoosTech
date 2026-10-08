@@ -26,6 +26,8 @@ keywords: ["نص توثيق في بايثون", "وصف الدالة", "نص ب�
   - أضف docstring يقول ما تعيده الدالة ومتى تسبب خطأً.
 - `help(my_function)` prints the docstring.
   - `help(my_function)` تطبع الـ docstring.
+- The docstring lists the arguments, so the editor shows them when you type the call.
+  - يسرد docstring المعاملات، فتعرضها بيئة التطوير حين تكتب الاستدعاء.
 
 ## خطأ شائع
 

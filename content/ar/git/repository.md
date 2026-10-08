@@ -2,7 +2,7 @@
 id: repository
 category: git
 level: beginner
-related: [commit, branch]
+related: [commit, branch, git-fetch, git-submodule, origin]
 term: "Repository"
 translation: "مستودع"
 pronunciation: "ريبوزيتوري"
@@ -22,6 +22,8 @@ keywords: ["مجلد مشروع جيت","مكان حفظ تاريخ المشرو
   - استنسخ المستودع ثم شغّل `npm install`.
 - The repo is private, so ask for access.
   - المستودع خاص، لذلك اطلب صلاحية الوصول.
+- The repository has three folders: the app, the docs and the scripts.
+  - يحوي المستودع ثلاثة مجلدات: التطبيق والتوثيق والسكربتات.
 
 ## خطأ شائع
 

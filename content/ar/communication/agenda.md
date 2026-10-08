@@ -22,6 +22,8 @@ keywords: ["قائمة مواضيع الاجتماع","جدول أعمال ال�
   - سأرسل الـ agenda قبل الاجتماع بيوم.
 - Let's stick to the agenda so we finish in 30 minutes.
   - لنلتزم بجدول الأعمال لننتهي خلال 30 دقيقة.
+- We moved the budget item to the top of the agenda because it was urgent.
+  - نقلنا بند الميزانية إلى أعلى جدول الأعمال لأنه عاجل.
 
 ## خطأ شائع
 

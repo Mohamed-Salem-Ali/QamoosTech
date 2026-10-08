@@ -20,6 +20,7 @@ During daily stand-ups, one-on-one meetings, or when asking for help in a team c
 
 - I hit a wall with the authentication module and need some guidance.
 - Let me know if you hit a wall while setting up the development environment.
+- I hit a wall with the CSS grid, so I asked the team for a second opinion.
 
 ## Common mistake
 

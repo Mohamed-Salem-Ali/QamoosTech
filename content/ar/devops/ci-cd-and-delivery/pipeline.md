@@ -24,6 +24,8 @@ keywords: ["خطوات أتمتة بناء البرمجيات","سلسلة مر�
   - فشلت عملية البناء بسبب تعطل مرحلة الاختبار في البايپلاين.
 - We added a new security scan to our deployment pipeline.
   - أضفنا فحصاً أمنياً جديداً إلى بايبلاين النشر الخاص بنا.
+- The pipeline runs the tests, then deploys to staging on every merge into main.
+  - يشغّل خط الأنابيب (pipeline) الاختبارات، ثم ينشر إلى بيئة الاختبار مع كل دمج في main.
 
 ## خطأ شائع
 

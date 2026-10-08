@@ -4,6 +4,7 @@ category: english
 level: intermediate
 related: [mvp, roll-out, staging-vs-production]
 term: "Dogfooding"
+translation: "استخدام المنتج داخلياً"
 pronunciation: "دوج-فودينج"
 keywords: ["استخدام منتجات الشركة داخليا","اختبار البرمجيات داخل الشركة","تجربة المنتج قبل إطلاقه للجمهور","اختبار التطبيق بواسطة الموظفين","استخدام البرنامج قبل الجمهور","مصطلح دوج فودينج","تجربة الفريق لمنتجهم الخاص","الاستخدام الداخلي للمنتج البرمجي","using our own software internally","testing software inside the company","employee product testing","internal pre release testing","eating your own dog food","internal beta testing by staff","using products before public release","company internal software trial"]
 ---

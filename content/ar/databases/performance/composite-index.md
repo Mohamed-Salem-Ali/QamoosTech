@@ -5,6 +5,7 @@ subcategory: performance
 level: intermediate
 related: [database, index, query]
 term: "Composite Index"
+translation: "الفهرس المركّب"
 pronunciation: "كومبوزيت إنديكس"
 keywords: ["فهرس على أكثر من عمود","تسريع استعلامات قاعدة البيانات","فهرس متعدد الأعمدة","تحسين أداء استعلامات sql","فهرس مركب لقواعد البيانات","البحث باستخدام عمودين أو أكثر","كومبوزيت إنديكس","حل بطء استعلامات قاعدة البيانات","index on multiple columns","speed up sql queries","multi column index","database index optimization","optimize queries with multiple filters","composite key index","b tree multiple columns","index with more than one column","fix slow database search"]
 ---

@@ -2,7 +2,7 @@
 id: fork
 category: git
 level: beginner
-related: [repository, pull-request]
+related: [repository, pull-request, upstream]
 term: "Fork"
 pronunciation: "FORK"
 keywords: ["copy someone else repo","create personal repository copy","contribute to open source","forking a project","how to fork git","server side repo copy","make personal version of code","git fork vs clone","suggest changes to others","personal branch of repository","نسخ مستودع شخص آخر","عمل نسخة من المشروع","المساهمة في المشاريع المفتوحة","إنشاء نسخة مشتقة","كيفية عمل فورك","نسخ الكود لحسابي الشخصي","تعديل مشاريع الآخرين","الفرق بين فورك وكلون","نسخة خاصة من المستودع","تطوير نسخة من المشروع"]
@@ -19,6 +19,7 @@ Open source contributions.
 
 - Fork the repo, fix the typo, and open a pull request.
 - Our company keeps a private fork of the library.
+- I forked the library to add the Arabic locale, and the owner later accepted the change.
 
 ## Common mistake
 

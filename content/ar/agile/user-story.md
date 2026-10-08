@@ -2,7 +2,7 @@
 id: user-story
 category: agile
 level: beginner
-related: [backlog, mvp]
+related: [backlog, mvp, definition-of-done, story-points, acceptance-test]
 term: "User Story"
 translation: "قصة مستخدم"
 pronunciation: "يوزر ستوري"
@@ -22,6 +22,8 @@ keywords: ["وصف ميزات النظام","بصفتي مستخدم أريد","
   - بصفتي عميلًا، أريد إعادة تعيين كلمة المرور، حتى أستطيع تسجيل الدخول مجددًا.
 - This user story is too big. Let's split it.
   - قصة المستخدم هذه كبيرة جدًا. لنقسمها.
+- As an accountant, I want to export invoices to Excel, so that I can close the month faster.
+  - بصفتي محاسباً، أريد تصدير الفواتير إلى Excel، حتى أُنهي إقفال الشهر أسرع.
 
 ## خطأ شائع
 

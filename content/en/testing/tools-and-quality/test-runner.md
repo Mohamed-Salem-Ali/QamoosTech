@@ -21,6 +21,7 @@ In CI/CD pipelines, during local development, or when setting up a new testing f
 
 - I need to configure the test runner to ignore the integration tests.
 - The test runner failed because of a syntax error in one of the test files.
+- The test runner finds every file that starts with test_ and runs it.
 
 ## Common mistake
 

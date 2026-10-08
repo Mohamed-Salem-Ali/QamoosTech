@@ -3,7 +3,7 @@ id: heartbeat
 category: architecture
 subcategory: reliability
 level: beginner
-related: [health-check, failover, leader-election]
+related: [health-check, failover, leader-election, gossip-protocol, reconnection]
 aliases: ["keepalive", "liveness signal"]
 term: "Heartbeat"
 translation: "نبض الحياة"
@@ -25,6 +25,8 @@ keywords: ["إشارة أنا حي", "نبضة دورية", "اكتشاف الع
   - العقدة التي تفوّت ثلاث نبضات تُعلَّم متوقفة.
 - The worker sends a heartbeat every 10 seconds so the job isn't reassigned.
   - يرسل العامل نبضة كل 10 ثوانٍ حتى لا تُعاد المهمة.
+- The monitor alerts us when the worker's heartbeat stops for more than a minute.
+  - ينبّهنا نظام المراقبة حين يتوقف نبض العامل (heartbeat) لأكثر من دقيقة.
 
 ## خطأ شائع
 

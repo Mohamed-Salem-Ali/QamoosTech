@@ -22,6 +22,7 @@ In Linux and Windows administration, Docker volumes, "disk full" incidents and O
 
 - The container's file system is wiped when it is removed.
 - Mount the volume at `/data`.
+- The uploads are stored on the file system in a folder named by date.
 
 ## Common mistake
 

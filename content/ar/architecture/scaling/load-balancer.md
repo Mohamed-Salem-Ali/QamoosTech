@@ -3,7 +3,7 @@ id: load-balancer
 category: architecture
 subcategory: scaling
 level: intermediate
-related: [scalability, reverse-proxy, single-point-of-failure]
+related: [scalability, reverse-proxy, single-point-of-failure, round-robin]
 term: "Load Balancer"
 translation: "موزّع الأحمال"
 pronunciation: "لود بالانسر"

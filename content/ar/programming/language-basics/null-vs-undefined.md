@@ -6,6 +6,7 @@ level: beginner
 related: [variable]
 tags: [javascript]
 term: "Null vs Undefined"
+translation: "null مقابل undefined"
 pronunciation: "نال فيرسوس أنديفايند"
 keywords: ["الفرق بين نال وأنديفايند","متغير بدون قيمة برمجية","الفرق بين null و undefined","معنى غياب القيمة برمجياً","متى نستخدم null","متغير تم تعريفه بدون قيمة","التحقق من القيم الفارغة","الفرق بين القيمتين الفارغتين","مشكلة القيم غير المعرفة","تفريغ المتغيرات في البرمجة","difference between null and undefined","variable has no value","check if variable is empty","intentional absence of value","javascript null vs undefined","unassigned variable state","missing data in javascript","null vs undefined comparison","handle empty variables","why is my variable undefined"]
 ---
@@ -24,6 +25,8 @@ keywords: ["الفرق بين نال وأنديفايند","متغير بدون 
   - الإعلان عن متغيّر بدون قيمة يحدد حالته تلقائياً كـ `undefined`.
 - Developers explicitly assign `null` to clear a variable or indicate a missing resource.
   - يقوم المطورون بتعيين `null` صراحةً لتفريغ متغيّر أو للإشارة إلى مورد مفقود.
+- The API returns null when the user has no middle name, to show the field was left empty on purpose.
+  - ترجع الواجهة null حين لا يملك المستخدم اسماً أوسط، لتدل على أن الحقل تُرك فارغاً عن قصد.
 
 ## خطأ شائع
 

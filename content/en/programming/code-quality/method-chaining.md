@@ -22,6 +22,7 @@ In ORM queries, pandas and JavaScript array code (`.map().filter()`), and builde
 
 - `items.filter(isActive).map(toName).join(', ')` is a chain.
 - Break a long chain over several lines for readability.
+- The query chains filter, sort and limit, so each step reads from left to right.
 
 ## Common mistake
 

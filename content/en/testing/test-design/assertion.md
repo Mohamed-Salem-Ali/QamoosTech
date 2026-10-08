@@ -3,7 +3,7 @@ id: assertion
 category: testing
 subcategory: test-design
 level: beginner
-related: [unit-test, debugging]
+related: [unit-test, debugging, arrange-act-assert]
 term: "Assertion"
 pronunciation: "uh-SUR-shun"
 keywords: ["check if condition is true in test","verify test result with statement","unit test check condition","test condition validation","assert statement in tests","make sure test passes or fails","test expectation check","assrt","asserting","verify expected output in test","التحقق من صحة شرط في الاختبار","التأكد من النتيجة المتوقعة في الاختبار","عبارة التحقق في الاختبارات","فحص الشروط في اختبار الوحدة","تأكيد صحة البيانات في الاختبار","أسرشن","فحص النتيجة في الاختبار","التحقق من قيمة المتغير في الاختبار"]
@@ -21,6 +21,7 @@ In unit tests, integration tests, and test-driven development conversations.
 
 - The test uses an assertion to verify that the function returns the correct calculated total.
 - If the API response status code is not two hundred, the assertion throws an error.
+- The assertion fails because the total is 39 instead of 40.
 
 ## Common mistake
 

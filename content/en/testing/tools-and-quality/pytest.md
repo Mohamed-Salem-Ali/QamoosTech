@@ -3,7 +3,7 @@ id: pytest
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [test-runner, test-fixture, assertion]
+related: [test-runner, test-fixture, assertion, test-marker]
 tags: [python]
 term: "pytest"
 pronunciation: "PY-test"
@@ -22,6 +22,7 @@ In Python project READMEs, CI scripts (`pytest -q`), and job descriptions for Py
 
 - Run `pytest -k payment` to run only the payment tests.
 - pytest rewrites assert so failures show both values.
+- pytest reports which test failed and shows the values that did not match.
 
 ## Common mistake
 

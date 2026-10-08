@@ -4,6 +4,7 @@ category: communication
 level: intermediate
 related: [stakeholder, align-on-scope]
 term: "Buy-in"
+translation: "الالتزام والدعم"
 pronunciation: "باي-إن"
 keywords: ["الحصول على موافقة الفريق","ضمان دعم أصحاب المصلحة","كيفية كسب تأييد الفريق","بناء توافق في الآراء","الحصول على التزام الجميع","إقناع الإدارة بالقرار","تنسيق الآراء حول المشروع","كسب دعم الفريق التقني","مصطلح باي إن","الحصول على مباركة الفريق","get stakeholder agreement","secure team support","how to gain consensus","get people on board","project approval process","ensure team alignment","convince management of plan","build project commitment","stakeholder sign off","get team to agree"]
 ---

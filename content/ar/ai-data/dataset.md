@@ -2,7 +2,7 @@
 id: dataset
 category: ai-data
 level: beginner
-related: [fine-tuning, ocr]
+related: [fine-tuning, ocr, inference, spaced-repetition]
 term: "Dataset"
 translation: "مجموعة بيانات"
 pronunciation: "ديتاسِت"
@@ -22,6 +22,8 @@ keywords: ["مجموعة معلومات للتدريب","بيانات لتعلم
   - بنينا dataset من 500 فاتورة ممسوحة لاختبار الـ OCR.
 - The dataset is biased, so the model is unfair to some users.
   - الـ dataset متحيزة، لذلك يظلم النموذج بعض المستخدمين.
+- The team split the dataset into a training part and a test part before training the model.
+  - قسّم الفريق مجموعة البيانات إلى جزء للتدريب وجزء للاختبار قبل تدريب النموذج.
 
 ## خطأ شائع
 

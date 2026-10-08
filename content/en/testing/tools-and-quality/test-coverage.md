@@ -3,7 +3,7 @@ id: test-coverage
 category: testing
 subcategory: tools-and-quality
 level: intermediate
-related: [unit-test, quality-gate]
+related: [unit-test, quality-gate, mutation-testing]
 term: "Test Coverage"
 pronunciation: "TEST KUV-er-ij"
 keywords: ["percentage of code tested","how much code is tested","check untested code lines","code testing metrics","test coverage report","measure unit test effectiveness","ensure all code runs","test coverage percentage","identify untested modules","quality gate metrics","test execution ratio","code path coverage","نسبة الكود المختبر","قياس مدى شمولية الاختبارات","معرفة الأجزاء غير المختبرة","نسبة تغطية الاختبارات","تقرير تغطية الكود","فحص جودة الاختبارات البرمجية","تست كفريج","تحسين نسبة الاختبارات","قياس أسطر الكود المختبرة","معايير جودة الكود","مدى شمولية الاختبارات البرمجية","تغطية الاختبارات"]

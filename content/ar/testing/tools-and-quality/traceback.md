@@ -3,7 +3,7 @@ id: traceback
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [call-stack, debugging, bug]
+related: [call-stack, debugging, bug, panic, custom-exception]
 tags: [python]
 aliases: ["stack trace", "stacktrace", "error trace"]
 term: "Traceback"
@@ -26,6 +26,8 @@ keywords: ["تقرير خطأ بايثون", "اقرأه من الأسفل", "أ
   - الصق التتبّع كاملاً وليس السطر الأخير فقط.
 - The traceback points at line 42 in `payments.py`.
   - يشير التتبّع إلى السطر 42 في `payments.py`.
+- The traceback shows the function that called the failing one, so you can work back up the chain.
+  - يُظهر التتبّع (traceback) الدالة التي استدعت الدالة الفاشلة، فتستطيع أن تتتبّع السلسلة إلى الخلف.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: interface
 category: programming
 subcategory: object-oriented
 level: intermediate
-related: [class, inheritance]
+related: [class, inheritance, abstract-class, abstraction]
 term: "Interface"
 translation: "واجهة (عقد)"
 pronunciation: "إنترفيس"

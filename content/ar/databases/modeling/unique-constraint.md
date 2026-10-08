@@ -26,6 +26,8 @@ keywords: ["لا قيم مكررة", "البريد يجب أن يكون فريد
   - قيد فرادة على العضو والأسبوع يمنع الدفع المزدوج.
 - Emails must be unique, so the database refuses a second account.
   - يجب أن تكون البريد فريدة، لذا ترفض قاعدة البيانات حساباً ثانياً.
+- The unique constraint on the username makes a second signup fail with an error.
+  - يجعل القيد الفريد على اسم المستخدم التسجيل الثاني يفشل برسالة خطأ.
 
 ## خطأ شائع
 

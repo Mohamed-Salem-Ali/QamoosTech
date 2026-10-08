@@ -3,7 +3,7 @@ id: web-framework
 category: web-apis
 subcategory: routing-and-views
 level: beginner
-related: [view, url-routing, middleware]
+related: [view, url-routing, middleware, project-vs-app]
 tags: [python, django]
 aliases: ["batteries included", "microframework", "full-stack framework"]
 term: "Web Framework"
@@ -23,6 +23,7 @@ When choosing a stack (Django, Flask, FastAPI, Express, Next.js), in job posts, 
 
 - Django is a full-featured framework; Flask is a microframework.
 - The framework calls your code, not the other way around.
+- The web framework gives us the login, sessions and admin pages out of the box.
 
 ## Common mistake
 

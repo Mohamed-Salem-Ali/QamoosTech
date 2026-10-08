@@ -26,6 +26,8 @@ keywords: ["جداول بصفوف وأعمدة", "‏Postgres وMySQL وSQLite",
   - تناسب الدفعات والأعضاء قاعدة بيانات علائقية.
 - PostgreSQL and MySQL are relational databases.
   - ‏PostgreSQL وMySQL قاعدتا بيانات علائقيتان.
+- Orders, customers and payments are linked by foreign keys in a relational database.
+  - ترتبط الطلبات والعملاء والمدفوعات بمفاتيح أجنبية في قاعدة بيانات علائقية.
 
 ## خطأ شائع
 

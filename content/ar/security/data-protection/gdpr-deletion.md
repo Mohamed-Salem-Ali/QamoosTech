@@ -3,7 +3,7 @@ id: gdpr-deletion
 category: security
 subcategory: data-protection
 level: intermediate
-related: [pii, audit-logging]
+related: [pii, audit-logging, soc-2, retention-policy]
 term: "GDPR Deletion"
 translation: "الحذف وفق GDPR"
 pronunciation: "جي دي بي آر ديليشن"

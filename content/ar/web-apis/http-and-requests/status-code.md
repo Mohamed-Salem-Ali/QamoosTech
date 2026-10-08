@@ -23,6 +23,8 @@ keywords: ["أرقام استجابة الخادم","رموز نجاح أو فش
   - تعيد الـ API الرمز 401 عندما يكون الـ token مفقودًا.
 - A 500 means the bug is on the server, not in your request.
   - الرمز 500 يعني أن الخطأ في الخادم لا في طلبك.
+- The API returns 201 after it creates the new order.
+  - ترجع الواجهة الرمز 201 بعد أن تنشئ الطلب الجديد.
 
 ## خطأ شائع
 

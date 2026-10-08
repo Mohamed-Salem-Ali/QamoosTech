@@ -6,7 +6,7 @@ related: [blocker, dependency-injection, latency-vs-throughput]
 term: "Bottleneck"
 pronunciation: "بوتل-نيك"
 translation: "عنق زجاجة"
-keywords: ["أسباب بطء أداء النظام","نقطة ازدحام في العمل","محدودية القدرة الاستيعابية","مشاكل بطء تدفق المهام","تحديد معوقات الأداء","عنق الزجاجة في البرمجة","تأخر العمل بسبب نقص الموارد","نقطة اختناق في النظام","تحليل أسباب تأخر السبرنت","بوتل نيك في الأداء","what slows down system performance","workflow capacity limit","process speed constraint","why is my code slow","performance constraint point","identifying system throughput issues","common development process delays","bottelneck spelling","points of congestion in software","resource capacity planning issues"]
+keywords: ["أسباب بطء أداء النظام","نقطة ازدحام في العمل","محدودية القدرة الاستيعابية","مشاكل بطء تدفق المهام","تحديد معوقات الأداء","عنق الزجاجة في البرمجة","تأخر العمل بسبب نقص الموارد","نقطة اختناق في النظام","تحليل أسباب تأخر السبرنت","بوتل نيك في الأداء","what slows down system performance","workflow capacity limit","process speed constraint","why is my code slow","performance constraint point","identifying system throughput issues","common development process delays","bottelneck","points of congestion in software","resource capacity planning issues"]
 ---
 
 ## التعريف
@@ -23,6 +23,8 @@ keywords: ["أسباب بطء أداء النظام","نقطة ازدحام في
   - مراجعة الكود هي عنق الزجاجة الحالي لدينا لأن عدد المراجعين قليل جداً.
 - The database query became a performance bottleneck during peak hours.
   - استعلام قاعدة البيانات أصبح عنق زجاجة للأداء خلال ساعات الذروة.
+- Releases wait for one person who approves every change, and that is the bottleneck.
+  - تنتظر الإصدارات شخصاً واحداً يوافق على كل تغيير، وهذا هو عنق الزجاجة.
 
 ## خطأ شائع
 

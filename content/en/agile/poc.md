@@ -20,6 +20,7 @@ During technical planning meetings, project kickoff phases, or when evaluating n
 
 - We need to build a quick PoC to see if this library can handle our data volume.
 - The team spent two days on a PoC to validate the new authentication flow.
+- The PoC showed that the map library is too slow for ten thousand markers.
 
 ## Common mistake
 

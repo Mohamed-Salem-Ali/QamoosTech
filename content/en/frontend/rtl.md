@@ -19,6 +19,7 @@ Localization work and Arabic-first products.
 
 - The app supports RTL, so the menu is on the right side.
 - Use logical CSS properties like `margin-inline-start` instead of `margin-left`.
+- In an RTL layout, the back arrow points to the right side of the screen.
 
 ## Common mistake
 

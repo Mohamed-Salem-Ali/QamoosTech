@@ -26,6 +26,8 @@ keywords: ["‏HTML بمواضع فارغة", "الخادم يملأ البيا�
   - يمر القالب على الدفعات ويطبع صفاً لكل واحدة.
 - Every page extends the base template and fills in its block.
   - كل صفحة ترث القالب الأساسي وتملأ كتلتها.
+- The template shows the price and the title of each product in the list.
+  - يعرض القالب السعر والعنوان لكل منتج في القائمة.
 
 ## خطأ شائع
 

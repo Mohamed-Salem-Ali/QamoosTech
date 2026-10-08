@@ -3,6 +3,7 @@ id: box-model
 category: frontend
 level: beginner
 related: [responsive-design]
+tags: [css]
 term: "Box Model"
 pronunciation: "BOKS MOD-el"
 keywords: ["css element layout spacing","content padding border margin","how browser calculates element size","fix unexpected spacing in css","box sizing properties","css rectangular box structure","margin vs padding difference","inspect element layout in devtools","نموذج الصندوق في css","الحشوة والهوامش والحدود في التصميم","كيفية حساب حجم عنصر html","مشاكل المسافات بين عناصر الموقع","الفرق بين الهوامش والحشوة","تنسيق عناصر صفحات الويب","خصائص الحجم والهوامش في css","تصميم التنسيقات والمسافات"]
@@ -20,6 +21,7 @@ Commonly discussed when styling layouts, debugging spacing issues, or learning t
 
 - The browser calculates the total width of an element by adding its content, padding, and border.
 - You can change the default behavior of the box model using the `box-sizing` property.
+- With the default box-sizing, 20px of padding on each side makes the box 40px wider.
 
 ## Common mistake
 

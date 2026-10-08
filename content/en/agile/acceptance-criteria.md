@@ -20,6 +20,7 @@ In sprint planning, requirement gathering meetings, and ticket descriptions.
 
 - The login button must be disabled until both email and password fields are filled.
 - The exported report must download as a CSV file within three seconds.
+- The upload page shows an error message when the file is larger than 10 MB.
 
 ## Common mistake
 

@@ -19,6 +19,7 @@ Code reviews and technical decisions.
 
 - Don't reinvent the wheel. Use the existing library.
 - Writing our own date library is reinventing the wheel.
+- We almost wrote our own PDF parser, but a library already does it well.
 
 ## Common mistake
 

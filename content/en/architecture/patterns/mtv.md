@@ -23,6 +23,7 @@ In Django tutorials, interview questions ("how is MTV different from MVC?"), and
 
 - In MTV the model holds data, the template shows it, the view decides what to show.
 - Django's views are what other frameworks call controllers.
+- In the Django view we fetch the invoices and pass them to the template to render.
 
 ## Common mistake
 

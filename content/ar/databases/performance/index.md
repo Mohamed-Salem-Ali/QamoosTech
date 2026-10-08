@@ -3,7 +3,7 @@ id: index
 category: databases
 subcategory: performance
 level: intermediate
-related: [query, table-row-column]
+related: [query, table-row-column, composite-index, full-text-search]
 term: "Index"
 translation: "فهرس"
 pronunciation: "إنديكس"

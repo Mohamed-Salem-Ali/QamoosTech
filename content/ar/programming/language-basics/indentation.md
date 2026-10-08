@@ -25,6 +25,8 @@ keywords: ["مسافات في بداية السطر", "بايثون تستخدم
   - يجب إزاحة جسم الحلقة بأربع مسافات.
 - Mixing tabs and spaces causes an indentation error.
   - خلط الـ tab بالمسافات يسبب خطأ في المسافة البادئة.
+- The function body needs four spaces of indentation under the def line.
+  - يحتاج جسم الدالة إلى أربع مسافات بادئة (indentation) تحت سطر def.
 
 ## خطأ شائع
 

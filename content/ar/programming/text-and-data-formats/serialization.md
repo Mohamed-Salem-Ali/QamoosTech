@@ -3,7 +3,7 @@ id: serialization
 category: programming
 subcategory: text-and-data-formats
 level: intermediate
-related: [payload, json-schema, dto]
+related: [payload, json-schema, dto, xml, markdown, parsing, msgpack]
 aliases: ["serialisation", "marshalling", "deserialization"]
 term: "Serialization"
 translation: "التسلسل"

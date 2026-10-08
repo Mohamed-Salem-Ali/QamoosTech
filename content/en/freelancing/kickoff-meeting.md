@@ -20,6 +20,7 @@ Project management discussions, client onboarding, and initial project planning 
 
 - We scheduled a kickoff meeting to discuss the project timeline and deliverables.
 - Please prepare the project requirements document for our upcoming kickoff meeting.
+- At the kickoff meeting, the client agreed to a weekly demo.
 
 ## Common mistake
 

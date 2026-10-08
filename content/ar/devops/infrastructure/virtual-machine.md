@@ -25,6 +25,8 @@ keywords: ["حاسوب داخل حاسوب", "جهاز افتراضي بنظام
   - نستأجر جهازاً افتراضياً في السحابة ونثبّت عليه لينكس.
 - A VM boots in a minute; a container starts in a second.
   - يقلع الجهاز الافتراضي في دقيقة وتبدأ الحاوية في ثانية.
+- We run the old reporting tool in a virtual machine with its own Windows install.
+  - نشغّل أداة التقارير القديمة في جهاز افتراضي (virtual machine) يحوي نسخة ويندوز خاصة به.
 
 ## خطأ شائع
 

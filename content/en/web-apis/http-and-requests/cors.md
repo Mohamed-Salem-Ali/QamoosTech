@@ -3,7 +3,7 @@ id: cors
 category: web-apis
 subcategory: http-and-requests
 level: intermediate
-related: [http-header, client-vs-server]
+related: [http-header, client-vs-server, cors-preflight]
 term: "CORS"
 pronunciation: "KORZ"
 keywords: ["blocked by cors policy error","browser blocks api request","allow domain in backend","cross origin resource sharing","fix api access from frontend","http headers for domains","allow origin wildcard error","browser security policy restriction","خطأ منع الطلبات بين النطاقات","حل مشكلة حظر المتصفح للـ api","السماح بنطاق معين في الخادم","مشاركة الموارد بين النطاقات","خطأ blocked by cors policy","السماح للواجهة الأمامية بالاتصال","إعدادات أمان المتصفح للـ api","مشكلة الاتصال بين نطاقات مختلفة"]

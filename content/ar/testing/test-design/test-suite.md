@@ -24,6 +24,8 @@ keywords: ["مجموعة اختبارات برمجية","تشغيل كل الا�
   - يقوم مسار الدمج المستمر بتشغيل حزمة الاختبارات كاملة مع كل طلب دمج (Pull Request).
 - Developers run a fast unit test suite locally before pushing their changes.
   - يشغل المطورون حزمة اختبارات وحدة سريعة محلياً قبل رفع تعديلاتهم.
+- The test suite for payments takes four minutes to run on the server.
+  - تستغرق مجموعة اختبارات الدفع أربع دقائق للتشغيل على الخادم.
 
 ## خطأ شائع
 

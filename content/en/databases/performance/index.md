@@ -3,7 +3,7 @@ id: index
 category: databases
 subcategory: performance
 level: intermediate
-related: [query, table-row-column]
+related: [query, table-row-column, composite-index, full-text-search]
 term: "Index"
 pronunciation: "IN-deks"
 keywords: ["speed up database queries","make database lookups faster","database search optimization tool","find table rows quickly","improve read performance","database indexing structure","avoid slow select queries","speed up foreign key joins","database search key","indix","indeks","database lookup optimization","تسريع استعلامات قاعدة البيانات","تحسين سرعة البحث في الجداول","فهرسة أعمدة قاعدة البيانات","أداة لتسريع جلب البيانات","إنديكس","طريقة لتسريع البحث في الجداول","تقليل وقت تنفيذ الاستعلامات","تحسين أداء قاعدة البيانات","فهرس قاعدة البيانات","تسريع عمليات القراءة"]

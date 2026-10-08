@@ -4,6 +4,7 @@ category: communication
 level: beginner
 related: [touch-base, follow-up]
 term: "Sync up"
+translation: "اجتماع قصير للمتابعة"
 pronunciation: "سينك أب"
 keywords: ["اجتماع سريع لمتابعة العمل","لقاء قصير لتحديث الحالة","التنسيق حول سير المشروع","اجتماع مواءمة غير رسمي","جلسة سريعة لتوحيد الرؤية","مناقشة سريعة للخطوات القادمة","سينك أب","اجتماع قصير للمزامنة","مراجعة سريعة للمهام","التأكد من فهم الجميع","quick status update meeting","short check in call","align on project progress","brief team alignment session","get on the same page","quick catch up meeting","informal progress discussion","short meeting for updates","syncing up with team","briefly discuss next steps"]
 ---
@@ -22,6 +23,8 @@ keywords: ["اجتماع سريع لمتابعة العمل","لقاء قصير 
   - دعنا نجتمع سريعاً بعد الاجتماع لمناقشة المتطلبات الجديدة.
 - Can we sync up for ten minutes to go over the project timeline?
   - هل يمكننا الاجتماع لعشر دقائق لمراجعة الجدول الزمني للمشروع؟
+- Let's sync up at 3 PM to agree on the release plan.
+  - لنتواصل عند الثالثة عصراً لنتفق على خطة الإصدار.
 
 ## خطأ شائع
 

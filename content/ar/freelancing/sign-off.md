@@ -4,6 +4,7 @@ category: freelancing
 level: beginner
 related: [deliverable, milestone, scope-creep]
 term: "Sign-off"
+translation: "الاعتماد النهائي"
 pronunciation: "ساين-أوف"
 keywords: ["الحصول على موافقة رسمية","اعتماد المرحلة من العميل","الموافقة النهائية على التسليمات","إقرار بانتهاء العمل","تأكيد إنجاز المشروع","معنى كلمة ساين أوف","طلب الموافقة الرسمية","اعتماد مخرجات المشروع","الموافقة على اكتمال المرحلة","توثيق قبول العميل للعمل","formal approval of project phase","client agreement on completed work","getting project milestone approval","confirming work meets requirements","final project acceptance process","sign off meaning","how to get client approval","formal project signoff","client sign off definition","approving deliverables formally","project stage completion confirmation"]
 ---
@@ -22,6 +23,8 @@ keywords: ["الحصول على موافقة رسمية","اعتماد المر�
   - نحتاج إلى موافقة العميل (sign-off) قبل أن نتمكن من إطلاق هذه الميزة في بيئة الإنتاج.
 - Please provide your sign-off on the final design document by Friday.
   - يرجى تزويدنا بالموافقة النهائية (sign-off) على وثيقة التصميم بحلول يوم الجمعة.
+- Legal gave the sign-off, so the terms page goes live this week.
+  - أعطى الفريق القانوني الموافقة النهائية، لذلك تُنشر صفحة الشروط هذا الأسبوع.
 
 ## خطأ شائع
 

@@ -26,6 +26,8 @@ keywords: ["فهرس حزم بايثون", "من أين ينزّل pip", "نشر
   - الحزمة على PyPI لذا يجدها `pip install`.
 - Check the PyPI page for the latest release.
   - راجع صفحة PyPI لآخر إصدار.
+- The new version of the package appeared on PyPI an hour after the release.
+  - ظهرت النسخة الجديدة من الحزمة على PyPI بعد ساعة من الإصدار.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: mocking
 category: testing
 subcategory: mocking-and-test-doubles
 level: intermediate
-related: [unit-test, dependency-injection]
+related: [unit-test, dependency-injection, dummy-object]
 term: "Mocking"
 translation: "المحاكاة"
 pronunciation: "موكينج"

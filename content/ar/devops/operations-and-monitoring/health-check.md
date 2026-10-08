@@ -3,7 +3,7 @@ id: health-check
 category: devops
 subcategory: operations-and-monitoring
 level: intermediate
-related: [monitoring, load-balancer]
+related: [monitoring, load-balancer, health-probes]
 term: "Health Check"
 translation: "فحص الحالة"
 pronunciation: "هيلث تشك"

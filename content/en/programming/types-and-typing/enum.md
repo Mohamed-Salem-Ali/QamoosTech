@@ -23,6 +23,7 @@ In code that models statuses, roles or options, and in reviews that replace repe
 
 - Use an enum for the payment status instead of raw strings.
 - The database column only accepts the values defined in the enum.
+- The order status enum stops a typo such as PAYED from reaching the database.
 
 ## Common mistake
 

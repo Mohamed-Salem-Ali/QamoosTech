@@ -24,6 +24,8 @@ keywords: ["تشفير البيانات المحفوظة","تأمين البيا
   - يجب علينا تفعيل تشفير البيانات المخزنة (Encryption at rest) لنسخنا الاحتياطية من قاعدة البيانات.
 - The security policy requires encryption at rest for all sensitive user files.
   - تتطلب سياسة الأمان تفعيل تشفير البيانات المخزنة لجميع ملفات المستخدمين الحساسة.
+- The backup files are encrypted at rest, so a stolen disk reveals nothing.
+  - تُشفَّر ملفات النسخ الاحتياطي وهي مخزّنة، فلا يكشف القرص المسروق شيئاً.
 
 ## خطأ شائع
 

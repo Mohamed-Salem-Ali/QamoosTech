@@ -9,7 +9,7 @@ aliases: ["conditional expression", "ternary"]
 term: "Ternary Operator"
 translation: "العامل الثلاثي"
 pronunciation: "ترنري أوبريتر"
-keywords: ["if else في سطر واحد", "الصيغة condition ? a : b", "x if cond else y", "شرط مضمّن", "تعبير شرطي قصير", "التعبير الشرطي", "one line if else", "condition ? a : b", "x if cond else y", "inline conditional", "short if expression", "conditional expression"]
+keywords: ["if else في سطر واحد", "الصيغة condition ? a : b", "x if cond else y", "شرط مضمّن", "تعبير شرطي قصير", "التعبير الشرطي", "one line if else", "condition ? a : b", "inline conditional", "short if expression", "conditional expression"]
 ---
 
 ## التعريف

@@ -4,6 +4,7 @@ category: agile
 level: intermediate
 related: [sprint, user-story, estimate]
 term: "Velocity"
+translation: "سرعة الفريق"
 pronunciation: "فيلوسيتي"
 keywords: ["معدل إنجاز الفريق في السبرنت","قياس نقاط القصة لكل سبرنت","حجم العمل المنجز في السبرنت","متوسط نقاط القصة للفريق","سرعة الفريق في إنجاز المهام","مقياس الإنتاجية في أجايل","توقع حجم العمل المستقبلي","فيلوسيتي السبرنت","معدل سرعة الفريق","measure sprint story points","team work capacity metric","how much work per sprint","agile team productivity measure","track completed story points","sprint performance metric","predict future sprint work","team velocity calculation","average points per sprint","story points completed"]
 ---

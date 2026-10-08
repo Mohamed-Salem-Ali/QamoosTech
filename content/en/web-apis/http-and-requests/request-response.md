@@ -3,7 +3,7 @@ id: request-response
 category: web-apis
 subcategory: http-and-requests
 level: beginner
-related: [client-vs-server, status-code]
+related: [client-vs-server, status-code, http-methods]
 aliases: ["request response cycle"]
 term: "Request / Response"
 pronunciation: "rih-KWEST / rih-SPONS"
@@ -21,6 +21,7 @@ API documentation, debugging in the browser Network tab, and logs.
 
 - The response took 3 seconds, so the page felt slow.
 - Check the request body in the Network tab.
+- The request asks for the user's profile, and the response returns it as JSON with a 200 status.
 
 ## Common mistake
 

@@ -21,6 +21,7 @@ During system design discussions, API integration planning, and when debugging p
 
 - The application uses a synchronous call to fetch user data, which blocks the UI until the response arrives.
 - We implemented an asynchronous process for sending emails to ensure the user doesn't wait for the mail server.
+- The checkout waits for the payment, but the confirmation email is sent asynchronously.
 
 ## Common mistake
 

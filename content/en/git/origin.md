@@ -20,6 +20,7 @@ When pushing code, pulling updates, or managing remote repository connections.
 
 - Run `git push origin main` to send your local commits to the remote repository.
 - Use `git remote -v` to check the URL associated with origin.
+- Push the feature branch to origin, then open the pull request from there.
 
 ## Common mistake
 

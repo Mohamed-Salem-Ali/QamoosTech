@@ -4,6 +4,7 @@ category: ai-data
 level: beginner
 related: [llm]
 term: "Multimodal"
+translation: "متعدد الوسائط"
 pronunciation: "مولتي-مودال"
 keywords: ["نماذج الذكاء الاصطناعي متعددة الوسائط","معالجة النصوص والصور معاً","أنظمة تفهم الفيديو والصوت","نماذج ذكاء اصطناعي شاملة","التعامل مع أنواع بيانات مختلفة","ذكاء اصطناعي يجمع بين الوسائط","نماذج تدعم مدخلات متنوعة","تحليل الصور والنصوص في نموذج واحد","مصطلح مولتي مودال","نماذج الذكاء الاصطناعي الهجينة","ai models processing images and text","models handling multiple media types","ai that understands video and audio","cross modal ai architectures","models working with different data formats","integrated text image audio ai","multi format input artificial intelligence","multimodel ai","ai systems combining diverse inputs","processing text and images simultaneously"]
 ---
@@ -22,6 +23,8 @@ keywords: ["نماذج الذكاء الاصطناعي متعددة الوسائ
   - النموذج الجديد هو Multimodal، مما يسمح له بتحليل الصورة التي رفعها المستخدم مع نص الطلب الخاص به.
 - We are testing a multimodal system that can generate audio descriptions from video input.
   - نحن نختبر نظاماً من نوع Multimodal يمكنه إنشاء وصف صوتي من مدخلات الفيديو.
+- The support bot reads a photo of the broken part and answers in text.
+  - يقرأ روبوت الدعم صورة القطعة المعطلة، ويجيب بالنص.
 
 ## خطأ شائع
 
@@ -29,7 +32,7 @@ keywords: ["نماذج الذكاء الاصطناعي متعددة الوسائ
 
 ## لا تخلطه مع
 
-غالباً ما يُخلط بين مصطلح Multimodal ومصطلح multitasking، لكن Multimodal يشير إلى معالجة أنواع بيانات مختلفة مثل النصوص والصور، بينما تعني تعدد المهام تنفيذ عدة مهام مختلفة بشكل متسلسل أو متزامن.
+تعني متعدد الوسائط أن النموذج الواحد يتعامل مع أنواع عدة من المدخلات أو المخرجات، مثل النص والصور. أما النموذج الذي ينفّذ مهام كثيرة على النص وحده فليس متعدد الوسائط.
 
 ## قلها في العمل
 

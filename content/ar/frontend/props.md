@@ -23,6 +23,8 @@ keywords: ["تمرير البيانات للمكونات","مدخلات المك
   - مرّر اسم المستخدم إلى البطاقة عبر props.
 - Props are read-only, so do not change them inside the component.
   - الـ props للقراءة فقط، فلا تغيّرها داخل المكوّن.
+- The product card receives its price and image as props from the list page.
+  - تستلم بطاقة المنتج السعر والصورة كخصائص (props) من صفحة القائمة.
 
 ## خطأ شائع
 

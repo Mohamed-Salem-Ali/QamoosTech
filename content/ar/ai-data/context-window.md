@@ -25,6 +25,8 @@ keywords: ["الحد الأقصى للنصوص للذكاء الاصطناعي",
   - نحتاج إلى تقصير الـ system prompt لكي يناسب نافذة السياق الخاصة بالنموذج.
 - Uploading this large PDF failed because it exceeds the context window of our current LLM.
   - فشل رفع هذا الملف الكبير لأنه يتجاوز نافذة السياق لنموذج اللغات الكبير الحالي.
+- A long chat history fills the context window, so the oldest messages drop out.
+  - يملأ سجل الدردشة الطويل نافذة السياق، فتخرج أقدم الرسائل منها.
 
 ## خطأ شائع
 

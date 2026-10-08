@@ -23,6 +23,7 @@ In stack choices (PostgreSQL vs MongoDB), course syllabi and system design inter
 
 - Payments and members fit a relational database well.
 - PostgreSQL and MySQL are relational databases.
+- Orders, customers and payments are linked by foreign keys in a relational database.
 
 ## Common mistake
 

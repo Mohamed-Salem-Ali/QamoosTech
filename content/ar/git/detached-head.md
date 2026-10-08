@@ -4,6 +4,7 @@ category: git
 level: intermediate
 related: [branch, commit, rebase]
 term: "Detached HEAD"
+translation: "الرأس المنفصل"
 pronunciation: "دي-تاتشْت هيد"
 keywords: ["جت لا يشير إلى فرع","العمل على كَمِت مباشرة في جت","ضياع التعديلات بعد الانتقال بين الفروع","حالة الهيد المنفصل في جت","جت يشير إلى كَمِت قديم","ديتاتشد هيد في جت","كيف أخرج من حالة الهيد المنفصل","مستودع جت غير مربوط بفرع","git points to commit not branch","commits disappearing after switching branches","git checked out commit directly","lost commits after checkout","git head not on a branch","detached head state","fix git detached head","git working on commit hash"]
 ---

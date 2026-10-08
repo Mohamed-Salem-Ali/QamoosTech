@@ -5,8 +5,9 @@ subcategory: http-and-requests
 level: beginner
 related: [http-header, jwt, oauth]
 term: "Bearer Token"
+translation: "رمز الحامل"
 pronunciation: "بِيرَر تُوكِن"
-keywords: ["رمز التحقق من الهوية","ترويسة المصادقة في الطلبات","كيفية إرسال رمز الدخول","رمز الوصول للموارد المحمية","طريقة استخدام بيرر توكن","توثيق الطلبات عبر الويب","رمز المصادقة في الهيدر","استخدام الرموز في api","نظام صلاحيات الوصول","التعامل مع bearer token","authorization header string","access token for api","how to authenticate api requests","send identity in http request","token used for bearer auth","bearer token misspelling","secure api request credentials","get access with token","oauth authentication string","verify user identity via header"]
+keywords: ["رمز التحقق من الهوية","ترويسة المصادقة في الطلبات","كيفية إرسال رمز الدخول","رمز الوصول للموارد المحمية","طريقة استخدام بيرر توكن","توثيق الطلبات عبر الويب","رمز المصادقة في الهيدر","استخدام الرموز في api","نظام صلاحيات الوصول","التعامل مع bearer token","authorization header string","access token for api","how to authenticate api requests","send identity in http request","token used for bearer auth","bearer token","secure api request credentials","get access with token","oauth authentication string","verify user identity via header"]
 ---
 
 ## التعريف
@@ -25,6 +26,8 @@ keywords: ["رمز التحقق من الهوية","ترويسة المصادق�
   - أرسل رمز المصادقة (bearer token) في ترويسة التفويض (Authorization) لطلب واجهة البرمجة الخاصة بك.
 - The server returns a bearer token after a successful login.
   - يعيد الخادم رمز مصادقة (bearer token) بعد نجاح عملية تسجيل الدخول.
+- The app sends the bearer token with every request after the user logs in.
+  - يرسل التطبيق bearer token مع كل طلب بعد أن يسجّل المستخدم دخوله.
 
 ## خطأ شائع
 

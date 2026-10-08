@@ -4,6 +4,7 @@ category: git
 level: beginner
 related: [repository, merge]
 term: "Git Fetch"
+translation: "جلب التحديثات"
 pronunciation: "جِت فِيتش"
 keywords: ["جلب التغييرات من المستودع","تحديث فروع التتبع البعيدة","تحميل تحديثات الخادم فقط","جيت فيتش","الفرق بين فيتش وسحب","استلام التعديلات بدون دمج","تحديث المراجع المحلية","جلب الكوميتات الجديدة","معرفة التحديثات الجديدة","كيفية مزامنة المستودع المحلي","download remote changes","update local tracking branches","get latest commits only","git fetch vs pull","check for remote updates","sync remote repository metadata","fetch remote branches","git update without merge","retrieve new remote data","git get remote changes"]
 ---
@@ -24,6 +25,8 @@ keywords: ["جلب التغييرات من المستودع","تحديث فرو�
   - قم بتشغيل `git fetch origin` لترى إن كانت هناك أي تحديثات جديدة على الخادم.
 - I need to run `git fetch` before I can see the new branch my teammate pushed.
   - أحتاج لتشغيل `git fetch` قبل أن أتمكن من رؤية الفرع الجديد الذي رفعه زميلي.
+- Run git fetch to see the branch your teammate pushed, without changing your own work.
+  - شغّل git fetch لترى الفرع الذي دفعه زميلك، دون أن تغيّر عملك.
 
 ## خطأ شائع
 

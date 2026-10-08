@@ -21,6 +21,7 @@ In CI/CD pipelines, code reviews, and when discussing overall application qualit
 
 - The continuous integration pipeline runs the entire test suite on every pull request.
 - Developers run a fast unit test suite locally before pushing their changes.
+- The test suite for payments takes four minutes to run on the server.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: bug
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [debugging, regression]
+related: [debugging, regression, show-stopper, false-negative]
 term: "Bug"
 pronunciation: "BUG"
 keywords: ["software error in code","unexpected behavior in app","something is broken here","app crash and issue","coding mistake or flaw","issue in the system","debugging failed feature","fix broken code problem","software defect or issue","خطأ في الشيفرة البرمجية","مشكلة في عمل البرنامج","البرنامج لا يعمل بشكل صحيح","خلل في الكود البرمجي","اكتشاف مشكلة في التطبيق","وجود عيب في النظام","خطأ يمنع عمل البرنامج","باج في التطبيق"]
@@ -20,6 +20,7 @@ Daily work, bug trackers, and client messages.
 
 - I found a bug in the checkout page.
 - Please include steps to reproduce the bug.
+- The login button does nothing on Safari, and that is a bug.
 
 ## Common mistake
 
@@ -27,7 +28,7 @@ Reporting "it does not work" without details. Always add steps, expected result,
 
 ## Don't confuse with
 
-A bug is an unintended flaw in the code, whereas a feature request is a proposal for new functionality that the software does not currently possess.
+A bug is wrong behavior in code that was meant to work. A missing feature is not a bug; it is a request for something the software never promised.
 
 ## Say it at work
 

@@ -23,6 +23,8 @@ keywords: ["فحص منطقي سريع","اختبار أولي بسيط","الت
   - دعنا نقوم بفحص منطقي سريع للأرقام قبل دفع هذا التحديث إلى بيئة الإنتاج.
 - I ran a sanity check on the API response to make sure the data format looks correct.
   - أجريت فحصاً منطقياً سريعاً على استجابة واجهة برمجة التطبيقات للتأكد من أن تنسيق البيانات يبدو صحيحاً.
+- A quick sanity check showed the totals were in cents instead of dollars.
+  - كشف فحص معقولية سريع أن المجاميع بالسنت وليس بالدولار.
 
 ## خطأ شائع
 

@@ -19,6 +19,7 @@ Planning and prioritization.
 
 - Let's fix the low-hanging fruit before the big redesign.
 - Compressing images is low-hanging fruit for page speed.
+- Adding missing alt text to the images is low-hanging fruit that improves accessibility.
 
 ## Common mistake
 

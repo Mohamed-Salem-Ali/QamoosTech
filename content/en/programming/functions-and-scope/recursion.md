@@ -3,7 +3,7 @@ id: recursion
 category: programming
 subcategory: functions-and-scope
 level: intermediate
-related: [loop, function]
+related: [loop, function, greedy-algorithm, tail-call]
 aliases: ["base case"]
 term: "Recursion"
 pronunciation: "rih-KUR-zhun"

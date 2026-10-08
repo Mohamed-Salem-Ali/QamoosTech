@@ -21,6 +21,7 @@ In QA planning meetings, bug reports, and test documentation.
 
 - We need to write a new test case for the password reset functionality.
 - This test case failed because the system returned an error instead of the expected success message.
+- The test case covers an empty password and expects a validation message.
 
 ## Common mistake
 

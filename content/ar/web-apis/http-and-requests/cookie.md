@@ -3,7 +3,7 @@ id: cookie
 category: web-apis
 subcategory: http-and-requests
 level: beginner
-related: [http-header, authentication-vs-authorization]
+related: [http-header, authentication-vs-authorization, local-storage, session]
 term: "Cookie"
 translation: "ملف تعريف الارتباط"
 pronunciation: "كوكي"
@@ -23,6 +23,8 @@ keywords: ["ملف تعريف الارتباط","حفظ بيانات الجلس�
   - يُخزَّن معرّف الجلسة في cookie.
 - Mark the cookie as `HttpOnly` so scripts cannot read it.
   - اجعل الـ cookie من نوع `HttpOnly` حتى لا تقرأه السكربتات.
+- The site stores the language choice in a cookie, so it stays after you reload the page.
+  - يخزّن الموقع اختيار اللغة في cookie، فيبقى بعد إعادة تحميل الصفحة.
 
 ## خطأ شائع
 

@@ -2,7 +2,7 @@
 id: tech-debt
 category: english
 level: intermediate
-related: [refactoring, ship-it]
+related: [refactoring, ship-it, work-around]
 term: "Tech debt"
 pronunciation: "TEK DET"
 keywords: ["shortcuts in code development","fixing bad code later","code quality shortcuts","deferred refactoring work","hurried code compromises","technical debt","tek det","code debt","accumulated code issues","pay off bad code","الدين التقني","تكلفة الاختصارات البرمجية","إصلاح الكود لاحقا","مشاكل الكود المتراكمة","تأجيل إعادة الهيكلة","حلول برمجية سريعة ومؤقتة","الديون البرمجية","تِك ديت"]

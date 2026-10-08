@@ -4,6 +4,7 @@ category: git
 level: intermediate
 related: [commit, rollback]
 term: "Git Reset"
+translation: "التراجع عن الالتزامات"
 pronunciation: "جيت ريسيت"
 keywords: ["التراجع عن آخر كوميت","حذف التعديلات الأخيرة في جيت","الرجوع إلى كوميت سابق","أمر التراجع في جيت","إلغاء الالتزام الأخير","تنظيف سجل الكوميتات","جيت ريسيت هارد","العودة لنقطة التزام سابقة","إزالة التغييرات المحلية","undo last commit git","move branch pointer back","git reset soft vs hard","delete uncommitted changes git","clean up local commit history","rollback last commit","git reset head","erase last commit safely","rewind git branch"]
 ---

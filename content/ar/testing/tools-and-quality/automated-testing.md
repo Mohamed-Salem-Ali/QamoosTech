@@ -26,6 +26,8 @@ keywords: ["الاختبار البرمجي التلقائي","تشغيل الا
   - أضفنا الاختبار الآلي للتحقق من تدفق الدفع مع كل عملية تثبيت (`commit`).
 - Automated testing helps us catch regressions before code reaches production.
   - يساعدنا الاختبار الآلي في اكتشاف أخطاء التراجع (`regressions`) قبل وصول الكود إلى بيئة الإنتاج.
+- The pipeline runs the automated tests before it deploys to staging.
+  - يشغّل خط النشر الاختبارات الآلية قبل النشر إلى بيئة الاختبار (staging).
 
 ## خطأ شائع
 

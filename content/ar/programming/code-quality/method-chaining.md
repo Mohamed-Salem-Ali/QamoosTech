@@ -25,6 +25,8 @@ keywords: ["استدعاء الدوال تباعاً", "نقطة بعد نقطة
   - الصيغة `items.filter(isActive).map(toName).join(', ')` سلسلة.
 - Break a long chain over several lines for readability.
   - قسّم السلسلة الطويلة على أسطر لسهولة القراءة.
+- The query chains filter, sort and limit, so each step reads from left to right.
+  - يربط الاستعلام عمليات filter وsort وlimit، فتُقرأ كل خطوة من اليسار إلى اليمين.
 
 ## خطأ شائع
 

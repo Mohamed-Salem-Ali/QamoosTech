@@ -20,6 +20,7 @@ Any explanation of how the web works, API docs, and bug reports ("is it a client
 
 - The client sends a request and the server returns JSON.
 - The validation runs on the client, but it must also run on the server.
+- The phone app is the client, and the payments service on our server does the actual charge.
 
 ## Common mistake
 

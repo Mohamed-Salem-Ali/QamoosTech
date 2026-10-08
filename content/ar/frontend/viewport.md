@@ -2,7 +2,7 @@
 id: viewport
 category: frontend
 level: beginner
-related: [responsive-design]
+related: [responsive-design, css-grid, flexbox]
 term: "Viewport"
 translation: "منفذ العرض"
 pronunciation: "فيوبورت"
@@ -10,7 +10,7 @@ keywords: ["المساحة المرئية من صفحة الويب","منفذ ا
 ---
 ## التعريف
 
-المساحة المرئية من صفحة الويب داخل نافذة المتصفح أو على شاشة الهاتف.
+الجزء المرئي من صفحة الويب داخل المتصفح أو على شاشة الهاتف. تستجيب التخطيطات واستعلامات الوسائط لعرضه، لذلك يحدد ما يراه المستخدم فعلاً.
 
 ## أين تسمعه؟
 
@@ -22,6 +22,8 @@ CSS (`vw` و`vh`)، وmedia queries، واختبار الجوال.
   - يجب أن تنطوي القائمة عندما يكون عرض الـ viewport أقل من 600 بكسل.
 - Add the viewport meta tag, or the page will look tiny on phones.
   - أضف وسم viewport وإلا ستبدو الصفحة صغيرة جدًا على الهواتف.
+- The page adapts to the viewport width, so the text stays readable on a phone.
+  - تتكيّف الصفحة مع عرض منطقة العرض (viewport)، فيبقى النص مقروءاً على الهاتف.
 
 ## خطأ شائع
 

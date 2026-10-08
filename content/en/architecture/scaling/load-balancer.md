@@ -3,7 +3,7 @@ id: load-balancer
 category: architecture
 subcategory: scaling
 level: intermediate
-related: [scalability, reverse-proxy, single-point-of-failure]
+related: [scalability, reverse-proxy, single-point-of-failure, round-robin]
 term: "Load Balancer"
 pronunciation: "LOHD BAL-un-ser"
 keywords: ["distribute traffic across servers","prevent server overload","spread incoming requests","balance network traffic","reverse proxy vs load balancer","lod balancer","load balancr","route requests to multiple servers","high availability traffic routing","توزيع الطلبات على الخوادم","موزع الأحمال","منع الضغط على خادم واحد","توزيع حركة المرور","توجيه الطلبات للسيرفرات","لود بالانسر","موازن الأحمال","توزيع الترافيك على السيرفرات"]

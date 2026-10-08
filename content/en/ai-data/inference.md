@@ -20,6 +20,7 @@ In discussions about model deployment, performance optimization, and API usage f
 
 - The model performs inference in milliseconds when a user sends a prompt.
 - We need to optimize our infrastructure to handle high-volume inference requests.
+- Inference runs on the server, so the phone app only sends the prompt and shows the answer.
 
 ## Common mistake
 

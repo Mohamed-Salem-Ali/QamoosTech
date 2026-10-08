@@ -3,7 +3,7 @@ id: pii
 category: security
 subcategory: data-protection
 level: intermediate
-related: [gdpr-deletion, field-level-encryption]
+related: [gdpr-deletion, field-level-encryption, data-masking]
 term: "PII (Personally Identifiable Information)"
 translation: "المعلومات الشخصية المعرِّفة"
 pronunciation: "بي آي آي"

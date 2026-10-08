@@ -26,6 +26,8 @@ keywords: ["دالة تعالج الطلب", "تُرجع استجابة", "ال�
   - تحمّل الـ view الجمعية ثم تعرض الصفحة.
 - Keep business rules out of the view; call a service function.
   - أبقِ قواعد العمل خارج الـ view واستدعِ دالة خدمة.
+- The view checks the user's role before it returns the admin page.
+  - يتحقق العرض (view) من دور المستخدم قبل أن يُرجع صفحة الإدارة.
 
 ## خطأ شائع
 

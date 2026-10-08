@@ -3,7 +3,7 @@ id: oauth
 category: security
 subcategory: authentication-and-access
 level: intermediate
-related: [jwt, authentication-vs-authorization]
+related: [jwt, authentication-vs-authorization, api-key, identity-provider]
 term: "OAuth 2.0"
 translation: "بروتوكول OAuth 2.0"
 pronunciation: "أوأوث تو بوينت أو"

@@ -23,6 +23,8 @@ keywords: ["قائمة أسعار خدمات البرمجة","جدول تكال�
   - قمت بتحديث قائمة الأسعار الخاصة بي لتعكس رسومي الجديدة بالساعة كمطور برمجيات أول.
 - The client asked for a rate card before discussing the backend migration project.
   - طلب العميل قائمة الأسعار قبل مناقشة مشروع ترحيل النظام الخلفي (Backend).
+- The rate card lists the hourly rate for design, development and QA.
+  - تسرد بطاقة الأسعار الأجرة بالساعة للتصميم والتطوير وضمان الجودة.
 
 ## خطأ شائع
 

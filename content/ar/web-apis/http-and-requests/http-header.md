@@ -3,7 +3,7 @@ id: http-header
 category: web-apis
 subcategory: http-and-requests
 level: intermediate
-related: [request-response, cookie]
+related: [request-response, cookie, etag, multipart-form-data]
 term: "HTTP Header"
 translation: "ترويسة HTTP"
 pronunciation: "إتش تي تي بي هيدر"

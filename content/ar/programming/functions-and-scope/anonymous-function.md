@@ -3,11 +3,11 @@ id: anonymous-function
 category: programming
 subcategory: functions-and-scope
 level: beginner
-related: [function, callback]
+related: [function, callback, first-class-function]
 term: "Anonymous Function"
 pronunciation: "أنونيموس فانكشن"
 translation: "دالة مجهولة"
-keywords: ["دالة بدون اسم","تعريف دالة داخلية","دالة استرجاعية مباشرة","دالة بلا اسم","طريقة تعريف دالة مجهولة","استخدام دالة كمعامل","دالة لامبدا","دالة مجهولة الهوية","تعريف دالة داخل متغير","دالة غير مسماة","function without a name","define function inline","pass logic as argument","lambda expression syntax","unnamed function definition","callback function inline","functional programming helper","anonymous function spelling","function assigned to variable","quick function definition"]
+keywords: ["دالة بدون اسم","تعريف دالة داخلية","دالة استرجاعية مباشرة","دالة بلا اسم","طريقة تعريف دالة مجهولة","استخدام دالة كمعامل","دالة لامبدا","دالة مجهولة الهوية","تعريف دالة داخل متغير","دالة غير مسماة","function without a name","define function inline","pass logic as argument","lambda expression syntax","unnamed function definition","callback function inline","functional programming helper","anonymous function","function assigned to variable","quick function definition"]
 ---
 
 ## التعريف
@@ -24,6 +24,8 @@ keywords: ["دالة بدون اسم","تعريف دالة داخلية","دال
   - استخدَمنا دالة مجهولة كدالة استرجاعية (callback) لحدث النقر.
 - The sort method accepts an anonymous function to define custom ordering.
   - تقبل دالة الترتيب دالة مجهولة لتحديد ترتيب مخصص.
+- Pass a function with no name to map: numbers.map(n => n * 2).
+  - مرّر دالة بلا اسم إلى map: numbers.map(n => n * 2).
 
 ## خطأ شائع
 

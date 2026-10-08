@@ -2,7 +2,7 @@
 id: branch
 category: git
 level: beginner
-related: [commit, merge, pull-request]
+related: [commit, merge, pull-request, monorepo, stash]
 term: "Branch"
 pronunciation: "BRANCH"
 keywords: ["separate line of work in git","create a new feature workspace","git branch","isolated development line","work on feature without breaking main","barnch","brnach","git checkout new line","parallel version of code","فرع في جيت","خط عمل منفصل في git","إنشاء فرع جديد للتطوير","برانش","فرع جديد للكود","تطوير ميزة في فرع منفصل","كيف أعمل برانش","فرع العمل الرئيسي"]
@@ -19,6 +19,7 @@ Team workflows ("create a branch for the ticket").
 
 - Create a new branch for the payment feature.
 - Do not push directly to the `main` branch.
+- Rebase the feature branch on main before you open the pull request.
 
 ## Common mistake
 

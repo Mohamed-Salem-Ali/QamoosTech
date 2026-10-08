@@ -2,7 +2,7 @@
 id: responsive-design
 category: frontend
 level: beginner
-related: [viewport, component]
+related: [viewport, component, box-model, media-query, z-index]
 term: "Responsive Design"
 translation: "التصميم المتجاوب"
 pronunciation: "ريسبونسيف ديزاين"
@@ -22,6 +22,8 @@ keywords: ["تصميم موقع للجوال","جعل الصفحة تناسب ج
   - الصفحة متجاوبة بالكامل، لذلك تعمل على الهواتف والأجهزة اللوحية.
 - We design mobile-first and add layout for larger screens later.
   - نصمّم للجوال أولًا ثم نضيف تخطيط الشاشات الأكبر لاحقًا.
+- The table turns into a list on small screens, so nothing gets cut off.
+  - يتحوّل الجدول إلى قائمة على الشاشات الصغيرة، فلا يُقطع أي شيء.
 
 ## خطأ شائع
 

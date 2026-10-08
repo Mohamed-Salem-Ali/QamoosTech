@@ -23,6 +23,8 @@ keywords: ["إطار عمل للواجهات مبني على رياكت","تول
   - بنينا موقع التسويق باستخدام Next.js.
 - Next.js handles routing, so we do not need extra libraries.
   - يتولى Next.js التوجيه، فلا نحتاج مكتبات إضافية.
+- The blog pages in Next.js are generated at build time, so they load quickly.
+  - تُنشأ صفحات المدوّنة في Next.js وقت البناء، فتُحمَّل بسرعة.
 
 ## خطأ شائع
 

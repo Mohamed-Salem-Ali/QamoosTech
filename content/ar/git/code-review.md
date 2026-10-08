@@ -2,7 +2,7 @@
 id: code-review
 category: git
 level: beginner
-related: [pull-request, lgtm]
+related: [pull-request, lgtm, nitpick]
 term: "Code Review"
 translation: "مراجعة الشيفرة"
 pronunciation: "كود ريفيو"
@@ -22,6 +22,8 @@ keywords: ["مراجعة الكود قبل الدمج","طلب فحص الشيف
   - هل تستطيع مراجعة الـ pull request الخاص بي اليوم؟
 - The code review caught a security bug.
   - اكتشفت مراجعة الشيفرة ثغرة أمنية.
+- The code review asked us to add a test for the empty cart case.
+  - طلبت مراجعة الشيفرة إضافة اختبار لحالة السلة الفارغة.
 
 ## خطأ شائع
 

@@ -2,10 +2,10 @@
 id: proposal
 category: freelancing
 level: beginner
-related: [deliverable, estimate, fixed-price-vs-hourly]
+related: [deliverable, estimate, fixed-price-vs-hourly, shoot-down, discovery-call]
 term: "Proposal"
 pronunciation: "pruh-POH-zul"
-keywords: ["freelance project bid","how to pitch clients","client project offer document","writing a project scope","business bid for work","project quote and timeline","freelance job application","professional service offer","pruposal spelling","bidding on freelance jobs","عرض سعر لمشروع","تقديم عرض للعميل","كتابة عرض عمل حر","عرض فني ومالي","كيفية الحصول على مشاريع","نموذج عرض عمل","بروبوزال عمل حر","عرض تقديم خدمات برمجية","مستند عرض المشروع","طريقة مراسلة العملاء"]
+keywords: ["freelance project bid","how to pitch clients","client project offer document","writing a project scope","business bid for work","project quote and timeline","freelance job application","professional service offer","pruposal","bidding on freelance jobs","عرض سعر لمشروع","تقديم عرض للعميل","كتابة عرض عمل حر","عرض فني ومالي","كيفية الحصول على مشاريع","نموذج عرض عمل","بروبوزال عمل حر","عرض تقديم خدمات برمجية","مستند عرض المشروع","طريقة مراسلة العملاء"]
 ---
 ## Definition
 
@@ -19,6 +19,7 @@ Freelance platforms and client leads.
 
 - I sent the client a proposal with three milestones.
 - Your proposal should answer the client's exact problem.
+- The proposal includes a fixed price for phase one and an hourly rate for changes.
 
 ## Common mistake
 

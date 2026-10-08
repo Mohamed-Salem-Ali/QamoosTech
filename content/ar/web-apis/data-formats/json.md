@@ -3,7 +3,7 @@ id: json
 category: web-apis
 subcategory: data-formats
 level: beginner
-related: [json-schema, payload, restful-api]
+related: [json-schema, payload, restful-api, ndjson, markdown, parsing, base64, msgpack]
 tags: [python, javascript]
 aliases: ["javascript object notation", "json body"]
 term: "JSON"
@@ -26,6 +26,8 @@ keywords: ["صيغة نصية للبيانات", "جسم استجابة الـ A
   - تعيد الـ API ملف JSON فيه اسم العضو ورصيده.
 - Parse the JSON body, then validate the fields.
   - حلّل جسم JSON ثم تحقق من الحقول.
+- The response is JSON, so the app parses it into objects before it shows the prices.
+  - الرد بصيغة JSON، لذلك يحوّله التطبيق إلى كائنات قبل أن يعرض الأسعار.
 
 ## خطأ شائع
 

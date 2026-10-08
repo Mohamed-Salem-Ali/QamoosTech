@@ -3,7 +3,7 @@ id: test-coverage
 category: testing
 subcategory: tools-and-quality
 level: intermediate
-related: [unit-test, quality-gate]
+related: [unit-test, quality-gate, mutation-testing]
 term: "Test Coverage"
 translation: "تغطية الاختبارات"
 pronunciation: "تست كفريج"

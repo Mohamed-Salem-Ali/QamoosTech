@@ -2,7 +2,7 @@
 id: llm
 category: ai-data
 level: beginner
-related: [prompt-engineering, token, hallucination]
+related: [prompt-engineering, token, hallucination, multimodal, system-prompt]
 term: "LLM (Large Language Model)"
 translation: "نموذج لغوي كبير"
 pronunciation: "إل إل إم"
@@ -22,6 +22,8 @@ keywords: ["نموذج لغوي كبير","نموذج ذكاء اصطناعي ل
   - نستخدم LLM لتلخيص تذاكر الدعم.
 - The LLM returned a different answer the second time.
   - أعاد الـ LLM إجابة مختلفة في المرة الثانية.
+- The LLM summarized the meeting notes in three bullet points.
+  - لخّص نموذج اللغة الكبير (LLM) ملاحظات الاجتماع في ثلاث نقاط.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["الاحتفاظ بالبيانات بعد توقف البرنامج
   - تضيع القائمة عند إعادة التشغيل لأن لا شيء يحفظها.
 - The persistence layer hides whether we use files or a database.
   - تخفي طبقة الحفظ هل نستخدم ملفات أم قاعدة بيانات.
+- The cart survives a restart because it is saved to the database.
+  - تبقى السلة بعد إعادة التشغيل لأنها محفوظة في قاعدة البيانات.
 
 ## خطأ شائع
 

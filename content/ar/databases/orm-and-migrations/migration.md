@@ -3,7 +3,7 @@ id: migration
 category: databases
 subcategory: orm-and-migrations
 level: intermediate
-related: [schema, orm]
+related: [schema, orm, seed-data]
 term: "Migration"
 translation: "ترحيل (تغيير بنية القاعدة)"
 pronunciation: "مايجريشن"

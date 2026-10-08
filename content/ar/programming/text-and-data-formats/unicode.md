@@ -3,7 +3,7 @@ id: unicode
 category: programming
 subcategory: text-and-data-formats
 level: intermediate
-related: [utf-8, data-type, url-encoding]
+related: [utf-8, data-type, url-encoding, escape-sequence]
 term: "Unicode"
 translation: "يونيكود"
 pronunciation: "يونيكود"

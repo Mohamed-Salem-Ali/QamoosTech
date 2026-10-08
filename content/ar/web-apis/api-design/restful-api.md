@@ -3,7 +3,7 @@ id: restful-api
 category: web-apis
 subcategory: api-design
 level: intermediate
-related: [endpoint, status-code, graphql]
+related: [endpoint, status-code, graphql, crud-operations, sdk]
 term: "RESTful API"
 translation: "واجهة REST"
 pronunciation: "ريستفل إيه بي آي"

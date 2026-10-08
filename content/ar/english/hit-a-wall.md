@@ -4,6 +4,7 @@ category: english
 level: beginner
 related: [blocker]
 term: "Hit a wall"
+translation: "وصلت إلى طريق مسدود"
 pronunciation: "هيت أ وُول"
 keywords: ["الوصول إلى طريق مسدود في البرمجة","تعطلت في المهمة البرمجية","عالق في حل هذه المشكلة","مواجهة عائق تقني معقد","لا يمكنني إحراز أي تقدم","احتاج مساعدة في حل المشكلة","توقفت عن التقدم في الكود","هيت أ وول","مشكلة برمجية وقفت عندها","stuck on a coding problem","cannot make progress on task","hit a technical blocker","need help with this bug","cant figure out this error","blocked on development task","running into technical obstacles","hit a wall","reaching a dead end","stopped by hard bug"]
 ---
@@ -22,6 +23,8 @@ keywords: ["الوصول إلى طريق مسدود في البرمجة","تعط
   - لقد واجهت طريقاً مسدوداً في وحدة المصادقة وأحتاج إلى بعض التوجيه.
 - Let me know if you hit a wall while setting up the development environment.
   - أخبرني إذا واجهت أي عائق أثناء إعداد بيئة التطوير.
+- I hit a wall with the CSS grid, so I asked the team for a second opinion.
+  - وصلت إلى طريق مسدود مع شبكة CSS، فطلبت من الفريق رأياً ثانياً.
 
 ## خطأ شائع
 

@@ -20,6 +20,7 @@ In Slack messages, daily standups, and status update emails.
 
 - Keep me posted on how the deployment goes tonight.
 - Keep me posted if you find any new bugs during testing.
+- Keep me posted on the contract, and tell me as soon as the client replies.
 
 ## Common mistake
 

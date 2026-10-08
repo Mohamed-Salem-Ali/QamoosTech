@@ -20,6 +20,7 @@ In pull request comments, Slack messages, or email threads when seeking input.
 
 - I have updated the documentation; let me know your thoughts.
 - Here is the draft for the new API design, let me know your thoughts.
+- The proposal is attached, so let me know your thoughts before Monday.
 
 ## Common mistake
 

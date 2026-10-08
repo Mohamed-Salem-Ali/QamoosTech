@@ -3,7 +3,7 @@ id: loop
 category: programming
 subcategory: iteration-and-generators
 level: beginner
-related: [recursion, array]
+related: [recursion, array, indentation, enumerate]
 term: "Loop"
 translation: "حلقة تكرارية"
 pronunciation: "لوب"
@@ -23,6 +23,8 @@ keywords: ["تكرار كود برمجي أكثر من مرة","حلقة تكر�
   - استخدم حلقة `for` للمرور على كل الطلبات.
 - The infinite loop froze the server.
   - الحلقة اللانهائية جمّدت الخادم.
+- The loop prints each product name, then stops after the last item.
+  - تطبع الحلقة اسم كل منتج، ثم تتوقف بعد آخر عنصر.
 
 ## خطأ شائع
 

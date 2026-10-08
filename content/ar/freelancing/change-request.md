@@ -2,7 +2,7 @@
 id: change-request
 category: freelancing
 level: intermediate
-related: [scope-creep, estimate]
+related: [scope-creep, estimate, out-of-scope]
 term: "Change Request"
 translation: "طلب تغيير"
 pronunciation: "تشينج ريكويست"

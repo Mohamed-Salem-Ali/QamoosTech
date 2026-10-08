@@ -25,6 +25,8 @@ keywords: ["إضافة المزيد من الأجهزة", "التوسع بالع
   - وسّعنا أفقياً من خادمين إلى عشرة أثناء التخفيضات.
 - Horizontal scaling only works if the servers keep no local state.
   - لا ينجح التوسع الأفقي إلا إذا لم تحتفظ الخوادم بحالة محلية.
+- We added two more app servers behind the load balancer during the holiday traffic.
+  - أضفنا خادمين إضافيين للتطبيق خلف موزّع الأحمال خلال ذروة زيارات العطلة.
 
 ## خطأ شائع
 

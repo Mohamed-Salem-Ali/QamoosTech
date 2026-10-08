@@ -21,6 +21,7 @@ In cloud consoles, billing dashboards, and infrastructure provisioning.
 
 - We hit our storage quota and cannot upload any more files to the bucket.
 - Please check the service quotas in the cloud dashboard before spinning up the cluster.
+- The map service quota resets at midnight, so the feature works again tomorrow.
 
 ## Common mistake
 

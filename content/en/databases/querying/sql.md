@@ -23,6 +23,7 @@ In backend interviews, database discussions, and whenever someone says "write a 
 
 - Run this SQL against the staging database to count the unpaid rows.
 - The ORM generates the SQL for us, but we still read it when debugging.
+- A SQL query selects the unpaid orders and sorts them by due date.
 
 ## Common mistake
 

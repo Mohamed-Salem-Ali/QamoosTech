@@ -22,6 +22,7 @@ In cloud servers (EC2, Azure VMs), VirtualBox and VMware, and "VM or container?"
 
 - We rent a VM in the cloud and install Linux on it.
 - A VM boots in a minute; a container starts in a second.
+- We run the old reporting tool in a virtual machine with its own Windows install.
 
 ## Common mistake
 

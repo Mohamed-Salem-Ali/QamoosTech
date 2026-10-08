@@ -2,7 +2,7 @@
 id: component
 category: frontend
 level: beginner
-related: [props, state]
+related: [props, state, hooks, mdx]
 term: "Component"
 translation: "مكوّن"
 pronunciation: "كومبوننت"
@@ -22,6 +22,8 @@ React وVue وAngular وأنظمة التصميم.
   - لنحوّل بطاقة المنتج إلى مكوّن قابل لإعادة الاستخدام.
 - This component is too big. Split it into smaller ones.
   - هذا المكوّن كبير جدًا. قسّمه إلى مكوّنات أصغر.
+- The header component appears on every page, so we build it once.
+  - يظهر مكوّن الترويسة في كل صفحة، لذلك نبنيه مرة واحدة.
 
 ## خطأ شائع
 

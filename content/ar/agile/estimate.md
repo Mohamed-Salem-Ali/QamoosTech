@@ -2,7 +2,7 @@
 id: estimate
 category: agile
 level: beginner
-related: [deadline, sprint]
+related: [deadline, sprint, capacity, spike, rate-card]
 term: "Estimate"
 translation: "تقدير"
 pronunciation: "إستيميت"
@@ -22,6 +22,8 @@ keywords: ["تخمين الوقت المطلوب للمهمة","حساب الج�
   - تقديري ثلاثة أيام، شاملة الاختبار.
 - Can you give me a rough estimate?
   - هل تستطيع إعطائي تقديرًا تقريبيًا؟
+- Our estimate was five days, but the integration took eight.
+  - كان تقديرنا خمسة أيام، لكن التكامل استغرق ثمانية.
 
 ## خطأ شائع
 

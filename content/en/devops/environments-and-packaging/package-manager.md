@@ -22,6 +22,7 @@ In setup instructions (`npm install`, `pip install`), CI scripts and "which pack
 
 - Run the package manager to install everything from the lock file.
 - Don't mix npm and yarn in the same project.
+- The package manager resolved the version conflict and wrote a new lock file.
 
 ## Common mistake
 

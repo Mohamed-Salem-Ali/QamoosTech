@@ -3,7 +3,7 @@ id: cache
 category: architecture
 subcategory: scaling
 level: beginner
-related: [latency-vs-throughput, scalability]
+related: [latency-vs-throughput, scalability, materialized-view, session-storage]
 term: "Cache"
 translation: "ذاكرة تخزين مؤقت"
 pronunciation: "كاش"
@@ -23,6 +23,8 @@ keywords: ["ذاكرة مؤقتة سريعة","تسريع جلب البيانا�
   - نخزّن قائمة المنتجات مؤقتًا لمدة خمس دقائق.
 - The old data appears because of the cache.
   - تظهر البيانات القديمة بسبب الـ cache.
+- Cache the weather result for ten minutes so we stop calling the paid API.
+  - خزّن نتيجة الطقس مؤقتاً لعشر دقائق حتى نتوقف عن استدعاء الواجهة المدفوعة.
 
 ## خطأ شائع
 

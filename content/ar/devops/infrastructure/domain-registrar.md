@@ -25,6 +25,8 @@ keywords: ["أين تشتري النطاق", "‏GoDaddy وNamecheap", "تجدي
   - اشترينا النطاق من Namecheap ونستضيف الموقع على Vercel.
 - Turn on auto-renew at the registrar so the domain doesn't expire.
   - فعّل التجديد التلقائي عند المسجّل حتى لا ينتهي النطاق.
+- The renewal notice went to the registrar account, so the team never saw it.
+  - أُرسل إشعار تجديد النطاق إلى حساب جهة التسجيل، فلم يره الفريق أبداً.
 
 ## خطأ شائع
 

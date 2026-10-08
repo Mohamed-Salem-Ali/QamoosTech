@@ -3,7 +3,7 @@ id: reverse-proxy
 category: devops
 subcategory: infrastructure
 level: intermediate
-related: [load-balancer, http-header]
+related: [load-balancer, http-header, development-server, forward-proxy]
 term: "Reverse Proxy"
 translation: "وكيل عكسي"
 pronunciation: "ريفيرس بروكسي"

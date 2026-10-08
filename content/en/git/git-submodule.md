@@ -9,7 +9,7 @@ keywords: ["include repo inside another","git nested repository","manage shared 
 ---
 ## Definition
 
-A way to include one Git repository inside another at a specific commit.
+A Git repository stored inside another repository and pinned to one specific commit. It lets a project include another project's code, while the parent repository records which version it uses.
 
 ## Where you hear it
 

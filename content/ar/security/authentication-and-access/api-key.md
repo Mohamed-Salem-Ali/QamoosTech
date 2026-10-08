@@ -24,6 +24,8 @@ keywords: ["رمز سري للوصول للخدمة","مفتاح تفعيل وا
   - ضمّن مفتاح واجهة برمجة التطبيقات في ترويسة الطلب لمصادقة طلبات خدمة الطقس الخاصة بك.
 - Never expose your secret API key in frontend client code.
   - لا تكشف أبداً عن مفتاح واجهة برمجة التطبيقات السري الخاص بك في كود الواجهة الأمامية للعميل.
+- Store the API key in an environment variable, not in the source code.
+  - احفظ مفتاح API في متغيّر بيئة، لا في الشيفرة المصدرية.
 
 ## خطأ شائع
 

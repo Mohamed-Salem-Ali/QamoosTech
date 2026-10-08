@@ -23,6 +23,8 @@ keywords: ["خارطة طريق المشروع","الخط الزمني للمش�
   - شاركنا خارطة طريق المشروع مع العميل قبل توقيع العقد.
 - The project roadmap outlines the deliverables for each quarter.
   - توضح خارطة طريق المشروع المخرجات المطلوبة لكل ربع سنة.
+- The roadmap shows the payment feature in Q3 and the reports in Q4.
+  - تُظهر خريطة الطريق ميزة الدفع في الربع الثالث، والتقارير في الربع الرابع.
 
 ## خطأ شائع
 

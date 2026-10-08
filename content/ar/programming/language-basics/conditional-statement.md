@@ -25,6 +25,8 @@ keywords: ["جملة if else", "نفّذ الكود فقط إذا تحقق ال�
   - أضف فرع `else` للتعامل مع حالة عدم تسجيل دخول المستخدم.
 - The conditional checks the role before showing the button.
   - يفحص الشرط الدور قبل عرض الزر.
+- If the cart is empty, show a message instead of the checkout button.
+  - إذا كانت السلة فارغة، اعرض رسالة بدل زر الدفع.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["ترميز الروابط للانتترنت","تحويل المسا
   - يتم ترميز المسافة في الرابط لتصبح `%20`.
 - You must encode special characters like `&` or `?` if they are part of a query parameter value.
   - يجب عليك ترميز الرموز الخاصة مثل `&` أو `?` إذا كانت جزءاً من قيمة معامل الاستعلام.
+- The search term 'cafe & tea' becomes cafe%20%26%20tea in the URL.
+  - تصبح عبارة البحث 'cafe & tea' في الرابط بالشكل cafe%20%26%20tea.
 
 ## خطأ شائع
 

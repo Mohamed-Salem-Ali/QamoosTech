@@ -21,6 +21,7 @@ During infrastructure planning, migration discussions, or when evaluating securi
 
 - We need to maintain our database on-premise for strict regulatory compliance.
 - The legacy application is hosted on-premise in our local data center.
+- The company keeps its servers on-premise, so its data never leaves the building.
 
 ## Common mistake
 

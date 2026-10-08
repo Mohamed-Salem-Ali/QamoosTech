@@ -23,6 +23,8 @@ keywords: ["الاسم الافتراضي للمستودع البعيد","ما �
   - قم بتشغيل `git push origin main` لإرسال الـ commits المحلية إلى المستودع البعيد.
 - Use `git remote -v` to check the URL associated with origin.
   - استخدم `git remote -v` للتحقق من الرابط المرتبط بـ origin.
+- Push the feature branch to origin, then open the pull request from there.
+  - ادفع فرع الميزة إلى origin، ثم افتح طلب الدمج منه.
 
 ## خطأ شائع
 

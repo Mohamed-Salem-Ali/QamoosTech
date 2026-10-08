@@ -8,7 +8,7 @@ tags: [python]
 aliases: ["args kwargs", "variable-length arguments", "varargs"]
 term: "*args and **kwargs"
 pronunciation: "ARGZ and KWARGZ"
-keywords: ["variable number of arguments", "accept any arguments", "pass extra keyword arguments", "unpack list into arguments", "wrapper functions forward arguments", "def f(*args, **kwargs)", "عدد متغير من الوسائط", "قبول أي وسائط", "تمرير وسائط مسماة إضافية", "فك قائمة إلى وسائط", "الدوال المغلِّفة تمرر الوسائط", "def f(*args, **kwargs)"]
+keywords: ["variable number of arguments", "accept any arguments", "pass extra keyword arguments", "unpack list into arguments", "wrapper functions forward arguments", "def f(*args, **kwargs)", "عدد متغير من الوسائط", "قبول أي وسائط", "تمرير وسائط مسماة إضافية", "فك قائمة إلى وسائط", "الدوال المغلِّفة تمرر الوسائط"]
 ---
 
 ## Definition

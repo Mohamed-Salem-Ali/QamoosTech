@@ -23,6 +23,7 @@ In server-rendered apps (Django, Flask, Rails), email generation, and when pages
 
 - The template loops over the payments and prints a row for each.
 - Every page extends the base template and fills in its block.
+- The template shows the price and the title of each product in the list.
 
 ## Common mistake
 

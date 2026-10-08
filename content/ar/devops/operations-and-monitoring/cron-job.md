@@ -25,6 +25,8 @@ keywords: ["مهمة مجدولة", "تعمل كل ليلة الثانية صب�
   - تُرسل مهمة مجدولة التقرير الأسبوعي كل اثنين الساعة 8.
 - The cron job failed silently because nobody checked its logs.
   - فشلت المهمة المجدولة بصمت لأن أحداً لم يفحص سجلاتها.
+- The cron job deletes expired sessions every night at midnight.
+  - تحذف مهمة cron الجلسات المنتهية كل ليلة عند منتصف الليل.
 
 ## خطأ شائع
 

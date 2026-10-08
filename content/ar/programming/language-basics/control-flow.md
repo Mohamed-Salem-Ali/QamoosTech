@@ -24,6 +24,8 @@ keywords: ["ترتيب تنفيذ الكود", "if else والحلقات وال�
   - من الصعب تتبع تدفق التحكم بسبب كثرة الشروط المتداخلة.
 - An early return simplifies the control flow.
   - الإرجاع المبكر يبسّط تدفق التحكم.
+- A break inside the loop changes the control flow, so the code after the loop runs next.
+  - تغيّر عبارة break داخل الحلقة مسار التنفيذ، فيُنفَّذ الكود الذي بعد الحلقة مباشرة.
 
 ## خطأ شائع
 

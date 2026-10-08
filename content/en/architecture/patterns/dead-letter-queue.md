@@ -3,7 +3,7 @@ id: dead-letter-queue
 category: architecture
 subcategory: patterns
 level: intermediate
-related: [message-queue]
+related: [message-queue, visibility-timeout]
 term: "Dead Letter Queue (DLQ)"
 pronunciation: "DED LET-er kyoo"
 keywords: ["failed message storage","handle unprocessable queue items","where do failed messages go","dlq meaning","message broker error handling","queue for failed tasks","storing rejected messages","debugging failed background jobs","dead letter exchange","retry limit exceeded queue","طابور الرسائل الفاشلة","مكان تخزين الرسائل المتعثرة","معالجة الرسائل التي لم تكتمل","طابور المهام التي فشلت","أين تذهب الرسائل التالفة","طابور الرسائل غير القابلة للمعالجة","طريقة التعامل مع الرسائل المرفوضة","تخزين الرسائل بعد فشل المحاولات","ديد لتر كيو","طابور الأخطاء في المراسلة"]

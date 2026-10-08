@@ -3,7 +3,7 @@ id: fail-fast
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [fail-open-vs-fail-closed, input-validation, graceful-degradation]
+related: [fail-open-vs-fail-closed, input-validation, graceful-degradation, panic]
 tags: [python]
 aliases: ["fail early", "fail loudly"]
 term: "Fail Fast"

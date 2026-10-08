@@ -20,6 +20,7 @@ In daily stand-ups, project management chats, or when a quick check-in is needed
 
 - Let's sync up after the meeting to discuss the new requirements.
 - Can we sync up for ten minutes to go over the project timeline?
+- Let's sync up at 3 PM to agree on the release plan.
 
 ## Common mistake
 

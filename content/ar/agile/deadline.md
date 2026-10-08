@@ -2,11 +2,12 @@
 id: deadline
 category: agile
 level: beginner
-related: [estimate, milestone]
+featured: 5
+related: [estimate, milestone, timeline, bandwidth, crunch-time]
 term: "Deadline"
 translation: "موعد نهائي"
 pronunciation: "ديدلاين"
-keywords: ["تاريخ تسليم المشروع","آخر موعد للتسليم","موعد الانتهاء من العمل","تاريخ استحقاق المهام","متى ينتهي العمل","الحد الزمني للمشروع","ديدلاين المشروع","تاريخ الإنجاز المطلوب","موعد التسليم النهائي","تاريخ انتهاء المهمة","final delivery date","project completion date","due date for tasks","when is this finished","last day for submission","time limit for project","target completion date","firm date for delivery","dedline spelling","project schedule constraint"]
+keywords: ["تاريخ تسليم المشروع","آخر موعد للتسليم","موعد الانتهاء من العمل","تاريخ استحقاق المهام","متى ينتهي العمل","الحد الزمني للمشروع","ديدلاين المشروع","تاريخ الإنجاز المطلوب","موعد التسليم النهائي","تاريخ انتهاء المهمة","final delivery date","project completion date","due date for tasks","when is this finished","last day for submission","time limit for project","target completion date","firm date for delivery","dedline","project schedule constraint"]
 ---
 ## التعريف
 
@@ -22,6 +23,8 @@ keywords: ["تاريخ تسليم المشروع","آخر موعد للتسلي�
   - الموعد النهائي للنسخة الأولى هو الجمعة.
 - We might miss the deadline, so let me explain why.
   - قد نفوّت الموعد النهائي، فدعني أشرح السبب.
+- The deadline moved to next month after the client sent the new requirements.
+  - انتقل الموعد النهائي إلى الشهر القادم بعد أن أرسل العميل المتطلبات الجديدة.
 
 ## خطأ شائع
 

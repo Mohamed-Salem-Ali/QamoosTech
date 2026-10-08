@@ -3,7 +3,7 @@ id: object
 category: programming
 subcategory: object-oriented
 level: beginner
-related: [class, array]
+related: [class, array, shallow-vs-deep-copy, destructuring]
 term: "Object"
 pronunciation: "OB-jekt"
 keywords: ["data structure with properties","instance of a class","key value pair container","grouping data and methods","javascript object literal","python dictionary equivalent","json data structure","entity with state and behavior","programming object definition","data object in memory","حاوية بيانات وخصائص","نسخة من صنف برمجي","تجميع البيانات في كائن","هيكل بيانات مفتاح وقيمة","تعريف الكائن في البرمجة","ما هو الأوبجكت","مجموعة بيانات مترابطة","كائن برمجي في الذاكرة","الفرق بين الكائن والصنف","بيانات على شكل كائن"]
@@ -20,6 +20,7 @@ JavaScript and Python basics, JSON payloads, and object-oriented design.
 
 - Send the user as a JSON object with `name` and `email`.
 - Each `Order` object has a `total` property.
+- The order object holds the items, the customer and the total in one place.
 
 ## Common mistake
 

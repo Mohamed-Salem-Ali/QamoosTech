@@ -21,6 +21,7 @@ During CI/CD pipeline setups, database migrations, and release planning meetings
 
 - Let's do a dry run of the migration script on the staging database before touching production.
 - The deployment tool supports a dry run flag so we can preview the changes.
+- The dry run lists the twelve files it would delete, so we can check them first.
 
 ## Common mistake
 

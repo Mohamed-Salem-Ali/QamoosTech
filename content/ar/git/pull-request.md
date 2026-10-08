@@ -2,7 +2,8 @@
 id: pull-request
 category: git
 level: beginner
-related: [branch, code-review, merge]
+featured: 2
+related: [branch, code-review, merge, protected-branch]
 term: "Pull Request (PR)"
 translation: "طلب دمج"
 pronunciation: "بول ريكويست"
@@ -22,6 +23,8 @@ keywords: ["طلب دمج الكود","ارسال الكود للمراجعة","
   - فتحتُ pull request لإصلاح تسجيل الدخول.
 - Please keep the PR small so it is easy to review.
   - من فضلك اجعل الـ PR صغيرًا ليسهل مراجعته.
+- The pull request has two approvals, so the team can merge it today.
+  - حصل طلب الدمج على موافقتين، لذلك يستطيع الفريق دمجه اليوم.
 
 ## خطأ شائع
 

@@ -5,6 +5,7 @@ subcategory: http-and-requests
 level: intermediate
 related: [http-header, payload, request-response]
 term: "Multipart Form Data"
+translation: "بيانات النموذج متعددة الأجزاء"
 pronunciation: "مولتي-بارت فورم داتا"
 keywords: ["رفع الملفات عبر طلبات الويب","إرسال الصور مع البيانات النصية","طريقة رفع الملفات في الـ API","إرسال البيانات الثنائية في النماذج","تنسيق إرسال الملفات في HTTP","التعامل مع حقول رفع الملفات","بديل إرسال البيانات بصيغة JSON","إرسال مرفقات مع نموذج ويب","ترويسة نوع المحتوى للملفات","رفع المستندات عبر واجهة البرمجة","send files via http request","uploading binary data in forms","how to send images to api","content type for file uploads","sending text and files together","multipart form data alternative","handling file input in post","http request body with attachments","multipart content type header","uploading documents via web form"]
 ---

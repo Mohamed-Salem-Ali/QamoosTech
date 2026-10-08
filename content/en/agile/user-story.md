@@ -2,7 +2,7 @@
 id: user-story
 category: agile
 level: beginner
-related: [backlog, mvp]
+related: [backlog, mvp, definition-of-done, story-points, acceptance-test]
 term: "User Story"
 pronunciation: "YOO-zer STOR-ee"
 keywords: ["agile feature description","as a user i want","simple requirement format","user needs documentation","writing agile requirements","user centered feature request","yoozer storee","agile backlog item","short feature narrative","defining product features","user story format","customer goal description","وصف ميزات النظام","بصفتي مستخدم أريد","كتابة متطلبات أجايل","تحديد احتياجات المستخدم","يوزر ستوري","قصة المستخدم","شرح الميزة من وجهة نظر المستخدم","صيغة طلب الميزات","متطلبات البرمجيات البسيطة","وصف مختصر لطلب العميل","تخطيط المهام البرمجية","سرد احتياجات المستخدم"]
@@ -19,6 +19,7 @@ Planning and requirement discussions.
 
 - As a customer, I want to reset my password, so that I can log in again.
 - This user story is too big. Let's split it.
+- As an accountant, I want to export invoices to Excel, so that I can close the month faster.
 
 ## Common mistake
 

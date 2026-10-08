@@ -3,7 +3,7 @@ id: edge-case
 category: testing
 subcategory: test-design
 level: intermediate
-related: [unit-test, bug]
+related: [unit-test, bug, happy-path]
 term: "Edge Case"
 translation: "حالة حدّية"
 pronunciation: "إيدج كيس"

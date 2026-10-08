@@ -3,7 +3,7 @@ id: bug
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [debugging, regression]
+related: [debugging, regression, show-stopper, false-negative]
 term: "Bug"
 translation: "خطأ برمجي"
 pronunciation: "باج"
@@ -23,6 +23,8 @@ keywords: ["خطأ في الشيفرة البرمجية","مشكلة في عمل
   - وجدتُ bug في صفحة الدفع.
 - Please include steps to reproduce the bug.
   - من فضلك أرفق خطوات إعادة إنتاج الـ bug.
+- The login button does nothing on Safari, and that is a bug.
+  - زر تسجيل الدخول لا يفعل شيئاً على Safari، وهذا خلل.
 
 ## خطأ شائع
 
@@ -30,7 +32,7 @@ keywords: ["خطأ في الشيفرة البرمجية","مشكلة في عمل
 
 ## لا تخلطه مع
 
-الـ bug هو خلل غير مقصود في الشيفرة، بينما الـ feature request هو اقتراح لإضافة وظيفة جديدة لا يمتلكها البرنامج حالياً.
+الخلل (bug) سلوك خاطئ في شيفرة كان يُفترض أن تعمل. أما الميزة الناقصة فليست خللاً، بل طلب لشيء لم يَعِد به البرنامج أصلاً.
 
 ## قلها في العمل
 

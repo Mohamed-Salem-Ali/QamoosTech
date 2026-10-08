@@ -8,7 +8,7 @@ tags: [typescript, python]
 aliases: ["generic", "generic type"]
 term: "Generics"
 pronunciation: "juh-NAIR-iks"
-keywords: ["code that works for any type", "list of t", "keep type consistent", "typevar", "reusable typed container", "list<string> in java", "كود يعمل مع أي نوع", "قائمة من النوع T", "إبقاء النوع متسقاً", "TypeVar", "حاوية مكتوبة الأنواع قابلة لإعادة الاستخدام", "list<string> في Java"]
+keywords: ["code that works for any type", "list of t", "keep type consistent", "typevar", "reusable typed container", "list<string> in java", "كود يعمل مع أي نوع", "قائمة من النوع T", "إبقاء النوع متسقاً", "حاوية مكتوبة الأنواع قابلة لإعادة الاستخدام", "list<string> في Java"]
 ---
 
 ## Definition

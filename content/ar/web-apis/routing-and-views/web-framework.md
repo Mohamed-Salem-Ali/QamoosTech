@@ -3,7 +3,7 @@ id: web-framework
 category: web-apis
 subcategory: routing-and-views
 level: beginner
-related: [view, url-routing, middleware]
+related: [view, url-routing, middleware, project-vs-app]
 tags: [python, django]
 aliases: ["batteries included", "microframework", "full-stack framework"]
 term: "Web Framework"
@@ -26,6 +26,8 @@ keywords: ["مجموعة أدوات لتطبيقات الويب", "‏Django وF
   - ‏Django إطار متكامل بينما Flask إطار صغير.
 - The framework calls your code, not the other way around.
   - الإطار هو من يستدعي كودك وليس العكس.
+- The web framework gives us the login, sessions and admin pages out of the box.
+  - يوفّر إطار الويب تسجيل الدخول والجلسات وصفحات الإدارة جاهزة.
 
 ## خطأ شائع
 

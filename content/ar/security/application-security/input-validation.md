@@ -3,7 +3,7 @@ id: input-validation
 category: security
 subcategory: application-security
 level: beginner
-related: [fail-fast, sql-injection, xss]
+related: [fail-fast, sql-injection, xss, taint-analysis]
 tags: [python]
 aliases: ["data validation", "validate input", "user input validation"]
 term: "Input Validation"
@@ -26,6 +26,8 @@ keywords: ["فحص البيانات قبل قبولها", "رفض المدخلا
   - تحقق أن المبلغ رقم موجب قبل حفظه.
 - Client-side checks are for convenience; the server must validate again.
   - فحوص العميل للراحة فقط؛ ويجب أن يتحقق الخادم مرة أخرى.
+- The form rejects a birth date in the future before it reaches the server.
+  - يرفض النموذج تاريخ ميلاد في المستقبل قبل أن يصل إلى الخادم.
 
 ## خطأ شائع
 

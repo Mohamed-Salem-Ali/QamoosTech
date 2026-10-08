@@ -5,6 +5,7 @@ subcategory: transactions
 level: intermediate
 related: [database, transaction]
 term: "ACID"
+translation: "خصائص المعاملات الأربع"
 pronunciation: "آسيد"
 keywords: ["ضمان سلامة معاملات قاعدة البيانات","خصائص الذرية والاتساق والعزل والمتانة","منع تحديثات البيانات الجزئية","معايير موثوقية قواعد البيانات","كيف تضمن اتساق البيانات","مفهوم أسيد في قواعد البيانات","ضمانات المعاملات المالية في البرمجة","خصائص قواعد البيانات العلائقية","الفرق بين قواعد البيانات الموثوقة","معايير الامتثال في قواعد البيانات","database transaction reliability","ensure data integrity in db","atomic consistent isolated durable","prevent partial database updates","guarantee reliable database operations","acid properties explained","sql transaction safety","database compliance standards","acidity database concept","data consistency in transactions"]
 ---

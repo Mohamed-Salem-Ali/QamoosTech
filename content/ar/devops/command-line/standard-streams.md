@@ -26,6 +26,8 @@ keywords: ["مجرى النتائج ومجرى الأخطاء", "الطباعة 
   - اطبع النتائج إلى stdout والأخطاء إلى stderr.
 - Redirecting stdout to a file still shows the errors on screen.
   - إعادة توجيه stdout إلى ملف تُبقي الأخطاء ظاهرة على الشاشة.
+- The script writes the report to stdout, so you can pipe it into a file.
+  - يكتب السكربت التقرير إلى stdout، فتستطيع توجيهه إلى ملف.
 
 ## خطأ شائع
 

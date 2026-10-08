@@ -5,6 +5,7 @@ subcategory: application-security
 level: beginner
 related: [vulnerability, single-point-of-failure, load-balancer]
 term: "DDoS Attack"
+translation: "هجوم حجب الخدمة الموزّع"
 pronunciation: "دي دوس أتاك"
 keywords: ["هجوم حجب الخدمة الموزع","إيقاف تدفق المرور الخبيث","حماية الخادم من الفيضان","تعطيل الموقع بزيادة الطلبات","منع هجمات إغراق السيرفر","هجمات حجب الخدمة","ايقاف توقف السيرفر المفاجئ","حماية التطبيق من الضغط العالي","دي دوس أتاك","stop malicious traffic flood","prevent server overload attacks","distributed denial of service","protect api from flooding","deedos attack","server down high traffic","mitigate traffic surge attack","handle malicious traffic flood","block distributed traffic flood","ddos protection configuration"]
 ---
@@ -23,6 +24,8 @@ keywords: ["هجوم حجب الخدمة الموزع","إيقاف تدفق ال
   - توقف الموقع عن العمل بعد تعرض نقطة النهاية الرئيسية لواجهة البرمجة لهجوم DDoS ضخم.
 - We implemented a traffic filtering service to mitigate potential DDoS attacks.
   - قمنا بتنفيذ خدمة تصفية حركة المرور للحد من هجمات DDoS المحتملة.
+- The CDN absorbed most of the DDoS traffic, so the origin server stayed up.
+  - استوعبت شبكة CDN معظم حركة هجوم DDoS، فبقي الخادم الأصلي يعمل.
 
 ## خطأ شائع
 

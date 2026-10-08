@@ -3,7 +3,7 @@ id: least-privilege
 category: security
 subcategory: authentication-and-access
 level: intermediate
-related: [rbac, authentication-vs-authorization, vulnerability]
+related: [rbac, authentication-vs-authorization, vulnerability, trust-boundary]
 term: "Least Privilege"
 pronunciation: "ليست بريفيليج"
 translation: "مبدأ الحد الأدنى من الصلاحيات"

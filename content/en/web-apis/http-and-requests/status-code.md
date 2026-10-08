@@ -20,6 +20,7 @@ Debugging APIs, logs, and error reports.
 
 - The API returns 401 when the token is missing.
 - A 500 means the bug is on the server, not in your request.
+- The API returns 201 after it creates the new order.
 
 ## Common mistake
 

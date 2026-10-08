@@ -25,6 +25,8 @@ keywords: ["المتغير ليس له نوع ثابت", "فحص الأنواع 
   - في لغة ذات تنميط ديناميكي يمكنك تخزين رقم في متغير ثم تخزين نص فيه لاحقاً.
 - Dynamic typing makes prototypes quick to write, but some mistakes only appear at runtime.
   - يجعل التنميط الديناميكي كتابة النماذج الأولية سريعة، لكن بعض الأخطاء لا تظهر إلا وقت التشغيل.
+- In Python, the same variable can hold a number first and a list later.
+  - في Python يمكن أن يحمل المتغير نفسه رقماً أولاً، ثم قائمة لاحقاً.
 
 ## خطأ شائع
 

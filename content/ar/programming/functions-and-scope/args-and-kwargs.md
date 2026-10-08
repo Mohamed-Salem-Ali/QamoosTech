@@ -9,7 +9,7 @@ aliases: ["args kwargs", "variable-length arguments", "varargs"]
 term: "*args and **kwargs"
 translation: "الوسائط المتغيرة"
 pronunciation: "أرجز آند كواورجز"
-keywords: ["عدد متغير من الوسائط", "قبول أي وسائط", "تمرير وسائط مسماة إضافية", "فك قائمة إلى وسائط", "الدوال المغلِّفة تمرر الوسائط", "def f(*args, **kwargs)", "variable number of arguments", "accept any arguments", "pass extra keyword arguments", "unpack list into arguments", "wrapper functions forward arguments", "def f(*args, **kwargs)"]
+keywords: ["عدد متغير من الوسائط", "قبول أي وسائط", "تمرير وسائط مسماة إضافية", "فك قائمة إلى وسائط", "الدوال المغلِّفة تمرر الوسائط", "def f(*args, **kwargs)", "variable number of arguments", "accept any arguments", "pass extra keyword arguments", "unpack list into arguments", "wrapper functions forward arguments"]
 ---
 
 ## التعريف

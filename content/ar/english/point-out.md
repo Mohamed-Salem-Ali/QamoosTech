@@ -2,7 +2,7 @@
 id: point-out
 category: english
 level: beginner
-related: [code-review]
+related: [code-review, flag-an-issue]
 term: "Point out"
 translation: "يشير إلى / ينبّه"
 pronunciation: "بوينت أوت"
@@ -22,6 +22,8 @@ keywords: ["لفت الانتباه إلى مشكلة","التنبيه إلى خ
   - شكرًا على التنبيه إلى التحقق المفقود.
 - I'd like to point out that this query has no index.
   - أودّ أن أنبّه إلى أن هذا الاستعلام بلا index.
+- I want to point out that the discount applies twice in the cart.
+  - أودّ أن أنبّه إلى أن الخصم يُطبَّق مرتين في السلة.
 
 ## خطأ شائع
 

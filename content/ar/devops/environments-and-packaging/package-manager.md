@@ -25,6 +25,8 @@ keywords: ["‏npm وyarn وpnpm", "‏pip وpoetry وuv", "تثبيت المك�
   - شغّل مدير الحزم لتثبيت كل شيء من ملف القفل.
 - Don't mix npm and yarn in the same project.
   - لا تخلط npm وyarn في المشروع نفسه.
+- The package manager resolved the version conflict and wrote a new lock file.
+  - حلّ مدير الحزم تعارض الإصدارات، وكتب ملف القفل (lock file) الجديد.
 
 ## خطأ شائع
 

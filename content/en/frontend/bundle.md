@@ -2,7 +2,7 @@
 id: bundle
 category: frontend
 level: intermediate
-related: [rendering]
+related: [rendering, code-splitting]
 term: "Bundle"
 pronunciation: "BUN-dul"
 keywords: ["javascript and css build output","final compiled frontend files","reduce total build size","analyze frontend dependencies size","optimize initial load time","javascript bundle size","bundled code for browser","code splitting output files","bandle file size","frontend asset compilation","حجم ملفات الجافاسكريبت النهائية","تقليل حجم ملفات المتصفح","ملفات البناء النهائية للموقع","تحسين وقت التحميل الأولي","حزمة ملفات الجافاسكريبت","تقسيم كود الجافاسكريبت","ملفات الـ frontend النهائية","فحص حجم مكتبات الواجهة الأمامية"]

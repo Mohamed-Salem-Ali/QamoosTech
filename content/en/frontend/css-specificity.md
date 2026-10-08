@@ -2,7 +2,8 @@
 id: css-specificity
 category: frontend
 level: beginner
-related: []
+related: [design-system]
+tags: [css]
 term: "CSS Specificity"
 pronunciation: "SEE-ESS spess-ih-FISS-ih-tee"
 keywords: ["css selector priority order","override existing framework styles","why is my css not applying","css weights and selectors","element selector ranking algorithm","fix overridden css rules","css specificity vs cascade","make css rule more specific","css specificity calculation","ترتيب أولوية محددات سي إس إس","حل مشكلة عدم تطبيق التنسيقات","تجاوز تنسيقات ملفات سي إس إس","أولوية الكلاسات والآي دي في سي إس إس","لماذا لا يعمل كود السي إس إس","حساب وزن المحددات في سي إس إس","الفرق بين الأولوية والتسلسل في سي إس إس","توليف أولوية تنسيقات الويب"]
@@ -20,6 +21,7 @@ During UI debugging, when writing custom styles, or when trying to override exis
 
 - The ID selector has higher specificity than the class selector.
 - I had to increase the specificity of my rule to override the default library style.
+- An inline style beats a class rule, because it has higher specificity, unless the rule uses !important.
 
 ## Common mistake
 

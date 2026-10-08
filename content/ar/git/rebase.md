@@ -2,7 +2,7 @@
 id: rebase
 category: git
 level: intermediate
-related: [merge, merge-conflict]
+related: [merge, merge-conflict, detached-head]
 term: "Rebase"
 translation: "إعادة تأسيس الفرع"
 pronunciation: "ريبيس"

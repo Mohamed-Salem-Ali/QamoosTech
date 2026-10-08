@@ -4,6 +4,7 @@ category: git
 level: beginner
 related: [merge, pull-request, commit]
 term: "Squash and Merge"
+translation: "الدمج المضغوط"
 pronunciation: "سكواش آند ميرج"
 keywords: ["دمج الالتزامات في التزام واحد","تنظيف سجل الالتزامات في جيت","دمج التعديلات كالتزام واحد","تقليص الالتزامات عند الدمج","اختصار تاريخ الفرع البرمجي","دمج التغييرات في commit واحدة","سكواش آند ميرج","إزالة الالتزامات المؤقتة من السجل","طريقة دمج نظيفة في جيت","تجميع الالتزامات في التزام نهائي","combine commits into one","clean up git history","merge feature branch as single commit","squash commits on merge","simplify pull request history","git squash commits","squash and merge git","remove intermediate commit noise","make pr one commit","squash merge vs rebase"]
 ---
@@ -22,6 +23,8 @@ keywords: ["دمج الالتزامات في التزام واحد","تنظيف 
   - نفضل استخدام Squash and Merge للحفاظ على سجل الفرع الرئيسي نظيفاً.
 - Please perform a Squash and Merge so that each feature appears as one commit.
   - يرجى إجراء Squash and Merge لكي تظهر كل ميزة كـ commit واحدة.
+- The squash and merge turned twelve messy commits into one clear commit on main.
+  - حوّل الدمج بالضغط (squash and merge) اثني عشر إيداعاً فوضوياً إلى إيداع واحد واضح على main.
 
 ## خطأ شائع
 

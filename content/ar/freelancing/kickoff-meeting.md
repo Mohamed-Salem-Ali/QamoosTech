@@ -4,6 +4,7 @@ category: freelancing
 level: beginner
 related: [align-on-scope, milestone, stakeholder]
 term: "Kickoff Meeting"
+translation: "اجتماع الانطلاق"
 pronunciation: "كيك-أوف ميتينج"
 keywords: ["اجتماع بداية المشروع","أول لقاء مع العميل","جلسة انطلاق المشروع","اجتماع التوافق الأول","اجتماع البدء الرسمي","تحديد أهداف المشروع الأولية","جلسة تعريفية بالمشروع","اجتماع كيك أوف","بدء العمل مع العميل","اجتماع التخطيط الأول","first meeting with client","project initiation call","aligning on project goals","starting a new project","initial client onboarding session","project launch meeting","kick off call","project start up meeting","define project scope meeting","kick off session"]
 ---
@@ -22,6 +23,8 @@ keywords: ["اجتماع بداية المشروع","أول لقاء مع الع
   - حددنا موعداً لاجتماع الـ kickoff لمناقشة الجدول الزمني للمشروع والمخرجات.
 - Please prepare the project requirements document for our upcoming kickoff meeting.
   - يرجى تجهيز وثيقة متطلبات المشروع لاجتماع الـ kickoff القادم.
+- At the kickoff meeting, the client agreed to a weekly demo.
+  - اتفق العميل في اجتماع الانطلاق على عرض توضيحي أسبوعي.
 
 ## خطأ شائع
 

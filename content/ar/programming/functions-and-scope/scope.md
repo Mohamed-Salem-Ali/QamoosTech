@@ -3,7 +3,7 @@ id: scope
 category: programming
 subcategory: functions-and-scope
 level: beginner
-related: [variable, function]
+related: [variable, function, closure]
 term: "Scope"
 translation: "النطاق"
 pronunciation: "سكوب"
@@ -23,6 +23,8 @@ keywords: ["مدى رؤية المتغيرات","أين يمكن استخدام 
   - المتغيّر خارج النطاق بعد انتهاء الحلقة.
 - Keep the scope as small as possible.
   - اجعل النطاق أصغر ما يمكن.
+- The helper variable is in scope only inside the if block.
+  - المتغير المساعد داخل النطاق (scope) داخل كتلة if فقط.
 
 ## خطأ شائع
 

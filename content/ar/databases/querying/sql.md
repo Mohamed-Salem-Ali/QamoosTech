@@ -26,6 +26,8 @@ SQL (لغة الاستعلام البنيوية) هي اللغة المستخد�
   - نفّذ هذا الـ SQL على قاعدة بيانات الـ staging لعدّ الصفوف غير المدفوعة.
 - The ORM generates the SQL for us, but we still read it when debugging.
   - يولّد الـ ORM الـ SQL عنا، لكننا نقرؤه عند تصحيح الأخطاء.
+- A SQL query selects the unpaid orders and sorts them by due date.
+  - يختار استعلام SQL الطلبات غير المدفوعة ويرتّبها حسب تاريخ الاستحقاق.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: encryption
 category: security
 subcategory: data-protection
 level: intermediate
-related: [hashing, field-level-encryption]
+related: [hashing, field-level-encryption, encryption-at-rest]
 term: "Encryption"
 translation: "التشفير"
 pronunciation: "إنكريبشن"

@@ -25,6 +25,8 @@ keywords: ["برنامج ينفذ الكود سطراً بسطر", "إصدار �
   - يتوقف المفسِّر ويبلّغ عن الخطأ بمجرد وصوله إلى السطر المعيب.
 - Which interpreter version does your virtual environment use?
   - أي إصدار من المفسِّر تستخدمه بيئتك الافتراضية؟
+- The interpreter reports a syntax error on line 12 before the script runs anything.
+  - يبلّغ المفسّر (interpreter) عن خطأ في بناء الجملة في السطر 12 قبل أن يشغّل السكربت أي شيء.
 
 ## خطأ شائع
 

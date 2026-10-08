@@ -25,6 +25,8 @@ keywords: ["طريقة لتنظيم البيانات", "القائمة والق�
   - اختيار هيكل البيانات المناسب حوّل بحثاً بطيئاً إلى وصول فوري.
 - A set is the best data structure for checking membership quickly.
   - المجموعة (set) هي أفضل هيكل بيانات للتحقق السريع من الانتماء.
+- A hash table is a data structure that gives fast lookups by key.
+  - جدول التجزئة (hash table) بنية بيانات تتيح البحث السريع بالمفتاح.
 
 ## خطأ شائع
 

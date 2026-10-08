@@ -21,6 +21,7 @@ When building APIs, handling search queries, or constructing dynamic links in we
 
 - The space character in a URL is encoded as `%20`.
 - You must encode special characters like `&` or `?` if they are part of a query parameter value.
+- The search term 'cafe & tea' becomes cafe%20%26%20tea in the URL.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: scalability
 category: architecture
 subcategory: scaling
 level: intermediate
-related: [load-balancer, cache, single-point-of-failure]
+related: [load-balancer, cache, single-point-of-failure, auto-scaling]
 term: "Scalability"
 translation: "قابلية التوسع"
 pronunciation: "سكيلابيليتي"

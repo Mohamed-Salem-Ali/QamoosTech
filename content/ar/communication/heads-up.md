@@ -2,7 +2,7 @@
 id: heads-up
 category: communication
 level: beginner
-related: [follow-up]
+related: [follow-up, cc-someone, out-of-office]
 term: "Heads-up"
 translation: "تنبيه مسبق"
 pronunciation: "هيدز أب"
@@ -22,6 +22,8 @@ keywords: ["تنبيه مسبق","تحذير مبكر للفريق","إشعار 
   - تنبيه سريع: سيتوقف الخادم الساعة 2 صباحًا للصيانة.
 - Thanks for the heads-up!
   - شكرًا على التنبيه!
+- Heads-up: the design review moved to 3 PM today.
+  - تنبيه مسبق: انتقل موعد مراجعة التصميم إلى الثالثة عصراً اليوم.
 
 ## خطأ شائع
 

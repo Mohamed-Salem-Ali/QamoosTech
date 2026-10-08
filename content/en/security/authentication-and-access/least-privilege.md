@@ -3,7 +3,7 @@ id: least-privilege
 category: security
 subcategory: authentication-and-access
 level: intermediate
-related: [rbac, authentication-vs-authorization, vulnerability]
+related: [rbac, authentication-vs-authorization, vulnerability, trust-boundary]
 term: "Least Privilege"
 pronunciation: "LEEST PRIV-ih-lij"
 keywords: ["restrict user permissions to minimum","give service account only needed access","principle of least privilege","limit damage from compromised component","minimum required access security","least privilege model","restrict permissions by default","minimal access control","prevent excessive admin rights","مبدأ الحد الأدنى من الصلاحيات","منح أقل صلاحيات ممكنة","تقييد صلاحيات المستخدمين والخدمات","صلاحيات محدودة للخدمات والعمليات","تحديد صلاحيات الوصول بدقة","ليست بريفيليج","تقليل الصلاحيات لتجنب الاختراق","منع إعطاء صلاحيات إدارية كاملة"]

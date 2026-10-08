@@ -26,6 +26,8 @@ keywords: ["أمر runserver", "خادم محلي لتجربة التطبيق", 
   - شغّل خادم التطوير وافتح localhost:8000.
 - Never expose the development server to the internet.
   - لا تعرّض خادم التطوير إلى الإنترنت أبداً.
+- The development server reloads the page each time you save a file.
+  - يعيد خادم التطوير تحميل الصفحة في كل مرة تحفظ فيها ملفاً.
 
 ## خطأ شائع
 

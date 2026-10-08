@@ -22,6 +22,7 @@ In almost every programming course, design discussions, and interviews that ask 
 
 - We modelled members and payments as objects, each with its own methods.
 - The four pillars of OOP are encapsulation, abstraction, inheritance and polymorphism.
+- The invoice and the payment are classes, and each payment object knows how to validate itself.
 
 ## Common mistake
 

@@ -26,6 +26,8 @@ keywords: ["معمارية متعددة الطبقات","تقسيم التطبي
   - يستخدِم الفريق معمارية متعددة الطبقات لفصل واجهة المستخدم عن منطق العمل الأساسي وقاعدة البيانات.
 - In our N-tier setup, each layer communicates only with the layer immediately below it.
   - في إعدادنا المتعدد الطبقات، تتواصل كل طبقة فقط مع الطبقة التي تليها مباشرة في الأسفل.
+- The API layer calls the service layer, and only the service layer talks to the database.
+  - تستدعي طبقة الواجهة البرمجية طبقة الخدمات، ولا تتحدث مع قاعدة البيانات إلا طبقة الخدمات.
 
 ## خطأ شائع
 

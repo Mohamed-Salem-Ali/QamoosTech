@@ -2,10 +2,10 @@
 id: stakeholder
 category: agile
 level: beginner
-related: [user-story, mvp]
+related: [user-story, mvp, demo, defer-to]
 term: "Stakeholder"
 pronunciation: "STAYK-hohl-der"
-keywords: ["people impacted by project","who cares about project results","everyone involved in the project","business partners and users","anyone affected by software changes","project decision makers","key project participants","stake holder spelling","stakeholders vs shareholders","people to present demo to","who needs to approve requirements","أطراف معنية بالمشروع","من يتأثر بنتائج المشروع","الأشخاص المهتمون بنجاح المشروع","أصحاب المصالح في البرمجيات","من يحضر اجتماعات عرض المشروع","أطراف لها علاقة بالمنتج","ستيك هولدر","الأشخاص المؤثرون في المشروع","المشاركون في اتخاذ القرار","من يراجع متطلبات النظام"]
+keywords: ["people impacted by project","who cares about project results","everyone involved in the project","business partners and users","anyone affected by software changes","project decision makers","key project participants","stake holder","stakeholders vs shareholders","people to present demo to","who needs to approve requirements","أطراف معنية بالمشروع","من يتأثر بنتائج المشروع","الأشخاص المهتمون بنجاح المشروع","أصحاب المصالح في البرمجيات","من يحضر اجتماعات عرض المشروع","أطراف لها علاقة بالمنتج","ستيك هولدر","الأشخاص المؤثرون في المشروع","المشاركون في اتخاذ القرار","من يراجع متطلبات النظام"]
 ---
 ## Definition
 
@@ -19,6 +19,7 @@ Meetings, requirements, and project reports.
 
 - We presented the demo to the stakeholders.
 - Who are the stakeholders for this feature?
+- The product manager, the client and the support lead are the stakeholders for this release.
 
 ## Common mistake
 

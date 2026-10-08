@@ -2,7 +2,7 @@
 id: loop-in
 category: communication
 level: beginner
-related: [heads-up, stakeholder]
+related: [heads-up, stakeholder, in-the-loop, run-it-by]
 term: "Loop in"
 pronunciation: "LOOP IN"
 keywords: ["add someone to email thread","include someone in conversation","keep someone updated on chat","add colleagues to discussion","bring someone into project chat","cc someone on email","keep in the loop","add to email chain","loop someone in","إضافة شخص للمحادثة","إدخال شخص في الموضوع","إشراك شخص في النقاش","وضع شخص في الصورة","إضافة لبريد إلكتروني","إشراك المدير في الإيميل","تحديث شخص بالموضوع","إضافة للتشات","لوب إن"]
@@ -19,6 +19,7 @@ Emails and chat threads.
 
 - I'm looping in Ahmed, who owns the billing service.
 - Please loop me in on the client thread.
+- I will loop in the designer on the new icons once the copy is final.
 
 ## Common mistake
 

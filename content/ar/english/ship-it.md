@@ -22,6 +22,8 @@ keywords: ["أطلقه الآن","انشر التحديث للمستخدمين",
   - الاختبارات نجحت والمراجعة انتهت. أطلقه!
 - Ship it, then improve it in the next version.
   - أطلقه ثم حسّنه في الإصدار القادم.
+- The client approved the design, so we will ship it on Monday.
+  - وافق العميل على التصميم، لذلك سنطلقه يوم الاثنين.
 
 ## خطأ شائع
 

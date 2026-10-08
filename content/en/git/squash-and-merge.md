@@ -20,6 +20,7 @@ In pull request settings, code review discussions, and repository management gui
 
 - We prefer to use Squash and Merge to keep our main branch history clean.
 - Please perform a Squash and Merge so that each feature appears as one commit.
+- The squash and merge turned twelve messy commits into one clear commit on main.
 
 ## Common mistake
 

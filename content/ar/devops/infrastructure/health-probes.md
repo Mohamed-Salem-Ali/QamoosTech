@@ -4,6 +4,7 @@ category: devops
 subcategory: infrastructure
 level: intermediate
 related: [health-check, container-orchestration, heartbeat]
+tags: [kubernetes]
 aliases: ["liveness probe", "readiness probe", "startup probe", "liveness", "readiness"]
 term: "Liveness and Readiness Probes"
 translation: "فحوصات الحيوية والجاهزية"

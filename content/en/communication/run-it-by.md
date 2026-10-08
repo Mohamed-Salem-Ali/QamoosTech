@@ -20,6 +20,7 @@ In team meetings, chat channels, or quick syncs before merging code or changing 
 
 - Let me run this database migration plan by the senior engineer before we apply it.
 - I have a new caching strategy, but I want to run it by the team lead first.
+- I will run the pricing change by the client before we update the contract.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["بيانات لتدريب الذكاء الاصطناعي","تاري
   - فشل النموذج في التعرف على القطط لأن بيانات التدريب كانت تحتوي فقط على صور الكلاب.
 - We need to clean the training data to remove duplicate entries and incorrect labels.
   - نحتاج إلى تنظيف بيانات التدريب لإزالة الإدخالات المكررة والتصنيفات غير الصحيحة.
+- The training data holds only English reviews, so the model struggles with Arabic.
+  - تتضمن بيانات التدريب مراجعات إنجليزية فقط، لذلك يتعثر النموذج مع العربية.
 
 ## خطأ شائع
 

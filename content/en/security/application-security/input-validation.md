@@ -3,7 +3,7 @@ id: input-validation
 category: security
 subcategory: application-security
 level: beginner
-related: [fail-fast, sql-injection, xss]
+related: [fail-fast, sql-injection, xss, taint-analysis]
 tags: [python]
 aliases: ["data validation", "validate input", "user input validation"]
 term: "Input Validation"
@@ -23,6 +23,7 @@ In security checklists, API design, forms, CLI tools, and every bug report about
 
 - Validate the amount is a positive number before saving it.
 - Client-side checks are for convenience; the server must validate again.
+- The form rejects a birth date in the future before it reaches the server.
 
 ## Common mistake
 

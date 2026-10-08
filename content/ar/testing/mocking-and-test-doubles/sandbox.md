@@ -5,6 +5,7 @@ subcategory: mocking-and-test-doubles
 level: beginner
 related: [staging-vs-production, integration-test]
 term: "Sandbox"
+translation: "البيئة المعزولة"
 pronunciation: "ساندبوكس"
 keywords: ["بيئة اختبار معزولة","بيئة تجريبية آمنة","تشغيل الأكواد بشكل آمن","بيئة الفحص للاختبار","اختبار واجهات البرمجة بأمان","بيئة محاكاة الإنتاج","ساندبوكس","بيئة الـ sandbox","isolated testing environment","safe space to test code","test api without real data","experimental development environment","mock environment for testing","test payment gateway safely","run untrusted code safely","sandbox","test environment"]
 ---
@@ -25,6 +26,8 @@ keywords: ["بيئة اختبار معزولة","بيئة تجريبية آمن�
   - نحتاج إلى اختبار تكامل بوابة الدفع في بيئة الـ sandbox أولاً.
 - Please run your migration scripts in the sandbox to ensure they don't corrupt the production database.
   - يرجى تشغيل سكربتات نقل البيانات في الـ sandbox للتأكد من أنها لن تتلف قاعدة بيانات الإنتاج.
+- Test the webhook in the sandbox so real customers do not receive fake orders.
+  - اختبر الـ webhook في بيئة الرمل (sandbox) حتى لا يتلقى العملاء الحقيقيون طلبات وهمية.
 
 ## خطأ شائع
 

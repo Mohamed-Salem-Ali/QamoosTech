@@ -3,7 +3,7 @@ id: json
 category: web-apis
 subcategory: data-formats
 level: beginner
-related: [json-schema, payload, restful-api]
+related: [json-schema, payload, restful-api, ndjson, markdown, parsing, base64, msgpack]
 tags: [python, javascript]
 aliases: ["javascript object notation", "json body"]
 term: "JSON"
@@ -23,6 +23,7 @@ In API docs, request and response bodies, config files, and logs.
 
 - The API returns JSON with the member's name and balance.
 - Parse the JSON body, then validate the fields.
+- The response is JSON, so the app parses it into objects before it shows the prices.
 
 ## Common mistake
 

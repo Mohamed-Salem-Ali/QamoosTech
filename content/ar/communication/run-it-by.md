@@ -23,6 +23,8 @@ keywords: ["استشارة شخص قبل تنفيذ خطة","أخذ رأي ال�
   - دعني أعرض خطة ترحيل قواعد البيانات هذه على المهندس الأول قبل أن نطبقها.
 - I have a new caching strategy, but I want to run it by the team lead first.
   - لدي استراتيجية تخزين مؤقت جديدة، لكني أريد أن أستشير قائد الفريق أولاً.
+- I will run the pricing change by the client before we update the contract.
+  - سأعرض تغيير التسعير على العميل للاستشارة قبل أن نحدّث العقد.
 
 ## خطأ شائع
 

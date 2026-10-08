@@ -8,7 +8,7 @@ tags: [python]
 aliases: ["instance variable", "field", "member variable"]
 term: "Attribute"
 pronunciation: "AT-rih-byoot"
-keywords: ["data stored on an object", "object.field", "instance variable", "member variable", "self.name in python", "field of a class", "بيانات مخزنة على كائن", "object.field", "متغير الكائن", "متغير عضو", "self.name في بايثون", "حقل الصنف"]
+keywords: ["data stored on an object", "object.field", "instance variable", "member variable", "self.name in python", "field of a class", "بيانات مخزنة على كائن", "متغير الكائن", "متغير عضو", "self.name في بايثون", "حقل الصنف"]
 ---
 
 ## Definition
@@ -23,6 +23,7 @@ In object-oriented code, Python and JavaScript tutorials, and errors such as `At
 
 - The member object has two attributes: a name and a number of shares.
 - The error says the object has no attribute called `total`.
+- The user object has an email attribute that the login form reads.
 
 ## Common mistake
 

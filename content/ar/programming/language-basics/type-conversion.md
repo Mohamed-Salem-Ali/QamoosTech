@@ -25,6 +25,8 @@ keywords: ["تحويل نص إلى رقم", "int('5') في بايثون", "تح�
   - تصل المدخلات كنص، لذا حوّلها إلى عدد صحيح قبل الجمع.
 - The conversion fails if the text is not a valid number.
   - يفشل التحويل إذا لم يكن النص رقماً صالحاً.
+- int('42') + 1 gives 43, because the text is converted to a number first.
+  - تعطي int('42') + 1 القيمة 43، لأن النص يُحوَّل إلى رقم أولاً.
 
 ## خطأ شائع
 

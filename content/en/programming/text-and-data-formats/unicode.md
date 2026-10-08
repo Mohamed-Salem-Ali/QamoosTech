@@ -3,7 +3,7 @@ id: unicode
 category: programming
 subcategory: text-and-data-formats
 level: intermediate
-related: [utf-8, data-type, url-encoding]
+related: [utf-8, data-type, url-encoding, escape-sequence]
 term: "Unicode"
 pronunciation: "YOO-ni-kohd"
 keywords: ["characters from every language", "arabic text in code", "emoji in strings", "code point of a character", "character set standard", "garbled text problem", "حروف كل اللغات", "النص العربي في الكود", "الإيموجي في النصوص", "الرمز الرقمي للحرف", "معيار مجموعة الأحرف", "مشكلة ظهور النص مشوهاً"]

@@ -2,7 +2,7 @@
 id: rag
 category: ai-data
 level: intermediate
-related: [embeddings, llm, hallucination]
+related: [embeddings, llm, hallucination, semantic-search]
 term: "RAG (Retrieval-Augmented Generation)"
 translation: "التوليد المعزَّز بالاسترجاع"
 pronunciation: "راج"

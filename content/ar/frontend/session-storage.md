@@ -4,6 +4,7 @@ category: frontend
 level: beginner
 related: [cache]
 term: "Session Storage"
+translation: "تخزين الجلسة"
 pronunciation: "سيشن ستوريج"
 keywords: ["تخزين البيانات مؤقتا في المتصفح","حفظ بيانات النموذج عند التحديث","تخزين مؤقت لعلامة التبويب","ذاكرة المتصفح للجلسة الواحدة","الفرق بين التخزين المحلي والمؤقت","حفظ حالة المستخدم في المتصفح","تخزين بيانات الجلسة الحالية","بيانات المتصفح التي تحذف بالإغلاق","سيشن ستوريج","تخزين قيم ومفاتيح مؤقتة","temporary browser data storage","save form state on refresh","browser tab specific memory","store data until tab closes","difference between local and session","temporary key value pairs","frontend short term storage","web storage for current session","session storage vs local storage","keep data during page reload"]
 ---
@@ -22,6 +23,8 @@ keywords: ["تخزين البيانات مؤقتا في المتصفح","حفظ 
   - استخدم Session Storage لحفظ الخطوة الحالية في نموذج متعدد الصفحات حتى لا يفقد المستخدم تقدمه إذا قام بتحديث الصفحة.
 - We store the temporary filter settings in Session Storage so they reset automatically when the user closes the tab.
   - نقوم بتخزين إعدادات الفلترة المؤقتة في Session Storage لكي تُمسح تلقائياً عند إغلاق المستخدم لعلامة التبويب.
+- The wizard keeps its current step in session storage, so a refresh stays on the same page.
+  - يحفظ المعالج خطوته الحالية في session storage، فيبقى على الصفحة نفسها عند التحديث.
 
 ## خطأ شائع
 

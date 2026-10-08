@@ -3,7 +3,7 @@ id: failover
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [high-availability, primary-replica, single-point-of-failure]
+related: [high-availability, primary-replica, single-point-of-failure, read-replica]
 aliases: ["failback", "automatic failover"]
 term: "Failover"
 translation: "التحويل عند الفشل"

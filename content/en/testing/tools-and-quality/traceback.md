@@ -3,7 +3,7 @@ id: traceback
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [call-stack, debugging, bug]
+related: [call-stack, debugging, bug, panic, custom-exception]
 tags: [python]
 aliases: ["stack trace", "stacktrace", "error trace"]
 term: "Traceback"
@@ -23,6 +23,7 @@ When debugging, in bug reports ("paste the full traceback"), error monitoring to
 
 - Paste the full traceback, not just the last line.
 - The traceback points at line 42 in `payments.py`.
+- The traceback shows the function that called the failing one, so you can work back up the chain.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: constructor
 category: programming
 subcategory: object-oriented
 level: beginner
-related: [class, object]
+related: [class, object, class-method-vs-static-method]
 term: "Constructor"
 pronunciation: "kun-STRUK-ter"
 keywords: ["initialize new object instance","class initialization method","set initial property values","create object from class","construktor","constractor","init method in class","object instantiation function","run automatically on creation","دالة تهيئة الكائن","إنشاء كائن جديد من الفئة","دالة البناء في البرمجة","تهيئة القيم الأولية للفئة","المُنشئ","كونستركتور","دالة الإنشاء التلقائية","تعيين خصائص الكائن الأولية"]
@@ -21,6 +21,7 @@ In object-oriented programming discussions, when talking about class initializat
 
 - The `User` class has a constructor that accepts an email and password.
 - Make sure to call the parent constructor using `super()` inside your subclass.
+- The constructor sets the balance to zero when a new account is created.
 
 ## Common mistake
 

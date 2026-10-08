@@ -20,6 +20,7 @@ Commonly used during the sales process, client onboarding, or when responding to
 
 - I have a discovery call scheduled with a new lead tomorrow morning.
 - We should hold a discovery call to better understand the project scope.
+- On the discovery call, the client explained that they need the app in three weeks.
 
 ## Common mistake
 

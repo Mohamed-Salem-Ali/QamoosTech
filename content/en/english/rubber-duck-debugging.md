@@ -2,7 +2,7 @@
 id: rubber-duck-debugging
 category: english
 level: beginner
-related: [debugging]
+related: [debugging, pair-programming]
 term: "Rubber duck debugging"
 pronunciation: "RUB-er DUK dee-BUG-ing"
 keywords: ["explaining code out loud","finding bugs by talking","duck debugging method","talk to a duck","debugging with a toy","explain code to duck","rubber duck method","talk through your code","debugging technique for beginners","شرح الكود بصوت عال","البطة المطاطية للبرمجة","التصحيح عن طريق الشرح","حل المشاكل بشرح الكود","طريقة البطة المطاطية","التحدث إلى بطة","اكتشاف الأخطاء بالشرح","تصحيح الأخطاء للبطة"]
@@ -19,6 +19,7 @@ Developer culture and pair programming.
 
 - I explained the bug to my rubber duck and found the problem.
 - Try rubber duck debugging before you ask for help.
+- Explaining the function line by line to a rubber duck exposed the wrong variable.
 
 ## Common mistake
 

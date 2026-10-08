@@ -2,7 +2,7 @@
 id: fork
 category: git
 level: beginner
-related: [repository, pull-request]
+related: [repository, pull-request, upstream]
 term: "Fork"
 translation: "نسخة مشتقة (فورك)"
 pronunciation: "فورك"
@@ -22,6 +22,8 @@ keywords: ["نسخ مستودع شخص آخر","عمل نسخة من المشر�
   - أنشئ fork للمستودع وصحح الخطأ المطبعي وافتح pull request.
 - Our company keeps a private fork of the library.
   - تحتفظ شركتنا بـ fork خاص من المكتبة.
+- I forked the library to add the Arabic locale, and the owner later accepted the change.
+  - نسختُ المكتبة (fork) لأضيف الترجمة العربية، ثم قبِل مالكها التعديل لاحقاً.
 
 ## خطأ شائع
 

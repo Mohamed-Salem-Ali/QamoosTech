@@ -19,6 +19,7 @@ Support work and client updates.
 
 - My usual turnaround time is two working days.
 - For urgent bugs, our turnaround time is under 24 hours.
+- Our turnaround time for design revisions is one day, so the client gets feedback fast.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: logging
 category: devops
 subcategory: operations-and-monitoring
 level: beginner
-related: [monitoring, audit-logging]
+related: [monitoring, audit-logging, cron-job, log-level]
 term: "Logging"
 translation: "تسجيل الأحداث"
 pronunciation: "لوجينج"
@@ -23,6 +23,8 @@ keywords: ["تسجيل أحداث النظام","تتبع أخطاء التطب�
   - افحص الـ logs لترى لماذا فشل الطلب.
 - Add more logging around the payment step.
   - أضف مزيدًا من التسجيل حول خطوة الدفع.
+- The logging shows which user started the failed export, so we can follow up.
+  - يُظهر التسجيل المستخدم الذي بدأ عملية التصدير الفاشلة، فنستطيع المتابعة.
 
 ## خطأ شائع
 

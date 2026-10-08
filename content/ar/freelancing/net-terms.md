@@ -4,6 +4,7 @@ category: freelancing
 level: intermediate
 related: [invoice, estimate]
 term: "Net Terms"
+translation: "شروط الدفع الآجل"
 pronunciation: "نيت تيرمز"
 keywords: ["مهلة سداد الفاتورة","فترة السماح للدفع","شروط الدفع المتفق عليها","موعد استحقاق الفاتورة","تحديد فترة دفع المستحقات","ما معنى نيت تيرمز","مدة سداد الفواتير للمستقلين","تأخير دفع مستحقات العمل","فترة تحصيل المبالغ المالية","شرح مصطلح نيت تيرمز","payment deadline for invoices","how many days to pay","invoice payment grace period","net 30 meaning","payment terms definition","freelance payment schedule","client payment window","standard invoice due date","settlement period for contractors","net terms explained"]
 ---

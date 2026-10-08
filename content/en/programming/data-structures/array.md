@@ -3,7 +3,7 @@ id: array
 category: programming
 subcategory: data-structures
 level: beginner
-related: [loop, object]
+related: [loop, object, data-structure]
 aliases: ["list", "python list"]
 term: "Array"
 pronunciation: "uh-RAY"
@@ -21,6 +21,7 @@ Any time you handle lists: users, products, results.
 
 - The API returns an array of users.
 - `items[0]` is the first element of the array.
+- Use push to add an item at the end of the array.
 
 ## Common mistake
 

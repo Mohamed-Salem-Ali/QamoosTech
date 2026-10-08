@@ -25,6 +25,8 @@ keywords: ["معرّف يزيد من تلقاء نفسه", "مفتاح أساس�
   - تعطي قاعدة البيانات كل دفعة جديدة المعرّف التالي تلقائياً.
 - Don't expose sequential ids in public URLs because people can guess them.
   - لا تكشف المعرّفات المتسلسلة في روابط عامة لأن الناس يستطيعون تخمينها.
+- The orders table uses an auto-increment ID, so each new order gets the next number.
+  - يستخدم جدول الطلبات معرّفاً ذا زيادة تلقائية، فيحصل كل طلب جديد على الرقم التالي.
 
 ## خطأ شائع
 

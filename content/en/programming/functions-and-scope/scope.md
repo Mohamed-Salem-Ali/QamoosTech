@@ -3,7 +3,7 @@ id: scope
 category: programming
 subcategory: functions-and-scope
 level: beginner
-related: [variable, function]
+related: [variable, function, closure]
 term: "Scope"
 pronunciation: "SKOHP"
 keywords: ["where variables can be accessed","variable visibility in functions","fix variable is not defined","variable lifespan in code","block level variable access","function variable availability","global vs local variables","code block visibility","skop","variable context","مدى رؤية المتغيرات","أين يمكن استخدام المتغير","النطاق البرمجي للمتغيرات","المتغيرات المحلية والعالمية","حل خطأ متغير غير معرف","مكان ظهور المتغير","حياة المتغير في الكود","سكوب المتغيرات","نطاق المتغير"]
@@ -20,6 +20,7 @@ Debugging "x is not defined" errors and explaining how closures work.
 
 - The variable is out of scope after the loop ends.
 - Keep the scope as small as possible.
+- The helper variable is in scope only inside the if block.
 
 ## Common mistake
 

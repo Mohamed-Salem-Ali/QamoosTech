@@ -3,7 +3,7 @@ id: array
 category: programming
 subcategory: data-structures
 level: beginner
-related: [loop, object]
+related: [loop, object, data-structure]
 aliases: ["list", "python list"]
 term: "Array"
 translation: "مصفوفة"
@@ -24,6 +24,8 @@ keywords: ["قائمة مرتبة من القيم","تخزين عناصر متع
   - الـ API تعيد مصفوفة من المستخدمين.
 - `items[0]` is the first element of the array.
   - `items[0]` هو العنصر الأول في المصفوفة.
+- Use push to add an item at the end of the array.
+  - استخدم push لإضافة عنصر في نهاية المصفوفة.
 
 ## خطأ شائع
 

@@ -2,7 +2,7 @@
 id: tech-debt
 category: english
 level: intermediate
-related: [refactoring, ship-it]
+related: [refactoring, ship-it, work-around]
 term: "Tech debt"
 translation: "الدين التقني"
 pronunciation: "تِك ديت"

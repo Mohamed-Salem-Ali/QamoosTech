@@ -22,6 +22,7 @@ In Python tutorials, string and list manipulation, and interview exercises such 
 
 - `names[1:3]` returns the second and third items.
 - `text[::-1]` reverses the string.
+- The slice items[1:4] takes the second, third and fourth elements.
 
 ## Common mistake
 

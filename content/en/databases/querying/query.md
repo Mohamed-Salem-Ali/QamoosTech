@@ -3,14 +3,14 @@ id: query
 category: databases
 subcategory: querying
 level: beginner
-related: [index, join]
+related: [index, join, jsonb, regular-expression]
 term: "Query"
 pronunciation: "KWEER-ee"
 keywords: ["request data from database","sql statement to read data","find slow database requests","retrieve records from sql","database search command","write sql select statement","optimize slow database code","fetch data from tables","db query","kwery","طلب بيانات من قاعدة البيانات","جلب معلومات من قاعدة البيانات","البحث في قواعد البيانات","كتابة أوامر اس كيو ال","استعلام قاعدة البيانات","تحسين أداء الاستعلامات البطاء","استرجاع السجلات من الجدول","كويري","جملة استعلام sql"]
 ---
 ## Definition
 
-A request to the database to read or change data, usually written in SQL.
+A request to the database to read or change data, usually written in SQL. A query can be simple, such as selecting one column from a table, or complex, with joins and filters. Slow queries are a common cause of slow pages.
 
 ## Where you hear it
 
@@ -20,6 +20,7 @@ Performance work: "this query is slow".
 
 - Run this query to find all unpaid invoices.
 - The query takes 8 seconds because there is no index.
+- The query joins orders with customers, then filters the ones from last month.
 
 ## Common mistake
 

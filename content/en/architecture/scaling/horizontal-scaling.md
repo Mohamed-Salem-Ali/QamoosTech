@@ -22,6 +22,7 @@ In capacity planning, cloud auto-scaling settings, and interviews about growing 
 
 - We scaled out from 2 to 10 servers during the sale.
 - Horizontal scaling only works if the servers keep no local state.
+- We added two more app servers behind the load balancer during the holiday traffic.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: integration-test
 category: testing
 subcategory: test-types
 level: intermediate
-related: [unit-test, ci-cd]
+related: [unit-test, ci-cd, sandbox, end-to-end-test]
 term: "Integration Test"
 translation: "اختبار تكامل"
 pronunciation: "إنتجريشن تست"

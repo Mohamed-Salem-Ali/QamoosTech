@@ -5,6 +5,7 @@ subcategory: data-and-state
 level: beginner
 related: [async-await, callback, message-queue]
 term: "Synchronous vs Asynchronous"
+translation: "المتزامن مقابل غير المتزامن"
 pronunciation: "سينكرونوس فيرسز آي-سينكرونوس"
 keywords: ["الفرق بين العمليات المتزامنة وغير المتزامنة","تنفيذ المهام في الخلفية","كيفية عمل الكود غير المتزامن","منع تجمد واجهة المستخدم","العمليات المتتابعة مقابل المتوازية","شرح مفهوم async و sync","الفرق بين العمليات المباشرة والمؤجلة","معالجة الطلبات دون انتظار الرد","إدارة المهام في البرمجة","تنفيذ العمليات بشكل غير متزامن","tasks running in background","wait for task completion","non blocking vs blocking","execute tasks one after another","async vs sync explained","prevent ui freezing during requests","running tasks in parallel","sequential vs concurrent execution","handling io operations efficiently","make api call non blocking"]
 ---
@@ -23,6 +24,8 @@ keywords: ["الفرق بين العمليات المتزامنة وغير ال�
   - يستخدم التطبيق اتصالاً متزامناً لجلب بيانات المستخدم، مما يؤدي إلى تجميد واجهة المستخدم حتى يصل الرد.
 - We implemented an asynchronous process for sending emails to ensure the user doesn't wait for the mail server.
   - قمنا بتنفيذ عملية غير متزامنة لإرسال رسائل البريد الإلكتروني لضمان عدم انتظار المستخدم لخادم البريد.
+- The checkout waits for the payment, but the confirmation email is sent asynchronously.
+  - ينتظر الدفع حتى ينتهي، لكن رسالة التأكيد تُرسل بشكل غير متزامن.
 
 ## خطأ شائع
 

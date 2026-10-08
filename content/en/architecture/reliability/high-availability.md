@@ -24,6 +24,7 @@ High Availability refers to a system design approach that ensures continuous ope
 
 - We need to configure a load balancer to achieve high availability across our server instances.
 - The database cluster is set up for high availability with automated failover.
+- Two database replicas take over automatically when the primary server fails.
 
 ## Common mistake
 

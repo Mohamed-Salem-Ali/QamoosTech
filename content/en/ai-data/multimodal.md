@@ -20,6 +20,7 @@ In discussions about advanced AI capabilities, research papers, and product anno
 
 - The new model is multimodal, allowing it to analyze both a user's uploaded image and their text prompt.
 - We are testing a multimodal system that can generate audio descriptions from video input.
+- The support bot reads a photo of the broken part and answers in text.
 
 ## Common mistake
 
@@ -27,7 +28,7 @@ Thinking that multimodal means the model just switches between different special
 
 ## Don't confuse with
 
-Multimodal is often mixed up with multitasking, but multimodal refers to processing different data types like text and images, while multitasking means performing multiple different tasks sequentially or concurrently.
+Multimodal means one model handles several kinds of input or output, such as text and images. A model that performs many tasks on text alone is not multimodal.
 
 ## Say it at work
 

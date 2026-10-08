@@ -4,6 +4,7 @@ category: git
 level: intermediate
 related: [merge, branch, commit]
 term: "Fast-forward"
+translation: "الدمج بالتقدّم الخطي"
 pronunciation: "فاست-فورورد"
 keywords: ["دمج بدون انشاء كيمت جديد","تحريك مؤشر الفرع في جت","استراتيجية الدمج السريع","دمج فروع جت بشكل خطي","تحديث الفرع بدون كيمت دمج","الدمج السريع في جيت","تاريخ جيت نظيف بدون كيمت","فاست فورورد ميرج","merge without commit","git fast forward merge","move branch pointer forward","fast forward strategy","clean git history merge","linear git merge","update branch without merge commit","fast-forward merge"]
 ---

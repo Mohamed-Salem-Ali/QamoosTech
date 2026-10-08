@@ -3,7 +3,7 @@ id: aggregation
 category: databases
 subcategory: querying
 level: intermediate
-related: [group-by, query, sql]
+related: [group-by, query, sql, lookup]
 tags: [sql, django]
 aliases: ["aggregate", "aggregate function", "annotation"]
 term: "Aggregation"

@@ -3,7 +3,7 @@ id: staging-vs-production
 category: devops
 subcategory: environments-and-packaging
 level: beginner
-related: [deployment, environment-variable]
+related: [deployment, environment-variable, code-freeze, dry-run]
 term: "Staging vs Production"
 translation: "بيئة التجربة وبيئة الإنتاج"
 pronunciation: "ستيجينج مقابل برودكشن"
@@ -23,6 +23,8 @@ keywords: ["الفرق بين بيئة الاختبار والإنتاج","ما 
   - جرّبه على staging أولًا ثم أصدره إلى production.
 - The bug only happens in production.
   - الخطأ يحدث في production فقط.
+- The migration ran on staging without errors, so we schedule it for production tonight.
+  - نُفّذ الترحيل على بيئة الاختبار دون أخطاء، لذلك نجدول تنفيذه في بيئة الإنتاج الليلة.
 
 ## خطأ شائع
 

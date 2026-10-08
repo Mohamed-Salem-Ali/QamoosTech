@@ -2,7 +2,7 @@
 id: touch-base
 category: communication
 level: intermediate
-related: [circling-back, follow-up]
+related: [circling-back, follow-up, get-on-the-same-page, sync-up]
 term: "Touch base"
 translation: "تواصل سريع"
 pronunciation: "تاتش بيس"

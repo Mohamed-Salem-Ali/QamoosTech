@@ -24,6 +24,8 @@ keywords: ["دالة داخل كلاس","دالة مرتبطة بكائن","وظ
   - كائن المستخدم لديه ميثود لحفظ بياناته في قاعدة البيانات.
 - We added a helper method to calculate the total price of the cart items.
   - أضفنا ميثود مساعدة لحساب السعر الإجمالي لمستلزمات عربة التسوق.
+- The cart object has a total method that returns the sum of its items.
+  - يحتوي كائن السلة على دالة total (method) تعيد مجموع عناصرها.
 
 ## خطأ شائع
 

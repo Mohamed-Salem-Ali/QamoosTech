@@ -3,8 +3,9 @@ id: boilerplate
 category: programming
 subcategory: code-quality
 level: beginner
-related: [refactoring, design-pattern]
+related: [refactoring, design-pattern, scaffolding]
 term: "Boilerplate"
+translation: "الكود المتكرر"
 pronunciation: "بويلر-بليت"
 keywords: ["أكواد برمجية متكررة","كود إعداد المشروع الأساسي","تقليل التكرار في الكود","هيكل الكود المتكرر","ما هو البويلر بليت","أكواد ضرورية لإطار العمل","تكرار الكود بدون تغيير","نمط الكود الموحد","كود التهيئة المتكرر","مفهوم الـ boilerplate برمجياً","repetitive code blocks","standard project setup code","excessive configuration files","boilerplate code definition","reduce code verbosity","template code for frameworks","boilerplate meaning in programming","structural code requirements","common repetitive programming patterns","code that must be included","boilerplate vs code smell"]
 ---
@@ -25,6 +26,8 @@ keywords: ["أكواد برمجية متكررة","كود إعداد المشر�
   - نحتاج إلى تقليل كود الـ boilerplate في نماذج البيانات الخاصة بنا.
 - This framework generates all the necessary boilerplate for a new API endpoint.
   - يقوم إطار العمل هذا بإنشاء كل الـ boilerplate اللازمة لنقطة نهاية (endpoint) جديدة.
+- Every new route repeats the same boilerplate to read the config and connect to the database.
+  - يكرر كل مسار جديد الكود النمطي نفسه لقراءة الإعدادات والاتصال بقاعدة البيانات.
 
 ## خطأ شائع
 

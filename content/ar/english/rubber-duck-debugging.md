@@ -2,7 +2,7 @@
 id: rubber-duck-debugging
 category: english
 level: beginner
-related: [debugging]
+related: [debugging, pair-programming]
 term: "Rubber duck debugging"
 translation: "التصحيح بالشرح لبطة مطاطية"
 pronunciation: "رابر داك ديباجينج"
@@ -22,6 +22,8 @@ keywords: ["شرح الكود بصوت عال","البطة المطاطية لل
   - شرحتُ الخطأ لبطتي المطاطية فاكتشفت المشكلة.
 - Try rubber duck debugging before you ask for help.
   - جرّب التصحيح بالبطة المطاطية قبل أن تطلب المساعدة.
+- Explaining the function line by line to a rubber duck exposed the wrong variable.
+  - شرح الدالة سطراً سطراً لبطة مطاطية، فكشف عن المتغير الخاطئ.
 
 ## خطأ شائع
 

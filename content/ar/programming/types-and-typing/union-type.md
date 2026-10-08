@@ -3,13 +3,13 @@ id: union-type
 category: programming
 subcategory: types-and-typing
 level: intermediate
-related: [type-hint, type-narrowing, null-vs-undefined]
+related: [type-hint, type-narrowing, null-vs-undefined, generics]
 tags: [python, typescript]
 aliases: ["union", "optional type"]
 term: "Union Type"
 translation: "النوع الاتحادي"
 pronunciation: "يونيون تايب"
-keywords: ["قيمة قد تكون من عدة أنواع", "نوع رقم أو نص", "نوع اختياري أو None", "str | None", "النوع a | b", "نوع يقبل القيمة الفارغة", "value can be one of several types", "int or string type", "optional type none", "str | None", "type a | b", "nullable type"]
+keywords: ["قيمة قد تكون من عدة أنواع", "نوع رقم أو نص", "نوع اختياري أو None", "str | None", "النوع a | b", "نوع يقبل القيمة الفارغة", "value can be one of several types", "int or string type", "optional type none", "type a | b", "nullable type"]
 ---
 
 ## التعريف

@@ -3,7 +3,7 @@ id: truthy-vs-falsy
 category: programming
 subcategory: language-basics
 level: beginner
-related: [variable]
+related: [variable, identity-vs-equality, short-circuit-evaluation]
 aliases: ["truthiness"]
 term: "Truthy vs Falsy"
 pronunciation: "TROO-thee vs FAL-see"
@@ -22,6 +22,7 @@ During code reviews, while debugging logic errors in `if` statements, or when le
 
 - An empty string is considered falsy, so the code inside the block will not execute.
 - A non-zero number is considered truthy, allowing it to pass a conditional check.
+- An empty list is falsy, so if not items runs the branch that handles no items.
 
 ## Common mistake
 
@@ -29,7 +30,7 @@ Assuming that only `true` and `false` can be used in conditions; beginners often
 
 ## Don't confuse with
 
-Truthy vs Falsy is often confused with Null vs Undefined; while truthy/falsy refers to how a value behaves in a boolean context, null/undefined refers to the specific absence of a value or an uninitialized state.
+Falsy is not the same as false. Values such as 0, an empty string and null are falsy in a condition, but only the boolean false is false itself.
 
 ## Say it at work
 

@@ -21,8 +21,9 @@ In Python and JavaScript project structure, installation instructions, and depen
 
 ## Examples
 
-- The `gameya` package contains the schedule and money modules.
+- The `billing` package contains the invoice and payment modules.
 - Install the package with pip before running the script.
+- The team published the utils package on PyPI, so other projects can install it.
 
 ## Common mistake
 

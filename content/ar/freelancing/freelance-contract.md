@@ -23,6 +23,8 @@ keywords: ["اتفاقية قانونية بين المستقل والعميل",
   - احرص دائماً على توقيع عقد عمل حر قبل كتابة أي كود لعميل جديد.
 - The freelance contract specifies the hourly rate and the total number of revision rounds.
   - يحدد عقد العمل الحر الأجر بالساعة والعدد الإجمالي لجولات التعديل.
+- The freelance contract says revisions are limited to two rounds.
+  - ينص عقد العمل الحر على أن التعديلات محدودة بجولتين.
 
 ## خطأ شائع
 

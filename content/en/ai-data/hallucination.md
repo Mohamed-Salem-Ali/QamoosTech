@@ -2,7 +2,7 @@
 id: hallucination
 category: ai-data
 level: beginner
-related: [llm, rag]
+related: [llm, rag, grounding]
 term: "Hallucination"
 pronunciation: "huh-loo-sih-NAY-shun"
 keywords: ["ai gives wrong confident answers","model invents fake information","fake sources in llm output","ai generating false code","how to stop ai lying","model fabrication","ai outputs incorrect facts","handling llm errors","halucination","ai hallucinating","الذكاء الاصطناعي يخترع معلومات خاطئة","هلوسة نموذج الذكاء الاصطناعي","اجابات خاطئة من الـ ai","الذكاء الاصطناعي يعطي نتائج وهمية","كيف امنع الذكاء الاصطناعي من الكذب","اختلاق مصادر غير موجودة","اخطاء توليد النصوص","هالوسينيشن"]
@@ -19,6 +19,7 @@ Any discussion about trusting AI output.
 
 - The model hallucinated a function that does not exist in the library.
 - Always check the sources, because the answer may be a hallucination.
+- The chatbot cited a court case that never existed, which is a hallucination.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ In client onboarding, before starting any development work, or when discussing p
 
 - Always sign a freelance contract before writing any code for a new client.
 - The freelance contract specifies the hourly rate and the total number of revision rounds.
+- The freelance contract says revisions are limited to two rounds.
 
 ## Common mistake
 

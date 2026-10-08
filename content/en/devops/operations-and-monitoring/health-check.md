@@ -3,7 +3,7 @@ id: health-check
 category: devops
 subcategory: operations-and-monitoring
 level: intermediate
-related: [monitoring, load-balancer]
+related: [monitoring, load-balancer, health-probes]
 term: "Health Check"
 pronunciation: "HELTH chek"
 keywords: ["check if server is running","endpoint for service status","verify application availability","is the app alive","monitor service readiness","load balancer heartbeat","test if api is up","service liveness probe","check database connection status","healthcheck endpoint","server connectivity test","monitor app health","التأكد من عمل الخادم","فحص جاهزية الخدمة","مسار فحص سلامة التطبيق","اختبار اتصال الخادم","هل التطبيق يعمل حاليا","فحص حالة النظام","نقطة نهاية مراقبة الخدمة","هيلث تشك","التحقق من استجابة الخادم","فحص توفر الخدمة","مراقبة حالة السيرفر","فحص التبعيات والاتصال"]

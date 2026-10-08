@@ -24,6 +24,8 @@ keywords: ["السيناريو الافتراضي للعمل","المسار ال
   - علينا كتابة اختبار للمسار المثالي قبل التعامل مع المدخلات غير الصالحة.
 - The user successfully logs in and views their dashboard on the happy path.
   - يقوم المستخدم بتسجيل الدخول بنجاح وعرض لوحة التحكم الخاصة به في المسار المثالي.
+- The happy path works, but the form still breaks when the phone number is empty.
+  - يعمل المسار المثالي، لكن النموذج ما زال ينكسر حين يكون رقم الهاتف فارغاً.
 
 ## خطأ شائع
 

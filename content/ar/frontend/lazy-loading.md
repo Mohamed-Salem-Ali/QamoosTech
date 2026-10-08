@@ -23,6 +23,8 @@ keywords: ["تحميل الصور عند الحاجة","تأخير تحميل ا
   - قمنا بتطبيق التحميل الكسول لجميع الصور الموجودة أسفل الشاشة لتحسين سرعة التحميل الأولي للصفحة.
 - The application uses lazy loading to fetch heavy dashboard components only when the user visits that specific tab.
   - يستخدم التطبيق التحميل الكسول لجلب مكونات لوحة التحكم الثقيلة فقط عندما يزور المستخدم علامة التبويب المحددة تلك.
+- The gallery loads the next images only when the user scrolls near them.
+  - يُحمّل المعرض الصور التالية فقط حين يقترب المستخدم منها أثناء التمرير.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: infrastructure-as-code
 category: devops
 subcategory: infrastructure
 level: intermediate
-related: [deployment, ci-cd]
+related: [deployment, ci-cd, configuration-drift, instance, provisioning]
 term: "Infrastructure as Code (IaC)"
 translation: "البنية التحتية كشيفرة"
 pronunciation: "إنفراستركتشر آز كود"

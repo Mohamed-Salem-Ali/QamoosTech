@@ -5,6 +5,7 @@ subcategory: api-design
 level: beginner
 related: [restful-api]
 term: "SDK (Software Development Kit)"
+translation: "مجموعة تطوير البرمجيات"
 pronunciation: "إس دي كي"
 keywords: ["أدوات برمجية لبناء التطبيقات","حزمة تطوير البرمجيات","مكتبات لدمج خدمات خارجية","أدوات مساعدة للاتصال بالخدمات","مجموعة أدوات المطورين","كيفية دمج خدمات طرف ثالث","إس دي كي","أدوات رسمية لتطوير البرامج","مكتبات برمجية جاهزة للاستخدام","حزمة أدوات دمج الخدمات","tools to build apps","software development package","library for third party integration","helper code for external services","official development toolkit","how to integrate external services","set of libraries and documentation","prebuilt code for api calls","es-dee-kay","development kit for mobile apps"]
 ---
@@ -23,6 +24,8 @@ keywords: ["أدوات برمجية لبناء التطبيقات","حزمة ت�
   - استخدمنا حزمة تطوير برمجيات خاصة بالدفع لمعالجة مدفوعات بطاقات الائتمان في تطبيقنا.
 - The new mobile SDK makes it easy to track user analytics.
   - حزمة تطوير البرمجيات الجديدة للهواتف تجعل تتبع تحليلات المستخدمين أمراً سهلاً.
+- The SDK for the maps service handles the authentication for us.
+  - تتولى حزمة تطوير البرمجيات (SDK) الخاصة بخدمة الخرائط المصادقة عنّا.
 
 ## خطأ شائع
 

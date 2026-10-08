@@ -3,7 +3,7 @@ id: heartbeat
 category: architecture
 subcategory: reliability
 level: beginner
-related: [health-check, failover, leader-election]
+related: [health-check, failover, leader-election, gossip-protocol, reconnection]
 aliases: ["keepalive", "liveness signal"]
 term: "Heartbeat"
 pronunciation: "HART-beet"
@@ -22,6 +22,7 @@ In clusters, Kubernetes and database replication, job workers, and monitoring al
 
 - A node that misses three heartbeats is marked down.
 - The worker sends a heartbeat every 10 seconds so the job isn't reassigned.
+- The monitor alerts us when the worker's heartbeat stops for more than a minute.
 
 ## Common mistake
 

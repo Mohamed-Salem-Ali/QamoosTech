@@ -24,6 +24,8 @@ keywords: ["ثغرة حقن قواعد البيانات","اختراق قاعد�
   - استغل المهاجم ثغرة حقن إس كيو إل في نموذج تسجيل الدخول لتجاوز المصادقة.
 - Always use parameterized queries to prevent SQL injection in your application.
   - احرص دائماً على استخدام الاستعلامات ذات المعاملات لمنع حقن إس كيو إل في تطبيقك.
+- Escaping quotes by hand is not enough to stop SQL injection; use parameters instead.
+  - لا يكفي تهريب علامات الاقتباس يدوياً لمنع حقن SQL، فاستخدم المعاملات بدلاً من ذلك.
 
 ## خطأ شائع
 

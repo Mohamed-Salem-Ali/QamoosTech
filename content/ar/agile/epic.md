@@ -23,6 +23,8 @@ keywords: ["مهمة كبيرة في أجايل","مجموعة قصص مستخد
   - أنشأنا Epic جديدة لتتبع إعادة تصميم مصادقة المستخدم بالكامل.
 - This feature is too large for the current sprint, so we should convert it into an epic.
   - هذه الميزة أكبر من أن تُنجز في السباق الحالي، لذا يجب أن نحولها إلى Epic.
+- The checkout redesign is an epic with twelve user stories under it.
+  - إعادة تصميم الدفع ملحمة (epic) تضم اثنتي عشرة قصة مستخدم.
 
 ## خطأ شائع
 

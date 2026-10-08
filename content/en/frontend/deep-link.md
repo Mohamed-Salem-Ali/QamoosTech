@@ -21,6 +21,7 @@ In mobile app development (React Native, universal links), marketing emails and 
 
 - The email button deep-links to the unpaid payment, not the dashboard.
 - Keep the filter in the URL so the page can be deep-linked.
+- The reset email uses a deep link to the password form, so the user lands on the right step.
 
 ## Common mistake
 
@@ -28,7 +29,7 @@ Forgetting the logged-out case. A deep link should send people to sign in and th
 
 ## Don't confuse with
 
-A normal link to the home page, which leaves the user to find the content themselves.
+A link to the home page sends people to the start and leaves them to search. A deep link goes straight to the item they need, and in a mobile app it can also open the app itself.
 
 ## Say it at work
 

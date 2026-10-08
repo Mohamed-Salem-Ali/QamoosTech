@@ -25,6 +25,8 @@ keywords: ["قائمة لا يمكن تغييرها", "تسلسل غير قاب�
   - تعيد الدالة tuple تحتوي على القيمة الصغرى والعظمى.
 - A tuple of coordinates can be used as a dictionary key.
   - يمكن استخدام tuple من الإحداثيات كمفتاح في القاموس.
+- Return the result as a tuple, such as (min, max), so the caller can unpack both values.
+  - أعِد النتيجة كـ tuple مثل (min, max)، ليفكّ المستدعي القيمتين معاً.
 
 ## خطأ شائع
 

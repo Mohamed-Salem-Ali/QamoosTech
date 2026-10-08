@@ -3,7 +3,7 @@ id: logging
 category: devops
 subcategory: operations-and-monitoring
 level: beginner
-related: [monitoring, audit-logging]
+related: [monitoring, audit-logging, cron-job, log-level]
 term: "Logging"
 pronunciation: "LOG-ing"
 keywords: ["track application events","write messages to console","debug production errors","record system execution flow","save app activity history","see what happened before crash","application log files","print statements for debugging","loggin","trace execution path","monitor app behavior","تسجيل أحداث النظام","تتبع أخطاء التطبيق","كتابة سجلات النشاط","معرفة سبب فشل الطلبات","لوجينج","حفظ مسار تنفيذ البرنامج","مراقبة سلوك التطبيق","استخراج سجلات الأخطاء","طريقة تتبع المشاكل","تسجيل البيانات في ملفات","تتبع سير العمل"]
@@ -20,6 +20,7 @@ Debugging production problems.
 
 - Check the logs to see why the request failed.
 - Add more logging around the payment step.
+- The logging shows which user started the failed export, so we can follow up.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ During code reviews, when switching between branches to fix an urgent bug, or wh
 
 - I need to stash my current work so I can switch to the main branch.
 - You can use `git stash pop` to bring back your saved changes later.
+- I stashed my half-done changes, pulled the fix, and then popped the stash.
 
 ## Common mistake
 

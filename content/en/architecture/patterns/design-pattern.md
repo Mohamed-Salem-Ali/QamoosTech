@@ -3,7 +3,7 @@ id: design-pattern
 category: architecture
 subcategory: patterns
 level: intermediate
-related: [separation-of-concerns, dependency-injection]
+related: [separation-of-concerns, dependency-injection, registry-pattern]
 term: "Design Pattern"
 pronunciation: "dih-ZYN PAT-ern"
 keywords: ["proven solution to common problem","singleton factory observer patterns","reusable code structure solution","common programming best practices","software engineering design templates","how to structure classes","object oriented design solutions","design pattern","디자인 패턴","حلول برمجية جاهزة ومجرربة","أنماط البرمجة كائنية التوجه","حل لمشكلة تصميم متكررة","قالب تصميم الكود المصدري","الأنماط البرمجية الشهيرة","نمط تصميم","ديزاين باترن","أنماط التصميم الهندسية"]

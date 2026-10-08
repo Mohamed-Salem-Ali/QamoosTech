@@ -23,6 +23,7 @@ In beginner tutorials, when someone wants to test an idea quickly, and in debugg
 
 - Open the REPL and try the expression before putting it in the file.
 - I tested the regex in the REPL first.
+- In the REPL, type 2 ** 10 and see the result right away.
 
 ## Common mistake
 

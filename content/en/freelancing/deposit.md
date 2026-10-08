@@ -20,6 +20,7 @@ In freelance contract negotiations, project kickoffs, and payment discussions.
 
 - We require a fifty percent deposit before writing any code.
 - The client sent the deposit, so we can start the project today.
+- The contract says the deposit is refundable only if we cancel before design starts.
 
 ## Common mistake
 

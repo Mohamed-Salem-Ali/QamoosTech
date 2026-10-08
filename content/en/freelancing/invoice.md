@@ -2,7 +2,7 @@
 id: invoice
 category: freelancing
 level: beginner
-related: [milestone, retainer]
+related: [milestone, retainer, deposit, net-terms]
 term: "Invoice"
 pronunciation: "IN-voys"
 keywords: ["request payment from client","bill for completed work","document showing amount due","freelance billing document","send bill to client","payment request form","invoice vs quote","invocie","bill","طلب الدفع من العميل","مستند المطالبة بالمبلغ","فاتورة العمل الحر","ارسال الفاتورة للعميل","فاتورة","إنفويس","طلب الأموال","مستند الفاتورة"]
@@ -19,6 +19,7 @@ Freelancing and client billing.
 
 - I will send the invoice after the delivery.
 - The invoice is due within 14 days.
+- The invoice lists the three milestones and the amount due for each one.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: cache
 category: architecture
 subcategory: scaling
 level: beginner
-related: [latency-vs-throughput, scalability]
+related: [latency-vs-throughput, scalability, materialized-view, session-storage]
 term: "Cache"
 pronunciation: "KASH"
 keywords: ["fast temporary data storage","speed up database queries","reduce server load time","keep copy of frequent data","improve application response speed","memory for quick access","stale data issues fix","caching layer implementation","temporary retrieval storage","how to clear cache","ذاكرة مؤقتة سريعة","تسريع جلب البيانات","تقليل الضغط على السيرفر","حفظ نسخة من البيانات","حل مشكلة بطء الاستجابة","تخزين مؤقت للبيانات","تحديث البيانات المخزنة","مسح ذاكرة التخزين","تحسين أداء التطبيق","تخزين البيانات في الذاكرة"]
@@ -20,6 +20,7 @@ Performance work and the famous "clear your cache" advice.
 
 - We cache the product list for five minutes.
 - The old data appears because of the cache.
+- Cache the weather result for ten minutes so we stop calling the paid API.
 
 ## Common mistake
 

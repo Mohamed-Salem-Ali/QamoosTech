@@ -26,6 +26,8 @@ PEP 8 هو الدليل الرسمي لأسلوب بايثون. يصف كيف ت
   - من فضلك اتبع PEP 8: أربع مسافات وأسماء بصيغة `snake_case`.
 - The linter reports a PEP 8 violation on that line.
   - تبلّغ أداة الفحص عن مخالفة لـ PEP 8 في ذلك السطر.
+- PEP 8 asks for two blank lines before a top-level class.
+  - ينص PEP 8 على ترك سطرين فارغين قبل الفئة على المستوى الأعلى.
 
 ## خطأ شائع
 

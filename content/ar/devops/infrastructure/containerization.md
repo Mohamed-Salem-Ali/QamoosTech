@@ -3,7 +3,8 @@ id: containerization
 category: devops
 subcategory: infrastructure
 level: intermediate
-related: [deployment, environment-variable]
+related: [deployment, environment-variable, docker-image, persistent-volume]
+tags: [docker]
 term: "Containerization (Docker)"
 translation: "تقنية الحاويات"
 pronunciation: "كونتينرايزيشن"

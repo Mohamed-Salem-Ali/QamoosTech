@@ -4,6 +4,7 @@ category: english
 level: intermediate
 related: [scope-creep, stakeholder, deadline]
 term: "Push back"
+translation: "الاعتراض على طلب"
 pronunciation: "بوش باك"
 keywords: ["كيفية الاعتراض على طلبات المدير","رفض المواعيد النهائية غير الواقعية","التفاوض مع أصحاب المصلحة","كيف أقول لا لزيادة المهام","مواجهة طلبات الميزات الجديدة","طريقة الاعتراض المهني في العمل","بوش باك في بيئة العمل","التعبير عن عدم الموافقة تقنياً","كيفية مناقشة نطاق العمل","رفض المتطلبات التي تسبب ديون تقنية","how to disagree with stakeholders","negotiate project deadlines","challenge unrealistic feature requirements","refuse extra work politely","express resistance to changes","pushing back on scope","how to say no to managers","defend team capacity in meetings","negotiating project constraints","how to handle unreasonable requests"]
 ---

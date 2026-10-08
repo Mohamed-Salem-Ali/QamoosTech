@@ -3,7 +3,7 @@ id: single-point-of-failure
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [load-balancer, fail-open-vs-fail-closed]
+related: [load-balancer, fail-open-vs-fail-closed, ddos-attack]
 term: "Single Point of Failure"
 pronunciation: "SING-gul POYNT uv FAYL-yer"
 keywords: ["spof","component that crashes the system","single point of failure","weak link in architecture","system fails if one part breaks","critical failure component","avoiding system downtime","server outage risk","single point of failure abbreviation","نقطة فشل وحيدة","مكون يعطل النظام كاملاً","مكون يؤدي لسقوط النظام","نقطة الضعف في النظام","مكان تعطل النظام بالكامل","خطر تعطل الخادم الوحيد","سنجل بوينت أوف فيلر","إزالة نقطة الفشل"]

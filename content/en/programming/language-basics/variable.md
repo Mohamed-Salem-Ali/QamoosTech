@@ -3,14 +3,14 @@ id: variable
 category: programming
 subcategory: language-basics
 level: beginner
-related: [scope, function]
+related: [scope, function, pointer]
 term: "Variable"
 pronunciation: "VAIR-ee-uh-bul"
-keywords: ["place to store values","named memory container","how to save data in code","programming containers for values","declaring a new value holder","temporary storage in programming","vairiable spelling","assigning values to names","memory location for data","what is a var","changeable data storage","مكان تخزين القيم في الذاكرة","طريقة حفظ البيانات في البرمجة","حاوية للقيم البرمجية","تعريف قيم قابلة للتغيير","كيفية تسمية القيم في الكود","حجز مكان في الذاكرة","مصطلح فيريابل","الفرق بين الثابت والمتغير","تخزين البيانات في البرنامج","تعريف متغير جديد"]
+keywords: ["place to store values","named memory container","how to save data in code","programming containers for values","declaring a new value holder","temporary storage in programming","vairiable","assigning values to names","memory location for data","what is a var","changeable data storage","مكان تخزين القيم في الذاكرة","طريقة حفظ البيانات في البرمجة","حاوية للقيم البرمجية","تعريف قيم قابلة للتغيير","كيفية تسمية القيم في الكود","حجز مكان في الذاكرة","مصطلح فيريابل","الفرق بين الثابت والمتغير","تخزين البيانات في البرنامج","تعريف متغير جديد"]
 ---
 ## Definition
 
-A named place in memory that stores a value your program can read and change.
+A named place in memory that stores a value. The program reads the value through its name and can change it later, which is why code uses the name rather than the value itself.
 
 ## Where you hear it
 
@@ -20,6 +20,7 @@ In every programming tutorial, code review, and bug report.
 
 - Store the user's age in a variable called `age`.
 - The variable is `undefined` because it was never assigned.
+- The variable total starts at zero and grows as each item is added.
 
 ## Common mistake
 

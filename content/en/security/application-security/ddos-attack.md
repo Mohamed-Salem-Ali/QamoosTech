@@ -21,6 +21,7 @@ In security incident reports, infrastructure monitoring discussions, and when pl
 
 - The website went down after a massive DDoS attack targeted our main API endpoint.
 - We implemented a traffic filtering service to mitigate potential DDoS attacks.
+- The CDN absorbed most of the DDoS traffic, so the origin server stayed up.
 
 ## Common mistake
 

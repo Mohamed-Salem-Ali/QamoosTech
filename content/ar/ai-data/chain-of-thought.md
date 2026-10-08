@@ -4,6 +4,7 @@ category: ai-data
 level: intermediate
 related: [llm, prompt-engineering]
 term: "Chain-of-Thought"
+translation: "سلسلة التفكير"
 pronunciation: "تشين أوف ثوت"
 keywords: ["التفكير خطوة بخطوة","تحسين منطق النماذج اللغوية","تفكيك المسائل المعقدة للذكاء الاصطناعي","تقنية تسلسل الأفكار","إجبار النموذج على إظهار خطواته","هندسة أوامر التفكير المنطقي","توليد خطوات الحل المنطقي","تطوير دقة استنتاج النموذج","تشين أوف ثوت","استراتيجية التفكير المتسلسل","let's think step by step","force llm to show work","reasoning steps for ai","prompting for complex logic","cot prompting technique","improving llm reasoning accuracy","step by step prompt engineering","breaking down model tasks","chain of thought reasoning","logical reasoning in prompts"]
 ---

@@ -5,6 +5,7 @@ subcategory: application-security
 level: beginner
 related: [authentication-vs-authorization, vulnerability]
 term: "Brute-Force Attack"
+translation: "هجوم القوة الغاشمة"
 pronunciation: "بروت-فورس أتاك"
 keywords: ["هجوم تخمين كلمات المرور","تجربة كل الاحتمالات لكلمة السر","هجوم التجربة والخطأ الأمني","اختراق حسابات بتجربة كل الباسوردات","بروت فورس أتاك","منع تخمين كلمات المرور المتكرر","هجمات التخمين الآلي للباسورد","حظر محاولات تسجيل الدخول الفاشلة","guess passwords by trying every combination","automated password guessing attack","try all password combinations","prevent password guessing scripts","burt force attack","brute force login attempt","trial and error password hacking","systematic password guessing","block repeated login failures"]
 ---
@@ -23,6 +24,8 @@ keywords: ["هجوم تخمين كلمات المرور","تجربة كل الا
   - قام الخادم بحظر عنوان الـ IP بعد اكتشاف هجوم Brute-Force على صفحة تسجيل الدخول.
 - We implemented account lockout policies to prevent brute-force attacks.
   - قمنا بتطبيق سياسات قفل الحساب لمنع هجمات الـ Brute-Force.
+- Rate limiting the login endpoint makes a brute-force attack much slower.
+  - يجعل تحديد معدل الطلبات على نقطة تسجيل الدخول الهجوم بالتخمين المتكرر أبطأ بكثير.
 
 ## خطأ شائع
 

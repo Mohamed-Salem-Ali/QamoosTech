@@ -23,6 +23,7 @@ In table design, migrations, and errors such as "duplicate key value violates un
 
 - A unique constraint on member and week stops a double payment.
 - Emails must be unique, so the database refuses a second account.
+- The unique constraint on the username makes a second signup fail with an error.
 
 ## Common mistake
 

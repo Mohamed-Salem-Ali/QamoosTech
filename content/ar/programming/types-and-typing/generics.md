@@ -9,7 +9,7 @@ aliases: ["generic", "generic type"]
 term: "Generics"
 translation: "الأنواع العامة"
 pronunciation: "جنريكس"
-keywords: ["كود يعمل مع أي نوع", "قائمة من النوع T", "إبقاء النوع متسقاً", "TypeVar", "حاوية مكتوبة الأنواع قابلة لإعادة الاستخدام", "list<string> في Java", "code that works for any type", "list of t", "keep type consistent", "typevar", "reusable typed container", "list<string> in java"]
+keywords: ["كود يعمل مع أي نوع", "قائمة من النوع T", "إبقاء النوع متسقاً", "TypeVar", "حاوية مكتوبة الأنواع قابلة لإعادة الاستخدام", "list<string> في Java", "code that works for any type", "list of t", "keep type consistent", "reusable typed container", "list<string> in java"]
 ---
 
 ## التعريف

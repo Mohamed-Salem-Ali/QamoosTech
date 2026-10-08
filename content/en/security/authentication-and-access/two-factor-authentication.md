@@ -3,7 +3,7 @@ id: two-factor-authentication
 category: security
 subcategory: authentication-and-access
 level: beginner
-related: [authentication-vs-authorization]
+related: [authentication-vs-authorization, credentials]
 term: "Two-Factor Authentication (2FA)"
 pronunciation: "TOO-FAK-ter aw-then-tih-KAY-shun"
 keywords: ["two factor login","2fa security","login with phone code","multi factor authentication","mfa setup","two step verification","account verification code","extra login security","add phone verification","secure login process","التحقق بخطوتين","المصادقة الثنائية","تسجيل دخول برمز إضافي","تفعيل التحقق عبر الهاتف","حماية الحساب برمز دخول","تأمين الدخول بخطوتين","تو فاكتر أوثنتيكيشن","التحقق من هوية المستخدم","زيادة أمان تسجيل الدخول","رمز التحقق على الهاتف"]
@@ -20,6 +20,7 @@ Account security settings.
 
 - Enable two-factor authentication on your GitHub account.
 - The code expires after 30 seconds.
+- After we turned on two-factor authentication, login attempts from bots dropped sharply.
 
 ## Common mistake
 

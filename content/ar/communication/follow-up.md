@@ -2,7 +2,7 @@
 id: follow-up
 category: communication
 level: beginner
-related: [circling-back, touch-base]
+related: [circling-back, touch-base, bump, per-my-last-email, take-it-offline]
 term: "Follow up"
 translation: "متابعة"
 pronunciation: "فولو أب"
@@ -22,6 +22,8 @@ keywords: ["كيف أطلب تحديثا للمهمة","طريقة تذكير ا
   - أتابع طلب الصلاحية الذي أرسلته الأسبوع الماضي.
 - Just a quick follow-up: did you get a chance to review the PR?
   - متابعة سريعة: هل تسنّى لك مراجعة الـ PR؟
+- The follow-up email asked the client for the missing logo file.
+  - طلب بريد المتابعة من العميل ملف الشعار الناقص.
 
 ## خطأ شائع
 

@@ -23,6 +23,7 @@ In setup guides, security alerts about vulnerable libraries, and when updating a
 
 - Add `requests` as a dependency and reinstall.
 - Test tools are dev dependencies, not needed in production.
+- The app's dependency on an old version of the library caused the crash.
 
 ## Common mistake
 

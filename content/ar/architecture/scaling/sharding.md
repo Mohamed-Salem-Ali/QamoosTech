@@ -5,6 +5,7 @@ subcategory: scaling
 level: intermediate
 related: [database, scalability, monolith-vs-microservices]
 term: "Sharding"
+translation: "التقسيم إلى شظايا"
 pronunciation: "شارْدِينج"
 keywords: ["تقسيم قاعدة البيانات على خوادم","توزيع البيانات على عدة خوادم","تجزئة قاعدة البيانات الضخمة","تحسين أداء قاعدة البيانات","توسيع نطاق قاعدة البيانات","تقنية تقسيم الجداول أفقيا","توزيع البيانات لتقليل الضغط","تجزئة البيانات إلى أجزاء","شاردينج قاعدة البيانات","استراتيجية توزيع البيانات","split large database across servers","horizontal database scaling technique","distribute data into smaller chunks","database partitioning across multiple nodes","handle high traffic database load","scaling database beyond single server","database sharding strategy","shard database table","partitioning data for performance","horizontal partitioning explained"]
 ---

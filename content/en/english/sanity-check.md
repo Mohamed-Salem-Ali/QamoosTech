@@ -20,6 +20,7 @@ In code reviews, testing discussions, and daily standups.
 
 - Let us do a quick sanity check on the numbers before pushing this update to production.
 - I ran a sanity check on the API response to make sure the data format looks correct.
+- A quick sanity check showed the totals were in cents instead of dollars.
 
 ## Common mistake
 

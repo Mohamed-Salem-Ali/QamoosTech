@@ -3,7 +3,7 @@ id: lazy-evaluation
 category: programming
 subcategory: iteration-and-generators
 level: intermediate
-related: [generator, iterator, memoization]
+related: [generator, iterator, memoization, map-and-filter]
 aliases: ["lazily evaluated", "deferred evaluation"]
 term: "Lazy Evaluation"
 pronunciation: "LAY-zee ih-val-yoo-AY-shun"

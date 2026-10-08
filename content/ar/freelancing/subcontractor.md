@@ -4,6 +4,7 @@ category: freelancing
 level: intermediate
 related: [deliverable, scope-creep, estimate]
 term: "Subcontractor"
+translation: "المقاول الفرعي"
 pronunciation: "سَب-كونتراكتَر"
 keywords: ["مقاول فرعي للمشروع","التعاقد من الباطن للمشاريع","موظف غير مباشر عبر مقاول","الاستعانة بمقاول فرعي للتطوير","الفرق بين المستقل والمقاول الفرعي","شخص يعمل تحت مقاول رئيسي","مقاول باطن","سب كونتراكتور","hire secondary developer for project","outsourcing part of software project","contractor working under main contractor","hiring freelance developer through agency","third party developer for project","sub contractor","secondary contractor","subcontractor vs freelancer"]
 ---

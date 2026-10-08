@@ -20,6 +20,7 @@ In stand-up meetings, project management tools, or team communication channels.
 
 - Please flag an issue if you notice any discrepancies in the documentation.
 - I need to flag an issue regarding the current API response time.
+- I flagged an issue: the vendor's API limit may block the launch.
 
 ## Common mistake
 

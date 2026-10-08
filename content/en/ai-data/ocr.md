@@ -19,6 +19,7 @@ Document scanning, invoices, and forms.
 
 - The OCR could not read the blurry photo.
 - We run OCR on every uploaded invoice.
+- The OCR output has spelling mistakes, so we check the totals before saving.
 
 ## Common mistake
 

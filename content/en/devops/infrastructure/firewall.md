@@ -22,6 +22,7 @@ In server setup (`ufw`), cloud security groups, and "connection refused or timed
 
 - Open port 443 in the firewall and keep everything else closed.
 - The request times out because the firewall drops it.
+- The firewall blocks the database port from the public internet.
 
 ## Common mistake
 

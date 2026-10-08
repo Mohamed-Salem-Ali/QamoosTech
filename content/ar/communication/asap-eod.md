@@ -2,7 +2,7 @@
 id: asap-eod
 category: communication
 level: beginner
-related: [deadline, eta]
+related: [deadline, eta, at-your-earliest-convenience]
 term: "ASAP / EOD"
 translation: "في أقرب وقت / نهاية اليوم"
 pronunciation: "إيه ساب / إي أو دي"
@@ -22,6 +22,8 @@ keywords: ["معنى اختصار في أقرب وقت","ماذا تعني نه�
   - هل تستطيع إرسال الملف لي بنهاية اليوم؟
 - The client needs this ASAP.
   - العميل يحتاج هذا في أقرب وقت.
+- I need the final numbers by EOD, but the draft can wait until tomorrow morning.
+  - أحتاج الأرقام النهائية بحلول نهاية اليوم، ويمكن أن تنتظر المسودة حتى صباح الغد.
 
 ## خطأ شائع
 

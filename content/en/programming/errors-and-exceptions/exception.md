@@ -3,8 +3,8 @@ id: exception
 category: programming
 subcategory: errors-and-exceptions
 level: beginner
-related: [debugging]
-aliases: ["exception handling", "try except", "raise"]
+related: [debugging, off-by-one-error, try-except, error-code, panic, custom-exception]
+aliases: ["exception handling", "raise"]
 term: "Exception"
 pronunciation: "ik-SEP-shun"
 keywords: ["runtime error handling","code crash prevention","try catch block","how to handle errors","unexpected program stop","program execution interruption","debugging runtime issues","catching code errors","error throwing mechanism","fix application crashes","معالجة أخطاء وقت التشغيل","إيقاف انهيار البرنامج","التقاط الأخطاء البرمجية","كيفية التعامل مع الاستثناءات","رسائل الخطأ أثناء التشغيل","تجنب توقف البرنامج المفاجئ","تغليف الكود بـ try catch","مصطلح إكسيبشن في البرمجة","أخطاء التنفيذ البرمجية","التعامل مع تعطل الكود"]
@@ -21,6 +21,7 @@ Stack traces, logs, `try/catch`, and bug reports.
 
 - The service throws an exception when the file is missing.
 - Catch the exception and show a friendly message.
+- The loop stops with an exception because the list ran out of items.
 
 ## Common mistake
 

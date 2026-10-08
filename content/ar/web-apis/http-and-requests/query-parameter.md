@@ -3,7 +3,7 @@ id: query-parameter
 category: web-apis
 subcategory: http-and-requests
 level: beginner
-related: [endpoint, pagination]
+related: [endpoint, pagination, deep-link]
 term: "Query Parameter"
 translation: "معامل الاستعلام"
 pronunciation: "كويري باراميتر"
@@ -23,6 +23,8 @@ keywords: ["متغيرات نهاية الرابط","معامل الاستعلا
   - صفِّ القائمة باستخدام معامل الاستعلام `status`.
 - Never put passwords in a query parameter.
   - لا تضع كلمات المرور أبدًا في معامل استعلام.
+- The URL /orders?status=paid returns only the paid orders.
+  - يعيد الرابط /orders?status=paid الطلبات المدفوعة فقط.
 
 ## خطأ شائع
 

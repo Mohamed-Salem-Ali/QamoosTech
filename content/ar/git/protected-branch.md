@@ -4,6 +4,7 @@ category: git
 level: beginner
 related: [branch, merge, pull-request, repository]
 term: "Protected Branch"
+translation: "الفرع المحمي"
 pronunciation: "بُروتيكتيد برانش"
 keywords: ["منع الدفع المباشر للفرع","حماية الفرع الرئيسي من التعديل","إعدادات أمان فروع الكود","قفل الفرع لمنع الحذف","إجبارية مراجعة الكود للدمج","تقييد صلاحيات الكتابة على الفرع","حماية فرع الإنتاج من التغيير","تفعيل مراجعة طلبات الدمج","منع التعديلات العشوائية على الكود","طريقة قفل فروع المستودع","prevent direct pushes to main","restrict branch deletion","require code review for merge","lock main branch","git branch security settings","disable force push to branch","enforce pull request approvals","protect production branch","git branch access control","cannot push to master error"]
 ---
@@ -22,6 +23,8 @@ keywords: ["منع الدفع المباشر للفرع","حماية الفرع 
   - قمنا بإعداد Protected Branch لضمان مراجعة كل الكود قبل وصوله إلى بيئة الإنتاج.
 - You cannot push directly to the main branch because it is a protected branch.
   - لا يمكنك الدفع مباشرة إلى الفرع الرئيسي لأنه Protected Branch.
+- Force pushes to main are blocked by the protected branch rules.
+  - تمنع قواعد الفرع المحمي عمليات الدفع القسري (force push) إلى main.
 
 ## خطأ شائع
 

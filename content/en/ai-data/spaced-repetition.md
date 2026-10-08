@@ -19,6 +19,7 @@ Flashcard apps like Anki and learning products.
 
 - Use spaced repetition to memorize these new terms.
 - The app shows hard cards more often.
+- The flashcard app schedules a card again a week later if you remembered it.
 
 ## Common mistake
 

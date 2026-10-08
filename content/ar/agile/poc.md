@@ -4,6 +4,7 @@ category: agile
 level: beginner
 related: [mvp, deliverable]
 term: "Proof of Concept (PoC)"
+translation: "إثبات المفهوم"
 pronunciation: "بروف أوف كونسيبت"
 keywords: ["التحقق من جدوى الفكرة","تجربة تقنية أولية","إثبات مفهوم البرمجيات","اختبار صلاحية التقنية","مشروع تجريبي مصغر","التأكد من قابلية التنفيذ","اختبار مبدئي للفكرة","بروف أوف كونسيبت","نموذج تقني للتحقق","دراسة جدوى تقنية سريعة","verify technical feasibility","test if idea works","small validation project","technical experiment before development","check if technology is viable","proof of concept meaning","poc abbreviation","validate technical assumptions","initial feasibility study","quick test of concept"]
 ---
@@ -22,6 +23,8 @@ keywords: ["التحقق من جدوى الفكرة","تجربة تقنية أو
   - نحتاج لبناء PoC سريع لنرى ما إذا كانت هذه المكتبة قادرة على التعامل مع حجم بياناتنا.
 - The team spent two days on a PoC to validate the new authentication flow.
   - قضى الفريق يومين في عمل PoC للتحقق من آلية المصادقة الجديدة.
+- The PoC showed that the map library is too slow for ten thousand markers.
+  - أظهر إثبات المفهوم (PoC) أن مكتبة الخرائط بطيئة جداً مع عشرة آلاف علامة.
 
 ## خطأ شائع
 

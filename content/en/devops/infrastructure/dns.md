@@ -3,7 +3,7 @@ id: dns
 category: devops
 subcategory: infrastructure
 level: beginner
-related: [dns-record, nameserver, ttl]
+related: [dns-record, nameserver, ttl, dnssec]
 aliases: ["domain name system", "dns lookup", "dns propagation", "name resolution"]
 term: "DNS"
 pronunciation: "DEE-EN-ESS"
@@ -22,6 +22,7 @@ When connecting a custom domain to a site, when a site "is down for some people"
 
 - After changing the DNS record it can take hours to propagate.
 - Check with `dig example.com` what the name resolves to.
+- After we moved the domain, the old IP address still answered until DNS caught up.
 
 ## Common mistake
 

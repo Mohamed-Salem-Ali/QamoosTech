@@ -3,7 +3,7 @@ id: dead-letter-queue
 category: architecture
 subcategory: patterns
 level: intermediate
-related: [message-queue]
+related: [message-queue, visibility-timeout]
 term: "Dead Letter Queue (DLQ)"
 pronunciation: "ديد لتر كيو"
 translation: "طابور الرسائل التالفة"

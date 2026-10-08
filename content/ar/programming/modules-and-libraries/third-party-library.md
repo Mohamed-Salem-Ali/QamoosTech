@@ -25,6 +25,8 @@ keywords: ["حزمة تُثبَّت بـ pip", "مكتبة من PyPI أو npm", 
   - نستخدم مكتبة خارجية لتحليل التواريخ.
 - Every third-party library is a dependency we have to keep updated.
   - كل مكتبة خارجية اعتمادية علينا أن نبقيها محدّثة.
+- A third-party library handles the PDF rendering, so we only write the layout.
+  - تتولى مكتبة خارجية عرض ملفات PDF، فنكتب التخطيط فقط.
 
 ## خطأ شائع
 

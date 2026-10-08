@@ -22,6 +22,8 @@ keywords: ["دعم اللغة العربية في التصميم","عكس اتج
   - يدعم التطبيق RTL، لذلك تكون القائمة على اليمين.
 - Use logical CSS properties like `margin-inline-start` instead of `margin-left`.
   - استخدم خصائص CSS المنطقية مثل `margin-inline-start` بدل `margin-left`.
+- In an RTL layout, the back arrow points to the right side of the screen.
+  - في تخطيط RTL يشير سهم الرجوع إلى الجهة اليمنى من الشاشة.
 
 ## خطأ شائع
 

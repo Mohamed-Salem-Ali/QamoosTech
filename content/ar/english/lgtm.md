@@ -2,7 +2,7 @@
 id: lgtm
 category: english
 level: beginner
-related: [code-review, ship-it]
+related: [code-review, ship-it, sanity-check]
 term: "LGTM"
 translation: "يبدو جيدًا بالنسبة لي"
 pronunciation: "إل جي تي إم"
@@ -22,6 +22,8 @@ keywords: ["الموافقة على كود ريفيو","كيف أوافق على
   - LGTM. ادمج عندما تصبح الاختبارات خضراء.
 - I reviewed the changes and tested the edge cases. LGTM!
   - راجعتُ التغييرات واختبرتُ الحالات الحدّية. LGTM!
+- The diff is small and the tests pass. LGTM.
+  - التغيير صغير والاختبارات تنجح. لا ملاحظات لديّ.
 
 ## خطأ شائع
 

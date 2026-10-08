@@ -3,7 +3,7 @@ id: loop
 category: programming
 subcategory: iteration-and-generators
 level: beginner
-related: [recursion, array]
+related: [recursion, array, indentation, enumerate]
 term: "Loop"
 pronunciation: "LOOP"
 keywords: ["repeat code while condition true","loop through list of items","for loop syntax example","how to stop infinite loop","code block repetition structure","iterate over array items","running code multiple times","while loop implementation","looping construct in programming","تكرار كود برمجي أكثر من مرة","حلقة تكرارية لتنفيذ الأوامر","المرور على عناصر المصفوفة","حلقة لا نهائية توقف البرنامج","كيفية عمل اللوب في البرمجة","تنفيذ شيفرة بشكل متكرر","حلقة فور البرمجية","شروط التوقف في الحلقات"]
@@ -20,6 +20,7 @@ Basic tutorials, performance discussions ("this loop is slow"), and code reviews
 
 - Use a `for` loop to go through every order.
 - The infinite loop froze the server.
+- The loop prints each product name, then stops after the last item.
 
 ## Common mistake
 

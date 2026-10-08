@@ -25,6 +25,8 @@ keywords: ["هيكل صفحة الويب","واجهة برمجة مستندات 
   - يمكن لجافاسكريبت الوصول إلى العناصر باستخدام `document.getElementById` لتغيير نصها.
 - Updating the DOM directly too many times can slow down web page rendering.
   - تحديث الـ DOM مباشرة لعدة مرات قد يبطئ عملية عرض صفحة الويب.
+- Clicking the button adds a new list item to the DOM without reloading the page.
+  - يضيف النقر على الزر عنصر قائمة جديداً إلى DOM دون إعادة تحميل الصفحة.
 
 ## خطأ شائع
 

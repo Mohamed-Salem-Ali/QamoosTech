@@ -22,6 +22,7 @@ In architecture discussions, ORM documentation ("the persistence layer"), and wh
 
 - The list is lost on restart because nothing persists it.
 - The persistence layer hides whether we use files or a database.
+- The cart survives a restart because it is saved to the database.
 
 ## Common mistake
 

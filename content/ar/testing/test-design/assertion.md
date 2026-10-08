@@ -3,7 +3,7 @@ id: assertion
 category: testing
 subcategory: test-design
 level: beginner
-related: [unit-test, debugging]
+related: [unit-test, debugging, arrange-act-assert]
 term: "Assertion"
 pronunciation: "أَسيرشُن"
 translation: "تأكيد"
@@ -24,6 +24,8 @@ keywords: ["التحقق من صحة شرط في الاختبار","التأكد
   - يستخدم الاختبار تأكيداً للتحقق من أن الدالة تعيد المجموع المحسوب بشكل صحيح.
 - If the API response status code is not two hundred, the assertion throws an error.
   - إذا لم يكن رمز استجابة الواجهة البرمجية مئتين، يرمي التأكيد خطأً.
+- The assertion fails because the total is 39 instead of 40.
+  - يفشل التأكيد (assertion) لأن المجموع 39 بدلاً من 40.
 
 ## خطأ شائع
 

@@ -2,7 +2,8 @@
 id: scope-creep
 category: freelancing
 level: beginner
-related: [change-request, align-on-scope, fixed-price-vs-hourly]
+featured: 3
+related: [change-request, align-on-scope, fixed-price-vs-hourly, push-back, statement-of-work]
 term: "Scope Creep"
 translation: "تضخّم النطاق"
 pronunciation: "سكوب كريب"
@@ -22,6 +23,8 @@ keywords: ["زيادة طلبات العميل دون زيادة السعر","ا
   - ثلاث شاشات إضافية هي scope creep. لنرسل طلب تغيير.
 - To avoid scope creep, we wrote the scope in the contract.
   - لتجنب تضخّم النطاق كتبنا النطاق في العقد.
+- The client added a dashboard, a report and a login page without changing the price.
+  - أضاف العميل لوحة متابعة وتقريراً وصفحة تسجيل دخول دون أن يتغيّر السعر.
 
 ## خطأ شائع
 

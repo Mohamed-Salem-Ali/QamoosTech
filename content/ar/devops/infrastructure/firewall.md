@@ -25,6 +25,8 @@ keywords: ["يمنع الحركة غير المرغوبة", "قواعد سماح
   - افتح المنفذ 443 في الجدار الناري وأبقِ ما عداه مغلقاً.
 - The request times out because the firewall drops it.
   - ينتهي الطلب بمهلة لأن الجدار الناري يُسقطه.
+- The firewall blocks the database port from the public internet.
+  - يمنع جدار الحماية منفذ قاعدة البيانات من الوصول من الإنترنت العام.
 
 ## خطأ شائع
 

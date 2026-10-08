@@ -22,6 +22,7 @@ In Linux and macOS terminals (`ln -s`), deployment setups (`current` pointing to
 
 - `current` is a symlink to the newest release folder.
 - The symlink is broken because the target moved.
+- The symlink lets the web server find the current release without changing its config.
 
 ## Common mistake
 

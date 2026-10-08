@@ -2,7 +2,7 @@
 id: prompt-engineering
 category: ai-data
 level: beginner
-related: [llm, token]
+related: [llm, token, chain-of-thought, few-shot-prompting, zero-shot-prompting]
 term: "Prompt Engineering"
 translation: "هندسة التعليمات"
 pronunciation: "برومبت إنجنيرينج"
@@ -22,6 +22,8 @@ keywords: ["كيف أكتب تعليمات للذكاء الاصطناعي","ت�
   - أدّى تحسين هندسة التعليمات إلى تقليل الإجابات الخاطئة.
 - Give the model two examples of the output format you want.
   - أعطِ النموذج مثالين على شكل المخرجات الذي تريده.
+- Adding the expected JSON shape to the prompt cut the parsing errors in half.
+  - إضافة الشكل المتوقع لـ JSON إلى الطلب قلّصت أخطاء التحليل إلى النصف.
 
 ## خطأ شائع
 

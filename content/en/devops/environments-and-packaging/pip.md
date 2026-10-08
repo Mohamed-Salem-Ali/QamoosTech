@@ -22,6 +22,7 @@ In every Python setup guide (`pip install ...`), README install sections, and CI
 
 - Run `pip install -r requirements.txt` to get everything.
 - Use `python -m pip` so you are sure which Python it belongs to.
+- I used pip to install the library into the project's virtual environment.
 
 ## Common mistake
 

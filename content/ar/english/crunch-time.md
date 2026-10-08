@@ -23,6 +23,8 @@ keywords: ["فترة العمل المكثف","أيام الضغط قبل الت
   - نحن في فترة الضغط النهائي الآن، لذا يحتاج الجميع للتركيز على إصلاح الأخطاء الحرجة.
 - Let us cut the nice-to-have features to survive crunch time and ship on schedule.
   - دعونا نحذف الميزات غير الضرورية لكي نجتاز فترة الضغط النهائي ونقوم بالإصدار في الموعد المحدد.
+- The team works late every night during crunch time before the launch.
+  - يعمل الفريق حتى ساعات متأخرة كل ليلة في فترة الضغط التي تسبق الإطلاق.
 
 ## خطأ شائع
 

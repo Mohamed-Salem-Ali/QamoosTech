@@ -3,7 +3,7 @@ id: protocol-buffers
 category: web-apis
 subcategory: data-formats
 level: intermediate
-related: [grpc, json, json-schema]
+related: [grpc, json, json-schema, base64, msgpack]
 aliases: ["protobuf", "proto file"]
 term: "Protocol Buffers"
 translation: "الـ Protocol Buffers"

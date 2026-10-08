@@ -23,6 +23,8 @@ keywords: ["شروط الموافقة على المهمة","متطلبات إن�
   - يجب تعطيل زر تسجيل الدخول حتى يتم ملء حقلي البريد الإلكتروني وكلمة المرور.
 - The exported report must download as a CSV file within three seconds.
   - يجب أن يتم تنزيل التقرير المُصدّر كملف CSV في غضون ثلاث ثوانٍ.
+- The upload page shows an error message when the file is larger than 10 MB.
+  - تعرض صفحة الرفع رسالة خطأ حين يتجاوز الملف 10 ميغابايت.
 
 ## خطأ شائع
 

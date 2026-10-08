@@ -23,6 +23,7 @@ In Django and SQLAlchemy code, `models.py` files, and migration discussions.
 
 - Add a `due_date` field to the Payment model.
 - Changing a model means creating a migration.
+- The Payment model has a status field with three possible values.
 
 ## Common mistake
 

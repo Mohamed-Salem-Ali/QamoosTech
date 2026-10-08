@@ -21,6 +21,7 @@ When integrating third-party services, setting up mobile apps, or working with c
 
 - We used a payment provider's SDK to process card payments in our app.
 - The new mobile SDK makes it easy to track user analytics.
+- The SDK for the maps service handles the authentication for us.
 
 ## Common mistake
 

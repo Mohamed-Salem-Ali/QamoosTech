@@ -5,6 +5,7 @@ subcategory: transactions
 level: intermediate
 related: [transaction, database]
 term: "Deadlock"
+translation: "الجمود المتبادل"
 pronunciation: "ديد-لوك"
 keywords: ["العمليات تنتظر بعضها البعض","تعليق قاعدة البيانات بسبب الأقفال","توقف المعاملات في قاعدة البيانات","اعتماد متبادل بين العمليات","تعليق النظام بسبب قفل الموارد","حدوث حالة استعصاء في العمليات","مشكلة الأقفال المتداخلة","ديدلوك","التجمد المتبادل للعمليات","processes waiting for each other","database transactions stuck together","mutual waiting state in database","database locks freezing system","resolve transaction locks hanging","threads waiting on resources","system freeze due to locks","circular dependency between processes","dedlock","dead lock"]
 ---

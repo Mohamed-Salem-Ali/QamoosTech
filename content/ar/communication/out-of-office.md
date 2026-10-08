@@ -22,6 +22,8 @@ keywords: ["رسالة غياب تلقائية","تفعيل الرد التلق�
   - أنا خارج المكتب حتى الاثنين، فتواصل مع سارة في الأمور العاجلة.
 - His auto-reply says he is OOO this week.
   - رده التلقائي يقول إنه خارج المكتب هذا الأسبوع.
+- Set your out-of-office reply before you leave for the holiday.
+  - اضبط رد الغياب التلقائي قبل أن تسافر في العطلة.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: query
 category: databases
 subcategory: querying
 level: beginner
-related: [index, join]
+related: [index, join, jsonb, regular-expression]
 term: "Query"
 translation: "استعلام"
 pronunciation: "كويري"
@@ -11,7 +11,7 @@ keywords: ["طلب بيانات من قاعدة البيانات","جلب معل
 ---
 ## التعريف
 
-طلب إلى قاعدة البيانات لقراءة بيانات أو تغييرها، ويُكتب عادةً بلغة SQL.
+طلب إلى قاعدة البيانات لقراءة بيانات أو تغييرها، ويُكتب عادةً بلغة SQL. قد يكون الاستعلام بسيطاً، مثل اختيار عمود واحد من جدول، أو معقداً بالوصلات والفلاتر. وكثيراً ما تكون الاستعلامات البطيئة سبب بطء الصفحات.
 
 ## أين تسمعه؟
 
@@ -23,6 +23,8 @@ keywords: ["طلب بيانات من قاعدة البيانات","جلب معل
   - نفّذ هذا الاستعلام لإيجاد كل الفواتير غير المدفوعة.
 - The query takes 8 seconds because there is no index.
   - يستغرق الاستعلام 8 ثوانٍ لأنه لا يوجد index.
+- The query joins orders with customers, then filters the ones from last month.
+  - يربط الاستعلام الطلبات بالعملاء، ثم يُصفّي تلك التي تعود إلى الشهر الماضي.
 
 ## خطأ شائع
 

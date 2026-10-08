@@ -22,6 +22,8 @@ keywords: ["طريقة حفظ المعلومات بفعالية","مراجعة �
   - استخدم التكرار المتباعد لحفظ هذه المصطلحات الجديدة.
 - The app shows hard cards more often.
   - يعرض التطبيق البطاقات الصعبة بوتيرة أكبر.
+- The flashcard app schedules a card again a week later if you remembered it.
+  - يجدول تطبيق البطاقات التعليمية المراجعة التالية للبطاقة بعد أسبوع إذا تذكّرتها.
 
 ## خطأ شائع
 

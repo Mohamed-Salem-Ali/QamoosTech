@@ -2,7 +2,7 @@
 id: spin-up
 category: english
 level: intermediate
-related: [roll-out]
+related: [roll-out, cold-start]
 term: "Spin up"
 translation: "يشغّل / يُنشئ بسرعة"
 pronunciation: "سبِن أب"

@@ -22,6 +22,7 @@ When reading user input or files, parsing data from an API, and in error message
 
 - Input arrives as text, so convert it to an integer before adding.
 - The conversion fails if the text is not a valid number.
+- int('42') + 1 gives 43, because the text is converted to a number first.
 
 ## Common mistake
 

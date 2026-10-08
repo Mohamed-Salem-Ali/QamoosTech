@@ -3,7 +3,7 @@ id: immutable
 category: architecture
 subcategory: data-and-state
 level: intermediate
-related: [event-driven, audit-logging]
+related: [event-driven, audit-logging, slicing]
 aliases: ["mutable", "mutability"]
 term: "Immutable"
 pronunciation: "ih-MYOO-tuh-bul"

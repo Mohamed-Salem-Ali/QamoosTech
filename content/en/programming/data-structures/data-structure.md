@@ -22,6 +22,7 @@ In computer science courses, coding interviews, and performance discussions abou
 
 - Choosing the right data structure turned a slow search into an instant lookup.
 - A set is the best data structure for checking membership quickly.
+- A hash table is a data structure that gives fast lookups by key.
 
 ## Common mistake
 

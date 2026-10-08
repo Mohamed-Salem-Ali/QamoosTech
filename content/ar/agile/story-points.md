@@ -4,6 +4,7 @@ category: agile
 level: beginner
 related: [user-story, estimate, sprint]
 term: "Story Points"
+translation: "نقاط القصة"
 pronunciation: "ستوري بوينتس"
 keywords: ["تقدير الجهد في أجايل","نقاط قياس مهام البرمجيات","حجم قصص المستخدمين","تحديد حجم التذاكر","التقدير النسبي للمهام","تقييم تعقيد المهام","نقاط القصة","استخدام أرقام فيبوناتشي للتقدير","ستوري بوينتس","estimate effort for user stories","relative sizing in agile","fibonacci estimation for tasks","agile estimation units","measure complexity of tickets","sprint planning sizing","how to score backlog items","story points vs hours","team velocity calculation","stori points"]
 ---
@@ -22,6 +23,8 @@ keywords: ["تقدير الجهد في أجايل","نقاط قياس مهام �
   - قمنا بتعيين خمس نقاط لهذه المهمة لأنها تتضمن عمليات ترحيل قاعدة بيانات معقدة.
 - The team decided that this user story is too large and needs to be broken down into smaller story points.
   - قرر الفريق أن قصة المستخدم هذه كبيرة جداً وتحتاج إلى تقسيمها إلى قصص أصغر ذات نقاط أقل.
+- Three story points for the login form and eight for the whole checkout flow.
+  - ثلاث نقاط قصة للنموذج، وثماني نقاط لمسار الدفع كاملاً.
 
 ## خطأ شائع
 

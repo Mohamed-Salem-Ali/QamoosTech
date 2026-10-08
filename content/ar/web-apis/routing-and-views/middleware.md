@@ -3,7 +3,7 @@ id: middleware
 category: web-apis
 subcategory: routing-and-views
 level: intermediate
-related: [request-response, dependency-injection]
+related: [request-response, dependency-injection, wsgi-asgi]
 term: "Middleware"
 translation: "برمجية وسيطة"
 pronunciation: "ميدلوير"

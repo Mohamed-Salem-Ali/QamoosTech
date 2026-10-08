@@ -2,7 +2,7 @@
 id: embeddings
 category: ai-data
 level: intermediate
-related: [rag, llm]
+related: [rag, llm, chunking, cosine-similarity]
 term: "Embeddings"
 pronunciation: "em-BED-ingz"
 keywords: ["convert text to vectors","semantic text representation numbers","vector representation of words","vectors for semantic search","text meaning as numbers","generate text embeddings","numerical vectors for ai","word vectorization for rag","imbeddings","vector embeddings","تمثيل النصوص بأرقام","تحويل النص إلى متجهات","البحث الدلالي بالمتجهات","متجهات المعنى للنصوص","تمثيلات رقمية للنصوص","ايجاد مشابهة النصوص بالذكاء الاصطناعي","إمبيدينجز","توليد متجهات النصوص"]

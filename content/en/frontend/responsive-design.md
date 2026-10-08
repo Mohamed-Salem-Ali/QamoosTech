@@ -2,7 +2,7 @@
 id: responsive-design
 category: frontend
 level: beginner
-related: [viewport, component]
+related: [viewport, component, box-model, media-query, z-index]
 term: "Responsive Design"
 pronunciation: "rih-SPON-siv dih-ZYN"
 keywords: ["make website work on mobile","adapt layout to screen size","mobile friendly web design","flexible screen size layout","resizing web pages automatically","rih-sponsiv dizyn","mobile first layouts","resize for phones and tablets","responsive web design","screen adaptation frontend","تصميم موقع للجوال","جعل الصفحة تناسب جميع الشاشات","التصميم المتجاوب","موقع متوافق مع الموبايل","تغيير حجم الصفحة تلقائيا","ريسبونسيف ديزاين","تكييف الموقع مع حجم الشاشة","تصميم الواجهات للجوال","صفحات ويب مرنة الحجم"]
@@ -19,6 +19,7 @@ Frontend tasks, design reviews, and client feedback ("it looks broken on my phon
 
 - The page is fully responsive, so it works on phones and tablets.
 - We design mobile-first and add layout for larger screens later.
+- The table turns into a list on small screens, so nothing gets cut off.
 
 ## Common mistake
 

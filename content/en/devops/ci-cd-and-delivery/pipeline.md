@@ -21,6 +21,7 @@ In CI/CD setups, build automation meetings, and DevOps discussions.
 
 - The build failed because the test stage in the pipeline broke.
 - We added a new security scan to our deployment pipeline.
+- The pipeline runs the tests, then deploys to staging on every merge into main.
 
 ## Common mistake
 

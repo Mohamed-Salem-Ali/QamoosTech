@@ -3,7 +3,7 @@ id: observability
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [monitoring, logging]
+related: [monitoring, logging, auto-instrumentation]
 term: "Observability"
 pronunciation: "ob-zer-va-BIL-i-tee"
 keywords: ["understand why system is failing","debug complex distributed systems","logs metrics and traces collection","measure internal system state","beyond simple uptime monitoring","find root cause of errors","analyze service performance data","how to track system health","observability vs monitoring","system visibility tools","فهم أسباب تعطل النظام","تحليل حالة النظام الداخلية","الفرق بين المراقبة والتشخيص","تتبع أداء الخدمات البرمجية","أدوات تتبع سجلات النظام","معرفة سبب فشل الطلبات","قياس كفاءة النظام البرمجي","تشخيص مشاكل البنية التحتية","مراقبة وتتبع أخطاء النظام","أوبزيرفابيليتي"]

@@ -3,7 +3,7 @@ id: source-of-truth
 category: architecture
 subcategory: data-and-state
 level: beginner
-related: [database, cache]
+related: [database, cache, reconciliation]
 term: "Source of Truth"
 translation: "المصدر المرجعي"
 pronunciation: "سورس أوف ثروث"
@@ -23,6 +23,8 @@ keywords: ["المصدر المرجعي للبيانات","المكان الرس
   - قاعدة البيانات هي المصدر المرجعي، والـ cache مجرد نسخة.
 - Where is the source of truth for prices?
   - أين المصدر المرجعي للأسعار؟
+- The orders table is the source of truth for status, so the emails are sent from it.
+  - جدول الطلبات هو مصدر الحقيقة للحالة، لذلك تُرسَل الرسائل استناداً إليه.
 
 ## خطأ شائع
 

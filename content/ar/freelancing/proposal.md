@@ -2,11 +2,11 @@
 id: proposal
 category: freelancing
 level: beginner
-related: [deliverable, estimate, fixed-price-vs-hourly]
+related: [deliverable, estimate, fixed-price-vs-hourly, shoot-down, discovery-call]
 term: "Proposal"
 translation: "عرض"
 pronunciation: "بروبوزال"
-keywords: ["عرض سعر لمشروع","تقديم عرض للعميل","كتابة عرض عمل حر","عرض فني ومالي","كيفية الحصول على مشاريع","نموذج عرض عمل","بروبوزال عمل حر","عرض تقديم خدمات برمجية","مستند عرض المشروع","طريقة مراسلة العملاء","freelance project bid","how to pitch clients","client project offer document","writing a project scope","business bid for work","project quote and timeline","freelance job application","professional service offer","pruposal spelling","bidding on freelance jobs"]
+keywords: ["عرض سعر لمشروع","تقديم عرض للعميل","كتابة عرض عمل حر","عرض فني ومالي","كيفية الحصول على مشاريع","نموذج عرض عمل","بروبوزال عمل حر","عرض تقديم خدمات برمجية","مستند عرض المشروع","طريقة مراسلة العملاء","freelance project bid","how to pitch clients","client project offer document","writing a project scope","business bid for work","project quote and timeline","freelance job application","professional service offer","pruposal","bidding on freelance jobs"]
 ---
 ## التعريف
 
@@ -22,6 +22,8 @@ keywords: ["عرض سعر لمشروع","تقديم عرض للعميل","كتا
   - أرسلتُ إلى العميل proposal من ثلاث مراحل.
 - Your proposal should answer the client's exact problem.
   - يجب أن يجيب عرضك عن مشكلة العميل بالتحديد.
+- The proposal includes a fixed price for phase one and an hourly rate for changes.
+  - يتضمن المقترح سعراً ثابتاً للمرحلة الأولى، وأجرة بالساعة للتعديلات.
 
 ## خطأ شائع
 

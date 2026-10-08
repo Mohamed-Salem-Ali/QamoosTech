@@ -2,7 +2,7 @@
 id: align-on-scope
 category: agile
 level: intermediate
-related: [deliverable, scope-creep]
+related: [deliverable, scope-creep, buy-in, scope-out, time-box]
 term: "Align on scope"
 translation: "الاتفاق على النطاق"
 pronunciation: "ألاين أون سكوب"

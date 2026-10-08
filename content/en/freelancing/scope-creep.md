@@ -2,7 +2,8 @@
 id: scope-creep
 category: freelancing
 level: beginner
-related: [change-request, align-on-scope, fixed-price-vs-hourly]
+featured: 3
+related: [change-request, align-on-scope, fixed-price-vs-hourly, push-back, statement-of-work]
 term: "Scope Creep"
 pronunciation: "SKOHP KREEP"
 keywords: ["project keeps getting bigger","extra requests without extra money","clients adding more work","unauthorized project additions","fixed price project growing","requirements expanding without budget","feature creep","scope crip","skope creep","managing project boundaries","زيادة طلبات العميل دون زيادة السعر","المشروع يكبر بدون ميزانية إضافية","تعديلات كثيرة خارج العقد","نمو متطلبات المشروع بلا توقف","إضافات بدون تعديل الموعد النهائي","تضخم المتطلبات في العمل الحر","سكوب كريب","تضخم نطاق العمل"]
@@ -19,6 +20,7 @@ Freelance projects and fixed-price contracts.
 
 - Three extra screens is scope creep. Let's send a change request.
 - To avoid scope creep, we wrote the scope in the contract.
+- The client added a dashboard, a report and a login page without changing the price.
 
 ## Common mistake
 

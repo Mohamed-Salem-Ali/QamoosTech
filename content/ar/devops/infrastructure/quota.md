@@ -24,6 +24,8 @@ keywords: ["الحد الأقصى للموارد السحابية","حصة ال�
   - لقد وصلنا إلى حد حصة التخزين لدينا ولا يمكننا رفع المزيد من الملفات إلى مخزن (bucket).
 - Please check the service quotas in the cloud dashboard before spinning up the cluster.
   - يرجى التحقق من حصص الخدمات في لوحة التحكم السحابية قبل تشغيل الـ cluster.
+- The map service quota resets at midnight, so the feature works again tomorrow.
+  - تُعاد ضبط حصة خدمة الخرائط عند منتصف الليل، فتعمل الميزة من جديد غداً.
 
 ## خطأ شائع
 

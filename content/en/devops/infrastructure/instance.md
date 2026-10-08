@@ -21,6 +21,7 @@ In cloud infrastructure management, server deployment, and virtualization discus
 
 - We need to spin up a new instance to handle the increased traffic.
 - The application instance crashed due to an out-of-memory error.
+- Each customer gets its own instance of the app, so their data stays separate.
 
 ## Common mistake
 

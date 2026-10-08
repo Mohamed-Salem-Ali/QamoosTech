@@ -5,6 +5,7 @@ subcategory: api-design
 level: intermediate
 related: [endpoint, restful-api, request-response]
 term: "API Versioning"
+translation: "إدارة إصدارات واجهة البرمجة"
 pronunciation: "إيه بي آي فيرجنينج"
 keywords: ["إدارة التغييرات في واجهة برمجة التطبيقات","تحديث الـ api بدون تعطيل العملاء","إضافة إصدارات للـ api","إصدارات الـ endpoints المختلفة","تغيير إصدار الـ api في الرابط","استراتيجية إصدارات الـ api","دعم عدة إصدارات للـ api","اي بي آي فيرجنينج","manage api changes safely","handle breaking api updates","url versioning for endpoints","add v1 v2 to api","api versioning strategy","versioning rest apis","api header versioning","support multiple api versions"]
 ---

@@ -26,6 +26,8 @@ keywords: ["مجموعة ثابتة من القيم المسماة", "قيم ا�
   - استخدم enum لحالة الدفع بدلاً من النصوص الخام.
 - The database column only accepts the values defined in the enum.
   - عمود قاعدة البيانات يقبل فقط القيم المعرّفة في الـ enum.
+- The order status enum stops a typo such as PAYED from reaching the database.
+  - يمنع التعداد (enum) الخاص بحالة الطلب خطأً مطبعياً مثل PAYED من الوصول إلى قاعدة البيانات.
 
 ## خطأ شائع
 

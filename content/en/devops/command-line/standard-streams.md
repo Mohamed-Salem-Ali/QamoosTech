@@ -23,6 +23,7 @@ When redirecting output (`> file`, `2> errors.txt`), chaining commands with pipe
 
 - Print the results to stdout and the errors to stderr.
 - Redirecting stdout to a file still shows the errors on screen.
+- The script writes the report to stdout, so you can pipe it into a file.
 
 ## Common mistake
 

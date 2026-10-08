@@ -3,7 +3,7 @@ id: two-factor-authentication
 category: security
 subcategory: authentication-and-access
 level: beginner
-related: [authentication-vs-authorization]
+related: [authentication-vs-authorization, credentials]
 term: "Two-Factor Authentication (2FA)"
 translation: "التحقق بخطوتين"
 pronunciation: "تو فاكتر أوثنتيكيشن"
@@ -23,6 +23,8 @@ keywords: ["التحقق بخطوتين","المصادقة الثنائية","ت
   - فعّل التحقق بخطوتين على حساب GitHub.
 - The code expires after 30 seconds.
   - ينتهي الرمز بعد 30 ثانية.
+- After we turned on two-factor authentication, login attempts from bots dropped sharply.
+  - بعد تفعيل المصادقة الثنائية، انخفضت محاولات تسجيل الدخول من الروبوتات بشكل حاد.
 
 ## خطأ شائع
 

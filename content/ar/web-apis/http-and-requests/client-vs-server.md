@@ -23,6 +23,8 @@ keywords: ["الفرق بين العميل والخادم","كيف يعمل ال
   - يرسل العميل طلبًا ويعيد الخادم JSON.
 - The validation runs on the client, but it must also run on the server.
   - التحقق يعمل في العميل، لكن يجب أن يعمل في الخادم أيضًا.
+- The phone app is the client, and the payments service on our server does the actual charge.
+  - تطبيق الهاتف هو العميل، وخدمة المدفوعات على خادمنا هي التي تنفّذ الخصم فعلياً.
 
 ## خطأ شائع
 

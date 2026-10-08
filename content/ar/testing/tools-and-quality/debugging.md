@@ -3,11 +3,11 @@ id: debugging
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [bug, logging, rubber-duck-debugging]
+related: [bug, logging, rubber-duck-debugging, breakpoint]
 term: "Debugging"
 translation: "تصحيح الأخطاء"
 pronunciation: "ديباجينج"
-keywords: ["طريقة إصلاح أخطاء البرمجة","كيفية تتبع أخطاء الكود","اكتشاف سبب تعطل البرنامج","حل المشاكل البرمجية","تتبع الكود خطوة بخطوة","ديباجينج الكود","تصحيح العيوب البرمجية","فحص الأخطاء في النظام","إصلاح الثغرات البرمجية","تحديد مكان الخطأ برمجيا","how to fix code errors","find why code fails","step through code execution","troubleshoot software issues","remove bugs from program","using breakpoints to fix code","code diagnostic process","how to trace software bugs","fixing broken logic","debuging spelling"]
+keywords: ["طريقة إصلاح أخطاء البرمجة","كيفية تتبع أخطاء الكود","اكتشاف سبب تعطل البرنامج","حل المشاكل البرمجية","تتبع الكود خطوة بخطوة","ديباجينج الكود","تصحيح العيوب البرمجية","فحص الأخطاء في النظام","إصلاح الثغرات البرمجية","تحديد مكان الخطأ برمجيا","how to fix code errors","find why code fails","step through code execution","troubleshoot software issues","remove bugs from program","using breakpoints to fix code","code diagnostic process","how to trace software bugs","fixing broken logic","debuging"]
 ---
 ## التعريف
 
@@ -23,6 +23,8 @@ keywords: ["طريقة إصلاح أخطاء البرمجة","كيفية تتب�
   - قضيتُ ساعتين في تتبّع فاصلة مفقودة.
 - Add a breakpoint and debug it step by step.
   - أضف breakpoint وتتبّعها خطوة بخطوة.
+- Debugging the race condition took a day, because it only failed under heavy load.
+  - استغرق تتبّع خلل التزامن يوماً كاملاً، لأنه لا يظهر إلا تحت الحمل الكبير.
 
 ## خطأ شائع
 

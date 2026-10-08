@@ -3,7 +3,7 @@ id: object
 category: programming
 subcategory: object-oriented
 level: beginner
-related: [class, array]
+related: [class, array, shallow-vs-deep-copy, destructuring]
 term: "Object"
 translation: "كائن"
 pronunciation: "أوبجكت"
@@ -23,6 +23,8 @@ keywords: ["حاوية بيانات وخصائص","نسخة من صنف برمج
   - أرسل المستخدم ككائن JSON فيه `name` و `email`.
 - Each `Order` object has a `total` property.
   - كل كائن `Order` له خاصية `total`.
+- The order object holds the items, the customer and the total in one place.
+  - يحتفظ كائن الطلب بالعناصر والعميل والمجموع في مكان واحد.
 
 ## خطأ شائع
 

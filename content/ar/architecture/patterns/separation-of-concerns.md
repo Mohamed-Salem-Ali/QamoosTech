@@ -3,7 +3,7 @@ id: separation-of-concerns
 category: architecture
 subcategory: patterns
 level: intermediate
-related: [design-pattern, component]
+related: [design-pattern, component, mtv, under-the-hood]
 term: "Separation of Concerns"
 translation: "فصل الاهتمامات"
 pronunciation: "سيباريشن أوف كونسيرنز"

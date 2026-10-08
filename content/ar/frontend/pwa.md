@@ -24,6 +24,8 @@ keywords: ["موقع قابل للتثبيت", "يعمل دون اتصال", "�
   - لوحتنا PWA لذا يثبتها موظفو الميدان من المتصفح.
 - The service worker caches the pages for offline use.
   - يخزن الـ service worker الصفحات مؤقتاً للاستخدام دون اتصال.
+- Users can add the PWA to their home screen and open it without the browser bar.
+  - يستطيع المستخدمون إضافة PWA إلى شاشتهم الرئيسية وفتحه دون شريط المتصفح.
 
 ## خطأ شائع
 

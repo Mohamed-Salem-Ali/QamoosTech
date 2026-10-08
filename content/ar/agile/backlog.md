@@ -2,7 +2,7 @@
 id: backlog
 category: agile
 level: beginner
-related: [sprint, user-story]
+related: [sprint, user-story, epic, on-the-radar]
 term: "Backlog"
 translation: "قائمة المهام المؤجلة"
 pronunciation: "باك لوج"
@@ -22,6 +22,8 @@ keywords: ["قائمة المهام المستقبلية","قائمة العمل
   - أضف هذه الفكرة إلى الـ backlog.
 - The product owner prioritizes the backlog every week.
   - يرتّب مالك المنتج أولويات الـ backlog كل أسبوع.
+- The new reporting idea stays at the bottom of the backlog until we review it.
+  - تبقى فكرة التقارير الجديدة في أسفل قائمة الأعمال المتراكمة حتى نراجعها.
 
 ## خطأ شائع
 

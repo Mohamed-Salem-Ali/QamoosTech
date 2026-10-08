@@ -3,9 +3,10 @@ id: decorator
 category: programming
 subcategory: functions-and-scope
 level: intermediate
-related: [function]
+related: [function, syntactic-sugar]
 aliases: ["decorator factory", "wrapper function"]
 term: "Decorator"
+translation: "المُزخرِف"
 pronunciation: "ديكوريتر"
 keywords: ["تغليف الدوال لإضافة سلوك","إضافة خصائص للدالة برمجيا","تعديل سلوك الدالة ديناميكيا","استخدام الرمز ات في بايثون","إضافة صلاحيات للمسارات برمجيا","نمط تغليف الدوال البرمجي","توسيع وظائف الدوال الموجودة","طريقة إضافة كود قبل الدالة","مصطلح ديكوريتر في البرمجة","إضافة تسجيل دخول للمسارات","تعديل الدوال دون تغيير محتواها","تغليف الوظائف البرمجية","wrap function to add behavior","python at symbol syntax","modify function without changing code","add logging to existing functions","function wrapper pattern","add metadata to functions","dynamic function behavior modifier","typescript method wrapper","implementing cross cutting concerns","add authentication to routes","python function annotation","custom function extender"]
 ---

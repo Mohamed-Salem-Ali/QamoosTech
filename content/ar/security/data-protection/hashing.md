@@ -3,7 +3,7 @@ id: hashing
 category: security
 subcategory: data-protection
 level: intermediate
-related: [encryption, authentication-vs-authorization]
+related: [encryption, authentication-vs-authorization, pbkdf2]
 term: "Hashing"
 translation: "التجزئة (الهاش)"
 pronunciation: "هاشينج"

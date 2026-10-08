@@ -3,7 +3,7 @@ id: generator
 category: programming
 subcategory: iteration-and-generators
 level: intermediate
-related: [iterator, iterable, loop]
+related: [iterator, iterable, loop, map-and-filter]
 tags: [python, javascript]
 aliases: ["generator expression", "yield"]
 term: "Generator"

@@ -26,6 +26,8 @@ keywords: ["واجهة بايثون التفاعلية", "اكتب الكود و
   - افتح الـ REPL وجرّب التعبير قبل وضعه في الملف.
 - I tested the regex in the REPL first.
   - جرّبت الـ regex في الـ REPL أولاً.
+- In the REPL, type 2 ** 10 and see the result right away.
+  - اكتب 2 ** 10 في الـ REPL وشاهد النتيجة فوراً.
 
 ## خطأ شائع
 

@@ -23,6 +23,8 @@ keywords: ["التفاصيل الداخلية للبرمجيات","كيف يعم
   - يتعامل إطار العمل مع التوجيه (routing) تلقائياً تحت الغطاء.
 - Let's look under the hood to see how the query builder parses SQL.
   - دعنا ننظر تحت الغطاء لنرى كيف يقوم مُنشئ الاستعلامات بتحليل SQL.
+- The ORM builds the SQL under the hood, so you write Python instead.
+  - يبني ORM جملة SQL في الخلفية، فتكتب بايثون بدلاً منها.
 
 ## خطأ شائع
 

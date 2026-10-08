@@ -3,7 +3,7 @@ id: environment-variable
 category: devops
 subcategory: environments-and-packaging
 level: beginner
-related: [staging-vs-production, containerization]
+related: [staging-vs-production, containerization, yaml]
 term: "Environment Variable"
 translation: "متغير بيئة"
 pronunciation: "إنفايرونمنت فيريابل"
@@ -23,6 +23,8 @@ keywords: ["حفظ الإعدادات خارج الكود","تخزين مفات�
   - ضع مفتاح الـ API في متغير بيئة لا في الشيفرة.
 - The app crashed because `DATABASE_URL` was not set.
   - انهار التطبيق لأن `DATABASE_URL` لم يكن مضبوطًا.
+- Each server reads the database URL from an environment variable set on its own host.
+  - يقرأ كل خادم عنوان قاعدة البيانات من متغيّر بيئة مُعدّ على الجهاز نفسه.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: xss
 category: security
 subcategory: application-security
 level: intermediate
-related: [cors, vulnerability]
+related: [cors, vulnerability, auto-escaping]
 term: "Cross-Site Scripting (XSS)"
 translation: "البرمجة عبر الموقع"
 pronunciation: "كروس سايت سكربتنج"

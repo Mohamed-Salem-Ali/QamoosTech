@@ -23,6 +23,8 @@ keywords: ["دفعة مقدمة قبل بدء المشروع","عربون للع
   - نطلب دفعة مقدمة بنسبة خمسين بالمائة قبل كتابة أي كود.
 - The client sent the deposit, so we can start the project today.
   - أرسل العميل الدفعة المقدمة، لذا يمكننا بدء المشروع اليوم.
+- The contract says the deposit is refundable only if we cancel before design starts.
+  - ينص العقد على أن العربون قابل للاسترداد فقط إن ألغينا قبل بدء التصميم.
 
 ## خطأ شائع
 

@@ -3,7 +3,7 @@ id: serverless
 category: devops
 subcategory: infrastructure
 level: intermediate
-related: [deployment, scalability]
+related: [deployment, scalability, managed-service]
 term: "Serverless"
 translation: "بدون خوادم (سيرفرليس)"
 pronunciation: "سيرفرليس"

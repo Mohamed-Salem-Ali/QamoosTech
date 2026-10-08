@@ -3,7 +3,7 @@ id: queryset
 category: databases
 subcategory: orm-and-migrations
 level: intermediate
-related: [orm, query, eager-loading]
+related: [orm, query, eager-loading, default-ordering]
 tags: [django, python]
 aliases: ["query set"]
 term: "QuerySet"

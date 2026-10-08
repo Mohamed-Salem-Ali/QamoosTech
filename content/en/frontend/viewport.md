@@ -2,14 +2,14 @@
 id: viewport
 category: frontend
 level: beginner
-related: [responsive-design]
+related: [responsive-design, css-grid, flexbox]
 term: "Viewport"
 pronunciation: "VYOO-port"
 keywords: ["visible area of web page","browser window display size","screen size in css","mobile screen width tag","vw and vh units","responsive design screen area","page area inside browser","device screen dimensions","viewport meta tag","visible browser area","المساحة المرئية من صفحة الويب","منفذ العرض","حجم نافذة المتصفح","مساحة الشاشة في المتصفح","مقاسات الشاشة للتصميم المرن","عرض الشاشة في الجوال","وسم ميسان الشاشة","فيوبورت","وحدات القياس في سي إس إس"]
 ---
 ## Definition
 
-The visible area of a web page inside the browser window or on a phone screen.
+The visible part of a web page inside the browser or on a phone screen. Layouts and media queries respond to its width, so it decides what the user actually sees.
 
 ## Where you hear it
 
@@ -19,6 +19,7 @@ CSS (`vw`, `vh`), media queries, and mobile testing.
 
 - The menu should collapse when the viewport is narrower than 600px.
 - Add the viewport meta tag, or the page will look tiny on phones.
+- The page adapts to the viewport width, so the text stays readable on a phone.
 
 ## Common mistake
 

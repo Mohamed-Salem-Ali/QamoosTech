@@ -23,6 +23,7 @@ In framework tutorials (`runserver`, `next dev`, `uvicorn --reload`) and when pe
 
 - Start the development server and open localhost:8000.
 - Never expose the development server to the internet.
+- The development server reloads the page each time you save a file.
 
 ## Common mistake
 

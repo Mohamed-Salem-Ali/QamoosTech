@@ -21,6 +21,7 @@ During database schema design, API development, or when discussing data retentio
 
 - We implemented a `deleted_at` column to perform soft deletes on user accounts.
 - The system filters out records where the `is_active` flag is false instead of running a delete query.
+- The app marks the order as cancelled with a deleted_at timestamp, so finance can still see it.
 
 ## Common mistake
 

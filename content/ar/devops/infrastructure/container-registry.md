@@ -4,6 +4,7 @@ category: devops
 subcategory: infrastructure
 level: beginner
 related: [containerization, pipeline, deployment]
+tags: [docker]
 aliases: ["docker registry", "docker hub", "image registry"]
 term: "Container Registry"
 translation: "سجل الحاويات"
@@ -25,6 +26,8 @@ keywords: ["تخزين صور Docker", "‏Docker Hub وECR وGHCR", "رفع ا�
   - يبني خط التجهيز الصورة ويرفعها إلى السجل.
 - Pin the deployment to a specific tag, not `latest`.
   - ثبّت النشر على وسم محدد وليس `latest`.
+- CI pushes the new image to the registry, and the server pulls that exact version.
+  - تدفع CI الصورة الجديدة إلى السجل (registry)، ويسحب الخادم هذا الإصدار بعينه.
 
 ## خطأ شائع
 

@@ -23,6 +23,7 @@ In scripts (`&&` chains), CI pipelines that go red, and CLI tools that need to s
 
 - The tests failed, so the command exits with code 1 and CI stops.
 - Call `sys.exit(2)` when the arguments are invalid.
+- The deploy script exits with code 0 only when every health check passes.
 
 ## Common mistake
 

@@ -2,7 +2,7 @@
 id: state
 category: frontend
 level: beginner
-related: [props, component]
+related: [props, component, pseudo-class]
 term: "State"
 pronunciation: "STAYT"
 keywords: ["data that changes over time","component data storage","variables that update the ui","track user input in component","react local state","manage changing app data","storing screen data","ui component memory","state","بيانات تتغير في التطبيق","تخزين بيانات المكون","متغيرات تحدث واجهة المستخدم","حفظ حالة المكون","إدارة بيانات الشاشة","البيانات المتغيرة في الصفحة","الحالة المحلية للمكون","متغيرات تفاعل المستخدم"]
@@ -19,6 +19,7 @@ React and Vue lessons, and bug reports ("the state is out of sync").
 
 - The cart count is stored in the component state.
 - The state changed, so React re-rendered the page.
+- Clicking Add updates the state, and the cart count changes on screen.
 
 ## Common mistake
 

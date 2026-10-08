@@ -3,7 +3,7 @@ id: database
 category: databases
 subcategory: fundamentals
 level: beginner
-related: [table-row-column, query]
+related: [table-row-column, query, vector-database, soft-delete]
 term: "Database"
 translation: "قاعدة بيانات"
 pronunciation: "ديتابيس"
@@ -23,6 +23,8 @@ keywords: ["نظام تخزين البيانات","حفظ معلومات الم�
   - نخزّن المستخدمين والطلبات في قاعدة بيانات PostgreSQL.
 - The database is down, so the app cannot log anyone in.
   - قاعدة البيانات متوقفة، لذلك لا يستطيع التطبيق تسجيل دخول أحد.
+- We back up the database every night, so we can restore it after a failure.
+  - ننسخ قاعدة البيانات احتياطياً كل ليلة، حتى نستعيدها بعد أي عطل.
 
 ## خطأ شائع
 

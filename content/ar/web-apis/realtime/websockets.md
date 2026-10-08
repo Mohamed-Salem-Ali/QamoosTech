@@ -3,7 +3,7 @@ id: websockets
 category: web-apis
 subcategory: realtime
 level: intermediate
-related: [request-response]
+related: [request-response, server-sent-events, streaming, reconnection, real-time]
 term: "WebSockets"
 translation: "ويب سوكتس"
 pronunciation: "ويب سوكتس"

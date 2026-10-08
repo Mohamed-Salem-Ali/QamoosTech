@@ -21,6 +21,7 @@ During database design, writing SQL constraints, or discussing table relationshi
 
 - The `orders` table includes a foreign key that references the `users` table.
 - A foreign key prevents the database from deleting a customer who still has active purchases.
+- The payments table uses a foreign key to point at the order it pays for.
 
 ## Common mistake
 

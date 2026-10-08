@@ -19,6 +19,7 @@ Vacations and sick days.
 
 - I'm out of office until Monday, so please contact Sara for urgent issues.
 - His auto-reply says he is OOO this week.
+- Set your out-of-office reply before you leave for the holiday.
 
 ## Common mistake
 

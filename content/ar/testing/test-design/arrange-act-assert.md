@@ -26,6 +26,8 @@ keywords: ["الخطوات الثلاث للاختبار", "جهّز ونفّذ 
   - أبقِ الاختبار في ثلاث كتل: ترتيب وتنفيذ وتحقق.
 - This test acts twice, so it is hard to tell what failed.
   - هذا الاختبار ينفّذ مرتين، فيصعب معرفة ما الذي فشل.
+- Arrange a cart with two items, act by calling checkout, then assert the total is 40.
+  - جهّز سلة فيها عنصران، ثم نفّذ عملية الدفع، ثم تحقّق من أن المجموع 40.
 
 ## خطأ شائع
 

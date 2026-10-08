@@ -26,6 +26,8 @@ keywords: ["بايثون خاص بمشروع واحد", "مجلد venv", "عزل
   - أنشئ بيئة افتراضية وفعّلها قبل تثبيت أي شيء.
 - It works in my venv but fails on the server because the versions differ.
   - يعمل في بيئتي الافتراضية لكنه يفشل على الخادم لاختلاف الإصدارات.
+- Each project has its own virtual environment, so old library versions do not clash.
+  - لكل مشروع بيئة افتراضية خاصة به، فلا تتعارض إصدارات المكتبات القديمة.
 
 ## خطأ شائع
 

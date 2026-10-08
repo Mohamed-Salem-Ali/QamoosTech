@@ -23,6 +23,8 @@ keywords: ["أبقني على اطلاع","أضفني في المراسلات","
   - أرجو إبقائي على اطلاع دائم بأي تغييرات في مخطط الـ API.
 - She is in the loop on all major architecture decisions.
   - إنها ضمن المتابعين لجميع قرارات البنية الهندسية الرئيسية.
+- Put the legal team in the loop before we change the refund policy.
+  - أبقِ الفريق القانوني على اطلاع قبل أن نغيّر سياسة الاسترداد.
 
 ## خطأ شائع
 

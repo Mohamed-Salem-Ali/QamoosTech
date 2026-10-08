@@ -3,7 +3,7 @@ id: module
 category: programming
 subcategory: modules-and-libraries
 level: beginner
-related: [package, import, standard-library]
+related: [package, import, standard-library, namespace, wildcard-import]
 tags: [python]
 aliases: ["python module", "modules"]
 term: "Module"
@@ -23,6 +23,7 @@ In Python and JavaScript projects, whenever code is split into separate files, a
 
 - Put the date helpers in their own module.
 - The import fails because Python can't find the module.
+- The date helpers live in one module, so the report and the invoice both import them.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ A sandbox is an isolated environment where software developers can test code, ru
 
 - We need to test the payment gateway integration in the sandbox environment first.
 - Please run your migration scripts in the sandbox to ensure they don't corrupt the production database.
+- Test the webhook in the sandbox so real customers do not receive fake orders.
 
 ## Common mistake
 

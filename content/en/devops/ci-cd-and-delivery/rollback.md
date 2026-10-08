@@ -3,14 +3,15 @@ id: rollback
 category: devops
 subcategory: ci-cd-and-delivery
 level: intermediate
-related: [deployment, feature-flag]
+featured: 6
+related: [deployment, feature-flag, git-reset]
 term: "Rollback"
 pronunciation: "ROHL-bak"
 keywords: ["revert to previous version","undo bad software release","go back to stable build","cancel recent deployment","restore previous working state","roll back production changes","revert deployment errors","how to perform rollback","previous version recovery","reverting failed update","العودة للإصدار السابق","التراجع عن التحديث الأخير","إلغاء عملية النشر الحالية","استعادة النسخة المستقرة","طريقة التراجع عن الإصدار","الرجوع لحالة النظام السابقة","إصلاح أخطاء الإصدار الجديد","تراجع عن التغييرات البرمجية","عملية رول باك للنظام","استرجاع النظام بعد العطل"]
 ---
 ## Definition
 
-Returning to the previous working version after a bad release.
+Returning to the previous working version after a bad release. A rollback is usually the fastest way to stop the damage, and the team can then fix the problem calmly and release again.
 
 ## Where you hear it
 

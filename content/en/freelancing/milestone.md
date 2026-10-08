@@ -2,7 +2,7 @@
 id: milestone
 category: freelancing
 level: beginner
-related: [deliverable, invoice, deadline]
+related: [deliverable, invoice, deadline, give-the-green-light, kickoff-meeting]
 term: "Milestone"
 pronunciation: "MYL-stohn"
 keywords: ["project checkpoint","project phase goal","payment stage in project","break project into chunks","deliverable check point","project progress marker","malestone","milstone","project timeline stage","define project stages","مرحلة رئيسية في المشروع","نقطة إنجاز في المشروع","مرحلة تسليم ودفع","تقسيم المشروع إلى مراحل","محطة رئيسية للمشروع","دفعة مالية للمشروع","مايلستون","مراحل العمل في العقد"]
@@ -19,6 +19,7 @@ Contracts, proposals, and project plans.
 
 - The first milestone is the working login, with 30% payment.
 - We reached the second milestone on time.
+- The second milestone is the payment page, and the client pays after it is approved.
 
 ## Common mistake
 

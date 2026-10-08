@@ -2,7 +2,7 @@
 id: action-item
 category: communication
 level: beginner
-related: [agenda, follow-up]
+related: [agenda, follow-up, tldr]
 term: "Action Item"
 translation: "مهمة متفق عليها"
 pronunciation: "أكشن آيتم"
@@ -22,6 +22,8 @@ keywords: ["مهام ما بعد الاجتماع","المهام المتفق ع
   - Action item: سترسل سارة التصميم المحدّث بحلول الأربعاء.
 - I'll email everyone the action items after the call.
   - سأرسل للجميع الـ action items بعد المكالمة.
+- Action item for Omar: fix the broken link in the welcome email by Friday.
+  - بند عمل لعمر: إصلاح الرابط المكسور في بريد الترحيب قبل يوم الجمعة.
 
 ## خطأ شائع
 

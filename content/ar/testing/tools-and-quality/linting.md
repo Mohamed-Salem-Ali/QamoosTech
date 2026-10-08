@@ -3,7 +3,7 @@ id: linting
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [quality-gate, code-review]
+related: [quality-gate, code-review, git-hook, type-checker]
 aliases: ["linter", "ruff"]
 term: "Linting"
 translation: "الـ Linting"
@@ -24,6 +24,8 @@ keywords: ["فحص جودة الكود تلقائيا","أداة اكتشاف أ
   - اكتشف الـ linter متغيرًا غير مستخدم.
 - Run the linter before you push.
   - شغّل الـ linter قبل أن ترفع التغييرات (push).
+- The linting step fails the build when a variable is declared and never used.
+  - تُفشل خطوة الفحص (linting) البناء حين يُعلَن عن متغيّر ولا يُستخدم أبداً.
 
 ## خطأ شائع
 

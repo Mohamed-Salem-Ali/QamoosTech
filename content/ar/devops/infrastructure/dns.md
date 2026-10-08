@@ -3,7 +3,7 @@ id: dns
 category: devops
 subcategory: infrastructure
 level: beginner
-related: [dns-record, nameserver, ttl]
+related: [dns-record, nameserver, ttl, dnssec]
 aliases: ["domain name system", "dns lookup", "dns propagation", "name resolution"]
 term: "DNS"
 translation: "نظام أسماء النطاقات"
@@ -25,6 +25,8 @@ keywords: ["تحويل اسم النطاق إلى عنوان IP", "دليل ها
   - بعد تغيير سجل DNS قد يستغرق الانتشار ساعات.
 - Check with `dig example.com` what the name resolves to.
   - تحقق بـ `dig example.com` إلى ماذا يُحلّ الاسم.
+- After we moved the domain, the old IP address still answered until DNS caught up.
+  - بعد نقل النطاق، ظل عنوان IP القديم يستجيب إلى أن تحدّث نظام DNS.
 
 ## خطأ شائع
 

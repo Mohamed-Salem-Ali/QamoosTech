@@ -3,7 +3,7 @@ id: http-header
 category: web-apis
 subcategory: http-and-requests
 level: intermediate
-related: [request-response, cookie]
+related: [request-response, cookie, etag, multipart-form-data]
 term: "HTTP Header"
 pronunciation: "aitch-tee-tee-pee HED-er"
 keywords: ["send authorization token in request","set content type application json","metadata sent with api request","http header vs body","custom request headers network tab","api authentication header missing","http hedder","request headers response headers","ترويسة http","هيدر الطلب","إرسال رمز المصادقة في الهيدر","تحديد نوع المحتوى في الطلب","بيانات إضافية مع الطلب","الفرق بين الترويسة والجسم","إتش تي تي بي هيدر","مشاكل هيدر الـ api"]

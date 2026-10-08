@@ -26,6 +26,8 @@ keywords: ["الوحدات المدمجة", "تأتي مع بايثون", "لا 
   - المكتبة القياسية تتعامل مع JSON أصلاً، فلا حاجة لحزمة إضافية.
 - Check the standard library before adding a dependency.
   - تحقق من المكتبة القياسية قبل إضافة اعتمادية.
+- The standard library has datetime, so we did not need another package for dates.
+  - تتضمن المكتبة القياسية datetime، فلم نحتج إلى حزمة أخرى للتواريخ.
 
 ## خطأ شائع
 

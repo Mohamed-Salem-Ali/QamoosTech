@@ -22,6 +22,7 @@ In table design, ORM defaults, and discussions about integer ids versus UUIDs.
 
 - The database gives each new payment the next auto-increment ID.
 - Don't expose sequential ids in public URLs because people can guess them.
+- The orders table uses an auto-increment ID, so each new order gets the next number.
 
 ## Common mistake
 

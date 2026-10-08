@@ -23,6 +23,8 @@ keywords: ["وضع شخص في نسخة البريد","إدراج شخص للا�
   - ضعني في نسخة البريد الإلكتروني الموجه إلى العميل حتى أتمكن من متابعة الطلب.
 - I will CC the manager on this thread to keep them updated on the bug fix.
   - سأقوم بإدراج المدير في نسخة هذه المحادثة لإبقائه على اطلاع بآخر تحديثات إصلاح الخطأ البرمجي.
+- CC the support lead on the reply, so they know the customer is waiting.
+  - ضع مسؤول الدعم في نسخة الرسالة (CC) ليعرف أن العميل ينتظر.
 
 ## خطأ شائع
 

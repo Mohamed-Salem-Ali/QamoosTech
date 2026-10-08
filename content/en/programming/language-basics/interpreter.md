@@ -22,6 +22,7 @@ In Python and JavaScript courses, when comparing interpreted and compiled langua
 
 - The interpreter stops and reports the error as soon as it reaches the faulty line.
 - Which interpreter version does your virtual environment use?
+- The interpreter reports a syntax error on line 12 before the script runs anything.
 
 ## Common mistake
 

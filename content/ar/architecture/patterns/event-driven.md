@@ -3,7 +3,7 @@ id: event-driven
 category: architecture
 subcategory: patterns
 level: intermediate
-related: [message-queue, immutable]
+related: [message-queue, immutable, schema-registry]
 term: "Event-driven"
 translation: "مبني على الأحداث"
 pronunciation: "إيفنت دريفن"

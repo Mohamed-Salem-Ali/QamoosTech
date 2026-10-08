@@ -2,7 +2,7 @@
 id: rendering
 category: frontend
 level: intermediate
-related: [hydration, nextjs]
+related: [hydration, nextjs, virtual-dom]
 term: "Rendering (SSR / CSR)"
 pronunciation: "REN-der-ing"
 keywords: ["server side vs client side rendering","how to generate html on server","browser builds page with javascript","turn code and data into ui","ssr vs csr","page re rendering loop","initial page load rendering","render html on server","تحويل الشيفرة إلى صفحة مرئية","بناء صفحات الويب بالمتصفح","توليد html من الخادم","الفرق بين ssr و csr","عرض الصفحة من الخادم","إعادة عرض المكونات باستمرار","ريندرينج الصفحة","عرض واجهة المستخدم"]

@@ -26,6 +26,8 @@ keywords: ["إدخال بيانات أولية للقاعدة","تعبئة قا�
   - قم بتشغيل أمر تغذية قاعدة البيانات لملء جدول الأدوار بالقيم الافتراضية.
 - The test suite automatically clears the database and loads seed data before every run.
   - تقوم حزمة الاختبارات بمحو قاعدة البيانات تلقائياً وتحميل البيانات الأولية قبل كل تشغيل.
+- After the reset, the seed data gives us one admin user and the default roles.
+  - بعد إعادة الضبط، تمنحنا البيانات الأولية حساب مشرف واحداً والأدوار الافتراضية.
 
 ## خطأ شائع
 

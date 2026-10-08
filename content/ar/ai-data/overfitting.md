@@ -2,7 +2,7 @@
 id: overfitting
 category: ai-data
 level: intermediate
-related: [fine-tuning]
+related: [fine-tuning, underfitting]
 term: "Overfitting"
 pronunciation: "أوفرفيتينج"
 translation: "فرط الملاءمة / الإفراط في الملاءمة"

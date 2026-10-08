@@ -23,6 +23,8 @@ keywords: ["تقسيم نتائج البحث إلى صفحات","عرض النت
   - يدعم الـ endpoint ترقيم الصفحات عبر `page` و`limit`.
 - Without pagination, the response would contain 50,000 rows.
   - بدون ترقيم الصفحات ستحتوي الاستجابة على 50 ألف سجل.
+- The results page shows 20 items, and the next button loads the next 20.
+  - تعرض صفحة النتائج 20 عنصراً، ويعرض زر التالي 20 عنصراً آخر.
 
 ## خطأ شائع
 

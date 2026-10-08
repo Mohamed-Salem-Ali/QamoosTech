@@ -21,6 +21,7 @@ During the CI/CD pipeline, at the start of a QA cycle, or after a new deployment
 
 - We run a smoke test after every deployment to ensure the login page loads correctly.
 - If the smoke test fails, we stop the release process immediately.
+- After the deploy, the smoke test opens the home page and the checkout page.
 
 ## Common mistake
 

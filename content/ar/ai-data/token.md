@@ -2,7 +2,7 @@
 id: token
 category: ai-data
 level: beginner
-related: [llm, prompt-engineering]
+related: [llm, prompt-engineering, context-window, temperature, tokenization]
 term: "Token"
 translation: "رمز (توكن)"
 pronunciation: "توكن"
@@ -22,6 +22,8 @@ keywords: ["ما هو التوكن في الذكاء الاصطناعي","كيف
   - الـ prompt يبلغ 2000 token، لذلك يتسع في نافذة السياق.
 - We limit the output to 500 tokens to control cost.
   - نحدّ المخرجات بـ 500 token للتحكم في التكلفة.
+- The article is 3,000 words, which is about 4,000 tokens for most models.
+  - المقالة من 3000 كلمة، وتقارب 4000 رمز (token) في معظم النماذج.
 
 ## خطأ شائع
 

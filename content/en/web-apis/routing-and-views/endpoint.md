@@ -3,7 +3,7 @@ id: endpoint
 category: web-apis
 subcategory: routing-and-views
 level: beginner
-related: [restful-api, request-response]
+related: [restful-api, request-response, api-documentation]
 term: "Endpoint"
 pronunciation: "END-point"
 keywords: ["api url path","url to call api","backend route address","api route url","where to send request","api address","endpoint","indpoint","rest api url path","call backend service url","عنوان url للـ api","مسار الـ api","رابط الاتصال بالخادم","عنوان الطلب","نقطة نهاية","إندبوينت","عنوان الـ url المخصص","مسار طلب البيانات","رابط خدمة الويب"]
@@ -20,6 +20,7 @@ API docs, backend tickets, and client discussions ("which endpoint do I call?").
 
 - We added a new endpoint for exporting invoices.
 - The endpoint returns 404 for unknown users.
+- The mobile app calls the same endpoint as the web app, so both get the same data.
 
 ## Common mistake
 

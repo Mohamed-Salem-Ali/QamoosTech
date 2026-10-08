@@ -4,6 +4,7 @@ category: git
 level: beginner
 related: [repository, commit]
 term: "Git Ignore"
+translation: "ملف التجاهل"
 pronunciation: "جيت إيجنور"
 keywords: ["استبعاد ملفات من جيت","منع تتبع الملفات في جيت","تجاهل ملفات معينة في المستودع","اخفاء ملفات الاعدادات عن جيت","ملف التجاهل في جيت","عدم تتبع مجلد البناء","تخطي الملفات غير المرغوبة","حجب كلمات المرور من الرفع","exclude files from git","stop tracking files in git","ignore unwanted files in repo","hide config files from git","git ignore file","dont track build folder git","gitignore configuration","exclude sensitive files git","ignore logs in git"]
 ---
@@ -22,6 +23,8 @@ keywords: ["استبعاد ملفات من جيت","منع تتبع الملفا
   - أضفنا مجلد البناء إلى ملف `.gitignore` للحفاظ على نظافة المستودع.
 - Make sure to add your local environment variables file to `.gitignore` so you do not commit secrets.
   - تأكد من إضافة ملف متغيرات البيئة المحلي إلى `.gitignore` حتى لا تقوم برفع بيانات سرية.
+- The node_modules folder belongs in .gitignore, so it never reaches the repository.
+  - يجب أن يكون مجلد node_modules في .gitignore، حتى لا يصل إلى المستودع أبداً.
 
 ## خطأ شائع
 

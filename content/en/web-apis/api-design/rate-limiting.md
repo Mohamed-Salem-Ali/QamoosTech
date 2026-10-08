@@ -3,6 +3,7 @@ id: rate-limiting
 category: web-apis
 subcategory: api-design
 level: intermediate
+featured: 4
 related: [status-code, fail-open-vs-fail-closed]
 term: "Rate Limiting"
 pronunciation: "RAYT LIM-it-ing"

@@ -2,7 +2,7 @@
 id: mvp
 category: agile
 level: intermediate
-related: [user-story, stakeholder]
+related: [user-story, stakeholder, poc, out-of-the-box]
 term: "MVP (Minimum Viable Product)"
 pronunciation: "em-vee-PEE"
 keywords: ["minimum viable product","simplest version of a product","build product to test idea","first version for users","em vee pee","startup product version","core features only release","test business idea quickly","initial product release","الحد الأدنى من المنتج القابل للإطلاق","أبسط نسخة من المنتج","المنتج الأولي لاختبار الفكرة","إطلاق نسخة أولية للمستخدمين","بناء أبسط نسخة ممكنة","ام في بي","المنتج التجريبي الأول","نسخة البداية للمنتج"]

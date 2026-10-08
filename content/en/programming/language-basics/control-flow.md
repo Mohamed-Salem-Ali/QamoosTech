@@ -21,6 +21,7 @@ In beginner programming courses, code reviews that simplify nested conditions, a
 
 - The control flow is hard to follow because of so many nested conditions.
 - An early return simplifies the control flow.
+- A break inside the loop changes the control flow, so the code after the loop runs next.
 
 ## Common mistake
 

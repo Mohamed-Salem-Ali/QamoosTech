@@ -3,7 +3,7 @@ id: race-condition
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [deadlock, idempotency, unique-constraint]
+related: [deadlock, idempotency, unique-constraint, toctou]
 tags: [python, sql]
 aliases: ["race", "concurrency bug", "lost update"]
 term: "Race Condition"

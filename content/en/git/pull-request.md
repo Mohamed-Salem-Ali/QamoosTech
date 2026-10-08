@@ -2,7 +2,8 @@
 id: pull-request
 category: git
 level: beginner
-related: [branch, code-review, merge]
+featured: 2
+related: [branch, code-review, merge, protected-branch]
 term: "Pull Request (PR)"
 pronunciation: "PUL ri-KWEST"
 keywords: ["request to merge code","submit code for review","git pr","open a pr","code review request","merge my branch into main","pull request","propose code changes","review my code changes","طلب دمج الكود","ارسال الكود للمراجعة","طلب مراجعة الكود","بول ريكويست","فتح طلب دمج","دمج الفرع مع الرئيسي","مراجعة التغييرات قبل الدمج","طلب دمج الفرع"]
@@ -19,6 +20,7 @@ Daily teamwork on GitHub and GitLab.
 
 - I opened a pull request for the login fix.
 - Please keep the PR small so it is easy to review.
+- The pull request has two approvals, so the team can merge it today.
 
 ## Common mistake
 

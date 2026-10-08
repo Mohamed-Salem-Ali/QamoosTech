@@ -3,11 +3,11 @@ id: graphql
 category: web-apis
 subcategory: api-design
 level: intermediate
-related: [restful-api, endpoint]
+related: [restful-api, endpoint, over-fetching]
 term: "GraphQL"
 translation: "جراف كيو إل"
 pronunciation: "جرافكيو إل"
-keywords: ["جلب البيانات بدقة","بديل لـ rest api","لغة استعلام البيانات","جلب الحقول المطلوبة فقط","واجهة برمجة تطبيقات مرنة","استعلامات الواجهة الأمامية","جراف كيو إل","تقليل البيانات غير الضرورية","نقطة نهاية واحدة للبيانات","تصميم استعلامات api","query specific data fields","alternative to rest api","single endpoint api style","fetch exact data needed","graph query language","api for frontend developers","avoid overfetching api data","schema based data fetching","flexible api request format","grapqhl typo","grapql tech"]
+keywords: ["جلب البيانات بدقة","بديل لـ rest api","لغة استعلام البيانات","جلب الحقول المطلوبة فقط","واجهة برمجة تطبيقات مرنة","استعلامات الواجهة الأمامية","جراف كيو إل","تقليل البيانات غير الضرورية","نقطة نهاية واحدة للبيانات","تصميم استعلامات api","query specific data fields","alternative to rest api","single endpoint api style","fetch exact data needed","graph query language","api for frontend developers","avoid overfetching api data","schema based data fetching","flexible api request format","grapqhl","grapql tech"]
 ---
 ## التعريف
 

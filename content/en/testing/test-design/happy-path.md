@@ -21,6 +21,7 @@ During test planning, code reviews, and discussions about user requirements.
 
 - We should write a test for the happy path before handling invalid inputs.
 - The user successfully logs in and views their dashboard on the happy path.
+- The happy path works, but the form still breaks when the phone number is empty.
 
 ## Common mistake
 

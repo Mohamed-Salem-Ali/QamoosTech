@@ -22,6 +22,7 @@ In load balancer and DNS settings, scheduling discussions and OS process schedul
 
 - The balancer uses round robin across the three servers.
 - Round robin ignores how busy each server is.
+- Round robin sends the first request to server A and the second one to server B.
 
 ## Common mistake
 

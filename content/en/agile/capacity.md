@@ -20,6 +20,7 @@ During sprint planning meetings or when discussing team availability with stakeh
 
 - We need to check our capacity before committing to these new user stories.
 - Our team's capacity is reduced this sprint due to upcoming holidays.
+- We have capacity for two medium tasks, but not for the whole redesign.
 
 ## Common mistake
 

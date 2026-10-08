@@ -27,6 +27,8 @@ keywords: ["ضمان استمرار عمل النظام","تقليل وقت تو
   - نحتاج إلى ضبط موزّع الأحمال لتحقيق التوافر العالي عبر مثيلات الخوادم الخاصة بنا.
 - The database cluster is set up for high availability with automated failover.
   - تم إعداد مجموعة قواعد البيانات لضمان التوافر العالي مع خاصية التبديل التلقائي عند التعطل.
+- Two database replicas take over automatically when the primary server fails.
+  - تتولى نسختان من قاعدة البيانات المهمة تلقائياً حين يتعطل الخادم الرئيسي.
 
 ## خطأ شائع
 

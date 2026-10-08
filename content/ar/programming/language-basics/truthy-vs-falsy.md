@@ -3,9 +3,10 @@ id: truthy-vs-falsy
 category: programming
 subcategory: language-basics
 level: beginner
-related: [variable]
+related: [variable, identity-vs-equality, short-circuit-evaluation]
 aliases: ["truthiness"]
 term: "Truthy vs Falsy"
+translation: "القيم الصادقة والكاذبة ضمنياً"
 pronunciation: "تروثي فيرسز فالسي"
 keywords: ["قيم تُعامل معاملة المنطق","كيف تعمل الشروط البرمجية","متى يعتبر المتغير صحيحا","تحويل القيم إلى منطقية","قيم تعتبر خاطئة برمجيا","الفرق بين تروثي وفالسي","سلوك القيم في جمل الشرط","تقييم المتغيرات في البرمجة","مفهوم القيم المنطقية الضمنية","فهم القيم التي تساوي خطأ","values evaluated as boolean","how if statements check variables","truthy and falsy concepts","boolean evaluation of non-boolean","check if value is empty","javascript implicit boolean conversion","is zero true or false","truthy vs falsy meaning","programming conditional logic basics","values treated as false"]
 ---
@@ -24,6 +25,8 @@ keywords: ["قيم تُعامل معاملة المنطق","كيف تعمل ال
   - السلسلة النصية الفارغة تُعتبر falsy، لذا لن يتم تنفيذ الكود الموجود داخل الشرط.
 - A non-zero number is considered truthy, allowing it to pass a conditional check.
   - الرقم الذي لا يساوي صفراً يُعتبر truthy، مما يسمح له بتجاوز فحص الشرط.
+- An empty list is falsy, so if not items runs the branch that handles no items.
+  - القائمة الفارغة قيمة falsy، لذلك تُنفّذ if not items الفرع الذي يعالج غياب العناصر.
 
 ## خطأ شائع
 
@@ -31,7 +34,7 @@ keywords: ["قيم تُعامل معاملة المنطق","كيف تعمل ال
 
 ## لا تخلطه مع
 
-يتم الخلط أحياناً بين مفاهيم Truthy/Falsy ومفاهيم Null/Undefined؛ فبينما تشير Truthy/Falsy إلى كيفية سلوك القيمة في السياق المنطقي، تشير Null/Undefined إلى غياب القيمة أو حالة المتغير غير المهيأ.
+القيمة falsy ليست هي القيمة false. فالصفر والنص الفارغ وnull تُعدّ falsy داخل الشرط، أما القيمة المنطقية false وحدها فهي false نفسها.
 
 ## قلها في العمل
 

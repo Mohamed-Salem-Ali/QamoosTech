@@ -20,6 +20,7 @@ In team meetings, status updates, or casual chats when a release date is very cl
 
 - We are in crunch time now, so everyone needs to focus on fixing critical bugs.
 - Let us cut the nice-to-have features to survive crunch time and ship on schedule.
+- The team works late every night during crunch time before the launch.
 
 ## Common mistake
 

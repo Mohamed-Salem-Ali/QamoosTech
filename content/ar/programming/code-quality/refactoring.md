@@ -3,7 +3,7 @@ id: refactoring
 category: programming
 subcategory: code-quality
 level: intermediate
-related: [tech-debt, unit-test]
+related: [tech-debt, unit-test, code-smell, tdd]
 term: "Refactoring"
 translation: "إعادة هيكلة الشيفرة"
 pronunciation: "ريفاكتورينج"

@@ -3,7 +3,7 @@ id: class
 category: programming
 subcategory: object-oriented
 level: beginner
-related: [object, inheritance, interface]
+related: [object, inheritance, interface, dataclass]
 term: "Class"
 translation: "فئة"
 pronunciation: "كلاس"
@@ -11,7 +11,7 @@ keywords: ["مخطط لإنشاء الكائنات","قالب البرمجة ك�
 ---
 ## التعريف
 
-مخطط يصف البيانات والسلوك الذي سيملكه كل كائن يُنشأ منه.
+مخطط يجمع البيانات والدوال التي تعمل عليها. ولكل كائن يُنشأ من الفئة نسخته الخاصة من البيانات.
 
 ## أين تسمعه؟
 
@@ -23,6 +23,8 @@ keywords: ["مخطط لإنشاء الكائنات","قالب البرمجة ك�
   - أنشئ فئة `Invoice` فيها دالة `calculateTotal`.
 - This class is doing too much. Let's split it.
   - هذه الفئة تقوم بأكثر من مهمة. لنقسمها.
+- The Invoice class has a method that calculates the total from its items.
+  - تحتوي الفئة Invoice على دالة تحسب المجموع من عناصرها.
 
 ## خطأ شائع
 

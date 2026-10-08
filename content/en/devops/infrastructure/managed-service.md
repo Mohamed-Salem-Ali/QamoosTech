@@ -21,6 +21,7 @@ In cloud architecture discussions, vendor selection meetings, and infrastructure
 
 - We decided to use a managed service for our database to avoid manual backups and patching.
 - Using a managed service reduces the operational burden on our small engineering team.
+- Our managed service handles the backups, so the team never runs them by hand.
 
 ## Common mistake
 

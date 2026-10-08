@@ -2,7 +2,7 @@
 id: embeddings
 category: ai-data
 level: intermediate
-related: [rag, llm]
+related: [rag, llm, chunking, cosine-similarity]
 term: "Embeddings"
 translation: "التمثيلات الرقمية (embeddings)"
 pronunciation: "إمبيدينجز"

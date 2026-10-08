@@ -2,7 +2,7 @@
 id: align-on-scope
 category: agile
 level: intermediate
-related: [deliverable, scope-creep]
+related: [deliverable, scope-creep, buy-in, scope-out, time-box]
 term: "Align on scope"
 pronunciation: "uh-LYN on SKOHP"
 keywords: ["agree on project boundaries","prevent scope creep early","set project limits beforehand","decide what is included","agree on feature boundaries","kickoff meeting alignment","avoid doing extra work","clarify project limits","align on requirements","الاتفاق على حدود المشروع","تحديد ما يدخل في العمل","منع زيادة نطاق العمل","الأتفاق على المهام المطلوبة","تحديد متطلبات المشروع مسبقاً","الاعلان عن حدود المشروع","الاتفاق قبل بدء التطوير","ألاين أون سكوب"]

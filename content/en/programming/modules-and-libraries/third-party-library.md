@@ -22,6 +22,7 @@ In dependency discussions, security reviews of what a project relies on, and whe
 
 - We use a third-party library for date parsing.
 - Every third-party library is a dependency we have to keep updated.
+- A third-party library handles the PDF rendering, so we only write the layout.
 
 ## Common mistake
 

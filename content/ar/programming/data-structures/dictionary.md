@@ -3,7 +3,7 @@ id: dictionary
 category: programming
 subcategory: data-structures
 level: beginner
-related: [array, tuple, database]
+related: [array, tuple, database, typed-dict]
 tags: [python]
 aliases: ["dict", "hash map", "hashmap", "key-value pair", "key value store", "associative array"]
 term: "Dictionary"
@@ -26,6 +26,8 @@ keywords: ["تخزين البيانات بمفتاح", "أزواج المفتا�
   - نحتفظ بإعدادات المستخدم في قاموس مفتاحه الاسم.
 - Looking up a key in a dictionary is much faster than searching a list.
   - البحث عن مفتاح في القاموس أسرع بكثير من البحث في قائمة.
+- Store the color codes in a dictionary keyed by the color name.
+  - خزّن رموز الألوان في قاموس (dictionary) مفتاحه اسم اللون.
 
 ## خطأ شائع
 

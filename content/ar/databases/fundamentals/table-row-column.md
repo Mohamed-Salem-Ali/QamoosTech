@@ -3,7 +3,7 @@ id: table-row-column
 category: databases
 subcategory: fundamentals
 level: beginner
-related: [database, schema]
+related: [database, schema, relational-database]
 term: "Table, Row, Column"
 translation: "الجدول والصف والعمود"
 pronunciation: "تيبل، رو، كولم"
@@ -23,6 +23,8 @@ keywords: ["الجدول والصف والعمود في قواعد البيان�
   - جدول `users` يحتوي على عمود اسمه `email`.
 - This query updates only one row.
   - هذا الاستعلام يحدّث صفًا واحدًا فقط.
+- The orders table has one row per order and a column for the total.
+  - يحوي جدول الطلبات صفاً واحداً لكل طلب، وعموداً لمجموعه.
 
 ## خطأ شائع
 

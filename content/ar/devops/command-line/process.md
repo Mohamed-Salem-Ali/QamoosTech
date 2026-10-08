@@ -25,6 +25,8 @@ keywords: ["برنامج قيد التشغيل", "رقم المعرّف PID", "�
   - ابحث عن العملية التي تستخدم المنفذ 8000 وأنهِها.
 - The web server runs as several worker processes.
   - يعمل خادم الويب كعدة عمليات عاملة.
+- Each worker process handles its own requests, so one crash does not stop the others.
+  - تتولى كل عملية عاملة (process) طلباتها الخاصة، فلا يوقف انهيار واحدة البقية.
 
 ## خطأ شائع
 

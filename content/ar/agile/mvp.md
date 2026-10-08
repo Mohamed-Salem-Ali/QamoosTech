@@ -2,7 +2,7 @@
 id: mvp
 category: agile
 level: intermediate
-related: [user-story, stakeholder]
+related: [user-story, stakeholder, poc, out-of-the-box]
 term: "MVP (Minimum Viable Product)"
 translation: "الحد الأدنى من المنتج القابل للإطلاق"
 pronunciation: "إم في بي"

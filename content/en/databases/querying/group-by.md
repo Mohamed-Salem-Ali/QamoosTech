@@ -3,7 +3,7 @@ id: group-by
 category: databases
 subcategory: querying
 level: intermediate
-related: [aggregation, query, sql]
+related: [aggregation, query, sql, window-function]
 tags: [sql]
 aliases: ["group by clause"]
 term: "GROUP BY"

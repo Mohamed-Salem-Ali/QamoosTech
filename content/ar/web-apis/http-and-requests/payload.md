@@ -3,7 +3,7 @@ id: payload
 category: web-apis
 subcategory: http-and-requests
 level: intermediate
-related: [request-response, dto]
+related: [request-response, dto, iso-8601]
 term: "Payload"
 translation: "الحمولة (البيانات المرسلة)"
 pronunciation: "بايلود"

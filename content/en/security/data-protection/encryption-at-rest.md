@@ -21,6 +21,7 @@ In security audits, cloud infrastructure configuration, and compliance discussio
 
 - We must enable encryption at rest for our database backups.
 - The security policy requires encryption at rest for all sensitive user files.
+- The backup files are encrypted at rest, so a stolen disk reveals nothing.
 
 ## Common mistake
 

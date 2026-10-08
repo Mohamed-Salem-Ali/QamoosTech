@@ -3,7 +3,7 @@ id: decorator
 category: programming
 subcategory: functions-and-scope
 level: intermediate
-related: [function]
+related: [function, syntactic-sugar]
 aliases: ["decorator factory", "wrapper function"]
 term: "Decorator"
 pronunciation: "DEK-uh-ray-ter"

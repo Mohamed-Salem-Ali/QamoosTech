@@ -21,6 +21,7 @@ During security audits, infrastructure setup, and when configuring SSL/TLS certi
 
 - We must enforce HTTPS to ensure encryption in transit for all API requests.
 - The security policy requires encryption in transit for all data moving between microservices.
+- The app refuses plain HTTP and accepts requests only over TLS.
 
 ## Common mistake
 

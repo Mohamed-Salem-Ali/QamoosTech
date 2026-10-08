@@ -4,7 +4,7 @@ category: devops
 subcategory: infrastructure
 level: intermediate
 related: [containerization, process, virtual-machine]
-aliases: ["control groups", "namespace", "namespaces", "resource limits"]
+aliases: ["control groups", "resource limits"]
 term: "cgroups"
 pronunciation: "SEE-groops"
 keywords: ["limit cpu and memory for a process group", "linux kernel feature", "docker memory limit", "resource limits", "kubernetes requests and limits", "oom killer", "تحديد المعالج والذاكرة لمجموعة عمليات", "ميزة في نواة لينكس", "حد ذاكرة Docker", "حدود الموارد", "الطلبات والحدود في Kubernetes", "قاتل نفاد الذاكرة"]

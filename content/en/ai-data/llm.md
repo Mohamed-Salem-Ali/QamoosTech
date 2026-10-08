@@ -2,7 +2,7 @@
 id: llm
 category: ai-data
 level: beginner
-related: [prompt-engineering, token, hallucination]
+related: [prompt-engineering, token, hallucination, multimodal, system-prompt]
 term: "LLM (Large Language Model)"
 pronunciation: "el-el-EM"
 keywords: ["large language model","ai model for text","chatgpt underlying tech","text generation ai","train ai on text","language model for coding","ai writing assistant","large language models","generative text model","نموذج لغوي كبير","نموذج ذكاء اصطناعي للنصوص","الذكاء الاصطناعي لتوليد النصوص","نماذج اللغة الكبيرة","تقنية روبوتات المحادثة","نموذج فهم النصوص","ذكاء اصطناعي يكتب كود","النموذج اللغوي","إل إل إم","نماذج الذكاء الاصطناعي النصية"]
@@ -19,6 +19,7 @@ AI features, chatbots, and developer tools.
 
 - We use an LLM to summarize support tickets.
 - The LLM returned a different answer the second time.
+- The LLM summarized the meeting notes in three bullet points.
 
 ## Common mistake
 

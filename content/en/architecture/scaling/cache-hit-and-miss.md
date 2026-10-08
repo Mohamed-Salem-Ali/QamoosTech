@@ -22,6 +22,7 @@ In CDN and Redis dashboards, performance reviews, and discussions about whether 
 
 - Our hit ratio is 95%, so the database barely notices the traffic.
 - A cold cache means every request is a miss.
+- The first request is a miss and loads from the database; the next ones are hits.
 
 ## Common mistake
 

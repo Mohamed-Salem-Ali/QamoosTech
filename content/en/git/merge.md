@@ -2,7 +2,7 @@
 id: merge
 category: git
 level: beginner
-related: [branch, merge-conflict, rebase]
+related: [branch, merge-conflict, rebase, fast-forward, squash-and-merge]
 aliases: ["merge commit"]
 term: "Merge"
 pronunciation: "MERJ"
@@ -20,6 +20,7 @@ Pull requests and release time.
 
 - The pull request was approved and merged.
 - Merge `main` into your branch to get the latest changes.
+- After the merge, the feature is on the main branch but not yet deployed.
 
 ## Common mistake
 

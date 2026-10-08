@@ -22,6 +22,7 @@ In Python code that returns several values, and in explanations of when to use a
 
 - The function returns a tuple of the minimum and maximum.
 - A tuple of coordinates can be used as a dictionary key.
+- Return the result as a tuple, such as (min, max), so the caller can unpack both values.
 
 ## Common mistake
 

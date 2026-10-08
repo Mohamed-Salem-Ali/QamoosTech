@@ -25,6 +25,8 @@ keywords: ["خوادم قريبة من المستخدمين", "تخزين الص
   - ضع الصور خلف CDN ليحصل مستخدمو القاهرة عليها من حافة قريبة.
 - Purge the CDN cache after deploying.
   - امسح ذاكرة CDN المؤقتة بعد النشر.
+- Product images load faster in Cairo once they are served from the CDN.
+  - تُحمَّل صور المنتجات أسرع في القاهرة بعد تقديمها من شبكة CDN.
 
 ## خطأ شائع
 

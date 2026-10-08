@@ -25,6 +25,8 @@ keywords: ["التناوب بالدور", "التدوير على الخوادم"
   - يستخدم الموزّع التوزيع الدوري على الخوادم الثلاثة.
 - Round robin ignores how busy each server is.
   - التوزيع الدوري لا يلتفت إلى مدى انشغال كل خادم.
+- Round robin sends the first request to server A and the second one to server B.
+  - يرسل التوزيع بالتناوب الطلب الأول إلى الخادم A والثاني إلى الخادم B.
 
 ## خطأ شائع
 

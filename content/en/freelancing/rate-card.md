@@ -20,6 +20,7 @@ Freelance discussions, client onboarding, and contract negotiations.
 
 - I updated my rate card to reflect my new senior developer hourly fee.
 - The client asked for a rate card before discussing the backend migration project.
+- The rate card lists the hourly rate for design, development and QA.
 
 ## Common mistake
 

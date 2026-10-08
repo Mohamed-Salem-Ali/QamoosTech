@@ -23,6 +23,7 @@ In Django tutorials (`startproject`, `startapp`), code reviews on how to split f
 
 - Create a new app for payments and add it to `INSTALLED_APPS`.
 - One project can hold many apps.
+- The shop project has three apps: catalog, cart and accounts.
 
 ## Common mistake
 

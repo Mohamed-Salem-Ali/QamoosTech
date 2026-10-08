@@ -22,6 +22,7 @@ The Document Object Model is a programming interface that represents an HTML or 
 
 - JavaScript can access elements using `document.getElementById` to change their text.
 - Updating the DOM directly too many times can slow down web page rendering.
+- Clicking the button adds a new list item to the DOM without reloading the page.
 
 ## Common mistake
 

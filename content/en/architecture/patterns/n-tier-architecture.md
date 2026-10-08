@@ -23,6 +23,7 @@ N-tier architecture is a software design pattern that divides an application int
 
 - The team uses an N-tier architecture to separate the user interface from the core business logic and database.
 - In our N-tier setup, each layer communicates only with the layer immediately below it.
+- The API layer calls the service layer, and only the service layer talks to the database.
 
 ## Common mistake
 

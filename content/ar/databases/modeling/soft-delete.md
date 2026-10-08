@@ -5,6 +5,7 @@ subcategory: modeling
 level: beginner
 related: [database, table-row-column]
 term: "Soft Delete"
+translation: "الحذف الناعم"
 pronunciation: "سوفت ديليت"
 keywords: ["الحذف المنطقي للبيانات","اخفاء السجلات بدلا من حذفها","تمييز السجل كحذف مؤقت","استعادة السجلات المحذوفة","الحذف الوهمي من قاعدة البيانات","الاحتفاظ بالسجلات المحذوفة","عمود تاريخ الحذف","سوفت ديليت","hide records instead of deleting","mark record as deleted","logical delete pattern","recover deleted database rows","deleted at timestamp column","is deleted status flag","keep history after delete","soft deletion implementation"]
 ---
@@ -23,6 +24,8 @@ keywords: ["الحذف المنطقي للبيانات","اخفاء السجلا
   - قمنا بإضافة عمود `deleted_at` لتنفيذ الحذف المنطقي (Soft Delete) لحسابات المستخدمين.
 - The system filters out records where the `is_active` flag is false instead of running a delete query.
   - يقوم النظام باستبعاد السجلات التي تحمل علامة `is_active` بقيمة خطأ بدلاً من تنفيذ أمر الحذف الفعلي.
+- The app marks the order as cancelled with a deleted_at timestamp, so finance can still see it.
+  - يضع التطبيق علامة الإلغاء على الطلب مع طابع زمني في deleted_at، فيبقى ظاهراً للمحاسبة.
 
 ## خطأ شائع
 

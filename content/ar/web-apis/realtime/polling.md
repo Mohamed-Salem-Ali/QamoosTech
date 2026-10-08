@@ -3,7 +3,7 @@ id: polling
 category: web-apis
 subcategory: realtime
 level: beginner
-related: [long-polling, websockets, webhook]
+related: [long-polling, websockets, webhook, real-time]
 tags: [javascript]
 aliases: ["short polling", "polling interval"]
 term: "Polling"
@@ -26,6 +26,8 @@ keywords: ["اسأل مراراً", "افحص التحديثات كل بضع ث�
   - تستعلم الصفحة عن حالة المهمة كل 5 ثوانٍ حتى تنتهي.
 - Use polling for something simple; switch to WebSockets if it needs to be instant.
   - استخدم الاستعلام الدوري للأشياء البسيطة وانتقل إلى WebSockets إن لزمت اللحظية.
+- The dashboard polls the server every ten seconds to refresh the order count.
+  - تستعلم لوحة المتابعة الخادم كل عشر ثوانٍ لتحديث عدد الطلبات.
 
 ## خطأ شائع
 

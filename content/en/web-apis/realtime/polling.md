@@ -3,7 +3,7 @@ id: polling
 category: web-apis
 subcategory: realtime
 level: beginner
-related: [long-polling, websockets, webhook]
+related: [long-polling, websockets, webhook, real-time]
 tags: [javascript]
 aliases: ["short polling", "polling interval"]
 term: "Polling"
@@ -23,6 +23,7 @@ In job-status pages, simple real-time features and discussions of polling vs Web
 
 - The page polls the job status every 5 seconds until it finishes.
 - Use polling for something simple; switch to WebSockets if it needs to be instant.
+- The dashboard polls the server every ten seconds to refresh the order count.
 
 ## Common mistake
 

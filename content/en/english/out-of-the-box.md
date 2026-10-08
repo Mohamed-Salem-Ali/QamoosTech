@@ -20,6 +20,7 @@ During product demos, technical sales meetings, or when evaluating third-party l
 
 - This framework provides out-of-the-box support for user authentication.
 - We chose this tool because it offers out-of-the-box reporting features.
+- The CMS works out-of-the-box with email login, so we wrote no code for it.
 
 ## Common mistake
 

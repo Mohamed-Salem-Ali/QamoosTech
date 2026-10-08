@@ -3,7 +3,7 @@ id: linting
 category: testing
 subcategory: tools-and-quality
 level: beginner
-related: [quality-gate, code-review]
+related: [quality-gate, code-review, git-hook, type-checker]
 aliases: ["linter", "ruff"]
 term: "Linting"
 pronunciation: "LIN-ting"
@@ -21,6 +21,7 @@ CI checks and team coding standards.
 
 - The linter found an unused variable.
 - Run the linter before you push.
+- The linting step fails the build when a variable is declared and never used.
 
 ## Common mistake
 

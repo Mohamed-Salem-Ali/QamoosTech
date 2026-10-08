@@ -25,6 +25,8 @@ keywords: ["جهاز أكبر", "التوسع بالقدرة", "معالج وذ�
   - رفعنا قاعدة البيانات إلى نسخة أكبر.
 - Vertical scaling is easy but there is a limit and it is one machine.
   - التوسع الرأسي سهل لكن له حداً وهو جهاز واحد.
+- Moving the database to a bigger machine is vertical scaling, and it needs a short outage.
+  - نقل قاعدة البيانات إلى جهاز أكبر توسيع رأسي، ويحتاج إلى توقف قصير.
 
 ## خطأ شائع
 

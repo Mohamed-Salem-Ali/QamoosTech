@@ -23,8 +23,10 @@ keywords: ["بنية البيانات", "الجداول والعلاقات", "ت
 
 - Let's sketch the data model before we write any code.
   - لنرسم نموذج البيانات قبل كتابة أي كود.
-- The data model has four entities: gameya, member, payment and payout slot.
-  - يحتوي نموذج البيانات على أربعة كيانات: الجمعية والعضو والدفعة ودور القبض.
+- The data model has four entities: order, customer, payment and shipment.
+  - يحتوي نموذج البيانات على أربعة كيانات: الطلب والعميل والدفعة والشحنة.
+- The data model shows that each order belongs to one customer and has many items.
+  - يُظهر نموذج البيانات أن كل طلب ينتمي إلى عميل واحد ويحوي عدة عناصر.
 
 ## خطأ شائع
 

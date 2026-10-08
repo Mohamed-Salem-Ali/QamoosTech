@@ -4,7 +4,7 @@ category: devops
 subcategory: infrastructure
 level: intermediate
 related: [containerization, process, virtual-machine]
-aliases: ["control groups", "namespace", "namespaces", "resource limits"]
+aliases: ["control groups", "resource limits"]
 term: "cgroups"
 translation: "المجموعات الضابطة"
 pronunciation: "سي جروبس"

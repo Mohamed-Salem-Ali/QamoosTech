@@ -22,6 +22,8 @@ keywords: ["مدة الإنجاز","وقت إتمام الطلب","سرعة تس
   - مدة إنجازي المعتادة يومان من أيام العمل.
 - For urgent bugs, our turnaround time is under 24 hours.
   - للأخطاء العاجلة تقل مدة الإنجاز لدينا عن 24 ساعة.
+- Our turnaround time for design revisions is one day, so the client gets feedback fast.
+  - زمن الإنجاز لتعديلات التصميم يوم واحد، فيحصل العميل على الرد بسرعة.
 
 ## خطأ شائع
 

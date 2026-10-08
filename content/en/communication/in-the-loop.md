@@ -20,6 +20,7 @@ Project status meetings, email threads, and daily standups.
 
 - Please keep me in the loop regarding any changes to the API schema.
 - She is in the loop on all major architecture decisions.
+- Put the legal team in the loop before we change the refund policy.
 
 ## Common mistake
 

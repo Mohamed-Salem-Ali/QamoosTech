@@ -3,7 +3,7 @@ id: parameter-vs-argument
 category: programming
 subcategory: functions-and-scope
 level: beginner
-related: [function]
+related: [function, args-and-kwargs, mutable-default-argument]
 aliases: ["keyword argument", "positional argument", "default argument", "default parameter"]
 term: "Parameter vs Argument"
 translation: "المعامل والوسيط"
@@ -24,6 +24,8 @@ keywords: ["الفرق بين المعامل والوسيط","الفرق بين 
   - الدالة تأخذ معاملين: `name` و `age`.
 - You passed three arguments, but it expects two.
   - مرّرتَ ثلاثة وسطاء بينما تتوقع الدالة اثنين.
+- The parameter is total; the argument is the 250 that the caller passes in.
+  - المعامل (parameter) هو total، والوسيط (argument) هو القيمة 250 التي يمرّرها المستدعي.
 
 ## خطأ شائع
 

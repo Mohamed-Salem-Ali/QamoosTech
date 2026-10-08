@@ -21,7 +21,8 @@ In design meetings before building a feature, in diagrams, and in discussions of
 ## Examples
 
 - Let's sketch the data model before we write any code.
-- The data model has four entities: gameya, member, payment and payout slot.
+- The data model has four entities: order, customer, payment and shipment.
+- The data model shows that each order belongs to one customer and has many items.
 
 ## Common mistake
 

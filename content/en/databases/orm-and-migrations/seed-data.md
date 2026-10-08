@@ -23,6 +23,7 @@ Seed data refers to the initial set of records loaded into a database when it is
 
 - Run the database seeder command to populate the roles table with default values.
 - The test suite automatically clears the database and loads seed data before every run.
+- After the reset, the seed data gives us one admin user and the default roles.
 
 ## Common mistake
 

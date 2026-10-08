@@ -3,7 +3,7 @@ id: primary-key
 category: databases
 subcategory: fundamentals
 level: beginner
-related: [database, table-row-column, schema]
+related: [database, table-row-column, schema, auto-increment-id]
 term: "Primary Key"
 pronunciation: "برايمري كي"
 translation: "المفتاح الأساسي"
@@ -24,6 +24,8 @@ keywords: ["معرف فريد للصفوف","عمود لتمييز السجلا�
   - تم تعيين عمود `user_id` ليكون المفتاح الأساسي لجدول المستخدمين.
 - Every table in the database must have a primary key to ensure data integrity.
   - يجب أن يحتوي كل جدول في قاعدة البيانات على مفتاح أساسي لضمان سلامة البيانات.
+- The order ID is the primary key, so two orders can never share it.
+  - معرّف الطلب هو المفتاح الأساسي، لذلك لا يمكن أن يشترك طلبان فيه أبداً.
 
 ## خطأ شائع
 

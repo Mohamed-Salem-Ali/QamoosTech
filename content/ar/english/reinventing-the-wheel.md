@@ -22,6 +22,8 @@ keywords: ["بناء حلول موجودة مسبقا","تجنب تكرار ال
   - لا تعِد اختراع العجلة. استخدم المكتبة الموجودة.
 - Writing our own date library is reinventing the wheel.
   - كتابة مكتبة تواريخ خاصة بنا هي إعادة اختراع للعجلة.
+- We almost wrote our own PDF parser, but a library already does it well.
+  - كدنا نكتب محلّل PDF خاصاً بنا، لكن مكتبة جاهزة تؤدي المهمة جيداً، فلا داعي لإعادة اختراع العجلة.
 
 ## خطأ شائع
 

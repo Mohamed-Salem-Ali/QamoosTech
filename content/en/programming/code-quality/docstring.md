@@ -23,6 +23,7 @@ In Python code reviews, documentation tools, and style guides that ask every pub
 
 - Add a docstring that says what the function returns and when it raises.
 - `help(my_function)` prints the docstring.
+- The docstring lists the arguments, so the editor shows them when you type the call.
 
 ## Common mistake
 

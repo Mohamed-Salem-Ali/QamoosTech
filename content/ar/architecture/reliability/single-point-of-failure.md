@@ -3,7 +3,7 @@ id: single-point-of-failure
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [load-balancer, fail-open-vs-fail-closed]
+related: [load-balancer, fail-open-vs-fail-closed, ddos-attack]
 term: "Single Point of Failure"
 translation: "نقطة فشل وحيدة"
 pronunciation: "سنجل بوينت أوف فيلر"

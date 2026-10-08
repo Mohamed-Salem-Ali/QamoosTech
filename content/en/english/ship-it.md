@@ -19,6 +19,7 @@ Team chat and reviews.
 
 - The tests pass and the review is done. Ship it!
 - Ship it, then improve it in the next version.
+- The client approved the design, so we will ship it on Monday.
 
 ## Common mistake
 

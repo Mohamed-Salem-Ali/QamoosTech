@@ -3,7 +3,9 @@ id: box-model
 category: frontend
 level: beginner
 related: [responsive-design]
+tags: [css]
 term: "Box Model"
+translation: "نموذج الصندوق"
 pronunciation: "بوكس موديل"
 keywords: ["نموذج الصندوق في css","الحشوة والهوامش والحدود في التصميم","كيفية حساب حجم عنصر html","مشاكل المسافات بين عناصر الموقع","الفرق بين الهوامش والحشوة","تنسيق عناصر صفحات الويب","خصائص الحجم والهوامش في css","تصميم التنسيقات والمسافات","css element layout spacing","content padding border margin","how browser calculates element size","fix unexpected spacing in css","box sizing properties","css rectangular box structure","margin vs padding difference","inspect element layout in devtools"]
 ---
@@ -22,6 +24,8 @@ keywords: ["نموذج الصندوق في css","الحشوة والهوامش �
   - يقوم المتصفح بحساب العرض الكلي للعنصر عن طريق جمع المحتوى والحشوة والحدود.
 - You can change the default behavior of the box model using the `box-sizing` property.
   - يمكنك تغيير السلوك الافتراضي لنموذج الصندوق باستخدام خاصية `box-sizing`.
+- With the default box-sizing, 20px of padding on each side makes the box 40px wider.
+  - مع box-sizing بقيمته الافتراضية، تجعل الحشوة (padding) البالغة 20 بكسل على كل جانب الصندوقَ أعرض بمقدار 40 بكسل.
 
 ## خطأ شائع
 

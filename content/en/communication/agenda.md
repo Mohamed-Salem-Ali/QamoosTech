@@ -19,6 +19,7 @@ Meeting invitations.
 
 - I'll send the agenda a day before the meeting.
 - Let's stick to the agenda so we finish in 30 minutes.
+- We moved the budget item to the top of the agenda because it was urgent.
 
 ## Common mistake
 

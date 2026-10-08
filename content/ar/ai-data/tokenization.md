@@ -4,8 +4,9 @@ category: ai-data
 level: beginner
 related: [llm, token]
 term: "Tokenization"
+translation: "تقسيم النص إلى رموز"
 pronunciation: "توكنايزيشن"
-keywords: ["تقسيم النصوص إلى وحدات","تحويل الكلام إلى توكنز","تجزئة الكلمات للذكاء الاصطناعي","كيف تفهم النماذج النصوص","معالجة النصوص قبل النموذج","تقطيع الجمل إلى أجزاء","طريقة عمل التوكنايزيشن","تجهيز البيانات للنماذج اللغوية","تحويل النص إلى أرقام","وحدات بناء النصوص البرمجية","breaking text into pieces","how llms read words","split string into tokens","text preprocessing for ai","convert sentences to units","subword segmentation method","tokanization spelling","prepare text for models","count tokens in text","splitting words into chunks"]
+keywords: ["تقسيم النصوص إلى وحدات","تحويل الكلام إلى توكنز","تجزئة الكلمات للذكاء الاصطناعي","كيف تفهم النماذج النصوص","معالجة النصوص قبل النموذج","تقطيع الجمل إلى أجزاء","طريقة عمل التوكنايزيشن","تجهيز البيانات للنماذج اللغوية","تحويل النص إلى أرقام","وحدات بناء النصوص البرمجية","breaking text into pieces","how llms read words","split string into tokens","text preprocessing for ai","convert sentences to units","subword segmentation method","tokanization","prepare text for models","count tokens in text","splitting words into chunks"]
 ---
 
 ## التعريف
@@ -22,6 +23,8 @@ keywords: ["تقسيم النصوص إلى وحدات","تحويل الكلام 
   - فشل النموذج لأن النص المدخل تجاوز الحد الأقصى لعملية الـ Tokenization.
 - Our preprocessing script handles tokenization before sending the data to the API.
   - يقوم سكربت المعالجة المسبقة لدينا بإجراء الـ Tokenization قبل إرسال البيانات إلى الـ API.
+- Tokenization splits the word unbelievable into several pieces before the model reads it.
+  - يجزّئ تقسيم النص إلى رموز (tokenization) كلمة unbelievable إلى عدة أجزاء قبل أن يقرأها النموذج.
 
 ## خطأ شائع
 

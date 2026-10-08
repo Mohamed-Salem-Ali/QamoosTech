@@ -5,6 +5,7 @@ subcategory: test-types
 level: beginner
 related: [ci-cd, regression, unit-test]
 term: "Smoke Test"
+translation: "اختبار الدخان"
 pronunciation: "سموك تيست"
 keywords: ["اختبار استقرار النظام الأولي","فحص الوظائف الأساسية للنظام","التأكد من عمل التطبيق","فحص سريع بعد النشر","اختبار الصحة الأولي للنظام","سموك تيست","اختبار التأكد من استقرار النسخة","فحص أولي قبل الاختبارات الشاملة","التحقق من عمل الميزات الحرجة","اختبار مبدئي للبرمجيات","check if build is stable","preliminary software stability check","verify critical features work","quick sanity check after deployment","basic functionality verification test","initial system health check","automated build verification test","fast testing after deployment","ensure application is not broken","smoketest","smoke testing"]
 ---
@@ -23,6 +24,8 @@ keywords: ["اختبار استقرار النظام الأولي","فحص ال�
   - نقوم بإجراء Smoke Test بعد كل عملية نشر للتأكد من أن صفحة تسجيل الدخول تعمل بشكل سليم.
 - If the smoke test fails, we stop the release process immediately.
   - إذا فشل الـ Smoke Test، نتوقف عن عملية إطلاق التحديث فوراً.
+- After the deploy, the smoke test opens the home page and the checkout page.
+  - بعد النشر، يفتح اختبار الدخان (smoke test) الصفحة الرئيسية وصفحة الدفع.
 
 ## خطأ شائع
 

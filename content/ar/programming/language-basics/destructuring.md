@@ -6,6 +6,7 @@ level: beginner
 related: [object, array]
 tags: [javascript]
 term: "Destructuring"
+translation: "التفكيك"
 pronunciation: "دي-ستراكشرينج"
 keywords: ["استخراج القيم من الكائنات","فك المصفوفة إلى متغيرات","أخذ خصائص الكائن في متغيرات","استخراج بيانات من المصفوفة","طريقة مختصرة لتعيين المتغيرات","تفكيك الكائنات في جافاسكريبت","ديستراكشرينج","استخراج حقول الكائن","unpack object properties into variables","extract values from array javascript","assign array elements to variables","cleaner way to get object keys","destructing syntax in javascript","distructuring","extract data from object quickly","javascript object unpacking","python destructuring syntax"]
 ---
@@ -24,6 +25,8 @@ keywords: ["استخراج القيم من الكائنات","فك المصفو�
   - يمكنك استخدام Destructuring لاستخراج حقول محددة من كائن المستخدم وتخزينها في متغيرات محلية.
 - Destructuring an array allows you to assign its elements to individual variables in one line.
   - يتيح لك Destructuring المصفوفة تعيين عناصرها إلى متغيرات منفصلة في سطر واحد.
+- const { name, email } = user pulls two fields out of the user object at once.
+  - يستخرج التعبير const { name, email } = user حقلين من كائن المستخدم دفعة واحدة.
 
 ## خطأ شائع
 

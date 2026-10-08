@@ -4,6 +4,7 @@ category: devops
 subcategory: infrastructure
 level: intermediate
 related: [containerization, container-registry, pipeline]
+tags: [docker]
 aliases: ["multistage build", "multi-stage dockerfile"]
 term: "Multi-Stage Build"
 pronunciation: "MUL-tee-STAYJ BILD"

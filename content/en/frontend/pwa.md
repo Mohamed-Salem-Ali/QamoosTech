@@ -21,6 +21,7 @@ In frontend project planning, "do we need a mobile app?" discussions, Lighthouse
 
 - Our dashboard is a PWA, so field staff install it from the browser.
 - The service worker caches the pages for offline use.
+- Users can add the PWA to their home screen and open it without the browser bar.
 
 ## Common mistake
 

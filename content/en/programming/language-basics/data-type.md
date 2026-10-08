@@ -3,7 +3,7 @@ id: data-type
 category: programming
 subcategory: language-basics
 level: beginner
-related: [variable, object]
+related: [variable, object, f-string, floating-point-number]
 term: "Data Type"
 pronunciation: "DAY-tuh TYPE"
 keywords: ["kind of variable value","is this number or string","defining variable content type","integer vs string vs boolean","how to specify data format","programming variable classification","data type definition","what kind of value","variable storage format","primitive types in code","تحديد نوع المتغير","هل القيمة نص أم رقم","تعريف طبيعة البيانات","أنواع المتغيرات في البرمجة","كيفية تخزين القيم برمجيا","داتا تايب","تحديد نوع المدخلات","الفرق بين الرقم والنص","توصيف نوع البيانات","أنواع القيم في الكود"]
@@ -21,6 +21,7 @@ During code reviews, when defining variables, or when reading documentation for 
 
 - The variable stores an integer data type.
 - You must ensure the function receives the correct data type.
+- The price field uses a decimal data type, so rounding errors do not creep in.
 
 ## Common mistake
 

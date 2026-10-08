@@ -2,7 +2,7 @@
 id: dataset
 category: ai-data
 level: beginner
-related: [fine-tuning, ocr]
+related: [fine-tuning, ocr, inference, spaced-repetition]
 term: "Dataset"
 pronunciation: "DAY-tuh-set"
 keywords: ["collection of training examples","data for machine learning","labeled information for model","data used for testing","input for ai training","data corpus","training samples collection","data set","data-set","raw information for analysis","مجموعة معلومات للتدريب","بيانات لتعلم الآلة","مجموعة بيانات للنموذج","بيانات التدريب والاختبار","مجموعة صور موسومة","ديتاسيت","بيانات خام للتحليل","مجموعة بيانات للذكاء الاصطناعي","مدخلات تدريب النموذج","بيانات مصنفة للبحث"]
@@ -19,6 +19,7 @@ Machine learning, analytics, and research.
 
 - We built a dataset of 500 scanned invoices to test the OCR.
 - The dataset is biased, so the model is unfair to some users.
+- The team split the dataset into a training part and a test part before training the model.
 
 ## Common mistake
 

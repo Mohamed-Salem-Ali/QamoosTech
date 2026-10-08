@@ -20,6 +20,7 @@ In team syncs, email requests, and project update discussions when discussing wh
 
 - CC me on the email to the client so I can track the request.
 - I will CC the manager on this thread to keep them updated on the bug fix.
+- CC the support lead on the reply, so they know the customer is waiting.
 
 ## Common mistake
 

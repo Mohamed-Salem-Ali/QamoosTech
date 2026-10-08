@@ -2,7 +2,7 @@
 id: bikeshedding
 category: english
 level: intermediate
-related: [yak-shaving]
+related: [yak-shaving, in-the-weeds]
 term: "Bikeshedding"
 translation: "الجدل في التفاهات"
 pronunciation: "بايكشيدينج"

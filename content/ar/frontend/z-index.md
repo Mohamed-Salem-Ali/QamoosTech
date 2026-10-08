@@ -3,7 +3,9 @@ id: z-index
 category: frontend
 level: beginner
 related: [responsive-design]
+tags: [css]
 term: "Z-index"
+translation: "ترتيب الطبقات"
 pronunciation: "زِي إنديكس"
 keywords: ["ترتيب طبقات العناصر فوق بعضها","جعل العنصر يظهر في المقدمة","التحكم في عمق العناصر css","حل مشكلة تداخل العناصر","خاصية ترتيب العناصر في css","جعل القائمة تظهر فوق المحتوى","ترتيب العناصر على المحور العمقي","تحديد طبقة العنصر في الواجهة","زاي إنديكس في سي اس اس","تحريك العناصر للأمام وللخلف","layering elements on screen","css stack order property","bring element to front","how to overlap html elements","fix elements hidden behind others","css depth control property","z axis position css","control element stacking order","make modal appear on top","zindex css property","css element layering priority"]
 ---
@@ -22,6 +24,8 @@ keywords: ["ترتيب طبقات العناصر فوق بعضها","جعل ال
   - قمنا بزيادة `z-index` الخاص بالنافذة المنبثقة لضمان ظهورها فوق شريط التنقل.
 - The dropdown menu is hidden behind the hero image because its `z-index` is too low.
   - القائمة المنسدلة تختفي خلف صورة العرض الرئيسية لأن قيمة `z-index` الخاصة بها منخفضة جداً.
+- The toast notification uses a high z-index, so it stays above the modal.
+  - تستخدم إشعارات الرسائل السريعة قيمة z-index عالية، فتبقى فوق النافذة المنبثقة.
 
 ## خطأ شائع
 

@@ -2,7 +2,7 @@
 id: scrum-ceremonies
 category: agile
 level: beginner
-related: [sprint, blocker]
+related: [sprint, blocker, grooming, waterfall]
 aliases: ["sprint goal", "sprint review", "sprint retrospective", "retrospective", "daily standup"]
 term: "Scrum Ceremonies"
 translation: "اجتماعات سكرم"
@@ -23,6 +23,8 @@ keywords: ["اجتماعات سكرم الدورية","الاجتماعات ال
   - الاجتماع اليومي (standup) الساعة 10:00 ويستغرق 15 دقيقة.
 - We discuss what went well in the retrospective.
   - نناقش ما سار جيدًا في اجتماع الـ retrospective.
+- In the sprint review, we show the finished work to stakeholders.
+  - في مراجعة السبرنت نعرض العمل المنجز على أصحاب المصلحة.
 
 ## خطأ شائع
 

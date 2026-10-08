@@ -20,6 +20,7 @@ During project setup, when cleaning up a repository, or when trying to hide sens
 
 - We added the build folder to the `.gitignore` file to keep the repository clean.
 - Make sure to add your local environment variables file to `.gitignore` so you do not commit secrets.
+- The node_modules folder belongs in .gitignore, so it never reaches the repository.
 
 ## Common mistake
 

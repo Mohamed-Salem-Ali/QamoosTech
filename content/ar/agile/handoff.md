@@ -2,7 +2,7 @@
 id: handoff
 category: agile
 level: intermediate
-related: [deliverable, blocker]
+related: [deliverable, blocker, end-to-end]
 term: "Handoff"
 translation: "التسليم"
 pronunciation: "هاند أوف"

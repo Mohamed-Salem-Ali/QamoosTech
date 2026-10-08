@@ -3,7 +3,7 @@ id: explain-plan
 category: databases
 subcategory: performance
 level: intermediate
-related: [query, index]
+related: [query, index, full-table-scan]
 term: "EXPLAIN Plan"
 pronunciation: "إكس-بلين بلان"
 translation: "خطة التنفيذ"

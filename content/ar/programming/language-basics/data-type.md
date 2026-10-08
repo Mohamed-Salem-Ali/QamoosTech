@@ -3,7 +3,7 @@ id: data-type
 category: programming
 subcategory: language-basics
 level: beginner
-related: [variable, object]
+related: [variable, object, f-string, floating-point-number]
 term: "Data Type"
 pronunciation: "داتا تايب"
 translation: "نوع البيانات"
@@ -24,6 +24,8 @@ keywords: ["تحديد نوع المتغير","هل القيمة نص أم رق�
   - هذا المتغير يخزن قيمة من نوع عدد صحيح.
 - You must ensure the function receives the correct data type.
   - يجب أن تتأكد من أن الدالة تستقبل نوع البيانات الصحيح.
+- The price field uses a decimal data type, so rounding errors do not creep in.
+  - حقل السعر من نوع عشري (decimal)، فلا تتسلل إليه أخطاء التقريب.
 
 ## خطأ شائع
 

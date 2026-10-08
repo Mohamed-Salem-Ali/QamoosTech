@@ -3,7 +3,7 @@ id: source-of-truth
 category: architecture
 subcategory: data-and-state
 level: beginner
-related: [database, cache]
+related: [database, cache, reconciliation]
 term: "Source of Truth"
 pronunciation: "SORS uv TROOTH"
 keywords: ["where data officially lives","authoritative data location","primary data store","master record location","ssot","single source of truth","original data copy","resolve conflicting data","database versus cache","authoritative source","المصدر المرجعي للبيانات","المكان الرسمي للمعلومة","المصدر الأساسي للمعلومات","المرجع الأساسي للبيانات","المصدر الموثوق للبيانات","حل تعارض النسخ","سورس أوف ثروث","المصدر المرجعي الوحيد","قاعدة البيانات الأساسية"]
@@ -20,6 +20,7 @@ Documentation, system design, and config management.
 
 - The database is the source of truth; the cache is only a copy.
 - Where is the source of truth for prices?
+- The orders table is the source of truth for status, so the emails are sent from it.
 
 ## Common mistake
 

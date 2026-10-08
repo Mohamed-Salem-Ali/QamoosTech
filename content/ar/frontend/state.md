@@ -2,7 +2,7 @@
 id: state
 category: frontend
 level: beginner
-related: [props, component]
+related: [props, component, pseudo-class]
 term: "State"
 translation: "الحالة"
 pronunciation: "ستيت"
@@ -22,6 +22,8 @@ keywords: ["بيانات تتغير في التطبيق","تخزين بيانا�
   - عدد عناصر السلة مخزّن في state المكوّن.
 - The state changed, so React re-rendered the page.
   - تغيّرت الـ state فأعاد React رسم الصفحة.
+- Clicking Add updates the state, and the cart count changes on screen.
+  - يحدّث النقر على إضافة الحالة (state)، فيتغيّر عدد السلة على الشاشة.
 
 ## خطأ شائع
 

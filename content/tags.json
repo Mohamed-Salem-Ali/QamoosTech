@@ -54,5 +54,26 @@
       "en": "PostgreSQL",
       "ar": "بوستجري إس كيو إل"
     }
+  },
+  {
+    "id": "css",
+    "name": {
+      "en": "CSS",
+      "ar": "CSS"
+    }
+  },
+  {
+    "id": "docker",
+    "name": {
+      "en": "Docker",
+      "ar": "دوكر"
+    }
+  },
+  {
+    "id": "kubernetes",
+    "name": {
+      "en": "Kubernetes",
+      "ar": "كوبرنيتس"
+    }
   }
 ]

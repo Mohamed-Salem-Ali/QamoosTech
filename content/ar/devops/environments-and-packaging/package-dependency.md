@@ -26,6 +26,8 @@ keywords: ["مكتبة يحتاجها مشروعك", "ملف requirements.txt", 
   - أضف `requests` كاعتمادية وأعد التثبيت.
 - Test tools are dev dependencies, not needed in production.
   - أدوات الاختبار اعتماديات تطوير لا حاجة لها في الإنتاج.
+- The app's dependency on an old version of the library caused the crash.
+  - أدّى اعتماد التطبيق على إصدار قديم من المكتبة إلى الانهيار.
 
 ## خطأ شائع
 

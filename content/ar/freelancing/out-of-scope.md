@@ -23,6 +23,8 @@ keywords: ["خارج نطاق المشروع","مهام غير متفق عليه
   - إضافة مصادقة المستخدمين خارج نطاق مشروع صفحة الهبوط الأولية هذا.
 - The client asked for a mobile app, but that request is out of scope.
   - طلب العميل تطبيق موبايل، لكن هذا الطلب خارج النطاق.
+- Dark mode is out of scope for this release, so it goes into the backlog.
+  - الوضع الداكن خارج نطاق هذا الإصدار، لذلك يذهب إلى قائمة الأعمال المتراكمة.
 
 ## خطأ شائع
 

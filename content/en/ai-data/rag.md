@@ -2,7 +2,7 @@
 id: rag
 category: ai-data
 level: intermediate
-related: [embeddings, llm, hallucination]
+related: [embeddings, llm, hallucination, semantic-search]
 term: "RAG (Retrieval-Augmented Generation)"
 pronunciation: "RAG"
 keywords: ["chat with my own documents","connect llm to external data","reduce ai model hallucination","retrieval augmented generation","get answers from custom files","search and generate ai response","ai chatbot using local knowledge","fetch data for llm prompt","rag pipeline architecture","grounding llm with documents","التوليد المعزز بالاسترجاع","ربط النموذج بملفات خاصة","تقليل هلوسة نماذج الذكاء الاصطناعي","البحث في المستندات للاجابة","استخدام بيانات الشركة في الشات","تزويد النموذج بمعلومات خارجية","تقنية راج للذكاء الاصطناعي","البحث عن معلومات قبل التوليد","تحسين دقة اجابات الروبوت","استرجاع البيانات للنماذج اللغوية"]

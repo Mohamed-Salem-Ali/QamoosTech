@@ -5,7 +5,7 @@ level: beginner
 related: [blocker, deadline, milestone]
 term: "Dependency"
 pronunciation: "di-PEN-den-see"
-keywords: ["tasks waiting on others","prerequisites for project tasks","waiting for another team","things blocking my progress","linked work items","software project requirements","task relies on another","managing project bottlenecks","interconnected work tasks","what needs to finish first","dependancy misspelling","agile task relationships","مهام تعتمد على أخرى","متطلبات البدء في العمل","انتظار انتهاء فريق آخر","علاقة المهام ببعضها","الاعتماديات في المشروع","مهام متوقفة على غيرها","تداخل سير العمل","شروط إنجاز المهمة","دي بندنسي","تحديد المهام المترابطة","معوقات سير العمل","ما يجب إنجازه أولاً"]
+keywords: ["tasks waiting on others","prerequisites for project tasks","waiting for another team","things blocking my progress","linked work items","software project requirements","task relies on another","managing project bottlenecks","interconnected work tasks","what needs to finish first","dependancy","agile task relationships","مهام تعتمد على أخرى","متطلبات البدء في العمل","انتظار انتهاء فريق آخر","علاقة المهام ببعضها","الاعتماديات في المشروع","مهام متوقفة على غيرها","تداخل سير العمل","شروط إنجاز المهمة","دي بندنسي","تحديد المهام المترابطة","معوقات سير العمل","ما يجب إنجازه أولاً"]
 ---
 
 ## Definition
@@ -20,6 +20,7 @@ In sprint planning meetings, project status updates, and when discussing project
 
 - Our user authentication feature has a dependency on the backend API being deployed first.
 - We cannot start testing until we resolve this database dependency.
+- The mobile release depends on the payment provider approving our account.
 
 ## Common mistake
 

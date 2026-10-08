@@ -2,7 +2,7 @@
 id: sprint
 category: agile
 level: beginner
-related: [backlog, scrum-ceremonies]
+related: [backlog, scrum-ceremonies, burndown-chart, velocity]
 term: "Sprint"
 translation: "سبرنت"
 pronunciation: "سبرنت"
@@ -22,6 +22,8 @@ keywords: ["فترة العمل القصيرة في اسكرام","دورة ال
   - نخطط لإنهاء ميزة تسجيل الدخول في هذا الـ sprint.
 - Let's move this task to the next sprint.
   - لننقل هذه المهمة إلى الـ sprint القادم.
+- The sprint ends on Friday, and unfinished stories move to the next sprint.
+  - ينتهي السبرنت يوم الجمعة، وتنتقل القصص غير المكتملة إلى السبرنت التالي.
 
 ## خطأ شائع
 

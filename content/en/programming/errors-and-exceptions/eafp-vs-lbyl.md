@@ -3,7 +3,7 @@ id: eafp-vs-lbyl
 category: programming
 subcategory: errors-and-exceptions
 level: intermediate
-related: [exception, conditional-statement, pythonic]
+related: [exception, conditional-statement, pythonic, error-code]
 tags: [python]
 aliases: ["eafp", "lbyl"]
 term: "EAFP vs LBYL"

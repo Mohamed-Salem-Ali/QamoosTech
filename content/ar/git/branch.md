@@ -2,7 +2,7 @@
 id: branch
 category: git
 level: beginner
-related: [commit, merge, pull-request]
+related: [commit, merge, pull-request, monorepo, stash]
 term: "Branch"
 translation: "فرع"
 pronunciation: "برانش"
@@ -22,6 +22,8 @@ keywords: ["فرع في جيت","خط عمل منفصل في git","إنشاء ف
   - أنشئ branch جديدًا لميزة الدفع.
 - Do not push directly to the `main` branch.
   - لا تعمل push مباشرةً إلى فرع `main`.
+- Rebase the feature branch on main before you open the pull request.
+  - أعِد تأسيس فرع الميزة على main قبل أن تفتح طلب الدمج.
 
 ## خطأ شائع
 

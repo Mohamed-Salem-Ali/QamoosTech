@@ -25,6 +25,8 @@ keywords: ["أخذ جزء من قائمة", "استخراج جزء من نص", "
   - `names[1:3]` يعيد العنصر الثاني والثالث.
 - `text[::-1]` reverses the string.
   - `text[::-1]` يعكس النص.
+- The slice items[1:4] takes the second, third and fourth elements.
+  - يأخذ المقطع items[1:4] العنصر الثاني والثالث والرابع.
 
 ## خطأ شائع
 

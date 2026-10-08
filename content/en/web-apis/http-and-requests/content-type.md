@@ -23,6 +23,7 @@ An HTTP header that tells the receiving server or client what format the data in
 
 - Set the `Content-Type` header to `application/json` before sending the request payload.
 - The server rejected the upload because the `Content-Type` did not match the expected image format.
+- The API returns 415 when the Content-Type is text/plain instead of application/json.
 
 ## Common mistake
 

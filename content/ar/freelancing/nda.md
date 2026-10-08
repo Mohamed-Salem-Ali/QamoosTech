@@ -2,7 +2,7 @@
 id: nda
 category: freelancing
 level: beginner
-related: [deliverable, pii]
+related: [deliverable, pii, client-onboarding, freelance-contract, ip-intellectual-property]
 term: "NDA (Non-Disclosure Agreement)"
 translation: "اتفاقية عدم إفصاح"
 pronunciation: "إن دي إيه"
@@ -22,6 +22,8 @@ keywords: ["اتفاقية عدم إفصاح","عقد سرية المعلوما�
   - لا أستطيع عرض تلك الشيفرة بسبب NDA.
 - The client asked us to sign an NDA before the call.
   - طلب العميل أن نوقّع NDA قبل المكالمة.
+- Before we got access to the client's database, we signed an NDA.
+  - قبل أن نحصل على وصول إلى قاعدة بيانات العميل، وقّعنا اتفاقية عدم إفشاء (NDA).
 
 ## خطأ شائع
 

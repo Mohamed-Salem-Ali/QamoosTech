@@ -2,7 +2,7 @@
 id: roll-out
 category: english
 level: intermediate
-related: [wrap-up, spin-up]
+related: [wrap-up, spin-up, dogfooding]
 term: "Roll out"
 translation: "يطرح تدريجيًا"
 pronunciation: "رول أوت"

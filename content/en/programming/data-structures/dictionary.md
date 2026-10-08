@@ -3,7 +3,7 @@ id: dictionary
 category: programming
 subcategory: data-structures
 level: beginner
-related: [array, tuple, database]
+related: [array, tuple, database, typed-dict]
 tags: [python]
 aliases: ["dict", "hash map", "hashmap", "key-value pair", "key value store", "associative array"]
 term: "Dictionary"
@@ -23,6 +23,7 @@ In Python code, JSON handling, and discussions of fast lookups, also called hash
 
 - We keep the user's settings in a dictionary keyed by name.
 - Looking up a key in a dictionary is much faster than searching a list.
+- Store the color codes in a dictionary keyed by the color name.
 
 ## Common mistake
 

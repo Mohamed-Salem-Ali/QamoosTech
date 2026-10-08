@@ -3,8 +3,8 @@ id: exception
 category: programming
 subcategory: errors-and-exceptions
 level: beginner
-related: [debugging]
-aliases: ["exception handling", "try except", "raise"]
+related: [debugging, off-by-one-error, try-except, error-code, panic, custom-exception]
+aliases: ["exception handling", "raise"]
 term: "Exception"
 translation: "استثناء"
 pronunciation: "إكسيبشن"
@@ -24,6 +24,8 @@ keywords: ["معالجة أخطاء وقت التشغيل","إيقاف انهي�
   - تُطلق الخدمة استثناءً عندما يكون الملف مفقودًا.
 - Catch the exception and show a friendly message.
   - التقط الاستثناء واعرض رسالة مفهومة للمستخدم.
+- The loop stops with an exception because the list ran out of items.
+  - تتوقف الحلقة برفع استثناء لأن القائمة نفدت عناصرها.
 
 ## خطأ شائع
 

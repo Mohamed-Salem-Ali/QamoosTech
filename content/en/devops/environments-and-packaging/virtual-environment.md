@@ -23,6 +23,7 @@ In setup instructions (`python -m venv .venv`), onboarding docs, and when two pr
 
 - Create and activate a virtual environment before installing anything.
 - It works in my venv but fails on the server because the versions differ.
+- Each project has its own virtual environment, so old library versions do not clash.
 
 ## Common mistake
 

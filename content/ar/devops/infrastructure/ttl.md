@@ -25,6 +25,8 @@ keywords: ["كم تُحفظ القيمة", "مدة تخزين DNS", "ثوانٍ 
   - اخفض الـ TTL إلى 300 قبل يوم من تبديل الخوادم.
 - The Redis key expires after its TTL.
   - ينتهي مفتاح Redis بعد مدة صلاحيته.
+- The session cache uses a TTL of 30 minutes, so old sessions expire on their own.
+  - تستخدم ذاكرة الجلسات المؤقتة مدة TTL قدرها 30 دقيقة، فتنتهي الجلسات القديمة وحدها.
 
 ## خطأ شائع
 

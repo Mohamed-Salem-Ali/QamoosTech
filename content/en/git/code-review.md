@@ -2,7 +2,7 @@
 id: code-review
 category: git
 level: beginner
-related: [pull-request, lgtm]
+related: [pull-request, lgtm, nitpick]
 term: "Code Review"
 pronunciation: "KOHD rih-VYOO"
 keywords: ["check my code changes","peer feedback on code","reviewing pull requests","team code inspection","find bugs before merge","improve code quality process","code walkthrough for team","codereview","getting feedback on commits","validate code before merging","مراجعة الكود قبل الدمج","طلب فحص الشيفرة البرمجية","كود ريفيو","فحص تعديلات المبرمجين","الحصول على ملاحظات برمجية","تدقيق الشيفرة من الزملاء","مراجعة الـ pull request","تحسين جودة الكود جماعياً","فحص الأخطاء قبل النشر","تقييم الكود من الفريق"]
@@ -19,6 +19,7 @@ Every professional team.
 
 - Can you review my pull request today?
 - The code review caught a security bug.
+- The code review asked us to add a test for the empty cart case.
 
 ## Common mistake
 

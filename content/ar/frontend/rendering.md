@@ -2,7 +2,7 @@
 id: rendering
 category: frontend
 level: intermediate
-related: [hydration, nextjs]
+related: [hydration, nextjs, virtual-dom]
 term: "Rendering (SSR / CSR)"
 translation: "العرض (من الخادم / من العميل)"
 pronunciation: "ريندرينج"

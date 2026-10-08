@@ -4,6 +4,7 @@ category: communication
 level: beginner
 related: [follow-up, touch-base]
 term: "Take it offline"
+translation: "نناقشه خارج الاجتماع"
 pronunciation: "تيك إت أوفلاين"
 keywords: ["نقل النقاش لمحادثة خاصة","مناقشة الموضوع بشكل جانبي","تكملة الكلام في اجتماع ثنائي","تأجيل التفاصيل لاجتماع خاص","تيك إت أوفلاين","نقل الحديث خارج الاجتماع العام","مواصلة الحوار في جلسة خاصة","الحديث بشكل جانبي عن المشكلة","move discussion to private chat","continue this chat privately","take conversation offline","discuss this separately","lets talk about this later","stop wasting meeting time","move to a side conversation","tack it offline","teke it offline"]
 ---
@@ -22,6 +23,8 @@ keywords: ["نقل النقاش لمحادثة خاصة","مناقشة المو�
   - يبدو أن هذه حالة استثنائية خاصة، دعنا نناقشها بشكل جانبي.
 - I think we are getting into too much detail here, let's take it offline.
   - أعتقد أننا ندخل في تفاصيل كثيرة هنا، لنكمل النقاش في جلسة خاصة.
+- This edge case is detailed, so let's take it offline and talk after the standup.
+  - هذه الحالة الحدّية تفصيلية، فلنناقشها على انفراد بعد الاجتماع اليومي.
 
 ## خطأ شائع
 

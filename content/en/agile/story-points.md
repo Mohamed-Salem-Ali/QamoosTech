@@ -20,6 +20,7 @@ During sprint planning meetings, backlog grooming sessions, or when discussing t
 
 - We assigned five story points to this task because it involves complex database migrations.
 - The team decided that this user story is too large and needs to be broken down into smaller story points.
+- Three story points for the login form and eight for the whole checkout flow.
 
 ## Common mistake
 

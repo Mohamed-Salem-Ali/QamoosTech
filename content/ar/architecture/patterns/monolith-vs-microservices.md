@@ -3,7 +3,7 @@ id: monolith-vs-microservices
 category: architecture
 subcategory: patterns
 level: intermediate
-related: [scalability, separation-of-concerns]
+related: [scalability, separation-of-concerns, n-tier-architecture]
 term: "Monolith vs Microservices"
 translation: "النظام الموحّد مقابل الخدمات المصغّرة"
 pronunciation: "مونوليث مقابل ميكروسيرفيسز"

@@ -3,7 +3,7 @@ id: type-narrowing
 category: programming
 subcategory: types-and-typing
 level: intermediate
-related: [interface]
+related: [interface, type-assertion]
 term: "Type Narrowing"
 pronunciation: "TYPE NAR-oh-ing"
 keywords: ["typescript type narrowing","make typescript type more specific","narrow down types with typeof","typescript type guards and narrowing","refine variable types in typescript","typescript deduce specific type","fix typescript unknown type error","handle union types safely typescript","taib narwing","تضييق النوع في تايبسكريبت","تحديد نوع المتغير بدقة","معرفة نوع البيانات في تايبسكريبت","فحص الأنواع قبل الاستخدام","استنتاج النوع في تايبسكريبت","تضييق النوع","تايب ناروينج","حارس الأنواع في تايبسكريبت"]

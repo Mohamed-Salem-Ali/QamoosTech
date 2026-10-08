@@ -2,7 +2,7 @@
 id: nda
 category: freelancing
 level: beginner
-related: [deliverable, pii]
+related: [deliverable, pii, client-onboarding, freelance-contract, ip-intellectual-property]
 term: "NDA (Non-Disclosure Agreement)"
 pronunciation: "en-dee-AY"
 keywords: ["non disclosure agreement","confidentiality agreement for code","legal contract for freelance work","protect client private information","agreement not to share code","sign papers before starting project","freelance secrecy contract","non disclosure contract","اتفاقية عدم إفصاح","عقد سرية المعلومات للبرمجة","اتفاقية حماية معلومات العميل","توقيع عقد سرية المشروع","منع تسريب شيفرة العميل","عقد عدم إفشاء المعلومات","اتفاقية السرية للعمل الحر","إن دي إيه","اتفاقية عدم افصاح للعمل"]
@@ -19,6 +19,7 @@ Starting a new client or company project.
 
 - I can't show that code because of an NDA.
 - The client asked us to sign an NDA before the call.
+- Before we got access to the client's database, we signed an NDA.
 
 ## Common mistake
 

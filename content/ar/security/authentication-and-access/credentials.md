@@ -5,8 +5,9 @@ subcategory: authentication-and-access
 level: beginner
 related: [authentication-vs-authorization, two-factor-authentication]
 term: "Credentials"
+translation: "بيانات الاعتماد"
 pronunciation: "كْريدينشلز"
-keywords: ["بيانات تسجيل الدخول","اسم المستخدم وكلمة المرور","إثبات هوية المستخدم","معلومات التحقق من الهوية","كلمات المرور والمفاتيح","بيانات الاعتماد البرمجية","طريقة دخول المستخدم للنظام","كْريدينشلز","بيانات الدخول الآمنة","تخزين معلومات الوصول","التحقق من هوية المستخدم","مفاتيح الوصول للتطبيقات","username and password pair","login information for apps","how to verify identity","secure access keys","authentication data for login","user identity proof","api keys and secrets","storing user login details","credientials spelling","login tokens and keys","prevent hardcoding passwords","identity verification info"]
+keywords: ["بيانات تسجيل الدخول","اسم المستخدم وكلمة المرور","إثبات هوية المستخدم","معلومات التحقق من الهوية","كلمات المرور والمفاتيح","بيانات الاعتماد البرمجية","طريقة دخول المستخدم للنظام","كْريدينشلز","بيانات الدخول الآمنة","تخزين معلومات الوصول","التحقق من هوية المستخدم","مفاتيح الوصول للتطبيقات","username and password pair","login information for apps","how to verify identity","secure access keys","authentication data for login","user identity proof","api keys and secrets","storing user login details","credientials","login tokens and keys","prevent hardcoding passwords","identity verification info"]
 ---
 
 ## التعريف
@@ -23,6 +24,8 @@ keywords: ["بيانات تسجيل الدخول","اسم المستخدم وك�
   - يرجى التأكد من عدم كتابة بيانات الاعتماد الخاصة بقاعدة البيانات مباشرة داخل الكود المصدري.
 - The application requires valid credentials to access the protected endpoint.
   - يتطلب التطبيق بيانات اعتماد صالحة للوصول إلى نقطة النهاية المحمية.
+- The CI job reads the deploy credentials from the secrets store, not from the repository.
+  - تقرأ مهمة CI بيانات الاعتماد الخاصة بالنشر من مخزن الأسرار، لا من المستودع.
 
 ## خطأ شائع
 

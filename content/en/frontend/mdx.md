@@ -9,7 +9,7 @@ keywords: ["write react inside markdown","markdown with react components","embed
 ---
 ## Definition
 
-A file format that lets you write React components inside Markdown text.
+A Markdown format that lets you use JSX components inside a Markdown file. It is common in documentation sites, where a page can show an interactive example next to plain text.
 
 ## Where you hear it
 

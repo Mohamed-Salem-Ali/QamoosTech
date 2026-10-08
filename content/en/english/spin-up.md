@@ -2,7 +2,7 @@
 id: spin-up
 category: english
 level: intermediate
-related: [roll-out]
+related: [roll-out, cold-start]
 term: "Spin up"
 pronunciation: "SPIN UP"
 keywords: ["start a server quickly","create instance on demand","launch container fast","boot up new environment","provision resources temporarily","initialize dev instance","get a server running","quick resource deployment","spinup","spining up","spawn a new container","تشغيل خادم بسرعة","إنشاء حاوية جديدة","تجهيز بيئة اختبار","سبن أب","إطلاق مثيل جديد","تشغيل مورد مؤقت","بدء بيئة عمل سريعة","إنشاء خادم تجريبي","تفعيل سيرفر بسرعة","تجهيز بيئة برمجية","بدء تشغيل سريع"]

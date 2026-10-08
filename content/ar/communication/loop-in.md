@@ -2,7 +2,7 @@
 id: loop-in
 category: communication
 level: beginner
-related: [heads-up, stakeholder]
+related: [heads-up, stakeholder, in-the-loop, run-it-by]
 term: "Loop in"
 translation: "إشراك شخص في الموضوع"
 pronunciation: "لوب إن"
@@ -22,6 +22,8 @@ keywords: ["إضافة شخص للمحادثة","إدخال شخص في المو
   - أُشرك أحمد، صاحب خدمة الفوترة.
 - Please loop me in on the client thread.
   - من فضلك أضفني إلى محادثة العميل.
+- I will loop in the designer on the new icons once the copy is final.
+  - سأُشرك المصمم في الأيقونات الجديدة بمجرد أن يُعتمد النص.
 
 ## خطأ شائع
 

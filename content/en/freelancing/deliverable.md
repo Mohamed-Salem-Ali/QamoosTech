@@ -2,7 +2,7 @@
 id: deliverable
 category: freelancing
 level: beginner
-related: [milestone, scope-creep, handoff]
+related: [milestone, scope-creep, handoff, po-purchase-order, sign-off, subcontractor]
 term: "Deliverable"
 pronunciation: "dih-LIV-er-uh-bul"
 keywords: ["what to hand over to client","project output or product","final items for client","things promised in contract","project output documentation","what is being delivered","client project handoff item","list of project outputs","tangible project result","ما يتم تسليمه للعميل","مخرجات المشروع المطلوبة","العناصر المسلمة للعميل","تحديد ما سيتم تسليمه","المنتج النهائي للعميل","قائمة مخرجات المشروع","ملفات التسليم النهائية","العمل المراد تسليمه"]
@@ -19,6 +19,7 @@ Proposals, contracts, and project updates.
 
 - The main deliverable for phase one is a working admin dashboard.
 - Please list the deliverables in the proposal.
+- The deliverable for this phase is a signed-off design for the checkout page.
 
 ## Common mistake
 

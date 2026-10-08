@@ -3,7 +3,8 @@ id: rollback
 category: devops
 subcategory: ci-cd-and-delivery
 level: intermediate
-related: [deployment, feature-flag]
+featured: 6
+related: [deployment, feature-flag, git-reset]
 term: "Rollback"
 translation: "التراجع عن إصدار"
 pronunciation: "رولباك"
@@ -11,7 +12,7 @@ keywords: ["العودة للإصدار السابق","التراجع عن ال�
 ---
 ## التعريف
 
-العودة إلى الإصدار السابق السليم بعد إصدار سيئ.
+العودة إلى الإصدار السابق السليم بعد إصدار سيئ. التراجع غالباً أسرع طريقة لوقف الضرر، ثم يستطيع الفريق إصلاح المشكلة بهدوء والنشر من جديد.
 
 ## أين تسمعه؟
 

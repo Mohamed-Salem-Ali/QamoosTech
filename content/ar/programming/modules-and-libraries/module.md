@@ -3,7 +3,7 @@ id: module
 category: programming
 subcategory: modules-and-libraries
 level: beginner
-related: [package, import, standard-library]
+related: [package, import, standard-library, namespace, wildcard-import]
 tags: [python]
 aliases: ["python module", "modules"]
 term: "Module"
@@ -26,6 +26,8 @@ keywords: ["ملف بايثون يمكن استيراده", "ملف كود وا�
   - ضع دوال التاريخ في وحدة خاصة بها.
 - The import fails because Python can't find the module.
   - يفشل الاستيراد لأن بايثون لا تجد الوحدة.
+- The date helpers live in one module, so the report and the invoice both import them.
+  - تعيش دوال التاريخ في وحدة واحدة، فيستوردها التقرير والفاتورة معاً.
 
 ## خطأ شائع
 

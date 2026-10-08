@@ -2,7 +2,7 @@
 id: hallucination
 category: ai-data
 level: beginner
-related: [llm, rag]
+related: [llm, rag, grounding]
 term: "Hallucination"
 translation: "هلوسة النموذج"
 pronunciation: "هالوسينيشن"
@@ -22,6 +22,8 @@ keywords: ["الذكاء الاصطناعي يخترع معلومات خاطئة
   - هلوس النموذج دالة غير موجودة في المكتبة.
 - Always check the sources, because the answer may be a hallucination.
   - تحقق دائمًا من المصادر لأن الإجابة قد تكون هلوسة.
+- The chatbot cited a court case that never existed, which is a hallucination.
+  - استشهد روبوت المحادثة بقضية محكمة لم تكن موجودة أصلاً، وهذه هلوسة.
 
 ## خطأ شائع
 

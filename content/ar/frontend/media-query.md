@@ -23,6 +23,8 @@ keywords: ["تنسيق الموقع حسب حجم الشاشة","جعل التص
   - نستخدم استعلام الوسائط لتغيير تخطيط قائمة التنقل على شاشات الهواتف المحمولة.
 - This media query detects if the user has enabled dark mode in their system preferences.
   - يكتشف استعلام الوسائط هذا ما إذا كان المستخدم قد قام بتفعيل الوضع الليلي في تفضيلات نظامه.
+- Below 768 pixels, the media query switches the grid to one column.
+  - دون 768 بكسل، يحوّل استعلام الوسائط (media query) الشبكة إلى عمود واحد.
 
 ## خطأ شائع
 

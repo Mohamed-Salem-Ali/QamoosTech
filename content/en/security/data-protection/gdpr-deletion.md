@@ -3,7 +3,7 @@ id: gdpr-deletion
 category: security
 subcategory: data-protection
 level: intermediate
-related: [pii, audit-logging]
+related: [pii, audit-logging, soc-2, retention-policy]
 term: "GDPR Deletion"
 pronunciation: "jee-dee-pee-AR dih-LEE-shun"
 keywords: ["right to be forgotten","permanently remove user data","comply with privacy laws","gdpr account removal request","delete personal data permanently","erase user info from backups","gdpr compliance data scrubbing","how to handle user deletion","remove personal identifying information","gdpr erasure request process","الحق في النسيان","مسح بيانات المستخدم الشخصية","طلب حذف البيانات بموجب القانون","إزالة معلومات المستخدم نهائياً","الامتثال لقوانين حماية البيانات","حذف بيانات المستخدم من النسخ الاحتياطية","إجراءات حذف البيانات الشخصية","تنفيذ طلبات الحذف القانونية","حذف الحساب وفق متطلبات الخصوصية","إلغاء بيانات المستخدم نهائياً"]

@@ -5,7 +5,7 @@ level: beginner
 related: [blocker, dependency-injection, latency-vs-throughput]
 term: "Bottleneck"
 pronunciation: "BOT-el-nek"
-keywords: ["what slows down system performance","workflow capacity limit","process speed constraint","why is my code slow","performance constraint point","identifying system throughput issues","common development process delays","bottelneck spelling","points of congestion in software","resource capacity planning issues","أسباب بطء أداء النظام","نقطة ازدحام في العمل","محدودية القدرة الاستيعابية","مشاكل بطء تدفق المهام","تحديد معوقات الأداء","عنق الزجاجة في البرمجة","تأخر العمل بسبب نقص الموارد","نقطة اختناق في النظام","تحليل أسباب تأخر السبرنت","بوتل نيك في الأداء"]
+keywords: ["what slows down system performance","workflow capacity limit","process speed constraint","why is my code slow","performance constraint point","identifying system throughput issues","common development process delays","bottelneck","points of congestion in software","resource capacity planning issues","أسباب بطء أداء النظام","نقطة ازدحام في العمل","محدودية القدرة الاستيعابية","مشاكل بطء تدفق المهام","تحديد معوقات الأداء","عنق الزجاجة في البرمجة","تأخر العمل بسبب نقص الموارد","نقطة اختناق في النظام","تحليل أسباب تأخر السبرنت","بوتل نيك في الأداء"]
 ---
 
 ## Definition
@@ -20,6 +20,7 @@ In sprint retrospectives, team capacity planning meetings, and when analyzing sy
 
 - Code review is our current bottleneck because we have too few reviewers.
 - The database query became a performance bottleneck during peak hours.
+- Releases wait for one person who approves every change, and that is the bottleneck.
 
 ## Common mistake
 

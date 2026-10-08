@@ -20,6 +20,7 @@ During model development, data preprocessing discussions, and when evaluating AI
 
 - The model failed to recognize cats because the training data only contained images of dogs.
 - We need to clean the training data to remove duplicate entries and incorrect labels.
+- The training data holds only English reviews, so the model struggles with Arabic.
 
 ## Common mistake
 

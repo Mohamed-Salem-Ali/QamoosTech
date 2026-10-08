@@ -22,6 +22,7 @@ In database sizing, cloud instance choices, and "quick fix" discussions during i
 
 - We scaled the database up to a larger instance.
 - Vertical scaling is easy but there is a limit and it is one machine.
+- Moving the database to a bigger machine is vertical scaling, and it needs a short outage.
 
 ## Common mistake
 

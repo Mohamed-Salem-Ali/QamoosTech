@@ -5,6 +5,7 @@ subcategory: transactions
 level: intermediate
 related: [database, transaction]
 term: "Isolation Level"
+translation: "مستوى العزل"
 pronunciation: "آيسوليشن ليفل"
 keywords: ["ضبط مستوى عزل العمليات","التحكم في ظهور بيانات المعاملات","إعدادات تضارب العمليات المتزامنة","تحديد مستوى العزل في قاعدة البيانات","منع قراءة البيانات غير المكتملة","مستوى عزل المعاملات البرمجية","تحسين أداء قراءة البيانات المتزامنة","ضبط مستوى العزل لتقليل الأقفال","مشاكل تداخل العمليات في قاعدة البيانات","آيسوليشن ليفل في قواعد البيانات","database transaction visibility settings","prevent dirty reads in database","manage concurrent transaction consistency","database locking behavior configuration","serializable vs read committed","control data visibility between transactions","fix phantom reads in sql","database concurrency control settings","transaction integrity configuration","adjust database read consistency"]
 ---

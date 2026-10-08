@@ -5,6 +5,7 @@ subcategory: infrastructure
 level: beginner
 related: [serverless, scalability]
 term: "Managed Service"
+translation: "الخدمة المُدارة"
 pronunciation: "مانجد سيرفيس"
 keywords: ["خدمة سحابية مدارة بالكامل","استضافة تدار بواسطة المزود","تخفيف عبء صيانة الخوادم","خدمات تقنية مدارة خارجياً","الفرق بين الخدمة المدارة والذاتية","من يتولى تحديث البنية التحتية","خدمات سحابية لا تحتاج صيانة","مانجد سيرفيس","إدارة البنية التحتية من المزود","تقليل مهام فريق التشغيل","خدمات مقدمة من طرف ثالث","cloud provider handles maintenance","outsourced infrastructure management","stop patching servers manually","fully hosted database solution","vendor managed cloud components","reduce devops operational overhead","managed services vs unmanaged","platform as a service","automated server administration","offload infrastructure maintenance","managed service provider model"]
 ---
@@ -23,6 +24,8 @@ keywords: ["خدمة سحابية مدارة بالكامل","استضافة ت�
   - قررنا استخدام Managed Service لقاعدة البيانات لتجنب النسخ الاحتياطي اليدوي وعمليات التحديث.
 - Using a managed service reduces the operational burden on our small engineering team.
   - استخدام Managed Service يقلل من العبء التشغيلي على فريقنا الهندسي الصغير.
+- Our managed service handles the backups, so the team never runs them by hand.
+  - تتولى خدمتنا المُدارة النسخ الاحتياطي، فلا يُجريه الفريق يدوياً أبداً.
 
 ## خطأ شائع
 

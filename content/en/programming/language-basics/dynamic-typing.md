@@ -22,6 +22,7 @@ In Python and JavaScript discussions, when comparing languages, and in code revi
 
 - In a dynamically typed language you can store a number in a variable and a string in it later.
 - Dynamic typing makes prototypes quick to write, but some mistakes only appear at runtime.
+- In Python, the same variable can hold a number first and a list later.
 
 ## Common mistake
 

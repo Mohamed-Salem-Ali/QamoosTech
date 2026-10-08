@@ -21,6 +21,7 @@ In security audits, penetration testing reports, and code reviews when checking 
 
 - The attacker exploited an SQL injection vulnerability in the login form to bypass authentication.
 - Always use parameterized queries to prevent SQL injection in your application.
+- Escaping quotes by hand is not enough to stop SQL injection; use parameters instead.
 
 ## Common mistake
 

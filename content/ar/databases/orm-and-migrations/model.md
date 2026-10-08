@@ -26,6 +26,8 @@ keywords: ["صنف يصف جدولاً", "نموذج Django", "الحقول تص
   - أضف حقل `due_date` إلى نموذج Payment.
 - Changing a model means creating a migration.
   - تغيير نموذج يعني إنشاء ترحيلة.
+- The Payment model has a status field with three possible values.
+  - يحتوي نموذج Payment على حقل للحالة له ثلاث قيم ممكنة.
 
 ## خطأ شائع
 

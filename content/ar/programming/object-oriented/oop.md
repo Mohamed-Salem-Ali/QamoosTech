@@ -25,6 +25,8 @@ keywords: ["تنظيم الكود بالأصناف والكائنات", "أعم�
   - نمذجنا الأعضاء والمدفوعات ككائنات لكل منها دوالها.
 - The four pillars of OOP are encapsulation, abstraction, inheritance and polymorphism.
   - أعمدة OOP الأربعة هي التغليف والتجريد والوراثة وتعدد الأشكال.
+- The invoice and the payment are classes, and each payment object knows how to validate itself.
+  - الفاتورة والدفعة فئتان، ويعرف كل كائن دفعة كيف يتحقق من نفسه.
 
 ## خطأ شائع
 

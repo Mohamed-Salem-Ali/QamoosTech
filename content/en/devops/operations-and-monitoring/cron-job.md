@@ -22,6 +22,7 @@ In Linux servers, Kubernetes CronJobs, cloud schedulers and backup or cleanup sc
 
 - A cron job sends the weekly report every Monday at 8.
 - The cron job failed silently because nobody checked its logs.
+- The cron job deletes expired sessions every night at midnight.
 
 ## Common mistake
 

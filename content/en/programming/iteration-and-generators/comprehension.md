@@ -3,7 +3,7 @@ id: comprehension
 category: programming
 subcategory: iteration-and-generators
 level: beginner
-related: [loop, generator, array]
+related: [loop, generator, array, map-and-filter]
 tags: [python]
 aliases: ["list comprehension", "dictionary comprehension"]
 term: "Comprehension"
@@ -23,6 +23,7 @@ In Python code reviews and tutorials, whenever a small loop that only builds a c
 
 - `[n * n for n in numbers if n > 0]` builds the squares of the positive numbers.
 - A dictionary comprehension turns the list of pairs into a lookup table.
+- This comprehension keeps only the active users and collects their emails.
 
 ## Common mistake
 

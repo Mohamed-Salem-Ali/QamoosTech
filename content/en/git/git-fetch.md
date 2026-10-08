@@ -22,6 +22,7 @@ keywords: ["download remote changes","update local tracking branches","get lates
 
 - Run `git fetch origin` to see if there are any new updates on the server.
 - I need to run `git fetch` before I can see the new branch my teammate pushed.
+- Run git fetch to see the branch your teammate pushed, without changing your own work.
 
 ## Common mistake
 

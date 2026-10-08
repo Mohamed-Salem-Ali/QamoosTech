@@ -24,6 +24,8 @@ keywords: ["مفتاح أجنبي","ربط جدولين مع بعض","قيد ا�
   - يتضمن جدول `orders` مفتاحاً أجنبياً يشير إلى جدول `users`.
 - A foreign key prevents the database from deleting a customer who still has active purchases.
   - يمنع المفتاح الأجنبي قاعدة البيانات من حذف عميل لديه مشتريات نشطة.
+- The payments table uses a foreign key to point at the order it pays for.
+  - يستخدم جدول المدفوعات مفتاحاً أجنبياً (foreign key) يشير إلى الطلب الذي يدفع ثمنه.
 
 ## خطأ شائع
 

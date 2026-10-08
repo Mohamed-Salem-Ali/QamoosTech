@@ -3,7 +3,7 @@ id: regression
 category: testing
 subcategory: test-types
 level: intermediate
-related: [unit-test, bug]
+related: [unit-test, bug, false-positive, snapshot-testing]
 term: "Regression"
 translation: "تراجع (عودة خطأ قديم)"
 pronunciation: "ريجريشن"
@@ -11,7 +11,7 @@ keywords: ["عودة خطأ تم إصلاحه سابقاً","توقف ميزة �
 ---
 ## التعريف
 
-خطأ يتوقف فيه شيء كان يعمل سابقًا عن العمل بعد تغيير ما.
+خلل يتوقف فيه شيء كان يعمل من قبل عن العمل، عادةً بسبب تغيير لاحق. وتُكتب الاختبارات جزئياً لاكتشاف الانحدار قبل أن يلاحظه المستخدمون.
 
 ## أين تسمعه؟
 

@@ -4,6 +4,7 @@ category: freelancing
 level: beginner
 related: [proposal, nda, handoff]
 term: "Client Onboarding"
+translation: "استقبال العميل وتجهيز المشروع"
 pronunciation: "كلاينت أون-بوردينج"
 keywords: ["إجراءات بدء العمل مع عميل","خطوات تهيئة العميل الجديد","تنظيم متطلبات المشروع الجديد","جمع بيانات العميل للبدء","عملية استقبال العميل","تجهيز الصلاحيات للمشروع الجديد","إجراءات ما قبل البدء بالمشروع","كلاينت أون بوردينج","خطوات الترحيب بالعميل الجديد","ترتيب اتفاقيات العميل الجديد","new client setup process","how to start a project","freelance project intake steps","gathering requirements from clients","client welcome workflow","getting access from new clients","client onboarding checklist","preparing for a new project","standardizing new client intake","onboarding new freelance clients"]
 ---
@@ -22,6 +23,8 @@ keywords: ["إجراءات بدء العمل مع عميل","خطوات تهيئ
   - نحتاج إلى إتمام عملية تهيئة العميل قبل أن نبدأ مرحلة التطوير.
 - I have a standard checklist to streamline my client onboarding process.
   - لدي قائمة تحقق قياسية لتبسيط عملية تهيئة العميل الخاصة بي.
+- Send the client the onboarding form and the access checklist before we start.
+  - أرسل للعميل نموذج التعريف وقائمة الوصول قبل أن نبدأ.
 
 ## خطأ شائع
 

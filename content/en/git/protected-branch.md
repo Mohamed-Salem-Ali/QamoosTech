@@ -20,6 +20,7 @@ In team meetings discussing repository security, during code review process setu
 
 - We set up a protected branch to ensure all code is reviewed before it reaches production.
 - You cannot push directly to the main branch because it is a protected branch.
+- Force pushes to main are blocked by the protected branch rules.
 
 ## Common mistake
 

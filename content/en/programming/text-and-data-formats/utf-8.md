@@ -3,7 +3,7 @@ id: utf-8
 category: programming
 subcategory: text-and-data-formats
 level: intermediate
-related: [unicode, content-type, url-encoding]
+related: [unicode, content-type, url-encoding, escape-sequence, base64]
 aliases: ["utf8"]
 term: "UTF-8"
 pronunciation: "YOO-TEE-EF AYT"

@@ -19,6 +19,7 @@ Status updates and incident chats.
 
 - What's the ETA for the fix?
 - ETA is about two hours.
+- The ETA for the new report is Thursday, if the data arrives on time.
 
 ## Common mistake
 

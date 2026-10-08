@@ -5,6 +5,7 @@ subcategory: infrastructure
 level: beginner
 related: [deployment, monolith-vs-microservices]
 term: "On-premise"
+translation: "الاستضافة المحلية"
 pronunciation: "أون-بريميس"
 keywords: ["تشغيل الخوادم داخل الشركة","استضافة محلية على أجهزة الشركة","البنية التحتية المحلية","خوادم داخل مقر العمل","النشر المحلي للبرمجيات","الخوادم المحلية للشركة","بدون استخدام السحابة","تخزين البيانات محليا","run servers in our office","self hosted infrastructure","local data center deployment","not in the cloud","hardware inside our building","on premise software","on prem deployment","internal servers setup","local server hosting"]
 ---
@@ -23,6 +24,8 @@ keywords: ["تشغيل الخوادم داخل الشركة","استضافة م�
   - نحتاج إلى الاحتفاظ بقاعدة بياناتنا محلياً (On-premise) للامتثال الصارم للوائح التنظيمية.
 - The legacy application is hosted on-premise in our local data center.
   - التطبيق القديم مستضاف محلياً (On-premise) في مركز البيانات المحلي الخاص بنا.
+- The company keeps its servers on-premise, so its data never leaves the building.
+  - تحتفظ الشركة بخوادمها داخل مقرها، فلا تغادر بياناتها المبنى.
 
 ## خطأ شائع
 

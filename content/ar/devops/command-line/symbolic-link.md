@@ -25,6 +25,8 @@ keywords: ["اختصار لملف أو مجلد", "الأمر ln -s", "يشير 
   - ‏`current` رابط رمزي إلى مجلد أحدث إصدار.
 - The symlink is broken because the target moved.
   - الرابط الرمزي مكسور لأن الهدف انتقل.
+- The symlink lets the web server find the current release without changing its config.
+  - يتيح الرابط الرمزي لخادم الويب العثور على الإصدار الحالي دون تغيير إعداداته.
 
 ## خطأ شائع
 

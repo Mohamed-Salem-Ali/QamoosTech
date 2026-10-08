@@ -3,7 +3,7 @@ id: endpoint
 category: web-apis
 subcategory: routing-and-views
 level: beginner
-related: [restful-api, request-response]
+related: [restful-api, request-response, api-documentation]
 term: "Endpoint"
 translation: "نقطة نهاية"
 pronunciation: "إندبوينت"
@@ -23,6 +23,8 @@ keywords: ["عنوان url للـ api","مسار الـ api","رابط الات�
   - أضفنا endpoint جديدًا لتصدير الفواتير.
 - The endpoint returns 404 for unknown users.
   - يعيد الـ endpoint الرمز 404 للمستخدمين غير الموجودين.
+- The mobile app calls the same endpoint as the web app, so both get the same data.
+  - يستدعي تطبيق الهاتف نقطة النهاية نفسها التي يستخدمها تطبيق الويب، فيحصل الاثنان على البيانات نفسها.
 
 ## خطأ شائع
 

@@ -20,6 +20,7 @@ In frontend development meetings, CSS styling sessions, and responsive design re
 
 - We use a media query to change the navigation menu layout on mobile screens.
 - This media query detects if the user has enabled dark mode in their system preferences.
+- Below 768 pixels, the media query switches the grid to one column.
 
 ## Common mistake
 

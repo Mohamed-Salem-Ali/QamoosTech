@@ -23,6 +23,7 @@ In testing guides, code reviews of tests, and BDD-style "given, when, then" disc
 
 - Keep the test in three blocks: arrange, act, assert.
 - This test acts twice, so it is hard to tell what failed.
+- Arrange a cart with two items, act by calling checkout, then assert the total is 40.
 
 ## Common mistake
 

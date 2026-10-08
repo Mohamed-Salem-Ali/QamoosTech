@@ -22,6 +22,8 @@ keywords: ["استخراج النص من الصور","قراءة النص من �
   - لم يستطع الـ OCR قراءة الصورة غير الواضحة.
 - We run OCR on every uploaded invoice.
   - نشغّل OCR على كل فاتورة مرفوعة.
+- The OCR output has spelling mistakes, so we check the totals before saving.
+  - يحوي مخرج OCR أخطاء إملائية، لذلك نتحقق من المجاميع قبل الحفظ.
 
 ## خطأ شائع
 

@@ -2,7 +2,7 @@
 id: cross-functional-team
 category: agile
 level: intermediate
-related: [sprint, stakeholder]
+related: [sprint, stakeholder, bring-to-the-table, deep-dive]
 term: "Cross-functional Team"
 translation: "فريق متعدد التخصصات"
 pronunciation: "كروس فانكشنال تيم"

@@ -5,6 +5,7 @@ subcategory: test-design
 level: beginner
 related: [unit-test, regression, bug]
 term: "Test Case"
+translation: "حالة اختبار"
 pronunciation: "تيست كيس"
 keywords: ["خطوات اختبار ميزة معينة","حالة اختبار البرمجيات","التحقق من النتائج المتوقعة","سيناريو اختبار النظام","خطوات فحص الكود","كتابة حالات الاختبار","تيست كيس","حالات الاختبار","steps to test a feature","expected outcome verification","qa verification steps","test script","testing scenario","validate software behavior","check if feature works","test cases","tst case"]
 ---
@@ -23,6 +24,8 @@ keywords: ["خطوات اختبار ميزة معينة","حالة اختبار 
   - نحتاج لكتابة Test Case جديدة لوظيفة إعادة تعيين كلمة المرور.
 - This test case failed because the system returned an error instead of the expected success message.
   - فشلت هذه الـ Test Case لأن النظام أعاد خطأً بدلاً من رسالة النجاح المتوقعة.
+- The test case covers an empty password and expects a validation message.
+  - تغطي حالة الاختبار كلمة المرور الفارغة، وتتوقع رسالة تحقّق.
 
 ## خطأ شائع
 

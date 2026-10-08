@@ -4,6 +4,7 @@ category: communication
 level: beginner
 related: [blocker, point-out]
 term: "Flag an issue"
+translation: "الإبلاغ عن مشكلة"
 pronunciation: "فلاج آن إيشو"
 keywords: ["التنبيه إلى مشكلة محتملة","التحذير من خطر في المشروع","الإشارة إلى عائق محتمل","لفت انتباه الفريق لمشكلة","رفع تنبيه بمشكلة","الإبلاغ عن خطر مستقبلي","التنبيه المبكر للمشاكل","فلاج آن إيشو","notify team about risk","report a potential problem","raise a concern early","highlight a project risk","warn about a blocker","point out an obstacle","proactive issue notification","bring up a problem","flagging an issue"]
 ---
@@ -22,6 +23,8 @@ keywords: ["التنبيه إلى مشكلة محتملة","التحذير من 
   - يرجى التنبيه إلى أي مشكلة إذا لاحظت وجود تعارض في الوثائق.
 - I need to flag an issue regarding the current API response time.
   - أحتاج إلى التنبيه إلى مشكلة بخصوص وقت استجابة الـ API الحالي.
+- I flagged an issue: the vendor's API limit may block the launch.
+  - نبّهت إلى مشكلة محتملة: قد يعطّل حدّ استخدام واجهة المورد الإطلاق.
 
 ## خطأ شائع
 

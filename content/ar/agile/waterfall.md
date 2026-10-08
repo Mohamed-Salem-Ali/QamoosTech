@@ -24,6 +24,8 @@ keywords: ["مراحل متتابعة", "المتطلبات ثم التصميم 
   - نُفّذ العقد الحكومي بمنهج الشلال بمراحل معتمدة.
 - In waterfall, a change late in testing is expensive.
   - في الشلال، التغيير المتأخر أثناء الاختبار مكلف.
+- The compliance project used waterfall, so the design was frozen before any coding started.
+  - استخدم مشروع الامتثال منهج الشلال (waterfall)، فجُمّد التصميم قبل أن تبدأ أي برمجة.
 
 ## خطأ شائع
 

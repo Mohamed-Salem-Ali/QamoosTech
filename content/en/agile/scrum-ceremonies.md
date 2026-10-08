@@ -2,7 +2,7 @@
 id: scrum-ceremonies
 category: agile
 level: beginner
-related: [sprint, blocker]
+related: [sprint, blocker, grooming, waterfall]
 aliases: ["sprint goal", "sprint review", "sprint retrospective", "retrospective", "daily standup"]
 term: "Scrum Ceremonies"
 pronunciation: "SKRUM SEH-ruh-moh-neez"
@@ -20,6 +20,7 @@ Team calendars and interviews.
 
 - The daily standup is at 10:00 and takes 15 minutes.
 - We discuss what went well in the retrospective.
+- In the sprint review, we show the finished work to stakeholders.
 
 ## Common mistake
 

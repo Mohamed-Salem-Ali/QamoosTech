@@ -3,7 +3,7 @@ id: retry-logic
 category: architecture
 subcategory: reliability
 level: beginner
-related: [idempotency, exception]
+related: [idempotency, exception, timeout]
 term: "Retry Logic"
 pronunciation: "REE-try LAJ-ik"
 keywords: ["automatically repeat failed requests","handle transient network errors","re-attempt failed api calls","exponential backoff implementation","resilience pattern for failures","retry mechanism for services","try again after failure","automatic operation recovery","handle temporary service downtime","retry logic pattern","إعادة تنفيذ الطلبات الفاشلة","تكرار المحاولة عند الخطأ","معالجة أخطاء الشبكة المؤقتة","نمط إعادة المحاولة التلقائية","إعادة إرسال طلبات api","تجاوز انقطاع الاتصال المؤقت","آلية إعادة المحاولة","إعادة تنفيذ العمليات المتقطعة","ريتراي لوجيك","تكرار العملية عند الفشل"]
@@ -21,6 +21,7 @@ In discussions about system resilience, API integration, and handling network in
 
 - We implemented retry logic to handle intermittent database connection drops.
 - The service uses retry logic with exponential backoff to avoid overwhelming the server.
+- The retry logic tries the payment call three times before it shows an error.
 
 ## Common mistake
 

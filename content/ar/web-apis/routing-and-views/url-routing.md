@@ -26,6 +26,8 @@ keywords: ["مطابقة الرابط بالكود", "ملف urls", "ربط ال
   - أضف مساراً يرسل `/circles/<id>/` إلى view التفاصيل.
 - The first matching pattern wins, so order matters.
   - أول نمط مطابق هو الفائز لذا يهم الترتيب.
+- The request to /orders/15/ is routed to the order detail view.
+  - يُوجَّه الطلب إلى /orders/15/ نحو عرض تفاصيل الطلب.
 
 ## خطأ شائع
 

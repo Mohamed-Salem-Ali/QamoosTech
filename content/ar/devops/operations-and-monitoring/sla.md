@@ -3,7 +3,7 @@ id: sla
 category: devops
 subcategory: operations-and-monitoring
 level: intermediate
-related: [monitoring, turnaround-time]
+related: [monitoring, turnaround-time, error-budget]
 term: "SLA (Service Level Agreement)"
 translation: "اتفاقية مستوى الخدمة"
 pronunciation: "إس إل إيه"

@@ -4,6 +4,7 @@ category: ai-data
 level: intermediate
 related: [llm, prompt-engineering, token]
 term: "Temperature"
+translation: "درجة الحرارة"
 pronunciation: "تيمبريتشر"
 keywords: ["التحكم في عشوائية مخرجات النموذج","جعل إجابات الذكاء الاصطناعي إبداعية","تقليل تكرار النصوص في النموذج","معامل ضبط عشوائية النماذج اللغوية","تغيير مدى تنوع إجابات الذكاء","ضبط احتمالية اختيار الكلمات","جعل مخرجات النموذج أكثر دقة","تعديل إعدادات توليد النصوص","تيمبريتشر في النماذج اللغوية","التحكم في تنوع إجابات الـ ai","control randomness of llm output","make ai model more creative","reduce repetitive text from model","llm hyperparameter for variety","adjust ai text predictability","how to change model randomness","make ai responses less deterministic","ai token selection probability","configure generative ai model settings","tweak model output diversity"]
 ---

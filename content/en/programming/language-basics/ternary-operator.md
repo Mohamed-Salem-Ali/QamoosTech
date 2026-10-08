@@ -8,7 +8,7 @@ tags: [python, javascript]
 aliases: ["conditional expression", "ternary"]
 term: "Ternary Operator"
 pronunciation: "TER-nuh-ree OP-er-ay-ter"
-keywords: ["one line if else", "condition ? a : b", "x if cond else y", "inline conditional", "short if expression", "conditional expression", "if else في سطر واحد", "الصيغة condition ? a : b", "x if cond else y", "شرط مضمّن", "تعبير شرطي قصير", "التعبير الشرطي"]
+keywords: ["one line if else", "condition ? a : b", "x if cond else y", "inline conditional", "short if expression", "conditional expression", "if else في سطر واحد", "الصيغة condition ? a : b", "شرط مضمّن", "تعبير شرطي قصير", "التعبير الشرطي"]
 ---
 
 ## Definition

@@ -25,6 +25,8 @@ keywords: ["تثبيت حزم بايثون", "أمر pip install", "مثبّت �
   - نفّذ `pip install -r requirements.txt` للحصول على كل شيء.
 - Use `python -m pip` so you are sure which Python it belongs to.
   - استخدم `python -m pip` لتتأكد من أي بايثون هو.
+- I used pip to install the library into the project's virtual environment.
+  - ثبّتُّ المكتبة باستخدام pip داخل البيئة الافتراضية للمشروع.
 
 ## خطأ شائع
 

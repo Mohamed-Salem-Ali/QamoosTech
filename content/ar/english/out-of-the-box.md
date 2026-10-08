@@ -4,6 +4,7 @@ category: english
 level: beginner
 related: [mvp]
 term: "Out-of-the-box"
+translation: "جاهز للاستخدام"
 pronunciation: "أوت-أوف-ذا-بوكس"
 keywords: ["مميزات جاهزة للاستخدام","تعمل فور التثبيت","بدون إعدادات مسبقة","وظائف جاهزة بدون برمجة","حلول جاهزة للاستخدام","دعم مدمج بالبرنامج","ميزات جاهزة بدون تعديل","أوت أوف ذا بوكس","جاهز للعمل مباشرة","plug and play features","ready to use software","prebuilt functionality without config","works immediately after installation","built in features","out of the box","oob features","pre packaged solutions","zero configuration setup","ready out of the box"]
 ---
@@ -22,6 +23,8 @@ keywords: ["مميزات جاهزة للاستخدام","تعمل فور الت�
   - يوفر إطار العمل هذا دعماً جاهزاً (out-of-the-box) لمصادقة المستخدمين.
 - We chose this tool because it offers out-of-the-box reporting features.
   - اخترنا هذه الأداة لأنها توفر ميزات تقارير جاهزة للاستخدام المباشر.
+- The CMS works out-of-the-box with email login, so we wrote no code for it.
+  - يعمل نظام إدارة المحتوى (CMS) جاهزاً مع تسجيل الدخول بالبريد، فلم نكتب له أي شيفرة.
 
 ## خطأ شائع
 

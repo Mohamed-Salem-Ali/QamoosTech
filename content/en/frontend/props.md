@@ -20,6 +20,7 @@ React tutorials and code reviews.
 
 - Pass the user name to the card through props.
 - Props are read-only, so do not change them inside the component.
+- The product card receives its price and image as props from the list page.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ In documentation, architecture discussions, and code reviews when explaining how
 
 - The framework handles routing automatically under the hood.
 - Let's look under the hood to see how the query builder parses SQL.
+- The ORM builds the SQL under the hood, so you write Python instead.
 
 ## Common mistake
 

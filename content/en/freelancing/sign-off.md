@@ -20,6 +20,7 @@ Commonly used in project management meetings, email threads, and contract discus
 
 - We need the client's sign-off before we can deploy this feature to production.
 - Please provide your sign-off on the final design document by Friday.
+- Legal gave the sign-off, so the terms page goes live this week.
 
 ## Common mistake
 

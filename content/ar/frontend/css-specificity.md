@@ -2,8 +2,10 @@
 id: css-specificity
 category: frontend
 level: beginner
-related: []
+related: [design-system]
+tags: [css]
 term: "CSS Specificity"
+translation: "أولوية محددات CSS"
 pronunciation: "سي إس إس سبيسيفيسيتي"
 keywords: ["ترتيب أولوية محددات سي إس إس","حل مشكلة عدم تطبيق التنسيقات","تجاوز تنسيقات ملفات سي إس إس","أولوية الكلاسات والآي دي في سي إس إس","لماذا لا يعمل كود السي إس إس","حساب وزن المحددات في سي إس إس","الفرق بين الأولوية والتسلسل في سي إس إس","توليف أولوية تنسيقات الويب","css selector priority order","override existing framework styles","why is my css not applying","css weights and selectors","element selector ranking algorithm","fix overridden css rules","css specificity vs cascade","make css rule more specific","css specificity calculation"]
 ---
@@ -22,6 +24,8 @@ keywords: ["ترتيب أولوية محددات سي إس إس","حل مشكل�
   - محدد المعرف (ID) له أولوية أعلى من محدد الصنف (Class).
 - I had to increase the specificity of my rule to override the default library style.
   - اضطررت لزيادة أولوية (specificity) القاعدة الخاصة بي لتجاوز تنسيق المكتبة الافتراضي.
+- An inline style beats a class rule, because it has higher specificity, unless the rule uses !important.
+  - يتفوق النمط المضمّن (inline) على قاعدة الفئة لأن تخصيصه أعلى، ما لم تستخدم القاعدة !important.
 
 ## خطأ شائع
 

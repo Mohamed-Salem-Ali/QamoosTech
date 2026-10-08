@@ -3,7 +3,7 @@ id: ci-cd
 category: devops
 subcategory: ci-cd-and-delivery
 level: intermediate
-related: [deployment, unit-test, rollback]
+related: [deployment, unit-test, rollback, ephemeral-environment]
 term: "CI/CD"
 translation: "التكامل والنشر المستمر"
 pronunciation: "سي آي سي دي"

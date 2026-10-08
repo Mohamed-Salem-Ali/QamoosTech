@@ -23,6 +23,7 @@ In Python code that removes duplicates, compares two groups of items, or checks 
 
 - Convert the list to a set to remove the duplicate emails.
 - The intersection of the two sets gives the users who are in both groups.
+- A set of user IDs makes it fast to check whether a user has already voted.
 
 ## Common mistake
 

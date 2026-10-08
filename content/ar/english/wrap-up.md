@@ -2,7 +2,7 @@
 id: wrap-up
 category: english
 level: beginner
-related: [roll-out]
+related: [roll-out, hit-the-ground-running]
 term: "Wrap up"
 translation: "ينهي / يختتم"
 pronunciation: "راب أب"
@@ -22,6 +22,8 @@ keywords: ["إنهاء الاجتماع الحالي","ختام الاجتماع
   - لننهِ الاجتماع؛ انتهى الوقت.
 - I'm wrapping up the migration script and will share it today.
   - أُنهي سكربت الـ migration وسأشاركه اليوم.
+- Let's wrap up the sprint review with the action items and the next steps.
+  - لنختم مراجعة السبرنت ببنود العمل والخطوات التالية.
 
 ## خطأ شائع
 

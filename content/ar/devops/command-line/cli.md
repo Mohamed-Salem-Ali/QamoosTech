@@ -26,6 +26,8 @@ keywords: ["واجهة سطر الأوامر", "برنامج تشغله بالك
   - بنيت CLI لإضافة المهام من الطرفية.
 - Each subcommand does one job: `add`, `list`, `done`.
   - كل أمر فرعي يؤدي مهمة واحدة: `add` و`list` و`done`.
+- Run the CLI with --help to see every option it supports.
+  - شغّل واجهة سطر الأوامر (CLI) مع --help لترى كل الخيارات التي تدعمها.
 
 ## خطأ شائع
 

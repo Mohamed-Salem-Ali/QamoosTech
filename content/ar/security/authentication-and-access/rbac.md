@@ -3,7 +3,7 @@ id: rbac
 category: security
 subcategory: authentication-and-access
 level: intermediate
-related: [authentication-vs-authorization, multi-tenant-saas]
+related: [authentication-vs-authorization, multi-tenant-saas, access-control-list]
 term: "RBAC (Role-Based Access Control)"
 translation: "التحكم في الوصول حسب الأدوار"
 pronunciation: "آر باك"

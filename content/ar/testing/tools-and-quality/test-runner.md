@@ -5,6 +5,7 @@ subcategory: tools-and-quality
 level: beginner
 related: [unit-test, ci-cd]
 term: "Test Runner"
+translation: "مشغّل الاختبارات"
 pronunciation: "تيست رانر"
 keywords: ["أداة تنفيذ الاختبارات البرمجية","برنامج تشغيل ملفات الاختبار","محرك تنفيذ الاختبارات تلقائيا","كيفية تشغيل الاختبارات برمجيا","أداة أتمتة اختبار الكود","تيست رانر","مشغل ملفات الاختبار","أداة إدارة مجموعات الاختبار","برنامج فحص الكود تلقائيا","أداة تنفيذ التستات","tool to execute test files","automate running unit tests","software for test execution","test suite manager","test execution engine","how to run my tests","test automation tool","cli for running tests","test runner software","test framework executor"]
 ---
@@ -23,6 +24,8 @@ keywords: ["أداة تنفيذ الاختبارات البرمجية","برنا
   - أحتاج إلى ضبط الـ test runner ليتجاهل اختبارات التكامل.
 - The test runner failed because of a syntax error in one of the test files.
   - فشل الـ test runner بسبب خطأ في صياغة الكود في أحد ملفات الاختبار.
+- The test runner finds every file that starts with test_ and runs it.
+  - يجد مشغّل الاختبارات كل ملف يبدأ بـ test_ ويشغّله.
 
 ## خطأ شائع
 

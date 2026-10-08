@@ -24,6 +24,8 @@ keywords: ["تنفيذ تجريبي بدون تغييرات","اختبار ال�
   - دعنا نقوم بتنفيذ تجريبي لسكريبت الترحيل على قاعدة بيانات بيئة الاختبار (Staging) قبل المساس ببيئة الإنتاج.
 - The deployment tool supports a dry run flag so we can preview the changes.
   - أداة النشر تدعم علامة التنفيذ التجريبي لكي نتمكن من معاينة التغييرات.
+- The dry run lists the twelve files it would delete, so we can check them first.
+  - يسرد التشغيل التجريبي (dry run) الملفات الاثني عشر التي كان سيحذفها، فنتحقق منها أولاً.
 
 ## خطأ شائع
 

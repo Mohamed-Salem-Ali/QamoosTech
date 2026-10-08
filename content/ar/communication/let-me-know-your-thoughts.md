@@ -4,6 +4,7 @@ category: communication
 level: beginner
 related: [code-review, pull-request, follow-up]
 term: "Let me know your thoughts"
+translation: "أخبرني برأيك"
 pronunciation: "ليت مي نو يور ثوتس"
 keywords: ["طلب رأي الزملاء في الكود","طلب ملاحظات على التعديلات البرمجية","أخبرني برأيك في الكود","طلب تغذية راجعة للملفات","كيف أطلب مراجعة الكود","طلب رأي حول التصميم المقترح","عبارات مهذبة لطلب المراجعة","طلب رأي على التلست المفتوح","ask for feedback on code","invite comments on pull request","ask for colleagues opinions","request review on document","let me know what you think","ask for code review feedback","request peer review on code","asking for thoughts on pr","polite way to ask for review"]
 ---
@@ -22,6 +23,8 @@ keywords: ["طلب رأي الزملاء في الكود","طلب ملاحظات
   - لقد قمت بتحديث التوثيق، أخبرني برأيك.
 - Here is the draft for the new API design, let me know your thoughts.
   - هذه هي المسودة لتصميم الـ API الجديد، أخبرني برأيك.
+- The proposal is attached, so let me know your thoughts before Monday.
+  - المقترح مرفق، فأخبروني بآرائكم قبل يوم الاثنين.
 
 ## خطأ شائع
 

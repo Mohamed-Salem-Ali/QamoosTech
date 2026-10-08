@@ -21,6 +21,7 @@ In security audits, server logs, and discussions about authentication security.
 
 - The server blocked the IP address after detecting a brute-force attack on the login page.
 - We implemented account lockout policies to prevent brute-force attacks.
+- Rate limiting the login endpoint makes a brute-force attack much slower.
 
 ## Common mistake
 

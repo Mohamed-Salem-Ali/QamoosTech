@@ -2,7 +2,7 @@
 id: wrap-up
 category: english
 level: beginner
-related: [roll-out]
+related: [roll-out, hit-the-ground-running]
 term: "Wrap up"
 pronunciation: "RAP UP"
 keywords: ["finish up a meeting","end the sprint","conclude a task","almost done with ticket","wrap things up","finish the current task","end the meeting now","finalize the sprint","rap up meeting","إنهاء الاجتماع الحالي","ختام الاجتماعات","الانتهاء من المهمة","على وشك الانتهاء","إنهاء السبرنت","اقتراب انتهاء المهمة","ختم العمل اليوم","راب أب الاجتماع"]
@@ -19,6 +19,7 @@ Meetings and status updates.
 
 - Let's wrap up the meeting; we are out of time.
 - I'm wrapping up the migration script and will share it today.
+- Let's wrap up the sprint review with the action items and the next steps.
 
 ## Common mistake
 

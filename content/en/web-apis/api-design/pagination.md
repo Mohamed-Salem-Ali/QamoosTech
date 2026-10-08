@@ -20,6 +20,7 @@ List APIs, admin dashboards, and performance reviews.
 
 - The endpoint supports pagination with `page` and `limit`.
 - Without pagination, the response would contain 50,000 rows.
+- The results page shows 20 items, and the next button loads the next 20.
 
 ## Common mistake
 

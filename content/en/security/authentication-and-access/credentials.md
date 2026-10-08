@@ -6,7 +6,7 @@ level: beginner
 related: [authentication-vs-authorization, two-factor-authentication]
 term: "Credentials"
 pronunciation: "kruh-DEN-shuhlz"
-keywords: ["username and password pair","login information for apps","how to verify identity","secure access keys","authentication data for login","user identity proof","api keys and secrets","storing user login details","credientials spelling","login tokens and keys","prevent hardcoding passwords","identity verification info","بيانات تسجيل الدخول","اسم المستخدم وكلمة المرور","إثبات هوية المستخدم","معلومات التحقق من الهوية","كلمات المرور والمفاتيح","بيانات الاعتماد البرمجية","طريقة دخول المستخدم للنظام","كْريدينشلز","بيانات الدخول الآمنة","تخزين معلومات الوصول","التحقق من هوية المستخدم","مفاتيح الوصول للتطبيقات"]
+keywords: ["username and password pair","login information for apps","how to verify identity","secure access keys","authentication data for login","user identity proof","api keys and secrets","storing user login details","credientials","login tokens and keys","prevent hardcoding passwords","identity verification info","بيانات تسجيل الدخول","اسم المستخدم وكلمة المرور","إثبات هوية المستخدم","معلومات التحقق من الهوية","كلمات المرور والمفاتيح","بيانات الاعتماد البرمجية","طريقة دخول المستخدم للنظام","كْريدينشلز","بيانات الدخول الآمنة","تخزين معلومات الوصول","التحقق من هوية المستخدم","مفاتيح الوصول للتطبيقات"]
 ---
 
 ## Definition
@@ -21,6 +21,7 @@ Used during user authentication flows, API integration setup, and security audit
 
 - Please ensure you do not hardcode your database credentials in the source code.
 - The application requires valid credentials to access the protected endpoint.
+- The CI job reads the deploy credentials from the secrets store, not from the repository.
 
 ## Common mistake
 

@@ -3,7 +3,7 @@ id: long-polling
 category: web-apis
 subcategory: realtime
 level: intermediate
-related: [request-response, websockets]
+related: [request-response, websockets, streaming, real-time]
 term: "Long Polling"
 pronunciation: "LONG POL-ing"
 keywords: ["keep connection open until data","server holds request for update","alternative to websockets for chat","real time updates via http","wait for server response technique","long poll vs short poll","holding http request for message","simulate push notifications in browser","persistent http connection for updates","long polling implementation details","تقنية الاستعلام الطويل","إبقاء اتصال الخادم مفتوحاً","بديل لتقنية ويب سوكيت","تحديث البيانات فور وصولها","انتظار الخادم لإرسال البيانات","محاكاة التنبيهات الفورية","إرسال طلبات متكررة بانتظار رد","الاستعلام الطويل للدردشة","طريقة لونج بولينج","تأخير استجابة الخادم للبيانات"]

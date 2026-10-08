@@ -23,6 +23,7 @@ In developer tools, automation scripts, DevOps work, and when building small too
 
 - I built a CLI to add tasks from the terminal.
 - Each subcommand does one job: `add`, `list`, `done`.
+- Run the CLI with --help to see every option it supports.
 
 ## Common mistake
 

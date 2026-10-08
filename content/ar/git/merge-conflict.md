@@ -22,6 +22,8 @@ keywords: ["تعارض في الدمج","مشكلة في دمج الكود","ج�
   - لدي merge conflict في `package.json`.
 - Resolve the conflict, then commit the result.
   - حلّ التعارض ثم احفظ النتيجة بـ commit.
+- The merge conflict was in the checkout template, so I kept both changes.
+  - وقع التعارض في قالب صفحة الدفع، فأبقيتُ التغييرين معاً.
 
 ## خطأ شائع
 

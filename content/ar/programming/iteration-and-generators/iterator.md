@@ -3,7 +3,7 @@ id: iterator
 category: programming
 subcategory: iteration-and-generators
 level: intermediate
-related: [iterable, generator, loop]
+related: [iterable, generator, loop, enumerate]
 tags: [python]
 aliases: ["iterator protocol", "exhausted iterator"]
 term: "Iterator"

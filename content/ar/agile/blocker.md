@@ -2,7 +2,7 @@
 id: blocker
 category: agile
 level: beginner
-related: [scrum-ceremonies, handoff]
+related: [scrum-ceremonies, handoff, bottleneck, hit-a-wall]
 term: "Blocker"
 translation: "عائق"
 pronunciation: "بلوكر"
@@ -22,6 +22,8 @@ keywords: ["شيء يمنعني من العمل","متوقف عن إكمال م�
   - عائقي أنني ما زلت لا أملك صلاحية الدخول إلى خادم staging.
 - I am blocked until the API is ready.
   - أنا متوقف حتى تصبح الـ API جاهزة.
+- The blocker is that the designer is out sick, so the screens are not ready.
+  - العائق أن المصمم في إجازة مرضية، لذلك لم تكتمل الشاشات بعد.
 
 ## خطأ شائع
 

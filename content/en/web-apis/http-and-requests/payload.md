@@ -3,7 +3,7 @@ id: payload
 category: web-apis
 subcategory: http-and-requests
 level: intermediate
-related: [request-response, dto]
+related: [request-response, dto, iso-8601]
 term: "Payload"
 pronunciation: "PAY-lohd"
 keywords: ["actual data in api request","what is inside http body","data sent in webhook","useful business data","api request content","meaning of payload","request body vs payload","data without headers","api response content","inspecting sent data","payload definition","transported data package","البيانات الفعلية داخل الطلب","محتوى جسم الطلب","معنى كلمة بايلود","البيانات المرسلة في الـ api","ماذا يوجد داخل الطلب","الفرق بين الجسم والحمولة","البيانات الأساسية للرسالة","محتوى الـ webhook","تعريف الحمولة البرمجية","البيانات دون الترويسات","البيانات المفيدة في الطلب","معنى payload في البرمجة"]

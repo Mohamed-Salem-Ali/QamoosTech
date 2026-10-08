@@ -3,7 +3,7 @@ id: authentication-vs-authorization
 category: security
 subcategory: authentication-and-access
 level: beginner
-related: [jwt, rbac, oauth]
+related: [jwt, rbac, oauth, csrf]
 term: "Authentication vs Authorization"
 translation: "المصادقة والتفويض"
 pronunciation: "أوثنتيكيشن مقابل أوثورايزيشن"
@@ -23,6 +23,8 @@ keywords: ["الفرق بين المصادقة والتفويض","الفرق ب�
   - نجحت المصادقة وفشل التفويض، لذلك أعادت الـ API الرمز 403.
 - Check authorization on the server for every action.
   - تحقق من التفويض في الخادم لكل إجراء.
+- Login works, but a regular user who opens the admin page still gets a 403.
+  - يعمل تسجيل الدخول، لكن المستخدم العادي الذي يفتح صفحة الإدارة يحصل على 403.
 
 ## خطأ شائع
 

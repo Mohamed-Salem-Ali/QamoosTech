@@ -22,6 +22,7 @@ When buying or renewing a domain, moving a domain, and "who controls this domain
 
 - We bought the domain at Namecheap and host the site on Vercel.
 - Turn on auto-renew at the registrar so the domain doesn't expire.
+- The renewal notice went to the registrar account, so the team never saw it.
 
 ## Common mistake
 

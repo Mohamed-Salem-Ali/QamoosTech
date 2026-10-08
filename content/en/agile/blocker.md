@@ -2,7 +2,7 @@
 id: blocker
 category: agile
 level: beginner
-related: [scrum-ceremonies, handoff]
+related: [scrum-ceremonies, handoff, bottleneck, hit-a-wall]
 term: "Blocker"
 pronunciation: "BLOK-er"
 keywords: ["something stopping my work","waiting for another team","missing access to server","stuck on a task","issues in daily standup","task blocking progress","cant continue working","development roadblock","dependency preventing work","شيء يمنعني من العمل","متوقف عن إكمال مهمتي","مشكلة تعطل سير العمل","انتظار فريق آخر","نقص صلاحيات الوصول","عائق في الاجتماع اليومي","معطلات العمل البرمجي","مشكلة تؤخر المشروع","لا استطيع المتابعة"]
@@ -19,6 +19,7 @@ Daily standups and status updates.
 
 - My blocker is that I still do not have access to the staging server.
 - I am blocked until the API is ready.
+- The blocker is that the designer is out sick, so the screens are not ready.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ In web performance reviews, UI architecture discussions, and bundle optimization
 
 - We implemented lazy loading for all images below the fold to improve initial page load speed.
 - The application uses lazy loading to fetch heavy dashboard components only when the user visits that specific tab.
+- The gallery loads the next images only when the user scrolls near them.
 
 ## Common mistake
 
