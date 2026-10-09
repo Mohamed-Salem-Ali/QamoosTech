@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next'
 import { Inter, IBM_Plex_Sans_Arabic, JetBrains_Mono } from 'next/font/google'
 import '@/styles/globals.css'
 import { dirOf, type Lang } from '@/lib/i18n'
@@ -24,7 +25,11 @@ export function Shell({ lang, children }: { lang: Lang; children: React.ReactNod
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Vercel Web Analytics. Every page renders one Shell, so each view is counted once. */}
+        <Analytics />
+      </body>
     </html>
   )
 }
