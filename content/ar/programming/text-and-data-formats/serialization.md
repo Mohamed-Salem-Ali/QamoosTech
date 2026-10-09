@@ -25,6 +25,8 @@ keywords: ["تحويل الكائن إلى JSON", "تحويل البيانات �
   - يحوّل الـ API الطلب إلى JSON قبل إرساله.
 - Deserialization failed because a required field was missing.
   - فشل عكس التسلسل لأن حقلاً مطلوباً كان مفقوداً.
+- The cache serializes the user object to JSON before storing it in Redis.
+  - تُسلسِل الذاكرة المؤقتة كائن المستخدم إلى JSON قبل تخزينه في Redis.
 
 ## خطأ شائع
 

@@ -21,6 +21,7 @@ In Kubernetes pods, service mesh designs, and architecture reviews about shared 
 
 - A sidecar container ships the logs from the application to the central store.
 - The sidecar handles TLS, so the service code does not need certificates.
+- The sidecar proxy handles retries for the service, so the code does not implement them.
 
 ## Common mistake
 

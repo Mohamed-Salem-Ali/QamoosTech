@@ -26,6 +26,8 @@ keywords: ["الكود الذي يجري اختباره", "اختصار SUT", "�
   - الـ SUT هو صنف `Schedule`؛ وقاعدة البيانات مزيفة.
 - If the SUT is too hard to set up, the design may be too coupled.
   - إذا كان إعداد الـ SUT صعباً جداً فقد يكون التصميم مترابطاً أكثر من اللازم.
+- The system under test is the billing function, and the payment API is replaced by a stub.
+  - النظام المُختبَر هو دالة الفوترة، ويُستبدل واجهة الدفع بـ stub.
 
 ## خطأ شائع
 

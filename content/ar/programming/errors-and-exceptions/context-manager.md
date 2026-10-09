@@ -26,6 +26,8 @@ keywords: ["جملة with", "فتح الملف وإغلاقه تلقائياً",
   - `with open(path) as f:` يغلق الملف تلقائياً.
 - We wrote a context manager that restores the setting after the test.
   - كتبنا context manager يعيد الإعداد بعد الاختبار.
+- The lock is released by the context manager even when the handler raises an error.
+  - يحرّر مدير السياق القفل حتى حين يرفع المعالج خطأ.
 
 ## خطأ شائع
 

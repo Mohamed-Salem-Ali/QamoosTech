@@ -26,6 +26,8 @@ keywords: ["كل اختبار يعمل وحده", "الاختبارات لا ت�
   - ينجح الاختبار وحده ويفشل مع المجموعة الكاملة، إذن العزل مكسور.
 - Each test runs inside a transaction that is rolled back.
   - يعمل كل اختبار داخل معاملة تُلغى بعده.
+- Each test rolls back its own changes, so the order in which the tests run does not matter.
+  - يتراجع كل اختبار عن تغييراته، فلا يهم الترتيب الذي تعمل به الاختبارات.
 
 ## خطأ شائع
 

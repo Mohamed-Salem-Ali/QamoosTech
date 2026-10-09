@@ -23,6 +23,8 @@ keywords: ["البحث الدلالي","البحث حسب المعنى والق�
   - يساعد البحث الدلالي المستخدمين في العثور على المستندات ذات الصلة حتى لو استخدموا صياغة مختلفة عن النص الأصلي.
 - We integrated vector embeddings to power semantic search across the product catalog.
   - قمنا بدمج التمثيل المتجهي لتشغيل البحث الدلالي عبر كتالوج المنتجات.
+- Searching for stop users spamming finds the rate-limiting article with no shared words.
+  - يجد البحث عن منع تكرار طلبات المستخدمين مقالة تحديد المعدل دون أي كلمة مشتركة.
 
 ## خطأ شائع
 

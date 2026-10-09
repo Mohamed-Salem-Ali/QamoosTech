@@ -25,6 +25,8 @@ keywords: ["تحديد الوصول المتزامن", "عداد التصاري�
   - سيمافور بقيمة 5 يبقينا عند خمسة طلبات متوازية.
 - Release the permit in a `finally` block.
   - حرّر التصريح في كتلة `finally`.
+- A semaphore with a count of ten lets ten workers call the external API at the same time.
+  - يسمح السيمافور بالقيمة 10 لعشرة عمال باستدعاء الواجهة الخارجية في الوقت نفسه.
 
 ## خطأ شائع
 

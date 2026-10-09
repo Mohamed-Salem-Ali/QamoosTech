@@ -22,6 +22,8 @@ keywords: ["تمثيل النصوص بأرقام","تحويل النص إلى م
   - نخزّن embeddings كل مقال في قاعدة بيانات متجهات.
 - Search improved after we switched from keywords to embeddings.
   - تحسّن البحث بعد انتقالنا من الكلمات المفتاحية إلى embeddings.
+- Two questions with the same meaning get close embeddings even when they share no words.
+  - يحصل سؤالان لهما المعنى نفسه على تضمينات متقاربة، حتى لو لم تتشاركا أي كلمة.
 
 ## خطأ شائع
 

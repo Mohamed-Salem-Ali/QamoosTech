@@ -26,6 +26,8 @@ keywords: ["فحص الأنواع قبل التشغيل", "أخطاء الأنو
   - التنميط الثابت اكتشف الوسيط الخاطئ قبل النشر.
 - TypeScript adds static typing on top of JavaScript.
   - تضيف TypeScript التنميط الثابت فوق جافاسكريبت.
+- The static type checker flags the wrong argument before the code ever runs.
+  - يُنبّه المدقق الثابت للأنواع إلى المعامل الخاطئ قبل أن تُشغَّل الشيفرة أصلاً.
 
 ## خطأ شائع
 

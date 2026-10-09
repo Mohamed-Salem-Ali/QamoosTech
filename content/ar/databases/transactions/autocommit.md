@@ -26,6 +26,8 @@ keywords: ["كل جملة تُثبَّت فوراً", "بدون begin صريحة
   - مع التثبيت التلقائي يُحفظ الإدراج الأول حتى لو فشل الثاني.
 - Wrap related writes in `atomic()` so they succeed or fail together.
   - غلّف الكتابات المرتبطة بـ `atomic()` لتنجح أو تفشل معاً.
+- Each insert commits by itself, so turning autocommit off made the import all-or-nothing.
+  - يُثبَّت كل إدراج بذاته، لذلك جعل إيقاف autocommit الاستيراد كلّه أو لا شيء.
 
 ## خطأ شائع
 

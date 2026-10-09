@@ -20,6 +20,7 @@ During sprint planning meetings, team syncs, or when discussing the product road
 
 - We need to schedule a grooming session to prepare the user stories for the next sprint.
 - The team spent an hour grooming the backlog to clarify requirements for the upcoming features.
+- In grooming, we split the big story into three smaller ones that the team can estimate.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In vanilla JavaScript code, performance reviews of long lists and interview ques
 
 - Attach the click listener to the `<ul>` and check `event.target` for the `<li>`.
 - Items added later work automatically with delegation.
+- One listener on the table handles clicks on all of its rows, even the new ones.
 
 ## Common mistake
 

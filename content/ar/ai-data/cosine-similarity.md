@@ -23,6 +23,8 @@ keywords: ["حساب التشابه بين المتجهات","قياس الزا�
   - استخدمنا Cosine Similarity للعثور على المستندات الأكثر صلة باستعلام المستخدم.
 - The system calculates the cosine similarity between the input embedding and the stored vectors.
   - يقوم النظام بحساب الـ Cosine Similarity بين الـ embedding المُدخل والمتجهات المخزنة.
+- Two sentences about the same topic score close to 1 on cosine similarity.
+  - تحصل جملتان عن الموضوع نفسه على درجة قريبة من 1 في التشابه بجيب التمام.
 
 ## خطأ شائع
 

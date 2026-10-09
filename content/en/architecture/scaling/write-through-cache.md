@@ -22,6 +22,7 @@ In caching strategy discussions, storage controllers, and ORM or CDN settings.
 
 - Write-through keeps reads fast and correct, but each write is slower.
 - Write-back risks losing data if the cache dies before it flushes.
+- The write-through cache updates the database and the cache in the same request.
 
 ## Common mistake
 

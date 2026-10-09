@@ -23,6 +23,7 @@ In deployment guides (Gunicorn for WSGI, Uvicorn for ASGI), Django's `wsgi.py` a
 
 - Run the app with Gunicorn using the WSGI entry point.
 - FastAPI is ASGI, so it needs Uvicorn rather than plain Gunicorn workers.
+- The Django app runs under a WSGI server, while the chat service uses ASGI.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ ORM performance reviews and slow-page investigations.
 
 - The page runs 101 queries because of an N+1 problem.
 - Use `select_related` to load the related data in one query.
+- Loading each author inside a loop turned the list page into an N+1 problem.
 
 ## Common mistake
 

@@ -21,6 +21,7 @@ In frontend framework discussions, performance optimization meetings, and archit
 
 - The framework updates the Virtual DOM first before touching the browser's actual DOM.
 - Using a Virtual DOM helps minimize expensive direct manipulations of the webpage elements.
+- React compares the new virtual DOM with the old one and updates only the nodes that changed.
 
 ## Common mistake
 

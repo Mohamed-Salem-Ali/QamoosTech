@@ -24,6 +24,8 @@ keywords: ["إنذار كاذب في البرمجة","بلاغ خطأ غير ص�
   - رصد فحص الأمان ثغرة أمنية، لكنه كان مجرد إنذار كاذب.
 - We had to update the linter rules to ignore false positives in our test files.
   - اضطررنا لتحديث قواعد أداة التدقيق لتجاهل الإنذارات الكاذبة في ملفات الاختبار الخاصة بنا.
+- The linter flagged a correct line as an error, a false positive that we suppressed.
+  - وسم المدقق سطراً صحيحاً على أنه خطأ، وهي إيجابية كاذبة استبعدناها.
 
 ## خطأ شائع
 

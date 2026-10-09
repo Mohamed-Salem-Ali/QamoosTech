@@ -25,6 +25,8 @@ keywords: ["احسبها بدلاً من تخزينها", "محسوبة من أ�
   - عدد الأدوار قيمة مشتقة من الأسابيع وعدد الدفعات في الأسبوع.
 - We derive the unpaid status instead of saving it, so it can't go stale.
   - نشتق حالة "غير مدفوع" بدلاً من حفظها، فلا تصبح قديمة.
+- The balance is a derived value computed from the transactions, not a stored column.
+  - الرصيد قيمة مشتقة تُحسب من المعاملات، وليس عموداً مخزّناً.
 
 ## خطأ شائع
 

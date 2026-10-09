@@ -21,6 +21,7 @@ In code reviews, architecture discussions, and when talking about object-oriente
 
 - Instead of using a deep class hierarchy, we used composition to add logging and caching to our service.
 - React encourages component composition by letting you build large UIs from smaller, reusable parts.
+- The cart is built by composing a price calculator and a discount rule, not by subclassing.
 
 ## Common mistake
 

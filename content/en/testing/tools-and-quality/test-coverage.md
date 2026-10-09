@@ -20,6 +20,7 @@ Quality gates and code review rules.
 
 - Test coverage is 82%, but the payment module is not covered.
 - We require at least 80% coverage on new code.
+- The report shows 95 percent coverage, but the tests never check the error branch.
 
 ## Common mistake
 

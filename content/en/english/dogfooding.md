@@ -22,6 +22,7 @@ Dogfooding is the practice of using your own company's software products interna
 
 - We should start dogfooding the new mobile app before pushing it to the app store.
 - The team has been dogfooding the internal billing tool for two weeks now.
+- Our support team dogfoods the ticketing tool, so they report its problems first.
 
 ## Common mistake
 

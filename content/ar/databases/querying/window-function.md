@@ -26,6 +26,8 @@ keywords: ["مجموع تراكمي", "الترتيب ضمن مجموعة", "ع�
   - استخدم `ROW_NUMBER() OVER (PARTITION BY member ORDER BY paid_at)` لجلب أول دفعة لكل عضو.
 - A running total is a window function over the ordered rows.
   - المجموع التراكمي دالة نافذة على الصفوف المرتبة.
+- The running total column is a window function over the rows ordered by date.
+  - عمود المجموع التراكمي دالة نافذة (window function) على الصفوف المرتبة حسب التاريخ.
 
 ## خطأ شائع
 

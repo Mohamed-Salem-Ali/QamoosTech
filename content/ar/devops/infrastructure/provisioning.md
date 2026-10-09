@@ -24,6 +24,8 @@ keywords: ["تجهيز البنية التحتية","إعداد الموارد �
   - يعمل الفريق على تجهيز خوادم سحابية جديدة للإصدار القادم.
 - We use automated scripts for provisioning our staging environment.
   - نستخدم سكربتات مؤتمتة لتجهيز بيئة الاختبار الخاصة بنا.
+- Provisioning the three servers took twenty minutes with the new script.
+  - استغرق تجهيز الخوادم الثلاثة عشرين دقيقة باستخدام السكربت الجديد.
 
 ## خطأ شائع
 

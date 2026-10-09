@@ -26,6 +26,8 @@ keywords: ["تزوير الطلبات عبر المواقع","ثغرة تزوي�
   - التطبيق معرض لثغرة CSRF لأنه يفتقر إلى رموز الحماية من التزوير.
 - We must implement CSRF protection on all state-changing endpoints.
   - يجب علينا تطبيق حماية CSRF على جميع نقاط النهاية التي تغير حالة البيانات.
+- The form includes a CSRF token, so a forged request from another site is rejected.
+  - يتضمن النموذج رمز CSRF، فيُرفض أي طلب مزوّر من موقع آخر.
 
 ## خطأ شائع
 

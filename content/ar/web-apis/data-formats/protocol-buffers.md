@@ -25,6 +25,8 @@ keywords: ["بروتوبف", "صيغة ثنائية مضغوطة", "مخطط م�
   - رسالة protobuf جزء من حجم JSON.
 - Never reuse or renumber a field number.
   - لا تعد استخدام رقم حقل ولا تغيّر ترقيمه أبداً.
+- The service sends a protobuf message to the mobile app, which is much smaller than the JSON version.
+  - ترسل الخدمة رسالة protobuf إلى تطبيق الهاتف، وهي أصغر بكثير من نسخة JSON.
 
 ## خطأ شائع
 

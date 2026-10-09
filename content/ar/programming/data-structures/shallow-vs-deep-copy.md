@@ -26,6 +26,8 @@ keywords: ["نسخ قائمة تحتوي قوائم داخلية", "الدالة
   - النسخ السطحي للقائمة ما زال يشارك القواميس الداخلية مع الأصل.
 - Use a deep copy when the structure contains nested lists.
   - استخدم النسخ العميق عندما تحتوي البنية على قوائم متداخلة.
+- A deep copy of the cart lets us change the copy's items without touching the original.
+  - تتيح النسخة العميقة للسلة تغيير عناصر النسخة دون المساس بالأصل.
 
 ## خطأ شائع
 

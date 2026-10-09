@@ -25,6 +25,8 @@ keywords: ["خيط واحد فقط في كل مرة", "قفل حول بيانا�
   - احصل على القفل قبل تحديث العداد المشترك.
 - Hold the lock for as short a time as possible.
   - أمسك القفل أقصر وقت ممكن.
+- The mutex stops two goroutines from updating the balance at the same time.
+  - يمنع القفل المتبادل (mutex) خيطين من تحديث الرصيد في الوقت نفسه.
 
 ## خطأ شائع
 

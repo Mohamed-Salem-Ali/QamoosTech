@@ -20,6 +20,7 @@ Infinite scroll feeds and large tables.
 
 - We moved to cursor pagination because deep pages were slow.
 - Send the `cursor` from the last response to get the next page.
+- The feed returns the next twenty posts after the cursor, even if new posts were added.
 
 ## Common mistake
 

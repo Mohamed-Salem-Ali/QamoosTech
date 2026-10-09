@@ -22,6 +22,7 @@ In functional programming talks, discussions on caching and testing, and compari
 
 - `add(2, 3)` can always be replaced by `5`, so it is referentially transparent.
 - `random()` is not referentially transparent.
+- A pure call such as area(2) can be replaced by its result, 12.56, anywhere in the code.
 
 ## Common mistake
 

@@ -25,6 +25,8 @@ keywords: ["العقد تخبر جيراناً عشوائيين", "نشر الم
   - تستخدم العقد الإشاعة لمعرفة النظراء الأحياء.
 - Gossip scales well because no node talks to everyone.
   - تتوسع الإشاعة جيداً لأن أي عقدة لا تكلّم الجميع.
+- A new node joined the cluster and learned the others' addresses within seconds.
+  - انضمّت عقدة جديدة إلى العنقود، وتعرّفت على عناوين الآخرين خلال ثوانٍ عبر بروتوكول الانتشار (gossip).
 
 ## خطأ شائع
 

@@ -22,6 +22,7 @@ In Python and JavaScript courses, when a list or object changes unexpectedly, an
 
 - Both names hold a reference to the same list, so changing one changes the other.
 - The function received a reference to the object, so it modified the caller's data.
+- A reference to the cart is passed around, so every function sees the same cart.
 
 ## Common mistake
 

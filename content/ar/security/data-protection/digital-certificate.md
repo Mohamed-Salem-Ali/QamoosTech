@@ -25,6 +25,8 @@ keywords: ["شهادة SSL", "تثبت هوية الموقع", "تحتوي ال�
   - انتهت الشهادة أمس لذا تعرض المتصفحات تحذيراً.
 - A wildcard certificate covers every subdomain.
   - تغطي الشهادة الشاملة كل النطاقات الفرعية.
+- The browser warned that the certificate of the admin site had expired.
+  - حذّر المتصفح من أن شهادة موقع الإدارة قد انتهت صلاحيتها.
 
 ## خطأ شائع
 

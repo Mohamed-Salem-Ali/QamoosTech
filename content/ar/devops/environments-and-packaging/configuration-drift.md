@@ -24,6 +24,8 @@ keywords: ["انحراف الإعدادات","تغير إعدادات الخاد
   - تسبب انحراف الإعدادات في جعل بيئة التجربة تتصرف بشكل مختلف عن بيئة الإنتاج.
 - We run automated scans daily to detect any configuration drift on our cloud servers.
   - نحن نشغل عمليات فحص آلية يومياً للكشف عن أي انحراف في الإعدادات على الخوادم السحابية.
+- A nightly check found that the staging server had drifted from its defined settings.
+  - كشف فحص ليلي أن خادم الاختبار انحرف عن إعداداته المحددة.
 
 ## خطأ شائع
 

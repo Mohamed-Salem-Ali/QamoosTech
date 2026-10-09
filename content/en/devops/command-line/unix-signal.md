@@ -22,6 +22,7 @@ In `kill` commands, Docker and Kubernetes shutdown behaviour (SIGTERM then SIGKI
 
 - Handle SIGTERM so the app finishes in-flight requests before exiting.
 - Kubernetes sends SIGTERM, waits 30 seconds, then SIGKILL.
+- On deploy, the process receives SIGTERM and closes its connections before it exits.
 
 ## Common mistake
 

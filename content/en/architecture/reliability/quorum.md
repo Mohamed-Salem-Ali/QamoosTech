@@ -22,6 +22,7 @@ In clustered databases, Raft and Paxos, Kubernetes etcd, and Cassandra consisten
 
 - With 5 nodes, a quorum is 3, so the cluster survives 2 failures.
 - A cluster that lost quorum stops accepting writes.
+- A write succeeds once two of the three replicas confirm it, which is a quorum.
 
 ## Common mistake
 

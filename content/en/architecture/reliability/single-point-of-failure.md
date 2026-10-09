@@ -20,6 +20,7 @@ Reliability reviews and architecture interviews ("SPOF").
 
 - One database server is a single point of failure.
 - We added a replica to remove the single point of failure.
+- The single payment server was a single point of failure, so we added a second one.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ Contracts, support plans, and cloud providers.
 
 - Our SLA guarantees 99.9% uptime.
 - We missed the SLA, so the client gets a refund.
+- The SLA promises a reply within four hours, and the team tracks it weekly.
 
 ## Common mistake
 

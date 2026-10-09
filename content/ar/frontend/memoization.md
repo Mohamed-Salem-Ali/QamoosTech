@@ -23,6 +23,8 @@ keywords: ["حفظ نتائج الدوال المؤقت","منع إعادة حس
   - استخدَمنا الميموإيزيشن لمنع دالة الحسابات الثقيلة من العمل مع كل عملية تصيير.
 - Applying memoization to the filtered list component significantly improved the UI responsiveness.
   - تطبيق الميموإيزيشن على مكون القائمة المفلترة أدى إلى تحسين استجابة واجهة المستخدم بشكل ملحوظ.
+- The price function caches its result for each product id, so repeated calls are instant.
+  - تخزّن دالة السعر نتيجتها لكل معرّف منتج، فتكون الاستدعاءات المتكررة فورية.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["تخطيط صفوف وأعمدة في سي إس إس","تصميم ص
   - يجب أن نستخدم CSS Grid لهيكلة تخطيط لوحة التحكم الرئيسية.
 - The new photo gallery uses CSS Grid to maintain a perfect alignment across different screen sizes.
   - معرض الصور الجديد يستخدم CSS Grid للحفاظ على محاذاة مثالية عبر أحجام الشاشات المختلفة.
+- The gallery uses CSS Grid with three columns that shrink to one on phones.
+  - تستخدم المعرض شبكة CSS Grid بثلاثة أعمدة تتحول إلى عمود واحد على الهواتف.
 
 ## خطأ شائع
 

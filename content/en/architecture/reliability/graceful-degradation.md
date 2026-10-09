@@ -23,6 +23,7 @@ Graceful Degradation is a system design approach that allows a software applicat
 
 - If the recommendation service is down, the e-commerce app displays standard items instead of crashing.
 - The web app hides advanced animations when the browser's performance drops.
+- When the search index is slow, the site shows the category list instead of an error.
 
 ## Common mistake
 

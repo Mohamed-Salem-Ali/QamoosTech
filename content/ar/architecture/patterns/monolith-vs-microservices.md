@@ -23,6 +23,8 @@ keywords: ["الفرق بين النظام الموحد والخدمات الم�
   - بدأنا بنظام monolith لأن الفريق صغير.
 - Microservices add network calls, so debugging is harder.
   - تضيف الـ microservices استدعاءات شبكة، لذلك يصعب تتبع الأخطاء.
+- The monolith is deployed once a week, while each microservice can be deployed on its own schedule.
+  - يُنشر المونوليث مرة في الأسبوع، بينما تُنشر كل خدمة مصغّرة وفق جدولها الخاص.
 
 ## خطأ شائع
 

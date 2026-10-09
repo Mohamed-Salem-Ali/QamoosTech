@@ -24,6 +24,8 @@ keywords: ["تخزين كلمات المرور بشكل آمن","طريقة حف
   - نحن نستخدم خدمة خزنة مخصصة لإدارة الأسرار بدلاً من كتابة مفاتيح واجهات برمجة التطبيقات بشكل ثابت في الشيفرة.
 - Proper secret management requires rotating database credentials every ninety days.
   - تتطلب إدارة الأسرار بشكل صحيح تحديث بيانات اعتماد قاعدة البيانات كل تسعين يوماً.
+- The database password is fetched from the vault at startup and never stored in the repository.
+  - تُجلب كلمة مرور قاعدة البيانات من الخزنة عند التشغيل، ولا تُخزَّن في المستودع أبداً.
 
 ## خطأ شائع
 

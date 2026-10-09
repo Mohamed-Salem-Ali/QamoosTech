@@ -25,6 +25,8 @@ keywords: ["لكل عملية فضاء عناوينها", "التبديل إلى
   - تعرض العملية 4 جيجابايت افتراضية وتستخدم 300 ميجابايت من الرام.
 - The server is swapping, so everything slowed down.
   - الخادم يبدّل إلى القرص لذلك تباطأ كل شيء.
+- Each process sees its own address space, so one program cannot read another program's memory.
+  - ترى كل عملية فضاء عناوينها الخاص، فلا يستطيع برنامج قراءة ذاكرة برنامج آخر.
 
 ## خطأ شائع
 

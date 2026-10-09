@@ -23,6 +23,8 @@ keywords: ["الحصول على موافقة الفريق","ضمان دعم أص
   - نحتاج إلى الحصول على موافقة (Buy-in) من الفريق الهندسي قبل الانتقال إلى قاعدة بيانات جديدة.
 - The proposal failed because we couldn't get buy-in from the product managers.
   - فشل الاقتراح لأننا لم نستطع الحصول على دعم (Buy-in) من مديري المنتجات.
+- We got buy-in from the team leads before the migration was announced.
+  - حصلنا على موافقة قادة الفرق قبل الإعلان عن الترحيل.
 
 ## خطأ شائع
 

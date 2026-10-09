@@ -26,6 +26,8 @@ keywords: ["معرّف رقمي في الرابط", "التقاط جزء من ا
   - استخدم `<int:id>` ليعطي غير الرقم 404 قبل أن تعمل الـ view.
 - The `slug` converter allows letters, numbers and hyphens.
   - يسمح محوّل `slug` بالحروف والأرقام والشرطات.
+- The URL /orders/<int:id>/ rejects abc before the view runs.
+  - يرفض الرابط /orders/<int:id>/ القيمة abc قبل أن تعمل الدالة.
 
 ## خطأ شائع
 

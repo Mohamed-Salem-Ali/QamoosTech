@@ -25,6 +25,8 @@ keywords: ["هجوم عبر اعتمادية", "حزمة خبيثة", "تقلي�
   - اسم حزمة مشابه سحب برمجية خبيثة إلى البناء.
 - Pin versions and verify hashes to reduce supply chain risk.
   - ثبّت الإصدارات وتحقق من الهاشات لتقليل خطر سلسلة التوريد.
+- After the attack on the popular package, every build that installed it was at risk.
+  - بعد الهجوم على الحزمة الشائعة، صار كل بناء ثبّتها معرّضاً للخطر.
 
 ## خطأ شائع
 

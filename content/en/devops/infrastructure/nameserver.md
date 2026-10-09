@@ -22,6 +22,7 @@ When moving DNS to Cloudflare or AWS Route 53, and when records you added "do no
 
 - Point the domain's nameservers to Cloudflare at the registrar.
 - Records added at the old provider are ignored after the switch.
+- Pointing the nameservers at the new host moved all the records at once.
 
 ## Common mistake
 

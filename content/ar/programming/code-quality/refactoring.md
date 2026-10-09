@@ -23,6 +23,8 @@ keywords: ["تحسين بنية الكود","تنظيف الشيفرة البر�
   - لنعد هيكلة هذه الوحدة قبل إضافة ميزات جديدة.
 - The tests passed before and after the refactoring.
   - نجحت الاختبارات قبل إعادة الهيكلة وبعدها.
+- We refactored the billing module into smaller functions, and no behaviour changed.
+  - أعدنا هيكلة وحدة الفوترة إلى دوال أصغر، ولم يتغيّر أي سلوك.
 
 ## خطأ شائع
 

@@ -23,6 +23,7 @@ Encapsulation is a core concept in object-oriented programming that bundles data
 
 - The bank account class hides the raw balance variable and provides a deposit method to safely update the funds.
 - We use private fields in the user service to prevent other modules from modifying state directly.
+- The Account class keeps the balance private and changes it only through deposit and withdraw.
 
 ## Common mistake
 

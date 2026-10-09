@@ -23,6 +23,8 @@ keywords: ["تحديد وقت للمهمة","منع النقاشات الطوي�
   - سنقوم بتخصيص وقت محدد مدته ثلاثون دقيقة لهذا النقاش المعماري لكي نتمكن من الانتقال إلى مهام أخرى.
 - Let us time-box the research phase of this feature to two days.
   - دعنا نخصص وقتاً مدته يومان لمرحلة البحث الخاصة بهذه الميزة.
+- We time-box the spike to two days, and whatever we learn goes into the estimate.
+  - نحدّد للبحث التقني مدة يومين، وكل ما نتعلمه يدخل في التقدير.
 
 ## خطأ شائع
 

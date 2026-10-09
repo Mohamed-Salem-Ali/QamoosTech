@@ -21,6 +21,7 @@ During architectural planning, backend development meetings, and when updating d
 
 - We need to implement API versioning in the URL, such as `/v1/users` and `/v2/users`.
 - The team decided to use a custom HTTP header for API versioning instead of query parameters.
+- Clients on v1 keep working while the new fields ship under v2.
 
 ## Common mistake
 

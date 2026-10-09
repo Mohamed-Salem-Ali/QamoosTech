@@ -23,6 +23,7 @@ In schedulers, shortest-path algorithms (Dijkstra), job systems and Python's `he
 
 - Urgent jobs jump ahead of normal ones in the priority queue.
 - `heapq.heappop` returns the smallest item.
+- The support queue serves the urgent tickets first, then the rest in arrival order.
 
 ## Common mistake
 

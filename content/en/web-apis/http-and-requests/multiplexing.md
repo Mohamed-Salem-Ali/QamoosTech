@@ -22,6 +22,7 @@ In HTTP/2 and HTTP/3 explanations, gRPC, and performance talks about removing th
 
 - HTTP/2 multiplexes dozens of requests over one TCP connection.
 - With multiplexing we no longer need domain sharding.
+- The browser loads the images and scripts over one connection, thanks to multiplexing.
 
 ## Common mistake
 

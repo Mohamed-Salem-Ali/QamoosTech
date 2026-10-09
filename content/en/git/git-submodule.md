@@ -19,6 +19,7 @@ Projects that share common code between repos.
 
 - Clone with `--recurse-submodules` to get the nested repo.
 - The submodule points to an old commit.
+- The shared theme lives in a submodule, so each site pins the version it uses.
 
 ## Common mistake
 

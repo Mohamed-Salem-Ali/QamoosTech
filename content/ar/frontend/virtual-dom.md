@@ -24,6 +24,8 @@ keywords: ["نسخة الذاكرة لواجهة المستخدم","تحسين �
   - يُحدث إطار العمل الـ Virtual DOM أولاً قبل لمس الـ DOM الفعلي للمتصفح.
 - Using a Virtual DOM helps minimize expensive direct manipulations of the webpage elements.
   - يساعد استخدام الـ Virtual DOM في تقليل التعديلات المباشرة والمكلفة على عناصر صفحة الويب.
+- React compares the new virtual DOM with the old one and updates only the nodes that changed.
+  - تقارن React الـ DOM الافتراضي الجديد بالقديم، وتحدّث العقد التي تغيّرت فقط.
 
 ## خطأ شائع
 

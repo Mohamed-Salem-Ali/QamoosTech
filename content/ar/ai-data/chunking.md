@@ -23,6 +23,8 @@ keywords: ["تقطيع النص إلى أجزاء صغيرة","تقسيم الم
   - نحتاج إلى ضبط استراتيجية التقطيع لتقسيم المستندات حسب الفقرات بدلاً من أعداد الحروف الثابتة.
 - Poor chunking can cut sentences in half and ruin the semantic meaning of the retrieved context.
   - التقطيع السيئ قد يقطع الجمل إلى نصفين ويفسد المعنى الدلالي للسياق المسترجع.
+- Chunking the handbook by section gave the chatbot better answers than fixed-size pages.
+  - أعطى تقطيع الدليل حسب الأقسام روبوت المحادثة إجابات أفضل من الصفحات ذات الحجم الثابت.
 
 ## خطأ شائع
 

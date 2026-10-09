@@ -25,6 +25,8 @@ keywords: ["غالبية العقد يجب أن توافق", "النصف زائ�
   - مع 5 عقد يكون النصاب 3 فيتحمل العنقود فشل عقدتين.
 - A cluster that lost quorum stops accepting writes.
   - العنقود الذي فقد النصاب يتوقف عن قبول الكتابات.
+- A write succeeds once two of the three replicas confirm it, which is a quorum.
+  - تنجح الكتابة حين يؤكدها اثنان من النسخ الثلاث، وهذا هو النصاب (quorum).
 
 ## خطأ شائع
 

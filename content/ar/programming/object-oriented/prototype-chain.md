@@ -26,6 +26,8 @@ keywords: ["الوراثة في جافاسكربت", "الكائن يبحث في
   - الدالة `arr.map` ليست على المصفوفة نفسها بل على `Array.prototype` أعلى السلسلة.
 - A JavaScript `class` is syntax over prototype links.
   - الـ `class` في جافاسكربت صياغة فوق روابط النماذج الأولية.
+- Setting a property on the prototype makes it visible to every object created from it.
+  - يجعل تعيين خاصية على النموذج الأولي (prototype) الخاصية مرئية لكل كائن أُنشئ منه.
 
 ## خطأ شائع
 

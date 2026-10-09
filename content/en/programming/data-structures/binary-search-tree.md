@@ -23,6 +23,7 @@ In algorithms interviews, database index explanations (B-trees) and ordered-map 
 
 - Searching a balanced BST takes about log n steps.
 - Inserting sorted data into a plain BST makes it a chain.
+- Looking up a key in the BST skips half of the remaining tree at each step.
 
 ## Common mistake
 

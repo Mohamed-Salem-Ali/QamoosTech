@@ -20,6 +20,7 @@ Object-oriented design and interviews ("composition over inheritance").
 
 - `AdminUser` inherits from `User`.
 - Deep inheritance chains are hard to maintain.
+- The AdminUser class inherits the login method from User and adds its own permissions.
 
 ## Common mistake
 

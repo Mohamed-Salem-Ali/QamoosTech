@@ -20,6 +20,7 @@ Resilience, security design, and rate limiting.
 
 - If Redis is down, the rate limiter fails open and lets users in.
 - Login must fail closed: if the auth service is down, nobody gets in.
+- The payment check fails closed, so an unavailable service blocks the purchase.
 
 ## Common mistake
 

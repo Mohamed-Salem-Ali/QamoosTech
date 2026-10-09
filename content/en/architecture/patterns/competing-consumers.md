@@ -22,6 +22,7 @@ In job queues (Celery, SQS, RabbitMQ), background processing and scaling discuss
 
 - Start five workers; they compete for emails in the queue.
 - The queue is growing, so add more consumers.
+- Three workers compete for the same queue, so each email is sent only once.
 
 ## Common mistake
 

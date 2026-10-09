@@ -22,6 +22,8 @@ keywords: ["إحداث تغيير جوهري","تحقيق نتائج ملموس�
   - هل ستحدث إعادة الهيكلة هذه فرقًا فعلًا؟
 - Adding an index moved the needle: the page now loads in 400 ms.
   - إضافة index أحدثت فرقًا: تُحمَّل الصفحة الآن في 400 ملّي ثانية.
+- Caching the homepage moved the needle: the bounce rate dropped by a fifth.
+  - أحدث التخزين المؤقت للصفحة الرئيسية فرقاً ملموساً، فانخفض معدل الارتداد بخُمس.
 
 ## خطأ شائع
 

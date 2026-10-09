@@ -24,6 +24,8 @@ keywords: ["تقليل تكرار البيانات في قاعدة البيان�
   - نحتاج إلى تطبيق Normalization على هذا الجدول لتجنب تخزين نفس العنوان عدة مرات.
 - The database schema requires normalization to ensure that updates to user information remain consistent.
   - يتطلب هيكل قاعدة البيانات تطبيق Normalization لضمان بقاء تحديثات معلومات المستخدم متسقة.
+- The address moved to its own table, so a change of city is made in one place.
+  - انتقل العنوان إلى جدول خاص به، فيُجرى تغيير المدينة في مكان واحد.
 
 ## خطأ شائع
 

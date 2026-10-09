@@ -22,6 +22,7 @@ In payment and finance systems, accounting, data pipelines and any integration w
 
 - The nightly reconciliation flagged two payments missing from our database.
 - Match the records by the provider's transaction id.
+- The reconciliation found a refund the provider had processed but we had not recorded.
 
 ## Common mistake
 

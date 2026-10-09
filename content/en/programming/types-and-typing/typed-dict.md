@@ -22,6 +22,7 @@ In Python projects that handle JSON-like data, and in type-checking discussions.
 
 - The API response is typed as a TypedDict with a name and a list of tags.
 - The checker warns if you read a key that is not in the TypedDict.
+- The config is a TypedDict, so the checker catches a typo in any of its keys.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ In schema design, when optional details are split out of a main table, and in OR
 
 - Each user has exactly one profile row.
 - A one-to-one link is just a foreign key with a unique constraint.
+- Each employee has one badge record, enforced by a unique foreign key.
 
 ## Common mistake
 

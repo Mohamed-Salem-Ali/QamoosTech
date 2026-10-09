@@ -21,6 +21,7 @@ In architecture reviews and war stories about failed microservice migrations.
 
 - Five services share one database and deploy in lockstep; it's a distributed monolith.
 - We got network latency and operational cost but no independence.
+- Every change to the order service also needs the billing service redeployed.
 
 ## Common mistake
 

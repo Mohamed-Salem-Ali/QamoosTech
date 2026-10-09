@@ -21,6 +21,7 @@ In security audits, user authentication system design, and database schema revie
 
 - Always generate a unique salt for every user during the registration process.
 - Storing the salt alongside the hashed password in the database is standard practice.
+- Each user gets a different salt, so two people with the same password get different hashes.
 
 ## Common mistake
 

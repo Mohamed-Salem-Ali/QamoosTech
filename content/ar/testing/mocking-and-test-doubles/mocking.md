@@ -23,6 +23,8 @@ keywords: ["إنشاء كائنات وهمية للاختبار","استبدال
   - نحاكي بوابة الدفع (mock) حتى لا تخصم الاختبارات من بطاقات حقيقية.
 - Too many mocks make the test fragile.
   - كثرة الـ mocks تجعل الاختبار هشًّا.
+- The test mocks the email service, then checks that send was called exactly once.
+  - يحاكي الاختبار خدمة البريد، ثم يتحقق من استدعاء send مرة واحدة بالضبط.
 
 ## خطأ شائع
 

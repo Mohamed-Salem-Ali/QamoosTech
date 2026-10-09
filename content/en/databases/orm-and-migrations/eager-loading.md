@@ -23,6 +23,7 @@ In ORM performance work, code reviews that fix slow list pages, and Django's `se
 
 - Eager loading the member with each payment turned 101 queries into one.
 - Use eager loading before looping over the related objects.
+- With eager loading, the orders page runs one query instead of one per customer.
 
 ## Common mistake
 

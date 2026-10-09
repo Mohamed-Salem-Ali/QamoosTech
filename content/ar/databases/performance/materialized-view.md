@@ -26,6 +26,8 @@ keywords: ["نتيجة استعلام محفوظة", "تقرير محسوب مس
   - تقرأ لوحة المتصدرين من عرض مجسد يُحدَّث كل 5 دقائق.
 - `REFRESH MATERIALIZED VIEW CONCURRENTLY` avoids blocking readers.
   - ‏`REFRESH MATERIALIZED VIEW CONCURRENTLY` يتجنب حجب القراء.
+- The dashboard queries the materialized view, which is refreshed every night.
+  - تستعلم لوحة المتابعة عن العرض المادي (materialized view) الذي يُحدَّث كل ليلة.
 
 ## خطأ شائع
 

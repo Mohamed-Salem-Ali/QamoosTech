@@ -26,6 +26,8 @@ keywords: ["كل صف له مقابل واحد بالضبط", "المستخدم 
   - لكل مستخدم صف ملف شخصي واحد بالضبط.
 - A one-to-one link is just a foreign key with a unique constraint.
   - رابط واحد لواحد هو مفتاح أجنبي مع قيد فرادة.
+- Each employee has one badge record, enforced by a unique foreign key.
+  - لكل موظف سجل شارة واحد، يفرضه مفتاح أجنبي فريد.
 
 ## خطأ شائع
 

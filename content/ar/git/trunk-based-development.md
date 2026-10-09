@@ -23,6 +23,8 @@ keywords: ["الدمج في الفرع الرئيسي يومياً", "دمجات
   - ندمج في الفرع الرئيسي كل يوم وفق التطوير على الفرع الرئيسي.
 - The unfinished screen is hidden behind a feature flag.
   - الشاشة غير المكتملة مخفية خلف مفتاح ميزة.
+- Small changes land on main every day, and unfinished screens stay behind a flag.
+  - تُدمج التغييرات الصغيرة في main كل يوم، وتبقى الشاشات غير المكتملة خلف علامة.
 
 ## خطأ شائع
 

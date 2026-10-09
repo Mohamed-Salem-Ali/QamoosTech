@@ -23,6 +23,7 @@ In managed databases (RDS, Supabase), scaling talks and bugs where data written 
 
 - Heavy reports run against the read replica so the primary stays fast.
 - Read your own writes from the primary.
+- The dashboard reads from a read replica, which lags a few seconds behind the primary.
 
 ## Common mistake
 

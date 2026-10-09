@@ -20,6 +20,7 @@ In machine learning pipeline discussions, model training evaluations, and data s
 
 - The model shows high accuracy on the training set, but its performance drops significantly during testing due to overfitting.
 - We need to add regularization techniques to prevent the neural network from overfitting.
+- The model memorised the training photos and fails on new ones, which is overfitting.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ An Access Control List (ACL) is a list of permissions attached to a specific res
 
 - The cloud storage bucket uses an ACL to grant public read access to specific image files.
 - We updated the network ACL to block incoming traffic from suspicious IP addresses.
+- The file's ACL lets the finance group read it, but not the interns.
 
 ## Common mistake
 

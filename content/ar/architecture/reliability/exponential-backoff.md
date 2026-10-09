@@ -24,6 +24,8 @@ keywords: ["الانتظار أطول بعد كل محاولة", "مضاعفة �
   - ينتظر العميل ثانية، ثم ثانيتين، ثم 4 ثوان قبل أن يعيد محاولة الدفع.
 - Add exponential backoff so all clients do not retry at the same moment.
   - أضف تراجعاً أسياً حتى لا يعيد جميع العملاء المحاولة في اللحظة نفسها.
+- The retry waits 2 seconds, then 4, then 8, and gives up after five tries.
+  - تنتظر إعادة المحاولة ثانيتين، ثم أربعاً، ثم ثماني، وتتوقف بعد خمس محاولات.
 
 ## خطأ شائع
 

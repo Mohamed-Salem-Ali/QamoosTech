@@ -23,6 +23,7 @@ When creating or publishing a Python package, configuring linters and test tools
 
 - All the tool settings live in `pyproject.toml`.
 - Add the dependency to `pyproject.toml` and reinstall.
+- The name, the version and the dependencies are all in pyproject.toml now.
 
 ## Common mistake
 

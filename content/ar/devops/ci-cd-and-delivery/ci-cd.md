@@ -23,6 +23,8 @@ keywords: ["أتمتة بناء ونشر البرمجيات","خط أنابيب 
   - يشغّل خط CI/CD الاختبارات وينشر عند كل دمج في `main`.
 - The CI failed, so the code cannot be merged.
   - فشل الـ CI، لذلك لا يمكن دمج الشيفرة.
+- Every push runs the CI checks, and a merge into main is delivered through CD.
+  - يشغّل كل دفع فحوص CI، ويُسلَّم الدمج في main عبر CD.
 
 ## خطأ شائع
 

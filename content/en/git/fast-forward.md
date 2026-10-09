@@ -20,6 +20,7 @@ During pull request reviews, team discussions about repository history, or when 
 
 - The branch was merged using a fast-forward strategy to keep the history clean.
 - You cannot perform a fast-forward merge because the branches have diverged.
+- The hotfix branch was a fast-forward of main, so the merge created no extra commit.
 
 ## Common mistake
 

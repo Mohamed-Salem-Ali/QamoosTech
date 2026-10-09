@@ -24,6 +24,8 @@ keywords: ["تنسيق عناصر حسب الحالة","محددات الحال�
   - استخدم الـ pseudo-class المسمى `:hover` لتغيير لون الزر عندما يمرر المستخدم مؤشر الفأرة فوقه.
 - The `:focus` pseudo-class is essential for accessibility to highlight elements when they are selected via keyboard navigation.
   - الـ pseudo-class المسمى `:focus` ضروري جداً لسهولة الوصول (accessibility) لتمييز العناصر عند اختيارها باستخدام لوحة المفاتيح.
+- The :invalid pseudo-class turns the email field red until the address is valid.
+  - يجعل الصنف الزائف (pseudo-class) :invalid حقل البريد أحمر حتى يصبح العنوان صحيحاً.
 
 ## خطأ شائع
 

@@ -19,6 +19,7 @@ Interviews, onboarding, and project kickoffs.
 
 - She knew our stack, so she hit the ground running.
 - We need someone who can hit the ground running.
+- The new hire hit the ground running and shipped a feature in the first week.
 
 ## Common mistake
 

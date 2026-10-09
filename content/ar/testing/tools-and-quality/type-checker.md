@@ -26,6 +26,8 @@ keywords: ["أدوات mypy وpyright", "إيجاد أخطاء الأنواع د
   - يشغّل CI مدقّق الأنواع ويفشل عند أي خطأ.
 - The type checker caught that `None` can reach this line.
   - التقط مدقّق الأنواع أن `None` قد يصل إلى هذا السطر.
+- The type checker reports that the price may be undefined in the cart total.
+  - يُبلغ مدقق الأنواع أن السعر قد يكون undefined في مجموع السلة.
 
 ## خطأ شائع
 

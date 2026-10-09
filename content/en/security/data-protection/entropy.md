@@ -22,6 +22,7 @@ In key and token generation, password policy talks, and security reviews of `ran
 
 - Generate tokens with `secrets.token_urlsafe`, which draws on the OS entropy source.
 - A password made of a common word has very low entropy.
+- The reset token has 128 bits of entropy, so it cannot be guessed in practice.
 
 ## Common mistake
 
@@ -29,7 +30,7 @@ Using `random.random()` for tokens or keys. It is predictable; use a cryptograph
 
 ## Don't confuse with
 
-Length. A long but predictable value ("password1234567890") still has low entropy.
+Length is not the same as entropy. A long but predictable value, such as a word followed by digits, can have low entropy, while randomness is what gives a secret its strength.
 
 ## Say it at work
 

@@ -21,6 +21,7 @@ Python code reviews and style discussions.
 
 - A list comprehension is more Pythonic than a manual loop here.
 - That works, but it is not very Pythonic.
+- Using enumerate instead of a manual counter is more Pythonic.
 
 ## Common mistake
 

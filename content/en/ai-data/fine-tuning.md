@@ -19,6 +19,7 @@ Customizing AI models.
 
 - We fine-tuned the model on 1,000 labeled support emails.
 - Try a better prompt before you consider fine-tuning.
+- After fine-tuning on our ticket history, the model uses our product names correctly.
 
 ## Common mistake
 

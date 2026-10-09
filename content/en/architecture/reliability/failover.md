@@ -22,6 +22,7 @@ In database replication, load balancers, cloud multi-zone setups and incident re
 
 - The replica was promoted automatically; failover took 20 seconds.
 - We test failover every quarter.
+- When the primary database went down, traffic moved to the standby within a minute.
 
 ## Common mistake
 

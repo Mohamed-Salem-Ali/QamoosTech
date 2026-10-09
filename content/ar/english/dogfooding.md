@@ -25,6 +25,8 @@ Dogfooding هي ممارسة استخدام منتجات الشركة البرم
   - يجب أن نبدأ في استخدام تطبيق الهاتف الجديد داخلياً (dogfooding) قبل رفعه إلى متجر التطبيقات.
 - The team has been dogfooding the internal billing tool for two weeks now.
   - كان الفريق يستخدم أداة الفوترة الداخلية داخلياً لمدة أسبوعين حتى الآن.
+- Our support team dogfoods the ticketing tool, so they report its problems first.
+  - يستخدم فريق الدعم أداة التذاكر داخلياً، فيُبلغون عن مشكلاتها أولاً.
 
 ## خطأ شائع
 

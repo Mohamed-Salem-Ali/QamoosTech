@@ -24,6 +24,8 @@ keywords: ["فهم أسباب تعطل النظام","تحليل حالة الن
   - نحتاج إلى تحسين الـ observability لدينا لنتمكن من تصحيح أخطاء ارتفاع زمن الاستجابة المتقطع.
 - Adding better observability tools helped us identify the root cause of the system failure.
   - إضافة أدوات observability أفضل ساعدتنا في تحديد السبب الجذري لعطل النظام.
+- Traces showed that one downstream call caused the slowdown, not the database.
+  - أظهرت التتبّعات أن استدعاءً واحداً لاحقاً هو سبب البطء، لا قاعدة البيانات.
 
 ## خطأ شائع
 

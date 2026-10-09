@@ -19,6 +19,7 @@ Product and release discussions.
 
 - We will roll out the new design to 10% of users first.
 - The rollout starts on Monday.
+- We rolled out the new checkout to the Cairo team first, and then to everyone.
 
 ## Common mistake
 

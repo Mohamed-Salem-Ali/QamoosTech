@@ -20,6 +20,7 @@ During project planning meetings, initial client discovery calls, or when assign
 
 - We need to scope out the new feature before we start writing any code.
 - Let's spend an hour to scope out the requirements for the upcoming migration.
+- We scoped out the reporting feature before the sprint, so the team can focus on checkout.
 
 ## Common mistake
 

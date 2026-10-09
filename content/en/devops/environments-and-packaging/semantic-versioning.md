@@ -23,6 +23,7 @@ In release notes, dependency updates, and whenever someone asks "is it safe to u
 
 - It's 2.3.1 to 2.3.2, just a patch, so it should be safe.
 - Going from 3.x to 4.0 is a major version; read the migration guide.
+- Upgrading from 2.4.0 to 2.5.0 adds features, and 2.5.1 only fixes a bug.
 
 ## Common mistake
 

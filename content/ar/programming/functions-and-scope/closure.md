@@ -24,6 +24,8 @@ keywords: ["دالة تحتفظ بالمتغيرات الخارجية","إنشا
   - تشكل الدالة الداخلية closure فوق متغير العداد لتتبع الحالة.
 - We use a closure to create private variables that cannot be modified directly from the outside.
   - نستخدم الـ closure لإنشاء متغيرات خاصة لا يمكن تعديلها مباشرة من الخارج.
+- The closure keeps the discount rate, so each price function reuses it without a global variable.
+  - تحتفظ الدالة المغلقة (closure) بنسبة الخصم، فتعيد كل دالة سعر استخدامها دون متغير عام.
 
 ## خطأ شائع
 

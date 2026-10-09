@@ -22,6 +22,7 @@ In Go (`go test -race`), C++ and Java concurrency discussions, and bugs that van
 
 - Two goroutines incrementing the same counter without a lock is a data race.
 - The race detector flagged line 42.
+- The counter lost updates because two goroutines wrote to it without a lock.
 
 ## Common mistake
 

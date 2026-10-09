@@ -25,6 +25,8 @@ keywords: ["صنف له أبوان", "الوراثة من عدة أصناف", "�
   - `class D(B, C)` يرث من B وC معاً.
 - Python uses the method resolution order to decide which parent's method runs first.
   - تستخدم بايثون ترتيب حل الدوال لتقرر دالة أي أب تعمل أولاً.
+- The Robot class inherits from both Walker and Talker, so it gets two sets of methods.
+  - ترث الفئة Robot من Walker وTalker معاً، فتحصل على مجموعتين من الدوال.
 
 ## خطأ شائع
 

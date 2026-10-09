@@ -23,6 +23,7 @@ CSRF is a security vulnerability that tricks an authenticated user into executin
 
 - The application is vulnerable to CSRF because it lacks anti-forgery tokens.
 - We must implement CSRF protection on all state-changing endpoints.
+- The form includes a CSRF token, so a forged request from another site is rejected.
 
 ## Common mistake
 

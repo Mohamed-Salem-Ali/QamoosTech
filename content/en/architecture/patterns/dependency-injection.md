@@ -20,6 +20,7 @@ NestJS, Spring, Angular, and testing discussions.
 
 - Thanks to dependency injection, we replaced the real mailer with a fake in tests.
 - Inject the repository instead of creating it with `new`.
+- The service receives the payment client through its constructor, so tests can pass a fake.
 
 ## Common mistake
 

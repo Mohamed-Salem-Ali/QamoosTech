@@ -20,6 +20,7 @@ In contract negotiations, project kickoff meetings, and scoping discussions with
 
 - The client requested a detailed Statement of Work before signing the contract.
 - We added an extra phase to the Statement of Work to cover the new features.
+- The statement of work lists three deliverables, the date for each one, and the payment schedule.
 
 ## Common mistake
 

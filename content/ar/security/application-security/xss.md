@@ -24,6 +24,8 @@ keywords: ["ثغرة حقن السكريبتات في الموقع","حماية 
   - حدد الفحص الأمني ثغرة XSS في قسم تعليقات الملف الشخصي للمستخدم.
 - We must sanitize all user inputs to prevent stored XSS attacks.
   - يجب علينا تنقية جميع مدخلات المستخدمين لمنع هجمات XSS المخزنة.
+- The comment field escaped the script tag, so the XSS attempt showed as plain text.
+  - هرّب حقل التعليق وسم السكربت، فظهرت محاولة XSS كنص عادي.
 
 ## خطأ شائع
 

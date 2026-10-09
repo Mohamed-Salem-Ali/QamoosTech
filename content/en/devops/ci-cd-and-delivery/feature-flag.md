@@ -20,6 +20,7 @@ Gradual releases and A/B testing.
 
 - The new checkout is behind a feature flag for 10% of users.
 - If something breaks, just switch the flag off.
+- The new dashboard sits behind a feature flag that only the internal team can see.
 
 ## Common mistake
 

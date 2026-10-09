@@ -24,6 +24,8 @@ keywords: ["الخادم يرسل التحديثات إلى المتصفح", "ت
   - تستمع لوحة المعلومات إلى تدفق أحداث من الخادم لمعرفة الطلبات الجديدة.
 - Use WebSockets instead if the client must send messages too.
   - استخدم WebSockets بدلاً من ذلك إن كان على العميل أن يرسل رسائل أيضاً.
+- The status page receives server-sent events, so it updates when the job finishes.
+  - تتلقى صفحة الحالة أحداثاً مرسلة من الخادم، فتتحدّث حين تنتهي المهمة.
 
 ## خطأ شائع
 

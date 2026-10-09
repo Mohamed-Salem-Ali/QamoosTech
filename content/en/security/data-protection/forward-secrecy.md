@@ -22,6 +22,7 @@ In TLS configuration (ECDHE ciphers), security audits and talks about "record no
 
 - TLS 1.3 gives forward secrecy by default.
 - Without it, one stolen key exposes years of recorded traffic.
+- With forward secrecy, old recorded sessions stay unreadable even if the server key leaks.
 
 ## Common mistake
 

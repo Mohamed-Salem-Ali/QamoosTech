@@ -20,6 +20,7 @@ The most common frontend error: "blocked by CORS policy".
 
 - The request is blocked by CORS because the server does not allow our domain.
 - Add our frontend URL to the allowed origins on the backend.
+- The browser blocked the response until the API added the Access-Control-Allow-Origin header.
 
 ## Common mistake
 

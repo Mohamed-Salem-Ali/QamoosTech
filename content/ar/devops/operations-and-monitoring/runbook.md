@@ -25,6 +25,8 @@ keywords: ["دليل خطوة بخطوة للحوادث", "ماذا تفعل ع�
   - يرتبط التنبيه بدليل تشغيل فيه أول خمسة فحوص.
 - Update the runbook after every incident.
   - حدّث دليل التشغيل بعد كل حادثة.
+- The runbook says to check the queue depth first, then restart the worker.
+  - يقول دليل التشغيل أن نفحص عمق الطابور أولاً، ثم نعيد تشغيل العامل.
 
 ## خطأ شائع
 

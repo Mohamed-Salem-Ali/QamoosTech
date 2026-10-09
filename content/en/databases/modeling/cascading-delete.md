@@ -21,6 +21,7 @@ During database schema design, migration planning, or when configuring ORM relat
 
 - We configured a cascading delete so that removing a user automatically deletes their profile settings.
 - Using a cascading delete simplifies cleanup but can lead to accidental data loss if not used carefully.
+- Deleting an order also deletes its line items through a cascading delete.
 
 ## Common mistake
 

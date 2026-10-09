@@ -21,6 +21,7 @@ When discussing database performance, search functionality implementation, or ch
 
 - We need to implement Full-Text Search to allow users to find articles by keywords.
 - The database index for Full-Text Search is significantly larger than a standard B-tree index.
+- A full-text search for running also finds documents that say run and runs.
 
 ## Common mistake
 

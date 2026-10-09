@@ -22,6 +22,7 @@ In etcd, ZooKeeper, Kafka and database clusters, and when a scheduled job must r
 
 - The followers elected a new leader after the old one stopped sending heartbeats.
 - Only the leader runs the nightly cleanup job.
+- The cluster elects a new leader within seconds when the old one crashes.
 
 ## Common mistake
 

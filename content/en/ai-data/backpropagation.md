@@ -21,6 +21,7 @@ In deep learning courses, framework docs (`loss.backward()`) and explanations of
 
 - PyTorch computes the gradients when you call `loss.backward()`.
 - Each training step is a forward pass, backpropagation, then a weight update.
+- Backpropagation computed the gradient for every layer in one backward pass.
 
 ## Common mistake
 

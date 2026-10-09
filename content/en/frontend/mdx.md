@@ -19,6 +19,7 @@ Documentation sites, blogs, and learning platforms.
 
 - Each lesson is an MDX file with a few custom components.
 - Use plain Markdown unless you really need a component.
+- The docs page embeds a live chart component next to the explanation, written in MDX.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In Python tutorials about `for` loops, and when a function says it accepts any i
 
 - The function accepts any iterable, so you can pass a list or a generator.
 - A string is iterable: the loop gives you one character at a time.
+- The sum function accepts any iterable, so it works on a set or a tuple too.
 
 ## Common mistake
 

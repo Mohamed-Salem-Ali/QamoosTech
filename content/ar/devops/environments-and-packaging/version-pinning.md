@@ -26,6 +26,8 @@ keywords: ["قفل اعتمادية على إصدار واحد", "تثبيت req
   - ثبّت الإصدار في الإنتاج وحدّثه عن قصد.
 - Pinning to `>=2.0` isn't pinning; it still allows any newer version.
   - التثبيت بـ `>=2.0` ليس تثبيتاً؛ فهو يسمح بأي إصدار أحدث.
+- The build pins urllib3 to one version, so a new release cannot break it overnight.
+  - يثبّت البناء مكتبة urllib3 على إصدار واحد، فلا يستطيع إصدار جديد أن يكسره بين ليلة وضحاها.
 
 ## خطأ شائع
 

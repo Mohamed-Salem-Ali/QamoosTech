@@ -23,6 +23,7 @@ In algorithms courses and interviews, expression parsers, file-system-like struc
 
 - Each node holds a value and two child pointers.
 - Find the depth of a binary tree with a recursive function.
+- An expression tree is a binary tree whose leaves are numbers.
 
 ## Common mistake
 

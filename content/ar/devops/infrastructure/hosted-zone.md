@@ -25,6 +25,8 @@ keywords: ["حاوية لسجلات DNS", "منطقة Route 53", "منطقة ل�
   - أنشئ منطقة مستضافة لـ `example.com` ثم انسخ خوادمها الاسمية إلى المسجّل.
 - A private hosted zone resolves names only inside the VPC.
   - تحلّ المنطقة الخاصة الأسماء داخل الـ VPC فقط.
+- The hosted zone for the domain lists the mail server and the website records.
+  - تسرد المنطقة المستضافة للنطاق سجلات خادم البريد والموقع.
 
 ## خطأ شائع
 

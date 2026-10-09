@@ -23,6 +23,7 @@ When publishing a Python library, in packaging guides, and in CI jobs that build
 
 - Build the distribution, then upload the wheel and the sdist.
 - Install the wheel in a clean environment to test it.
+- We uploaded the wheel and the source archive to the package index.
 
 ## Common mistake
 

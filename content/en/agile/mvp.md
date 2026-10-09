@@ -19,6 +19,7 @@ Startups and client projects.
 
 - For the MVP we will only build login and the main list.
 - Let's launch the MVP and learn from real users.
+- The MVP has only the checkout and one payment method, so we can test demand first.
 
 ## Common mistake
 

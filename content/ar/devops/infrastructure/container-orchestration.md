@@ -27,6 +27,8 @@ keywords: ["تنسيق الحاويات البرمجية","إدارة الحاو
   - تقوم أداة إدارة الحاويات بإعادة تشغيل أي حاوية تتوقف عن العمل في بيئة الإنتاج تلقائياً.
 - We use container orchestration to scale our API pods up and down based on traffic.
   - نستخدم إدارة الحاويات لتكبير وتصغير حجم وحدات الـ API حسب حجم حركة المرور.
+- The orchestrator moved the failed pod to a healthy node within seconds.
+  - نقل المنسّق الحاوية المعطلة إلى عقدة سليمة خلال ثوانٍ.
 
 ## خطأ شائع
 

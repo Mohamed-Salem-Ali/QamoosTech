@@ -23,6 +23,8 @@ keywords: ["رمز التحقق من الهوية","طريقة مصادقة بد
   - أرسل الـ JWT في ترويسة `Authorization: Bearer`.
 - The JWT expired, so you got a 401.
   - انتهت صلاحية الـ JWT، لذلك حصلت على 401.
+- The API reads the user id from the JWT claims without a database lookup.
+  - تقرأ الواجهة معرّف المستخدم من حقول JWT دون بحث في قاعدة البيانات.
 
 ## خطأ شائع
 

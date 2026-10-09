@@ -21,6 +21,7 @@ During frontend development meetings, code reviews, or when discussing responsiv
 
 - We should use CSS Grid to structure the main dashboard layout.
 - The new photo gallery uses CSS Grid to maintain a perfect alignment across different screen sizes.
+- The gallery uses CSS Grid with three columns that shrink to one on phones.
 
 ## Common mistake
 

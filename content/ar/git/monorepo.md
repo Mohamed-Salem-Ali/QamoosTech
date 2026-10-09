@@ -25,6 +25,8 @@ keywords: ["مشاريع كثيرة في مستودع واحد", "كود مشت�
   - يعيش تطبيق الويب والـ API في مستودع موحد ويتشاركان الأنواع.
 - CI only builds the packages affected by the change.
   - يبني CI الحزم المتأثرة بالتغيير فقط.
+- A change to the shared types updates the web app and the API in one commit.
+  - يحدّث تغيير الأنواع المشتركة تطبيق الويب والواجهة في إيداع واحد.
 
 ## خطأ شائع
 

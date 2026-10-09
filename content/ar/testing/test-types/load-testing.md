@@ -24,6 +24,8 @@ keywords: ["محاكاة ضغط المستخدمين على النظام","اخ�
   - نحتاج إلى إجراء Load testing قبل موسم الأعياد للتأكد من أن خوادمنا لن تتعطل.
 - The team ran a load test to see how many concurrent users the new API endpoint can handle.
   - أجرى الفريق Load test لمعرفة عدد المستخدمين المتزامنين الذين يمكن لنقطة النهاية (endpoint) الجديدة تحملهم.
+- The load test showed the checkout slowing down at 2,000 concurrent users.
+  - أظهر اختبار الحمل أن الدفع يتباطأ عند 2000 مستخدم متزامن.
 
 ## خطأ شائع
 

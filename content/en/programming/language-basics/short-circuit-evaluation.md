@@ -22,6 +22,7 @@ In code reviews about safe checks such as `user and user.name`, and in explanati
 
 - The second check never runs when the first one is false.
 - We rely on short-circuiting to avoid reading a missing attribute.
+- In user and token is None, the second check is skipped when there is no user.
 
 ## Common mistake
 

@@ -24,6 +24,8 @@ keywords: ["نموذج بسيط جداً", "ضعيف حتى على بيانات 
   - درجتا التدريب والتحقق منخفضتان إذن النموذج ناقص التعلم.
 - Try a bigger model or more informative features.
   - جرّب نموذجاً أكبر أو ميزات أغنى.
+- A straight line cannot follow the curve in the data, so the model underfits.
+  - لا يستطيع الخط المستقيم تتبّع المنحنى في البيانات، فيقع النموذج في الملاءمة الناقصة (underfitting).
 
 ## خطأ شائع
 

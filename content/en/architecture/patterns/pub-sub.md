@@ -21,6 +21,7 @@ In system architecture discussions, distributed systems design, and when choosin
 
 - We use Pub/Sub to decouple our user service from the email notification system.
 - The analytics engine subscribes to the click-stream topic to process user events in real-time.
+- The order service publishes an OrderPlaced event, and three subscribers react to it.
 
 ## Common mistake
 

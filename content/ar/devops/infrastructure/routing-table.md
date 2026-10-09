@@ -25,6 +25,8 @@ keywords: ["قواعد وجهة الحزم", "من الوجهة إلى القف�
   - يرسل جدول مسارات الشبكة العامة `0.0.0.0/0` إلى بوابة الإنترنت.
 - No route means no connection.
   - لا مسار يعني لا اتصال.
+- The routing table sends traffic for the private subnet through the NAT gateway.
+  - يرسل جدول التوجيه حركة الشبكة الخاصة عبر بوابة NAT.
 
 ## خطأ شائع
 

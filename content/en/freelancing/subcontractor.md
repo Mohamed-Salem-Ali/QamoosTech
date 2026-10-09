@@ -20,6 +20,7 @@ In project management discussions, contract negotiations, or when a freelancer n
 
 - I am hiring a designer as a subcontractor to help with the UI elements of this project.
 - The contract allows me to use a subcontractor for the backend development if necessary.
+- The designer works as my subcontractor, so the work reports to me and not to the client.
 
 ## Common mistake
 

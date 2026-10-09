@@ -20,6 +20,7 @@ API authentication.
 
 - Send the JWT in the `Authorization: Bearer` header.
 - The JWT expired, so you got a 401.
+- The API reads the user id from the JWT claims without a database lookup.
 
 ## Common mistake
 

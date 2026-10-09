@@ -24,6 +24,8 @@ keywords: ["نشر شيفرة مخفية عن المستخدمين", "اختبا
   - تعمل خدمة البحث في إطلاق صامت، فلا يراها أي مستخدم بعد.
 - We copied 10 percent of the traffic to the new service and ignored its responses.
   - نسخنا 10% من حركة المرور إلى الخدمة الجديدة وتجاهلنا استجاباتها.
+- The new search ran as a dark launch, and we compared its results with the old search.
+  - عمل البحث الجديد كإطلاق مخفي، وقارنا نتائجه بالبحث القديم.
 
 ## خطأ شائع
 

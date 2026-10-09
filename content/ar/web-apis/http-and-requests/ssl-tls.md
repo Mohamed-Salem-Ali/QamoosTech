@@ -24,6 +24,8 @@ keywords: ["تشفير البيانات بين المتصفح والخادم","�
   - تم تكوين الخادم لإعادة توجيه حركة المرور الواردة عبر HTTP إلى HTTPS باستخدام SSL / TLS.
 - We need to renew the SSL / TLS certificate before it expires next month.
   - نحتاج إلى تجديد شهادة SSL / TLS قبل انتهاء صلاحيتها الشهر القادم.
+- The browser shows a padlock because the site uses TLS 1.3 for every connection.
+  - يُظهر المتصفح قفلاً لأن الموقع يستخدم TLS 1.3 لكل اتصال.
 
 ## خطأ شائع
 

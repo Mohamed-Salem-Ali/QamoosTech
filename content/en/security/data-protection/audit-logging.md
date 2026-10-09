@@ -20,6 +20,7 @@ Healthcare, finance, and security reviews.
 
 - The audit log shows who changed the patient record.
 - Audit logs must be append-only.
+- Every change to a refund is written to the audit log with the user who made it.
 
 ## Common mistake
 

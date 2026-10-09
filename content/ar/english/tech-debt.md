@@ -22,6 +22,8 @@ keywords: ["الدين التقني","تكلفة الاختصارات البرم
   - تحمّلنا دينًا تقنيًا لنلحق بالموعد النهائي وسنصلحه في السبرنت القادم.
 - This module has a lot of tech debt.
   - هذه الوحدة فيها كثير من الدين التقني.
+- We added a quick workaround for the import, which is tech debt we will pay off later.
+  - أضفنا حلاً مؤقتاً سريعاً للاستيراد، وهذا دَين تقني سنسدّده لاحقاً.
 
 ## خطأ شائع
 

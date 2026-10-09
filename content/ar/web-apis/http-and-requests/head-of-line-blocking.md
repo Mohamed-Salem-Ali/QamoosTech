@@ -25,6 +25,8 @@ keywords: ["عنصر بطيء يحجب الباقي", "حزمة مفقودة ت�
   - في HTTP/1.1 يحجب الرد البطيء الطلبات المصطفة خلفه.
 - HTTP/3 avoids head-of-line blocking between streams.
   - يتجنب HTTP/3 حجب رأس الطابور بين التيارات.
+- One slow query at the front of the queue delayed every request behind it.
+  - أخّر استعلام بطيء في مقدمة الطابور كل طلب خلفه.
 
 ## خطأ شائع
 

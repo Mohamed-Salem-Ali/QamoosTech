@@ -26,6 +26,8 @@ keywords: ["جدول يربط جدولين", "جدول الوصل", "جدول th
   - جدول `enrollment` جدول وسيط بين الطلاب والمقررات.
 - Django creates the join table for a many-to-many field automatically.
   - ينشئ Django الجدول الوسيط لحقل متعدد لمتعدد تلقائياً.
+- The course_students join table holds one row for each student enrolled in a course.
+  - يحوي جدول الربط course_students صفاً لكل طالب مسجّل في دورة.
 
 ## خطأ شائع
 

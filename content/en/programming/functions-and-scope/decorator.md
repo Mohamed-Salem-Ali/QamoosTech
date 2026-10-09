@@ -21,6 +21,7 @@ Python (`@login_required`), TypeScript frameworks like NestJS, and middleware ta
 
 - Add `@login_required` so only signed-in users can open the page.
 - We wrote a decorator that logs how long each call takes.
+- The cache decorator stores the result of the function for ten minutes.
 
 ## Common mistake
 

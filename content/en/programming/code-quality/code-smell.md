@@ -21,6 +21,7 @@ In code reviews, when a reviewer says "this smells", and in refactoring discussi
 
 - This function has 200 lines, which is a code smell.
 - The same validation appears in five places, a clear code smell.
+- The long function is a code smell, so we split it before adding the new discount logic.
 
 ## Common mistake
 

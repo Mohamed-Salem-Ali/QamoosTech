@@ -22,6 +22,7 @@ In secure coding guides, file handling code, security audits and CVE write-ups.
 
 - `if os.path.exists(f): open(f)` has a TOCTOU gap.
 - Open the file once and act on the handle; don't check by path first.
+- The check of the file owner happens before the open, which creates a TOCTOU gap.
 
 ## Common mistake
 

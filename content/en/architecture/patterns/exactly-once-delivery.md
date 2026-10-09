@@ -22,6 +22,7 @@ In Kafka and queue design talks, payment and billing pipelines, and vendor claim
 
 - The broker says exactly-once, but we still dedupe by message id.
 - Aim for effectively-once: at-least-once plus idempotency.
+- The payment worker uses an idempotency key, which makes its processing safe to repeat.
 
 ## Common mistake
 

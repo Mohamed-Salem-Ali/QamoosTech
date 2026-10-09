@@ -23,6 +23,8 @@ keywords: ["نقاش معمق","تحليل تفصيلي للمشكلة","اجت�
   - نحتاج إلى جدولة نقاش معمق حول نظام المصادقة الخاص بنا الأسبوع القادم.
 - Let us do a deep dive on this performance bottleneck during the afternoon session.
   - دعنا نقوم بتحليل معمق حول عنق الزجاجة هذا في الأداء خلال جلسة بعد الظهر.
+- The deep dive on the checkout flow found three places where users leave the page.
+  - كشفت المراجعة المعمّقة لمسار الدفع ثلاثة مواضع يغادر فيها المستخدمون الصفحة.
 
 ## خطأ شائع
 

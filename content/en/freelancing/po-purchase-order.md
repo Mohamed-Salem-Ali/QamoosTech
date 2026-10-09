@@ -20,6 +20,7 @@ During contract negotiations, project onboarding, or when submitting an invoice 
 
 - Please send me the PO number so I can reference it on my invoice.
 - The client requires a PO before they can approve the project budget.
+- The client sent a PO for twelve hours of work, so we can start the sprint.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In functional programming (Scheme, Haskell, Erlang), recursion discussions and "
 
 - This recursion is a tail call, so Erlang runs it in constant stack space.
 - Python doesn't do tail-call optimisation; use a loop.
+- The tail-recursive version reuses one stack frame, so a million steps do not overflow.
 
 ## Common mistake
 

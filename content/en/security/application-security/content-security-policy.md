@@ -23,6 +23,7 @@ Content Security Policy (CSP) is an HTTP response header that lets site operator
 
 - We need to add a Content Security Policy header to prevent unauthorized scripts from running on our dashboard.
 - The application crashed because the strict Content Security Policy blocked inline styles.
+- The policy allows scripts only from our own domain, so injected scripts are blocked.
 
 ## Common mistake
 

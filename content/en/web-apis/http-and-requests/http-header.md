@@ -20,6 +20,7 @@ API docs, authentication, caching, and CORS issues.
 
 - Send the token in the `Authorization` header.
 - Set `Content-Type: application/json` or the server will not parse the body.
+- The response includes a Cache-Control header that tells the browser how long to keep it.
 
 ## Common mistake
 

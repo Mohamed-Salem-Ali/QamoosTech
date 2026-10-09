@@ -21,6 +21,7 @@ Functional programming, audit logs, and financial records.
 
 - Ledger entries are immutable; a mistake is fixed with a correcting entry.
 - Use immutable data to avoid surprising side effects.
+- The tuple is immutable, so the function cannot change the coordinates it received.
 
 ## Common mistake
 

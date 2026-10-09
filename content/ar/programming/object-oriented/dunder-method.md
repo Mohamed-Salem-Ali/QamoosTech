@@ -26,6 +26,8 @@ keywords: ["__init__ و __str__", "الدوال الخاصة في بايثون",
   - عرّف `__repr__` لتُطبع صورة الكائن بوضوح في السجلات.
 - Adding `__len__` lets you call `len()` on the collection.
   - إضافة `__len__` تتيح لك استدعاء `len()` على المجموعة.
+- Defining __eq__ makes two Money objects compare equal when their amounts match.
+  - يجعل تعريف __eq__ كائنات Money متساوية حين تتطابق مبالغها.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["مسار متوازٍ في برنامج", "تتشارك الذاكر
   - يعالج الخادم كل طلب على خيط منفصل.
 - Access to the shared counter must be thread-safe.
   - يجب أن يكون الوصول إلى العداد المشترك آمناً للخيوط.
+- Each worker thread pulls a job from the shared queue and processes it.
+  - يسحب كل خيط عامل مهمة من الطابور المشترك ويعالجها.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["يشفّر كتلاً بحجم ثابت", "‏AES بكتل 128 بت"
   - ‏AES تشفير كتل وGCM هو النمط الذي نشغله به.
 - Use a fresh random nonce for every message.
   - استخدم nonce عشوائياً جديداً لكل رسالة.
+- AES works on 16-byte blocks, so the message is split and each block is encrypted.
+  - يعمل AES على كتل من 16 بايت، فتُقسَّم الرسالة وتُشفَّر كل كتلة.
 
 ## خطأ شائع
 

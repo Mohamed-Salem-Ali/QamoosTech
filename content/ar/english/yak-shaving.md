@@ -22,6 +22,8 @@ keywords: ["مهام جانبية تشتت عن الهدف","التدقيق في
   - أردتُ تصحيح خطأ إملائي، والآن أرقّي Node. هذا yak shaving بعينه.
 - Stop yak shaving and go back to the original ticket.
   - توقف عن الـ yak shaving وعد إلى المهمة الأصلية.
+- I went to fix one failing test and ended up rewriting the logger, classic yak shaving.
+  - ذهبتُ لإصلاح اختبار فاشل واحد، فانتهيت بإعادة كتابة أداة التسجيل، وهذا تشعّب كلاسيكي (yak shaving).
 
 ## خطأ شائع
 

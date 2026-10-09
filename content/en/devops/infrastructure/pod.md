@@ -22,6 +22,7 @@ In Kubernetes manifests, cluster dashboards, and discussions about why a service
 
 - The API pod restarted after it ran out of memory.
 - Put the log shipper in the same pod as the application.
+- The pod runs the app and a log shipper side by side, sharing the same network address.
 
 ## Common mistake
 

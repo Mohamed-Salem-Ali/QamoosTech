@@ -23,6 +23,8 @@ keywords: ["البيانات الفعلية داخل الطلب","محتوى ج�
   - يحتوي payload الـ webhook على رقم الطلب والحالة.
 - The payload is too large, so the request fails.
   - الـ payload كبير جدًا، لذلك يفشل الطلب.
+- The webhook payload is a JSON body with the order id and the new status.
+  - حمولة الـ webhook جسم JSON يحوي معرّف الطلب والحالة الجديدة.
 
 ## خطأ شائع
 

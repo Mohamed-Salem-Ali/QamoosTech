@@ -21,6 +21,7 @@ In release planning, and in discussions about testing a new service with real tr
 
 - The search service runs in a dark launch, so no user sees it yet.
 - We copied 10 percent of the traffic to the new service and ignored its responses.
+- The new search ran as a dark launch, and we compared its results with the old search.
 
 ## Common mistake
 

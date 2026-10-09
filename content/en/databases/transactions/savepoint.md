@@ -23,6 +23,7 @@ In SQL (`SAVEPOINT`), Django nested `atomic()` blocks and tests that wrap each c
 
 - Create a savepoint, try the risky insert, and roll back to it if it fails.
 - A nested `atomic()` in Django becomes a savepoint.
+- We set a savepoint before the bulk import, so a bad batch rolls back on its own.
 
 ## Common mistake
 

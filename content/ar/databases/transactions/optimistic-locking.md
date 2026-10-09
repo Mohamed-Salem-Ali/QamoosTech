@@ -26,6 +26,8 @@ keywords: ["عمود الإصدار", "حدّث فقط إن لم يتغير", "�
   - جملة `UPDATE ... WHERE id = 7 AND version = 3` لا تؤثر في أي صف إذن حفظ شخص آخر قبلك.
 - Show the user the conflict and let them reload.
   - اعرض التعارض للمستخدم ودعه يعيد التحميل.
+- Two editors opened the same article, and the second save was rejected because the version had changed.
+  - فتح محرران المقالة نفسها، فرُفض الحفظ الثاني لأن الإصدار قد تغيّر.
 
 ## خطأ شائع
 

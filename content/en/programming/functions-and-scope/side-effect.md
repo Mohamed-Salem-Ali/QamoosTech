@@ -22,6 +22,7 @@ In code reviews, testing discussions, and explanations of why some functions are
 
 - The function has a side effect: it modifies the list that was passed in.
 - Sending the email is a side effect, so we mock it in tests.
+- The log call is a side effect, so the function is no longer pure.
 
 ## Common mistake
 

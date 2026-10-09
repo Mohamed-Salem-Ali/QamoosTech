@@ -23,6 +23,8 @@ keywords: ["ربط جدولين في قاعدة البيانات","دمج جدو
   - اربط جدول `orders` بجدول `users` لإظهار اسم العميل.
 - A missing join condition returns millions of rows.
   - نسيان شرط الربط يعيد ملايين الصفوف.
+- The join pairs each order with its customer using customer_id.
+  - يقرن الربط كل طلب بعميله باستخدام customer_id.
 
 ## خطأ شائع
 

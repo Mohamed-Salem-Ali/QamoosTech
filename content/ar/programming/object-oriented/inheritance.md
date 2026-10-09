@@ -23,6 +23,8 @@ keywords: ["إعادة استخدام خصائص الكلاس","علاقة هو 
   - الفئة `AdminUser` ترث من `User`.
 - Deep inheritance chains are hard to maintain.
   - سلاسل الوراثة العميقة يصعب صيانتها.
+- The AdminUser class inherits the login method from User and adds its own permissions.
+  - ترث الفئة AdminUser دالة تسجيل الدخول من User، وتضيف صلاحياتها الخاصة.
 
 ## خطأ شائع
 

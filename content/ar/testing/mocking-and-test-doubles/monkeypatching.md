@@ -26,6 +26,8 @@ keywords: ["استبدال دالة مؤقتاً", "ترقيع أثناء الا
   - رقّع `time.time` ليتحكم الاختبار في الساعة.
 - Use monkeypatch to set the env var only for this test.
   - استخدم monkeypatch لضبط متغير البيئة لهذا الاختبار فقط.
+- The test monkeypatches the clock, so the expiry check runs at a fixed time.
+  - يُعدّل الاختبار الساعة بالتصحيح القردي (monkeypatch)، فيعمل فحص الانتهاء عند وقت ثابت.
 
 ## خطأ شائع
 

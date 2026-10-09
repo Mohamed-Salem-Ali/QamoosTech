@@ -19,6 +19,7 @@ Next.js, SEO, and performance discussions.
 
 - We use server-side rendering so search engines can read the content.
 - The page re-renders every time the state changes.
+- The product page uses server-side rendering, so the price shows up on the first load.
 
 ## Common mistake
 

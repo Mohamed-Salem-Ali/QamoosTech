@@ -22,6 +22,7 @@ In SQS, RabbitMQ and Kafka documentation, webhook delivery and retry designs.
 
 - SQS standard queues deliver at least once, so the handler must be idempotent.
 - The consumer crashed before acking, so the message came again.
+- The email worker can send the same receipt twice, so it checks a sent-log first.
 
 ## Common mistake
 

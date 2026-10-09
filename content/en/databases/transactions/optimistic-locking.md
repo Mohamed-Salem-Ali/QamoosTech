@@ -23,6 +23,7 @@ In ORM features (`version` columns), web forms where two people edit the same re
 
 - `UPDATE ... WHERE id = 7 AND version = 3` affects 0 rows, so someone else saved first.
 - Show the user the conflict and let them reload.
+- Two editors opened the same article, and the second save was rejected because the version had changed.
 
 ## Common mistake
 

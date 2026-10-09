@@ -22,6 +22,7 @@ In HTTP/3 and CDN settings, browser network panels (`h3`) and performance articl
 
 - Enable HTTP/3 (QUIC) on the CDN.
 - QUIC keeps the connection alive when a phone switches from Wi-Fi to mobile data.
+- The video kept playing when the phone moved from Wi-Fi to mobile data, thanks to QUIC.
 
 ## Common mistake
 

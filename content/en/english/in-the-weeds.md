@@ -20,6 +20,7 @@ During project planning meetings, code reviews, or when a discussion is veering 
 
 - Let's stop getting in the weeds on the CSS colors and focus on the core feature logic.
 - I think we are getting too much in the weeds with this edge case; let's move on.
+- We were in the weeds on the color palette for an hour before we came back to the user flow.
 
 ## Common mistake
 

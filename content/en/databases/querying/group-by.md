@@ -23,6 +23,7 @@ In reporting queries such as "total per week", in SQL interviews, and in ORM cod
 
 - Group by week to get the amount collected in each one.
 - Use `HAVING` to filter groups after the grouping.
+- Grouping the payments by country gives one total for each country.
 
 ## Common mistake
 

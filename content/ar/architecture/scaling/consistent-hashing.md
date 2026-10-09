@@ -25,6 +25,8 @@ keywords: ["إضافة خادم ونقل مفاتيح قليلة", "حلقة ا�
   - مع التجزئة المتسقة تنقل إضافة عقدة تخزين مؤقت نحو 1/N من المفاتيح فقط.
 - Virtual nodes even out the load between servers.
   - العقد الافتراضية توازن الحمل بين الخوادم.
+- Each cache key maps to a point on the ring, and the next server clockwise holds it.
+  - تُرسم كل مفاتيح الذاكرة المؤقتة على حلقة، ويحتفظ الخادم التالي في اتجاه عقارب الساعة بالمفتاح.
 
 ## خطأ شائع
 

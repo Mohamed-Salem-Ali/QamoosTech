@@ -21,6 +21,7 @@ In system design discussions, database administration meetings, and when plannin
 
 - We need to implement sharding to handle the rapid growth of our user data.
 - The database team is sharding the logs table across four different servers to improve query speed.
+- The users table is sharded by country, so each server holds the customers of one region.
 
 ## Common mistake
 

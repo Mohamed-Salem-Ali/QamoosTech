@@ -21,6 +21,7 @@ During release planning meetings, CI/CD pipeline discussions, and incident post-
 
 - We will perform a canary release to 5% of our traffic to ensure the new database schema is stable.
 - The team decided to use a canary release to test the new payment gateway integration.
+- The canary release sends 5 percent of users to v2 and watches the error rate.
 
 ## Common mistake
 

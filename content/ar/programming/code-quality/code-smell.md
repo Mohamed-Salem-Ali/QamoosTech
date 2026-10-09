@@ -24,6 +24,8 @@ keywords: ["علامة على مشكلة في التصميم", "دالة طوي�
   - هذه الدالة فيها 200 سطر، وهذه رائحة سيئة في الشيفرة.
 - The same validation appears in five places, a clear code smell.
   - التحقق نفسه يظهر في خمسة أماكن، وهذه رائحة واضحة في الشيفرة.
+- The long function is a code smell, so we split it before adding the new discount logic.
+  - الدالة الطويلة رائحة شيفرة، لذلك نقسمها قبل إضافة منطق الخصم الجديد.
 
 ## خطأ شائع
 

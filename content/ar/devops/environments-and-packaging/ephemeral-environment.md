@@ -24,6 +24,8 @@ keywords: ["بيئة مؤقتة لطلب الدمج","إنشاء بيئة اخت
   - يقوم مسار الدمج المستمر بإنشاء بيئة مؤقتة تلقائياً لكل طلب دمج جديد.
 - QA testers can review the new feature safely in a dedicated ephemeral environment before it merges.
   - يمكن لمختبري الجودة مراجعة الميزة الجديدة بأمان في بيئة مؤقتة مخصصة قبل دمجها.
+- Each pull request gets an ephemeral environment that is deleted after the merge.
+  - يحصل كل طلب دمج على بيئة مؤقتة تُحذف بعد الدمج.
 
 ## خطأ شائع
 

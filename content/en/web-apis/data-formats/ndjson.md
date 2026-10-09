@@ -22,6 +22,7 @@ In large data exports, log pipelines, and bulk import APIs.
 
 - Each line of the export is one order in NDJSON.
 - Read the file line by line so it never fits fully in memory.
+- Each line of the log file is a JSON event, so the parser reads one line at a time.
 
 ## Common mistake
 

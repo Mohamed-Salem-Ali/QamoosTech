@@ -22,6 +22,8 @@ keywords: ["طلب تعديل نطاق العمل","توثيق التغييرا�
   - هذه الميزة الجديدة تحتاج إلى change request.
 - I approved the change request and updated the timeline.
   - وافقتُ على طلب التغيير وحدّثتُ الجدول الزمني.
+- The extra report the client asked for needs a change request with a new price and date.
+  - يحتاج التقرير الإضافي الذي طلبه العميل إلى طلب تغيير بسعر وموعد جديدين.
 
 ## خطأ شائع
 

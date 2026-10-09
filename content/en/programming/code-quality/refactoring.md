@@ -20,6 +20,7 @@ Code reviews, sprint planning, and technical-debt discussions.
 
 - Let's refactor this module before adding new features.
 - The tests passed before and after the refactoring.
+- We refactored the billing module into smaller functions, and no behaviour changed.
 
 ## Common mistake
 

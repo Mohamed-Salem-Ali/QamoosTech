@@ -20,6 +20,7 @@ In architecture reviews, team meetings, and complex technical planning sessions.
 
 - We need to schedule a deep dive into our authentication system next week.
 - Let us do a deep dive on this performance bottleneck during the afternoon session.
+- The deep dive on the checkout flow found three places where users leave the page.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["حلول برمجية جاهزة ومجرربة","أنماط الب�
   - هذا نمط Observer: يُبلَّغ المشتركون عند كل تغيير.
 - Do not force a pattern where a simple function is enough.
   - لا تفرض نمطًا حيث تكفي دالة بسيطة.
+- The shop uses a factory pattern to create the right payment handler for each country.
+  - يستخدم المتجر نمط المصنع (factory) لإنشاء معالج الدفع المناسب لكل دولة.
 
 ## خطأ شائع
 

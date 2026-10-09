@@ -23,6 +23,7 @@ In Django queries (`filter()`, `exclude()`), ORM docs, and code reviews on searc
 
 - Use `__gte` to get payments of at least 100.
 - `__icontains` ignores upper and lower case.
+- Filtering with name__icontains matches both Ali and ali.
 
 ## Common mistake
 

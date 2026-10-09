@@ -23,6 +23,7 @@ In ORM code, data imports, seeding scripts and performance reviews that remove s
 
 - Use a bulk insert for the 10,000 imported rows.
 - Saving each object in a loop sent thousands of queries; the bulk version sends one.
+- Inserting the 10,000 rows with one bulk operation took two seconds.
 
 ## Common mistake
 

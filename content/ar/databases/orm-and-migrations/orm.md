@@ -23,6 +23,8 @@ keywords: ["الربط الكائني العلائقي","التعامل مع ق�
   - يولّد الـ ORM شيفرة SQL نيابة عنا.
 - For this heavy report, raw SQL is faster than the ORM.
   - في هذا التقرير الثقيل، SQL الخام أسرع من الـ ORM.
+- The ORM query loads the customer with the order, without us writing a join.
+  - يحمّل استعلام ORM العميل مع الطلب، دون أن نكتب أي ربط.
 
 ## خطأ شائع
 

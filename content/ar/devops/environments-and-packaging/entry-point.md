@@ -26,6 +26,8 @@ keywords: ["أمر يُنشأ عند التثبيت", "سكريبت الطرفي
   - عرّف `tracker = "tracker.cli:main"` كنقطة دخول.
 - After installing, the tracker command exists thanks to the entry point.
   - بعد التثبيت يصبح أمر tracker موجوداً بفضل نقطة الدخول.
+- The entry point main() parses the arguments and starts the app.
+  - تحلّل نقطة الدخول main() المعاملات وتشغّل التطبيق.
 
 ## خطأ شائع
 

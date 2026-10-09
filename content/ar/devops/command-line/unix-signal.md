@@ -25,6 +25,8 @@ keywords: ["الإشارات SIGTERM وSIGKILL وSIGINT", "الاختصار Ctrl
   - عالج SIGTERM ليُنهي التطبيق الطلبات الجارية قبل الخروج.
 - Kubernetes sends SIGTERM, waits 30 seconds, then SIGKILL.
   - يرسل Kubernetes الإشارة SIGTERM وينتظر 30 ثانية ثم SIGKILL.
+- On deploy, the process receives SIGTERM and closes its connections before it exits.
+  - عند النشر تتلقى العملية الإشارة SIGTERM وتغلق اتصالاتها قبل أن تنتهي.
 
 ## خطأ شائع
 

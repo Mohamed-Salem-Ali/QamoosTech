@@ -26,6 +26,8 @@ keywords: ["تحديد أنواع معاملات الدالة", "إخبار ال
   - أضف type hints إلى تعريف الدالة ليتمكن المحرر من تنبيهنا.
 - Python ignores type hints at runtime; a separate checker reads them.
   - بايثون تتجاهل type hints وقت التشغيل؛ أداة فحص منفصلة هي التي تقرؤها.
+- The function signature has type hints, so the editor shows the expected argument type.
+  - يحوي توقيع الدالة تلميحات أنواع (type hints)، فيعرض المحرر نوع المعامل المتوقع.
 
 ## خطأ شائع
 

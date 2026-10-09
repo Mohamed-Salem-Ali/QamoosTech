@@ -20,6 +20,7 @@ Used in emails, Slack messages, or project management tickets when requesting a 
 
 - Please review the pull request at your earliest convenience.
 - Could you share the updated documentation at your earliest convenience?
+- Please send the signed contract at your earliest convenience; there is no rush.
 
 ## Common mistake
 

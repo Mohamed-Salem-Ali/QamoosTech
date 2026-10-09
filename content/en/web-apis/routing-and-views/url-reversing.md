@@ -23,6 +23,7 @@ In Django (`reverse()`, `{% url %}`), redirects after a form, and refactors that
 
 - Redirect with `reverse('circle-detail', args=[circle.id])`.
 - Name every route so you can reverse it.
+- The template uses reverse to build the link to the order page from its name.
 
 ## Common mistake
 

@@ -25,6 +25,8 @@ keywords: ["مفتاح واحد للتشفير وفكه", "معيار AES", "ت�
   - النسخة الاحتياطية مشفرة بـ AES-256 وهو تشفير متماثل.
 - Anyone with the key can decrypt the data, so protect the key.
   - كل من يملك المفتاح يستطيع فك التشفير لذا احمِ المفتاح.
+- The app encrypts the file with a key that the same service uses later to decrypt it.
+  - يشفّر التطبيق الملف بمفتاح تستخدمه الخدمة نفسها لاحقاً لفك تشفيره.
 
 ## خطأ شائع
 

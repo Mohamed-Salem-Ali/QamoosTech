@@ -25,6 +25,8 @@ keywords: ["النسخ تلحق لاحقاً", "قراءات قديمة للحظ
   - يظهر تحديث الملف على النسخة بعد ثانية؛ فهو اتساق نهائي.
 - Don't read from a replica right after a write if you need the new value.
   - لا تقرأ من نسخة فور الكتابة إن كنت تحتاج القيمة الجديدة.
+- The dashboard shows the old count for a moment, because the replicas catch up over time.
+  - تعرض لوحة المتابعة العدد القديم لحظة، لأن النسخ المتماثلة تلحق بالتحديث مع الوقت.
 
 ## خطأ شائع
 

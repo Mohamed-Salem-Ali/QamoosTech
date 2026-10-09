@@ -25,6 +25,8 @@ keywords: ["مقارنة مجموعتي سجلات", "المدفوعات مقا�
   - نبّهت المطابقة الليلية إلى دفعتين مفقودتين من قاعدة بياناتنا.
 - Match the records by the provider's transaction id.
   - طابق السجلات بمعرّف معاملة المزود.
+- The reconciliation found a refund the provider had processed but we had not recorded.
+  - كشفت المطابقة استرداداً نفّذه المزوّد ولم نسجّله نحن.
 
 ## خطأ شائع
 

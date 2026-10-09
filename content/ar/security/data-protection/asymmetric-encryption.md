@@ -25,6 +25,8 @@ keywords: ["مفتاح عام ومفتاح خاص", "أي أحد يشفّر وا
   - شارك مفتاحك العام ولا تشارك الخاص أبداً.
 - RSA and Ed25519 are asymmetric algorithms.
   - ‏RSA وEd25519 خوارزميتان غير متماثلتين.
+- The server signs the token with its private key, and every client checks it with the public key.
+  - يوقّع الخادم الرمز بمفتاحه الخاص، ويتحقق منه كل عميل بالمفتاح العام.
 
 ## خطأ شائع
 

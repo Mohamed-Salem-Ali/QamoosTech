@@ -22,6 +22,8 @@ keywords: ["حجم ملفات الجافاسكريبت النهائية","تقل
   - إضافة تلك المكتبة زادت حجم الـ bundle بمقدار 300 كيلوبايت.
 - Split the bundle so each page loads only what it needs.
   - قسّم الـ bundle ليحمّل كل صفحة ما تحتاجه فقط.
+- The bundle includes the chart library, so the first screen loads slowly on phones.
+  - تحتوي الحزمة المُجمَّعة على مكتبة الرسوم البيانية، لذلك تُحمَّل الشاشة الأولى ببطء على الهواتف.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["ترتيب الأحداث دون الوقت الحقيقي", "ساع
   - تحمل كل رسالة ختم لامبورت ليرتب المستقبل الأحداث.
 - Two vector clocks that can't be ordered mean a concurrent update, so a conflict.
   - ساعتان متجهتان لا يمكن ترتيبهما تعنيان تحديثاً متزامناً أي تعارضاً.
+- Lamport timestamps show that the update on node B happened after the write on node A.
+  - تُظهر طوابع لامبورت الزمنية أن التحديث على العقدة B حدث بعد الكتابة على العقدة A.
 
 ## خطأ شائع
 

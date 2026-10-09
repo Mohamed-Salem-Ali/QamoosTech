@@ -21,6 +21,7 @@ In discussions about text bugs, internationalisation, and databases or files tha
 
 - Python strings are Unicode, so Arabic text works without special handling.
 - The emoji is one Unicode character but takes several bytes when stored.
+- Each emoji and each Arabic letter has its own Unicode code point.
 
 ## Common mistake
 

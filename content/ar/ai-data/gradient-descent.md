@@ -24,6 +24,8 @@ keywords: ["تقليل الخطأ خطوة بخطوة", "معدل التعلم",
   - يحدّث النزول التدريجي الأوزان باستخدام تدرج الخسارة.
 - A learning rate that is too large makes the loss bounce around.
   - معدل تعلم كبير جداً يجعل الخسارة تتذبذب.
+- Each step moves the weights a small amount against the gradient, so the loss goes down.
+  - تحرّك كل خطوة الأوزان قليلاً عكس التدرّج، فينخفض الخطأ.
 
 ## خطأ شائع
 

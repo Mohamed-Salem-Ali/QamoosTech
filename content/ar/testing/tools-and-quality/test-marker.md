@@ -26,6 +26,8 @@ keywords: ["تخطي اختبار", "فشل متوقع", "وسم الاختبا�
   - ضع وسم `xfail` على الاختبار حتى يُصلح الخطأ.
 - Run `pytest -m "not slow"` for the quick feedback loop.
   - شغّل `pytest -m "not slow"` لحلقة تغذية راجعة سريعة.
+- The slow integration tests are marked, so the quick run skips them.
+  - عُلِّمت اختبارات التكامل البطيئة، فتتخطاها عملية التشغيل السريعة.
 
 ## خطأ شائع
 

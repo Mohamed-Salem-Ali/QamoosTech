@@ -20,6 +20,7 @@ Express, NestJS, Django, and Next.js backend discussions.
 
 - Add a middleware that logs every request.
 - The auth middleware rejects requests without a valid token.
+- The rate-limit middleware returns 429 before the request reaches the handler.
 
 ## Common mistake
 

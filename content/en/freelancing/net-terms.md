@@ -20,6 +20,7 @@ In contract negotiations, service agreements, and invoice footers.
 
 - We typically set our payment terms to Net 30 for new clients.
 - Please ensure the invoice reflects our agreed-upon Net 15 terms.
+- We invoice on the first of the month with Net 30 terms.
 
 ## Common mistake
 

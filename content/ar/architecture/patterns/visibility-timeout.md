@@ -25,6 +25,8 @@ keywords: ["الرسالة مخفية أثناء المعالجة", "خدمة SQ
   - تستغرق المهمة 90 ثانية بينما المهلة 30 فتعمل مرتين.
 - Extend the visibility timeout for long jobs.
   - مدّد مهلة الإخفاء للمهام الطويلة.
+- The queue hid the message for 60 seconds while the worker processed it.
+  - أخفى الطابور الرسالة 60 ثانية بينما كان العامل يعالجها.
 
 ## خطأ شائع
 

@@ -23,6 +23,7 @@ In JavaScript interviews, explanations of `class` and `extends`, and debugging "
 
 - `arr.map` isn't on the array itself; it's found on `Array.prototype` up the chain.
 - A JavaScript `class` is syntax over prototype links.
+- Setting a property on the prototype makes it visible to every object created from it.
 
 ## Common mistake
 

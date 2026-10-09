@@ -19,6 +19,7 @@ Work emails and meetings.
 
 - I'm circling back on the pricing question from Monday.
 - Let's circle back to this after the demo.
+- Circling back on the invoice: did the client ever reply?
 
 ## Common mistake
 

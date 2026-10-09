@@ -25,6 +25,8 @@ keywords: ["يقف أمام العملاء", "يخفي IP العميل", "وكي
   - تمر كل الحركة الصادرة عبر الوكيل الأمامي للشركة.
 - pip fails because the corporate proxy isn't configured.
   - يفشل pip لأن وكيل الشركة غير مضبوط.
+- The office proxy caches package downloads, so the second install is faster.
+  - يخزّن وكيل المكتب تنزيلات الحزم مؤقتاً، فيكون التثبيت الثاني أسرع.
 
 ## خطأ شائع
 

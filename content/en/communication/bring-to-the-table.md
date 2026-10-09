@@ -21,6 +21,7 @@ To provide a useful skill, idea, resource, or value that benefits a team or proj
 
 - Senior engineers bring years of architecture experience to the table.
 - Let us review what each team member brings to the table for this project.
+- What does the designer bring to the table that the developers cannot cover?
 
 ## Common mistake
 

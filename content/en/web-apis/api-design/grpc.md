@@ -22,6 +22,7 @@ In microservice architectures, Go and Java backends, and "REST or gRPC?" design 
 
 - Internal services talk over gRPC; the public API stays REST.
 - Generate the client from the `.proto` file.
+- The billing service calls the invoice service over gRPC with a generated client.
 
 ## Common mistake
 

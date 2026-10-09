@@ -22,6 +22,7 @@ In static analysis security tools (CodeQL, Semgrep, Bandit), secure coding cours
 
 - The scanner shows a taint path from `request.GET` to `cursor.execute`.
 - Add a sanitizer so the data is no longer tainted.
+- The tool traced the user input from the form to the SQL query and flagged it.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ In Python and JavaScript debugging, when a list or object changes somewhere you 
 
 - `b = a` creates an alias, not a copy, so adding to `b` also changes `a`.
 - The bug was aliasing: both rows pointed at the same list.
+- Both variables point to the same list, so appending to one changes the other.
 
 ## Common mistake
 

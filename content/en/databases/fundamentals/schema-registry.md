@@ -22,6 +22,7 @@ In Kafka and event-driven systems with many teams, data platforms and API govern
 
 - The registry rejects a change that removes a required field.
 - Producers register the schema before publishing.
+- The producer registers the new Avro schema, and the registry confirms it is compatible.
 
 ## Common mistake
 

@@ -21,6 +21,7 @@ In frontend and design team meetings, component libraries (Storybook), and when 
 
 - Use the design system's button instead of styling a new one.
 - Change a colour token once and every screen updates.
+- The new order page is built from the design system's card and table components.
 
 ## Common mistake
 

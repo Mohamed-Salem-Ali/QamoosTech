@@ -22,6 +22,7 @@ In distributed systems courses, database internals (Dynamo, Cassandra) and confl
 
 - Each message carries a Lamport timestamp so the receiver can order events.
 - Two vector clocks that can't be ordered mean a concurrent update, so a conflict.
+- Lamport timestamps show that the update on node B happened after the write on node A.
 
 ## Common mistake
 

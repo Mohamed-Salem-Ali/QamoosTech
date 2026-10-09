@@ -26,6 +26,8 @@ keywords: ["العاملان gte وicontains", "عامل التصفية", "عو�
   - استخدم `__gte` لجلب الدفعات بقيمة 100 فأكثر.
 - `__icontains` ignores upper and lower case.
   - يتجاهل `__icontains` حالة الأحرف.
+- Filtering with name__icontains matches both Ali and ali.
+  - يطابق التصفية بـ name__icontains الاسمين Ali وali معاً.
 
 ## خطأ شائع
 

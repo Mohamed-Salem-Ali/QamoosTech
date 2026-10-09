@@ -21,6 +21,7 @@ In performance reviews, serverless architecture discussions, and when optimizing
 
 - The first API request took three seconds because of a cold start.
 - We use provisioned concurrency to eliminate cold starts for critical endpoints.
+- The first request after the night was slow because of a cold start.
 
 ## Common mistake
 

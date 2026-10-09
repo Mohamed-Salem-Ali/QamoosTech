@@ -19,6 +19,7 @@ Prioritization and performance talks.
 
 - Will this refactor really move the needle?
 - Adding an index moved the needle: the page now loads in 400 ms.
+- Caching the homepage moved the needle: the bounce rate dropped by a fifth.
 
 ## Common mistake
 

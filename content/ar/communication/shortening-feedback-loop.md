@@ -22,6 +22,8 @@ keywords: ["تقليل وقت الحصول على ملاحظات","تسريع د
   - العروض الأسبوعية قصّرت حلقة التغذية الراجعة مع العميل.
 - Fast tests shorten the feedback loop for developers.
   - الاختبارات السريعة تقصّر حلقة التغذية الراجعة للمطورين.
+- Running the test suite on every save shortened the feedback loop for the developers.
+  - قصّر تشغيل مجموعة الاختبارات عند كل حفظ حلقة التغذية الراجعة للمطورين.
 
 ## خطأ شائع
 

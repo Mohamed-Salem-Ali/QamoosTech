@@ -22,6 +22,7 @@ In home and office network setup, cloud networking and "can reach local but not 
 
 - The laptop can reach the printer but not the internet; check the default gateway.
 - In AWS, the internet gateway acts as the way out for public subnets.
+- The server's default gateway is misconfigured, so it cannot reach the database subnet.
 
 ## Common mistake
 

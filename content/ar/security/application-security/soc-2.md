@@ -25,6 +25,8 @@ keywords: ["تقرير تدقيق أمان لـ SaaS", "يطلبه العملا�
   - طلب العميل تقرير SOC 2 الخاص بنا قبل التوقيع.
 - Type 2 covers how controls worked over several months.
   - يغطي النوع 2 كيف عملت الضوابط على مدى أشهر.
+- Our SOC 2 Type 2 report covers six months of controls and is shared under an NDA.
+  - يغطي تقرير SOC 2 Type 2 الخاص بنا ستة أشهر من الضوابط، ويُشارك بموجب اتفاق عدم إفشاء.
 
 ## خطأ شائع
 

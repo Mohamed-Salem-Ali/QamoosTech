@@ -23,6 +23,7 @@ In Django code and documentation, performance reviews about how many queries a p
 
 - Chaining `filter()` and `order_by()` doesn't hit the database until the QuerySet is evaluated.
 - Return a QuerySet from the function so callers can keep refining it.
+- The QuerySet is filtered twice, and the database is queried only once when we loop over it.
 
 ## Common mistake
 

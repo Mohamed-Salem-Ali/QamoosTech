@@ -22,6 +22,7 @@ In Redis and CDN performance incidents, and system design interviews about hot k
 
 - The homepage key expired and 5,000 requests hit the database.
 - Add jitter to the TTLs so keys don't all expire together.
+- We added a lock so that only one request rebuilds the expired key during a stampede.
 
 ## Common mistake
 

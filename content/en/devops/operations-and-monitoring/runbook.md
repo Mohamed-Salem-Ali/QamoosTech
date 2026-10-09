@@ -22,6 +22,7 @@ In on-call rotations, incident response, alert descriptions that link to docs, a
 
 - The alert links to a runbook with the first five checks.
 - Update the runbook after every incident.
+- The runbook says to check the queue depth first, then restart the worker.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ In TypeScript, in Python typing discussions, and when designing code that should
 
 - Any class with a `due()` method satisfies the protocol, even if it never mentions it.
 - TypeScript types are structural, so matching shapes are interchangeable.
+- The function accepts anything with a due() method, so the new invoice class works without inheriting anything.
 
 ## Common mistake
 

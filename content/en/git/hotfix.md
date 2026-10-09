@@ -20,6 +20,7 @@ In incident channels and release notes, when production is broken and cannot wai
 
 - We pushed a hotfix for the login error at midnight.
 - After the hotfix, merge it back into the development branch.
+- The hotfix went out within an hour, and the login errors stopped.
 
 ## Common mistake
 

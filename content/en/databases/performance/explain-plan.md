@@ -21,6 +21,7 @@ Database optimization discussions, slow query troubleshooting, and performance t
 
 - Run `EXPLAIN SELECT * FROM users WHERE email = 'test@example.com';` to see if the query uses the email index.
 - The execution plan showed a full table scan, which explained why the report query was so slow.
+- The plan shows the query scans the whole orders table, so an index on the date would help.
 
 ## Common mistake
 

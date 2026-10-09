@@ -23,6 +23,7 @@ In Django and Jinja templates, XSS prevention guides, and security reviews of `|
 
 - Django escapes variables automatically, so a `<script>` tag shows as plain text.
 - Don't turn auto-escaping off for user content.
+- The comment field shows <b>hi</b> as plain text, because the template escapes it.
 
 ## Common mistake
 

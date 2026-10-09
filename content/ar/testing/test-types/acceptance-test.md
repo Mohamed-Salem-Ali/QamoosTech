@@ -24,6 +24,8 @@ keywords: ["اختبار جاهزية النظام","معايير الموافق
   - نحتاج إلى تشغيل اختبارات القبول قبل النشر في بيئة الإنتاج.
 - The user story is not complete until it passes the acceptance test.
   - قصة المستخدم (user story) لا تعتبر مكتملة حتى تجتاز اختبار القبول.
+- The acceptance test logs in as a customer and checks that the invoice downloads.
+  - يسجّل اختبار القبول الدخول كعميل، ويتحقق من أن الفاتورة تُحمَّل.
 
 ## خطأ شائع
 

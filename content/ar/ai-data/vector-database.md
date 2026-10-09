@@ -23,6 +23,8 @@ keywords: ["قاعدة بيانات للمتجهات","تخزين مخرجات �
   - نحتاج إلى قاعدة بيانات متجهة لتخزين متجهات المستندات الخاصة ببحثنا الدلالي.
 - The new vector database allows us to perform similarity searches across millions of items in milliseconds.
   - تتيح لنا قاعدة البيانات المتجهة الجديدة إجراء عمليات البحث عن التشابه عبر ملايين العناصر في غضون مللي ثانية.
+- The vector database returns the ten chunks closest to the user's question.
+  - تُعيد قاعدة البيانات المتجهية العشرة مقاطع الأقرب إلى سؤال المستخدم.
 
 ## خطأ شائع
 

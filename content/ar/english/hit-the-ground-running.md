@@ -22,6 +22,8 @@ keywords: ["الانطلاق في العمل بسرعة","الإنتاجية م�
   - كانت تعرف تقنياتنا، فانطلقت بسرعة من اليوم الأول.
 - We need someone who can hit the ground running.
   - نحتاج شخصًا يستطيع الانطلاق بسرعة منذ البداية.
+- The new hire hit the ground running and shipped a feature in the first week.
+  - بدأ الموظف الجديد العمل بسرعة وأطلق ميزة في أسبوعه الأول.
 
 ## خطأ شائع
 

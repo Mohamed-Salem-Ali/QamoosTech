@@ -24,6 +24,8 @@ keywords: ["طابور الرسائل الفاشلة","مكان تخزين ال�
   - قام العامل الخلفي بنقل رسالة جيسون التالفة إلى طابور الرسائل التالفة بعد ثلاث محاولات فاشلة.
 - We set up an alert to notify the engineering team whenever a message lands in the payment service DLQ.
   - قمنا بإعداد تنبيه لإعلام فريق الهندسة كلما استقرت رسالة في طابور الرسائل التالفة لخدمة الدفع.
+- Messages that fail five times go to the dead letter queue for manual review.
+  - تنتقل الرسائل التي تفشل خمس مرات إلى طابور الرسائل الميتة لمراجعتها يدوياً.
 
 ## خطأ شائع
 

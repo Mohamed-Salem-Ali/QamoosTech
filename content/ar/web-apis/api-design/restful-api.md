@@ -23,6 +23,8 @@ keywords: ["تصميم واجهات برمجة التطبيقات","واجهة �
   - يتواصل تطبيق الجوال مع واجهة REST تعيد JSON.
 - Use `POST` to create and `DELETE` to remove a resource.
   - استخدم `POST` للإنشاء و`DELETE` للحذف.
+- A RESTful API returns all orders at /orders and one order at /orders/15.
+  - تُعيد الواجهة RESTful كل الطلبات عند /orders، وطلباً واحداً عند /orders/15.
 
 ## خطأ شائع
 

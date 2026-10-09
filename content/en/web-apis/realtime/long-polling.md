@@ -21,6 +21,7 @@ In architecture discussions about real-time features, chat applications, or noti
 
 - The notification service uses long polling to deliver alerts to the browser without opening a permanent socket.
 - When the server receives a long polling request, it waits for thirty seconds before returning an empty response if no changes occur.
+- The chat client sends a request that the server answers as soon as a new message arrives.
 
 ## Common mistake
 

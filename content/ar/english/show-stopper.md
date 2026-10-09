@@ -23,6 +23,8 @@ keywords: ["مشكلة تمنع إطلاق البرنامج","خطأ تقني ي
   - لا يمكننا نشر التحديث لأن تعطل بوابة الدفع يعتبر show-stopper.
 - The team identified a show-stopper in the authentication flow that delays our launch.
   - حدد الفريق مشكلة show-stopper في مسار التحقق من الهوية تؤخر إطلاقنا للمنتج.
+- The login bug on Safari is a show-stopper, so the release waits until it is fixed.
+  - خلل تسجيل الدخول على Safari عائق كبير يوقف الإصدار حتى يُصلح.
 
 ## خطأ شائع
 

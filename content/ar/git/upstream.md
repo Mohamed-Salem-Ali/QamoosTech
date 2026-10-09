@@ -23,6 +23,8 @@ keywords: ["المستودع الأصلي في جيت","ربط الفرع بال
   - قم بتشغيل `git remote add upstream` لربط نسختك بالمستودع الأصلي.
 - Always fetch from the upstream repository before starting a new feature.
   - احرص دائماً على جلب التغييرات من المستودع الرئيسي قبل البدء في تطوير ميزة جديدة.
+- I pulled the latest changes from upstream before rebasing my fork.
+  - سحبتُ أحدث التغييرات من upstream قبل إعادة تأسيس نسختي المتفرّعة.
 
 ## خطأ شائع
 

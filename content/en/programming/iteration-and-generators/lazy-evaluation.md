@@ -22,6 +22,7 @@ In discussions of generators, database queries that run only when read, and perf
 
 - The query is lazy: nothing hits the database until we loop over the results.
 - A generator is lazy, so it can describe an endless sequence.
+- The filter runs only when the results are printed, so unused rows are never processed.
 
 ## Common mistake
 

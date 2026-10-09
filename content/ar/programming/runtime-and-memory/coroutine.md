@@ -25,6 +25,8 @@ keywords: ["دالة تستطيع التوقف", "الكلمة async def", "‏a
   - استدعاء دالة روتين يعطيك كائن روتين؛ ويجب أن تنتظره بـ await.
 - One thread can run thousands of coroutines.
   - يمكن لخيط واحد تشغيل آلاف الروتينات.
+- The coroutine waits for the network call and lets other requests run in the meantime.
+  - تنتظر الدالة المشتركة (coroutine) استدعاء الشبكة، وتترك الطلبات الأخرى تعمل في هذه الأثناء.
 
 ## خطأ شائع
 

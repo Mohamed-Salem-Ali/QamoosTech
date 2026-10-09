@@ -20,6 +20,7 @@ Password storage and data integrity checks.
 
 - We store a hash of the password, never the password itself.
 - Use bcrypt or Argon2 for passwords.
+- The login checks the typed password against the stored hash, never against plain text.
 
 ## Common mistake
 

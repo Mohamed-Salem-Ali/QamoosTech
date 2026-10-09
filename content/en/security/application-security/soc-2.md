@@ -22,6 +22,7 @@ In sales and security questionnaires, SaaS vendor reviews and compliance project
 
 - The customer asked for our SOC 2 report before signing.
 - Type 2 covers how controls worked over several months.
+- Our SOC 2 Type 2 report covers six months of controls and is shared under an NDA.
 
 ## Common mistake
 

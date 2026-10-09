@@ -24,6 +24,8 @@ keywords: ["خدمات مصغرة يجب نشرها معاً", "ترابط وث�
   - خمس خدمات تتشارك قاعدة بيانات وتُنشر معاً؛ إنه مونوليث موزع.
 - We got network latency and operational cost but no independence.
   - حصلنا على زمن الشبكة وتكلفة التشغيل دون استقلالية.
+- Every change to the order service also needs the billing service redeployed.
+  - يستلزم كل تغيير في خدمة الطلبات إعادة نشر خدمة الفوترة كذلك.
 
 ## خطأ شائع
 

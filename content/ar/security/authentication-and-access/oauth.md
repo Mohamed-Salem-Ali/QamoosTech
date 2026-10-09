@@ -23,6 +23,8 @@ keywords: ["تسجيل الدخول بحساب جوجل","منح صلاحيات 
   - أضفنا تسجيل الدخول بحساب Google باستخدام OAuth 2.0.
 - The app asks for permission to read your calendar only.
   - يطلب التطبيق إذنًا لقراءة تقويمك فقط.
+- The app asks for read-only access to the calendar, and the user approves it on Google.
+  - يطلب التطبيق صلاحية قراءة فقط للتقويم، ويوافق عليها المستخدم عبر Google.
 
 ## خطأ شائع
 

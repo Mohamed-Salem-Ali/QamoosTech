@@ -26,6 +26,8 @@ keywords: ["يقرأ كل الصفوف", "لا فهرس مستخدم", "المس
   - تعرض الخطة مسحاً تسلسلياً على 5 ملايين صف.
 - Add an index on `member_id` to avoid the full scan.
   - أضف فهرساً على `member_id` لتجنب المسح الكامل.
+- The query reads all 5 million rows because the filter column has no index.
+  - يقرأ الاستعلام كل الصفوف الخمسة ملايين لأن عمود التصفية لا يملك فهرساً.
 
 ## خطأ شائع
 

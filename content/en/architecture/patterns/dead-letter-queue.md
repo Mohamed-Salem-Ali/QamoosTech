@@ -21,6 +21,7 @@ In asynchronous architectures, event-driven systems, and message broker configur
 
 - The background worker moved the malformed JSON message to the DLQ after three failed retries.
 - We set up an alert to notify the engineering team whenever a message lands in the payment service DLQ.
+- Messages that fail five times go to the dead letter queue for manual review.
 
 ## Common mistake
 

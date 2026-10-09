@@ -24,6 +24,8 @@ keywords: ["نمط النشر والاشتراك لتبادل الرسائل","�
   - نستخدم Pub/Sub لفصل خدمة المستخدم عن نظام إشعارات البريد الإلكتروني.
 - The analytics engine subscribes to the click-stream topic to process user events in real-time.
   - يشترك محرك التحليلات في موضوع تدفق النقرات لمعالجة أحداث المستخدم لحظياً.
+- The order service publishes an OrderPlaced event, and three subscribers react to it.
+  - تنشر خدمة الطلبات حدث OrderPlaced، ويستجيب له ثلاثة مشتركين.
 
 ## خطأ شائع
 

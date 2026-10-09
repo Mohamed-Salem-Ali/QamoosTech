@@ -21,6 +21,7 @@ In CI/CD pipeline reports, during code reviews, or when discussing test suite re
 
 - We need to quarantine this flaky test because it is causing random build failures.
 - The team spent all day debugging a flaky test that only fails on the CI server.
+- The flaky test passed on rerun, so the team quarantined it until someone fixes it.
 
 ## Common mistake
 

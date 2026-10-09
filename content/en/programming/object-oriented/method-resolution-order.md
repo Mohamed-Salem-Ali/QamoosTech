@@ -22,6 +22,7 @@ In Python inheritance discussions, interviews about the diamond problem, and deb
 
 - Print `D.__mro__` to see the lookup order.
 - `super()` calls the next class in the MRO, not necessarily the direct parent.
+- The MRO places the mixin before the base class, so its method runs first.
 
 ## Common mistake
 

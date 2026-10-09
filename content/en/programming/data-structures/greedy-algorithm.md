@@ -23,6 +23,7 @@ In algorithm courses and interviews (interval scheduling, coin change, Huffman c
 
 - Greedy works for interval scheduling: always pick the meeting that ends earliest.
 - For odd coin systems greedy gives the wrong count.
+- The greedy approach gives change by taking the largest coin first, which works for these coins.
 
 ## Common mistake
 

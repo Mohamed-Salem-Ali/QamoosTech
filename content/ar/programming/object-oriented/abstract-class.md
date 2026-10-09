@@ -26,6 +26,8 @@ keywords: ["صنف لا يمكن إنشاء كائن منه", "صنف أساسي
   - الصنف الأساسي `PaymentMethod` مجرّد؛ وكل صنف فعلي ينفّذ `charge()`.
 - You cannot instantiate an abstract class.
   - لا يمكنك إنشاء كائن من صنف مجرّد.
+- The abstract Shape class requires every subclass to implement area().
+  - تفرض الفئة المجرّدة Shape على كل فئة فرعية تنفيذ الدالة area().
 
 ## خطأ شائع
 

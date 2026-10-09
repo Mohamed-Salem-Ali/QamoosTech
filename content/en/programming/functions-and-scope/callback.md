@@ -20,6 +20,7 @@ JavaScript and Node.js, event handlers, and older asynchronous code.
 
 - Pass a callback that runs after the file is read.
 - Nested callbacks became hard to read, so we moved to `async/await`.
+- The button passes a callback that runs when the request finishes.
 
 ## Common mistake
 

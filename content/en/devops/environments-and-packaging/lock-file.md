@@ -23,6 +23,7 @@ In `package-lock.json`, `poetry.lock` and `uv.lock`, in deployment pipelines, an
 
 - Commit the lock file so the server installs the same versions.
 - The build broke after a new release; the lock file would have prevented it.
+- The lock file pins requests to 2.31.0, so the build installs the same version as yesterday.
 
 ## Common mistake
 

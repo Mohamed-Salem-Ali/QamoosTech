@@ -22,6 +22,7 @@ In on-call teams, monitoring setup reviews and incident reports where "the alert
 
 - We get 200 alerts a night; the team has alert fatigue.
 - Page a human only when action is needed right now.
+- After we raised the CPU threshold, the on-call phone stopped ringing all night.
 
 ## Common mistake
 

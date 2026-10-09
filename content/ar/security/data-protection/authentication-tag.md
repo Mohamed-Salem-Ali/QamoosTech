@@ -25,6 +25,8 @@ keywords: ["اكتشاف تعديل النص المشفر", "التشفير ال
   - يعيد AES-GCM النص المشفر ووسم مصادقة من 16 بايتاً.
 - Decryption raised an error because the tag didn't match.
   - رفع فك التشفير خطأً لأن الوسم لم يطابق.
+- Decryption failed on the tag check, so the stored file was corrupted or changed.
+  - فشل فك التشفير عند التحقق من الوسم، فالملف المخزَّن تالف أو جرى تعديله.
 
 ## خطأ شائع
 

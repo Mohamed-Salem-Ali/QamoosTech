@@ -25,6 +25,8 @@ keywords: ["اختبار مسار المستخدم كاملاً", "اختبار 
   - يسجّل الاختبار الشامل حساباً جديداً، ويضيف منتجاً، ثم يدفع.
 - End-to-end tests are slow, so keep only the most important flows.
   - الاختبارات الشاملة بطيئة، لذا احتفظ فقط بأهم المسارات.
+- The end-to-end test opens the browser, logs in, and completes a purchase.
+  - يفتح الاختبار من طرف إلى طرف المتصفح، ويسجّل الدخول، ويُكمل عملية شراء.
 
 ## خطأ شائع
 

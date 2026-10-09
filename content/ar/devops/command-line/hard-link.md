@@ -25,6 +25,8 @@ keywords: ["اسم آخر للملف نفسه", "نفس الـ inode", "المل
   - كلا الاسمين يشيران إلى inode واحد؛ وحذف أحدهما يُبقي البيانات.
 - `ls -l` shows the link count.
   - يعرض `ls -l` عدد الروابط.
+- Both names of the file are hard links, so deleting one name keeps the data.
+  - الاسمان لملف واحد روابط صلبة (hard links)، فحذف أحدهما يُبقي البيانات.
 
 ## خطأ شائع
 

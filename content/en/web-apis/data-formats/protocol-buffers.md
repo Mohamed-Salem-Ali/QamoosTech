@@ -22,6 +22,7 @@ In gRPC services, Kafka message schemas and size-sensitive systems.
 
 - The protobuf message is a fraction of the JSON size.
 - Never reuse or renumber a field number.
+- The service sends a protobuf message to the mobile app, which is much smaller than the JSON version.
 
 ## Common mistake
 

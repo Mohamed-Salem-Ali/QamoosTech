@@ -21,6 +21,7 @@ In code repositories, architecture reviews, and when someone asks "why did we ch
 
 - We wrote an ADR about choosing PostgreSQL over MongoDB.
 - The ADR lists the trade-offs we accepted.
+- The ADR explains why we chose an event bus over direct calls between services.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["المعلومات الشخصية المعرِّفة","بيانات 
   - لا تسجّل أي PII في السجلات.
 - Mask the PII before sending data to analytics.
   - أخفِ الـ PII قبل إرسال البيانات إلى التحليلات.
+- The support tool hides the phone number and the email, showing only the last four digits.
+  - تُخفي أداة الدعم رقم الهاتف والبريد الإلكتروني، فتعرض آخر أربعة أرقام فقط.
 
 ## خطأ شائع
 

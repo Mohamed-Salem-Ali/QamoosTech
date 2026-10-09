@@ -26,6 +26,8 @@ keywords: ["ربط تطبيق بايثون بالخادم", "‏Gunicorn وUvico
   - شغّل التطبيق بـ Gunicorn عبر نقطة دخول WSGI.
 - FastAPI is ASGI, so it needs Uvicorn rather than plain Gunicorn workers.
   - ‏FastAPI تعمل بـ ASGI لذا تحتاج Uvicorn وليس عمال Gunicorn العاديين.
+- The Django app runs under a WSGI server, while the chat service uses ASGI.
+  - يعمل تطبيق Django تحت خادم WSGI، بينما تستخدم خدمة الدردشة ASGI.
 
 ## خطأ شائع
 

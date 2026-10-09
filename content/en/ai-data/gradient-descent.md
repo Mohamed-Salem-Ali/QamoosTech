@@ -21,6 +21,7 @@ In ML courses, training logs (loss going down), optimizer settings and fine-tuni
 
 - Gradient descent updates the weights using the gradient of the loss.
 - A learning rate that is too large makes the loss bounce around.
+- Each step moves the weights a small amount against the gradient, so the loss goes down.
 
 ## Common mistake
 

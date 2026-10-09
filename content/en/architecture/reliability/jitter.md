@@ -21,6 +21,7 @@ In retry logic, cache expiry settings, and scheduled jobs that many servers run.
 
 - Add jitter to the retry delay so the clients spread their requests.
 - Each cache key gets a small random jitter on its expiry time.
+- With jitter, the 500 clients retry at scattered times instead of all at once.
 
 ## Common mistake
 

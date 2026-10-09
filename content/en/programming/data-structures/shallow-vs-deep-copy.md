@@ -23,6 +23,7 @@ In Python and JavaScript debugging, interviews, and when changing a copied list 
 
 - A shallow copy of the list still shares the inner dictionaries with the original.
 - Use a deep copy when the structure contains nested lists.
+- A deep copy of the cart lets us change the copy's items without touching the original.
 
 ## Common mistake
 

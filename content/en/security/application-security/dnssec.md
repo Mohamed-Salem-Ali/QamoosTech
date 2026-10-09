@@ -22,6 +22,7 @@ In domain security settings at registrars, DNS provider dashboards and DNS spoof
 
 - Turn on DNSSEC and add the DS record at the registrar.
 - DNSSEC proves the answer is authentic, but doesn't encrypt it.
+- The resolver rejected the answer because its DNSSEC signature did not validate.
 
 ## Common mistake
 

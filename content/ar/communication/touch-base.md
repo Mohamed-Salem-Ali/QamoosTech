@@ -22,6 +22,8 @@ keywords: ["اجتماع متابعة سريع","محادثة قصيرة للا�
   - لنتواصل يوم الخميس بشأن الإصدار.
 - I wanted to touch base before the deadline.
   - أردتُ أن أتواصل معك قبل الموعد النهائي.
+- Let's touch base on the invoice this afternoon; a quick call is fine.
+  - لنتواصل بشأن الفاتورة بعد الظهر، ومكالمة قصيرة تكفي.
 
 ## خطأ شائع
 

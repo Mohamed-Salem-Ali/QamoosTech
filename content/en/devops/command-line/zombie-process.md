@@ -22,6 +22,7 @@ In `ps` output marked `Z` or `<defunct>`, container PID 1 problems, and server h
 
 - Thousands of zombie processes filled the process table.
 - Use a tiny init such as `tini` in the container to reap zombies.
+- The parent process never reaped its children, so zombie processes piled up.
 
 ## Common mistake
 

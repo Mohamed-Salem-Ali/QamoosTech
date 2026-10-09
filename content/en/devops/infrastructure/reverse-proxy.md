@@ -20,6 +20,7 @@ Nginx setups and production troubleshooting ("502 Bad Gateway").
 
 - Nginx works as a reverse proxy in front of our Node app.
 - The 502 error means the proxy cannot reach the app.
+- The reverse proxy terminates HTTPS and forwards plain requests to the app on port 3000.
 
 ## Common mistake
 
@@ -27,7 +28,7 @@ Confusing it with a forward proxy. A forward proxy sits in front of users; a rev
 
 ## Don't confuse with
 
-Reverse proxy is often confused with a load balancer; while a reverse proxy handles requests for a specific server, a load balancer distributes traffic across multiple servers to ensure high availability.
+A reverse proxy is the front door for one or more servers: it terminates HTTPS, can cache, and forwards requests. A load balancer is a reverse proxy whose main job is spreading requests across several identical servers.
 
 ## Say it at work
 

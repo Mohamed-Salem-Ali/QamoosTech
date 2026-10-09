@@ -20,6 +20,7 @@ NestJS, API design, and validation.
 
 - The `CreateUserDto` rejects requests without a valid email.
 - Do not return the database entity directly. Use a response DTO.
+- The API accepts a CreateOrderDto, so invalid fields are rejected before they reach the service.
 
 ## Common mistake
 

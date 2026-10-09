@@ -21,6 +21,7 @@ You hear this during test result analysis, bug triaging, or when discussing the 
 
 - The security scan returned a false negative, missing a critical vulnerability in the code.
 - We had a false negative in our unit tests because the assertion was checking the wrong variable.
+- The scan reported no secrets in the repository, but a token was there, which is a false negative.
 
 ## Common mistake
 
@@ -28,7 +29,7 @@ Engineers often confuse a false negative with a false positive; remember that a 
 
 ## Don't confuse with
 
-A false negative occurs when the system fails to detect an existing bug, whereas a false positive occurs when the system incorrectly flags a bug that does not actually exist.
+A false positive raises an alarm that is not real, which wastes time. A false negative stays silent about a real problem, which is usually the more dangerous of the two.
 
 ## Say it at work
 

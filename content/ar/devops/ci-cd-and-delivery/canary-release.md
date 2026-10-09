@@ -24,6 +24,8 @@ keywords: ["نشر التحديث لمجموعة صغيرة من المستخد�
   - سنقوم بعمل Canary Release لـ 5% من حركة المرور للتأكد من استقرار مخطط قاعدة البيانات الجديد.
 - The team decided to use a canary release to test the new payment gateway integration.
   - قرر الفريق استخدام Canary Release لاختبار تكامل بوابة الدفع الجديدة.
+- The canary release sends 5 percent of users to v2 and watches the error rate.
+  - يرسل الإصدار التجريبي (canary) 5 في المئة من المستخدمين إلى v2، ويراقب معدل الأخطاء.
 
 ## خطأ شائع
 

@@ -22,6 +22,7 @@ A CORS Preflight is an automatic `OPTIONS` request sent by the browser before a 
 
 - The browser sends a CORS preflight request before making a `POST` request with custom headers.
 - If the server rejects the CORS preflight, the actual API request never gets sent.
+- The OPTIONS preflight returned 404, so the browser never sent the POST request.
 
 ## Common mistake
 

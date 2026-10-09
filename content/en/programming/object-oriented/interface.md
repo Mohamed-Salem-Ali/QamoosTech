@@ -20,6 +20,7 @@ TypeScript, Java, and discussions about writing code that is easy to swap and te
 
 - Both payment providers implement the same `PaymentGateway` interface.
 - Code against the interface, not the implementation.
+- The report accepts anything that implements the Exporter interface, such as CSV or PDF.
 
 ## Common mistake
 

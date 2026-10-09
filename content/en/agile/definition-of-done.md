@@ -20,6 +20,7 @@ During sprint planning, daily stand-ups, or when reviewing the team's working ag
 
 - We need to update our Definition of Done to include automated test coverage.
 - This ticket does not meet our Definition of Done because the documentation is missing.
+- The story is not done until it meets the definition of done: tests, review and documentation.
 
 ## Common mistake
 

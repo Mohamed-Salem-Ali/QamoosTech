@@ -26,6 +26,8 @@ keywords: ["استدعاءات الوعود تعمل أولاً", "تعمل قب
   - يُطبع استدعاء الوعد قبل استدعاء `setTimeout` لأن المهام الدقيقة تعمل أولاً.
 - An endless chain of microtasks can starve rendering.
   - سلسلة لا تنتهي من المهام الدقيقة قد تجوّع الرسم.
+- The then callback runs before the timer, because promise callbacks are microtasks.
+  - تعمل دالة then قبل المؤقت، لأن دوال الوعود مهام دقيقة (microtasks).
 
 ## خطأ شائع
 

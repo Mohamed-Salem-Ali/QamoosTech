@@ -20,6 +20,7 @@ In project planning meetings, architectural reviews, or when proposing a new too
 
 - We need to get buy-in from the engineering team before we switch to a new database.
 - The proposal failed because we couldn't get buy-in from the product managers.
+- We got buy-in from the team leads before the migration was announced.
 
 ## Common mistake
 

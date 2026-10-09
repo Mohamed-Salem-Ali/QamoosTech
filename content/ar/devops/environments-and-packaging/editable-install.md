@@ -26,6 +26,8 @@ keywords: ["أمر التثبيت بخيار e", "التغييرات تُطبَ�
   - ثبّت المشروع بوضع قابل للتحرير لتستورد الاختبارات أحدث كود لديك.
 - After an editable install the new command is available in the venv.
   - بعد التثبيت القابل للتحرير يصبح الأمر الجديد متاحاً في الـ venv.
+- After the editable install, changes in the package show up in the tests right away.
+  - بعد التثبيت القابل للتعديل، تظهر التغييرات في الحزمة داخل الاختبارات فوراً.
 
 ## خطأ شائع
 

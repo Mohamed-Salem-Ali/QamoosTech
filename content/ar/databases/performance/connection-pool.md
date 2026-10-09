@@ -24,6 +24,8 @@ keywords: ["إعادة استخدام اتصالات قاعدة البيانات
   - قمنا بإعداد مجمع اتصالات للتعامل مع الارتفاعات المفاجئة في حركة مرور المستخدمين.
 - The application crashed because the connection pool size was set too low.
   - تعطل التطبيق لأن حجم مجمع الاتصالات تم ضبطه على قيمة منخفضة جداً.
+- The pool keeps 20 open connections, so each request reuses one instead of connecting again.
+  - يحتفظ المجمّع بعشرين اتصالاً مفتوحاً، فيعيد كل طلب استخدام أحدها بدلاً من الاتصال من جديد.
 
 ## خطأ شائع
 

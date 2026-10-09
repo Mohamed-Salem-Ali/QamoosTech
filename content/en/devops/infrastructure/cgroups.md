@@ -22,6 +22,7 @@ In Docker and Kubernetes (`--memory`, resource limits), OOM-kill incidents and c
 
 - The container was killed for exceeding its cgroup memory limit.
 - Namespaces isolate what a container sees; cgroups limit what it can use.
+- The worker runs inside a cgroup that caps its memory at 512 MB.
 
 ## Common mistake
 

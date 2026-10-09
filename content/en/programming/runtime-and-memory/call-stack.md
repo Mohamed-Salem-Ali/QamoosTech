@@ -23,6 +23,7 @@ A call stack is a data structure that tracks the active functions in a program, 
 
 - The program crashed because the call stack exceeded its maximum size due to infinite recursion.
 - You can inspect the call stack in your browser's developer tools to see the sequence of function calls.
+- The stack trace shows the call stack at the moment the error was raised.
 
 ## Common mistake
 

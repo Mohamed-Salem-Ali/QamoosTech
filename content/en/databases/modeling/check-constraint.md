@@ -23,6 +23,7 @@ In schema design, migrations, and discussions about where validation should live
 
 - A check constraint stops anyone saving a negative amount, even from a script.
 - Add a check constraint so weeks can never be zero.
+- The check constraint rejects any order whose quantity is zero.
 
 ## Common mistake
 

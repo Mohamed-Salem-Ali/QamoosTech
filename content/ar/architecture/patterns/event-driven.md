@@ -23,6 +23,8 @@ keywords: ["تصميم مبني على الأحداث","معمارية مدفو�
   - عند إنشاء طلب، يشغّل حدث خدمتي البريد والفواتير.
 - An event-driven design keeps services loosely coupled.
   - التصميم المبني على الأحداث يبقي الخدمات غير مترابطة بإحكام.
+- The inventory service reacts to the order-placed event without the checkout calling it.
+  - تستجيب خدمة المخزون لحدث الطلب المُقدَّم دون أن تستدعيها صفحة الدفع.
 
 ## خطأ شائع
 

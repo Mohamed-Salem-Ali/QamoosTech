@@ -26,6 +26,8 @@ keywords: ["كود يعمل مع أي نوع", "قائمة من النوع T", "
   - القائمة العامة تتتبع نوع العناصر التي تحملها.
 - The function is generic: it returns the same type it was given.
   - الدالة عامة: تعيد النوع نفسه الذي أُعطيته.
+- A generic cache keeps the type of the values it stores, so callers get the right type back.
+  - تحتفظ الذاكرة المؤقتة العامة (generic) بنوع القيم التي تخزّنها، فيحصل المستدعي على النوع الصحيح.
 
 ## خطأ شائع
 

@@ -22,6 +22,8 @@ keywords: ["تسليم العمل لفريق آخر","نقل المهام بين
   - كتبتُ مستند تسليم قبل ذهابي في إجازة.
 - The design handoff includes the colors and spacing.
   - يشمل تسليم التصميم الألوان والمسافات.
+- The handoff note lists the open bugs, the deploy steps and who to ask about billing.
+  - تسرد ملاحظة التسليم الأخطاء المفتوحة وخطوات النشر، ومن يُسأل عن الفوترة.
 
 ## خطأ شائع
 

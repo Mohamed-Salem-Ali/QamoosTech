@@ -26,6 +26,8 @@ keywords: ["صنف صغير يضيف سلوكاً واحداً", "سلوك قا�
   - `JsonMixin` يعطي أي صنف دالة `to_json()`.
 - The view inherits from the login mixin to require authentication.
   - ترث الـ view من mixin تسجيل الدخول لتشترط المصادقة.
+- The Timestamps mixin adds created_at and updated_at to any model that inherits it.
+  - يضيف الدمج Timestamps الحقلين created_at وupdated_at إلى أي نموذج يرثه.
 
 ## خطأ شائع
 

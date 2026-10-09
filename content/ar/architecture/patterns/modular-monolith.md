@@ -25,6 +25,8 @@ keywords: ["وحدة نشر واحدة بوحدات نظيفة", "حدود دا�
   - نشغّل مونوليثاً معيارياً: الفوترة والأعضاء وحدتان منفصلتان في تطبيق واحد.
 - Modules only talk through public interfaces.
   - الوحدات تتخاطب عبر واجهات عامة فقط.
+- The orders module calls the billing module only through its public interface.
+  - تستدعي وحدة الطلبات وحدة الفوترة عبر واجهتها العامة فقط.
 
 ## خطأ شائع
 

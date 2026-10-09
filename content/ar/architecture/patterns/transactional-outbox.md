@@ -25,6 +25,8 @@ keywords: ["حفظ الحدث في المعاملة نفسها", "نشر موث�
   - ندرج الطلب وحدث OrderCreated في معاملة واحدة.
 - A relay reads the outbox table and publishes each row.
   - ناقل يقرأ جدول outbox وينشر كل صف.
+- The order and its event are written in one transaction, so no event is lost.
+  - يُكتب الطلب وحدثه في معاملة واحدة، فلا يضيع أي حدث.
 
 ## خطأ شائع
 

@@ -23,6 +23,7 @@ In algorithm courses and interviews, file-tree walking, dependency resolution an
 
 - DFS visits every file in a folder tree by going into each subfolder first.
 - Mark visited nodes so DFS doesn't loop in a graph with cycles.
+- DFS detects the cycle by noticing a node that is already on the current path.
 
 ## Common mistake
 

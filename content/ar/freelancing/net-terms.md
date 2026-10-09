@@ -23,6 +23,8 @@ keywords: ["مهلة سداد الفاتورة","فترة السماح للدف�
   - عادةً ما نحدد شروط الدفع بـ Net 30 للعملاء الجدد.
 - Please ensure the invoice reflects our agreed-upon Net 15 terms.
   - يرجى التأكد من أن الفاتورة تعكس شروط Net 15 التي اتفقنا عليها.
+- We invoice on the first of the month with Net 30 terms.
+  - نُصدر الفاتورة في أول الشهر بشروط الدفع Net 30.
 
 ## خطأ شائع
 

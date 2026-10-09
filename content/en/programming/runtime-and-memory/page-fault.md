@@ -22,6 +22,7 @@ In performance profiling, OS courses, and discussions about memory-mapped files 
 
 - Major page faults are slow because they read from disk.
 - A burst of page faults means the working set doesn't fit in RAM.
+- The first access to the big array triggers many page faults while the pages are loaded.
 
 ## Common mistake
 

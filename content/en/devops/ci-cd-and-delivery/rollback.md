@@ -21,6 +21,7 @@ Incidents and release plans.
 
 - The release broke login, so we rolled back in two minutes.
 - Always have a rollback plan before you deploy.
+- The rollback to version 2.4 restored the checkout within ten minutes.
 
 ## Common mistake
 

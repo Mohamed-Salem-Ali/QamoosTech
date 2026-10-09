@@ -25,6 +25,8 @@ keywords: ["تنبيهات كثيرة جداً", "الناس تتجاهل الإ
   - نتلقى 200 تنبيه كل ليلة؛ الفريق مصاب بإرهاق التنبيهات.
 - Page a human only when action is needed right now.
   - نبّه إنساناً فقط حين يلزم إجراء فوري.
+- After we raised the CPU threshold, the on-call phone stopped ringing all night.
+  - بعد رفع حدّ استخدام المعالج، توقّف هاتف المناوبة عن الرنين طوال الليل.
 
 ## خطأ شائع
 

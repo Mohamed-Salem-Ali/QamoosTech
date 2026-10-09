@@ -26,6 +26,8 @@ keywords: ["التدهور التدريجي","الحفاظ على الوظائف
   - إذا توقفت خدمة التوصيات، يعرض تطبيق التجارة الإلكترونية المنتجات العادية بدلاً من الانهيار.
 - The web app hides advanced animations when the browser's performance drops.
   - يقوم تطبيق الويب بإخفاء الرسوم المتحركة المتقدمة عندما ينخفض أداء المتصفح.
+- When the search index is slow, the site shows the category list instead of an error.
+  - حين يكون فهرس البحث بطيئاً، يعرض الموقع قائمة الفئات بدلاً من رسالة خطأ.
 
 ## خطأ شائع
 

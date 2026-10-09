@@ -19,6 +19,7 @@ Long-term client work and maintenance contracts.
 
 - The client pays a monthly retainer for ten hours of support.
 - A retainer gives me stable income.
+- The retainer covers twenty hours a month, and extra hours are billed separately.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["رسم بياني للعمل المتبقي في السبرنت","م
   - تفقد الفريق مخطط الاحتراق لمعرفة ما إذا كانوا سينتهون من جميع المهام بحلول نهاية السبرنت.
 - A flat line on the burndown chart indicates that no progress was made yesterday.
   - يشير الخط المسطح على مخطط الاحتراق إلى أنه لم يتم إحراز أي تقدم في اليوم السابق.
+- The burndown chart shows the sprint is behind after the third day.
+  - يُظهر مخطط الاحتراق أن السبرنت متأخر بعد اليوم الثالث.
 
 ## خطأ شائع
 

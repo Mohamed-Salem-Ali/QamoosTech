@@ -22,6 +22,7 @@ In database schema design meetings, performance optimization discussions, and wh
 
 - We should use a JSONB column to store the flexible user preferences object.
 - Querying a JSONB field with a GIN index significantly improves search performance.
+- The query finds users whose preferences contain a dark theme, using the JSONB index.
 
 ## Common mistake
 

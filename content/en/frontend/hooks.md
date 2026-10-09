@@ -21,6 +21,7 @@ Commonly used in frontend development discussions, code reviews, and documentati
 
 - I used the `useState` hook to manage the form input value.
 - You should move the data fetching logic into a custom hook.
+- The useEffect hook fetches the data once, when the component mounts.
 
 ## Common mistake
 

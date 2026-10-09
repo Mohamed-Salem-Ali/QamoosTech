@@ -20,6 +20,7 @@ System design, interviews, and CVs.
 
 - Can this design scale to 100,000 users?
 - We scaled out by adding two more servers behind a load balancer.
+- The design is scalable: adding a server raises capacity without any code changes.
 
 ## Common mistake
 

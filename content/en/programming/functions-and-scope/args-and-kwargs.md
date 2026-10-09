@@ -23,6 +23,7 @@ In Python tutorials, decorators and wrapper functions, and library code that for
 
 - The wrapper takes `*args, **kwargs` and passes them straight to the original function.
 - `total(*numbers)` accepts any number of values.
+- The decorator accepts *args and **kwargs, so it works with any function signature.
 
 ## Common mistake
 

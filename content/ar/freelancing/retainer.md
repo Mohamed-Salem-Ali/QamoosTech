@@ -22,6 +22,8 @@ keywords: ["دفعة شهرية ثابتة","عقد صيانة شهري للعم
   - يدفع العميل retainer شهريًا مقابل عشر ساعات دعم.
 - A retainer gives me stable income.
   - يمنحني الـ retainer دخلًا ثابتًا.
+- The retainer covers twenty hours a month, and extra hours are billed separately.
+  - تغطي الأتعاب الشهرية المتفق عليها عشرين ساعة في الشهر، وتُفوتر الساعات الإضافية منفصلة.
 
 ## خطأ شائع
 

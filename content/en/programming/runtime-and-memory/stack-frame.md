@@ -22,6 +22,7 @@ In debuggers and tracebacks (each line is a frame), recursion discussions and ex
 
 - Each recursive call adds a new stack frame.
 - In the debugger, select the frame to see its local variables.
+- The debugger shows each stack frame, and the first one is the function that crashed.
 
 ## Common mistake
 

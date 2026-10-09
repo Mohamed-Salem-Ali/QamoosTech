@@ -23,6 +23,7 @@ In Django URL patterns, FastAPI path parameters, and route docs such as `/circle
 
 - Use `<int:id>` so a non-number gives a 404 before the view runs.
 - The `slug` converter allows letters, numbers and hyphens.
+- The URL /orders/<int:id>/ rejects abc before the view runs.
 
 ## Common mistake
 

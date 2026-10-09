@@ -22,6 +22,7 @@ In concurrency discussions, web server settings (worker threads), Python's GIL a
 
 - The server handles each request on a separate thread.
 - Access to the shared counter must be thread-safe.
+- Each worker thread pulls a job from the shared queue and processes it.
 
 ## Common mistake
 

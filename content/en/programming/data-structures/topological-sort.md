@@ -23,6 +23,7 @@ In build tools, package managers, task schedulers like Airflow and course-prereq
 
 - A topological sort of the tasks tells us which one to run first.
 - If the sort fails, there is a circular dependency.
+- The build runs the modules in topological order, so each one finds its dependencies already built.
 
 ## Common mistake
 

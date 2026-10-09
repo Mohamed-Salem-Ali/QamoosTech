@@ -26,6 +26,8 @@ keywords: ["القالب يهرّب الـ HTML تلقائياً", "تعطيل �
   - يهرّب Django المتغيرات تلقائياً فيظهر وسم `<script>` كنص عادي.
 - Don't turn auto-escaping off for user content.
   - لا تعطّل الهروب التلقائي لمحتوى المستخدم.
+- The comment field shows <b>hi</b> as plain text, because the template escapes it.
+  - يعرض حقل التعليق <b>hi</b> كنص عادي، لأن القالب يهرّب المحارف الخاصة.
 
 ## خطأ شائع
 

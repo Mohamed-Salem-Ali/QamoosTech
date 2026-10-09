@@ -22,6 +22,8 @@ keywords: ["هل لدي وقت كاف","الوقت المتاح لمهام جد�
   - ليست لدي سعة لمشروع آخر هذا الشهر.
 - Do you have the bandwidth to review this PR today?
   - هل لديك سعة لمراجعة هذا الـ PR اليوم؟
+- The designer has no bandwidth this sprint, so the redesign moves to the next one.
+  - ليس لدى المصمم وقت كافٍ في هذا السبرنت، لذلك تنتقل إعادة التصميم إلى السبرنت التالي.
 
 ## خطأ شائع
 

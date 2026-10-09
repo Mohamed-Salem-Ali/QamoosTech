@@ -23,6 +23,8 @@ keywords: ["توزيع الطلبات على الخوادم","موزع الأح�
   - يرسل الـ load balancer الحركة إلى الخوادم السليمة فقط.
 - We have two servers behind a load balancer.
   - لدينا خادمان خلف load balancer.
+- The load balancer routes each new connection to the server with the fewest active requests.
+  - يوجّه موزّع الأحمال كل اتصال جديد إلى الخادم ذي أقل عدد من الطلبات النشطة.
 
 ## خطأ شائع
 

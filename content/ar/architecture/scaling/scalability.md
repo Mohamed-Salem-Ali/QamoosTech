@@ -23,6 +23,8 @@ keywords: ["قابلية التوسع","القدرة على تحمل ضغط ال
   - هل يستطيع هذا التصميم التوسع إلى 100 ألف مستخدم؟
 - We scaled out by adding two more servers behind a load balancer.
   - توسعنا أفقيًا بإضافة خادمين خلف load balancer.
+- The design is scalable: adding a server raises capacity without any code changes.
+  - التصميم قابل للتوسع: إضافة خادم ترفع السعة دون أي تغيير في الشيفرة.
 
 ## خطأ شائع
 

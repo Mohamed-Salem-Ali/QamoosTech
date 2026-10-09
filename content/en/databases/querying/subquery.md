@@ -23,6 +23,7 @@ In SQL interviews, report queries and ORM code that generates nested `IN (SELECT
 
 - Find members whose total is above the average using a subquery.
 - Often a join is clearer and faster than a subquery.
+- The subquery finds the customers who have at least one unpaid invoice.
 
 ## Common mistake
 

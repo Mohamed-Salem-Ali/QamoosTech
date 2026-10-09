@@ -20,6 +20,7 @@ Admin panels, SaaS products, and security reviews.
 
 - Only the Admin role can delete invoices.
 - We use RBAC, so we change the role, not every user.
+- The Viewer role can see the reports but cannot change any settings.
 
 ## Common mistake
 

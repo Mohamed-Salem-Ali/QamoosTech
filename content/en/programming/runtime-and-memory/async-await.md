@@ -20,6 +20,7 @@ JavaScript, TypeScript, Python, and C# code, plus interviews.
 
 - Use `await` to wait for the database query to finish.
 - You forgot `await`, so you got a promise instead of the data.
+- Await the fetch call so the code reads the response before it renders the list.
 
 ## Common mistake
 

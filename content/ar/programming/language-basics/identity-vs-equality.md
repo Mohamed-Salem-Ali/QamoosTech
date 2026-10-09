@@ -26,6 +26,8 @@ keywords: ["الفرق بين is و== في بايثون", "نفس الكائن �
   - قائمتان بالعناصر نفسها متساويتان، لكنهما ليستا الكائن نفسه.
 - Use `is None` rather than `== None` to check for the absence of a value.
   - استخدم `is None` بدلاً من `== None` للتحقق من غياب القيمة.
+- The two lists are equal but not the same object, so the is check returns False.
+  - القائمتان متساويتان لكنهما ليستا الكائن نفسه، لذلك تعيد فحص is القيمة False.
 
 ## خطأ شائع
 

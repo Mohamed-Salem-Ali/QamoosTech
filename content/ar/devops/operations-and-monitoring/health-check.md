@@ -23,6 +23,8 @@ endpoint صغير، غالبًا `/health`، يخبر الأدوات ما إذا
   - يستدعي الـ load balancer المسار `/health` كل 10 ثوانٍ.
 - The health check fails, so the server is removed from rotation.
   - فشل فحص الحالة، لذلك يُزال الخادم من التوزيع.
+- The health check returns 200 only when the database answers a ping.
+  - لا يُرجع فحص الصحة الرمز 200 إلا حين ترد قاعدة البيانات على الاختبار.
 
 ## خطأ شائع
 

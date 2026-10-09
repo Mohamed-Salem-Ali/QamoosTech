@@ -22,6 +22,7 @@ In Django's default password hasher, security audits (iteration counts) and comp
 
 - Django hashes passwords with PBKDF2 and a random salt by default.
 - Raise the iteration count as hardware gets faster.
+- Stored password hashes use PBKDF2 with many iterations, which slows down guessing.
 
 ## Common mistake
 

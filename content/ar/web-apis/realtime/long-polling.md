@@ -24,6 +24,8 @@ keywords: ["تقنية الاستعلام الطويل","إبقاء اتصال �
   - تستخدم خدمة الإشعارات الاستعلام الطويل لإرسال التنبيهات إلى المتصفح دون فتح اتصال دائم.
 - When the server receives a long polling request, it waits for thirty seconds before returning an empty response if no changes occur.
   - عندما يتلقى الخادم طلب استعلام طويل، ينتظر لمدة ثلاثين ثانية قبل إرجاع استجابة فارغة إذا لم تحدث أي تغييرات.
+- The chat client sends a request that the server answers as soon as a new message arrives.
+  - يرسل عميل الدردشة طلباً يردّ عليه الخادم فور وصول رسالة جديدة.
 
 ## خطأ شائع
 

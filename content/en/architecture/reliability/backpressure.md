@@ -22,6 +22,7 @@ In streaming and queue systems (Kafka, Node streams, Go channels), API design an
 
 - The queue is full, so the API returns 429 to apply backpressure.
 - Without backpressure the worker ran out of memory.
+- The consumer slows the producer with a bounded queue instead of dropping messages.
 
 ## Common mistake
 

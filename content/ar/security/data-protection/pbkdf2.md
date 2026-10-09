@@ -25,6 +25,8 @@ keywords: ["تهشير كلمات المرور البطيء", "تمديد الم
   - يهشّر Django كلمات المرور افتراضياً بـ PBKDF2 مع salt عشوائي.
 - Raise the iteration count as hardware gets faster.
   - ارفع عدد التكرارات كلما أصبح العتاد أسرع.
+- Stored password hashes use PBKDF2 with many iterations, which slows down guessing.
+  - تستخدم تجزئات كلمات المرور المخزّنة PBKDF2 بتكرارات كثيرة، مما يبطئ التخمين.
 
 ## خطأ شائع
 

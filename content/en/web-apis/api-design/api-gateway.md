@@ -21,6 +21,7 @@ In system architecture meetings, backend infrastructure discussions, and when de
 
 - We need to configure the API Gateway to route traffic to the new user service.
 - The API Gateway handles all authentication checks so our microservices don't have to.
+- The gateway checks the API key once, then forwards the request to the orders service.
 
 ## Common mistake
 

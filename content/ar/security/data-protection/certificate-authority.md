@@ -24,6 +24,8 @@ keywords: ["جهة إصدار الشهادات الرقمية","الجهة ال�
   - يتطلب الخادم شهادة صالحة وموقعة من Certificate Authority موثوقة لتفعيل بروتوكول HTTPS.
 - We need to renew our domain certificate before the Certificate Authority expires it.
   - نحتاج إلى تجديد شهادة النطاق الخاصة بنا قبل أن تقوم الـ Certificate Authority بإلغاء صلاحيتها.
+- The browser trusts the site because a known certificate authority signed its certificate.
+  - يثق المتصفح بالموقع لأن جهة إصدار شهادات معروفة وقّعت شهادته.
 
 ## خطأ شائع
 

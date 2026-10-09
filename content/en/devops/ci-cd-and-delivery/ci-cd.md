@@ -20,6 +20,7 @@ Job posts, DevOps talks, and pull request checks.
 
 - Our CI/CD pipeline runs the tests and deploys on every merge to `main`.
 - The CI failed, so the code cannot be merged.
+- Every push runs the CI checks, and a merge into main is delivered through CD.
 
 ## Common mistake
 

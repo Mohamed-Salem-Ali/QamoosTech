@@ -25,6 +25,8 @@ keywords: ["نفس المدخل نفس المخرج", "دالة بلا آثار 
   - حساب الدفعة دالة نقية، لذا اختبارها سهل.
 - Keep the logic pure and put printing and file access in a thin outer layer.
   - أبقِ المنطق نقياً وضع الطباعة والوصول إلى الملفات في طبقة خارجية رقيقة.
+- The tax function is pure: the same amount always gives the same tax, and it writes nothing.
+  - دالة الضريبة نقية: المبلغ نفسه يعطي الضريبة نفسها دائماً، ولا تكتب شيئاً.
 
 ## خطأ شائع
 

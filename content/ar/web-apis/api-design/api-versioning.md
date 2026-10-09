@@ -24,6 +24,8 @@ keywords: ["إدارة التغييرات في واجهة برمجة التطب�
   - نحتاج إلى تطبيق API versioning في الرابط، مثل `/v1/users` و `/v2/users`.
 - The team decided to use a custom HTTP header for API versioning instead of query parameters.
   - قرر الفريق استخدام HTTP header مخصص لـ API versioning بدلاً من الـ query parameters.
+- Clients on v1 keep working while the new fields ship under v2.
+  - يواصل العملاء على الإصدار v1 عملهم، بينما تُطلق الحقول الجديدة ضمن v2.
 
 ## خطأ شائع
 

@@ -20,6 +20,7 @@ In sprint planning, daily standups, and retrospective meetings.
 
 - The team checked the burndown chart to see if they would finish all tasks by the end of the sprint.
 - A flat line on the burndown chart indicates that no progress was made yesterday.
+- The burndown chart shows the sprint is behind after the third day.
 
 ## Common mistake
 

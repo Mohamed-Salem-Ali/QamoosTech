@@ -22,6 +22,7 @@ In startup errors such as "cannot import name", and in refactoring when two modu
 
 - The models file imports the service, and the service imports the models again, which creates a circular import.
 - Move the shared code into a third module to break the cycle.
+- The circular import error went away after the helpers moved to their own module.
 
 ## Common mistake
 

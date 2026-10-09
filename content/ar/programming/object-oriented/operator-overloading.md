@@ -25,6 +25,8 @@ keywords: ["تعريف + لصنفي", "‏__add__ و __eq__", "سلوك مخصص
   - تنفيذ `__add__` يتيح لك كتابة `price_a + price_b` لكائنات Money.
 - Compare two points with `==` because the class defines equality.
   - قارن نقطتين بـ `==` لأن الصنف يعرّف المساواة.
+- The Vector class defines __add__, so two vectors can be added with the plus sign.
+  - تعرّف الفئة Vector الدالة __add__، فيمكن جمع متجهين بعلامة الجمع.
 
 ## خطأ شائع
 

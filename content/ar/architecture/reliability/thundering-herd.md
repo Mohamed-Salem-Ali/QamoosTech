@@ -25,6 +25,8 @@ keywords: ["عملاء كثيرون يعيدون المحاولة معاً", "ا
   - عندما عادت الخدمة أعاد كل العملاء الاتصال معاً وأسقطوها مجدداً.
 - Add random jitter to the retry delay.
   - أضف تفاوتاً عشوائياً إلى مهلة إعادة المحاولة.
+- All the cached items expired at midnight, and the thundering herd hit the database.
+  - انتهت صلاحية كل العناصر المخزّنة عند منتصف الليل، فانقضّ الجمع الهادر على قاعدة البيانات.
 
 ## خطأ شائع
 

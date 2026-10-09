@@ -25,6 +25,8 @@ keywords: ["جدار ناري لنسخة AWS", "قواعد واردة وصادر
   - تسمح مجموعة أمان قاعدة البيانات بالمنفذ 5432 من مجموعة التطبيق فقط.
 - Security groups are stateful, so replies are allowed automatically.
   - المجموعات ذات حالة لذا تُسمح الردود تلقائياً.
+- The security group allows port 443 from anywhere and port 22 only from the office.
+  - تسمح مجموعة الأمان بالمنفذ 443 من أي مكان، وبالمنفذ 22 من المكتب وحده.
 
 ## خطأ شائع
 

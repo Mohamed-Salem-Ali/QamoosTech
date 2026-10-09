@@ -25,6 +25,8 @@ keywords: ["التراجع عن خطوة بخطوة أخرى", "تراجع ال�
   - فشل الشحن فتنفذ الـ saga معاملة تعويضية لاسترداد الدفعة.
 - Each step needs a defined compensation.
   - كل خطوة تحتاج تعويضاً محدداً.
+- The refund is a compensating transaction for the charge that succeeded before shipping failed.
+  - الاسترداد معاملة تعويضية عن الخصم الذي نجح قبل أن يفشل الشحن.
 
 ## خطأ شائع
 

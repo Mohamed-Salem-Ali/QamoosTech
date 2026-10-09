@@ -21,6 +21,7 @@ During infrastructure planning, cloud cost optimization discussions, or when set
 
 - We configured auto-scaling to handle the traffic spike during the holiday sale.
 - The system uses auto-scaling to spin up new instances when CPU usage exceeds 80%.
+- The group adds two servers when the queue grows and removes them at night.
 
 ## Common mistake
 

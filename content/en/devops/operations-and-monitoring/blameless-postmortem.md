@@ -22,6 +22,7 @@ In SRE and DevOps teams, incident follow-ups and engineering culture discussions
 
 - The postmortem lists a timeline, the root cause and three action items.
 - Ask what let the mistake happen, not who made it.
+- The blameless postmortem found that the alert threshold had never been reviewed.
 
 ## Common mistake
 

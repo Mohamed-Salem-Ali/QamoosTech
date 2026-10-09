@@ -24,6 +24,8 @@ keywords: ["العمليات تنتظر بعضها البعض","تعليق قا�
   - قام النظام بإنهاء المعاملة لأنه تم اكتشاف حالة Deadlock.
 - We need to optimize our query order to prevent frequent deadlocks.
   - نحتاج إلى تحسين ترتيب الاستعلامات لمنع حدوث حالات Deadlock المتكررة.
+- Two transactions locked the rows in opposite order, which caused a deadlock.
+  - قفلت معاملتان الصفوف بترتيب متعاكس، فنتج عن ذلك انسداد (deadlock).
 
 ## خطأ شائع
 

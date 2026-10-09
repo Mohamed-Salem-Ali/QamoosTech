@@ -21,6 +21,7 @@ Algorithm courses, interviews, and tree or folder traversal.
 
 - Walking through folders is a classic use of recursion.
 - The recursion has no base case, so it crashes with a stack overflow.
+- The recursive function sums a nested list by summing each sublist first.
 
 ## Common mistake
 

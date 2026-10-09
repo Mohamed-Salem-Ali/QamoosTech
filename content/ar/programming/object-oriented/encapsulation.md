@@ -26,6 +26,8 @@ keywords: ["مبدأ التغليف في البرمجة","إخفاء البيا�
   - فئة الحساب البنكي تخفي متغير الرصيد الخام وتوفر دالة إيداع لتحديث الأموال بأمان.
 - We use private fields in the user service to prevent other modules from modifying state directly.
   - نحن نستخدم حقولاً خاصة في خدمة المستخدم لمنع الوحدات الأخرى من تعديل الحالة مباشرة.
+- The Account class keeps the balance private and changes it only through deposit and withdraw.
+  - تُبقي الفئة Account الرصيد خاصاً، ولا تغيّره إلا عبر deposit وwithdraw.
 
 ## خطأ شائع
 

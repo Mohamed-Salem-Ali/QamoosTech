@@ -23,6 +23,8 @@ keywords: ["ترويسة http","هيدر الطلب","إرسال رمز المص
   - أرسل الـ token في ترويسة `Authorization`.
 - Set `Content-Type: application/json` or the server will not parse the body.
   - اضبط `Content-Type: application/json` وإلا لن يحلّل الخادم المحتوى.
+- The response includes a Cache-Control header that tells the browser how long to keep it.
+  - تتضمن الاستجابة ترويسة Cache-Control تخبر المتصفح بمدة الاحتفاظ بها.
 
 ## خطأ شائع
 

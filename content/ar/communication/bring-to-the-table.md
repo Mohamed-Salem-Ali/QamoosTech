@@ -24,6 +24,8 @@ keywords: ["ما الذي تقدمه للفريق","المهارات التي ي
   - يُقدّم مهندسو البرمجيات الكبار خبراتهم الطويلة في هندسة الأنظمة.
 - Let us review what each team member brings to the table for this project.
   - دعنا نراجع ما يُقدّمه كل عضو في الفريق لهذا المشروع.
+- What does the designer bring to the table that the developers cannot cover?
+  - ما الذي يقدّمه المصمم من قيمة لا يستطيع المطورون تغطيته؟
 
 ## خطأ شائع
 

@@ -21,6 +21,7 @@ NestJS and Next.js backends.
 
 - We use Prisma with PostgreSQL.
 - Run `prisma migrate deploy` in production, not only `generate`.
+- The Prisma schema defines the User model, and the generated client is fully typed.
 
 ## Common mistake
 

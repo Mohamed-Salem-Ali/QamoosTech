@@ -20,6 +20,7 @@ In machine learning projects, when building search engines, or when working with
 
 - We used cosine similarity to find the most relevant documents for the user's query.
 - The system calculates the cosine similarity between the input embedding and the stored vectors.
+- Two sentences about the same topic score close to 1 on cosine similarity.
 
 ## Common mistake
 

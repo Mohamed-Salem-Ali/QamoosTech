@@ -22,6 +22,7 @@ In build pipelines, container registries, and deployment files.
 
 - The docker image is 1.2 GB, so we need a smaller base image.
 - Tag the image with the commit hash before you push it.
+- The image was rebuilt with the new dependency and pushed to the registry.
 
 ## Common mistake
 

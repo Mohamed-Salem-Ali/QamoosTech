@@ -23,6 +23,7 @@ In algorithm interviews (shortest path in a maze or grid), social graph features
 
 - BFS finds the fewest hops between two users.
 - Push neighbours onto the queue and mark them visited.
+- BFS visits all friends at distance one before it looks at any friend of a friend.
 
 ## Common mistake
 

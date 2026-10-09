@@ -20,6 +20,7 @@ Backend projects and CI setups.
 
 - The integration test creates an order and checks the database.
 - Integration tests are slower, so we run them after unit tests.
+- The integration test sends a real request to the endpoint and checks the saved row.
 
 ## Common mistake
 

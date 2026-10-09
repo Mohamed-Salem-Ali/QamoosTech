@@ -26,6 +26,8 @@ keywords: ["حاجة تشترك فيها أجزاء كثيرة", "التسجيل
   - التسجيل اهتمام متقاطع لذا نضيفه بـ decorator.
 - Authentication runs in middleware instead of inside every view.
   - تعمل المصادقة في الـ middleware بدل كل view.
+- Request timing is a cross-cutting concern, so one middleware records it for every route.
+  - قياس زمن الطلب اهتمام عابر للوحدات، لذلك يسجّله وسيط واحد لكل المسارات.
 
 ## خطأ شائع
 

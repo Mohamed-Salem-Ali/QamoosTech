@@ -23,6 +23,8 @@ keywords: ["تعليم النموذج عبر أمثلة","توجيه الذكا�
   - استخدِمنَا التوجيه بالأمثلة القليلة لتعليم النموذج كيفية تنسيق ردود بصيغة JSON.
 - Adding three classification examples via few-shot prompting fixed the incorrect category outputs.
   - إضافة ثلاثة أمثلة للتصنيف عبر التوجيه بالأمثلة القليلة أصلحت مخرجات التصنيف الخاطئة.
+- Two example emails in the prompt made the model reply in the same polite tone.
+  - جعل مثالان لرسالتين في الطلب النموذج يردّ بالنبرة المهذبة نفسها.
 
 ## خطأ شائع
 

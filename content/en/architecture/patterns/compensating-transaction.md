@@ -22,6 +22,7 @@ In saga and microservice designs, booking and payment flows, and discussions whe
 
 - Shipping failed, so the saga runs a compensating transaction to refund the payment.
 - Each step needs a defined compensation.
+- The refund is a compensating transaction for the charge that succeeded before shipping failed.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In OS and concurrency courses, job queue priority designs and incidents where "o
 
 - Low-priority jobs never run while high-priority ones keep arriving; that's starvation.
 - Aging raises a waiting task's priority over time.
+- Low-priority emails were starved for hours because high-priority jobs kept arriving.
 
 ## Common mistake
 

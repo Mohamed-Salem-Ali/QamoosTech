@@ -24,6 +24,8 @@ keywords: ["تخطيط سي اس اس المرن","محاذاة العناصر �
   - استخدم Flexbox لتوسيط زر داخل شريط التنقل.
 - We switched from floats to Flexbox to make the layout more responsive.
   - انتقلنا من استخدام floats إلى Flexbox لجعل التصميم أكثر تجاوباً.
+- Flexbox keeps the logo and the menu on one row, even when the screen narrows.
+  - يُبقي Flexbox الشعار والقائمة في صف واحد، حتى حين تضيق الشاشة.
 
 ## خطأ شائع
 

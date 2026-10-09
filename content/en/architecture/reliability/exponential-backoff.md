@@ -21,6 +21,7 @@ In API client libraries, message queue consumers, and cloud SDK retry settings.
 
 - The client waits 1, 2, then 4 seconds before it retries the payment.
 - Add exponential backoff so all clients do not retry at the same moment.
+- The retry waits 2 seconds, then 4, then 8, and gives up after five tries.
 
 ## Common mistake
 

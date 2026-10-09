@@ -25,6 +25,8 @@ keywords: ["انتهت لكنها ما تزال مدرجة", "الأب لم ين
   - ملأت آلاف العمليات الزومبي جدول العمليات.
 - Use a tiny init such as `tini` in the container to reap zombies.
   - استخدم init صغيراً مثل `tini` في الحاوية لحصاد العمليات الزومبي.
+- The parent process never reaped its children, so zombie processes piled up.
+  - لم تجمع العملية الأب أبناءها أبداً، فتراكمت العمليات الزومبي.
 
 ## خطأ شائع
 

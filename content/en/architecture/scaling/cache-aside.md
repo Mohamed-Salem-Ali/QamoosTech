@@ -22,6 +22,7 @@ In Redis usage guides, system design interviews and performance fixes for slow r
 
 - On a miss we read from the database, then set the cache with a 5-minute TTL.
 - After an update we delete the cache key so it reloads.
+- The product page reads the cache first and falls back to the database on a miss.
 
 ## Common mistake
 

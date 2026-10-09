@@ -23,6 +23,7 @@ When people explain how `for` loops work, in discussions of generators, and when
 
 - Calling `next()` on the iterator returns the next item.
 - The iterator is exhausted, so the second loop prints nothing.
+- Once the iterator is used up, a new loop needs a fresh iterator.
 
 ## Common mistake
 

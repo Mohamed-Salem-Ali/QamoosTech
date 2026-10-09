@@ -22,6 +22,8 @@ DevOps والحديث الهندسي اليومي.
   - أستطيع تشغيل خادم اختبار في خمس دقائق.
 - Let me spin up a quick prototype for the client.
   - دعني أُنشئ نموذجًا سريعًا للعميل.
+- We spin up a staging copy of the database for each release candidate.
+  - نُنشئ نسخة اختبار من قاعدة البيانات لكل مرشّح إصدار.
 
 ## خطأ شائع
 

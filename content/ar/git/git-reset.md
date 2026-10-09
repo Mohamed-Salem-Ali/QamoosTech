@@ -25,6 +25,8 @@ keywords: ["التراجع عن آخر كوميت","حذف التعديلات ا
   - قم بتشغيل هذا الأمر للتراجع عن الالتزام الأخير مع إبقاء تعديلاتك في منطقة التحضير.
 - Use `git reset --hard HEAD~1` to completely erase the last commit and all your uncommitted work.
   - استخدِم هذا الأمر لحذف الالتزام الأخير وكل عملك غير المُلتزَم به نهائياً.
+- I used git reset to drop the three commits I made on the wrong branch.
+  - استخدمتُ git reset لإلغاء الإيداعات الثلاثة التي أجريتها على الفرع الخطأ.
 
 ## خطأ شائع
 

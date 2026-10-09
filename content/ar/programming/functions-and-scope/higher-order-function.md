@@ -24,6 +24,8 @@ keywords: ["دالة تأخذ دالة", "دالة تعيد دالة", "map وfi
   - استدعاء `sorted(names, key=len)` دالة عالية المستوى لأنه يستلم `len`.
 - A decorator is a higher-order function that returns a new function.
   - الـ decorator دالة عالية المستوى تعيد دالة جديدة.
+- The helper takes a function and returns a new function that retries it three times.
+  - تأخذ الدالة المساعدة دالة وتعيد دالة جديدة تعيد محاولتها ثلاث مرات.
 
 ## خطأ شائع
 

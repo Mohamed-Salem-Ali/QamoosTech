@@ -23,6 +23,8 @@ keywords: ["نظام معالجة المهام الخلفية","طريقة تن�
   - نرسل التقرير إلى queue بدل إنشائه أثناء الطلب.
 - The queue has 5,000 waiting messages.
   - في الـ queue خمسة آلاف رسالة تنتظر.
+- The queue holds the order emails, and a worker sends them one by one.
+  - يحتفظ الطابور برسائل الطلبات، ويرسلها عامل واحدة تلو الأخرى.
 
 ## خطأ شائع
 

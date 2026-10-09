@@ -22,6 +22,7 @@ Git Reset is a command used to move the current branch pointer backward to a spe
 
 - Run `git reset --soft HEAD~1` to undo the last commit while keeping your changes in the staging area.
 - Use `git reset --hard HEAD~1` to completely erase the last commit and all your uncommitted work.
+- I used git reset to drop the three commits I made on the wrong branch.
 
 ## Common mistake
 

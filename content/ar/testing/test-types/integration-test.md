@@ -23,6 +23,8 @@ keywords: ["اختبار التكامل","فحص عدة أجزاء معاً","ا
   - ينشئ اختبار التكامل طلبًا ويفحص قاعدة البيانات.
 - Integration tests are slower, so we run them after unit tests.
   - اختبارات التكامل أبطأ، لذلك نشغّلها بعد اختبارات الوحدة.
+- The integration test sends a real request to the endpoint and checks the saved row.
+  - يرسل اختبار التكامل طلباً حقيقياً إلى نقطة النهاية، ويتحقق من الصف المحفوظ.
 
 ## خطأ شائع
 

@@ -20,6 +20,7 @@ Commonly discussed when managing event listeners in JavaScript, debugging unexpe
 
 - Clicking a button inside a div triggers the click event on the button first, then the div.
 - You can use event delegation to attach one listener to a list instead of adding listeners to every list item.
+- The click on the icon bubbles up to the card, which then opens the details.
 
 ## Common mistake
 

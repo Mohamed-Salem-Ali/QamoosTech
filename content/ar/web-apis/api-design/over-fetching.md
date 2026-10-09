@@ -26,6 +26,8 @@ keywords: ["الـ API تعيد بيانات أكثر من اللازم", "حق�
   - تعيد نقطة القائمة ملفات كاملة ونحن نحتاج الأسماء فقط؛ هذا جلب زائد.
 - The screen needs three requests to render; that's under-fetching.
   - تحتاج الشاشة ثلاثة طلبات لتُعرض؛ هذا جلب ناقص.
+- The mobile app gets full product records but only displays the title and the price.
+  - يحصل تطبيق الهاتف على سجلات المنتجات كاملة، لكنه يعرض العنوان والسعر فقط.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["استبدل الاستدعاء بقيمته", "نفس المدخل 
   - يمكن دائماً استبدال `add(2, 3)` بـ `5` لذا هي شفافة مرجعياً.
 - `random()` is not referentially transparent.
   - الدالة `random()` ليست شفافة مرجعياً.
+- A pure call such as area(2) can be replaced by its result, 12.56, anywhere in the code.
+  - يمكن استبدال استدعاء نقي مثل area(2) بنتيجته 12.56 في أي مكان من الشيفرة.
 
 ## خطأ شائع
 

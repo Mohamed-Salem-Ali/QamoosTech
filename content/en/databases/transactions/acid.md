@@ -21,6 +21,7 @@ During database architecture discussions, when choosing a database engine, or wh
 
 - We chose a relational database because our financial records require ACID compliance.
 - The system ensures ACID properties to prevent partial data updates during a transaction.
+- The transfer runs in one transaction, so money leaves one account only when it arrives in the other.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["فرط الملاءمة في النماذج","النموذج يحف�
   - يُظهر النموذج دقة عالية في بيانات التدريب، لكن أداءه ينخفض بشكل كبير أثناء الاختبار بسبب فرط الملاءمة.
 - We need to add regularization techniques to prevent the neural network from overfitting.
   - نحتاج إلى إضافة تقنيات التنظيم لمنع الشبكة العصبية من الإفراط في الملاءمة.
+- The model memorised the training photos and fails on new ones, which is overfitting.
+  - حفظ النموذج صور التدريب ويفشل في الصور الجديدة، وهذا هو الإفراط في التخصيص (overfitting).
 
 ## خطأ شائع
 

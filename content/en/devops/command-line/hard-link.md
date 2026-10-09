@@ -22,6 +22,7 @@ In Linux administration (`ln file link`), backup tools that save space and OS fi
 
 - Both names point to the same inode; deleting one keeps the data.
 - `ls -l` shows the link count.
+- Both names of the file are hard links, so deleting one name keeps the data.
 
 ## Common mistake
 

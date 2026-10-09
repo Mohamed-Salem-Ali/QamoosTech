@@ -24,6 +24,8 @@ keywords: ["كتابة الاختبار قبل الكود","دورة الفشل 
   - نحن نطبق التطوير الموجه بالاختبارات لنضمن أن كل ميزة جديدة تمتلك تغطية اختبارات أوتوماتيكية من اليوم الأول.
 - Writing the test first in TDD helps clarify the requirements before we touch the implementation code.
   - كتابة الاختبار أولاً في التطوير الموجه بالاختبارات تساعد على توضيح المتطلبات قبل أن نلمس كود التنفيذ.
+- With TDD, the first commit contains only a failing test for the discount rule.
+  - مع TDD، يحتوي الإيداع الأول على اختبار فاشل لقاعدة الخصم فقط.
 
 ## خطأ شائع
 

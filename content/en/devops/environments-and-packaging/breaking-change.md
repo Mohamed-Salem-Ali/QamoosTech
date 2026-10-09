@@ -22,6 +22,7 @@ In release notes, upgrade guides, and discussions about a new major version.
 
 - The new version removes the old login method, which is a breaking change.
 - Mark breaking changes clearly in the release notes.
+- The v3 release renamed the user_id field, a breaking change for every client.
 
 ## Common mistake
 

@@ -24,6 +24,8 @@ keywords: ["تأخير عشوائي يضاف إلى المحاولات", "توز
   - أضف تشويشاً عشوائياً إلى مدة إعادة المحاولة حتى يوزّع العملاء طلباتهم.
 - Each cache key gets a small random jitter on its expiry time.
   - يحصل كل مفتاح في الذاكرة المؤقتة على تشويش عشوائي صغير في وقت انتهائه.
+- With jitter, the 500 clients retry at scattered times instead of all at once.
+  - مع إضافة الارتجاف العشوائي (jitter)، تعيد العملاء الخمسمئة المحاولة في أوقات متفرقة بدل أن تفعل ذلك دفعة واحدة.
 
 ## خطأ شائع
 

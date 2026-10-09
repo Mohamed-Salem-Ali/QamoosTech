@@ -26,6 +26,8 @@ keywords: ["استعلام داخل استعلام", "جملة select بين ق�
   - اعثر على الأعضاء الذين مجموعهم فوق المتوسط باستخدام استعلام فرعي.
 - Often a join is clearer and faster than a subquery.
   - غالباً يكون الـ join أوضح وأسرع من الاستعلام الفرعي.
+- The subquery finds the customers who have at least one unpaid invoice.
+  - يجد الاستعلام الفرعي العملاء الذين لديهم فاتورة واحدة غير مدفوعة على الأقل.
 
 ## خطأ شائع
 

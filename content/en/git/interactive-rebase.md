@@ -20,6 +20,7 @@ During code cleanup, preparing pull requests, or rewriting git history.
 
 - We use interactive rebase to squash multiple tiny bugfix commits into one clean commit.
 - Run `git rebase -i HEAD~3` to modify your last three local commits.
+- Interactive rebase lets me squash the three fix-up commits before I open the pull request.
 
 ## Common mistake
 

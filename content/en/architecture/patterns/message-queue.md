@@ -20,6 +20,7 @@ Background jobs, emails, report generation, and RabbitMQ or SQS.
 
 - We send the report to a queue instead of generating it during the request.
 - The queue has 5,000 waiting messages.
+- The queue holds the order emails, and a worker sends them one by one.
 
 ## Common mistake
 

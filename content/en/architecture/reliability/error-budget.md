@@ -22,6 +22,7 @@ In SRE and DevOps teams, SLO reviews, release planning and reliability arguments
 
 - We've used 80% of this month's error budget, so we slow down releases.
 - A 99.9% target gives about 43 minutes of downtime a month.
+- The team has spent most of its error budget, so the risky migration waits.
 
 ## Common mistake
 

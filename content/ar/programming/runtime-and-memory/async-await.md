@@ -23,6 +23,8 @@ keywords: ["مشكلة عدم تزامن","تنفيذ غير متزامن","عد
   - استخدم `await` لانتظار انتهاء استعلام قاعدة البيانات.
 - You forgot `await`, so you got a promise instead of the data.
   - نسيت `await`، لذلك حصلت على promise بدل البيانات.
+- Await the fetch call so the code reads the response before it renders the list.
+  - انتظر استدعاء fetch بـ await حتى تقرأ الشيفرة الرد قبل عرض القائمة.
 
 ## خطأ شائع
 

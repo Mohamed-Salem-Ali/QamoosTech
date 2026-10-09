@@ -22,6 +22,7 @@ In Python and C++ design discussions, explanations of mixins, and the diamond pr
 
 - `class D(B, C)` inherits from both B and C.
 - Python uses the method resolution order to decide which parent's method runs first.
+- The Robot class inherits from both Walker and Talker, so it gets two sets of methods.
 
 ## Common mistake
 

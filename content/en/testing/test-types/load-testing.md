@@ -21,6 +21,7 @@ During sprint planning, infrastructure discussions, or when preparing for a majo
 
 - We need to perform load testing before the holiday season to ensure our servers don't crash.
 - The team ran a load test to see how many concurrent users the new API endpoint can handle.
+- The load test showed the checkout slowing down at 2,000 concurrent users.
 
 ## Common mistake
 

@@ -26,6 +26,8 @@ keywords: ["صورة Docker أصغر", "البناء في مرحلة والتش�
   - قلّص البناء متعدد المراحل الصورة من 1.2 جيجابايت إلى 150 ميجابايت.
 - Only copy the compiled binary into the final stage.
   - انسخ الملف التنفيذي المترجم فقط إلى المرحلة النهائية.
+- The first stage compiles the code with the full toolchain, and the final stage copies only the binary.
+  - تُترجم المرحلة الأولى الشيفرة بسلسلة الأدوات الكاملة، وتنسخ المرحلة النهائية الملف التنفيذي فقط.
 
 ## خطأ شائع
 

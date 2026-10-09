@@ -20,6 +20,7 @@ In AI engineering, when building modern search engines, implementing RAG pipelin
 
 - Semantic search helps users find relevant documents even when they use different wording than the text.
 - We integrated vector embeddings to power semantic search across the product catalog.
+- Searching for stop users spamming finds the rate-limiting article with no shared words.
 
 ## Common mistake
 

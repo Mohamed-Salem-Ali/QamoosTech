@@ -25,6 +25,8 @@ keywords: ["افحص الذاكرة المؤقتة أولاً", "حمّل من �
   - عند الإخفاق نقرأ من قاعدة البيانات ثم نخزنها في الذاكرة المؤقتة لمدة 5 دقائق.
 - After an update we delete the cache key so it reloads.
   - بعد التحديث نحذف مفتاح الذاكرة المؤقتة ليُعاد تحميله.
+- The product page reads the cache first and falls back to the database on a miss.
+  - تقرأ صفحة المنتج الذاكرة المؤقتة أولاً، وتعود إلى قاعدة البيانات عند الإخفاق.
 
 ## خطأ شائع
 

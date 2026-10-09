@@ -24,6 +24,8 @@ keywords: ["تسجيل سبب اختيار شيء", "وثيقة قصيرة لك�
   - كتبنا سجل قرار حول اختيار PostgreSQL بدلاً من MongoDB.
 - The ADR lists the trade-offs we accepted.
   - يذكر سجل القرار المقايضات التي قبلناها.
+- The ADR explains why we chose an event bus over direct calls between services.
+  - يشرح سجل قرار المعمارية (ADR) سبب اختيارنا ناقل الأحداث بدل الاستدعاءات المباشرة بين الخدمات.
 
 ## خطأ شائع
 

@@ -23,6 +23,7 @@ In reporting and analytics SQL, interview questions ("top 3 per group") and Djan
 
 - Use `ROW_NUMBER() OVER (PARTITION BY member ORDER BY paid_at)` to get each member's first payment.
 - A running total is a window function over the ordered rows.
+- The running total column is a window function over the rows ordered by date.
 
 ## Common mistake
 

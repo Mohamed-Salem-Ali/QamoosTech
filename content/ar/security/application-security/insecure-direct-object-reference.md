@@ -26,6 +26,8 @@ keywords: ["ثغرة IDOR","تعديل معرف المستخدم لرؤية حس
   - تغيير معرف المستخدم في رابط الصفحة من `101` إلى `102` يتيح لك رؤية ملف تعريف مستخدم آخر.
 - An API endpoint that returns account details using an unverified record ID is vulnerable to IDOR.
   - نقطة نهاية برمجية تعيد تفاصيل الحساب باستخدام رقم سجل غير متحقق منه تكون عرضة لثغرة IDOR.
+- Changing the invoice number in the URL showed another customer's invoice, an IDOR bug.
+  - أظهر تغيير رقم الفاتورة في الرابط فاتورة عميل آخر، وهو خلل IDOR.
 
 ## خطأ شائع
 

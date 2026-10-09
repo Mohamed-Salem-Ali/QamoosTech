@@ -23,6 +23,7 @@ In Python testing guides (pytest's `monkeypatch`), and when a test must avoid th
 
 - Monkeypatch `time.time` so the test controls the clock.
 - Use monkeypatch to set the env var only for this test.
+- The test monkeypatches the clock, so the expiry check runs at a fixed time.
 
 ## Common mistake
 

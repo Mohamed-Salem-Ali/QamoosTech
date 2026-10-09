@@ -23,6 +23,7 @@ In `requirements.txt` files, deployment reviews, and discussions of why a build 
 
 - Pin the version in production; update it deliberately.
 - Pinning to `>=2.0` isn't pinning; it still allows any newer version.
+- The build pins urllib3 to one version, so a new release cannot break it overnight.
 
 ## Common mistake
 

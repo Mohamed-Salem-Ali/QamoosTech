@@ -23,6 +23,7 @@ In discussions about test quality beyond coverage numbers, and in tools such as 
 
 - Coverage is 100%, but mutation testing shows half the mutants survive.
 - A surviving mutant means we need a sharper assertion.
+- Mutation testing flipped a plus to a minus and no test failed, which exposed a gap.
 
 ## Common mistake
 

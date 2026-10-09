@@ -24,6 +24,8 @@ keywords: ["استخدام الحالة بدون كلاسات","دوال ريا�
   - استخدمت الـ hook المسمى `useState` لإدارة قيمة مدخلات النموذج.
 - You should move the data fetching logic into a custom hook.
   - يجب عليك نقل منطق جلب البيانات إلى custom hook خاص بك.
+- The useEffect hook fetches the data once, when the component mounts.
+  - يجلب الخطاف useEffect البيانات مرة واحدة، عند تركيب المكوّن.
 
 ## خطأ شائع
 

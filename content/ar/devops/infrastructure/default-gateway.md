@@ -25,6 +25,8 @@ keywords: ["الموجّه الذي يقود للخارج", "وجهة الحرك
   - يصل الحاسوب إلى الطابعة ولا يصل إلى الإنترنت؛ افحص البوابة الافتراضية.
 - In AWS, the internet gateway acts as the way out for public subnets.
   - في AWS تعمل بوابة الإنترنت كمخرج للشبكات الفرعية العامة.
+- The server's default gateway is misconfigured, so it cannot reach the database subnet.
+  - بوابة الشبكة الافتراضية للخادم مُعدّة بشكل خاطئ، فلا يستطيع الوصول إلى شبكة قاعدة البيانات.
 
 ## خطأ شائع
 

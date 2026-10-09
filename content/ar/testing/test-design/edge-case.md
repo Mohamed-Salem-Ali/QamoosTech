@@ -23,6 +23,8 @@ keywords: ["اختبار القيم المتطرفة","معالجة الحالا
   - ماذا يحدث في الحالة الحدّية التي تكون فيها السلة فارغة؟
 - The function crashes on an edge case with zero items.
   - تنهار الدالة في حالة حدّية عدد عناصرها صفر.
+- The edge case with a discount above 100 percent was not covered by any test.
+  - حالة الحدّ الخاصة بخصم يتجاوز 100 في المئة لم تغطّها أي اختبار.
 
 ## خطأ شائع
 

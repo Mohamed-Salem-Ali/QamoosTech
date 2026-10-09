@@ -20,6 +20,7 @@ When tuning model outputs, writing system prompts, or improving accuracy without
 
 - We used few-shot prompting to teach the model how to format JSON responses.
 - Adding three classification examples via few-shot prompting fixed the incorrect category outputs.
+- Two example emails in the prompt made the model reply in the same polite tone.
 
 ## Common mistake
 

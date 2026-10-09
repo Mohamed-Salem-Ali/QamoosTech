@@ -21,6 +21,7 @@ In unit testing frameworks, test automation discussions, and code reviews.
 
 - We need to create a test fixture that populates the database with default user records.
 - The test fixture resets the application state to ensure each test runs in isolation.
+- The fixture creates one user and one order before each test in the file.
 
 ## Common mistake
 

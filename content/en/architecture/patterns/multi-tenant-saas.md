@@ -20,6 +20,7 @@ SaaS product design and security reviews.
 
 - Each clinic is a tenant and cannot see another clinic's data.
 - Add a `tenant_id` to every table.
+- All the clinics share one database, and every query filters by the clinic's tenant id.
 
 ## Common mistake
 

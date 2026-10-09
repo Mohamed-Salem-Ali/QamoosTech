@@ -23,6 +23,7 @@ In Python and C# classes, code reviews about validation, and discussions of gett
 
 - `balance` is a read-only property, so callers cannot assign to it.
 - The setter rejects negative ages.
+- The total property is computed from the line items every time it is read.
 
 ## Common mistake
 

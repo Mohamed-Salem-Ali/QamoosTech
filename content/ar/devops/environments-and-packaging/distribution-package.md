@@ -26,6 +26,8 @@ keywords: ["ملف wheel", "أرشيف المصدر sdist", "الحزمة الم
   - ابنِ حزمة التوزيع ثم ارفع ملفي wheel وsdist.
 - Install the wheel in a clean environment to test it.
   - ثبّت ملف wheel في بيئة نظيفة لاختباره.
+- We uploaded the wheel and the source archive to the package index.
+  - رفعنا ملف wheel وأرشيف المصدر إلى فهرس الحزم.
 
 ## خطأ شائع
 

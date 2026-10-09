@@ -25,6 +25,8 @@ JSONB هو صيغة تخزين ثنائية (binary) لبيانات JSON في ق
   - يجب أن نستخدم عموداً من نوع JSONB لتخزين كائن تفضيلات المستخدم المرن.
 - Querying a JSONB field with a GIN index significantly improves search performance.
   - الاستعلام عن حقل JSONB باستخدام فهرس GIN يحسن أداء البحث بشكل ملحوظ.
+- The query finds users whose preferences contain a dark theme, using the JSONB index.
+  - يجد الاستعلام المستخدمين الذين تحتوي تفضيلاتهم على السمة الداكنة، مستعيناً بفهرس JSONB.
 
 ## خطأ شائع
 

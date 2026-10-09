@@ -20,6 +20,7 @@ In code reviews, performance tuning discussions, and when optimizing React compo
 
 - We used memoization to prevent the heavy calculation function from running on every render.
 - Applying memoization to the filtered list component significantly improved the UI responsiveness.
+- The price function caches its result for each product id, so repeated calls are instant.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["خطأ منع الطلبات بين النطاقات","حل مشكل
   - الطلب محجوب بسبب CORS لأن الخادم لا يسمح بنطاقنا.
 - Add our frontend URL to the allowed origins on the backend.
   - أضف رابط الواجهة إلى النطاقات المسموح بها في الـ backend.
+- The browser blocked the response until the API added the Access-Control-Allow-Origin header.
+  - حجب المتصفح الرد حتى أضافت الواجهة ترويسة Access-Control-Allow-Origin.
 
 ## خطأ شائع
 

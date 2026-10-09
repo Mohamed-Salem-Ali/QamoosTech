@@ -23,6 +23,7 @@ In JavaScript execution-order puzzles, "promise vs setTimeout" interview questio
 
 - The promise callback prints before the `setTimeout` one because microtasks run first.
 - An endless chain of microtasks can starve rendering.
+- The then callback runs before the timer, because promise callbacks are microtasks.
 
 ## Common mistake
 

@@ -21,6 +21,7 @@ In object design, domain modelling, and code reviews about validating data at th
 
 - The constructor enforces the invariant: weeks must be a positive number.
 - Breaking the invariant would leave the object in an invalid state.
+- Every order must have a positive total, an invariant that the Order class checks on each change.
 
 ## Common mistake
 

@@ -26,6 +26,8 @@ keywords: ["ترتيب المهام حسب الاعتماديات", "ترتيب 
   - يخبرنا الترتيب الطوبولوجي للمهام أيها نشغّل أولاً.
 - If the sort fails, there is a circular dependency.
   - إذا فشل الترتيب ففيه اعتمادية دائرية.
+- The build runs the modules in topological order, so each one finds its dependencies already built.
+  - يشغّل البناء الوحدات بترتيب طوبولوجي، فتجد كل وحدة تبعياتها قد بُنيت مسبقاً.
 
 ## خطأ شائع
 

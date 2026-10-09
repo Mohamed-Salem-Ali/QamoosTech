@@ -22,6 +22,7 @@ In microservice and event-driven designs, Kafka or RabbitMQ publishing, and "the
 
 - We insert the order and its OrderCreated event in one transaction.
 - A relay reads the outbox table and publishes each row.
+- The order and its event are written in one transaction, so no event is lost.
 
 ## Common mistake
 

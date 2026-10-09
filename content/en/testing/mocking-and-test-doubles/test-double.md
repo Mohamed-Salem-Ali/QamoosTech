@@ -23,6 +23,7 @@ In testing guides, code reviews, and whenever tests must avoid email, payment ga
 
 - Use a fake email sender as a test double.
 - The stub always returns the same exchange rate.
+- The test double returns a fixed exchange rate instead of calling the live service.
 
 ## Common mistake
 
@@ -30,7 +31,7 @@ Calling everything a mock. The kinds differ: a stub gives answers, a mock verifi
 
 ## Don't confuse with
 
-Mocking, which is the broader practice and the specific kind that records calls. A test double is the umbrella term.
+A stub returns fixed answers, a fake is a simple working version, and a mock records how it was called and checks it. Mocking is one kind of test double, and a test double is the umbrella term for all of them.
 
 ## Say it at work
 

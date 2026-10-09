@@ -26,6 +26,8 @@ keywords: ["مجموع أو عدد أو متوسط الصفوف", "اختصار 
   - يستخدم التقرير تجميعاً لحساب مجموع كل دفعات الأسبوع.
 - Let the database do the aggregation instead of looping in Python.
   - اترك قاعدة البيانات تجري التجميع بدلاً من الحلقات في بايثون.
+- The dashboard uses GROUP BY with SUM to show revenue per country.
+  - تستخدم لوحة المتابعة GROUP BY مع SUM لعرض الإيرادات لكل دولة.
 
 ## خطأ شائع
 

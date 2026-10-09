@@ -22,6 +22,7 @@ In S3 and logging settings (lifecycle rules), compliance projects (GDPR, SOC 2) 
 
 - Application logs are kept for 30 days, then deleted.
 - Set a lifecycle rule to expire old backups after a year.
+- The retention policy keeps invoices for seven years and deletes the logs after 90 days.
 
 ## Common mistake
 

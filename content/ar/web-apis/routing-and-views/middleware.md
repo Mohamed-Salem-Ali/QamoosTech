@@ -23,6 +23,8 @@ keywords: ["برمجية وسيطة","ميدلوير","كود بين الطلب 
   - أضف middleware يسجّل كل طلب.
 - The auth middleware rejects requests without a valid token.
   - يرفض middleware المصادقة الطلبات التي ليس معها token صالح.
+- The rate-limit middleware returns 429 before the request reaches the handler.
+  - يعيد وسيط تحديد المعدل الرمز 429 قبل أن يصل الطلب إلى المعالج.
 
 ## خطأ شائع
 

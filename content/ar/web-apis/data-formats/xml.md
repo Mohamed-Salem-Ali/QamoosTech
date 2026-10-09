@@ -25,6 +25,8 @@ keywords: ["لغة الترميز الموسعة", "صيغة الوسوم وال
   - يرسل الشريك الفواتير كملفات XML.
 - Parse the XML with a library instead of searching the text.
   - حلّل XML بمكتبة بدلاً من البحث في النص.
+- The bank's export is an XML file with one order element per transaction.
+  - تصدير البنك ملف XML فيه عنصر طلب لكل معاملة.
 
 ## خطأ شائع
 

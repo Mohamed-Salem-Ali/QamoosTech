@@ -23,6 +23,8 @@ keywords: ["التفكير خطوة بخطوة","تحسين منطق النما�
   - إضافة عبارة "لنُفكر خطوة بخطوة" إلى الأمر هي طريقة بسيطة لتفعيل منطق Chain-of-Thought.
 - We implemented Chain-of-Thought to improve the model's accuracy on our internal logic-heavy datasets.
   - قمنا بتطبيق تقنية Chain-of-Thought لتحسين دقة النموذج في التعامل مع بياناتنا الداخلية التي تتطلب تحليلاً منطقياً.
+- Asking for step-by-step reasoning raised the score on the math questions.
+  - رفع طلب التفكير خطوة بخطوة درجة الإجابات عن أسئلة الرياضيات.
 
 ## خطأ شائع
 

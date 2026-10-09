@@ -23,6 +23,7 @@ In reporting queries, dashboards, ORM code such as `aggregate()` and `annotate()
 
 - The report uses an aggregation to total every payment for the week.
 - Let the database do the aggregation instead of looping in Python.
+- The dashboard uses GROUP BY with SUM to show revenue per country.
 
 ## Common mistake
 

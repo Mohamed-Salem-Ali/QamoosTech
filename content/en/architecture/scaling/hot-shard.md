@@ -22,6 +22,7 @@ In database performance incidents, DynamoDB and Cassandra design reviews, and ke
 
 - A celebrity's account became a hot shard.
 - Choosing the date as the partition key sends all today's writes to one hot shard.
+- The campaign sent all the traffic to one shard, which became the hot shard.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In functional programming talks, in code reviews about testability, and when sep
 
 - The payout calculation is a pure function, so testing it is easy.
 - Keep the logic pure and put printing and file access in a thin outer layer.
+- The tax function is pure: the same amount always gives the same tax, and it writes nothing.
 
 ## Common mistake
 

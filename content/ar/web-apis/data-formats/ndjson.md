@@ -25,6 +25,8 @@ keywords: ["JSON مفصول بأسطر جديدة", "كائن JSON في كل س�
   - كل سطر في التصدير طلب واحد بصيغة NDJSON.
 - Read the file line by line so it never fits fully in memory.
   - اقرأ الملف سطراً سطراً حتى لا يدخل كله في الذاكرة أبداً.
+- Each line of the log file is a JSON event, so the parser reads one line at a time.
+  - كل سطر في ملف السجل حدث JSON، لذلك يقرأ المحلّل سطراً واحداً في كل مرة.
 
 ## خطأ شائع
 

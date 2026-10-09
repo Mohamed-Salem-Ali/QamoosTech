@@ -23,6 +23,7 @@ In Python style discussions, code reviews about `try / except` versus `if`, and 
 
 - EAFP: try to open the file and catch `FileNotFoundError`.
 - LBYL: check that the file exists before opening it.
+- The EAFP version opens the file and catches the error, instead of checking first.
 
 ## Common mistake
 
@@ -30,7 +31,7 @@ Using try/except for everything, or wrapping a huge block. Keep the `try` small 
 
 ## Don't confuse with
 
-A race condition, which is a reason EAFP can be safer: the file might vanish between your check and your action.
+Both styles guard the same operation. LBYL checks the condition first, and the situation can change before you act. EAFP acts first and handles the failure, which is safer when another process can change the state between the check and the action.
 
 ## Say it at work
 

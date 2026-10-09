@@ -23,6 +23,8 @@ keywords: ["ربط النموذج بمصادر خارجية","منع هلوسة 
   - نحتاج إلى تطبيق Grounding لكي يجيب الذكاء الاصطناعي بناءً على وثائق الشركة الداخلية.
 - Grounding the model with real-time data significantly reduced the number of incorrect responses.
   - ربط النموذج ببيانات لحظية قلل بشكل ملحوظ من عدد الإجابات غير الصحيحة.
+- When the answer is grounded in the policy document, the bot cites the exact clause.
+  - حين تُربط الإجابة بوثيقة السياسة، يستشهد الروبوت بالبند الدقيق.
 
 ## خطأ شائع
 

@@ -26,6 +26,8 @@ keywords: ["if else في سطر واحد", "الصيغة condition ? a : b", "x 
   - في بايثون تُكتب `label = "adult" if age >= 18 else "minor"`.
 - Use a ternary for a simple choice, but not for nested logic.
   - استخدم العامل الثلاثي لاختيار بسيط، لا لمنطق متداخل.
+- The status label is a ternary: paid if the invoice is settled, otherwise due.
+  - تسمية الحالة تعبير ثلاثي: مدفوعة إذا سُوِّيت الفاتورة، وإلا فمستحقة.
 
 ## خطأ شائع
 

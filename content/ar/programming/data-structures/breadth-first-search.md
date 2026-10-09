@@ -26,6 +26,8 @@ keywords: ["مستوى بمستوى", "اختصار BFS", "يستخدم طابو
   - يجد BFS أقل عدد قفزات بين مستخدمين.
 - Push neighbours onto the queue and mark them visited.
   - ادفع الجيران إلى الطابور وعلّمهم كمزارين.
+- BFS visits all friends at distance one before it looks at any friend of a friend.
+  - يزور BFS كل الأصدقاء على مسافة واحدة قبل أن ينظر في أي صديق لصديق.
 
 ## خطأ شائع
 

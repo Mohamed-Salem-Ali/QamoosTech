@@ -23,6 +23,7 @@ In modern Python code, code reviews that remove boilerplate, and explanations of
 
 - Use a dataclass for the member record instead of writing the constructor by hand.
 - A frozen dataclass cannot be changed after creation.
+- The Address dataclass gives us equality and a readable repr without extra code.
 
 ## Common mistake
 

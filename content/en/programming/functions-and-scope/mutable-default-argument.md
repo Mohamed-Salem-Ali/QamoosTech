@@ -23,6 +23,7 @@ In Python interviews, code reviews, and bug hunts where data from one call myste
 
 - The bug was a mutable default argument: every call kept appending to the same list.
 - Use `None` as the default and create the list inside the function.
+- The function appended to a default list created once, so old items leaked into new calls.
 
 ## Common mistake
 

@@ -19,6 +19,7 @@ Audits (Lighthouse), legal requirements, and design reviews.
 
 - Add an `alt` text to every image for accessibility.
 - Can you reach every button using only the keyboard?
+- Labels on the form fields let screen readers announce what each input is for.
 
 ## Common mistake
 

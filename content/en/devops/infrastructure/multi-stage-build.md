@@ -23,6 +23,7 @@ In Dockerfiles for Node, Go and Python apps, image-size reviews and security har
 
 - The multi-stage build shrank the image from 1.2 GB to 150 MB.
 - Only copy the compiled binary into the final stage.
+- The first stage compiles the code with the full toolchain, and the final stage copies only the binary.
 
 ## Common mistake
 

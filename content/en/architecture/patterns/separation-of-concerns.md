@@ -20,6 +20,7 @@ Code reviews and architecture discussions.
 
 - This controller also sends emails. Let's separate the concerns.
 - Good separation of concerns makes testing easier.
+- Moving the SQL out of the view is separation of concerns: the view only displays data.
 
 ## Common mistake
 

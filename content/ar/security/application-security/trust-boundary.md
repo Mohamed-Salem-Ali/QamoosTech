@@ -25,6 +25,8 @@ keywords: ["حيث يتغير مستوى الثقة", "تحقق من البيا�
   - كل ما يأتي من المتصفح يعبر حد ثقة.
 - Don't assume internal services are safe; mark that as a boundary too.
   - لا تفترض أن الخدمات الداخلية آمنة؛ ضع هناك حداً أيضاً.
+- The API validates the JSON at the trust boundary before the data reaches the service.
+  - تتحقق الواجهة من JSON عند حدّ الثقة قبل أن تصل البيانات إلى الخدمة.
 
 ## خطأ شائع
 

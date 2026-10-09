@@ -22,6 +22,7 @@ Code splitting is the technique of breaking your application's JavaScript bundle
 
 - We implemented code splitting to reduce the initial JavaScript bundle size and improve page load speed.
 - The routing configuration uses dynamic imports to enable code splitting for each individual page.
+- The checkout page loads its payment code only when the user reaches it.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ During project planning meetings, code reviews, or when discussing new feature r
 
 - I had to push back on the deadline because the current scope is too large.
 - The team pushed back on the new requirements since they would introduce significant technical debt.
+- I pushed back on the scope, and we agreed to move two features to phase two.
 
 ## Common mistake
 

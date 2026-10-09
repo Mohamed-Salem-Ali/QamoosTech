@@ -24,6 +24,8 @@ keywords: ["إخفاء تفاصيل التنفيذ المعقدة","تبسيط �
   - استخدام دالة جاهزة لإرسال بريد إلكتروني هو تجريد لبروتوكول SMTP المعقد.
 - An interface provides an abstraction that allows you to swap database implementations without changing your business logic.
   - توفر الواجهة (Interface) تجريداً يسمح لك بتبديل قواعد البيانات دون تغيير منطق العمل الخاص بك.
+- The payment service hides the gateway details behind a single charge() method.
+  - تُخفي خدمة الدفع تفاصيل بوابة الدفع خلف دالة واحدة هي charge().
 
 ## خطأ شائع
 

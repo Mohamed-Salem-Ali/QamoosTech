@@ -23,6 +23,8 @@ keywords: ["رابط لاستقبال الإشعارات التلقائية","إ
   - يرسل مزوّد الدفع webhook عند نجاح الدفع.
 - Verify the webhook signature before trusting the payload.
   - تحقق من توقيع الـ webhook قبل الوثوق بالـ payload.
+- The shipping partner calls our webhook as soon as the parcel is delivered.
+  - يستدعي شريك الشحن الـ webhook الخاص بنا فور تسليم الطرد.
 
 ## خطأ شائع
 

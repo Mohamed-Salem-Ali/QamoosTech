@@ -25,6 +25,8 @@ keywords: ["خادم يجيب عن أسئلة DNS", "سجل NS", "تغيير ا�
   - وجّه الخوادم الاسمية للنطاق إلى Cloudflare عند المسجّل.
 - Records added at the old provider are ignored after the switch.
   - تُتجاهل السجلات المضافة عند المزود القديم بعد التحويل.
+- Pointing the nameservers at the new host moved all the records at once.
+  - أدّى توجيه خوادم الأسماء إلى المضيف الجديد إلى نقل كل السجلات دفعة واحدة.
 
 ## خطأ شائع
 

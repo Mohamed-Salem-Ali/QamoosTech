@@ -21,6 +21,7 @@ Database performance tuning sessions, schema design reviews, and when optimizing
 
 - We added a composite index on `(last_name, first_name)` to speed up our user search feature.
 - The query is slow because it filters by `category` and `created_at` without a matching composite index.
+- The composite index on the customer and date columns speeds up the monthly report.
 
 ## Common mistake
 
@@ -28,7 +29,7 @@ Assuming that a composite index on `(A, B)` automatically speeds up queries that
 
 ## Don't confuse with
 
-Composite index vs. multi-column index: these terms are often used interchangeably, but a composite index specifically refers to the order of columns which dictates how the B-tree structure is traversed.
+A composite index is one index over several columns. Column order matters: it helps queries that filter on the first column, or on the first and second together, but not on the second column alone.
 
 ## Say it at work
 

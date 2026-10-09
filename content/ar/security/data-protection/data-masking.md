@@ -26,6 +26,8 @@ keywords: ["إخفاء المعلومات الحساسة","استبدال الب
   - نحتاج إلى تطبيق إخفاء البيانات على جدول المستخدمين قبل نسخه إلى بيئة الاختبار.
 - The script replaces real email addresses with random ones during the data masking process.
   - يقوم السكريبت باستبدال عناوين البريد الإلكتروني الحقيقية بأخرى عشوائية أثناء عملية إخفاء البيانات.
+- The staging copy has masked emails, so no real customer address leaves production.
+  - تحتوي نسخة الاختبار على بريد إلكتروني مُقنَّع، فلا يخرج أي عنوان عميل حقيقي من بيئة الإنتاج.
 
 ## خطأ شائع
 

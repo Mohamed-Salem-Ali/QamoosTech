@@ -23,6 +23,7 @@ In Kubernetes YAML, deployment reviews and incidents like "pods restart in a loo
 
 - The readiness probe fails until the database connection is up.
 - A liveness probe that is too strict restarts healthy pods.
+- The liveness probe restarted the pod after it stopped responding for a minute.
 
 ## Common mistake
 

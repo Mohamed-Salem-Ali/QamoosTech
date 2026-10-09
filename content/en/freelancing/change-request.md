@@ -19,6 +19,7 @@ Client projects after the contract is signed.
 
 - This new feature needs a change request.
 - I approved the change request and updated the timeline.
+- The extra report the client asked for needs a change request with a new price and date.
 
 ## Common mistake
 

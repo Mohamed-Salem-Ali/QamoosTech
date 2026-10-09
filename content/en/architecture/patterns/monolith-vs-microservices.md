@@ -20,6 +20,7 @@ Architecture discussions and interviews.
 
 - We started with a monolith because the team is small.
 - Microservices add network calls, so debugging is harder.
+- The monolith is deployed once a week, while each microservice can be deployed on its own schedule.
 
 ## Common mistake
 

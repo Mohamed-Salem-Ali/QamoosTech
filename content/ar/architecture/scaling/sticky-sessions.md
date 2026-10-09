@@ -25,6 +25,8 @@ keywords: ["نفس المستخدم على نفس الخادم", "ارتباط �
   - فعّل الجلسات الملتصقة إلى أن ننقل الجلسات إلى Redis.
 - Users lose their cart when the sticky server restarts.
   - يفقد المستخدمون سلتهم عند إعادة تشغيل الخادم الملتصق.
+- Sticky sessions keep the user on the same node, so the cart in memory stays visible.
+  - تُبقي الجلسات اللاصقة المستخدم على العقدة نفسها، فتبقى السلة المخزّنة في الذاكرة ظاهرة.
 
 ## خطأ شائع
 

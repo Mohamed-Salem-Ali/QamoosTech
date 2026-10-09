@@ -24,6 +24,8 @@ keywords: ["بيانات لا يمكن تعديلها","منع تغيير الب
   - قيود دفتر الحسابات غير قابلة للتغيير، ويُصحَّح الخطأ بقيد تصحيحي.
 - Use immutable data to avoid surprising side effects.
   - استخدم بيانات immutable لتجنب الآثار الجانبية المفاجئة.
+- The tuple is immutable, so the function cannot change the coordinates it received.
+  - المجموعة المرتبة غير قابلة للتغيير، لذلك لا تستطيع الدالة تعديل الإحداثيات التي استلمتها.
 
 ## خطأ شائع
 

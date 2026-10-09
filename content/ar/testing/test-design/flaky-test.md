@@ -24,6 +24,8 @@ keywords: ["اختبار ينجح مرة ويفشل أخرى","نتائج اخت
   - نحتاج إلى عزل هذا الـ flaky test لأنه يتسبب في فشل عملية البناء بشكل عشوائي.
 - The team spent all day debugging a flaky test that only fails on the CI server.
   - قضى الفريق اليوم بأكمله في محاولة إصلاح flaky test لا يفشل إلا على خادم الـ CI.
+- The flaky test passed on rerun, so the team quarantined it until someone fixes it.
+  - نجح الاختبار غير المستقر عند إعادة التشغيل، فعزله الفريق حتى يصلحه أحد.
 
 ## خطأ شائع
 

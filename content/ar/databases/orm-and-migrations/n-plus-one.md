@@ -23,6 +23,8 @@ keywords: ["مشكلة كثرة استعلامات قاعدة البيانات",
   - تنفّذ الصفحة 101 استعلامًا بسبب مشكلة N+1.
 - Use `select_related` to load the related data in one query.
   - استخدم `select_related` لجلب البيانات المرتبطة في استعلام واحد.
+- Loading each author inside a loop turned the list page into an N+1 problem.
+  - أدّى تحميل كل مؤلف داخل حلقة إلى تحويل صفحة القائمة إلى مشكلة N+1.
 
 ## خطأ شائع
 

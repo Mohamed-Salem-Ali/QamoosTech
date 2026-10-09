@@ -23,6 +23,7 @@ In bug reports that only happen "sometimes", payment and booking systems, and co
 
 - Two clicks at once created two payments; it's a race condition.
 - A unique constraint closes the race at the database level.
+- Two admins clicked approve together, so the request was processed twice, a race condition.
 
 ## Common mistake
 

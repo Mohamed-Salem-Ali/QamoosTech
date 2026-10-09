@@ -24,6 +24,8 @@ keywords: ["منع انتشار الأعطال في النظام","إيقاف ا
   - انفتح قاطع الدائرة بعد أن أطلقت خدمة الدفع أخطاء كثيرة جداً، مما أدى إلى الرجوع لاستجابة مخزنة مؤقتاً.
 - We configured the circuit breaker to automatically retry the remote API after a thirty-second cooling period.
   - قمنا بتكوين قاطع الدائرة لإعادة محاولة الاتصال بواجهة برمجة التطبيقات البعيدة تلقائياً بعد فترة انتظار مدتها ثلاثون ثانية.
+- When the payment API keeps timing out, the circuit breaker stops calling it for a minute.
+  - حين تستمر مهلة واجهة الدفع في الانتهاء، يوقف قاطع الدائرة استدعاءها لدقيقة.
 
 ## خطأ شائع
 

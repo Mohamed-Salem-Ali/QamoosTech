@@ -20,6 +20,7 @@ Production support and on-call work.
 
 - Monitoring alerted us before any customer noticed the problem.
 - Set up an alert when the error rate goes above 2%.
+- The dashboard shows the error rate, and an alert fires above 2 percent.
 
 ## Common mistake
 

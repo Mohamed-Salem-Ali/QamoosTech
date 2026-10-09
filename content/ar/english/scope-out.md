@@ -23,6 +23,8 @@ keywords: ["تحديد متطلبات المشروع","وضع حدود المش�
   - نحتاج إلى تحديد نطاق الميزة الجديدة قبل أن نبدأ في كتابة أي كود.
 - Let's spend an hour to scope out the requirements for the upcoming migration.
   - لنقضِ ساعة في تحديد متطلبات عملية الترحيل القادمة.
+- We scoped out the reporting feature before the sprint, so the team can focus on checkout.
+  - حدّدنا حدود ميزة التقارير قبل السبرنت، حتى يركّز الفريق على الدفع.
 
 ## خطأ شائع
 

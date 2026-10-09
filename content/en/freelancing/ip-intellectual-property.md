@@ -20,6 +20,7 @@ In freelance contracts, client negotiations, project handoff discussions, and ag
 
 - The contract states that the client receives all Intellectual Property rights upon final payment.
 - Developers must ensure their custom libraries do not violate any existing Intellectual Property agreements.
+- The contract says the source code belongs to the client, including every custom library.
 
 ## Common mistake
 

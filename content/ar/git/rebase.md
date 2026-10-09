@@ -22,6 +22,8 @@ keywords: ["إعادة تأسيس الفرع","ترتيب الـ commits بشك�
   - اعمل rebase لفرعك على `main` قبل فتح الـ PR.
 - Never rebase a branch that others already use.
   - لا تعمل rebase لفرع يستخدمه آخرون.
+- After the rebase, the feature branch sits on top of the latest main.
+  - بعد إعادة التأسيس، صار فرع الميزة فوق أحدث نسخة من main.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["ناقل HTTP/3", "مبني على UDP", "إعداد اتصال أس
   - فعّل HTTP/3 (QUIC) على الـ CDN.
 - QUIC keeps the connection alive when a phone switches from Wi-Fi to mobile data.
   - يُبقي QUIC الاتصال حياً عندما ينتقل الهاتف من Wi-Fi إلى بيانات الجوال.
+- The video kept playing when the phone moved from Wi-Fi to mobile data, thanks to QUIC.
+  - استمر الفيديو في التشغيل حين انتقل الهاتف من Wi-Fi إلى البيانات المحمولة، بفضل QUIC.
 
 ## خطأ شائع
 

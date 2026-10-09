@@ -22,6 +22,8 @@ keywords: ["التوليد المعزز بالاسترجاع","ربط النمو
   - يستخدم روبوت الدعم RAG للإجابة من توثيقنا.
 - RAG reduces hallucinations, but it does not remove them.
   - يقلّل RAG الهلوسة لكنه لا يزيلها.
+- The chatbot retrieves the three most relevant policy paragraphs before it answers.
+  - يسترجع روبوت المحادثة أكثر ثلاث فقرات صلة من السياسة قبل أن يجيب.
 
 ## خطأ شائع
 

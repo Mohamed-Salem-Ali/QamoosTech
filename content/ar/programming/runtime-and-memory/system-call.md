@@ -25,6 +25,8 @@ keywords: ["طلب من نظام التشغيل", "قراءة وكتابة وف�
   - تنتهي `open()` في بايثون كاستدعاء نظام `open`.
 - Too many small writes mean too many system calls.
   - كتابات صغيرة كثيرة تعني استدعاءات نظام كثيرة.
+- Reading the file needs a system call, so the kernel checks the permissions first.
+  - تحتاج قراءة الملف إلى استدعاء نظام، فتتحقق النواة من الصلاحيات أولاً.
 
 ## خطأ شائع
 

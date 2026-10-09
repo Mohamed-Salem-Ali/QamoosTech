@@ -20,6 +20,7 @@ Load balancers, Kubernetes, and monitoring tools.
 
 - The load balancer calls `/health` every 10 seconds.
 - The health check fails, so the server is removed from rotation.
+- The health check returns 200 only when the database answers a ping.
 
 ## Common mistake
 

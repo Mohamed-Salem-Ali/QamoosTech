@@ -23,6 +23,7 @@ In flaky-test hunts, test-order bugs, and database test setups with transactions
 
 - The test passes alone but fails in the full suite, so isolation is broken.
 - Each test runs inside a transaction that is rolled back.
+- Each test rolls back its own changes, so the order in which the tests run does not matter.
 
 ## Common mistake
 

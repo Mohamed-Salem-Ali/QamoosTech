@@ -22,6 +22,7 @@ In teams with a web app, an API and shared libraries, tools like Turborepo, Nx a
 
 - The web app and the API live in one monorepo and share types.
 - CI only builds the packages affected by the change.
+- A change to the shared types updates the web app and the API in one commit.
 
 ## Common mistake
 

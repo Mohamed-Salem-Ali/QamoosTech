@@ -23,6 +23,8 @@ keywords: ["بنية تطبيق لعدة عملاء","عزل بيانات الع
   - كل عيادة هي tenant ولا تستطيع رؤية بيانات عيادة أخرى.
 - Add a `tenant_id` to every table.
   - أضف `tenant_id` إلى كل جدول.
+- All the clinics share one database, and every query filters by the clinic's tenant id.
+  - تتشارك كل العيادات قاعدة بيانات واحدة، وتُصفّي كل استعلام حسب معرّف العيادة.
 
 ## خطأ شائع
 

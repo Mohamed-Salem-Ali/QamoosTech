@@ -26,6 +26,8 @@ keywords: ["صنف يحمل البيانات في الغالب", "الـ decorat
   - استخدم dataclass لسجل العضو بدلاً من كتابة الـ constructor يدوياً.
 - A frozen dataclass cannot be changed after creation.
   - الـ dataclass المجمّد لا يمكن تغييره بعد إنشائه.
+- The Address dataclass gives us equality and a readable repr without extra code.
+  - تمنحنا الفئة dataclass الخاصة بالعنوان المساواة وتمثيلاً مقروءاً دون شيفرة إضافية.
 
 ## خطأ شائع
 

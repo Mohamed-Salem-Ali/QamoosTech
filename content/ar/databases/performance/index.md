@@ -23,6 +23,8 @@ keywords: ["تسريع استعلامات قاعدة البيانات","تحسي
   - أضف index على `email` لتسريع استعلام تسجيل الدخول.
 - Too many indexes slow down writes.
   - كثرة الـ indexes تبطّئ عمليات الكتابة.
+- The orders table has an index on customer_id, so looking up one customer is quick.
+  - يحتوي جدول الطلبات على فهرس على customer_id، فالبحث عن عميل واحد سريع.
 
 ## خطأ شائع
 

@@ -23,6 +23,8 @@ keywords: ["وثيقة نطاق المشروع","اتفاقية مخرجات ا�
   - طلب العميل بيان عمل مفصلاً قبل توقيع العقد.
 - We added an extra phase to the Statement of Work to cover the new features.
   - أضفنا مرحلة إضافية إلى بيان العمل لتغطية الميزات الجديدة.
+- The statement of work lists three deliverables, the date for each one, and the payment schedule.
+  - تسرد بيان العمل ثلاثة مخرجات، وتاريخ كل منها، وجدول الدفع.
 
 ## خطأ شائع
 

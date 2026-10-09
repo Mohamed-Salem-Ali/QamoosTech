@@ -24,6 +24,8 @@ keywords: ["معلَم بأنه مهمل", "الدالة ستُزال لاحقا
   - الدالة المساعدة القديمة مهملة، لذا استخدم الدالة الجديدة بدلاً منها.
 - The warning says this parameter is deprecated since version 2.
   - تقول رسالة التحذير إن هذا المعامل مهمل منذ الإصدار 2.
+- The function still works, but the warning says it is deprecated and will be removed in v4.
+  - ما زالت الدالة تعمل، لكن التحذير يقول إنها مهجورة وستُزال في الإصدار v4.
 
 ## خطأ شائع
 

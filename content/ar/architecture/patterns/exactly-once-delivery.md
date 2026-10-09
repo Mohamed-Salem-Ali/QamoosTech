@@ -25,6 +25,8 @@ keywords: ["بلا فقد ولا تكرار", "صعب الضمان", "إزالة
   - يقول الوسيط إنه مرة واحدة لكننا ما زلنا نزيل التكرار بمعرّف الرسالة.
 - Aim for effectively-once: at-least-once plus idempotency.
   - اهدف إلى فعلياً مرة واحدة: مرة على الأقل مع idempotency.
+- The payment worker uses an idempotency key, which makes its processing safe to repeat.
+  - يستخدم عامل الدفع مفتاح عدم التكرار (idempotency key)، فتصبح معالجته آمنة عند التكرار.
 
 ## خطأ شائع
 

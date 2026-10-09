@@ -23,6 +23,8 @@ keywords: ["بديل ترقيم الصفحات التقليدي","طريقة ت�
   - انتقلنا إلى الترقيم بالمؤشر لأن الصفحات البعيدة كانت بطيئة.
 - Send the `cursor` from the last response to get the next page.
   - أرسل قيمة `cursor` من الاستجابة الأخيرة للحصول على الصفحة التالية.
+- The feed returns the next twenty posts after the cursor, even if new posts were added.
+  - تُعيد الخلاصة العشرين منشوراً التالية بعد المؤشر، حتى لو أُضيفت منشورات جديدة.
 
 ## خطأ شائع
 

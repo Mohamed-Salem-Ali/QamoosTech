@@ -21,6 +21,7 @@ API design, security reviews, and "429 Too Many Requests" errors.
 
 - We apply rate limiting of 100 requests per minute per user.
 - You hit the rate limit, so wait a minute and retry.
+- After 100 calls in a minute, the API returns 429 until the window resets.
 
 ## Common mistake
 

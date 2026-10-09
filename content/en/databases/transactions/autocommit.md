@@ -23,6 +23,7 @@ In database client settings, Django's default behaviour and bugs where half of a
 
 - With autocommit on, the first insert is saved even if the second fails.
 - Wrap related writes in `atomic()` so they succeed or fail together.
+- Each insert commits by itself, so turning autocommit off made the import all-or-nothing.
 
 ## Common mistake
 

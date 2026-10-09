@@ -25,6 +25,8 @@ keywords: ["مكان مركزي لمخططات الرسائل", "‏Kafka وAvro
   - يرفض السجل تغييراً يحذف حقلاً مطلوباً.
 - Producers register the schema before publishing.
   - يسجّل المنتجون المخطط قبل النشر.
+- The producer registers the new Avro schema, and the registry confirms it is compatible.
+  - يسجّل المنتِج مخطط Avro الجديد، ويؤكد السجل أنه متوافق.
 
 ## خطأ شائع
 

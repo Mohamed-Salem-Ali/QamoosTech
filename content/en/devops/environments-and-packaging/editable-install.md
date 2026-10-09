@@ -23,6 +23,7 @@ In developer setup docs for libraries and in projects with a `src` layout.
 
 - Install the project in editable mode so tests import your latest code.
 - After an editable install the new command is available in the venv.
+- After the editable install, changes in the package show up in the tests right away.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ In TypeScript and Python typing, and in code reviews about functions that may re
 
 - The function returns `str | None`, so check for None before using it.
 - A union of two types is clearer than using the any type.
+- The parameter accepts an int or a string, and the function handles both.
 
 ## Common mistake
 

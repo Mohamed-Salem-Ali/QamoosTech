@@ -25,6 +25,8 @@ keywords: ["كل قراءة ترى آخر كتابة", "لا قراءات قدي
   - أرصدة الحسابات تحتاج اتساقاً قوياً.
 - Strong consistency across regions adds latency.
   - الاتساق القوي عبر المناطق يضيف زمن استجابة.
+- After the transfer commits, every read in every region shows the new balance.
+  - بعد تثبيت التحويل، تُظهر كل قراءة في كل منطقة الرصيد الجديد.
 
 ## خطأ شائع
 

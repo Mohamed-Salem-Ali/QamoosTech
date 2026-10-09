@@ -23,6 +23,8 @@ keywords: ["تحديث بنية قاعدة البيانات","تتبع تغيي�
   - شغّل الـ migration قبل تشغيل الإصدار الجديد.
 - Never edit a migration that already ran in production.
   - لا تعدّل أبدًا migration تم تشغيله في بيئة الإنتاج.
+- The migration adds the email column and fills it in for the existing users.
+  - يضيف الترحيل عمود email ويملؤه للمستخدمين الحاليين.
 
 ## خطأ شائع
 

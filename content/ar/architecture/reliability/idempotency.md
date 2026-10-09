@@ -24,6 +24,8 @@ keywords: ["منع خصم المبلغ مرتين","تكرار طلبات الـ
   - أرسل idempotency key حتى لا تُحاسب العميل مرتين عند إعادة المحاولة.
 - Make the job idempotent because the queue may deliver it twice.
   - اجعل المهمة idempotent لأن الـ queue قد تُرسلها مرتين.
+- Calling the cancel endpoint twice cancels the order once, thanks to idempotency.
+  - استدعاء نقطة الإلغاء مرتين يلغي الطلب مرة واحدة، بفضل خاصية عدم التكرار (idempotency).
 
 ## خطأ شائع
 

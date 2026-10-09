@@ -23,6 +23,8 @@ keywords: ["الحق في النسيان","مسح بيانات المستخدم 
   - طلب المستخدم حذف حسابه بموجب GDPR.
 - We must also remove the data from backups and analytics.
   - يجب أن نزيل البيانات أيضًا من النسخ الاحتياطية والتحليلات.
+- The deletion request removed the account and its data from every system within 30 days.
+  - أزال طلب الحذف الحساب وبياناته من كل الأنظمة خلال 30 يوماً.
 
 ## خطأ شائع
 

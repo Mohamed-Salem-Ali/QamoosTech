@@ -21,6 +21,7 @@ In CI/CD pipelines, security audits, static analysis tools, and automated test s
 
 - The security scanner flagged a vulnerability, but it was just a false positive.
 - We had to update the linter rules to ignore false positives in our test files.
+- The linter flagged a correct line as an error, a false positive that we suppressed.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["إصلاح عاجل في الإنتاج", "إصلاح خطأ في ا
   - دفعنا إصلاحاً عاجلاً لخطأ تسجيل الدخول عند منتصف الليل.
 - After the hotfix, merge it back into the development branch.
   - بعد الإصلاح العاجل، ادمجه مرة أخرى في فرع التطوير.
+- The hotfix went out within an hour, and the login errors stopped.
+  - خرج الإصلاح العاجل خلال ساعة، وتوقفت أخطاء تسجيل الدخول.
 
 ## خطأ شائع
 

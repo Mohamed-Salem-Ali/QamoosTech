@@ -22,6 +22,7 @@ In production monitoring (memory climbing for hours), OOM kills in containers an
 
 - Memory climbs 50 MB an hour, so we have a leak.
 - An unbounded in-memory cache is a classic leak.
+- The listener was never removed, so every page visit kept one more object in memory.
 
 ## Common mistake
 

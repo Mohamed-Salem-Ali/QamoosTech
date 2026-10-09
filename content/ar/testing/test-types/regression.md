@@ -23,6 +23,8 @@ keywords: ["عودة خطأ تم إصلاحه سابقاً","توقف ميزة �
   - هذا regression: كان التصدير يعمل الأسبوع الماضي.
 - We added a test to prevent this regression from coming back.
   - أضفنا اختبارًا لمنع عودة هذا الـ regression.
+- After the upgrade, search stopped matching accented words, which is a regression.
+  - بعد الترقية توقف البحث عن مطابقة الكلمات المشكّلة، وهذا انحدار (regression).
 
 ## خطأ شائع
 

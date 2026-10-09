@@ -22,6 +22,7 @@ In Python `asyncio`, Kotlin, JavaScript async functions and discussions about ha
 
 - Calling a coroutine function gives you a coroutine object; you must await it.
 - One thread can run thousands of coroutines.
+- The coroutine waits for the network call and lets other requests run in the meantime.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["مراقبة صحة النظام","تتبع أداء السيرفر"
   - نبّهتنا المراقبة قبل أن يلاحظ أي عميل المشكلة.
 - Set up an alert when the error rate goes above 2%.
   - اضبط تنبيهًا عندما يتجاوز معدل الأخطاء 2%.
+- The dashboard shows the error rate, and an alert fires above 2 percent.
+  - تعرض لوحة المتابعة معدل الأخطاء، ويُطلق التنبيه عند تجاوز 2 في المئة.
 
 ## خطأ شائع
 

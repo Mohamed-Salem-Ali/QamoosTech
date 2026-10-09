@@ -25,6 +25,8 @@ keywords: ["طلبات كثيرة على اتصال واحد", "ميزة في HT
   - يرسل HTTP/2 عشرات الطلبات عبر اتصال TCP واحد.
 - With multiplexing we no longer need domain sharding.
   - مع تعدد الإرسال لم نعد نحتاج توزيع النطاقات.
+- The browser loads the images and scripts over one connection, thanks to multiplexing.
+  - يحمّل المتصفح الصور والسكربتات عبر اتصال واحد، بفضل التعدّد على الاتصال (multiplexing).
 
 ## خطأ شائع
 

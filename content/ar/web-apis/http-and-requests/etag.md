@@ -24,6 +24,8 @@ keywords: ["معرّف نسخة الاستجابة", "طلب مشروط", "تر�
   - يرسل الخادم ETag، ويعيدها المتصفح في الطلب التالي.
 - A 304 response means the cached copy is still valid.
   - تعني الاستجابة 304 أن النسخة المخزنة ما زالت صالحة.
+- The second request sent the ETag back and got a 304, so it used the cached copy.
+  - أرسل الطلب الثاني الـ ETag وتلقّى 304، فاستخدم النسخة المخزّنة.
 
 ## خطأ شائع
 

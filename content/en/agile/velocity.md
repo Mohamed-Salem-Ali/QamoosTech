@@ -20,6 +20,7 @@ During sprint planning meetings, retrospective sessions, or when discussing team
 
 - Our team's average velocity is thirty points per sprint.
 - We need to adjust our scope because our velocity has decreased.
+- Our velocity over the last three sprints averaged 28 points, so we plan around that.
 
 ## Common mistake
 
@@ -27,7 +28,7 @@ Using velocity as a performance metric to compare different teams against each o
 
 ## Don't confuse with
 
-Velocity measures the quantity of completed work per sprint, while capacity measures the actual available working hours of the team members.
+Velocity is the work the team actually completed in past sprints, measured after the fact. Capacity is what the team can take on next, based on the time it has available.
 
 ## Say it at work
 

@@ -25,6 +25,8 @@ keywords: ["مهمة لا يأتي دورها", "الأقل أولوية تنت�
   - المهام منخفضة الأولوية لا تعمل ما دامت العالية تتوالى؛ هذا تجويع.
 - Aging raises a waiting task's priority over time.
   - تقدّم العمر يرفع أولوية المهمة المنتظرة مع الوقت.
+- Low-priority emails were starved for hours because high-priority jobs kept arriving.
+  - حُرمت رسائل البريد منخفضة الأولوية لساعات، لأن مهام الأولوية العالية كانت تصل باستمرار.
 
 ## خطأ شائع
 

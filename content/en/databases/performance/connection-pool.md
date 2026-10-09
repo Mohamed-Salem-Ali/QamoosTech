@@ -21,6 +21,7 @@ When configuring database settings, optimizing backend performance, or debugging
 
 - We configured a connection pool to handle sudden spikes in user traffic.
 - The application crashed because the connection pool size was set too low.
+- The pool keeps 20 open connections, so each request reuses one instead of connecting again.
 
 ## Common mistake
 

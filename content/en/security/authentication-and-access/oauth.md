@@ -20,6 +20,7 @@ Social login and third-party integrations.
 
 - We added Google login using OAuth 2.0.
 - The app asks for permission to read your calendar only.
+- The app asks for read-only access to the calendar, and the user approves it on Google.
 
 ## Common mistake
 

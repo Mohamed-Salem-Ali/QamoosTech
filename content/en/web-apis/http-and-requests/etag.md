@@ -21,6 +21,7 @@ In HTTP caching headers, CDN settings, and debugging responses that are unexpect
 
 - The server sends an ETag, and the browser sends it back on the next request.
 - A 304 response means the cached copy is still valid.
+- The second request sent the ETag back and got a 304, so it used the cached copy.
 
 ## Common mistake
 

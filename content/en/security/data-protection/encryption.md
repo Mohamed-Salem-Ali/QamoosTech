@@ -20,6 +20,7 @@ HTTPS, databases, and compliance.
 
 - Data is encrypted in transit with HTTPS and at rest in the database.
 - Without the key, the encrypted file is useless.
+- The laptop disk is encrypted, so a stolen laptop reveals no customer data.
 
 ## Common mistake
 

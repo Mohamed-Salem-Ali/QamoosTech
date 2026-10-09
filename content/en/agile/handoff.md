@@ -19,6 +19,7 @@ Team changes, client delivery, and design-to-development work.
 
 - I wrote a handoff document before going on leave.
 - The design handoff includes the colors and spacing.
+- The handoff note lists the open bugs, the deploy steps and who to ask about billing.
 
 ## Common mistake
 

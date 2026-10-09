@@ -23,6 +23,8 @@ keywords: ["نقطة فشل وحيدة","مكون يعطل النظام كامل
   - خادم قاعدة بيانات واحد هو نقطة فشل وحيدة.
 - We added a replica to remove the single point of failure.
   - أضفنا نسخة احتياطية (replica) لإزالة نقطة الفشل الوحيدة.
+- The single payment server was a single point of failure, so we added a second one.
+  - كان خادم الدفع الوحيد نقطة فشل واحدة، فأضفنا خادماً ثانياً.
 
 ## خطأ شائع
 

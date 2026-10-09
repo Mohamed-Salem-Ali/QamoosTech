@@ -23,6 +23,7 @@ In Python code that opens files, database connections or locks, and in explanati
 
 - `with open(path) as f:` closes the file automatically.
 - We wrote a context manager that restores the setting after the test.
+- The lock is released by the context manager even when the handler raises an error.
 
 ## Common mistake
 

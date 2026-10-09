@@ -25,6 +25,8 @@ keywords: ["الذاكرة تكبر ولا تصغر", "مراجع منسية", "
   - ترتفع الذاكرة 50 ميجابايت في الساعة، إذن لدينا تسرب.
 - An unbounded in-memory cache is a classic leak.
   - ذاكرة مؤقتة بلا حد هي تسرب كلاسيكي.
+- The listener was never removed, so every page visit kept one more object in memory.
+  - لم يُزَل المستمع أبداً، فبقي كل زيارة للصفحة تحتفظ بكائن إضافي في الذاكرة.
 
 ## خطأ شائع
 

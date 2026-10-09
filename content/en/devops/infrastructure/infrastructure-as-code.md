@@ -20,6 +20,7 @@ Cloud and DevOps job posts.
 
 - We manage our AWS setup with Terraform as infrastructure as code.
 - You can review infrastructure changes in a pull request.
+- The Terraform file creates the database, so the staging setup can be rebuilt with one command.
 
 ## Common mistake
 

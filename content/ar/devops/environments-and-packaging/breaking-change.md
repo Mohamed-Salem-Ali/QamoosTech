@@ -25,6 +25,8 @@ keywords: ["تغيير يكسر المستخدمين الحاليين", "تحد�
   - تزيل النسخة الجديدة طريقة تسجيل الدخول القديمة، وهذا تغيير كاسر.
 - Mark breaking changes clearly in the release notes.
   - حدّد التغييرات الكاسرة بوضوح في ملاحظات الإصدار.
+- The v3 release renamed the user_id field, a breaking change for every client.
+  - أعاد الإصدار v3 تسمية الحقل user_id، وهو تغيير كاسر لكل العملاء.
 
 ## خطأ شائع
 

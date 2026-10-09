@@ -24,6 +24,8 @@ ORM للغة TypeScript تصف فيه بياناتك في ملف schema فيول
   - نستخدم Prisma مع PostgreSQL.
 - Run `prisma migrate deploy` in production, not only `generate`.
   - شغّل `prisma migrate deploy` في بيئة الإنتاج، وليس `generate` فقط.
+- The Prisma schema defines the User model, and the generated client is fully typed.
+  - يعرّف مخطط Prisma نموذج User، والعميل المُولَّد مُعرَّف الأنواع بالكامل.
 
 ## خطأ شائع
 

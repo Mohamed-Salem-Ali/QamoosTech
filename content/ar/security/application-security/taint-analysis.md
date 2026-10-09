@@ -25,6 +25,8 @@ keywords: ["تتبع البيانات غير الموثوقة", "من المصد
   - يعرض الفاحص مسار تلوث من `request.GET` إلى `cursor.execute`.
 - Add a sanitizer so the data is no longer tainted.
   - أضف منقّياً حتى لا تبقى البيانات ملوثة.
+- The tool traced the user input from the form to the SQL query and flagged it.
+  - تتبّعت الأداة مدخلات المستخدم من النموذج إلى استعلام SQL، ووسمتها.
 
 ## خطأ شائع
 

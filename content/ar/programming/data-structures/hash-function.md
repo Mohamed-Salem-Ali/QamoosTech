@@ -26,6 +26,8 @@ keywords: ["تحوّل البيانات إلى رقم بحجم ثابت", "نف�
   - يستخدم القاموس دالة تجزئة لإيجاد خانة كل مفتاح.
 - Two inputs with the same hash are a collision.
   - مدخلان بالهاش نفسه يسميان تصادماً.
+- The cache uses a hash function to turn each URL into a short key.
+  - تستخدم الذاكرة المؤقتة دالة تجزئة لتحويل كل رابط إلى مفتاح قصير.
 
 ## خطأ شائع
 

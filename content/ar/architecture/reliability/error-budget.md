@@ -25,6 +25,8 @@ keywords: ["المقدار المسموح من الفشل", "هدف مستوى �
   - استهلكنا 80% من ميزانية أخطاء هذا الشهر فنبطئ الإصدارات.
 - A 99.9% target gives about 43 minutes of downtime a month.
   - هدف 99.9% يعطي نحو 43 دقيقة توقف في الشهر.
+- The team has spent most of its error budget, so the risky migration waits.
+  - أنفق الفريق معظم ميزانية الأخطاء، لذلك ينتظر الترحيل الخطير.
 
 ## خطأ شائع
 

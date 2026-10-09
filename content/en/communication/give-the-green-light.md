@@ -20,6 +20,7 @@ Used in project meetings, status updates, or via email when waiting for a manage
 
 - The manager finally gave the green light to deploy the new feature to production.
 - We are waiting for the client to give the green light before we start the next phase.
+- The product owner gave the green light, so the feature goes out on Monday.
 
 ## Common mistake
 

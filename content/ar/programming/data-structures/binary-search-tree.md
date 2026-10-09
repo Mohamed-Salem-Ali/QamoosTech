@@ -26,6 +26,8 @@ keywords: ["الأيسر أصغر والأيمن أكبر", "بحث سريع", "
   - يستغرق البحث في شجرة متوازنة نحو log n خطوة.
 - Inserting sorted data into a plain BST makes it a chain.
   - إدراج بيانات مرتبة في BST عادية يجعلها سلسلة.
+- Looking up a key in the BST skips half of the remaining tree at each step.
+  - يتخطى البحث عن مفتاح في شجرة البحث الثنائية نصف الشجرة المتبقية في كل خطوة.
 
 ## خطأ شائع
 

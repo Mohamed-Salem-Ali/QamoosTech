@@ -20,6 +20,7 @@ In planning sessions, agile meetings, and when managing project scope.
 
 - We will time-box this architectural discussion to thirty minutes so we can move on to other tasks.
 - Let us time-box the research phase of this feature to two days.
+- We time-box the spike to two days, and whatever we learn goes into the estimate.
 
 ## Common mistake
 

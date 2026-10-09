@@ -19,6 +19,7 @@ Meetings and manager or client check-ins.
 
 - Let's touch base on Thursday about the release.
 - I wanted to touch base before the deadline.
+- Let's touch base on the invoice this afternoon; a quick call is fine.
 
 ## Common mistake
 

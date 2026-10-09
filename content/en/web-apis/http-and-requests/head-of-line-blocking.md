@@ -22,6 +22,7 @@ In HTTP/1.1, HTTP/2 and HTTP/3 comparisons, message queue ordering and network p
 
 - In HTTP/1.1 a slow response blocks the requests queued behind it.
 - HTTP/3 avoids head-of-line blocking between streams.
+- One slow query at the front of the queue delayed every request behind it.
 
 ## Common mistake
 

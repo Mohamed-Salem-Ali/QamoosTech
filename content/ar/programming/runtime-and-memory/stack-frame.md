@@ -25,6 +25,8 @@ keywords: ["سجل استدعاء دالة واحد", "المتغيرات الم
   - كل استدعاء ذاتي يضيف إطار مكدس جديداً.
 - In the debugger, select the frame to see its local variables.
   - في المصحح اختر الإطار لترى متغيراته المحلية.
+- The debugger shows each stack frame, and the first one is the function that crashed.
+  - يعرض المصحح كل إطار مكدس، والإطار الأول هو الدالة التي تعطلت.
 
 ## خطأ شائع
 

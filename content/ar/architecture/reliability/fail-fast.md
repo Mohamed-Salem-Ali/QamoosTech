@@ -26,6 +26,8 @@ keywords: ["الإبلاغ عن المشكلات مبكراً", "التوقف ع
   - يرفض التطبيق العمل إذا كان رابط قاعدة البيانات مفقوداً.
 - Validate the input at the top and raise a clear error.
   - تحقق من المدخلات في البداية وارفع خطأً واضحاً.
+- The script stops at the first missing environment variable instead of failing later.
+  - يتوقف السكربت عند أول متغيّر بيئة مفقود، بدل أن يفشل لاحقاً.
 
 ## خطأ شائع
 

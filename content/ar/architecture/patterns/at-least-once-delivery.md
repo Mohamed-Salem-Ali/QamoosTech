@@ -25,6 +25,8 @@ keywords: ["لا تضيع لكن قد تتكرر", "إعادة المحاولة 
   - طوابير SQS القياسية تسلّم مرة على الأقل لذا يجب أن يكون المعالج idempotent.
 - The consumer crashed before acking, so the message came again.
   - انهار المستهلك قبل التأكيد فعادت الرسالة.
+- The email worker can send the same receipt twice, so it checks a sent-log first.
+  - قد يرسل عامل البريد الإيصال نفسه مرتين، لذلك يتحقق أولاً من سجل الإرسال.
 
 ## خطأ شائع
 

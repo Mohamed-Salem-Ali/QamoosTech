@@ -22,6 +22,7 @@ In OS courses, performance tuning (`strace`), container security (seccomp) and l
 
 - `open()` in Python ends up as an `open` system call.
 - Too many small writes mean too many system calls.
+- Reading the file needs a system call, so the kernel checks the permissions first.
 
 ## Common mistake
 

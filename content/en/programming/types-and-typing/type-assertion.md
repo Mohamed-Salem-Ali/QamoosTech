@@ -23,6 +23,7 @@ In TypeScript code reviews (`as` and `!`), API response handling and migration f
 
 - `response as User` compiles even if the server sends something else.
 - Prefer a type guard over an assertion.
+- The cast to User is an assertion, so a wrong payload fails later, at run time.
 
 ## Common mistake
 

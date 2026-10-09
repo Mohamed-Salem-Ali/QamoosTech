@@ -22,6 +22,7 @@ In Python and C++ classes, math or money types, and reviews of custom value obje
 
 - Implementing `__add__` lets you write `price_a + price_b` for Money objects.
 - Compare two points with `==` because the class defines equality.
+- The Vector class defines __add__, so two vectors can be added with the plus sign.
 
 ## Common mistake
 

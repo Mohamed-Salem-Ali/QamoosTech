@@ -22,6 +22,7 @@ In Docker `-v` flags, Kubernetes PV/PVC objects, and running databases in contai
 
 - Mount a volume at `/var/lib/postgresql/data` so the data survives restarts.
 - Without a persistent volume the upload folder is wiped on redeploy.
+- The database pod uses a persistent volume, so the data survives a restart.
 
 ## Common mistake
 

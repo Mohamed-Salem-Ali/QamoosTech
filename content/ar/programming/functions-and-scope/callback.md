@@ -23,6 +23,8 @@ JavaScript وNode.js، ومعالجات الأحداث، والشيفرة غير
   - مرّر callback يُنفَّذ بعد قراءة الملف.
 - Nested callbacks became hard to read, so we moved to `async/await`.
   - أصبحت الـ callbacks المتداخلة صعبة القراءة، فانتقلنا إلى `async/await`.
+- The button passes a callback that runs when the request finishes.
+  - يمرّر الزر دالة استدعاء عكسي (callback) تعمل عند انتهاء الطلب.
 
 ## خطأ شائع
 

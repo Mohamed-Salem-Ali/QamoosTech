@@ -24,6 +24,8 @@ keywords: ["تسريع استعلامات قاعدة البيانات","تكرا
   - أضفنا عمود `user_name` مكرراً إلى جدول الطلبات لتجنب عملية ربط مكلفة.
 - Denormalization improved our dashboard query speed by reducing the number of table scans.
   - أدى إلغاء التطبيع إلى تحسين سرعة استعلام لوحة التحكم من خلال تقليل عدد عمليات مسح الجداول.
+- Storing the total on the order avoids summing the line items on every page load.
+  - يُغني تخزين المجموع في الطلب عن جمع بنود الطلب في كل تحميل للصفحة.
 
 ## خطأ شائع
 

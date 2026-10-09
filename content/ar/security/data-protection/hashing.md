@@ -23,6 +23,8 @@ keywords: ["تحويل البيانات إلى بصمة ثابتة","تخزين 
   - نخزّن hash كلمة المرور لا كلمة المرور نفسها.
 - Use bcrypt or Argon2 for passwords.
   - استخدم bcrypt أو Argon2 لكلمات المرور.
+- The login checks the typed password against the stored hash, never against plain text.
+  - يتحقق تسجيل الدخول من كلمة المرور المكتوبة بمقارنتها بالتجزئة المخزّنة، لا بنص صريح.
 
 ## خطأ شائع
 

@@ -26,6 +26,8 @@ keywords: ["إدراج صفوف كثيرة دفعة واحدة", "تحديث ص�
   - استخدم إدراجاً جماعياً للصفوف المستوردة وعددها 10,000.
 - Saving each object in a loop sent thousands of queries; the bulk version sends one.
   - حفظ كل كائن في حلقة أرسل آلاف الاستعلامات؛ والنسخة الجماعية ترسل واحداً.
+- Inserting the 10,000 rows with one bulk operation took two seconds.
+  - استغرق إدراج 10000 صف بعملية جماعية واحدة ثانيتين.
 
 ## خطأ شائع
 

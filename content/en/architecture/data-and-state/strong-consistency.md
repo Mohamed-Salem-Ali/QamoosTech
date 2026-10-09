@@ -22,6 +22,7 @@ In banking and booking systems, distributed database choices, and CAP theorem di
 
 - Account balances need strong consistency.
 - Strong consistency across regions adds latency.
+- After the transfer commits, every read in every region shows the new balance.
 
 ## Common mistake
 

@@ -25,6 +25,8 @@ keywords: ["تحديد المعالج والذاكرة لمجموعة عمليا
   - قُتلت الحاوية لتجاوزها حد ذاكرة الـ cgroup.
 - Namespaces isolate what a container sees; cgroups limit what it can use.
   - تعزل الـ namespaces ما تراه الحاوية وتحدّ الـ cgroups ما تستخدمه.
+- The worker runs inside a cgroup that caps its memory at 512 MB.
+  - يعمل العامل داخل cgroup يحدّ ذاكرته عند 512 ميغابايت.
 
 ## خطأ شائع
 

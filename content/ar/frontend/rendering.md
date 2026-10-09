@@ -22,6 +22,8 @@ Next.js، وتحسين محركات البحث، ونقاشات الأداء.
   - نستخدم العرض من الخادم حتى تستطيع محركات البحث قراءة المحتوى.
 - The page re-renders every time the state changes.
   - يُعاد عرض الصفحة كلما تغيّرت الحالة.
+- The product page uses server-side rendering, so the price shows up on the first load.
+  - تستخدم صفحة المنتج التصيير من جهة الخادم، فيظهر السعر عند التحميل الأول.
 
 ## خطأ شائع
 

@@ -26,6 +26,8 @@ keywords: ["كائن الاستعلام الكسول في Django", "التصفي
   - تسلسل `filter()` و`order_by()` لا يصل إلى قاعدة البيانات حتى يُنفَّذ الـ QuerySet.
 - Return a QuerySet from the function so callers can keep refining it.
   - أعد QuerySet من الدالة ليستطيع من يستدعيها متابعة تصفيته.
+- The QuerySet is filtered twice, and the database is queried only once when we loop over it.
+  - تُصفّى مجموعة الاستعلام QuerySet مرتين، ولا يُستعلم قاعدة البيانات إلا مرة واحدة عند التكرار عليها.
 
 ## خطأ شائع
 

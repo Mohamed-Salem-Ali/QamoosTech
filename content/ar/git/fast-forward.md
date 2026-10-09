@@ -23,6 +23,8 @@ keywords: ["دمج بدون انشاء كيمت جديد","تحريك مؤشر �
   - تم دمج الفرع باستخدام استراتيجية fast-forward للحفاظ على نظافة سجل التغييرات.
 - You cannot perform a fast-forward merge because the branches have diverged.
   - لا يمكنك إجراء دمج من نوع fast-forward لأن الفروع قد تباعدت عن بعضها.
+- The hotfix branch was a fast-forward of main, so the merge created no extra commit.
+  - كان فرع الإصلاح السريع امتداداً مباشراً لـ main، فلم ينشئ الدمج إيداعاً إضافياً.
 
 ## خطأ شائع
 

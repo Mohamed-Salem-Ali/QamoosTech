@@ -26,6 +26,8 @@ keywords: ["الأعلى أولوية أولاً", "وحدة heapq", "خوارز
   - تتقدم المهام العاجلة على العادية في طابور الأولويات.
 - `heapq.heappop` returns the smallest item.
   - تعيد `heapq.heappop` أصغر عنصر.
+- The support queue serves the urgent tickets first, then the rest in arrival order.
+  - يخدم طابور الدعم التذاكر العاجلة أولاً، ثم بقية التذاكر حسب ترتيب وصولها.
 
 ## خطأ شائع
 

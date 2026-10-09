@@ -26,6 +26,8 @@ keywords: ["متعدد من الطرفين", "الطلاب والمقررات", 
   - للمقال الواحد وسوم كثيرة، وللوسم الواحد مقالات كثيرة.
 - The ORM manages the many-to-many link through a hidden table.
   - يدير الـ ORM رابط متعدد لمتعدد عبر جدول مخفي.
+- A student takes many courses, and each course has many students.
+  - يدرس الطالب دورات كثيرة، ولكل دورة طلاب كثيرون.
 
 ## خطأ شائع
 

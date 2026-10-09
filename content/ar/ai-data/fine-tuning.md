@@ -22,6 +22,8 @@ keywords: ["الضبط الدقيق للنماذج","تدريب نموذج ال�
   - ضبطنا النموذج على ألف رسالة دعم موسومة.
 - Try a better prompt before you consider fine-tuning.
   - جرّب prompt أفضل قبل أن تفكر في الضبط الدقيق.
+- After fine-tuning on our ticket history, the model uses our product names correctly.
+  - بعد الضبط الدقيق على سجل التذاكر، يستخدم النموذج أسماء منتجاتنا بشكل صحيح.
 
 ## خطأ شائع
 

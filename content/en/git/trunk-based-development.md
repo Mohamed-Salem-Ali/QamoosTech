@@ -20,6 +20,7 @@ In teams that deploy many times a day, and in discussions about avoiding merge c
 
 - We merge to main every day with trunk-based development.
 - The unfinished screen is hidden behind a feature flag.
+- Small changes land on main every day, and unfinished screens stay behind a flag.
 
 ## Common mistake
 

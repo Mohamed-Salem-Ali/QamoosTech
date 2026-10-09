@@ -22,6 +22,7 @@ In concurrency code (limiting parallel downloads or database connections), OS co
 
 - A semaphore of 5 keeps us to five parallel requests.
 - Release the permit in a `finally` block.
+- A semaphore with a count of ten lets ten workers call the external API at the same time.
 
 ## Common mistake
 

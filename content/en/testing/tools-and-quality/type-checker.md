@@ -23,6 +23,7 @@ In CI checks, Python projects that use mypy or pyright, and TypeScript builds.
 
 - CI runs the type checker and fails on any error.
 - The type checker caught that `None` can reach this line.
+- The type checker reports that the price may be undefined in the cart total.
 
 ## Common mistake
 

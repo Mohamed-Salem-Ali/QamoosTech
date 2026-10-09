@@ -26,6 +26,8 @@ keywords: ["الترتيب عند عدم طلبه", "ترتيب ضمن Meta", "�
   - اجعل الترتيب الافتراضي من الأحدث أولاً.
 - Pagination needs a stable order, or pages repeat rows.
   - يحتاج الترقيم إلى ترتيب ثابت وإلا تكررت الصفوف بين الصفحات.
+- The default ordering puts the newest orders first unless the query asks for something else.
+  - يضع الترتيب الافتراضي أحدث الطلبات أولاً ما لم يطلب الاستعلام غير ذلك.
 
 ## خطأ شائع
 

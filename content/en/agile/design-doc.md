@@ -21,6 +21,7 @@ In engineering planning meetings, design reviews, and onboarding documents for n
 
 - Read the design doc before you touch the billing module.
 - The design doc lists three options and explains why we picked the queue.
+- The design doc for the new queue lists the retry policy and the rollback plan.
 
 ## Common mistake
 

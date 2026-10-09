@@ -20,6 +20,7 @@ CI/CD and tools like SonarQube.
 
 - The quality gate failed because coverage dropped below 80%.
 - No pull request merges unless the quality gate is green.
+- The pipeline stops at the quality gate when the coverage drops below the limit.
 
 ## Common mistake
 

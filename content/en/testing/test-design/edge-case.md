@@ -20,6 +20,7 @@ Code reviews and test planning.
 
 - What happens in the edge case where the cart is empty?
 - The function crashes on an edge case with zero items.
+- The edge case with a discount above 100 percent was not covered by any test.
 
 ## Common mistake
 

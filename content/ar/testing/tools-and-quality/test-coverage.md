@@ -23,6 +23,8 @@ keywords: ["نسبة الكود المختبر","قياس مدى شمولية ا
   - تغطية الاختبارات 82% لكن وحدة الدفع غير مغطاة.
 - We require at least 80% coverage on new code.
   - نشترط تغطية 80% على الأقل للشيفرة الجديدة.
+- The report shows 95 percent coverage, but the tests never check the error branch.
+  - يُظهر التقرير تغطية 95 في المئة، لكن الاختبارات لا تفحص فرع الخطأ أبداً.
 
 ## خطأ شائع
 

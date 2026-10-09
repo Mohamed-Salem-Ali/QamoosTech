@@ -22,6 +22,8 @@ keywords: ["العودة إلى نقطة البداية","البدء من جدي
   - رفض العميل التصميم، فنعود إلى نقطة البداية.
 - The prototype failed. Back to the drawing board.
   - فشل النموذج الأولي. نعود إلى نقطة البداية.
+- The first prototype failed the usability tests, so the team is back to the drawing board.
+  - أخفق النموذج الأولي في اختبارات سهولة الاستخدام، فعاد الفريق إلى نقطة البداية.
 
 ## خطأ شائع
 

@@ -22,6 +22,8 @@ keywords: ["الحد الأدنى من المنتج القابل للإطلاق"
   - في الـ MVP سنبني تسجيل الدخول والقائمة الرئيسية فقط.
 - Let's launch the MVP and learn from real users.
   - لنُطلق الـ MVP ونتعلم من المستخدمين الفعليين.
+- The MVP has only the checkout and one payment method, so we can test demand first.
+  - يحتوي الحد الأدنى من المنتج القابل للاستخدام على الدفع وطريقة دفع واحدة فقط، لنختبر الطلب أولاً.
 
 ## خطأ شائع
 

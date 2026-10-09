@@ -23,6 +23,7 @@ In REST vs GraphQL comparisons, mobile performance reviews and API design discus
 
 - The list endpoint returns full profiles when we only need names; that's over-fetching.
 - The screen needs three requests to render; that's under-fetching.
+- The mobile app gets full product records but only displays the title and the price.
 
 ## Common mistake
 

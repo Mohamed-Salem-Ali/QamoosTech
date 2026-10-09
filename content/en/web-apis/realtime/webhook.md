@@ -20,6 +20,7 @@ Payment gateways, GitHub, Slack, and any "notify me when…" integration.
 
 - The payment provider sends a webhook when the payment succeeds.
 - Verify the webhook signature before trusting the payload.
+- The shipping partner calls our webhook as soon as the parcel is delivered.
 
 ## Common mistake
 

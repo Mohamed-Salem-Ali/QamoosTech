@@ -22,6 +22,7 @@ In distributed databases (DynamoDB, Cassandra), read replicas, DNS propagation a
 
 - The profile update shows on the replica a second later; it's eventually consistent.
 - Don't read from a replica right after a write if you need the new value.
+- The dashboard shows the old count for a moment, because the replicas catch up over time.
 
 ## Common mistake
 

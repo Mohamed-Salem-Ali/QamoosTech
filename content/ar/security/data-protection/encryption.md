@@ -23,6 +23,8 @@ HTTPS وقواعد البيانات والامتثال.
   - تُشفَّر البيانات أثناء النقل عبر HTTPS وأثناء التخزين في قاعدة البيانات.
 - Without the key, the encrypted file is useless.
   - بدون المفتاح يكون الملف المشفّر عديم الفائدة.
+- The laptop disk is encrypted, so a stolen laptop reveals no customer data.
+  - قرص الحاسوب مشفّر، فلا يكشف حاسوب مسروق أي بيانات عملاء.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["زيادة عدد الخوادم تلقائيا","ضبط سعة ال
   - قمنا بضبط الـ auto-scaling للتعامل مع زيادة حركة المرور أثناء تخفيضات الأعياد.
 - The system uses auto-scaling to spin up new instances when CPU usage exceeds 80%.
   - يستخدم النظام الـ auto-scaling لتشغيل خوادم جديدة عندما يتجاوز استهلاك المعالج 80%.
+- The group adds two servers when the queue grows and removes them at night.
+  - تضيف المجموعة خادمين حين تكبر قائمة الانتظار، وتزيلهما ليلاً.
 
 ## خطأ شائع
 

@@ -21,6 +21,7 @@ During server configuration, SSL/TLS implementation, or when troubleshooting bro
 
 - The server requires a valid certificate signed by a trusted Certificate Authority to enable HTTPS.
 - We need to renew our domain certificate before the Certificate Authority expires it.
+- The browser trusts the site because a known certificate authority signed its certificate.
 
 ## Common mistake
 

@@ -21,6 +21,7 @@ In discussions about performance optimization, language runtimes, and memory man
 
 - The language uses garbage collection to clean up unused objects automatically.
 - Frequent garbage collection cycles can sometimes cause temporary latency spikes in the application.
+- The garbage collector paused the app for 200 milliseconds during the peak hour.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ In meetings, code reviews, and planning discussions when domain knowledge rests 
 
 - I defer to Sarah on the database schema design.
 - Let's defer to the security team regarding the authentication flow.
+- I defer to the lead engineer on whether we keep the old queue.
 
 ## Common mistake
 

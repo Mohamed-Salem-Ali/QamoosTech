@@ -22,6 +22,8 @@ keywords: ["العودة إلى الموضوع السابق","متابعة مو�
   - أعود إلى سؤال التسعير الذي طُرح يوم الاثنين.
 - Let's circle back to this after the demo.
   - لنعد إلى هذا الموضوع بعد العرض التجريبي.
+- Circling back on the invoice: did the client ever reply?
+  - أعود إلى موضوع الفاتورة: هل ردّ العميل أخيراً؟
 
 ## خطأ شائع
 

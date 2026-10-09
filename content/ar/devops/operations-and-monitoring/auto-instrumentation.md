@@ -25,6 +25,8 @@ keywords: ["تتبعات دون تغيير الكود", "وكيل OpenTelemetry"
   - فعّل القياس التلقائي لتحصل على مقاطع HTTP وقاعدة البيانات مجاناً.
 - Add manual spans for the business steps it can't see.
   - أضف مقاطع يدوية للخطوات التجارية التي لا يراها.
+- After the agent was installed, every database query showed up as a trace span.
+  - بعد تثبيت الوكيل، ظهر كل استعلام قاعدة بيانات كمقطع تتبّع (span).
 
 ## خطأ شائع
 

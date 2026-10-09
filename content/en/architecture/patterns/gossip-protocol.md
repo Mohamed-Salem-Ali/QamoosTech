@@ -22,6 +22,7 @@ In Cassandra, Consul, and other peer-to-peer or decentralised cluster systems.
 
 - Nodes use gossip to learn which peers are alive.
 - Gossip scales well because no node talks to everyone.
+- A new node joined the cluster and learned the others' addresses within seconds.
 
 ## Common mistake
 

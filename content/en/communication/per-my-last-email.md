@@ -19,6 +19,7 @@ Work emails, often when information was missed.
 
 - As mentioned in my previous email, the deadline is Friday.
 - Just to restate: the files are attached to my earlier message.
+- Per my last email, the invoice is due on Friday.
 
 ## Common mistake
 

@@ -26,6 +26,8 @@ keywords: ["خطأ يعتمد على التوقيت", "طلبان في الوق�
   - نقرتان معاً أنشأتا دفعتين؛ إنها حالة تسابق.
 - A unique constraint closes the race at the database level.
   - قيد الفرادة يغلق التسابق على مستوى قاعدة البيانات.
+- Two admins clicked approve together, so the request was processed twice, a race condition.
+  - ضغط مديران على الموافقة معاً، فعولج الطلب مرتين، وهذا سباق (race condition).
 
 ## خطأ شائع
 

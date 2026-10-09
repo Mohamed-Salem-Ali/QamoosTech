@@ -25,6 +25,8 @@ keywords: ["إطار RPC من Google", "رسائل protobuf", "نداءات سر
   - تتحدث الخدمات الداخلية عبر gRPC وتبقى الـ API العامة REST.
 - Generate the client from the `.proto` file.
   - ولّد العميل من ملف `.proto`.
+- The billing service calls the invoice service over gRPC with a generated client.
+  - تستدعي خدمة الفوترة خدمة الفواتير عبر gRPC باستخدام عميل مُولَّد.
 
 ## خطأ شائع
 

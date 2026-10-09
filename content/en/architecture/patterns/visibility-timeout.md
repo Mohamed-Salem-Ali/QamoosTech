@@ -22,6 +22,7 @@ In SQS and other queue settings, and incidents where messages are processed twic
 
 - The job takes 90 seconds but the timeout is 30, so it runs twice.
 - Extend the visibility timeout for long jobs.
+- The queue hid the message for 60 seconds while the worker processed it.
 
 ## Common mistake
 

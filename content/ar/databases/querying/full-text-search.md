@@ -24,6 +24,8 @@ keywords: ["البحث في النصوص الطويلة","البحث داخل ا
   - نحتاج إلى تطبيق Full-Text Search للسماح للمستخدمين بالعثور على المقالات باستخدام الكلمات المفتاحية.
 - The database index for Full-Text Search is significantly larger than a standard B-tree index.
   - فهرس قاعدة البيانات الخاص بـ Full-Text Search أكبر بكثير من الفهرس العادي من نوع B-tree.
+- A full-text search for running also finds documents that say run and runs.
+  - يجد البحث النصي الكامل عن running المستندات التي تذكر run وruns أيضاً.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["كيف سنبني الميزة", "وثيقة مراجعة التصم
   - اقرأ وثيقة التصميم قبل أن تلمس وحدة الفوترة.
 - The design doc lists three options and explains why we picked the queue.
   - تذكر وثيقة التصميم ثلاثة خيارات، وتشرح سبب اختيارنا للطابور.
+- The design doc for the new queue lists the retry policy and the rollback plan.
+  - يسرد مستند التصميم للطابور الجديد سياسة إعادة المحاولة وخطة التراجع.
 
 ## خطأ شائع
 

@@ -26,6 +26,8 @@ keywords: ["ملف إعداد مشروع بايثون", "إعدادات نظام
   - كل إعدادات الأدوات موجودة في `pyproject.toml`.
 - Add the dependency to `pyproject.toml` and reinstall.
   - أضف الاعتمادية إلى `pyproject.toml` وأعد التثبيت.
+- The name, the version and the dependencies are all in pyproject.toml now.
+  - يوجد الاسم والإصدار والتبعيات كلها في pyproject.toml الآن.
 
 ## خطأ شائع
 

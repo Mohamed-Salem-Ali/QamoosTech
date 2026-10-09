@@ -22,6 +22,7 @@ Temperature is a hyperparameter in LLMs that controls the randomness of the gene
 
 - Set the temperature to 0.2 for factual tasks to ensure consistency.
 - Increase the temperature to 0.8 if you want the model to generate more creative stories.
+- A temperature of 0 gives the most consistent answers for the data extraction task.
 
 ## Common mistake
 

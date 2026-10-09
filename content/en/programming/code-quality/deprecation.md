@@ -21,6 +21,7 @@ In library source code, in warning messages during a run, and in upgrade guides.
 
 - The old helper is deprecated, so use the new function instead.
 - The warning says this parameter is deprecated since version 2.
+- The function still works, but the warning says it is deprecated and will be removed in v4.
 
 ## Common mistake
 

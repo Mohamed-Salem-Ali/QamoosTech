@@ -22,6 +22,7 @@ In HTTPS certificates, SSH logins (`id_rsa`), JWT signing and email encryption (
 
 - Share your public key; never share the private key.
 - RSA and Ed25519 are asymmetric algorithms.
+- The server signs the token with its private key, and every client checks it with the public key.
 
 ## Common mistake
 

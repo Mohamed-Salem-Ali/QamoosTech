@@ -26,6 +26,8 @@ keywords: ["لكل عقدة طفلان على الأكثر", "الطفل الأ�
   - تحمل كل عقدة قيمة ومؤشري طفلين.
 - Find the depth of a binary tree with a recursive function.
   - أوجد عمق الشجرة الثنائية بدالة تكرارية ذاتية.
+- An expression tree is a binary tree whose leaves are numbers.
+  - شجرة التعبير شجرة ثنائية أوراقها أرقام.
 
 ## خطأ شائع
 

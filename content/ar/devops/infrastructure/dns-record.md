@@ -25,6 +25,8 @@ keywords: ["سجلات A وCNAME وMX وTXT", "يربط الاسم بقيمة", 
   - أضف سجل CNAME لـ `www` يشير إلى مزود الاستضافة.
 - The root domain needs an A record, not a CNAME.
   - يحتاج النطاق الجذري إلى سجل A وليس CNAME.
+- After we added the MX record, the company's email started arriving at the new server.
+  - بعد إضافة سجل MX، بدأت رسائل الشركة تصل إلى الخادم الجديد.
 
 ## خطأ شائع
 

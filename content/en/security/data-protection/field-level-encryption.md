@@ -20,6 +20,7 @@ Healthcare, finance, and any system with personal data.
 
 - We apply field-level encryption to phone numbers and national IDs.
 - You need the key to search by that column.
+- Only the national ID column is encrypted, so the rest of the table stays searchable.
 
 ## Common mistake
 

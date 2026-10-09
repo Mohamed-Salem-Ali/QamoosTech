@@ -26,6 +26,8 @@ keywords: ["رئيسي وفرعي وتصحيحي", "أرقام إصدار مثل
   - من 2.3.1 إلى 2.3.2 مجرد تصحيح، فيفترض أنها آمنة.
 - Going from 3.x to 4.0 is a major version; read the migration guide.
   - الانتقال من 3.x إلى 4.0 إصدار رئيسي؛ اقرأ دليل الترحيل.
+- Upgrading from 2.4.0 to 2.5.0 adds features, and 2.5.1 only fixes a bug.
+  - الترقية من 2.4.0 إلى 2.5.0 تضيف ميزات، أما 2.5.1 فيصلح خللاً فقط.
 
 ## خطأ شائع
 

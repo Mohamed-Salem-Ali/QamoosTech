@@ -23,6 +23,8 @@ keywords: ["انتقال الحدث للأعلى في dom","توقف الحدث 
   - النقر على زر داخل عنصر div يؤدي إلى تفعيل حدث النقر على الزر أولاً، ثم على عنصر div.
 - You can use event delegation to attach one listener to a list instead of adding listeners to every list item.
   - يمكنك استخدام تفويض الأحداث لإضافة مستمع واحد للقائمة بدلاً من إضافة مستمع لكل عنصر داخل القائمة.
+- The click on the icon bubbles up to the card, which then opens the details.
+  - تنتقل نقرة الأيقونة صعوداً إلى البطاقة، فتفتح تفاصيلها.
 
 ## خطأ شائع
 

@@ -26,6 +26,8 @@ keywords: ["قيمة قد تكون من عدة أنواع", "نوع رقم أو 
   - تعيد الدالة `str | None`، لذا تحقق من None قبل استخدامها.
 - A union of two types is clearer than using the any type.
   - اتحاد نوعين أوضح من استخدام النوع any.
+- The parameter accepts an int or a string, and the function handles both.
+  - يقبل المعامل عدداً صحيحاً أو نصاً، وتعالج الدالة الاثنين.
 
 ## خطأ شائع
 

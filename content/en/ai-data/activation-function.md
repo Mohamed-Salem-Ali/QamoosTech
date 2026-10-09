@@ -21,6 +21,7 @@ In neural network code and courses, model architecture descriptions and debuggin
 
 - ReLU is the usual activation between hidden layers.
 - Softmax turns the final scores into probabilities.
+- Without an activation function, stacking layers would still behave like one linear layer.
 
 ## Common mistake
 

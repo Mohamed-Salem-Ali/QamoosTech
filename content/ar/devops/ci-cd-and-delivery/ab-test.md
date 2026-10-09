@@ -25,6 +25,8 @@ keywords: ["مقارنة نسختين من ميزة", "اختبار بتقسيم
   - يعرض اختبار A/B الزر الجديد على نصف المستخدمين.
 - We need enough visitors before we trust the A/B test result.
   - نحتاج إلى عدد كافٍ من الزوار قبل أن نثق بنتيجة اختبار A/B.
+- The A/B test showed that the shorter form got 12 percent more sign-ups.
+  - أظهر اختبار A/B أن النموذج الأقصر حقق اشتراكات أكثر بنسبة 12 في المئة.
 
 ## خطأ شائع
 

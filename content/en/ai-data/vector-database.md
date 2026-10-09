@@ -20,6 +20,7 @@ In AI and machine learning discussions, particularly when building RAG systems o
 
 - We need a vector database to store the document embeddings for our semantic search.
 - The new vector database allows us to perform similarity searches across millions of items in milliseconds.
+- The vector database returns the ten chunks closest to the user's question.
 
 ## Common mistake
 

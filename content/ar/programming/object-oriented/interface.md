@@ -23,6 +23,8 @@ TypeScript وJava، ونقاشات كتابة شيفرة يسهل استبدال
   - كلا مزوّدَي الدفع ينفّذان واجهة `PaymentGateway` نفسها.
 - Code against the interface, not the implementation.
   - اكتب شيفرتك اعتمادًا على الواجهة لا على التنفيذ.
+- The report accepts anything that implements the Exporter interface, such as CSV or PDF.
+  - يقبل التقرير أي شيء ينفّذ الواجهة Exporter، مثل CSV أو PDF.
 
 ## خطأ شائع
 

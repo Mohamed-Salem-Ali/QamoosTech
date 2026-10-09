@@ -22,6 +22,8 @@ keywords: ["الجدل في التفاهات","إضاعة الوقت في تفا
   - قضينا 20 دقيقة في الجدل حول اسم متغير.
 - Let's avoid bikeshedding and decide on the database first.
   - لنتجنب الجدل في التفاهات ونقرر قاعدة البيانات أولًا.
+- We debated the button color for an hour instead of the pricing model.
+  - ناقشنا لون الزر ساعة كاملة بدلاً من نموذج التسعير.
 
 ## خطأ شائع
 

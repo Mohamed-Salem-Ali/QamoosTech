@@ -26,6 +26,8 @@ keywords: ["قائمة الدوال النشطة","تتبع تسلسل استد�
   - تعطل البرنامج لأن مكدس الاستدعاءات تجاوز حجمه الأقصى بسبب الاستدعاء الذاتي اللانهائي.
 - You can inspect the call stack in your browser's developer tools to see the sequence of function calls.
   - يمكنك فحص مكدس الاستدعاءات في أدوات المطور بالمتصفح لرؤية تسلسل استدعاء الدوال.
+- The stack trace shows the call stack at the moment the error was raised.
+  - يُظهر تتبّع المكدس مكدس الاستدعاءات لحظة رفع الخطأ.
 
 ## خطأ شائع
 

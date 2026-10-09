@@ -23,6 +23,8 @@ keywords: ["نقل التزام واحد بين الفروع","نسخ كوميت
   - نحتاج إلى عمل cherry-pick لالتزام إصلاح الخطأ هذا في فرع الإصدار.
 - I used cherry-pick to grab just the latest feature update without the other experimental changes.
   - لقد استخدمت cherry-pick لجلب تحديث الميزة الأخير فقط دون التغييرات التجريبية الأخرى.
+- We cherry-picked the security fix onto the release branch.
+  - نقلنا إصلاح الأمان إلى فرع الإصدار عبر cherry-pick.
 
 ## خطأ شائع
 

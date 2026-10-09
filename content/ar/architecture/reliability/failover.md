@@ -25,6 +25,8 @@ keywords: ["التحويل إلى النسخة الاحتياطية تلقائي
   - تُرقيت النسخة تلقائياً واستغرق التحويل 20 ثانية.
 - We test failover every quarter.
   - نختبر التحويل كل ربع سنة.
+- When the primary database went down, traffic moved to the standby within a minute.
+  - حين تعطّلت قاعدة البيانات الرئيسية، انتقلت حركة المرور إلى الاحتياطية خلال دقيقة.
 
 ## خطأ شائع
 

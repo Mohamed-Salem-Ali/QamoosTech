@@ -20,6 +20,7 @@ When checking out an old commit, during an interactive rebase, or when trying to
 
 - I accidentally entered a detached HEAD state by checking out a commit hash directly.
 - Any changes made in a detached HEAD state will be lost if you switch branches without creating a new one.
+- After checking out a tag, my commits were in a detached HEAD and needed a branch.
 
 ## Common mistake
 

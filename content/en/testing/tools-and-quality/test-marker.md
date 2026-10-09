@@ -23,6 +23,7 @@ In pytest suites, CI configuration that runs fast tests first, and known-bug wor
 
 - Mark the test `xfail` until the bug is fixed.
 - Run `pytest -m "not slow"` for the quick feedback loop.
+- The slow integration tests are marked, so the quick run skips them.
 
 ## Common mistake
 

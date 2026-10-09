@@ -23,6 +23,7 @@ In JavaScript and Node.js (and Python `asyncio`) interviews, performance debuggi
 
 - A long loop blocks the event loop, so the page can't respond.
 - `setTimeout(fn, 0)` still waits until the stack is empty.
+- A slow loop in the handler froze the page because the event loop had no time to run.
 
 ## Common mistake
 

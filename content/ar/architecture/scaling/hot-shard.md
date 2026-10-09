@@ -25,6 +25,8 @@ keywords: ["جزء واحد يتلقى كل الزيارات", "توزيع غي�
   - أصبح حساب مشهور جزءاً ساخناً.
 - Choosing the date as the partition key sends all today's writes to one hot shard.
   - اختيار التاريخ كمفتاح تقسيم يرسل كل كتابات اليوم إلى جزء ساخن واحد.
+- The campaign sent all the traffic to one shard, which became the hot shard.
+  - أرسلت الحملة كل الحركة إلى شظية واحدة، فصارت هي الشظية الساخنة.
 
 ## خطأ شائع
 

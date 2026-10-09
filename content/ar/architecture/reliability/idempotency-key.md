@@ -25,6 +25,8 @@ keywords: ["معرّف فريد لكل طلب", "إعادة المحاولة ب�
   - أرسل ترويسة `Idempotency-Key` حتى لا تخصم إعادة المحاولة من البطاقة مرتين.
 - The server stores the key and the response for 24 hours.
   - يخزن الخادم المفتاح والاستجابة لمدة 24 ساعة.
+- The client sends the same idempotency key on retry, so a second payment is not created.
+  - يرسل العميل مفتاح عدم التكرار نفسه عند إعادة المحاولة، فلا تُنشأ دفعة ثانية.
 
 ## خطأ شائع
 

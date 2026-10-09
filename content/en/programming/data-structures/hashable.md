@@ -22,6 +22,7 @@ In Python errors such as `unhashable type: 'list'`, and in explanations of why d
 
 - A list is not hashable, so you cannot use it as a dictionary key.
 - Convert the list to a tuple so it becomes hashable.
+- The tuple of coordinates is hashable, so it can be a key in the lookup dictionary.
 
 ## Common mistake
 

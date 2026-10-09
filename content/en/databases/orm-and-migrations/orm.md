@@ -20,6 +20,7 @@ Django, Prisma, TypeORM, and SQLAlchemy discussions.
 
 - The ORM generates the SQL for us.
 - For this heavy report, raw SQL is faster than the ORM.
+- The ORM query loads the customer with the order, without us writing a join.
 
 ## Common mistake
 

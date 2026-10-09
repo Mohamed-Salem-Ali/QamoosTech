@@ -23,6 +23,8 @@ keywords: ["عبارات مهذبة لطلب إنجاز مهام","كيف أطل
   - يرجى مراجعة الـ pull request في أقرب وقت يناسبك.
 - Could you share the updated documentation at your earliest convenience?
   - هل يمكنك مشاركة التوثيق المحدث في أقرب وقت يناسبك؟
+- Please send the signed contract at your earliest convenience; there is no rush.
+  - يُرجى إرسال العقد الموقّع في أقرب فرصة مناسبة لك؛ فلا عجلة في الأمر.
 
 ## خطأ شائع
 

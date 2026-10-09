@@ -25,6 +25,8 @@ keywords: ["مستهلكو Kafka يتقاسمون الأقسام", "معرّف �
   - تستخدم خدمتا الفوترة والتحليلات مجموعتي مستهلكين منفصلتين.
 - More consumers than partitions leaves some idle.
   - مستهلكون أكثر من الأقسام يترك بعضهم خاملاً.
+- The analytics group reads every order event, while the email group reads the same events on its own.
+  - تقرأ مجموعة التحليلات كل أحداث الطلبات، بينما تقرأ مجموعة البريد الأحداث نفسها بشكل مستقل.
 
 ## خطأ شائع
 

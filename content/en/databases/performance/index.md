@@ -20,6 +20,7 @@ Query optimization and migration reviews.
 
 - Add an index on `email` to speed up the login query.
 - Too many indexes slow down writes.
+- The orders table has an index on customer_id, so looking up one customer is quick.
 
 ## Common mistake
 

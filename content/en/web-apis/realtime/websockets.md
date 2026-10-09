@@ -20,6 +20,7 @@ Chat apps, live notifications, dashboards, and multiplayer features.
 
 - We use WebSockets to show new messages instantly.
 - Polling every second is wasteful. Let's switch to WebSockets.
+- The chat uses a WebSocket, so both sides can send messages at any time.
 
 ## Common mistake
 

@@ -22,6 +22,8 @@ keywords: ["كما ذكرت في رسالتي السابقة","الإشارة إ
   - كما ذُكر في رسالتي السابقة، الموعد النهائي هو الجمعة.
 - Just to restate: the files are attached to my earlier message.
   - للتذكير فقط: الملفات مرفقة في رسالتي السابقة.
+- Per my last email, the invoice is due on Friday.
+  - كما ذكرتُ في رسالتي السابقة، يستحق دفع الفاتورة يوم الجمعة.
 
 ## خطأ شائع
 

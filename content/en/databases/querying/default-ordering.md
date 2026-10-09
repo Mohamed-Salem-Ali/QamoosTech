@@ -23,6 +23,7 @@ In ORM model settings (`Meta.ordering`), pagination bugs, and tests that pass or
 
 - Set the default ordering to newest first.
 - Pagination needs a stable order, or pages repeat rows.
+- The default ordering puts the newest orders first unless the query asks for something else.
 
 ## Common mistake
 

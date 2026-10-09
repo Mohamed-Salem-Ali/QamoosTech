@@ -19,6 +19,7 @@ Kickoff meetings and client talks.
 
 - Let's align on scope before we write any code.
 - We aligned on scope: the admin panel is phase two.
+- We aligned on scope with the client, and the reports moved to the next release.
 
 ## Common mistake
 

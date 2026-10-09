@@ -23,6 +23,7 @@ In dictionaries and sets, checksums, password storage, caches and security discu
 
 - A dict uses a hash function to find the slot for each key.
 - Two inputs with the same hash are a collision.
+- The cache uses a hash function to turn each URL into a short key.
 
 ## Common mistake
 

@@ -21,6 +21,7 @@ During sprint reviews, project handoffs, or when discussing the final sign-off c
 
 - We need to run the acceptance tests before deploying to production.
 - The user story is not complete until it passes the acceptance test.
+- The acceptance test logs in as a customer and checks that the invoice downloads.
 
 ## Common mistake
 

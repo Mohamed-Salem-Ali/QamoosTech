@@ -20,6 +20,7 @@ When pulling the latest changes from the main project or configuring git remotes
 
 - Run `git remote add upstream` to link your fork to the original repository.
 - Always fetch from the upstream repository before starting a new feature.
+- I pulled the latest changes from upstream before rebasing my fork.
 
 ## Common mistake
 

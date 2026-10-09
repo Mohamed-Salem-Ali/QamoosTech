@@ -23,6 +23,8 @@ keywords: ["تنظيم الكود في طبقات","فصل منطق العمل �
   - هذا الـ controller يرسل بريدًا أيضًا. لنفصل الاهتمامات.
 - Good separation of concerns makes testing easier.
   - الفصل الجيد للاهتمامات يجعل الاختبار أسهل.
+- Moving the SQL out of the view is separation of concerns: the view only displays data.
+  - نقل SQL من العرض فصل للاهتمامات: العرض يعرض البيانات فقط.
 
 ## خطأ شائع
 

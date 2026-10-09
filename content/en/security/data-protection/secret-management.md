@@ -21,6 +21,7 @@ During security reviews, when setting up cloud infrastructure, or when planning 
 
 - We use a dedicated vault service for secret management instead of hardcoding API keys.
 - Proper secret management requires rotating database credentials every ninety days.
+- The database password is fetched from the vault at startup and never stored in the repository.
 
 ## Common mistake
 

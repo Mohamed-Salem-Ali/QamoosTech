@@ -22,6 +22,7 @@ When pointing a domain at Vercel, Render or AWS, verifying a domain, and setting
 
 - Add a CNAME for `www` pointing to the hosting provider.
 - The root domain needs an A record, not a CNAME.
+- After we added the MX record, the company's email started arriving at the new server.
 
 ## Common mistake
 

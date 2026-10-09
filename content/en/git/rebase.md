@@ -19,6 +19,7 @@ Git workflows and interviews.
 
 - Rebase your branch on `main` before opening the PR.
 - Never rebase a branch that others already use.
+- After the rebase, the feature branch sits on top of the latest main.
 
 ## Common mistake
 

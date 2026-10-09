@@ -24,6 +24,8 @@ keywords: ["بيانات عشوائية لكلمات المرور","منع هج�
   - يجب دائمًا إنشاء "سولت" فريد لكل مستخدم أثناء عملية التسجيل.
 - Storing the salt alongside the hashed password in the database is standard practice.
   - تخزين الـ Salt بجانب كلمة المرور المجزأة في قاعدة البيانات هو ممارسة قياسية.
+- Each user gets a different salt, so two people with the same password get different hashes.
+  - يحصل كل مستخدم على ملح (salt) مختلف، فيحصل شخصان بكلمة المرور نفسها على تجزئتين مختلفتين.
 
 ## خطأ شائع
 

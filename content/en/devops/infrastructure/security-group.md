@@ -22,6 +22,7 @@ In AWS, GCP and Azure console setup, Terraform files and "why can't my app reach
 
 - The database security group only allows port 5432 from the app's group.
 - Security groups are stateful, so replies are allowed automatically.
+- The security group allows port 443 from anywhere and port 22 only from the office.
 
 ## Common mistake
 

@@ -25,6 +25,8 @@ keywords: ["الكتابة إلى الذاكرة وقاعدة البيانات",
   - الكتابة المتزامنة تُبقي القراءات سريعة وصحيحة لكن كل كتابة أبطأ.
 - Write-back risks losing data if the cache dies before it flushes.
   - تخاطر write-back بفقد البيانات إذا مات الكاش قبل التفريغ.
+- The write-through cache updates the database and the cache in the same request.
+  - يُحدّث الكاش ذو الكتابة المباشرة قاعدة البيانات والكاش في الطلب نفسه.
 
 ## خطأ شائع
 

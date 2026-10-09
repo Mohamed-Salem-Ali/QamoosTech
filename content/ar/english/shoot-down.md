@@ -23,6 +23,8 @@ keywords: ["رفض مقترح بشكل قاطع","استبعاد فكرة في �
   - تم رفض اقتراحي بإعادة كتابة الوحدة البرمجية القديمة من قبل المهندس المسؤول.
 - Don't be afraid to voice your ideas even if you think they might get shot down.
   - لا تخف من طرح أفكارك حتى لو كنت تعتقد أنها قد تُرفض.
+- The vendor shot down our request for a discount before the call even started.
+  - رفض المورّد طلبنا للخصم قبل أن تبدأ المكالمة.
 
 ## خطأ شائع
 

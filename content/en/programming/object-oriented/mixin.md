@@ -23,6 +23,7 @@ In Python and Django code, for example mixins that add logging or JSON output, a
 
 - `JsonMixin` gives any class a `to_json()` method.
 - The view inherits from the login mixin to require authentication.
+- The Timestamps mixin adds created_at and updated_at to any model that inherits it.
 
 ## Common mistake
 

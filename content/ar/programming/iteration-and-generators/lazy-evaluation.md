@@ -25,6 +25,8 @@ keywords: ["الحساب عند الحاجة فقط", "تأجيل الحساب �
   - الاستعلام كسول: لا شيء يصل إلى قاعدة البيانات حتى نمر على النتائج.
 - A generator is lazy, so it can describe an endless sequence.
   - المولّد كسول، لذا يمكنه وصف تسلسل لا ينتهي.
+- The filter runs only when the results are printed, so unused rows are never processed.
+  - لا يعمل المرشّح إلا حين تُطبع النتائج، فلا تُعالَج الصفوف غير المستخدمة أبداً.
 
 ## خطأ شائع
 

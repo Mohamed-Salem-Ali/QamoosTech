@@ -19,6 +19,7 @@ Agile organizations and interviews.
 
 - I work in a cross-functional team with designers and QA.
 - A cross-functional team can ship without waiting for other departments.
+- The cross-functional team has a designer, two developers and a tester working toward one goal.
 
 ## Common mistake
 

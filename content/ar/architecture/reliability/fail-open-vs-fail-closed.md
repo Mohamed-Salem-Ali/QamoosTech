@@ -23,6 +23,8 @@ keywords: ["سلوك النظام عند تعطل المكونات","ماذا ي
   - إذا توقف Redis فإن محدد المعدل يعمل بنظام fail open ويسمح بدخول المستخدمين.
 - Login must fail closed: if the auth service is down, nobody gets in.
   - تسجيل الدخول يجب أن يعمل بنظام fail closed: إذا توقفت خدمة المصادقة فلا يدخل أحد.
+- The payment check fails closed, so an unavailable service blocks the purchase.
+  - يفشل فحص الدفع بطريقة مغلقة، فتمنع الخدمة غير المتاحة عملية الشراء.
 
 ## خطأ شائع
 

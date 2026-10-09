@@ -21,6 +21,7 @@ In CI/CD pipelines, DevOps discussions, and during feature testing or QA reviews
 
 - The CI pipeline automatically spins up an ephemeral environment for every new pull request.
 - QA testers can review the new feature safely in a dedicated ephemeral environment before it merges.
+- Each pull request gets an ephemeral environment that is deleted after the merge.
 
 ## Common mistake
 

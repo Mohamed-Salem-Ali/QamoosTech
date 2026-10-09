@@ -22,6 +22,7 @@ In outage post-mortems, retry design, cache and scheduler discussions.
 
 - When the service came back, all clients reconnected at once and knocked it down again.
 - Add random jitter to the retry delay.
+- All the cached items expired at midnight, and the thundering herd hit the database.
 
 ## Common mistake
 

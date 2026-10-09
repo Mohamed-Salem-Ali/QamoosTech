@@ -23,6 +23,7 @@ In object-oriented design, Python's `abc` module, Java, and code reviews about s
 
 - The base `PaymentMethod` is abstract; each concrete class implements `charge()`.
 - You cannot instantiate an abstract class.
+- The abstract Shape class requires every subclass to implement area().
 
 ## Common mistake
 

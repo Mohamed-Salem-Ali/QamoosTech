@@ -22,6 +22,7 @@ In AWS VPC setup, Kubernetes and Docker networking, and firewall rules based on 
 
 - Put the database in a private subnet with no internet route.
 - A /24 subnet has 256 addresses.
+- The web servers sit in a public subnet, and the database sits in a private one.
 
 ## Common mistake
 

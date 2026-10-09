@@ -24,6 +24,8 @@ keywords: ["دك تايبينج","التحقق من نوع الكائن حسب �
   - بما أن الكائن يحتوي على دالة `draw()`، يمكننا تمريره إلى الدالة دون التحقق من نوعه (Class).
 - Python uses duck typing to allow different objects to be used interchangeably as long as they support the expected operations.
   - تستخدم بايثون الـ Duck Typing للسماح باستخدام كائنات مختلفة بالتبادل طالما أنها تدعم العمليات المطلوبة.
+- Any object with a read() method works here, because the function only calls read().
+  - يعمل هنا أي كائن له دالة read()، لأن الدالة لا تستدعي إلا read().
 
 ## خطأ شائع
 

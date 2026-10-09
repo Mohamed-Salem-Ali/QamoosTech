@@ -24,6 +24,8 @@ keywords: ["النشر بدون انقطاع الخدمة","استراتيجية
   - نستخدم Blue-Green Deployment لضمان عدم توقف الخدمة أثناء إطلاق التحديثات.
 - If the new version has a bug, we can quickly switch traffic back to the old environment.
   - إذا احتوت النسخة الجديدة على خطأ برمجي، يمكننا تحويل حركة المرور بسرعة إلى البيئة القديمة.
+- The release went to the green environment, and the blue one stayed ready for a fast rollback.
+  - نُشر الإصدار على البيئة الخضراء، وبقيت البيئة الزرقاء جاهزة لعودة سريعة.
 
 ## خطأ شائع
 

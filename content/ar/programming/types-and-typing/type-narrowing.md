@@ -23,6 +23,8 @@ keywords: ["تضييق النوع في تايبسكريبت","تحديد نوع 
   - بعد `typeof value === "string"` يضيّق TypeScript النوع إلى `string`.
 - Use a type guard to narrow the response before reading `data`.
   - استخدم type guard لتضييق نوع الاستجابة قبل قراءة `data`.
+- After the check typeof value === 'string', the checker lets you call string methods on value.
+  - بعد الشرط typeof value === 'string' يسمح المدقق باستدعاء دوال النص على value.
 
 ## خطأ شائع
 

@@ -22,6 +22,7 @@ In cryptography libraries, encryption configuration and security reviews of how 
 
 - AES is a block cipher; GCM is the mode we run it in.
 - Use a fresh random nonce for every message.
+- AES works on 16-byte blocks, so the message is split and each block is encrypted.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ In PostgreSQL and data warehouse work, dashboards over heavy reports and "this r
 
 - The leaderboard reads from a materialized view refreshed every 5 minutes.
 - `REFRESH MATERIALIZED VIEW CONCURRENTLY` avoids blocking readers.
+- The dashboard queries the materialized view, which is refreshed every night.
 
 ## Common mistake
 

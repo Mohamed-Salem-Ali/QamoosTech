@@ -25,6 +25,8 @@ keywords: ["اختيار منسق واحد", "عقدة واحدة فقط تؤد�
   - انتخب التابعون قائداً جديداً بعد أن توقف القديم عن إرسال النبضات.
 - Only the leader runs the nightly cleanup job.
   - القائد وحده ينفّذ مهمة التنظيف الليلية.
+- The cluster elects a new leader within seconds when the old one crashes.
+  - يختار العنقود قائداً جديداً خلال ثوانٍ حين يتعطل القائد السابق.
 
 ## خطأ شائع
 

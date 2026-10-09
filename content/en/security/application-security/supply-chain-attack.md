@@ -22,6 +22,7 @@ In security news (event-stream, SolarWinds), dependency audits (`npm audit`, Dep
 
 - A look-alike package name pulled malware into the build.
 - Pin versions and verify hashes to reduce supply chain risk.
+- After the attack on the popular package, every build that installed it was at risk.
 
 ## Common mistake
 

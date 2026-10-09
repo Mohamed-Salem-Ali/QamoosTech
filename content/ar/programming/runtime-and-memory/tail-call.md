@@ -25,6 +25,8 @@ keywords: ["آخر إجراء في دالة", "تحسين الاستدعاء ا�
   - هذا الاستدعاء الذاتي ذيلي لذا تنفذه Erlang بمساحة مكدس ثابتة.
 - Python doesn't do tail-call optimisation; use a loop.
   - لا تقوم بايثون بتحسين الاستدعاء الذيلي؛ استخدم حلقة.
+- The tail-recursive version reuses one stack frame, so a million steps do not overflow.
+  - تُعيد النسخة ذات الاستدعاء الذيلي استخدام إطار مكدس واحد، فلا يطفح المكدس بمليون خطوة.
 
 ## خطأ شائع
 

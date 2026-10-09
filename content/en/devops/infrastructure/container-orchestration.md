@@ -24,6 +24,7 @@ Container orchestration is the automated management, scaling, and networking of 
 
 - Container orchestration automatically restarts any container that crashes in production.
 - We use container orchestration to scale our API pods up and down based on traffic.
+- The orchestrator moved the failed pod to a healthy node within seconds.
 
 ## Common mistake
 

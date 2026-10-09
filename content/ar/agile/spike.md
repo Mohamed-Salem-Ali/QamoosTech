@@ -23,6 +23,8 @@ keywords: ["مهمة بحثية محددة بزمن","دراسة جدوى تقن
   - نحتاج إلى مهمة بحثية لمدة يومين لنكتشف بوابة الدفع الخارجية التي تناسب متطلبات الأمان الخاصة بنا.
 - Let us create a spike ticket to test if this database migration tool handles our table size.
   - دعنا ننشئ تذكرة بحثية لنختبر ما إذا كانت أداة نقل قاعدة البيانات هذه تتحمل حجم جداولنا.
+- The two-day spike showed that the PDF library cannot render our charts.
+  - أظهر البحث التقني لمدة يومين أن مكتبة PDF لا تستطيع عرض الرسوم البيانية.
 
 ## خطأ شائع
 

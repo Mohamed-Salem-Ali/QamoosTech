@@ -20,6 +20,7 @@ Frontend-heavy teams, mobile apps, and "REST vs GraphQL" debates.
 
 - With GraphQL the app fetches the user and orders in one request.
 - The query asks only for `name` and `email`.
+- The mobile app asks GraphQL for only the three fields that the screen shows.
 
 ## Common mistake
 

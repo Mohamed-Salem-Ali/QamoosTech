@@ -20,6 +20,7 @@ SQL interviews and reporting queries.
 
 - Join the `orders` table with `users` to show the customer name.
 - A missing join condition returns millions of rows.
+- The join pairs each order with its customer using customer_id.
 
 ## Common mistake
 

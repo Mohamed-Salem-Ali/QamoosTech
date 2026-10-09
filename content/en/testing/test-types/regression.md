@@ -20,6 +20,7 @@ Release testing and bug reports.
 
 - This is a regression: the export worked last week.
 - We added a test to prevent this regression from coming back.
+- After the upgrade, search stopped matching accented words, which is a regression.
 
 ## Common mistake
 

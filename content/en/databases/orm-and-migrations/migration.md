@@ -20,6 +20,7 @@ Deployments and team workflows with Django, Prisma, or Rails.
 
 - Run the migration before starting the new version.
 - Never edit a migration that already ran in production.
+- The migration adds the email column and fills it in for the existing users.
 
 ## Common mistake
 

@@ -25,6 +25,8 @@ keywords: ["المعالج ينتقل إلى مهمة أخرى", "حفظ الح�
   - آلاف الخيوط تسبب تبديل سياق كثيراً.
 - Each task gets a short time slice before being switched out.
   - تحصل كل مهمة على شريحة وقت قصيرة قبل تبديلها.
+- Too many threads on four cores caused frequent context switches and slow responses.
+  - أدّى عدد كبير من الخيوط على أربعة أنوية إلى تبديلات سياق متكررة واستجابات بطيئة.
 
 ## خطأ شائع
 

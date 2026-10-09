@@ -24,6 +24,8 @@ keywords: ["عمليات قاعدة البيانات الذرية","ضمان ن�
   - ضع التحديثين داخل transaction حتى لا يضيع المال أبدًا.
 - The transaction was rolled back after the error.
   - تم التراجع عن الـ transaction بعد الخطأ.
+- The transfer runs in one transaction, so a failed credit undoes the debit.
+  - يُنفَّذ التحويل في معاملة واحدة، فيلغي فشل الإضافة للحساب الآخر الخصم.
 
 ## خطأ شائع
 

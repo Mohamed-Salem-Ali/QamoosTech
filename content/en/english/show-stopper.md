@@ -20,6 +20,7 @@ In project status meetings, during release planning, or when triaging high-prior
 
 - We cannot deploy the update because the payment gateway failure is a show-stopper.
 - The team identified a show-stopper in the authentication flow that delays our launch.
+- The login bug on Safari is a show-stopper, so the release waits until it is fixed.
 
 ## Common mistake
 

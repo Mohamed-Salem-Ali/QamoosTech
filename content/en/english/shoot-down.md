@@ -20,6 +20,7 @@ In design reviews, architectural meetings, or when discussing new features with 
 
 - My suggestion to rewrite the legacy module was shot down by the lead engineer.
 - Don't be afraid to voice your ideas even if you think they might get shot down.
+- The vendor shot down our request for a discount before the call even started.
 
 ## Common mistake
 

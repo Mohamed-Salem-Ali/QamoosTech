@@ -25,6 +25,8 @@ keywords: ["كائن يمكن المرور عليه بحلقة", "حلقة for �
   - تقبل الدالة أي iterable، فيمكنك تمرير قائمة أو مولّد.
 - A string is iterable: the loop gives you one character at a time.
   - النص قابل للتكرار: تعطيك الحلقة حرفاً واحداً في كل مرة.
+- The sum function accepts any iterable, so it works on a set or a tuple too.
+  - تقبل الدالة sum أي شيء قابل للتكرار، لذلك تعمل على المجموعة (set) والمجموعة المرتبة أيضاً.
 
 ## خطأ شائع
 

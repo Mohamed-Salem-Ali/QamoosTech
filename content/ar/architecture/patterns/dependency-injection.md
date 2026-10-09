@@ -23,6 +23,8 @@ NestJS وSpring وAngular ونقاشات الاختبار.
   - بفضل حقن التبعيات استبدلنا خدمة البريد الحقيقية بأخرى وهمية في الاختبارات.
 - Inject the repository instead of creating it with `new`.
   - احقن الـ repository بدل إنشائه بـ `new`.
+- The service receives the payment client through its constructor, so tests can pass a fake.
+  - تستقبل الخدمة عميل الدفع عبر المُنشئ، فيستطيع الاختبار تمرير بديل وهمي.
 
 ## خطأ شائع
 

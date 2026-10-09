@@ -26,6 +26,8 @@ keywords: ["اذهب لأعمق مدى أولاً", "اختصار DFS", "مكد�
   - يزور DFS كل ملف في شجرة مجلدات بالدخول إلى كل مجلد فرعي أولاً.
 - Mark visited nodes so DFS doesn't loop in a graph with cycles.
   - علّم العقد المزارة حتى لا يدور DFS في رسم فيه دورات.
+- DFS detects the cycle by noticing a node that is already on the current path.
+  - يكتشف DFS الدورة حين يلاحظ عقدة موجودة بالفعل على المسار الحالي.
 
 ## خطأ شائع
 

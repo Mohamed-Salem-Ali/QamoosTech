@@ -23,6 +23,8 @@ NestJS وتصميم الـ API والتحقق من المدخلات.
   - يرفض `CreateUserDto` الطلبات التي ليس فيها بريد صالح.
 - Do not return the database entity directly. Use a response DTO.
   - لا تُرجع كيان قاعدة البيانات مباشرة. استخدم response DTO.
+- The API accepts a CreateOrderDto, so invalid fields are rejected before they reach the service.
+  - تقبل الواجهة CreateOrderDto، فتُرفض الحقول غير الصحيحة قبل أن تصل إلى الخدمة.
 
 ## خطأ شائع
 

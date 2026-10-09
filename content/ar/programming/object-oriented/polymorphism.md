@@ -26,6 +26,8 @@ keywords: ["الدالة نفسها بسلوك مختلف", "إعادة تعري
   - كل شكل ينفّذ `area()`، فيكتفي التقرير باستدعائها على كل شكل.
 - Thanks to polymorphism, adding a new payment type needs no change to the checkout code.
   - بفضل تعدد الأشكال، لا تحتاج إضافة نوع دفع جديد إلى أي تغيير في كود إتمام الشراء.
+- The checkout calls process() on every payment object, whatever its class.
+  - تستدعي صفحة الدفع الدالة process() على كل كائن دفع، مهما كانت فئته.
 
 ## خطأ شائع
 

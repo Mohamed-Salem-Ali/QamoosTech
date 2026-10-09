@@ -25,6 +25,8 @@ keywords: ["الصفحة ليست في الذاكرة", "التحميل من ا�
   - الأخطاء الرئيسية بطيئة لأنها تقرأ من القرص.
 - A burst of page faults means the working set doesn't fit in RAM.
   - ازدحام أخطاء الصفحات يعني أن مجموعة العمل لا تتسع في الرام.
+- The first access to the big array triggers many page faults while the pages are loaded.
+  - يؤدي أول وصول إلى المصفوفة الكبيرة إلى أخطاء صفحات كثيرة أثناء تحميل الصفحات.
 
 ## خطأ شائع
 

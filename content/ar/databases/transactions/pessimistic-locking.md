@@ -26,6 +26,8 @@ keywords: ["اقفل الصف أولاً", "الأمر select for update", "ال
   - اقفل صف الحساب بـ `select_for_update()` قبل تغيير الرصيد.
 - Keep the transaction short so the lock isn't held long.
   - أبقِ المعاملة قصيرة حتى لا يطول القفل.
+- The bank transfer locks both account rows first, so two transfers cannot overlap.
+  - يقفل التحويل البنكي صفّي الحسابين أولاً، فلا يتداخل تحويلان.
 
 ## خطأ شائع
 

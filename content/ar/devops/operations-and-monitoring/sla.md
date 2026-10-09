@@ -23,6 +23,8 @@ keywords: ["اتفاقية مستوى الخدمة","ضمان جودة الخد�
   - تضمن اتفاقية مستوى الخدمة لدينا تشغيلًا بنسبة 99.9%.
 - We missed the SLA, so the client gets a refund.
   - لم نلتزم بالـ SLA، لذلك يحصل العميل على تعويض.
+- The SLA promises a reply within four hours, and the team tracks it weekly.
+  - يعد اتفاق مستوى الخدمة (SLA) بالرد خلال أربع ساعات، ويتابعه الفريق أسبوعياً.
 
 ## خطأ شائع
 

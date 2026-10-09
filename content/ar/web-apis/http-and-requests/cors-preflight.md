@@ -25,6 +25,8 @@ keywords: ["طلب التحقق التمهيدي","فحص صلاحيات الو�
   - يرسل المتصفح طلباً تمهيدياً لـ CORS قبل إجراء طلب `POST` يحتوي على رؤوس مخصصة.
 - If the server rejects the CORS preflight, the actual API request never gets sent.
   - إذا رفض الخادم الطلب التمهيدي لـ CORS، فلن يُرسل طلب واجهة البرمجة الفعلي أبداً.
+- The OPTIONS preflight returned 404, so the browser never sent the POST request.
+  - أعاد طلب OPTIONS الاستباقي الرمز 404، فلم يرسل المتصفح طلب POST أبداً.
 
 ## خطأ شائع
 

@@ -22,6 +22,7 @@ In OS courses, memory-usage graphs (RSS vs virtual size), container memory limit
 
 - The process shows 4 GB of virtual memory but uses 300 MB of RAM.
 - The server is swapping, so everything slowed down.
+- Each process sees its own address space, so one program cannot read another program's memory.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In AWS VPC and on-premise network setup, and when a server "can't reach the inte
 
 - The public subnet's route table sends `0.0.0.0/0` to the internet gateway.
 - No route means no connection.
+- The routing table sends traffic for the private subnet through the NAT gateway.
 
 ## Common mistake
 

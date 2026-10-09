@@ -21,6 +21,7 @@ In API documentation, data validation logic, and configuration files for backend
 
 - We use JSON Schema to validate the incoming payload in our API endpoints.
 - The service will reject the request if the JSON structure does not match the defined schema.
+- The schema requires email to be a string and age to be an integer, and rejects anything else.
 
 ## Common mistake
 

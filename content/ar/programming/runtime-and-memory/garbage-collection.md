@@ -24,6 +24,8 @@ keywords: ["إدارة الذاكرة التلقائية","تنظيف الذاك
   - تستخدم لغة البرمجة هذه خاصية Garbage Collection لتنظيف الكائنات غير المستخدمة تلقائياً.
 - Frequent garbage collection cycles can sometimes cause temporary latency spikes in the application.
   - دورات الـ Garbage Collection المتكررة قد تسبب أحياناً بطئاً مؤقتاً في استجابة التطبيق.
+- The garbage collector paused the app for 200 milliseconds during the peak hour.
+  - أوقف جامع النفايات التطبيق لمدة 200 ميلي ثانية خلال ساعة الذروة.
 
 ## خطأ شائع
 

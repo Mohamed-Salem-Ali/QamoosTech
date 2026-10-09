@@ -21,6 +21,7 @@ During server setup, security audits, domain certificate configuration, or when 
 
 - The server is configured to redirect all incoming HTTP traffic to HTTPS using SSL / TLS.
 - We need to renew the SSL / TLS certificate before it expires next month.
+- The browser shows a padlock because the site uses TLS 1.3 for every connection.
 
 ## Common mistake
 

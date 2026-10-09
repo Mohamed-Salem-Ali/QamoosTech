@@ -21,6 +21,7 @@ In security audits, penetration testing reports, code reviews, and when discussi
 
 - The security scan flagged an XSS vulnerability in the user profile comment section.
 - We must sanitize all user inputs to prevent stored XSS attacks.
+- The comment field escaped the script tag, so the XSS attempt showed as plain text.
 
 ## Common mistake
 

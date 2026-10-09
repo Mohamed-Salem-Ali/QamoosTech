@@ -26,6 +26,8 @@ keywords: ["أفضل خيار في كل خطوة", "الأمثل المحلي", 
   - تنجح الجشعة في جدولة الفترات: اختر دائماً الاجتماع الذي ينتهي أبكر.
 - For odd coin systems greedy gives the wrong count.
   - في أنظمة عملات غريبة تعطي الجشعة عدداً خاطئاً.
+- The greedy approach gives change by taking the largest coin first, which works for these coins.
+  - يُعطي النهج الجشع الباقي بأخذ أكبر قطعة أولاً، وهذا يصلح لهذه القطع.
 
 ## خطأ شائع
 

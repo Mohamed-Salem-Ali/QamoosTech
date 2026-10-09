@@ -21,6 +21,7 @@ Docker, Kubernetes, and deployment talks ("it works on my machine").
 
 - We run the API in a Docker container.
 - Containerization removed the "works on my machine" problem.
+- Packaging the service in a container means the staging and production images are identical.
 
 ## Common mistake
 

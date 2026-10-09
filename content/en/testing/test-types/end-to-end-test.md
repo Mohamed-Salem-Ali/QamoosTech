@@ -22,6 +22,7 @@ In release checks for critical flows, such as sign-up, checkout, and password re
 
 - The end-to-end test signs up, adds an item, and pays.
 - End-to-end tests are slow, so keep only the most important flows.
+- The end-to-end test opens the browser, logs in, and completes a purchase.
 
 ## Common mistake
 

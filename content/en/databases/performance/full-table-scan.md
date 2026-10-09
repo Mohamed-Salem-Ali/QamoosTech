@@ -23,6 +23,7 @@ In `EXPLAIN` output (`Seq Scan`), slow-query investigations and index design rev
 
 - The plan shows a sequential scan over 5 million rows.
 - Add an index on `member_id` to avoid the full scan.
+- The query reads all 5 million rows because the filter column has no index.
 
 ## Common mistake
 

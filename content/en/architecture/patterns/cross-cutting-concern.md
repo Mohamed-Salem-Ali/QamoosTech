@@ -23,6 +23,7 @@ In architecture reviews, design discussions about decorators and middleware, and
 
 - Logging is a cross-cutting concern, so we add it with a decorator.
 - Authentication runs in middleware instead of inside every view.
+- Request timing is a cross-cutting concern, so one middleware records it for every route.
 
 ## Common mistake
 

@@ -19,6 +19,7 @@ Developer humor and honest status updates.
 
 - I wanted to fix a typo, but now I am upgrading Node. Classic yak shaving.
 - Stop yak shaving and go back to the original ticket.
+- I went to fix one failing test and ended up rewriting the logger, classic yak shaving.
 
 ## Common mistake
 

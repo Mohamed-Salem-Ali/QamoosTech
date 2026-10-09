@@ -22,6 +22,7 @@ When saving or reading text files, setting a database or web page encoding, and 
 
 - Always open the file with `encoding="utf-8"`.
 - The response header declares the charset as UTF-8.
+- The file is saved as UTF-8, so the Arabic names display correctly in every editor.
 
 ## Common mistake
 

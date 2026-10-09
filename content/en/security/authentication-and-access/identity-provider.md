@@ -21,6 +21,7 @@ During architectural discussions about authentication flows, setting up Single S
 
 - We need to configure our application to trust the company's Identity Provider for user logins.
 - The Identity Provider issues a token once the user successfully verifies their credentials.
+- Users sign in through the company's identity provider, so the app never sees their password.
 
 ## Common mistake
 

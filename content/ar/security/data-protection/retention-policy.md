@@ -25,6 +25,8 @@ keywords: ["مدة الاحتفاظ بالبيانات", "الحذف بعد 90 �
   - تُحفظ سجلات التطبيق 30 يوماً ثم تُحذف.
 - Set a lifecycle rule to expire old backups after a year.
   - اضبط قاعدة دورة حياة لانتهاء النسخ القديمة بعد سنة.
+- The retention policy keeps invoices for seven years and deletes the logs after 90 days.
+  - تحتفظ سياسة الاحتفاظ بالفواتير سبع سنوات، وتحذف السجلات بعد 90 يوماً.
 
 ## خطأ شائع
 

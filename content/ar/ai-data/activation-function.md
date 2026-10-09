@@ -24,6 +24,8 @@ keywords: ["تضيف اللاخطية", "‏ReLU وsigmoid وsoftmax", "تقرر
   - ‏ReLU هي دالة التنشيط المعتادة بين الطبقات المخفية.
 - Softmax turns the final scores into probabilities.
   - تحوّل softmax الدرجات النهائية إلى احتمالات.
+- Without an activation function, stacking layers would still behave like one linear layer.
+  - بدون دالة تفعيل، لن يختلف تكديس الطبقات عن طبقة خطية واحدة.
 
 ## خطأ شائع
 

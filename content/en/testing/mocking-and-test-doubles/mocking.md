@@ -20,6 +20,7 @@ Unit testing and test setup discussions.
 
 - We mock the payment gateway so tests never charge real cards.
 - Too many mocks make the test fragile.
+- The test mocks the email service, then checks that send was called exactly once.
 
 ## Common mistake
 

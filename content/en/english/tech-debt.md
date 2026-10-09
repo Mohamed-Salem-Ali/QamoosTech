@@ -19,6 +19,7 @@ Planning, refactoring, and engineering management.
 
 - We took on tech debt to hit the deadline and will fix it next sprint.
 - This module has a lot of tech debt.
+- We added a quick workaround for the import, which is tech debt we will pay off later.
 
 ## Common mistake
 

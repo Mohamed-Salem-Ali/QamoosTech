@@ -23,6 +23,8 @@ keywords: ["تشفير أعمدة قاعدة البيانات الحساسة","�
   - نطبّق التشفير على مستوى الحقل على أرقام الهواتف والأرقام القومية.
 - You need the key to search by that column.
   - تحتاج إلى المفتاح للبحث بواسطة ذلك العمود.
+- Only the national ID column is encrypted, so the rest of the table stays searchable.
+  - لا يُشفَّر إلا عمود الرقم القومي، فيبقى باقي الجدول قابلاً للبحث.
 
 ## خطأ شائع
 

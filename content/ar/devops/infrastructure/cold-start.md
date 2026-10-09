@@ -24,6 +24,8 @@ keywords: ["تأخير في أول طلب","بطء استجابة دالة سي�
   - استغرق طلب واجهة برمجة التطبيقات الأول ثلاث ثوانٍ بسبب البدء البارد.
 - We use provisioned concurrency to eliminate cold starts for critical endpoints.
   - نستخدم التزامن المجهز مسبقاً للتخلص من البدء البارد لنقاط النهاية الحرجة.
+- The first request after the night was slow because of a cold start.
+  - كان الطلب الأول بعد الليل بطيئاً بسبب البدء البارد (cold start).
 
 ## خطأ شائع
 

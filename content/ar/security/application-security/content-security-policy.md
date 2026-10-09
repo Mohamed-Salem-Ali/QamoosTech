@@ -26,6 +26,8 @@ keywords: ["منع هجمات اكس اس اس","ترويسة منع السكر�
   - نحتاج إلى إضافة ترويسة سياسة أمان المحتوى لمنع تشغيل السكريبتات غير المصرح بها على لوحة التحكم الخاصة بنا.
 - The application crashed because the strict Content Security Policy blocked inline styles.
   - توقف التطبيق عن العمل لأن سياسة أمان المحتوى الصارمة حظرت تنسيقات CSS المضمنة.
+- The policy allows scripts only from our own domain, so injected scripts are blocked.
+  - تسمح السياسة بالسكربتات من نطاقنا وحده، فتُحجب السكربتات المحقونة.
 
 ## خطأ شائع
 

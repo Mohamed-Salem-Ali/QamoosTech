@@ -23,6 +23,7 @@ In testing books and design discussions, especially when deciding what to fake a
 
 - The SUT is the `Schedule` class; the database is a fake.
 - If the SUT is too hard to set up, the design may be too coupled.
+- The system under test is the billing function, and the payment API is replaced by a stub.
 
 ## Common mistake
 

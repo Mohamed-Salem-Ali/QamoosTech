@@ -23,6 +23,7 @@ In schema design, ORM documentation for many-to-many fields, and database interv
 
 - The `enrollment` table is a join table between students and courses.
 - Django creates the join table for a many-to-many field automatically.
+- The course_students join table holds one row for each student enrolled in a course.
 
 ## Common mistake
 

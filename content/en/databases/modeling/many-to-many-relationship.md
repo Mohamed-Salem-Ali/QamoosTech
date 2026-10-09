@@ -23,6 +23,7 @@ In schema design, ORM documentation, and any feature involving tags, memberships
 
 - An article can have many tags, and a tag can belong to many articles.
 - The ORM manages the many-to-many link through a hidden table.
+- A student takes many courses, and each course has many students.
 
 ## Common mistake
 

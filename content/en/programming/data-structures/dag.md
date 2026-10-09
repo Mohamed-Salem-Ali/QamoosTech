@@ -23,6 +23,7 @@ In Apache Airflow and CI pipelines, build systems, Git commit history and data p
 
 - Each Airflow workflow is defined as a DAG of tasks.
 - Git history is a DAG of commits.
+- The pipeline is a DAG: the deploy step waits for the build and the tests.
 
 ## Common mistake
 

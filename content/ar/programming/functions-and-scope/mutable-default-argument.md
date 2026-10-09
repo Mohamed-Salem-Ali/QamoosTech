@@ -26,6 +26,8 @@ keywords: ["خطأ استخدام قائمة كقيمة افتراضية", "ال
   - كان الخطأ قيمة افتراضية قابلة للتعديل: كل استدعاء كان يضيف إلى القائمة نفسها.
 - Use `None` as the default and create the list inside the function.
   - استخدم `None` كقيمة افتراضية وأنشئ القائمة داخل الدالة.
+- The function appended to a default list created once, so old items leaked into new calls.
+  - أضافت الدالة إلى قائمة افتراضية أُنشئت مرة واحدة، فتسرّبت العناصر القديمة إلى الاستدعاءات الجديدة.
 
 ## خطأ شائع
 

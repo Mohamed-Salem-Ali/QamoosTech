@@ -21,6 +21,7 @@ In discussions about release management, CI/CD pipelines, and high-availability 
 
 - We use Blue-Green Deployment to ensure zero downtime during our releases.
 - If the new version has a bug, we can quickly switch traffic back to the old environment.
+- The release went to the green environment, and the blue one stayed ready for a fast rollback.
 
 ## Common mistake
 

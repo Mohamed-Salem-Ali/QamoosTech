@@ -24,6 +24,8 @@ keywords: ["بديل الوراثة في البرمجة","بناء الكائن�
   - بدلاً من استخدام تسلسل هرمي عميق للأصناف، استخدمنا التركيب لإضافة ميزات التسجيل والتخزين المؤقت إلى خدمتنا.
 - React encourages component composition by letting you build large UIs from smaller, reusable parts.
   - تشجع ريأكت على تركيب المكونات من خلال السماح لك ببناء واجهات مستخدم كبيرة من أجزاء أصغر وقابلة لإعادة الاستخدام.
+- The cart is built by composing a price calculator and a discount rule, not by subclassing.
+  - تُبنى السلة بتركيب حاسبة الأسعار وقاعدة الخصم معاً، لا بالاشتقاق من فئة أخرى.
 
 ## خطأ شائع
 

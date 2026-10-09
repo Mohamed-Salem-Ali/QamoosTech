@@ -23,6 +23,7 @@ In Python and TypeScript projects, code reviews, and discussions of how to make 
 
 - Add type hints to the function signature so the editor can warn us.
 - Python ignores type hints at runtime; a separate checker reads them.
+- The function signature has type hints, so the editor shows the expected argument type.
 
 ## Common mistake
 

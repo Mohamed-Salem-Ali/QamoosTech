@@ -20,6 +20,7 @@ Cloud setups and high-availability designs.
 
 - The load balancer sends traffic only to healthy servers.
 - We have two servers behind a load balancer.
+- The load balancer routes each new connection to the server with the fewest active requests.
 
 ## Common mistake
 

@@ -23,6 +23,8 @@ keywords: ["تفعيل الميزة بدون نشر جديد","مفتاح تشغ
   - صفحة الدفع الجديدة خلف feature flag لعشرة بالمئة من المستخدمين.
 - If something breaks, just switch the flag off.
   - إذا حدث خلل فأطفئ الـ flag فقط.
+- The new dashboard sits behind a feature flag that only the internal team can see.
+  - لوحة المتابعة الجديدة خلف علامة ميزة لا يراها إلا الفريق الداخلي.
 
 ## خطأ شائع
 

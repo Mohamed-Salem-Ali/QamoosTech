@@ -25,6 +25,8 @@ keywords: ["طريقة أقصر لكتابة الشيء نفسه", "صيغة أ�
   - السطر `@decorator` مجرد سكر نحوي لـ `func = decorator(func)`.
 - A list comprehension is sugar over a loop that appends to a list.
   - الـ list comprehension سكر فوق حلقة تضيف إلى قائمة.
+- The for-in loop is syntactic sugar over calling next() on the iterator.
+  - حلقة for-in سكّر نحوي فوق استدعاء next() على المُكرِّر.
 
 ## خطأ شائع
 

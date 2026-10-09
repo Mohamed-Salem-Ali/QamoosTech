@@ -26,6 +26,8 @@ keywords: ["تراجع جزئي", "التراجع عن جزء من المعام�
   - أنشئ نقطة حفظ وجرّب الإدراج الخطر وتراجع إليها إن فشل.
 - A nested `atomic()` in Django becomes a savepoint.
   - تتحول `atomic()` متداخلة في Django إلى نقطة حفظ.
+- We set a savepoint before the bulk import, so a bad batch rolls back on its own.
+  - وضعنا نقطة حفظ قبل الاستيراد الجماعي، فتتراجع الدفعة الفاسدة وحدها.
 
 ## خطأ شائع
 

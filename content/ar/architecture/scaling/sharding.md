@@ -24,6 +24,8 @@ keywords: ["تقسيم قاعدة البيانات على خوادم","توزي�
   - نحتاج إلى تطبيق Sharding للتعامل مع النمو السريع في بيانات المستخدمين.
 - The database team is sharding the logs table across four different servers to improve query speed.
   - يقوم فريق قاعدة البيانات بتقسيم جدول السجلات (logs) عبر أربعة خوادم مختلفة لتحسين سرعة الاستعلام.
+- The users table is sharded by country, so each server holds the customers of one region.
+  - قُسّم جدول المستخدمين إلى شظايا حسب الدولة، فيحتفظ كل خادم بعملاء منطقة واحدة.
 
 ## خطأ شائع
 

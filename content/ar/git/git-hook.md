@@ -23,6 +23,8 @@ keywords: ["سكربت يعمل قبل الالتزام", "فحص قبل الد�
   - يوقف الخطاف الالتزام إذا فشلت أداة الفحص.
 - Hooks live in the .git/hooks folder and are not shared by default.
   - توجد الخطافات في المجلد .git/hooks ولا تُشارك افتراضياً.
+- The pre-commit hook runs the formatter, so unformatted code never reaches the repository.
+  - يشغّل خطاف ما قبل الإيداع المنسّق، فلا يصل كود غير منسّق إلى المستودع أبداً.
 
 ## خطأ شائع
 

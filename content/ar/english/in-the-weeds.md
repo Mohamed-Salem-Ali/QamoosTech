@@ -23,6 +23,8 @@ keywords: ["الغرق في التفاصيل الدقيقة","تشتت التر�
   - دعنا نتوقف عن الغرق في تفاصيل ألوان الـ CSS ونركز على منطق الميزة الأساسي.
 - I think we are getting too much in the weeds with this edge case; let's move on.
   - أعتقد أننا نغرق كثيراً في تفاصيل هذه الحالة الاستثنائية؛ لننتقل إلى ما بعدها.
+- We were in the weeds on the color palette for an hour before we came back to the user flow.
+  - ظللنا نغوص في تفاصيل لوحة الألوان ساعة كاملة قبل أن نعود إلى مسار المستخدم.
 
 ## خطأ شائع
 

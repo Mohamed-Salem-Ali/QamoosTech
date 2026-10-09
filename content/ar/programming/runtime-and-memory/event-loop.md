@@ -26,6 +26,8 @@ keywords: ["كيف تشغل جافاسكربت الكود غير المتزام�
   - تحجب الحلقة الطويلة حلقة الأحداث فلا تستجيب الصفحة.
 - `setTimeout(fn, 0)` still waits until the stack is empty.
   - ‏`setTimeout(fn, 0)` ما زالت تنتظر حتى يفرغ المكدس.
+- A slow loop in the handler froze the page because the event loop had no time to run.
+  - جمّد حلقة بطيئة داخل المعالج الصفحة، لأن حلقة الأحداث لم تجد وقتاً لتعمل.
 
 ## خطأ شائع
 

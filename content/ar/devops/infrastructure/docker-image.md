@@ -25,6 +25,8 @@ keywords: ["قالب للحاوية للقراءة فقط", "بناء صورة D
   - حجم صورة Docker 1.2 غيغابايت، لذا نحتاج إلى صورة أساسية أصغر.
 - Tag the image with the commit hash before you push it.
   - ضع وسماً على الصورة برقم الالتزام قبل دفعها.
+- The image was rebuilt with the new dependency and pushed to the registry.
+  - أُعيد بناء الصورة مع التبعية الجديدة ودُفعت إلى السجل.
 
 ## خطأ شائع
 

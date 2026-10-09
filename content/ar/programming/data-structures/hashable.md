@@ -25,6 +25,8 @@ keywords: ["يمكن أن يكون مفتاحاً في قاموس", "خطأ unha
   - القائمة غير قابلة للتجزئة، لذا لا يمكنك استخدامها مفتاحاً في قاموس.
 - Convert the list to a tuple so it becomes hashable.
   - حوّل القائمة إلى tuple لتصبح قابلة للتجزئة.
+- The tuple of coordinates is hashable, so it can be a key in the lookup dictionary.
+  - المجموعة المرتبة من الإحداثيات قابلة للتجزئة، فيمكن أن تكون مفتاحاً في قاموس البحث.
 
 ## خطأ شائع
 

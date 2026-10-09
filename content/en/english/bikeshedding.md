@@ -19,6 +19,7 @@ Meetings and code reviews.
 
 - We spent 20 minutes bikeshedding about a variable name.
 - Let's avoid bikeshedding and decide on the database first.
+- We debated the button color for an hour instead of the pricing model.
 
 ## Common mistake
 

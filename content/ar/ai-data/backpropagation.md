@@ -24,6 +24,8 @@ keywords: ["حساب التدرجات للخلف", "كيف تتعلم الشبك
   - تحسب PyTorch التدرجات عند استدعاء `loss.backward()`.
 - Each training step is a forward pass, backpropagation, then a weight update.
   - كل خطوة تدريب مرور أمامي ثم انتشار عكسي ثم تحديث الأوزان.
+- Backpropagation computed the gradient for every layer in one backward pass.
+  - حسبت خوارزمية الانتشار الخلفي (backpropagation) التدرّج لكل طبقة في مرور خلفي واحد.
 
 ## خطأ شائع
 

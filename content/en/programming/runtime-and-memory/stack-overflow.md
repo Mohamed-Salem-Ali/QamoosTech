@@ -22,6 +22,7 @@ In Python's `RecursionError`, JavaScript's "Maximum call stack size exceeded", a
 
 - The function has no base case, so it ends in a stack overflow.
 - Convert the deep recursion to a loop.
+- The stack overflow error came from a recursive call that never reached its base case.
 
 ## Common mistake
 

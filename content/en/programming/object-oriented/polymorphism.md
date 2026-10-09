@@ -23,6 +23,7 @@ In object-oriented design discussions, interviews about the pillars of OOP, and 
 
 - Each shape implements `area()`, so the report just calls it on every shape.
 - Thanks to polymorphism, adding a new payment type needs no change to the checkout code.
+- The checkout calls process() on every payment object, whatever its class.
 
 ## Common mistake
 

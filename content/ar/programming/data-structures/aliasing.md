@@ -26,6 +26,8 @@ keywords: ["اسمان لنفس الكائن", "تغيير قائمة يغيّر
   - `b = a` تنشئ اسماً آخر وليس نسخة، لذا الإضافة إلى `b` تغيّر `a` أيضاً.
 - The bug was aliasing: both rows pointed at the same list.
   - كان الخطأ تعدد أسماء: الصفان يشيران إلى القائمة نفسها.
+- Both variables point to the same list, so appending to one changes the other.
+  - يشير المتغيران إلى القائمة نفسها، فإضافة عنصر إلى أحدهما تغيّر الآخر.
 
 ## خطأ شائع
 

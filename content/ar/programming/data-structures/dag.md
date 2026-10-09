@@ -26,6 +26,8 @@ keywords: ["أسهم بلا حلقات", "‏DAGs في Airflow", "رسم اعت�
   - يُعرَّف كل مسار عمل في Airflow كـ DAG من المهام.
 - Git history is a DAG of commits.
   - تاريخ Git هو DAG من commits.
+- The pipeline is a DAG: the deploy step waits for the build and the tests.
+  - خط الأنابيب رسم بياني موجّه غير دوري (DAG): تنتظر خطوة النشر البناء والاختبارات.
 
 ## خطأ شائع
 

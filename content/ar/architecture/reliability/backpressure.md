@@ -25,6 +25,8 @@ keywords: ["إبطاء المنتج", "إشارة امتلاء الطابور", 
   - الطابور ممتلئ فتعيد الـ API الخطأ 429 لتطبيق الضغط العكسي.
 - Without backpressure the worker ran out of memory.
   - بدون ضغط عكسي نفدت ذاكرة العامل.
+- The consumer slows the producer with a bounded queue instead of dropping messages.
+  - يُبطئ المستهلك المنتِج بطابور محدود السعة، بدل إسقاط الرسائل.
 
 ## خطأ شائع
 

@@ -22,6 +22,8 @@ keywords: ["فريق متعدد التخصصات","فريق يملك كل الم
   - أعمل في فريق متعدد التخصصات مع مصممين ومختبرين.
 - A cross-functional team can ship without waiting for other departments.
   - يستطيع الفريق متعدد التخصصات الإطلاق دون انتظار الأقسام الأخرى.
+- The cross-functional team has a designer, two developers and a tester working toward one goal.
+  - يضم الفريق متعدد التخصصات مصمماً ومطورَين ومختبراً يعملون نحو هدف واحد.
 
 ## خطأ شائع
 

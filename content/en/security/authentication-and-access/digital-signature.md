@@ -22,6 +22,7 @@ In signed Git commits, software releases, JWTs (RS256) and TLS certificates.
 
 - The release is signed so users can check it wasn't tampered with.
 - Verify the signature with the publisher's public key.
+- The installer checks the digital signature before it runs, so tampered files are refused.
 
 ## Common mistake
 

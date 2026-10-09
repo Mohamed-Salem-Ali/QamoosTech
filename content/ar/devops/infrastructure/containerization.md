@@ -24,6 +24,8 @@ Docker وKubernetes ونقاشات النشر («يعمل على جهازي»).
   - نشغّل الـ API داخل حاوية Docker.
 - Containerization removed the "works on my machine" problem.
   - أزالت الحاويات مشكلة «يعمل على جهازي».
+- Packaging the service in a container means the staging and production images are identical.
+  - تغليف الخدمة في حاوية يعني أن صورتي الاختبار والإنتاج متطابقتان.
 
 ## خطأ شائع
 

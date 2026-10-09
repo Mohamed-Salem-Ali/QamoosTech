@@ -25,6 +25,8 @@ keywords: ["مستمع واحد على الأب", "معالجة نقرات عن�
   - اربط مستمع النقر بالـ `<ul>` وافحص `event.target` لمعرفة الـ `<li>`.
 - Items added later work automatically with delegation.
   - العناصر المضافة لاحقاً تعمل تلقائياً مع التفويض.
+- One listener on the table handles clicks on all of its rows, even the new ones.
+  - يعالج مستمع واحد على الجدول النقرات على كل صفوفه، حتى الجديدة منها.
 
 ## خطأ شائع
 

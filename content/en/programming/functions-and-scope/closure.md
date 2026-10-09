@@ -21,6 +21,7 @@ In JavaScript interviews, functional programming discussions, and when explainin
 
 - The inner function forms a closure over the counter variable to keep track of the state.
 - We use a closure to create private variables that cannot be modified directly from the outside.
+- The closure keeps the discount rate, so each price function reuses it without a global variable.
 
 ## Common mistake
 

@@ -24,6 +24,8 @@ keywords: ["رفع الملفات عبر طلبات الويب","إرسال ال
   - يقوم المتصفح بضبط ترويسة Content-Type على multipart/form-data عندما يرسل المستخدم نموذجاً يحتوي على ملف.
 - You must configure your backend server to parse multipart/form-data to handle incoming image uploads.
   - يجب عليك تهيئة خادم الواجهة الخلفية لمعالجة multipart/form-data للتعامل مع الصور المرفوعة.
+- The upload form sends the photo and the caption in one multipart request.
+  - يرسل نموذج الرفع الصورة والتعليق في طلب multipart واحد.
 
 ## خطأ شائع
 

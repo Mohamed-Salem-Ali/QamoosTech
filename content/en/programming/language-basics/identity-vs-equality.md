@@ -23,6 +23,7 @@ In Python code reviews, in interviews, and when two lists look equal but behave 
 
 - Two lists with the same items are equal, but they are not the same object.
 - Use `is None` rather than `== None` to check for the absence of a value.
+- The two lists are equal but not the same object, so the is check returns False.
 
 ## Common mistake
 

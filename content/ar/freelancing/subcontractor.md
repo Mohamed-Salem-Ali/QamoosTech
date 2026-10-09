@@ -23,6 +23,8 @@ keywords: ["مقاول فرعي للمشروع","التعاقد من الباط�
   - سأقوم بتعيين مصمم كمقاول فرعي للمساعدة في عناصر واجهة المستخدم لهذا المشروع.
 - The contract allows me to use a subcontractor for the backend development if necessary.
   - يسمح لي العقد بالاستعانة بمقاول فرعي لتطوير الجزء الخلفي (backend) إذا دعت الحاجة.
+- The designer works as my subcontractor, so the work reports to me and not to the client.
+  - يعمل المصمم معي كمقاول فرعي، فيرفع عمله إليّ لا إلى العميل مباشرة.
 
 ## خطأ شائع
 

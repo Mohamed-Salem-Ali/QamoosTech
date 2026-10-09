@@ -26,6 +26,8 @@ keywords: ["بناء الرابط من اسمه", "دالة reverse", "اسم ا
   - أعد التوجيه بـ `reverse('circle-detail', args=[circle.id])`.
 - Name every route so you can reverse it.
   - سمِّ كل مسار لتستطيع بناء رابطه.
+- The template uses reverse to build the link to the order page from its name.
+  - يستخدم القالب دالة reverse لبناء الرابط إلى صفحة الطلب من اسمها.
 
 ## خطأ شائع
 

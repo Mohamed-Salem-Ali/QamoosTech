@@ -23,6 +23,7 @@ When comparing languages such as Java and TypeScript with Python and JavaScript,
 
 - Static typing caught the wrong argument before we deployed.
 - TypeScript adds static typing on top of JavaScript.
+- The static type checker flags the wrong argument before the code ever runs.
 
 ## Common mistake
 

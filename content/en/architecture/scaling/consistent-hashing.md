@@ -22,6 +22,7 @@ In cache clusters, distributed databases, load balancers and system design inter
 
 - With consistent hashing, adding a cache node only moves about 1/N of the keys.
 - Virtual nodes even out the load between servers.
+- Each cache key maps to a point on the ring, and the next server clockwise holds it.
 
 ## Common mistake
 

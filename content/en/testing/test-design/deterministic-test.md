@@ -23,6 +23,7 @@ In discussions of flaky tests, CI reliability, and when tests use dates, random 
 
 - Freeze the clock so the test is deterministic.
 - Seed the random generator in the test.
+- The test fixes the random seed, so it gives the same result on every run.
 
 ## Common mistake
 

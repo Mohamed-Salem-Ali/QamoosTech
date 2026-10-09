@@ -24,6 +24,8 @@ keywords: ["مكونات وقواعد مشتركة", "الرموز: ألوان �
   - استخدم زر نظام التصميم بدل تنسيق زر جديد.
 - Change a colour token once and every screen updates.
   - غيّر رمز لون مرة واحدة فتتحدث كل الشاشات.
+- The new order page is built from the design system's card and table components.
+  - صُممت صفحة الطلبات الجديدة من مكوّنات البطاقة والجدول في نظام التصميم.
 
 ## خطأ شائع
 

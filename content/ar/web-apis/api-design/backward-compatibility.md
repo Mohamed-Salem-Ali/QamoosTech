@@ -24,6 +24,8 @@ keywords: ["العملاء القدامى ما زالوا يعملون", "الن
   - أضفنا حقلاً جديداً، والعملاء القدامى ما زالوا يعملون.
 - Keep the old endpoint for six months to preserve backward compatibility.
   - أبقِ النقطة القديمة ستة أشهر للحفاظ على التوافق مع الإصدارات السابقة.
+- The new API still accepts the old date format, so mobile apps need no update.
+  - ما زالت الواجهة الجديدة تقبل صيغة التاريخ القديمة، فلا تحتاج تطبيقات الهاتف إلى تحديث.
 
 ## خطأ شائع
 

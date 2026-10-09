@@ -20,6 +20,7 @@ In git workflows, when fixing a bug on a release branch and needing to bring tha
 
 - We need to cherry-pick that bug fix commit into the release branch.
 - I used cherry-pick to grab just the latest feature update without the other experimental changes.
+- We cherry-picked the security fix onto the release branch.
 
 ## Common mistake
 

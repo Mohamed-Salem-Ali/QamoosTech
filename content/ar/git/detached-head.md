@@ -23,6 +23,8 @@ keywords: ["جت لا يشير إلى فرع","العمل على كَمِت مب
   - دخلت في حالة detached HEAD عن طريق الخطأ عندما قمت بـ checkout لرقم `commit` مباشرة.
 - Any changes made in a detached HEAD state will be lost if you switch branches without creating a new one.
   - أي تعديلات تتم في حالة detached HEAD ستضيع إذا قمت بالانتقال إلى فرع آخر دون إنشاء فرع جديد.
+- After checking out a tag, my commits were in a detached HEAD and needed a branch.
+  - بعد الانتقال إلى وسم، كانت إيداعاتي في وضع HEAD المنفصل وتحتاج إلى فرع.
 
 ## خطأ شائع
 

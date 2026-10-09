@@ -25,6 +25,8 @@ keywords: ["وحدتان تستورد كل منهما الأخرى", "خطأ ا�
   - يستورد ملف النماذج الخدمة، وتستورد الخدمة النماذج مرة أخرى، فيحدث استيراد دائري.
 - Move the shared code into a third module to break the cycle.
   - انقل الشيفرة المشتركة إلى وحدة ثالثة لكسر الحلقة.
+- The circular import error went away after the helpers moved to their own module.
+  - اختفى خطأ الاستيراد الدائري بعد نقل الدوال المساعدة إلى وحدتها الخاصة.
 
 ## خطأ شائع
 

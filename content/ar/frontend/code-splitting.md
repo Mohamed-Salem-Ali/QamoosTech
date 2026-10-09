@@ -25,6 +25,8 @@ keywords: ["تقسيم ملفات الجافاسكريبت","تحميل الأك
   - قمنا بتطبيق تقسيم الكود لتقليل حجم حزمة الجافاسكريبت الأولية وتحسين سرعة تحميل الصفحة.
 - The routing configuration uses dynamic imports to enable code splitting for each individual page.
   - يستخدم إعداد التوجيه عمليات الاستيراد الديناميكية لتفعيل تقسيم الكود لكل صفحة على حدة.
+- The checkout page loads its payment code only when the user reaches it.
+  - تُحمّل صفحة الدفع شيفرة الدفع فقط حين يصل إليها المستخدم.
 
 ## خطأ شائع
 

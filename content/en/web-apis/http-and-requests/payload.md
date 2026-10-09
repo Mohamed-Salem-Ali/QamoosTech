@@ -20,6 +20,7 @@ API docs, webhooks, and debugging ("what is in the payload?").
 
 - The webhook payload contains the order id and the status.
 - The payload is too large, so the request fails.
+- The webhook payload is a JSON body with the order id and the new status.
 
 ## Common mistake
 

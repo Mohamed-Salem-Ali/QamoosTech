@@ -21,6 +21,7 @@ During database schema design, performance optimization discussions, or when rev
 
 - We need to apply normalization to this table to avoid storing the same address multiple times.
 - The database schema requires normalization to ensure that updates to user information remain consistent.
+- The address moved to its own table, so a change of city is made in one place.
 
 ## Common mistake
 

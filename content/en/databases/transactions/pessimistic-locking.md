@@ -23,6 +23,7 @@ In booking, balances and counters where two requests must not act on the same ro
 
 - Lock the account row with `select_for_update()` before changing the balance.
 - Keep the transaction short so the lock isn't held long.
+- The bank transfer locks both account rows first, so two transfers cannot overlap.
 
 ## Common mistake
 

@@ -21,6 +21,7 @@ During frontend development meetings, CSS styling discussions, or when building 
 
 - Use Flexbox to center a button inside a navigation bar.
 - We switched from floats to Flexbox to make the layout more responsive.
+- Flexbox keeps the logo and the menu on one row, even when the screen narrows.
 
 ## Common mistake
 

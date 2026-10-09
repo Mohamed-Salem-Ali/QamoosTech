@@ -26,6 +26,8 @@ keywords: ["نفس النتيجة في كل تشغيل", "لا عشوائية ف
   - ثبّت الساعة ليكون الاختبار حتمياً.
 - Seed the random generator in the test.
   - حدّد بذرة مولد الأرقام العشوائية في الاختبار.
+- The test fixes the random seed, so it gives the same result on every run.
+  - يثبّت الاختبار بذرة العشوائية، فيعطي النتيجة نفسها في كل تشغيل.
 
 ## خطأ شائع
 

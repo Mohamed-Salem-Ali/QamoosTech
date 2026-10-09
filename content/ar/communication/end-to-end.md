@@ -22,6 +22,8 @@ keywords: ["من البداية إلى النهاية","عملية شاملة م
   - بنيتُ الميزة من البداية إلى النهاية، من التصميم إلى النشر.
 - We need an end-to-end test of the checkout flow.
   - نحتاج إلى اختبار end-to-end لمسار الدفع.
+- I owned the feature end-to-end, from the first interview to the release notes.
+  - تولّيتُ الميزة من البداية إلى النهاية، من أول مقابلة حتى ملاحظات الإصدار.
 
 ## خطأ شائع
 

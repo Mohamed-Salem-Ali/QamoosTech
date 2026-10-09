@@ -22,6 +22,7 @@ In threat modelling sessions, architecture diagrams and security reviews of wher
 
 - Everything coming from the browser crosses a trust boundary.
 - Don't assume internal services are safe; mark that as a boundary too.
+- The API validates the JSON at the trust boundary before the data reaches the service.
 
 ## Common mistake
 

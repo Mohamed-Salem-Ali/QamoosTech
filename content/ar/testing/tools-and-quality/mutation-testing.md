@@ -26,6 +26,8 @@ keywords: ["زرع أخطاء لفحص الاختبارات", "هل تلتقط �
   - التغطية 100% لكن اختبار الطفرات يُظهر أن نصف الطفرات ينجو.
 - A surviving mutant means we need a sharper assertion.
   - نجاة الطفرة تعني أننا نحتاج تحققاً أدق.
+- Mutation testing flipped a plus to a minus and no test failed, which exposed a gap.
+  - قلب اختبار الطفرات علامة الجمع إلى طرح، ولم يفشل أي اختبار، فكشف ذلك ثغرة.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["and و or تتوقفان مبكراً", "الشرط الثاني ل�
   - الفحص الثاني لا يعمل أبداً عندما يكون الأول خاطئاً.
 - We rely on short-circuiting to avoid reading a missing attribute.
   - نعتمد على التقييم المختصر لتجنب قراءة خاصية غير موجودة.
+- In user and token is None, the second check is skipped when there is no user.
+  - في التعبير user and token is None لا يُفحص الجزء الثاني حين لا يوجد مستخدم.
 
 ## خطأ شائع
 

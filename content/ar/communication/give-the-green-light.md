@@ -23,6 +23,8 @@ keywords: ["الضوء الأخضر لبدء المشروع","الحصول عل�
   - أعطى المدير أخيراً الضوء الأخضر لنشر الميزة الجديدة في بيئة الإنتاج.
 - We are waiting for the client to give the green light before we start the next phase.
   - نحن ننتظر حصولنا على الضوء الأخضر من العميل قبل البدء في المرحلة التالية.
+- The product owner gave the green light, so the feature goes out on Monday.
+  - أعطى مالك المنتج الضوء الأخضر، لذلك تُطلق الميزة يوم الاثنين.
 
 ## خطأ شائع
 

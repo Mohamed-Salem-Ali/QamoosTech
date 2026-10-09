@@ -20,6 +20,7 @@ System design, backend interviews, and API documentation.
 
 - The mobile app talks to a RESTful API that returns JSON.
 - Use `POST` to create and `DELETE` to remove a resource.
+- A RESTful API returns all orders at /orders and one order at /orders/15.
 
 ## Common mistake
 

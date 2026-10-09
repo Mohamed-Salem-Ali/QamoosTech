@@ -23,6 +23,8 @@ CI/CD وأدوات مثل SonarQube.
   - فشلت بوابة الجودة لأن التغطية انخفضت عن 80%.
 - No pull request merges unless the quality gate is green.
   - لا يُدمج أي pull request ما لم تكن بوابة الجودة خضراء.
+- The pipeline stops at the quality gate when the coverage drops below the limit.
+  - يتوقف خط الأنابيب عند بوابة الجودة حين تنخفض التغطية عن الحد المسموح.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["ضبط مستوى عزل العمليات","التحكم في ظهو
   - قمنا بضبط مستوى العزل على Serializable لمنع حدوث قراءة البيانات الوهمية (phantom reads) في تقاريرنا المالية.
 - Changing the isolation level to Read Committed can improve performance by reducing lock contention.
   - تغيير مستوى العزل إلى Read Committed قد يحسن الأداء عن طريق تقليل التنافس على الأقفال (lock contention).
+- At Read Committed, the report can see rows that the other transaction has just committed.
+  - عند مستوى Read Committed، قد يرى التقرير الصفوف التي أثبتتها المعاملة الأخرى للتو.
 
 ## خطأ شائع
 

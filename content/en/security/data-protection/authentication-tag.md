@@ -22,6 +22,7 @@ In AES-GCM and ChaCha20-Poly1305 documentation, encryption library APIs and secu
 
 - AES-GCM returns the ciphertext and a 16-byte authentication tag.
 - Decryption raised an error because the tag didn't match.
+- Decryption failed on the tag check, so the stored file was corrupted or changed.
 
 ## Common mistake
 

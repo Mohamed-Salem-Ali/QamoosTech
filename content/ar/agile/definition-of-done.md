@@ -23,6 +23,8 @@ keywords: ["قائمة مهام العمل المكتمل","معايير اكت�
   - نحتاج إلى تحديث الـ Definition of Done لتشمل تغطية الاختبارات المؤتمتة.
 - This ticket does not meet our Definition of Done because the documentation is missing.
   - هذه التذكرة لا تستوفي الـ Definition of Done لأن التوثيق مفقود.
+- The story is not done until it meets the definition of done: tests, review and documentation.
+  - لا تكون القصة منجزة حتى تستوفي تعريف الإنجاز: الاختبارات والمراجعة والتوثيق.
 
 ## خطأ شائع
 

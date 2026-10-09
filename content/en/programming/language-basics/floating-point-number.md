@@ -22,6 +22,7 @@ In bug reports about rounding, discussions of money calculations, and interviews
 
 - Never compare two floats with equality; check that they are close enough instead.
 - We store prices as whole piasters to avoid floating-point errors.
+- In floating-point arithmetic, 0.1 + 0.2 gives 0.30000000000000004.
 
 ## Common mistake
 

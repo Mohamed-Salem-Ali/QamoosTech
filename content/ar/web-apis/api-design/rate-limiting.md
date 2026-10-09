@@ -24,6 +24,8 @@ keywords: ["منع المستخدمين من إرسال طلبات كثيرة","
   - نطبّق تحديد معدل بمقدار 100 طلب في الدقيقة لكل مستخدم.
 - You hit the rate limit, so wait a minute and retry.
   - وصلتَ إلى الحد المسموح، فانتظر دقيقة ثم أعد المحاولة.
+- After 100 calls in a minute, the API returns 429 until the window resets.
+  - بعد 100 استدعاء في الدقيقة، تُرجع الواجهة الرمز 429 حتى تُعاد ضبط النافذة.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ UTF-8 هو أشهر طريقة لتخزين نص Unicode كبايتات. يست�
   - افتح الملف دائماً مع `encoding="utf-8"`.
 - The response header declares the charset as UTF-8.
   - ترويسة الاستجابة تعلن أن الـ charset هو UTF-8.
+- The file is saved as UTF-8, so the Arabic names display correctly in every editor.
+  - حُفظ الملف بصيغة UTF-8، فتظهر الأسماء العربية بشكل صحيح في كل محرر.
 
 ## خطأ شائع
 

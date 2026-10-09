@@ -26,6 +26,8 @@ keywords: ["‏@classmethod و @staticmethod", "منشئ بديل", "دالة ب
   - `Money.from_string("12.50 EGP")` دالة صنف تبني كائن Money.
 - The validation helper is a static method because it does not use the object.
   - دالة التحقق المساعدة ساكنة لأنها لا تستخدم الكائن.
+- The class method reads cls to build the right subclass, while the static method only does a calculation.
+  - تقرأ الدالة الصنفية cls لتبني الفئة الفرعية الصحيحة، أما الدالة الساكنة فتقوم بحساب فقط.
 
 ## خطأ شائع
 

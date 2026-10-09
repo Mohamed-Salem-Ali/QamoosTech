@@ -22,6 +22,7 @@ In API work, caching, saving data to files, and framework docs, for example seri
 
 - The API serializes the order into JSON before sending it.
 - Deserialization failed because a required field was missing.
+- The cache serializes the user object to JSON before storing it in Redis.
 
 ## Common mistake
 

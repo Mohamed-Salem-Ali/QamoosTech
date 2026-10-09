@@ -22,6 +22,7 @@ In product meetings, growth discussions, and when a team says "let us test both 
 
 - The A/B test shows the new button to half of the users.
 - We need enough visitors before we trust the A/B test result.
+- The A/B test showed that the shorter form got 12 percent more sign-ups.
 
 ## Common mistake
 

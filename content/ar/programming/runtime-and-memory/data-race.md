@@ -25,6 +25,8 @@ keywords: ["خيطان يكتبان المتغير نفسه", "بلا قفل", "
   - جورتينان تزيدان العداد نفسه بلا قفل سباق بيانات.
 - The race detector flagged line 42.
   - نبّه كاشف السباق إلى السطر 42.
+- The counter lost updates because two goroutines wrote to it without a lock.
+  - فقد العدّاد تحديثات لأن خيطين كتبا فيه دون قفل.
 
 ## خطأ شائع
 

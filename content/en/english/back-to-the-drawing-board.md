@@ -19,6 +19,7 @@ Design and project discussions.
 
 - The client rejected the design, so it's back to the drawing board.
 - The prototype failed. Back to the drawing board.
+- The first prototype failed the usability tests, so the team is back to the drawing board.
 
 ## Common mistake
 

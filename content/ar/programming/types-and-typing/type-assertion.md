@@ -26,6 +26,8 @@ keywords: ["إخبار المترجم بالنوع", "الكلمة as في TypeS
   - الصيغة `response as User` تُترجم حتى لو أرسل الخادم شيئاً آخر.
 - Prefer a type guard over an assertion.
   - فضّل حارس النوع على التأكيد.
+- The cast to User is an assertion, so a wrong payload fails later, at run time.
+  - التحويل إلى User تأكيد للنوع، لذلك يفشل الحمل الخاطئ لاحقاً، أثناء التشغيل.
 
 ## خطأ شائع
 

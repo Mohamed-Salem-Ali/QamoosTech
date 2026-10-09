@@ -21,6 +21,7 @@ Database performance monitoring, transaction management discussions, and trouble
 
 - The system terminated the transaction because a deadlock was detected.
 - We need to optimize our query order to prevent frequent deadlocks.
+- Two transactions locked the rows in opposite order, which caused a deadlock.
 
 ## Common mistake
 

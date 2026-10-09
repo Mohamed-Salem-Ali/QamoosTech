@@ -21,6 +21,7 @@ In security reviews, cloud IAM configuration meetings, and architecture discussi
 
 - The database service account only has read and write access to the specific database it uses, rather than full admin rights.
 - Developers use staging environment credentials that cannot modify production infrastructure.
+- The reporting account can read the orders table but cannot delete any rows.
 
 ## Common mistake
 

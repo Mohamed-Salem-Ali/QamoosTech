@@ -23,6 +23,8 @@ keywords: ["تنقيح قائمة المهام","ترتيب أولويات ال�
   - نحتاج لتحديد موعد لجلسة grooming لتحضير قصص المستخدم للـ sprint القادم.
 - The team spent an hour grooming the backlog to clarify requirements for the upcoming features.
   - قضى الفريق ساعة في عمل grooming لقائمة الأعمال لتوضيح متطلبات الميزات القادمة.
+- In grooming, we split the big story into three smaller ones that the team can estimate.
+  - في جلسة التهيئة قسّمنا القصة الكبيرة إلى ثلاث قصص أصغر يستطيع الفريق تقديرها.
 
 ## خطأ شائع
 

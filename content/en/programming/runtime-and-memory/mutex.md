@@ -22,6 +22,7 @@ In multithreaded code, Python's `threading.Lock`, Go's `sync.Mutex` and database
 
 - Take the mutex before updating the shared counter.
 - Hold the lock for as short a time as possible.
+- The mutex stops two goroutines from updating the balance at the same time.
 
 ## Common mistake
 

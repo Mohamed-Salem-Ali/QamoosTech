@@ -25,6 +25,8 @@ keywords: ["أصغر وحدة في Kubernetes", "حاوية أو أكثر معا
   - أعيد تشغيل بود الواجهة البرمجية بعد أن نفدت ذاكرته.
 - Put the log shipper in the same pod as the application.
   - ضع أداة إرسال السجلات في البود نفسه مع التطبيق.
+- The pod runs the app and a log shipper side by side, sharing the same network address.
+  - تشغّل الحاوية (pod) التطبيق ومُرسِل السجلات جنباً إلى جنب، ويشتركان في عنوان الشبكة نفسه.
 
 ## خطأ شائع
 

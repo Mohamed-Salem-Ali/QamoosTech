@@ -26,6 +26,8 @@ keywords: ["فصل عمليات القراءة والكتابة","توزيع ض�
   - قمنا بإعداد التطبيق لإرسال استعلامات القراءة الثقيلة إلى النسخة المتماثلة.
 - When the primary node failed, one of the replicas was promoted to take its place.
   - عندما تعطلت العقدة الرئيسية، جرى ترقية إحدى النسخ المتماثلة لتحل محلها.
+- Reports read from the replica, while every order is written to the primary.
+  - تقرأ التقارير من النسخة المتماثلة، بينما تُكتب كل الطلبات إلى النسخة الأساسية.
 
 ## خطأ شائع
 

@@ -25,6 +25,8 @@ keywords: ["الكلمة go", "خيط خفيف في Go", "آلاف منها مع
   - أطلق جورتين لكل طلب وأرسل النتائج عبر قناة.
 - Leaking goroutines that wait forever is a common bug.
   - تسرب جورتينات تنتظر للأبد خلل شائع.
+- Each incoming job runs in its own goroutine and reports back on a channel.
+  - تعمل كل مهمة واردة في goroutine خاصة بها، وتُبلغ عن نتيجتها عبر القناة.
 
 ## خطأ شائع
 

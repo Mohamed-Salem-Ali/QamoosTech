@@ -21,6 +21,7 @@ In database design meetings, performance tuning sessions, and when scaling appli
 
 - We added a duplicated `user_name` column to the orders table to avoid a costly join.
 - Denormalization improved our dashboard query speed by reducing the number of table scans.
+- Storing the total on the order avoids summing the line items on every page load.
 
 ## Common mistake
 

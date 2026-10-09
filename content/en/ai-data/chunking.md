@@ -20,6 +20,7 @@ In data preprocessing pipelines, when building RAG applications, or when discuss
 
 - We need to configure the chunking strategy to split documents by paragraph instead of fixed character counts.
 - Poor chunking can cut sentences in half and ruin the semantic meaning of the retrieved context.
+- Chunking the handbook by section gave the chatbot better answers than fixed-size pages.
 
 ## Common mistake
 

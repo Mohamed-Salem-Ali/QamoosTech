@@ -23,6 +23,7 @@ In Python and Java class design, code reviews, and interviews comparing `@classm
 
 - `Money.from_string("12.50 EGP")` is a class method that builds a Money object.
 - The validation helper is a static method because it does not use the object.
+- The class method reads cls to build the right subclass, while the static method only does a calculation.
 
 ## Common mistake
 

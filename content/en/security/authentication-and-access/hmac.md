@@ -22,6 +22,7 @@ In webhook verification (Stripe, GitHub), API request signing and HS256 JWTs.
 
 - Compute the HMAC of the raw body with the shared secret and compare it to the header.
 - Use a constant-time comparison for the signatures.
+- The webhook is signed with an HMAC, so we reject any request whose signature does not match.
 
 ## Common mistake
 

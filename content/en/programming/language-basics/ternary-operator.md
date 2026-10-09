@@ -23,6 +23,7 @@ In JavaScript and Python code reviews, when someone shortens a small `if / else`
 
 - In Python it reads `label = "adult" if age >= 18 else "minor"`.
 - Use a ternary for a simple choice, but not for nested logic.
+- The status label is a ternary: paid if the invoice is settled, otherwise due.
 
 ## Common mistake
 

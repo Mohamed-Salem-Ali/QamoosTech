@@ -25,6 +25,8 @@ keywords: ["وصف شكل القاموس", "قاموس بمفاتيح معروف
   - استجابة الـ API معرّفة كـ TypedDict فيها اسم وقائمة وسوم.
 - The checker warns if you read a key that is not in the TypedDict.
   - تنبهك أداة الفحص إن قرأت مفتاحاً غير موجود في الـ TypedDict.
+- The config is a TypedDict, so the checker catches a typo in any of its keys.
+  - الإعدادات من نوع TypedDict، لذلك يلتقط المدقق أي خطأ مطبعي في أي مفتاح من مفاتيحها.
 
 ## خطأ شائع
 

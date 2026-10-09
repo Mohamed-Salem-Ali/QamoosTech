@@ -22,6 +22,7 @@ In language discussions, tutorials explaining decorators or `async/await`, and i
 
 - The `@decorator` line is just syntactic sugar for `func = decorator(func)`.
 - A list comprehension is sugar over a loop that appends to a list.
+- The for-in loop is syntactic sugar over calling next() on the iterator.
 
 ## Common mistake
 

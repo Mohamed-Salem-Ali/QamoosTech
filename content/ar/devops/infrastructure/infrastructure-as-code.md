@@ -23,6 +23,8 @@ keywords: ["البنية التحتية كشيفرة","إدارة السيرفر
   - ندير إعدادات AWS لدينا بـ Terraform كبنية تحتية كشيفرة.
 - You can review infrastructure changes in a pull request.
   - يمكنك مراجعة تغييرات البنية التحتية في pull request.
+- The Terraform file creates the database, so the staging setup can be rebuilt with one command.
+  - يُنشئ ملف Terraform قاعدة البيانات، فيمكن إعادة بناء بيئة الاختبار بأمر واحد.
 
 ## خطأ شائع
 

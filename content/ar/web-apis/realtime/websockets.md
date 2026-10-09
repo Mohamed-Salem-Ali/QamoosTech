@@ -23,6 +23,8 @@ keywords: ["اتصال مستمر بين الخادم والعميل","بروت�
   - نستخدم WebSockets لإظهار الرسائل الجديدة فورًا.
 - Polling every second is wasteful. Let's switch to WebSockets.
   - الاستعلام كل ثانية مُهدِر للموارد. لننتقل إلى WebSockets.
+- The chat uses a WebSocket, so both sides can send messages at any time.
+  - تستخدم الدردشة اتصال WebSocket، فيستطيع الطرفان إرسال الرسائل في أي وقت.
 
 ## خطأ شائع
 

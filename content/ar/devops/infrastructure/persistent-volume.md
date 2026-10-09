@@ -25,6 +25,8 @@ keywords: ["تخزين يعيش أطول من الحاوية", "حجم Docker", 
   - اربط حجماً عند `/var/lib/postgresql/data` لتنجو البيانات من إعادة التشغيل.
 - Without a persistent volume the upload folder is wiped on redeploy.
   - بدون حجم دائم يُمحى مجلد الرفع عند إعادة النشر.
+- The database pod uses a persistent volume, so the data survives a restart.
+  - تستخدم حاوية قاعدة البيانات حجم تخزين دائماً، فتبقى البيانات بعد إعادة التشغيل.
 
 ## خطأ شائع
 

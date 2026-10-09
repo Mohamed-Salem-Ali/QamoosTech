@@ -25,6 +25,8 @@ keywords: ["مراجعة بعد الحادثة", "التركيز على العم
   - تسرد المراجعة جدولاً زمنياً والسبب الجذري وثلاثة بنود عمل.
 - Ask what let the mistake happen, not who made it.
   - اسأل عما سمح بحدوث الخطأ لا عمّن ارتكبه.
+- The blameless postmortem found that the alert threshold had never been reviewed.
+  - كشف تقرير ما بعد الحادثة الخالي من اللوم أن حدّ التنبيه لم يُراجَع قط.
 
 ## خطأ شائع
 

@@ -23,6 +23,8 @@ keywords: ["ترك القرار لشخص آخر","اعتماد رأي الخبي
   - أنا أترك لـ سارة الكلمة الأخيرة في تصميم هيكل قاعدة البيانات.
 - Let's defer to the security team regarding the authentication flow.
   - دعنا نترك القرار لفريق الأمان بخصوص تدفق المصادقة.
+- I defer to the lead engineer on whether we keep the old queue.
+  - أترك القرار لكبير المهندسين بشأن إبقاء الطابور القديم.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["قاعدة يجب أن تتحقق دائماً", "حالة كائن 
   - يفرض الـ constructor الثابت المنطقي: يجب أن تكون الأسابيع رقماً موجباً.
 - Breaking the invariant would leave the object in an invalid state.
   - كسر الثابت المنطقي سيترك الكائن في حالة غير صالحة.
+- Every order must have a positive total, an invariant that the Order class checks on each change.
+  - يجب أن يكون لكل طلب مجموع موجب، وهو شرط ثابت تتحقق منه فئة Order عند كل تغيير.
 
 ## خطأ شائع
 

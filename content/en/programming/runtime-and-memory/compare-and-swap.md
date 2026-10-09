@@ -22,6 +22,7 @@ In atomic counters, lock-free data structures, optimistic locking in databases a
 
 - Retry the CAS in a loop until it succeeds.
 - A SQL `UPDATE ... WHERE version = 3` is compare-and-swap at database level.
+- The counter uses compare-and-swap so two threads never overwrite each other's update.
 
 ## Common mistake
 

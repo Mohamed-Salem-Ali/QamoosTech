@@ -20,6 +20,7 @@ TypeScript code reviews and type-safety discussions.
 
 - After `typeof value === "string"`, TypeScript narrows the type to `string`.
 - Use a type guard to narrow the response before reading `data`.
+- After the check typeof value === 'string', the checker lets you call string methods on value.
 
 ## Common mistake
 

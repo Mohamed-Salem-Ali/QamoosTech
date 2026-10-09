@@ -22,6 +22,7 @@ In AWS Route 53 consoles, Terraform DNS definitions and domain migrations.
 
 - Create a hosted zone for `example.com`, then copy its nameservers to the registrar.
 - A private hosted zone resolves names only inside the VPC.
+- The hosted zone for the domain lists the mail server and the website records.
 
 ## Common mistake
 

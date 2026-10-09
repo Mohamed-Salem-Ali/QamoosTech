@@ -22,6 +22,7 @@ In Python and JavaScript explanations of callbacks, closures and decorators.
 
 - Because functions are first-class, we can keep them in a dictionary and call them by name.
 - JavaScript functions are first-class, so you can pass one as an argument.
+- Because functions are first-class, we can pass the validator as an argument to the form builder.
 
 ## Common mistake
 

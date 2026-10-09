@@ -22,6 +22,7 @@ In text-processing code, input validation, log searching, and editor search-and-
 
 - The regex extracts every number from the message.
 - I used a regular expression to validate the phone format.
+- The regular expression checks that the code looks like AB-1234.
 
 ## Common mistake
 

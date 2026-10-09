@@ -23,6 +23,8 @@ keywords: ["تسجيل من فعل ماذا ومتى","معرفة من عدل ع
   - يُظهر سجل التدقيق من غيّر سجل المريض.
 - Audit logs must be append-only.
   - يجب أن تكون سجلات التدقيق للإضافة فقط.
+- Every change to a refund is written to the audit log with the user who made it.
+  - يُكتب كل تغيير على الاسترداد في سجل التدقيق مع المستخدم الذي أجراه.
 
 ## خطأ شائع
 

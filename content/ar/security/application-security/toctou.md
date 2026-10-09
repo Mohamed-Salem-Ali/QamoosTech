@@ -25,6 +25,8 @@ keywords: ["وقت الفحص ووقت الاستخدام", "الملف يتغي
   - السطر `if os.path.exists(f): open(f)` فيه فجوة TOCTOU.
 - Open the file once and act on the handle; don't check by path first.
   - افتح الملف مرة وتصرّف بالمقبض؛ ولا تفحص بالمسار أولاً.
+- The check of the file owner happens before the open, which creates a TOCTOU gap.
+  - يتم فحص مالك الملف قبل فتحه، وهذا يُحدث ثغرة TOCTOU.
 
 ## خطأ شائع
 

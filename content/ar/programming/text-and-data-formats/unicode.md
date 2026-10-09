@@ -24,6 +24,8 @@ keywords: ["حروف كل اللغات", "النص العربي في الكود"
   - نصوص بايثون بصيغة Unicode، لذا يعمل النص العربي دون معالجة خاصة.
 - The emoji is one Unicode character but takes several bytes when stored.
   - الإيموجي حرف Unicode واحد لكنه يشغل عدة بايتات عند التخزين.
+- Each emoji and each Arabic letter has its own Unicode code point.
+  - لكل رمز تعبيري ولكل حرف عربي نقطة ترميز خاصة به في Unicode.
 
 ## خطأ شائع
 

@@ -21,6 +21,7 @@ In CSS styling tasks, during frontend code reviews, or when implementing interac
 
 - Use the `:hover` pseudo-class to change the button color when the user moves the mouse over it.
 - The `:focus` pseudo-class is essential for accessibility to highlight elements when they are selected via keyboard navigation.
+- The :invalid pseudo-class turns the email field red until the address is valid.
 
 ## Common mistake
 

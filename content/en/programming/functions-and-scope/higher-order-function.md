@@ -21,6 +21,7 @@ In JavaScript and Python courses, functional programming talks, and discussions 
 
 - `sorted(names, key=len)` is a higher-order function call because it receives `len`.
 - A decorator is a higher-order function that returns a new function.
+- The helper takes a function and returns a new function that retries it three times.
 
 ## Common mistake
 

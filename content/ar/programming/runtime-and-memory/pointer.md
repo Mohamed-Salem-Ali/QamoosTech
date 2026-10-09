@@ -25,6 +25,8 @@ keywords: ["عنوان قيمة", "يحمل عنوان ذاكرة", "المؤش�
   - في Go مرّر مؤشراً إلى البنية لتستطيع الدالة تغييرها.
 - Dereferencing a null pointer crashes the program.
   - فك إشارة مؤشر فارغ ينهي البرنامج.
+- The function receives a pointer to the struct, so it updates the original and not a copy.
+  - تستقبل الدالة مؤشراً إلى البنية، فتعدّل الأصل لا نسخة منه.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["التحقق من صحة بيانات جايسون","قواعد هي
   - نستخدم JSON Schema للتحقق من صحة البيانات الواردة (payload) في نقاط النهاية الخاصة بـ API.
 - The service will reject the request if the JSON structure does not match the defined schema.
   - ستقوم الخدمة برفض الطلب إذا كان هيكل JSON لا يطابق المخطط (schema) المحدد.
+- The schema requires email to be a string and age to be an integer, and rejects anything else.
+  - يشترط المخطط أن يكون email نصاً وage عدداً صحيحاً، ويرفض أي شيء آخر.
 
 ## خطأ شائع
 

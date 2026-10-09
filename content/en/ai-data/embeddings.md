@@ -19,6 +19,7 @@ Search, recommendations, and RAG systems.
 
 - We store the embeddings of each article in a vector database.
 - Search improved after we switched from keywords to embeddings.
+- Two questions with the same meaning get close embeddings even when they share no words.
 
 ## Common mistake
 

@@ -25,6 +25,8 @@ keywords: ["الاتفاق على سر عبر قناة مكشوفة", "‏Diffie
   - أثناء مصافحة TLS ينفذ العميل والخادم تبادل مفاتيح ويشتقان مفتاح الجلسة.
 - The shared key never travels over the network.
   - المفتاح المشترك لا يسافر عبر الشبكة أبداً.
+- Both devices computed the same session key, and the key itself was never sent.
+  - حسب الجهازان مفتاح الجلسة نفسه، ولم يُرسل المفتاح نفسه أبداً.
 
 ## خطأ شائع
 

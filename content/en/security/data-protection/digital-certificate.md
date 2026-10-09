@@ -22,6 +22,7 @@ In HTTPS setup (Let's Encrypt), expiry alerts, wildcard certificates and certifi
 
 - The certificate expired yesterday, so browsers show a warning.
 - A wildcard certificate covers every subdomain.
+- The browser warned that the certificate of the admin site had expired.
 
 ## Common mistake
 

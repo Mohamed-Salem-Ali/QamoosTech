@@ -23,6 +23,8 @@ keywords: ["جلب البيانات بدقة","بديل لـ rest api","لغة �
   - مع GraphQL يجلب التطبيق المستخدم وطلباته في طلب واحد.
 - The query asks only for `name` and `email`.
   - يطلب الاستعلام `name` و`email` فقط.
+- The mobile app asks GraphQL for only the three fields that the screen shows.
+  - يطلب تطبيق الهاتف من GraphQL الحقول الثلاثة التي تعرضها الشاشة فقط.
 
 ## خطأ شائع
 

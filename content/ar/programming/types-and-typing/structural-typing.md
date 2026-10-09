@@ -26,6 +26,8 @@ keywords: ["النوع بالشكل لا بالاسم", "Protocol في بايث�
   - أي صنف له دالة `due()` يطابق الـ protocol حتى لو لم يذكره أبداً.
 - TypeScript types are structural, so matching shapes are interchangeable.
   - أنواع TypeScript بنيوية، لذا الأشكال المتطابقة قابلة للتبادل.
+- The function accepts anything with a due() method, so the new invoice class works without inheriting anything.
+  - تقبل الدالة أي شيء له دالة due()، فتعمل فئة الفاتورة الجديدة دون أن ترث أي شيء.
 
 ## خطأ شائع
 

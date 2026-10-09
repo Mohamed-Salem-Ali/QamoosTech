@@ -23,6 +23,8 @@ keywords: ["من يمتلك الكود المصدري","حقوق ملكية ال
   - ينص العقد على أن العميل يحصل على جميع حقوق الملكية الفكرية عند إتمام الدفع النهائي.
 - Developers must ensure their custom libraries do not violate any existing Intellectual Property agreements.
   - يجب على المطورين التأكد من أن مكتباتهم المخصصة لا تنتهك أي اتفاقيات ملكية فكرية قائمة.
+- The contract says the source code belongs to the client, including every custom library.
+  - ينص العقد على أن الشيفرة المصدرية تعود للعميل، بما فيها كل مكتبة مخصصة.
 
 ## خطأ شائع
 

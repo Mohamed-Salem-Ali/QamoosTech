@@ -25,6 +25,8 @@ keywords: ["توقيع سجلات DNS", "منع انتحال DNS", "سلسلة �
   - فعّل DNSSEC وأضف سجل DS عند المسجّل.
 - DNSSEC proves the answer is authentic, but doesn't encrypt it.
   - يثبت DNSSEC أصالة الإجابة لكنه لا يشفّرها.
+- The resolver rejected the answer because its DNSSEC signature did not validate.
+  - رفض المحلّل الجواب لأن توقيع DNSSEC الخاص به لم يجتز التحقق.
 
 ## خطأ شائع
 

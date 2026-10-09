@@ -21,6 +21,7 @@ During server audits, troubleshooting production issues, or reviewing Infrastruc
 
 - Configuration drift caused the staging environment to behave differently than production.
 - We run automated scans daily to detect any configuration drift on our cloud servers.
+- A nightly check found that the staging server had drifted from its defined settings.
 
 ## Common mistake
 

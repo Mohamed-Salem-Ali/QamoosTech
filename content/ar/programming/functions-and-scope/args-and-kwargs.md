@@ -26,6 +26,8 @@ keywords: ["عدد متغير من الوسائط", "قبول أي وسائط", 
   - تأخذ الدالة المغلِّفة `*args, **kwargs` وتمررها مباشرة إلى الدالة الأصلية.
 - `total(*numbers)` accepts any number of values.
   - `total(*numbers)` تقبل أي عدد من القيم.
+- The decorator accepts *args and **kwargs, so it works with any function signature.
+  - يقبل الديكوراتور *args و**kwargs، فيعمل مع أي توقيع دالة.
 
 ## خطأ شائع
 

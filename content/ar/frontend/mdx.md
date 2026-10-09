@@ -22,6 +22,8 @@ keywords: ["كتابة رياكت داخل ماركداون","مكونات ري�
   - كل درس هو ملف MDX فيه بضعة مكوّنات مخصصة.
 - Use plain Markdown unless you really need a component.
   - استخدم Markdown العادي ما لم تكن تحتاج مكوّنًا فعلًا.
+- The docs page embeds a live chart component next to the explanation, written in MDX.
+  - تُضمّن صفحة التوثيق مكوّن مخطط حي بجوار الشرح، مكتوباً بصيغة MDX.
 
 ## خطأ شائع
 

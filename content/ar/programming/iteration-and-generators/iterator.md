@@ -26,6 +26,8 @@ keywords: ["العنصر التالي واحداً تلو الآخر", "خطأ S
   - استدعاء `next()` على الـ iterator يعيد العنصر التالي.
 - The iterator is exhausted, so the second loop prints nothing.
   - الـ iterator استُنفد، لذلك لا تطبع الحلقة الثانية شيئاً.
+- Once the iterator is used up, a new loop needs a fresh iterator.
+  - بعد أن يُستنفد المُكرِّر، تحتاج أي حلقة جديدة إلى مُكرِّر جديد.
 
 ## خطأ شائع
 

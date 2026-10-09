@@ -23,6 +23,7 @@ In pytest (`@pytest.mark.parametrize`), unit-testing guides, and reviews that re
 
 - Parametrize the test with each edge case: empty, one, many.
 - Each row in the table shows as its own pass or fail.
+- One parametrized test covers ten date formats, and each format reports its own result.
 
 ## Common mistake
 

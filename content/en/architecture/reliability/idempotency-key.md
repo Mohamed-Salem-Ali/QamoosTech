@@ -22,6 +22,7 @@ In payment APIs (Stripe, PayPal), order creation endpoints and any API where a t
 
 - Send an `Idempotency-Key` header so a retry doesn't charge the card twice.
 - The server stores the key and the response for 24 hours.
+- The client sends the same idempotency key on retry, so a second payment is not created.
 
 ## Common mistake
 

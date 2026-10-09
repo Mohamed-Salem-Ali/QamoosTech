@@ -22,6 +22,8 @@ keywords: ["الاتفاق على حدود المشروع","تحديد ما يد
   - لنتفق على النطاق قبل أن نكتب أي شيفرة.
 - We aligned on scope: the admin panel is phase two.
   - اتفقنا على النطاق: لوحة الإدارة في المرحلة الثانية.
+- We aligned on scope with the client, and the reports moved to the next release.
+  - اتفقنا مع العميل على النطاق، فانتقلت التقارير إلى الإصدار التالي.
 
 ## خطأ شائع
 

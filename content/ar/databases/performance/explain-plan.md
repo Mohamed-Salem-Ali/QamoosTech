@@ -24,6 +24,8 @@ keywords: ["كيفية تنفيذ الاستعلام","تحليل أداء ال�
   - قم بتشغيل أمر `EXPLAIN` لمعرفة ما إذا كان الاستعلام يستخدم فهرس البريد الإلكتروني.
 - The execution plan showed a full table scan, which explained why the report query was so slow.
   - أظهرت خطة التنفيذ حدوث مسح كامل للجدول، مما فسر سبب بطء استعلام التقرير.
+- The plan shows the query scans the whole orders table, so an index on the date would help.
+  - تُظهر الخطة أن الاستعلام يمسح جدول الطلبات كاملاً، لذلك يفيد فهرس على التاريخ.
 
 ## خطأ شائع
 

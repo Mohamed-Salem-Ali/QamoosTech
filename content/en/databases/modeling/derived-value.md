@@ -22,6 +22,7 @@ In data modelling, normalisation discussions, and reviews that remove columns wh
 
 - The number of turns is derived from the weeks and the payouts per week.
 - We derive the unpaid status instead of saving it, so it can't go stale.
+- The balance is a derived value computed from the transactions, not a stored column.
 
 ## Common mistake
 

@@ -23,6 +23,7 @@ In design principles, startup checks for missing settings, input validation, and
 
 - The app refuses to start if the database URL is missing.
 - Validate the input at the top and raise a clear error.
+- The script stops at the first missing environment variable instead of failing later.
 
 ## Common mistake
 

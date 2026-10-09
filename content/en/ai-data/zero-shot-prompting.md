@@ -20,6 +20,7 @@ In AI engineering meetings, prompt engineering documentation, or when discussing
 
 - "Try a zero-shot prompting approach first to see if the model can classify the sentiment without examples."
 - "The zero-shot prompting results were surprisingly accurate for this simple summarization task."
+- Zero-shot prompting classified the ticket correctly without any examples in the prompt.
 
 ## Common mistake
 

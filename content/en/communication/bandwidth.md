@@ -19,6 +19,7 @@ Planning and workload talks.
 
 - I don't have the bandwidth to take another project this month.
 - Do you have the bandwidth to review this PR today?
+- The designer has no bandwidth this sprint, so the redesign moves to the next one.
 
 ## Common mistake
 

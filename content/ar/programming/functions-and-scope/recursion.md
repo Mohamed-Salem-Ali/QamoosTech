@@ -24,6 +24,8 @@ keywords: ["دالة تستدعي نفسها","الاستدعاء الذاتي �
   - المرور على المجلدات مثال كلاسيكي على الاستدعاء الذاتي.
 - The recursion has no base case, so it crashes with a stack overflow.
   - لا توجد حالة توقف في الاستدعاء الذاتي، لذلك ينهار البرنامج بخطأ stack overflow.
+- The recursive function sums a nested list by summing each sublist first.
+  - تجمع الدالة التكرارية القائمة المتداخلة بجمع كل قائمة فرعية أولاً.
 
 ## خطأ شائع
 

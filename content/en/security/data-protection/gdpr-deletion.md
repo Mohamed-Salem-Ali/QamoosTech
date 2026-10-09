@@ -20,6 +20,7 @@ Privacy, legal reviews, and account deletion features.
 
 - The user asked us to delete their account under GDPR.
 - We must also remove the data from backups and analytics.
+- The deletion request removed the account and its data from every system within 30 days.
 
 ## Common mistake
 

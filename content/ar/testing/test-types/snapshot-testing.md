@@ -24,6 +24,8 @@ keywords: ["اختبار واجهة المستخدم بالمقارنة","اخت
   - أضفنا اختبارات السنابشوت للتأكد من أن مكون ملف تعريف المستخدم يُعرض بشكل صحيح.
 - The test failed because the button's CSS class changed in the new snapshot.
   - فشل الاختبار لأن فئة الـ CSS الخاصة بالزر تغيرت في السنابشوت الجديد.
+- The snapshot test failed after someone changed the heading, so the team reviewed the new snapshot.
+  - فشل اختبار اللقطة بعد أن غيّر أحدهم العنوان، فراجع الفريق اللقطة الجديدة.
 
 ## خطأ شائع
 

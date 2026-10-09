@@ -21,6 +21,7 @@ Payments, webhooks, retries, and background jobs.
 
 - Send an idempotency key so retries cannot charge the customer twice.
 - Make the job idempotent because the queue may deliver it twice.
+- Calling the cancel endpoint twice cancels the order once, thanks to idempotency.
 
 ## Common mistake
 

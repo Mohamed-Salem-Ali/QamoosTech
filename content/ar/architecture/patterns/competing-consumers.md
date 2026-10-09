@@ -25,6 +25,8 @@ keywords: ["عمال كثيرون وطابور واحد", "كل رسالة تُ�
   - شغّل خمسة عمال؛ يتنافسون على رسائل البريد في الطابور.
 - The queue is growing, so add more consumers.
   - الطابور يكبر لذا أضف مستهلكين أكثر.
+- Three workers compete for the same queue, so each email is sent only once.
+  - يتنافس ثلاثة عمّال على الطابور نفسه، فيُرسل كل بريد مرة واحدة فقط.
 
 ## خطأ شائع
 

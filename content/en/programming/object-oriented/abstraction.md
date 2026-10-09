@@ -21,6 +21,7 @@ In architectural discussions, during code reviews, or when designing software co
 
 - Using a library function to send an email is an abstraction over the complex SMTP protocol.
 - An interface provides an abstraction that allows you to swap database implementations without changing your business logic.
+- The payment service hides the gateway details behind a single charge() method.
 
 ## Common mistake
 

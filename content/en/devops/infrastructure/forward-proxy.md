@@ -22,6 +22,7 @@ In corporate networks, web scraping setups, security reviews and "proxy settings
 
 - All outgoing traffic goes through the company's forward proxy.
 - pip fails because the corporate proxy isn't configured.
+- The office proxy caches package downloads, so the second install is faster.
 
 ## Common mistake
 

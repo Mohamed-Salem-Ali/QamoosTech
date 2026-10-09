@@ -20,6 +20,7 @@ Privacy policies, security reviews, and data handling rules.
 
 - Do not log any PII.
 - Mask the PII before sending data to analytics.
+- The support tool hides the phone number and the email, showing only the last four digits.
 
 ## Common mistake
 

@@ -24,6 +24,8 @@ keywords: ["فك الارتباط بين المكونات البرمجية","ت�
   - نحن نقوم بفك ارتباط خدمة الدفع عن خدمة معالجة الطلبات باستخدام طابور رسائل.
 - Decoupling the frontend from the backend allows teams to deploy updates independently.
   - فك الارتباط بين الواجهة الأمامية والخلفية يسمح للفرق بنشر التحديثات بشكل مستقل.
+- Decoupling the reports from the orders database let the reporting team change its schema freely.
+  - أتاح فصل التقارير عن قاعدة بيانات الطلبات لفريق التقارير تغيير مخططه بحرية.
 
 ## خطأ شائع
 

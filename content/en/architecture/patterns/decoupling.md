@@ -21,6 +21,7 @@ In system design discussions, architectural reviews, and when planning migration
 
 - We are decoupling the payment service from the order processing service using a message queue.
 - Decoupling the frontend from the backend allows teams to deploy updates independently.
+- Decoupling the reports from the orders database let the reporting team change its schema freely.
 
 ## Common mistake
 

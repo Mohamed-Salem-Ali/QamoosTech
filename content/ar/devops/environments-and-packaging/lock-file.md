@@ -26,6 +26,8 @@ keywords: ["الإصدارات المثبتة بدقة", "تثبيتات قاب�
   - ضمّ ملف القفل للمستودع ليثبّت الخادم الإصدارات نفسها.
 - The build broke after a new release; the lock file would have prevented it.
   - تعطل البناء بعد إصدار جديد؛ وكان ملف القفل سيمنع ذلك.
+- The lock file pins requests to 2.31.0, so the build installs the same version as yesterday.
+  - يثبّت ملف القفل مكتبة requests على 2.31.0، فيثبّت البناء النسخة نفسها التي استُخدمت بالأمس.
 
 ## خطأ شائع
 

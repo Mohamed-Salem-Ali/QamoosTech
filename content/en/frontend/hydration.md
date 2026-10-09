@@ -20,6 +20,7 @@ Next.js and React errors like "hydration mismatch".
 
 - We got a hydration error because the server and client rendered different text.
 - The page is visible quickly, then hydration makes the buttons work.
+- The page appears instantly, and hydration makes the menu clickable a moment later.
 
 ## Common mistake
 

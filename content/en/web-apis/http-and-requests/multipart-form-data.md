@@ -21,6 +21,7 @@ When building file upload features or working with HTML forms that contain file 
 
 - The browser sets the Content-Type header to multipart/form-data when a user submits a file upload form.
 - You must configure your backend server to parse multipart/form-data to handle incoming image uploads.
+- The upload form sends the photo and the caption in one multipart request.
 
 ## Common mistake
 

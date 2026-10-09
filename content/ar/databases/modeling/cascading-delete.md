@@ -24,6 +24,8 @@ keywords: ["حذف السجلات التابعة تلقائيا","مسح الب�
   - قمنا بضبط الـ cascading delete بحيث يؤدي حذف المستخدم إلى حذف إعدادات ملفه الشخصي تلقائياً.
 - Using a cascading delete simplifies cleanup but can lead to accidental data loss if not used carefully.
   - استخدام الـ cascading delete يسهل عملية التنظيف، لكنه قد يؤدي إلى فقدان بيانات غير مقصود إذا لم يُستخدم بحذر.
+- Deleting an order also deletes its line items through a cascading delete.
+  - يحذف حذف الطلب بنود الطلب المرتبطة به عبر الحذف المتسلسل.
 
 ## خطأ شائع
 

@@ -19,6 +19,7 @@ CVs, interviews, and project descriptions.
 
 - I built the feature end-to-end, from design to deployment.
 - We need an end-to-end test of the checkout flow.
+- I owned the feature end-to-end, from the first interview to the release notes.
 
 ## Common mistake
 

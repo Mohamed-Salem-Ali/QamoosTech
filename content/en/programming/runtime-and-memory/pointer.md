@@ -22,6 +22,7 @@ In C, C++, Go and Rust code, systems programming, and when comparing with Python
 
 - In Go, pass a pointer to the struct so the function can change it.
 - Dereferencing a null pointer crashes the program.
+- The function receives a pointer to the struct, so it updates the original and not a copy.
 
 ## Common mistake
 

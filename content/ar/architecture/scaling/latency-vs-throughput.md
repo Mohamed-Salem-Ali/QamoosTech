@@ -24,6 +24,8 @@ keywords: ["الفرق بين زمن الاستجابة والإنتاجية","�
   - زمن الاستجابة 80 ملّي ثانية فقط، لكن الإنتاجية تنخفض تحت الحمل الكبير.
 - Adding servers improves throughput, not latency.
   - إضافة خوادم تحسّن الإنتاجية لا زمن الاستجابة.
+- Batching the writes raised throughput, but each single write now waits longer.
+  - رفع تجميع الكتابات الإنتاجية، لكن كل كتابة منفردة صار انتظارها أطول.
 
 ## خطأ شائع
 

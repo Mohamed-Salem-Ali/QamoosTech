@@ -19,6 +19,7 @@ Chatbots over company documents.
 
 - The support bot uses RAG to answer from our documentation.
 - RAG reduces hallucinations, but it does not remove them.
+- The chatbot retrieves the three most relevant policy paragraphs before it answers.
 
 ## Common mistake
 

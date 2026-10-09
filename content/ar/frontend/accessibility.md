@@ -22,6 +22,8 @@ keywords: ["إتاحة الوصول للمواقع","معايير استخدام
   - أضف نصًا بديلًا `alt` لكل صورة لضمان إتاحة الوصول.
 - Can you reach every button using only the keyboard?
   - هل تستطيع الوصول إلى كل زر باستخدام لوحة المفاتيح فقط؟
+- Labels on the form fields let screen readers announce what each input is for.
+  - تتيح تسميات حقول النموذج لقارئات الشاشة أن تعلن الغرض من كل حقل.
 
 ## خطأ شائع
 

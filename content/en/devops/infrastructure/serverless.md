@@ -20,6 +20,7 @@ AWS Lambda, Vercel functions, and cost discussions.
 
 - We run the PDF export as a serverless function.
 - Serverless scales automatically, but cold starts add delay.
+- The image resize runs as a serverless function that is billed per call.
 
 ## Common mistake
 

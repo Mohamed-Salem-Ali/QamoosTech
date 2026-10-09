@@ -21,6 +21,7 @@ In ML model evaluation, bias/variance discussions and training-curve reviews.
 
 - Both training and validation scores are low, so the model is underfitting.
 - Try a bigger model or more informative features.
+- A straight line cannot follow the curve in the data, so the model underfits.
 
 ## Common mistake
 

@@ -22,6 +22,7 @@ In OS courses, performance profiling (high context-switch counts) and discussion
 
 - Thousands of threads cause heavy context switching.
 - Each task gets a short time slice before being switched out.
+- Too many threads on four cores caused frequent context switches and slow responses.
 
 ## Common mistake
 

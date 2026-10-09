@@ -21,6 +21,7 @@ In cloud infrastructure management, DevOps team meetings, and documentation for 
 
 - The team is provisioning new cloud servers for the upcoming release.
 - We use automated scripts for provisioning our staging environment.
+- Provisioning the three servers took twenty minutes with the new script.
 
 ## Common mistake
 

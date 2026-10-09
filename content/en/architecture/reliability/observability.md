@@ -21,6 +21,7 @@ In discussions about system reliability, incident response, and infrastructure m
 
 - We need to improve our observability to debug these intermittent latency spikes.
 - Adding better observability tools helped us identify the root cause of the system failure.
+- Traces showed that one downstream call caused the slowdown, not the database.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ Interviews, code reviews, and architecture talks.
 
 - This is the Observer pattern: subscribers get notified on every change.
 - Do not force a pattern where a simple function is enough.
+- The shop uses a factory pattern to create the right payment handler for each country.
 
 ## Common mistake
 

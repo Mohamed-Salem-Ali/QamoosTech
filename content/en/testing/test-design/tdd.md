@@ -21,6 +21,7 @@ In team planning sessions, coding pair programming routines, and agile retrospec
 
 - We practice TDD to ensure every new feature has automated test coverage from day one.
 - Writing the test first in TDD helps clarify the requirements before we touch the implementation code.
+- With TDD, the first commit contains only a failing test for the discount rule.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ In sprint planning meetings, backlog refinement sessions, or when facing an unkn
 
 - We need a two-day spike to figure out which third-party payment gateway fits our security requirements.
 - Let us create a spike ticket to test if this database migration tool handles our table size.
+- The two-day spike showed that the PDF library cannot render our charts.
 
 ## Common mistake
 

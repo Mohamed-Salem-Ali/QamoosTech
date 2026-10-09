@@ -21,6 +21,7 @@ In microservices architecture discussions, resilience planning, and system relia
 
 - The circuit breaker opened after the payment service threw too many errors, falling back to a cached response.
 - We configured the circuit breaker to automatically retry the remote API after a thirty-second cooling period.
+- When the payment API keeps timing out, the circuit breaker stops calling it for a minute.
 
 ## Common mistake
 

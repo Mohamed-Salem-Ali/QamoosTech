@@ -25,6 +25,8 @@ keywords: ["ترتيب بحث بايثون في الأصناف الأب", "ال�
   - اطبع `D.__mro__` لترى ترتيب البحث.
 - `super()` calls the next class in the MRO, not necessarily the direct parent.
   - يستدعي `super()` الصنف التالي في الـ MRO، وليس بالضرورة الأب المباشر.
+- The MRO places the mixin before the base class, so its method runs first.
+  - يضع ترتيب البحث عن الدوال (MRO) الـ mixin قبل الفئة الأساسية، فتعمل دالته أولاً.
 
 ## خطأ شائع
 

@@ -22,6 +22,7 @@ In TLS handshake explanations, VPN and SSH setup, and cryptography courses.
 
 - During the TLS handshake the client and server run a key exchange and derive a session key.
 - The shared key never travels over the network.
+- Both devices computed the same session key, and the key itself was never sent.
 
 ## Common mistake
 

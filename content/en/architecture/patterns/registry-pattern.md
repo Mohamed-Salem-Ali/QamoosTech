@@ -23,6 +23,7 @@ In plugin systems, CLI command handlers, serializers, and Python code with a `@r
 
 - Each command registers itself, and the CLI looks it up by name.
 - Adding a new exporter means adding one function; no `if` chain to edit.
+- The registry maps command names to handlers, so the CLI looks each one up by name.
 
 ## Common mistake
 

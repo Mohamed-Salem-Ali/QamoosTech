@@ -23,6 +23,8 @@ keywords: ["أمر شراء","رقم أمر الشراء للفاتورة","مس
   - يرجى إرسال رقم أمر الشراء (PO) لأتمكن من ذكره في فاتورتي.
 - The client requires a PO before they can approve the project budget.
   - يحتاج العميل إلى أمر شراء (PO) قبل أن يتمكن من الموافقة على ميزانية المشروع.
+- The client sent a PO for twelve hours of work, so we can start the sprint.
+  - أرسل العميل أمر شراء لاثنتي عشرة ساعة عمل، فنستطيع بدء السبرنت.
 
 ## خطأ شائع
 

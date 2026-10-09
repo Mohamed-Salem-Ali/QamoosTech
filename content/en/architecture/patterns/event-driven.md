@@ -20,6 +20,7 @@ Modern backend architecture and cloud systems.
 
 - When an order is created, an event triggers the email and invoice services.
 - An event-driven design keeps services loosely coupled.
+- The inventory service reacts to the order-placed event without the checkout calling it.
 
 ## Common mistake
 

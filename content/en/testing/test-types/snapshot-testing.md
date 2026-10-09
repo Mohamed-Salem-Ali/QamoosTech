@@ -21,6 +21,7 @@ In frontend code reviews, during test suite setups, or when refactoring UI compo
 
 - We added snapshot testing to verify that the user profile component renders correctly.
 - The test failed because the button's CSS class changed in the new snapshot.
+- The snapshot test failed after someone changed the heading, so the team reviewed the new snapshot.
 
 ## Common mistake
 

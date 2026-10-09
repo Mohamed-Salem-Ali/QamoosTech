@@ -20,6 +20,7 @@ In meetings about AI architecture, RAG implementation, or when discussing how to
 
 - We need to implement grounding so the AI answers based on our company's internal documentation.
 - Grounding the model with real-time data significantly reduced the number of incorrect responses.
+- When the answer is grounded in the policy document, the bot cites the exact clause.
 
 ## Common mistake
 

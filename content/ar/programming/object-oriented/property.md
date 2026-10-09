@@ -26,6 +26,8 @@ keywords: ["getter و setter", "خاصية مع تحقق", "الـ decorator ‏
   - `balance` خاصية للقراءة فقط، فلا يستطيع من يستدعيها تعيين قيمة لها.
 - The setter rejects negative ages.
   - يرفض الـ setter الأعمار السالبة.
+- The total property is computed from the line items every time it is read.
+  - تُحسب الخاصية total من بنود الطلب في كل مرة تُقرأ فيها.
 
 ## خطأ شائع
 

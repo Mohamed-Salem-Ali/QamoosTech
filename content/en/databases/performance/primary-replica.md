@@ -23,6 +23,7 @@ A database architecture pattern where all write operations go to a single primar
 
 - We configured the application to send heavy read queries to the replica.
 - When the primary node failed, one of the replicas was promoted to take its place.
+- Reports read from the replica, while every order is written to the primary.
 
 ## Common mistake
 

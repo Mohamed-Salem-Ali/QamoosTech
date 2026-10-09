@@ -26,6 +26,8 @@ keywords: ["تجميع الصفوف بعمود", "العدد لكل فئة", "ا
   - جمّع حسب الأسبوع لتحصل على المبلغ المحصَّل في كل أسبوع.
 - Use `HAVING` to filter groups after the grouping.
   - استخدم `HAVING` لتصفية المجموعات بعد التجميع.
+- Grouping the payments by country gives one total for each country.
+  - يعطي تجميع المدفوعات حسب الدولة مجموعاً واحداً لكل دولة.
 
 ## خطأ شائع
 

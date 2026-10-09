@@ -23,6 +23,7 @@ In TypeScript, Java and typed Python code, library documentation, and API design
 
 - A generic list keeps track of what kind of items it holds.
 - The function is generic: it returns the same type it was given.
+- A generic cache keeps the type of the values it stores, so callers get the right type back.
 
 ## Common mistake
 

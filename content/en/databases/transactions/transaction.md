@@ -21,6 +21,7 @@ Payments, transfers, and any multi-step update.
 
 - Wrap both updates in a transaction so money is never lost.
 - The transaction was rolled back after the error.
+- The transfer runs in one transaction, so a failed credit undoes the debit.
 
 ## Common mistake
 

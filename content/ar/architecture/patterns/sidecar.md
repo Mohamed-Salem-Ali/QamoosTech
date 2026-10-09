@@ -24,6 +24,8 @@ keywords: ["حاوية مساعدة بجوار التطبيق", "وكيل الس
   - تنقل حاوية جانبية السجلات من التطبيق إلى المخزن المركزي.
 - The sidecar handles TLS, so the service code does not need certificates.
   - تتولى الحاوية الجانبية تشفير TLS، فلا تحتاج شيفرة الخدمة إلى شهادات.
+- The sidecar proxy handles retries for the service, so the code does not implement them.
+  - يتولى الوكيل المساعد (sidecar) إعادة المحاولات للخدمة، فلا تنفّذها الشيفرة.
 
 ## خطأ شائع
 

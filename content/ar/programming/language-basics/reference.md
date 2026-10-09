@@ -25,6 +25,8 @@ keywords: ["المتغير يشير إلى كائن", "النسخ بالمرجع
   - كلا الاسمين يحمل مرجعاً إلى القائمة نفسها، لذا فتغيير أحدهما يغيّر الآخر.
 - The function received a reference to the object, so it modified the caller's data.
   - استلمت الدالة مرجعاً إلى الكائن، لذلك عدّلت بيانات من استدعاها.
+- A reference to the cart is passed around, so every function sees the same cart.
+  - يُمرَّر مرجع إلى السلة، فيرى كل دالة السلة نفسها.
 
 ## خطأ شائع
 

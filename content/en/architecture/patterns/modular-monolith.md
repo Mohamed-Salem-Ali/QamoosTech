@@ -22,6 +22,7 @@ In architecture discussions about starting simple, "monolith first" advice and m
 
 - We run a modular monolith: billing and members are separate modules in one app.
 - Modules only talk through public interfaces.
+- The orders module calls the billing module only through its public interface.
 
 ## Common mistake
 

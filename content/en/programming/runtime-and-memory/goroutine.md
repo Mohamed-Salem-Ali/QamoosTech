@@ -22,6 +22,7 @@ In Go code and tutorials, interviews for Go roles, and concurrency discussions c
 
 - Launch a goroutine per request and send results over a channel.
 - Leaking goroutines that wait forever is a common bug.
+- Each incoming job runs in its own goroutine and reports back on a channel.
 
 ## Common mistake
 

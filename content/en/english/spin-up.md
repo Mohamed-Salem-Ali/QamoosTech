@@ -19,6 +19,7 @@ DevOps and daily engineering talk.
 
 - I can spin up a test server in five minutes.
 - Let me spin up a quick prototype for the client.
+- We spin up a staging copy of the database for each release candidate.
 
 ## Common mistake
 

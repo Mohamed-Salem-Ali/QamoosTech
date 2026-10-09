@@ -25,6 +25,8 @@ keywords: ["طلبات كثيرة تعيد بناء المفتاح نفسه", "�
   - انتهى مفتاح الصفحة الرئيسية فضرب 5,000 طلب قاعدة البيانات.
 - Add jitter to the TTLs so keys don't all expire together.
   - أضف تفاوتاً عشوائياً إلى أوقات الصلاحية حتى لا تنتهي المفاتيح معاً.
+- We added a lock so that only one request rebuilds the expired key during a stampede.
+  - أضفنا قفلاً حتى لا يعيد إلا طلب واحد بناء المفتاح المنتهي أثناء الازدحام.
 
 ## خطأ شائع
 

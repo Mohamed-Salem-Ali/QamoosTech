@@ -26,6 +26,8 @@ keywords: ["تحميل الصفوف المرتبطة مسبقاً", "‏select_r
   - التحميل المسبق للعضو مع كل دفعة حوّل 101 استعلاماً إلى واحد.
 - Use eager loading before looping over the related objects.
   - استخدم التحميل المسبق قبل المرور على الكائنات المرتبطة.
+- With eager loading, the orders page runs one query instead of one per customer.
+  - مع التحميل المسبق (eager loading) تنفّذ صفحة الطلبات استعلاماً واحداً بدلاً من واحد لكل عميل.
 
 ## خطأ شائع
 

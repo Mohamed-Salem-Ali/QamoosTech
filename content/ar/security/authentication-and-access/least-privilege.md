@@ -24,6 +24,8 @@ keywords: ["مبدأ الحد الأدنى من الصلاحيات","منح أق
   - حساب خدمة قاعدة البيانات يمتلك صلاحيات القراءة والكتابة فقط لقاعدة البيانات الخاصة به، بدلاً من صلاحيات المدير الكاملة.
 - Developers use staging environment credentials that cannot modify production infrastructure.
   - يستخدم المطورون بيانات اعتماد لبيئة التجارب لا تستطيع تعديل البنية التحتية لبيئة الإنتاج.
+- The reporting account can read the orders table but cannot delete any rows.
+  - يستطيع حساب التقارير قراءة جدول الطلبات، لكنه لا يستطيع حذف أي صف.
 
 ## خطأ شائع
 

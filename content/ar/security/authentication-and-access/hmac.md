@@ -25,6 +25,8 @@ keywords: ["هاش بمفتاح سري", "التحقق من توقيع webhook",
   - احسب HMAC للجسم الخام بالسر المشترك وقارنه بالترويسة.
 - Use a constant-time comparison for the signatures.
   - استخدم مقارنة بزمن ثابت للتوقيعات.
+- The webhook is signed with an HMAC, so we reject any request whose signature does not match.
+  - يُوقَّع الـ webhook بـ HMAC، لذلك نرفض أي طلب لا يتطابق توقيعه.
 
 ## خطأ شائع
 

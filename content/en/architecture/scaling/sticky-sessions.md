@@ -22,6 +22,7 @@ In load balancer settings, scaling reviews, and discussions about why logins dis
 
 - Enable sticky sessions until we move sessions to Redis.
 - Users lose their cart when the sticky server restarts.
+- Sticky sessions keep the user on the same node, so the cart in memory stays visible.
 
 ## Common mistake
 

@@ -20,6 +20,7 @@ In AI research papers, prompt engineering workshops, and when optimizing LLM wor
 
 - Adding "Let's think step-by-step" to your prompt is a simple way to trigger Chain-of-Thought reasoning.
 - We implemented Chain-of-Thought to improve the model's accuracy on our internal logic-heavy datasets.
+- Asking for step-by-step reasoning raised the score on the math questions.
 
 ## Common mistake
 

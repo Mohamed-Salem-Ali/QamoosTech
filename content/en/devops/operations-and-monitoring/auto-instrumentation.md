@@ -22,6 +22,7 @@ In OpenTelemetry, Datadog and Sentry setup, and observability rollouts across ma
 
 - Turn on auto-instrumentation to get HTTP and database spans for free.
 - Add manual spans for the business steps it can't see.
+- After the agent was installed, every database query showed up as a trace span.
 
 ## Common mistake
 

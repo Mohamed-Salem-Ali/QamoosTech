@@ -24,6 +24,8 @@ keywords: ["مزود الهوية الرقمية","نظام التحقق من ه
   - نحتاج إلى ضبط تطبيقنا ليعتمد على الـ Identity Provider الخاص بالشركة لتسجيل دخول المستخدمين.
 - The Identity Provider issues a token once the user successfully verifies their credentials.
   - يقوم الـ Identity Provider بإصدار رمز (Token) بمجرد أن ينجح المستخدم في التحقق من بيانات اعتماده.
+- Users sign in through the company's identity provider, so the app never sees their password.
+  - يسجّل المستخدمون دخولهم عبر مزوّد الهوية الخاص بالشركة، فلا يرى التطبيق كلمة المرور أبداً.
 
 ## خطأ شائع
 

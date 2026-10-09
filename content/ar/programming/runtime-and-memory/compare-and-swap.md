@@ -25,6 +25,8 @@ keywords: ["تحديث ذري بلا قفل", "تعليمة CAS", "حدّث فق
   - أعد محاولة CAS في حلقة حتى تنجح.
 - A SQL `UPDATE ... WHERE version = 3` is compare-and-swap at database level.
   - جملة `UPDATE ... WHERE version = 3` في SQL هي مقارنة وتبديل على مستوى قاعدة البيانات.
+- The counter uses compare-and-swap so two threads never overwrite each other's update.
+  - يستخدم العدّاد المقارنة والتبديل (compare-and-swap) حتى لا يمحو خيطان تحديث أحدهما الآخر.
 
 ## خطأ شائع
 

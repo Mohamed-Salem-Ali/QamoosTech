@@ -23,6 +23,8 @@ keywords: ["التحكم في الوصول حسب الأدوار","إدارة ص
   - دور المدير وحده يستطيع حذف الفواتير.
 - We use RBAC, so we change the role, not every user.
   - نستخدم RBAC، فنغيّر الدور لا كل مستخدم.
+- The Viewer role can see the reports but cannot change any settings.
+  - يستطيع دور المشاهد رؤية التقارير، لكنه لا يستطيع تغيير أي إعدادات.
 
 ## خطأ شائع
 

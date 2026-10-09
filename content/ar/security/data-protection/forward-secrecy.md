@@ -25,6 +25,8 @@ keywords: ["الحركة السابقة تبقى آمنة", "مفتاح مسرّ
   - يوفر TLS 1.3 السرية المستقبلية افتراضياً.
 - Without it, one stolen key exposes years of recorded traffic.
   - بدونها يكشف مفتاح مسروق واحد سنوات من الحركة المسجلة.
+- With forward secrecy, old recorded sessions stay unreadable even if the server key leaks.
+  - مع السرّية الأمامية تبقى الجلسات القديمة المسجّلة غير قابلة للقراءة حتى لو تسرّب مفتاح الخادم.
 
 ## خطأ شائع
 

@@ -24,6 +24,8 @@ keywords: ["بيئة اختبار ثابتة وموحدة","تجهيز بيان�
   - نحتاج إلى إنشاء Test Fixture يقوم بتعبئة قاعدة البيانات بسجلات مستخدمين افتراضية.
 - The test fixture resets the application state to ensure each test runs in isolation.
   - يقوم الـ Test Fixture بإعادة ضبط حالة التطبيق لضمان تشغيل كل اختبار بشكل منعزل.
+- The fixture creates one user and one order before each test in the file.
+  - ينشئ الجهاز الثابت مستخدماً واحداً وطلباً واحداً قبل كل اختبار في الملف.
 
 ## خطأ شائع
 

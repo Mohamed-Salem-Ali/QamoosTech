@@ -26,6 +26,8 @@ keywords: ["دالة تنتج قيماً بـ yield", "قيم كسولة واح�
   - نستخدم مولّداً لقراءة ملف السجل سطراً بسطر.
 - The generator is infinite, so take only the first ten values.
   - المولّد لا نهائي، لذا خذ أول عشر قيم فقط.
+- The generator yields each row of the export, so the whole file never sits in memory.
+  - يُنتج المولّد كل صف من التصدير، فلا يبقى الملف كاملاً في الذاكرة.
 
 ## خطأ شائع
 

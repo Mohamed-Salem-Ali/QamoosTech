@@ -26,6 +26,8 @@ keywords: ["قاعدة تفرضها قاعدة البيانات", "يجب أن �
   - يمنع قيد التحقق أي أحد من حفظ مبلغ سالب، حتى من سكريبت.
 - Add a check constraint so weeks can never be zero.
   - أضف قيد تحقق حتى لا تكون الأسابيع صفراً أبداً.
+- The check constraint rejects any order whose quantity is zero.
+  - يرفض قيد الفحص (check constraint) أي طلب كميته صفر.
 
 ## خطأ شائع
 

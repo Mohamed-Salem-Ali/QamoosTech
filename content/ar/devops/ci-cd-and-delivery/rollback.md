@@ -24,6 +24,8 @@ keywords: ["العودة للإصدار السابق","التراجع عن ال�
   - تسبب الإصدار في تعطّل تسجيل الدخول، فتراجعنا خلال دقيقتين.
 - Always have a rollback plan before you deploy.
   - احرص دائمًا على وجود خطة تراجع قبل النشر.
+- The rollback to version 2.4 restored the checkout within ten minutes.
+  - أعادت العودة إلى الإصدار 2.4 صفحة الدفع خلال عشر دقائق.
 
 ## خطأ شائع
 

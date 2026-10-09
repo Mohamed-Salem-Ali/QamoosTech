@@ -26,6 +26,8 @@ keywords: ["اختبار واحد لمدخلات كثيرة", "أداة parametr
   - عمّم الاختبار على كل حالة حدّية: فارغ وواحد وكثير.
 - Each row in the table shows as its own pass or fail.
   - يظهر كل صف في الجدول نجاحاً أو فشلاً مستقلاً.
+- One parametrized test covers ten date formats, and each format reports its own result.
+  - يغطي اختبار واحد بمعاملات عشر صيغ تاريخ، وتُبلغ كل صيغة عن نتيجتها.
 
 ## خطأ شائع
 

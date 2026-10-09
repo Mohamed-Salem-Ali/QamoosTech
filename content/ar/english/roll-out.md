@@ -22,6 +22,8 @@ keywords: ["إطلاق الميزات تدريجيا للمستخدمين","نش
   - سنطرح التصميم الجديد لعشرة بالمئة من المستخدمين أولًا.
 - The rollout starts on Monday.
   - يبدأ الطرح يوم الاثنين.
+- We rolled out the new checkout to the Cairo team first, and then to everyone.
+  - طرحنا الدفع الجديد أولاً على فريق القاهرة، ثم على الجميع.
 
 ## خطأ شائع
 

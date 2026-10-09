@@ -23,6 +23,7 @@ In Python code that reads large files or streams, in performance reviews about m
 
 - We use a generator to read the log file line by line.
 - The generator is infinite, so take only the first ten values.
+- The generator yields each row of the export, so the whole file never sits in memory.
 
 ## Common mistake
 

@@ -26,6 +26,8 @@ keywords: ["فحوصات الصحة في Kubernetes", "إعادة التشغيل
   - يفشل فحص الجاهزية حتى يعمل اتصال قاعدة البيانات.
 - A liveness probe that is too strict restarts healthy pods.
   - فحص حيوية صارم جداً يعيد تشغيل حاويات سليمة.
+- The liveness probe restarted the pod after it stopped responding for a minute.
+  - أعاد مسبار الحيوية تشغيل الحاوية بعد أن توقفت عن الرد لدقيقة.
 
 ## خطأ شائع
 

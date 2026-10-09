@@ -25,6 +25,8 @@ keywords: ["مطابقة الأنماط بـ regex", "البحث عن نمط ف�
   - يستخرج الـ regex كل الأرقام من الرسالة.
 - I used a regular expression to validate the phone format.
   - استخدمت تعبيراً نمطياً للتحقق من صيغة رقم الهاتف.
+- The regular expression checks that the code looks like AB-1234.
+  - يتحقق التعبير المنتظم من أن الرمز بالشكل AB-1234.
 
 ## خطأ شائع
 

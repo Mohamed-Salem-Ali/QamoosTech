@@ -23,6 +23,8 @@ AWS Lambda ودوال Vercel ونقاشات التكلفة.
   - نشغّل تصدير الـ PDF كدالة serverless.
 - Serverless scales automatically, but cold starts add delay.
   - يتوسع serverless تلقائيًا، لكن الـ cold start يضيف تأخيرًا.
+- The image resize runs as a serverless function that is billed per call.
+  - يعمل تغيير حجم الصور كدالة بلا خادم (serverless)، تُحاسَب على كل استدعاء.
 
 ## خطأ شائع
 

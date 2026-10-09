@@ -23,6 +23,8 @@ Next.js وأخطاء React مثل «hydration mismatch».
   - ظهر خطأ hydration لأن الخادم والعميل عرضا نصًا مختلفًا.
 - The page is visible quickly, then hydration makes the buttons work.
   - تظهر الصفحة بسرعة، ثم يجعل الـ hydration الأزرار تعمل.
+- The page appears instantly, and hydration makes the menu clickable a moment later.
+  - تظهر الصفحة فوراً، ثم تجعل التهيئة (hydration) القائمة قابلة للنقر بعد لحظة.
 
 ## خطأ شائع
 

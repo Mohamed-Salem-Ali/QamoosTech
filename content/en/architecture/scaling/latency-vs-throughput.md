@@ -21,6 +21,7 @@ Performance testing and system design interviews.
 
 - The latency is only 80 ms, but throughput drops under heavy load.
 - Adding servers improves throughput, not latency.
+- Batching the writes raised throughput, but each single write now waits longer.
 
 ## Common mistake
 

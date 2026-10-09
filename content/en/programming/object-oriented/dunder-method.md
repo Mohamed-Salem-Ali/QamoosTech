@@ -23,6 +23,7 @@ In Python classes, explanations of how `len(obj)` or `a + b` work, and code revi
 
 - Define `__repr__` so the object prints clearly in logs.
 - Adding `__len__` lets you call `len()` on the collection.
+- Defining __eq__ makes two Money objects compare equal when their amounts match.
 
 ## Common mistake
 

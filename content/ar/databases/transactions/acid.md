@@ -24,6 +24,8 @@ keywords: ["ضمان سلامة معاملات قاعدة البيانات","خ�
   - اخترنا قاعدة بيانات علائقية لأن سجلاتنا المالية تتطلب الامتثال لمعايير ACID.
 - The system ensures ACID properties to prevent partial data updates during a transaction.
   - يضمن النظام خصائص ACID لمنع تحديثات البيانات الجزئية أثناء المعاملة.
+- The transfer runs in one transaction, so money leaves one account only when it arrives in the other.
+  - تُنفَّذ عملية التحويل في معاملة واحدة، فلا يخرج المال من حساب إلا حين يصل إلى الآخر.
 
 ## خطأ شائع
 

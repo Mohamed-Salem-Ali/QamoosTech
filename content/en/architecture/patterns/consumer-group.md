@@ -22,6 +22,7 @@ In Kafka, Kinesis and Redis Streams, and when scaling event processors.
 
 - The billing and analytics services use separate consumer groups.
 - More consumers than partitions leaves some idle.
+- The analytics group reads every order event, while the email group reads the same events on its own.
 
 ## Common mistake
 

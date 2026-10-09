@@ -24,6 +24,8 @@ Python (`@login_required`)، وأطر TypeScript مثل NestJS، وفي الحد
   - أضف `@login_required` ليتمكن المستخدمون المسجّلون فقط من فتح الصفحة.
 - We wrote a decorator that logs how long each call takes.
   - كتبنا decorator يسجّل المدة التي يستغرقها كل استدعاء.
+- The cache decorator stores the result of the function for ten minutes.
+  - يخزّن ديكوراتور الذاكرة المؤقتة نتيجة الدالة لعشر دقائق.
 
 ## خطأ شائع
 

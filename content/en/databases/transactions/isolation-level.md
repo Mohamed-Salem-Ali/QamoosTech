@@ -21,6 +21,7 @@ In database configuration, performance tuning discussions, or when troubleshooti
 
 - We set the isolation level to Serializable to prevent phantom reads in our financial reports.
 - Changing the isolation level to Read Committed can improve performance by reducing lock contention.
+- At Read Committed, the report can see rows that the other transaction has just committed.
 
 ## Common mistake
 

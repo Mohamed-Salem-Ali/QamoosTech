@@ -23,6 +23,7 @@ In `pyproject.toml` under `[project.scripts]`, in CLI tutorials, and in framewor
 
 - Declare `tracker = "tracker.cli:main"` as the entry point.
 - After installing, the tracker command exists thanks to the entry point.
+- The entry point main() parses the arguments and starts the app.
 
 ## Common mistake
 

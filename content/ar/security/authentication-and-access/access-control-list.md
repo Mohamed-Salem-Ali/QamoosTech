@@ -26,6 +26,8 @@ keywords: ["قائمة صلاحيات الوصول للملفات","تحديد �
   - تستخدم مساحة التخزين السحابية قائمة ACL لمنح صلاحية القراءة العامة لملفات صور معينة.
 - We updated the network ACL to block incoming traffic from suspicious IP addresses.
   - قمنا بتحديث قائمة التحكم في الوصول للشبكة لحظر حركة المرور الواردة من عناوين IP مشبوهة.
+- The file's ACL lets the finance group read it, but not the interns.
+  - تسمح قائمة التحكم في الوصول للملف لمجموعة المالية بالقراءة، ولا تسمح بذلك للمتدرّبين.
 
 ## خطأ شائع
 

@@ -19,6 +19,7 @@ Agile talks and client communication.
 
 - Weekly demos shortened the feedback loop with the client.
 - Fast tests shorten the feedback loop for developers.
+- Running the test suite on every save shortened the feedback loop for the developers.
 
 ## Common mistake
 

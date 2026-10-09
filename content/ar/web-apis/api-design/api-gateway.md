@@ -24,6 +24,8 @@ keywords: ["نقطة دخول موحدة للخدمات","بوابة إدارة 
   - نحتاج إلى ضبط الـ API Gateway لتوجيه حركة البيانات إلى خدمة المستخدم الجديدة.
 - The API Gateway handles all authentication checks so our microservices don't have to.
   - يقوم الـ API Gateway بمعالجة جميع عمليات التحقق من الهوية حتى لا تضطر الخدمات المصغرة للقيام بذلك.
+- The gateway checks the API key once, then forwards the request to the orders service.
+  - تتحقق البوابة من مفتاح API مرة واحدة، ثم تمرّر الطلب إلى خدمة الطلبات.
 
 ## خطأ شائع
 

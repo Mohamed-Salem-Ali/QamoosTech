@@ -20,6 +20,7 @@ In projects that run linters or tests before code is committed, and in team setu
 
 - The git hook stops the commit if the linter fails.
 - Hooks live in the .git/hooks folder and are not shared by default.
+- The pre-commit hook runs the formatter, so unformatted code never reaches the repository.
 
 ## Common mistake
 

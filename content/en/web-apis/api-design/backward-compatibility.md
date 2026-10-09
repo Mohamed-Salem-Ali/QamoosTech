@@ -21,6 +21,7 @@ In API design reviews, library upgrades, and database schema changes.
 
 - We added a new field, and the old clients still work.
 - Keep the old endpoint for six months to preserve backward compatibility.
+- The new API still accepts the old date format, so mobile apps need no update.
 
 ## Common mistake
 

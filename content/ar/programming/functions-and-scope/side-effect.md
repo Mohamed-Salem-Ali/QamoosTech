@@ -25,6 +25,8 @@ keywords: ["دالة تغيّر شيئاً خارجها", "تعديل متغير
   - للدالة أثر جانبي: فهي تعدّل القائمة التي مُرِّرت إليها.
 - Sending the email is a side effect, so we mock it in tests.
   - إرسال البريد أثر جانبي، لذلك نحاكيه في الاختبارات.
+- The log call is a side effect, so the function is no longer pure.
+  - استدعاء السجل أثر جانبي، لذلك لم تعد الدالة نقية.
 
 ## خطأ شائع
 

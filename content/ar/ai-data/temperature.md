@@ -25,6 +25,8 @@ keywords: ["التحكم في عشوائية مخرجات النموذج","جع�
   - اضبط الـ Temperature على 0.2 للمهام التي تتطلب حقائق لضمان الاتساق.
 - Increase the temperature to 0.8 if you want the model to generate more creative stories.
   - ارفع الـ Temperature إلى 0.8 إذا كنت تريد من النموذج توليد قصص أكثر إبداعاً.
+- A temperature of 0 gives the most consistent answers for the data extraction task.
+  - تعطي درجة الحرارة 0 أكثر الإجابات ثباتاً لمهمة استخراج البيانات.
 
 ## خطأ شائع
 

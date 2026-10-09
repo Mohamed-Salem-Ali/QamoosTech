@@ -26,6 +26,8 @@ keywords: ["البحث بالاسم", "تسجيل الدوال في قاموس",
   - كل أمر يسجّل نفسه والـ CLI يبحث عنه بالاسم.
 - Adding a new exporter means adding one function; no `if` chain to edit.
   - إضافة مصدّر جديد تعني إضافة دالة واحدة؛ بلا سلسلة `if` للتعديل.
+- The registry maps command names to handlers, so the CLI looks each one up by name.
+  - يربط السجل أسماء الأوامر بمعالجاتها، فتبحث واجهة سطر الأوامر عن كل واحد منها بالاسم.
 
 ## خطأ شائع
 

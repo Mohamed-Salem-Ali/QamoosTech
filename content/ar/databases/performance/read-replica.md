@@ -26,6 +26,8 @@ keywords: ["نسخة تُستخدم للقراءة", "توسيع حركة الق
   - تعمل التقارير الثقيلة على نسخة القراءة لتبقى الأساسية سريعة.
 - Read your own writes from the primary.
   - اقرأ كتاباتك من الأساسية.
+- The dashboard reads from a read replica, which lags a few seconds behind the primary.
+  - تقرأ لوحة المتابعة من نسخة للقراءة فقط، وهي متأخرة بضع ثوانٍ عن الأساسية.
 
 ## خطأ شائع
 

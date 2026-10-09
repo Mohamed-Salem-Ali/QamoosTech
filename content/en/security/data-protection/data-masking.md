@@ -23,6 +23,7 @@ Data masking is the process of hiding original sensitive information by replacin
 
 - We need to apply data masking to the user table before copying it to the staging environment.
 - The script replaces real email addresses with random ones during the data masking process.
+- The staging copy has masked emails, so no real customer address leaves production.
 
 ## Common mistake
 

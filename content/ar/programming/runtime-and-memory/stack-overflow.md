@@ -25,6 +25,8 @@ keywords: ["استدعاءات متداخلة كثيرة", "انهيار الا�
   - ليس للدالة حالة أساس فتنتهي بفيض المكدس.
 - Convert the deep recursion to a loop.
   - حوّل الاستدعاء الذاتي العميق إلى حلقة.
+- The stack overflow error came from a recursive call that never reached its base case.
+  - جاء خطأ تجاوز المكدس (stack overflow) من استدعاء تكراري لم يصل إلى حالته الأساسية أبداً.
 
 ## خطأ شائع
 

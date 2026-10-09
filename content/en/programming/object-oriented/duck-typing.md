@@ -21,6 +21,7 @@ In code reviews, discussions about dynamic language design, or when explaining w
 
 - Since the object has a `draw()` method, we can pass it to the function without checking its class.
 - Python uses duck typing to allow different objects to be used interchangeably as long as they support the expected operations.
+- Any object with a read() method works here, because the function only calls read().
 
 ## Common mistake
 

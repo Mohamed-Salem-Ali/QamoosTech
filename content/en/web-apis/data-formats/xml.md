@@ -22,6 +22,7 @@ In SOAP web services, configuration files, RSS feeds, and older integrations.
 
 - The partner sends invoices as XML files.
 - Parse the XML with a library instead of searching the text.
+- The bank's export is an XML file with one order element per transaction.
 
 ## Common mistake
 

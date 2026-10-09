@@ -23,6 +23,8 @@ keywords: ["توجيه النموذج بدون أمثلة مسبقة","الطل�
   - جرب نهج Zero-shot prompting أولاً لترى ما إذا كان بإمكان النموذج تصنيف المشاعر دون الحاجة لأمثلة.
 - "The zero-shot prompting results were surprisingly accurate for this simple summarization task."
   - كانت نتائج الـ Zero-shot prompting دقيقة بشكل مفاجئ في مهمة التلخيص البسيطة هذه.
+- Zero-shot prompting classified the ticket correctly without any examples in the prompt.
+  - صنّف الطلب القائم على صفر أمثلة (zero-shot) التذكرة بشكل صحيح دون أي مثال في الطلب.
 
 ## خطأ شائع
 

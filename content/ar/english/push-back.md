@@ -23,6 +23,8 @@ keywords: ["كيفية الاعتراض على طلبات المدير","رفض 
   - اضطررت للاعتراض على الموعد النهائي لأن نطاق العمل الحالي كبير جداً.
 - The team pushed back on the new requirements since they would introduce significant technical debt.
   - اعترض الفريق على المتطلبات الجديدة لأنها ستؤدي إلى تراكم ديون تقنية كبيرة.
+- I pushed back on the scope, and we agreed to move two features to phase two.
+  - اعترضتُ على النطاق، واتفقنا على نقل ميزتين إلى المرحلة الثانية.
 
 ## خطأ شائع
 

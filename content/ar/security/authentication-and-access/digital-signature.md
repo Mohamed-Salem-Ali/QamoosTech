@@ -25,6 +25,8 @@ keywords: ["إثبات من أنشأه", "اكتشاف التلاعب", "الت�
   - الإصدار موقّع ليتحقق المستخدمون من عدم العبث به.
 - Verify the signature with the publisher's public key.
   - تحقق من التوقيع بالمفتاح العام للناشر.
+- The installer checks the digital signature before it runs, so tampered files are refused.
+  - يتحقق المثبّت من التوقيع الرقمي قبل التشغيل، فيُرفض أي ملف جرى العبث به.
 
 ## خطأ شائع
 

@@ -23,6 +23,7 @@ A security vulnerability where an application exposes a reference to an internal
 
 - Changing the user ID in the URL parameter from `101` to `102` allows viewing another user's profile.
 - An API endpoint that returns account details using an unverified record ID is vulnerable to IDOR.
+- Changing the invoice number in the URL showed another customer's invoice, an IDOR bug.
 
 ## Common mistake
 

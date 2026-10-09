@@ -24,6 +24,8 @@ keywords: ["كتابة كود بأسلوب بايثون","أفضل ممارسا�
   - استخدام list comprehension أكثر بايثونية من الحلقة اليدوية هنا.
 - That works, but it is not very Pythonic.
   - هذا يعمل، لكنه ليس بايثونيًا جدًا.
+- Using enumerate instead of a manual counter is more Pythonic.
+  - استخدام enumerate بدل عدّاد يدوي أقرب إلى أسلوب بايثون (pythonic).
 
 ## خطأ شائع
 

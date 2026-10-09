@@ -19,6 +19,7 @@ Performance work: "the bundle is too big".
 
 - Adding that library increased the bundle size by 300 KB.
 - Split the bundle so each page loads only what it needs.
+- The bundle includes the chart library, so the first screen loads slowly on phones.
 
 ## Common mistake
 

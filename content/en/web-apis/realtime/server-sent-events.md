@@ -21,6 +21,7 @@ In live notifications, progress bars for long jobs, and dashboards that update i
 
 - The dashboard listens to a server-sent events stream for new orders.
 - Use WebSockets instead if the client must send messages too.
+- The status page receives server-sent events, so it updates when the job finishes.
 
 ## Common mistake
 

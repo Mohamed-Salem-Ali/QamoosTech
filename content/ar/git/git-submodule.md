@@ -22,6 +22,8 @@ keywords: ["تضمين مستودع داخل مستودع","مستودع جيت 
   - استنسخ باستخدام `--recurse-submodules` للحصول على المستودع المتداخل.
 - The submodule points to an old commit.
   - الـ submodule يشير إلى commit قديم.
+- The shared theme lives in a submodule, so each site pins the version it uses.
+  - يعيش القالب المشترك في وحدة فرعية (submodule)، فيثبّت كل موقع النسخة التي يستخدمها.
 
 ## خطأ شائع
 

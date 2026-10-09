@@ -22,6 +22,7 @@ In disk and database encryption (AES), HTTPS data transfer after the handshake, 
 
 - The backup is encrypted with AES-256, a symmetric cipher.
 - Anyone with the key can decrypt the data, so protect the key.
+- The app encrypts the file with a key that the same service uses later to decrypt it.
 
 ## Common mistake
 

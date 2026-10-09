@@ -23,6 +23,8 @@ keywords: ["تعديل تاريخ الالتزامات","دمج عدة التز�
   - نستخدم الـ interactive rebase لدمج عدة commits صغيرة خاصة بإصلاح الأخطاء في commit واحدة نظيفة.
 - Run `git rebase -i HEAD~3` to modify your last three local commits.
   - قم بتشغيل الأمر `git rebase -i HEAD~3` لتعديل آخر ثلاثة commits محلية لديك.
+- Interactive rebase lets me squash the three fix-up commits before I open the pull request.
+  - تتيح إعادة التأسيس التفاعلية دمج إيداعات الإصلاح الثلاثة قبل أن أفتح طلب الدمج.
 
 ## خطأ شائع
 
