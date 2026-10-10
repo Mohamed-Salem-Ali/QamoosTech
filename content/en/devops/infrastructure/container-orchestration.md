@@ -3,7 +3,7 @@ id: container-orchestration
 category: devops
 subcategory: infrastructure
 level: intermediate
-related: [containerization, deployment, load-balancer, pod]
+related: [containerization, deployment, load-balancer, pod, kubernetes]
 tags: [kubernetes]
 term: "Container Orchestration"
 pronunciation: "kun-TAY-ner or-kuh-STRAY-shun"

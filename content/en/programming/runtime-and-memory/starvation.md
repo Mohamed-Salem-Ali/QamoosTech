@@ -3,7 +3,7 @@ id: starvation
 category: programming
 subcategory: runtime-and-memory
 level: intermediate
-related: [deadlock, mutex, context-switch]
+related: [deadlock, mutex, context-switch, livelock]
 aliases: ["priority inversion", "aging"]
 term: "Starvation"
 pronunciation: "star-VAY-shun"

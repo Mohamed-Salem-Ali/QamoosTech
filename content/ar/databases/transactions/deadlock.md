@@ -3,7 +3,7 @@ id: deadlock
 category: databases
 subcategory: transactions
 level: intermediate
-related: [transaction, database]
+related: [transaction, database, livelock]
 term: "Deadlock"
 translation: "الجمود المتبادل"
 pronunciation: "ديد-لوك"

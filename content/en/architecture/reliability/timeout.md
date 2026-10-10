@@ -3,7 +3,7 @@ id: timeout
 category: architecture
 subcategory: reliability
 level: beginner
-related: [retry-logic, circuit-breaker, fail-fast]
+related: [retry-logic, circuit-breaker, fail-fast, bulkhead]
 term: "Timeout"
 pronunciation: "TIME-owt"
 keywords: ["how long to wait for a response", "request timed out", "set a timeout on the http client", "connection timeout", "stop waiting after seconds", "كم ننتظر الرد", "انتهت مهلة الطلب", "ضبط مهلة عميل HTTP", "مهلة الاتصال", "التوقف عن الانتظار بعد ثوان"]

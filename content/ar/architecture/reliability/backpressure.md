@@ -3,7 +3,7 @@ id: backpressure
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [message-queue, rate-limiting, graceful-degradation]
+related: [message-queue, rate-limiting, graceful-degradation, throttling]
 aliases: ["flow control", "load shedding"]
 term: "Backpressure"
 translation: "الضغط العكسي"

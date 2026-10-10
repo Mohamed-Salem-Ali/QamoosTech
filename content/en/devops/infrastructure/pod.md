@@ -3,7 +3,7 @@ id: pod
 category: devops
 subcategory: infrastructure
 level: intermediate
-related: [container-orchestration, containerization, sidecar]
+related: [container-orchestration, containerization, sidecar, kubernetes]
 tags: [kubernetes]
 term: "Pod"
 pronunciation: "pod"

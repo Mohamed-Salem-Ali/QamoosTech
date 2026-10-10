@@ -4,7 +4,7 @@ category: web-apis
 subcategory: api-design
 level: intermediate
 featured: 4
-related: [status-code, fail-open-vs-fail-closed]
+related: [status-code, fail-open-vs-fail-closed, throttling]
 term: "Rate Limiting"
 translation: "تحديد معدل الطلبات"
 pronunciation: "ريت ليميتينج"

@@ -3,7 +3,7 @@ id: circuit-breaker
 category: architecture
 subcategory: reliability
 level: intermediate
-related: [design-pattern, monolith-vs-microservices, single-point-of-failure]
+related: [design-pattern, monolith-vs-microservices, single-point-of-failure, bulkhead]
 term: "Circuit Breaker"
 pronunciation: "سيركيت بريكر"
 translation: "قاطع الدائرة"

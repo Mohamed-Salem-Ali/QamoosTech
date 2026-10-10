@@ -3,7 +3,7 @@ id: timeout
 category: architecture
 subcategory: reliability
 level: beginner
-related: [retry-logic, circuit-breaker, fail-fast]
+related: [retry-logic, circuit-breaker, fail-fast, bulkhead]
 term: "Timeout"
 translation: "مهلة الانتظار"
 pronunciation: "تايم أوت"
