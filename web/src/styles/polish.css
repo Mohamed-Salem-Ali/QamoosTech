@@ -181,6 +181,17 @@ html[dir='rtl'] .category::before {
   color: transparent;
 }
 
+/* ---------- Level pills ----------
+   The beginner (green) and intermediate (cyan) text was 3.6:1 and 2.4:1 on its tinted background.
+   Mixing the text colour with the ink colour darkens it in light mode (about 6:1) and lightens it
+   in dark mode, so both themes pass AA without a separate dark-mode rule. */
+.level--beginner {
+  color: color-mix(in srgb, var(--ok) 70%, var(--ink));
+}
+.level--intermediate {
+  color: color-mix(in srgb, var(--cyan) 55%, var(--ink));
+}
+
 /* ---------- Not found ----------
    app/not-found.tsx: a centred message with the two language links. */
 .notfound {
