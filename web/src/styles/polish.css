@@ -16,7 +16,11 @@
   .speak,
   .voice-select,
   .copy,
-  .save-btn {
+  .save-btn,
+  .saved__practise,
+  .saved__remove,
+  .flashcards__close,
+  .icon-btn {
     min-block-size: 44px;
   }
   .ticker__chip,
