@@ -1,0 +1,28 @@
+/* Polish layer, loaded after globals.css. Keep changes here small and labelled, so a
+   visual change can be reviewed or reverted on its own. Colours come from the tokens in
+   globals.css, so every rule here works in both themes without its own dark-mode block. */
+
+/* ---------- Touch targets ----------
+   Controls on touch screens are at least 44px tall (WCAG 2.5.5 recommends 44px).
+   Pointer devices keep the compact sizes. */
+@media (pointer: coarse) {
+  .ticker__chip,
+  .chip,
+  .tag-filter__chip,
+  .subnav__link,
+  .pill--sub,
+  .search__item,
+  .cta,
+  .speak,
+  .voice-select,
+  .copy,
+  .save-btn {
+    min-block-size: 44px;
+  }
+  .ticker__chip,
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    padding-block: 10px;
+  }
+}

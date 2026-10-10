@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import { Inter, IBM_Plex_Sans_Arabic, JetBrains_Mono } from 'next/font/google'
 import '@/styles/globals.css'
+import '@/styles/polish.css'
 import { dirOf, type Lang } from '@/lib/i18n'
 import { writingSystems } from '@/lib/writing-systems.mjs'
 
