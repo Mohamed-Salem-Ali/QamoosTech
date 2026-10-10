@@ -101,6 +101,27 @@ html[dir='rtl'] .reading-progress {
   }
 }
 
+/* ---------- Category pages ----------
+   The tag filter stays under the sticky header while the list scrolls, so a visitor can switch
+   tags without climbing back up. Each term card gets an edge in its level colour. */
+.tag-filter {
+  position: sticky;
+  inset-block-start: 72px;
+  z-index: 20;
+  padding-block: 10px;
+  margin-inline: -6px;
+  padding-inline: 6px;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.term-card:has(.level--beginner) {
+  border-inline-start: 3px solid var(--ok);
+}
+.term-card:has(.level--intermediate) {
+  border-inline-start: 3px solid var(--cyan);
+}
+
 /* ---------- Pointer polish ----------
    Only for mouse and trackpad users. The JavaScript in components/Enhancements.tsx sets the
    --sx/--sy cursor position and the --mx/--my magnetic offset. Without it, these rules fall back
