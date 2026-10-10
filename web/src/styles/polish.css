@@ -122,6 +122,52 @@ html[dir='rtl'] .reading-progress {
   border-inline-start: 3px solid var(--cyan);
 }
 
+/* ---------- Home page ----------
+   Section titles get a short gradient rule, category cards draw a top edge on hover, and the
+   stats use the brand gradient for their numbers. */
+.section__title {
+  position: relative;
+  padding-block-end: 14px;
+}
+.section__title::after {
+  content: '';
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-start: 0;
+  inline-size: 56px;
+  block-size: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--brand), var(--cyan));
+}
+.category {
+  position: relative;
+  overflow: hidden;
+}
+.category::before {
+  content: '';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  block-size: 3px;
+  background: linear-gradient(90deg, var(--brand), var(--cyan));
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.45s var(--ease);
+}
+html[dir='rtl'] .category::before {
+  transform-origin: right center;
+}
+.category:hover::before,
+.category:focus-visible::before {
+  transform: scaleX(1);
+}
+.stats strong {
+  background: linear-gradient(90deg, var(--ink), var(--brand));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 /* ---------- Pointer polish ----------
    Only for mouse and trackpad users. The JavaScript in components/Enhancements.tsx sets the
    --sx/--sy cursor position and the --mx/--my magnetic offset. Without it, these rules fall back
