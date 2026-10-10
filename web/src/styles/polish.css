@@ -52,6 +52,9 @@ html[dir='rtl'] .reading-progress {
   position: relative;
   isolation: isolate;
 }
+.term {
+  overflow-x: clip;
+}
 .term__head::before {
   content: '';
   position: absolute;
@@ -66,6 +69,11 @@ html[dir='rtl'] .reading-progress {
   filter: blur(6px);
   mask-image: radial-gradient(ellipse at 50% 45%, #000 45%, transparent 80%);
   -webkit-mask-image: radial-gradient(ellipse at 50% 45%, #000 45%, transparent 80%);
+}
+@media (max-width: 640px) {
+  .term__head::before {
+    inset-inline: -12px -12px;
+  }
 }
 .term .panel {
   position: relative;
