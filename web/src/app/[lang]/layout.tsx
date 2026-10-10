@@ -10,9 +10,10 @@ export function generateStaticParams() {
   return languages.map((l) => ({ lang: l.code }))
 }
 
-export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
-  if (!isLang(params.lang)) return {}
-  const t = ui[params.lang]
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang: raw } = await params
+  if (!isLang(raw)) return {}
+  const t = ui[raw]
   return {
     metadataBase: new URL(SITE_URL),
     title: { default: `QamoosTech | ${t.siteName}`, template: `%s | QamoosTech` },
@@ -20,9 +21,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   }
 }
 
-export default function LangLayout({ children, params }: { children: React.ReactNode; params: { lang: string } }) {
-  if (!isLang(params.lang)) notFound()
-  const lang = params.lang
+export default async function LangLayout({ children, params }: { children: React.ReactNode; params: Promise<{ lang: string }> }) {
+  const { lang: raw } = await params
+  if (!isLang(raw)) notFound()
+  const lang = raw
   const t = ui[lang]
   return (
     <Shell lang={lang}>

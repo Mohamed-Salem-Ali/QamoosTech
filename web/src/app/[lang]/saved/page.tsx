@@ -10,12 +10,13 @@ export function generateStaticParams() {
 }
 
 // The list lives in each visitor's own browser, so there is nothing for search engines to index here.
-export function generateMetadata({ params }: { params: Params }): Metadata {
-  return { title: ui[params.lang].saved.title, robots: { index: false, follow: true } }
+export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+  const { lang } = await params
+  return { title: ui[lang].saved.title, robots: { index: false, follow: true } }
 }
 
-export default function SavedPage({ params }: { params: Params }) {
-  const lang = params.lang
+export default async function SavedPage({ params }: { params: Promise<Params> }) {
+  const { lang } = await params
   const t = ui[lang]
   return (
     <div className="container page">

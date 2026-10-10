@@ -13,22 +13,23 @@ export function generateStaticParams() {
   return languages.flatMap((l) => getCategories().map((c) => ({ lang: l.code, category: c.id })))
 }
 
-export function generateMetadata({ params }: { params: Params }): Metadata {
-  const c = getCategories().find((x) => x.id === params.category)
-  const title = c?.name[params.lang]
-  const description = c?.description[params.lang]
+export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+  const { lang, category: categoryId } = await params
+  const c = getCategories().find((x) => x.id === categoryId)
+  const title = c?.name[lang]
+  const description = c?.description[lang]
   return {
     title,
     description,
-    alternates: pageAlternates(params.lang, (l) => `/${l}/c/${params.category}/`),
-    ...socialFor(params.lang, title ?? 'QamoosTech', description ?? ''),
+    alternates: pageAlternates(lang, (l) => `/${l}/c/${categoryId}/`),
+    ...socialFor(lang, title ?? 'QamoosTech', description ?? ''),
   }
 }
 
-export default function CategoryPage({ params }: { params: Params }) {
-  const { lang } = params
+export default async function CategoryPage({ params }: { params: Promise<Params> }) {
+  const { lang, category: categoryId } = await params
   const t = ui[lang]
-  const category = getCategories().find((c) => c.id === params.category)
+  const category = getCategories().find((c) => c.id === categoryId)
   if (!category) notFound()
   const terms = getTermsByCategory(lang, category.id)
   // plain copies for the client-side tag filter (see components/TagFilter.tsx)

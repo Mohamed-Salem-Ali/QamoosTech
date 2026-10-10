@@ -15,8 +15,9 @@ export function generateStaticParams() {
   return languages.map((l) => ({ lang: l.code }))
 }
 
-export function generateMetadata({ params }: { params: { lang: Lang } }): Metadata {
-  return { alternates: pageAlternates(params.lang, (l) => `/${l}/`), ...socialFor(params.lang, 'QamoosTech', ui[params.lang].intro) }
+export async function generateMetadata({ params }: { params: Promise<{ lang: Lang }> }): Promise<Metadata> {
+  const { lang } = await params
+  return { alternates: pageAlternates(lang, (l) => `/${l}/`), ...socialFor(lang, 'QamoosTech', ui[lang].intro) }
 }
 
 // The six floating cards in the hero. Slot n is filled by the term whose frontmatter says `featured: n`
@@ -30,8 +31,8 @@ const HERO_SLOTS: { className: string; depth: number }[] = [
   { className: 'hc6', depth: 34 },
 ]
 
-export default function Home({ params }: { params: { lang: Lang } }) {
-  const lang = params.lang
+export default async function Home({ params }: { params: Promise<{ lang: Lang }> }) {
+  const { lang } = await params
   const t = ui[lang]
   const h = t.hero
   const terms = getTerms(lang)

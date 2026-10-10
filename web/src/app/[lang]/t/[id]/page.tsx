@@ -20,16 +20,17 @@ export function generateStaticParams() {
   return languages.flatMap((l) => getTerms(l.code).map((t) => ({ lang: l.code, id: t.id })))
 }
 
-export function generateMetadata({ params }: { params: Params }): Metadata {
-  const term = getTerm(params.lang, params.id)
+export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+  const { lang, id } = await params
+  const term = getTerm(lang, id)
   if (!term) return {}
   const title = term.translation ? `${term.term} — ${term.translation}` : term.term
   const description = term.definition.replace(/[`*]/g, '').slice(0, 160)
   return {
     title,
     description,
-    alternates: pageAlternates(params.lang, (l) => `/${l}/t/${params.id}/`),
-    ...socialFor(params.lang, title, description),
+    alternates: pageAlternates(lang, (l) => `/${l}/t/${id}/`),
+    ...socialFor(lang, title, description),
   }
 }
 
@@ -47,10 +48,10 @@ function definedTermJson(lang: Lang, term: Term) {
   }
 }
 
-export default function TermPage({ params }: { params: Params }) {
-  const { lang } = params
+export default async function TermPage({ params }: { params: Promise<Params> }) {
+  const { lang, id } = await params
   const t = ui[lang]
-  const term = getTerm(lang, params.id)
+  const term = getTerm(lang, id)
   if (!term) notFound()
   const category = getCategories().find((c) => c.id === term.category)!
   const subcategory = category.subcategories?.find((s) => s.id === term.subcategory)
