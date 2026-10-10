@@ -27,6 +27,24 @@
   }
 }
 
+/* ---------- Reading progress (term pages) ----------
+   Filled by components/ReadingProgress.tsx through --p (0 to 1). In Arabic (RTL) it fills from
+   the right, so the direction of reading matches the bar. */
+.reading-progress {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline: 0;
+  z-index: 60;
+  block-size: 3px;
+  background: linear-gradient(90deg, var(--brand), var(--cyan));
+  transform-origin: left center;
+  transform: scaleX(var(--p, 0));
+  pointer-events: none;
+}
+html[dir='rtl'] .reading-progress {
+  transform-origin: right center;
+}
+
 /* ---------- Pointer polish ----------
    Only for mouse and trackpad users. The JavaScript in components/Enhancements.tsx sets the
    --sx/--sy cursor position and the --mx/--my magnetic offset. Without it, these rules fall back

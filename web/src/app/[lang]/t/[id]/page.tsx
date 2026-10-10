@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { CopyButton } from '@/components/CopyButton'
 import { ExploreTerm } from '@/components/Explore'
+import { ReadingProgress } from '@/components/ReadingProgress'
 import { Reveal } from '@/components/Reveal'
 import { RichText } from '@/components/RichText'
 import { SaveTerm } from '@/components/SaveTerm'
@@ -67,6 +68,7 @@ export default async function TermPage({ params }: { params: Promise<Params> }) 
 
   return (
     <article className="container page term">
+      <ReadingProgress />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermJson(lang, term)).replace(/</g, '\\u003c') }} />
       <nav className="crumbs" aria-label="Breadcrumb">
         <Link href={`/${lang}/`}>{t.home}</Link>
