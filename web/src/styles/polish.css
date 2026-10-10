@@ -26,3 +26,25 @@
     padding-block: 10px;
   }
 }
+
+/* ---------- Pointer polish ----------
+   Only for mouse and trackpad users. The JavaScript in components/Enhancements.tsx sets the
+   --sx/--sy cursor position and the --mx/--my magnetic offset. Without it, these rules fall back
+   to the plain hover styles. */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover,
+  .term-card:hover,
+  .explore__card:hover {
+    background-image: radial-gradient(
+      420px circle at var(--sx, 50%) var(--sy, 0%),
+      color-mix(in srgb, var(--brand) 18%, transparent),
+      transparent 70%
+    );
+  }
+  .cta--primary:hover {
+    transform: translate(var(--mx, 0px), calc(var(--my, 0px) - 2px));
+  }
+  .cta--primary:active {
+    transform: translate(var(--mx, 0px), var(--my, 0px)) scale(0.97);
+  }
+}
