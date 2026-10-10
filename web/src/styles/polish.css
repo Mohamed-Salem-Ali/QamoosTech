@@ -181,6 +181,30 @@ html[dir='rtl'] .category::before {
   color: transparent;
 }
 
+/* ---------- Not found ----------
+   app/not-found.tsx: a centred message with the two language links. */
+.notfound {
+  min-block-size: 62vh;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 12px;
+  text-align: center;
+}
+.notfound h1 {
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+}
+.notfound__code {
+  font-family: var(--font-mono), monospace;
+  color: var(--brand);
+}
+.notfound__ar {
+  color: var(--ink-soft);
+}
+.notfound .hero__cta {
+  margin-block-start: 12px;
+}
+
 /* ---------- Search results ----------
    The dropdown never grows past the visible screen: it scrolls inside itself, so the bottom
    results stay reachable on phones and short windows without scrolling the whole page. */

@@ -19,7 +19,8 @@
   --shadow-lg: 0 2px 4px rgba(18, 23, 43, 0.06), 0 18px 44px rgba(84, 87, 214, 0.18);
   --radius: 18px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --font-ui: var(--font-arabic), var(--font-latin), system-ui, sans-serif;
+  /* the fallbacks keep text readable on pages that do not load the site fonts (the 404 page) */
+  --font-ui: var(--font-arabic, system-ui), var(--font-latin, system-ui), system-ui, sans-serif;
   color-scheme: light;
 }
 
@@ -91,7 +92,7 @@ body {
 }
 
 html[lang='en'] body {
-  font-family: var(--font-latin), var(--font-arabic), system-ui, sans-serif;
+  font-family: var(--font-latin, system-ui), var(--font-arabic, system-ui), system-ui, sans-serif;
   line-height: 1.65;
 }
 
