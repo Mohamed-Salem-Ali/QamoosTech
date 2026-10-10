@@ -21,6 +21,15 @@ export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExa
   const index = useMemo(() => (items ? createSearchIndex(items) : null), [items])
   const results = useMemo(() => (index ? runSearch(index, q) : []), [index, q])
 
+  // On a short screen the results would run below the bottom edge, so move the box up first.
+  // 440px is the tallest the results list can be (see .search__results in styles/polish.css).
+  function bringResultsIntoView() {
+    const box = inputRef.current?.closest<HTMLElement>('.search')
+    if (!box || box.getBoundingClientRect().bottom + 440 <= innerHeight) return
+    const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches
+    box.scrollIntoView({ block: 'start', behavior: smooth ? 'smooth' : 'auto' })
+  }
+
   function loadIndex() {
     if (requested.current) return
     requested.current = true
@@ -89,6 +98,7 @@ export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExa
           onFocus={() => {
             setFocused(true)
             loadIndex()
+            bringResultsIntoView()
           }}
           onBlur={() => setFocused(false)}
           aria-label={label}

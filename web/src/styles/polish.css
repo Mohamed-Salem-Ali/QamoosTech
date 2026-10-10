@@ -176,6 +176,19 @@ html[dir='rtl'] .category::before {
   color: transparent;
 }
 
+/* ---------- Search results ----------
+   The dropdown never grows past the visible screen: it scrolls inside itself, so the bottom
+   results stay reachable on phones and short windows without scrolling the whole page. */
+.search {
+  scroll-margin-top: 84px;
+}
+.search__results {
+  max-block-size: min(62dvh, 440px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* ---------- Pointer polish ----------
    Only for mouse and trackpad users. The JavaScript in components/Enhancements.tsx sets the
    --sx/--sy cursor position and the --mx/--my magnetic offset. Without it, these rules fall back
