@@ -9,7 +9,7 @@ aliases: ["heap", "min heap", "heapq"]
 term: "Priority Queue"
 translation: "طابور الأولويات"
 pronunciation: "برايوريتي كيو"
-keywords: ["الأعلى أولوية أولاً", "وحدة heapq", "خوارزمية ديكسترا", "المجدول", "كومة صغرى", "أخرج الأصغر", "highest priority first", "heapq", "dijkstra", "scheduler", "min heap", "pop the smallest"]
+keywords: ["الأعلى أولوية أولاً", "وحدة heapq", "خوارزمية ديكسترا", "كومة صغرى", "أخرج الأصغر", "highest priority first", "heapq", "dijkstra", "min heap", "pop the smallest"]
 ---
 
 ## التعريف

@@ -8,7 +8,7 @@ tags: [python]
 aliases: ["heap", "min heap", "heapq"]
 term: "Priority Queue"
 pronunciation: "pry-OR-ih-tee KYOO"
-keywords: ["highest priority first", "heapq", "dijkstra", "scheduler", "min heap", "pop the smallest", "الأعلى أولوية أولاً", "وحدة heapq", "خوارزمية ديكسترا", "المجدول", "كومة صغرى", "أخرج الأصغر"]
+keywords: ["highest priority first", "heapq", "dijkstra", "min heap", "pop the smallest", "الأعلى أولوية أولاً", "وحدة heapq", "خوارزمية ديكسترا", "كومة صغرى", "أخرج الأصغر"]
 ---
 
 ## Definition

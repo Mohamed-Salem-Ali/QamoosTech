@@ -7,7 +7,7 @@ related: [race-condition, mutex, thread]
 aliases: ["data races"]
 term: "Data Race"
 pronunciation: "DAY-tuh RAYS"
-keywords: ["two threads write same variable", "no lock", "unsynchronised access", "undefined behaviour", "race detector", "lost update", "خيطان يكتبان المتغير نفسه", "بلا قفل", "وصول غير متزامن", "سلوك غير معرّف", "كاشف السباق", "تحديث ضائع"]
+keywords: ["two threads write same variable", "no lock", "unsynchronised access", "undefined behaviour", "race detector", "خيطان يكتبان المتغير نفسه", "بلا قفل", "وصول غير متزامن", "سلوك غير معرّف", "كاشف السباق", "تحديث ضائع"]
 ---
 
 ## Definition

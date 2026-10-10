@@ -8,7 +8,7 @@ aliases: ["linearizability", "strongly consistent"]
 term: "Strong Consistency"
 translation: "الاتساق القوي"
 pronunciation: "سترونج كونسستنسي"
-keywords: ["كل قراءة ترى آخر كتابة", "لا قراءات قديمة", "قابل للتسلسل الخطي", "مصدر وحيد للحقيقة", "أبطأ لكنه صحيح", "رصيد البنك", "every read sees the latest write", "no stale reads", "linearizable", "single source of truth", "slower but correct", "bank balance"]
+keywords: ["كل قراءة ترى آخر كتابة", "لا قراءات قديمة", "قابل للتسلسل الخطي", "مصدر وحيد للحقيقة", "أبطأ لكنه صحيح", "رصيد البنك", "every read sees the latest write", "no stale reads", "linearizable", "slower but correct", "bank balance"]
 ---
 
 ## التعريف

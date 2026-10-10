@@ -8,7 +8,7 @@ aliases: ["data races"]
 term: "Data Race"
 translation: "سباق البيانات"
 pronunciation: "داتا ريس"
-keywords: ["خيطان يكتبان المتغير نفسه", "بلا قفل", "وصول غير متزامن", "سلوك غير معرّف", "كاشف السباق", "تحديث ضائع", "two threads write same variable", "no lock", "unsynchronised access", "undefined behaviour", "race detector", "lost update"]
+keywords: ["خيطان يكتبان المتغير نفسه", "بلا قفل", "وصول غير متزامن", "سلوك غير معرّف", "كاشف السباق", "تحديث ضائع", "two threads write same variable", "no lock", "unsynchronised access", "undefined behaviour", "race detector"]
 ---
 
 ## التعريف

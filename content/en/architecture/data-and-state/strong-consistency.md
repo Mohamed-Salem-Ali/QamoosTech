@@ -7,7 +7,7 @@ related: [eventual-consistency, acid, isolation-level]
 aliases: ["linearizability", "strongly consistent"]
 term: "Strong Consistency"
 pronunciation: "STRONG kun-SIS-ten-see"
-keywords: ["every read sees the latest write", "no stale reads", "linearizable", "single source of truth", "slower but correct", "bank balance", "كل قراءة ترى آخر كتابة", "لا قراءات قديمة", "قابل للتسلسل الخطي", "مصدر وحيد للحقيقة", "أبطأ لكنه صحيح", "رصيد البنك"]
+keywords: ["every read sees the latest write", "no stale reads", "linearizable", "slower but correct", "bank balance", "كل قراءة ترى آخر كتابة", "لا قراءات قديمة", "قابل للتسلسل الخطي", "مصدر وحيد للحقيقة", "أبطأ لكنه صحيح", "رصيد البنك"]
 ---
 
 ## Definition

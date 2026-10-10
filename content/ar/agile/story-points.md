@@ -6,7 +6,7 @@ related: [user-story, estimate, sprint]
 term: "Story Points"
 translation: "نقاط القصة"
 pronunciation: "ستوري بوينتس"
-keywords: ["تقدير الجهد في أجايل","نقاط قياس مهام البرمجيات","حجم قصص المستخدمين","تحديد حجم التذاكر","التقدير النسبي للمهام","تقييم تعقيد المهام","نقاط القصة","استخدام أرقام فيبوناتشي للتقدير","ستوري بوينتس","estimate effort for user stories","relative sizing in agile","fibonacci estimation for tasks","agile estimation units","measure complexity of tickets","sprint planning sizing","how to score backlog items","story points vs hours","team velocity calculation","stori points"]
+keywords: ["تقدير الجهد في أجايل","نقاط قياس مهام البرمجيات","حجم قصص المستخدمين","تحديد حجم التذاكر","التقدير النسبي للمهام","تقييم تعقيد المهام","نقاط القصة","استخدام أرقام فيبوناتشي للتقدير","ستوري بوينتس","estimate effort for user stories","relative sizing in agile","fibonacci estimation for tasks","agile estimation units","measure complexity of tickets","sprint planning sizing","how to score backlog items","story points vs hours","stori points"]
 ---
 
 ## التعريف

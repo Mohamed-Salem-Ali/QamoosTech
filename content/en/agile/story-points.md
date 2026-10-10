@@ -5,7 +5,7 @@ level: beginner
 related: [user-story, estimate, sprint]
 term: "Story Points"
 pronunciation: "STOR-ee POYNT-s"
-keywords: ["estimate effort for user stories","relative sizing in agile","fibonacci estimation for tasks","agile estimation units","measure complexity of tickets","sprint planning sizing","how to score backlog items","story points vs hours","team velocity calculation","stori points","تقدير الجهد في أجايل","نقاط قياس مهام البرمجيات","حجم قصص المستخدمين","تحديد حجم التذاكر","التقدير النسبي للمهام","تقييم تعقيد المهام","نقاط القصة","استخدام أرقام فيبوناتشي للتقدير","ستوري بوينتس"]
+keywords: ["estimate effort for user stories","relative sizing in agile","fibonacci estimation for tasks","agile estimation units","measure complexity of tickets","sprint planning sizing","how to score backlog items","story points vs hours","stori points","تقدير الجهد في أجايل","نقاط قياس مهام البرمجيات","حجم قصص المستخدمين","تحديد حجم التذاكر","التقدير النسبي للمهام","تقييم تعقيد المهام","نقاط القصة","استخدام أرقام فيبوناتشي للتقدير","ستوري بوينتس"]
 ---
 
 ## Definition
