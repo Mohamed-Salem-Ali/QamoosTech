@@ -45,6 +45,62 @@ html[dir='rtl'] .reading-progress {
   transform-origin: right center;
 }
 
+/* ---------- Term page ----------
+   The header gets a soft aurora behind the title, every section gets an accent edge, and the
+   examples read as tinted quote cards. The colours follow the theme tokens, so no dark-mode copy. */
+.term__head {
+  position: relative;
+  isolation: isolate;
+}
+.term__head::before {
+  content: '';
+  position: absolute;
+  inset-block-start: -56px;
+  inset-inline: -40px -40px;
+  block-size: 300px;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(45% 70% at 18% 30%, color-mix(in srgb, var(--brand) 22%, transparent), transparent 70%),
+    radial-gradient(40% 60% at 84% 18%, color-mix(in srgb, var(--cyan) 18%, transparent), transparent 70%);
+  filter: blur(6px);
+  mask-image: radial-gradient(ellipse at 50% 45%, #000 45%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 45%, #000 45%, transparent 80%);
+}
+.term .panel {
+  position: relative;
+  overflow: hidden;
+}
+.term .panel::before {
+  content: '';
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: 3px;
+  background: linear-gradient(180deg, var(--brand), var(--cyan));
+}
+.term .panel--warn::before {
+  background: var(--warn-ink);
+}
+.term .panel--confuse::before {
+  background: linear-gradient(180deg, var(--cyan), var(--brand));
+}
+.examples li {
+  padding-block: 12px;
+  padding-inline: 16px 12px;
+  background: color-mix(in srgb, var(--cyan) 7%, transparent);
+  border-radius: 12px;
+}
+@media (hover: hover) and (pointer: fine) {
+  .term .panel {
+    transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
+  }
+  .term .panel:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+}
+
 /* ---------- Pointer polish ----------
    Only for mouse and trackpad users. The JavaScript in components/Enhancements.tsx sets the
    --sx/--sy cursor position and the --mx/--my magnetic offset. Without it, these rules fall back
