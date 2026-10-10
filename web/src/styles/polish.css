@@ -191,6 +191,10 @@ html[dir='rtl'] .category::before {
 .level--intermediate {
   color: color-mix(in srgb, var(--cyan) 55%, var(--ink));
 }
+/* the "say it in a meeting / in an email" label has the same cyan-on-light problem (2.7:1) */
+.say__hint {
+  color: color-mix(in srgb, var(--cyan) 55%, var(--ink));
+}
 
 /* ---------- Not found ----------
    app/not-found.tsx: a centred message with the two language links. */
