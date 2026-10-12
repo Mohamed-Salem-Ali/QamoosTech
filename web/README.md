@@ -49,7 +49,7 @@ voice picker automatically when more than one voice exists.
 ## Brand
 
 The logo is `public/logo.svg` (a copy lives in `../assets/logo.svg` for the repository README, and `src/app/icon.svg` is the
-favicon): the Arabic letter ق between code angle brackets, on a terracotta tile. Colours are the "Nile clay" palette defined
+favicon): a Latin Q whose tail is an Arabic fatha (the short slanted vowel stroke), on a terracotta tile. Colours are the "Nile clay" palette defined
 at the top of `src/styles/globals.css`, shared with [mohamedyounes.dev](https://www.mohamedyounes.dev).
 
 After changing the logo or the share card (`scripts/brand/og.html`), re-render the rasters with Chrome or Edge installed:

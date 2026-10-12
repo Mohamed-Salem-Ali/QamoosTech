@@ -31,7 +31,7 @@ shot(pathToFileURL(join(web, 'scripts/brand/og.html')).href, join(web, 'public/o
 // iOS draws its own rounded mask, so the icon is the logo with its tile made a full-bleed square
 const tmp = mkdtempSync(join(tmpdir(), 'qt-icon-'))
 const square = readFileSync(join(web, 'public/logo.svg'), 'utf8')
-  .replace('<rect x="2" y="2" width="60" height="60" rx="16"', '<rect x="0" y="0" width="64" height="64"')
+  .replace('<rect width="64" height="64" rx="16"', '<rect width="64" height="64"')
   .replace('<svg ', '<svg width="180" height="180" style="display:block" ')
 const iconPage = join(tmp, 'icon.html')
 writeFileSync(iconPage, `<!doctype html><html><body style="margin:0;width:180px;height:180px;overflow:hidden">${square}</body></html>`)
