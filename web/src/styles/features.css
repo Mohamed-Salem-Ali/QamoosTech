@@ -1,0 +1,372 @@
+/* QamoosTech: retention and phone features (2026-10-13): tab bar, term of the day, progress, quiz,
+   share and swipe, install prompt, offline notice. Uses the tokens from globals.css only. */
+
+/* ---------- Bottom tab bar (phones) ---------- */
+
+.tabbar {
+  display: none;
+}
+@media (max-width: 640px) {
+  .tabbar {
+    position: fixed;
+    inset-inline: 10px;
+    inset-block-end: calc(10px + env(safe-area-inset-bottom));
+    z-index: 60;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 6px;
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    background: color-mix(in srgb, var(--bg-elev) 86%, transparent);
+    backdrop-filter: saturate(1.4) blur(16px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  }
+  /* room under the last content so the bar never covers it */
+  body {
+    padding-block-end: calc(84px + env(safe-area-inset-bottom));
+  }
+  /* the tab bar has Saved; the header keeps the language switch, random and theme */
+  .header__saved {
+    display: none;
+  }
+}
+.tabbar__tab {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  padding-block: 6px 4px;
+  border-radius: 16px;
+  color: var(--ink-mute);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.2s, background-color 0.25s var(--ease);
+}
+.tabbar__tab:active .tabbar__icon {
+  transform: scale(0.86);
+}
+.tabbar__tab.is-active {
+  color: var(--brand);
+  background: var(--brand-soft);
+}
+.tabbar__icon {
+  position: relative;
+  display: grid;
+  place-items: center;
+  transition: transform 0.25s var(--ease);
+}
+.tabbar__tab.is-active .tabbar__icon {
+  animation: tab-pop 0.4s var(--ease);
+}
+.tabbar__tab.is-active svg {
+  fill: color-mix(in srgb, var(--brand) 22%, transparent);
+}
+@keyframes tab-pop {
+  40% { transform: translateY(-3px) scale(1.12); }
+}
+.tabbar__badge {
+  position: absolute;
+  inset-block-start: -6px;
+  inset-inline-end: -10px;
+  min-inline-size: 18px;
+  block-size: 18px;
+  padding-inline: 4px;
+  border-radius: 999px;
+  background: var(--brand);
+  color: var(--brand-ink);
+  font-size: 0.66rem;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 0 0 2px var(--bg-elev);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tabbar__tab.is-active .tabbar__icon {
+    animation: none;
+  }
+}
+
+/* ---------- Term of the day + your progress (home) ---------- */
+
+.daily__grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 18px;
+}
+@media (max-width: 820px) {
+  .daily__grid {
+    grid-template-columns: 1fr;
+  }
+}
+.daily__card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  box-shadow: var(--shadow);
+}
+.daily__word {
+  background:
+    radial-gradient(120% 90% at 0% 0%, color-mix(in srgb, var(--brand) 16%, transparent), transparent 60%),
+    radial-gradient(90% 80% at 100% 100%, color-mix(in srgb, var(--ochre) 14%, transparent), transparent 60%),
+    var(--bg-elev);
+}
+html[dir='rtl'] .daily__word {
+  background:
+    radial-gradient(120% 90% at 100% 0%, color-mix(in srgb, var(--brand) 16%, transparent), transparent 60%),
+    radial-gradient(90% 80% at 0% 100%, color-mix(in srgb, var(--ochre) 14%, transparent), transparent 60%),
+    var(--bg-elev);
+}
+.daily__eyebrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--brand);
+}
+.daily__date {
+  color: var(--ink-mute);
+  font-weight: 500;
+}
+.daily__date::before {
+  content: '·';
+  margin-inline-end: 8px;
+}
+.daily__spark {
+  inline-size: 8px;
+  block-size: 8px;
+  border-radius: 50%;
+  background: var(--brand);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--brand) 50%, transparent);
+  animation: spark 2.4s ease-out infinite;
+}
+@keyframes spark {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--brand) 50%, transparent); }
+  70%, 100% { box-shadow: 0 0 0 9px transparent; }
+}
+.daily__term {
+  font-size: clamp(1.9rem, 6vw, 2.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: start;
+}
+.daily__word.is-ready .daily__term,
+.daily__word.is-ready .daily__meaning,
+.daily__word.is-ready .daily__actions {
+  animation: rise 0.55s var(--ease) both;
+}
+.daily__word.is-ready .daily__meaning { animation-delay: 0.06s; }
+.daily__word.is-ready .daily__actions { animation-delay: 0.12s; }
+.daily__meaning {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-inline-size: 52ch;
+}
+.daily__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-block-start: 4px;
+}
+.daily__foot {
+  font-size: 0.8rem;
+  color: var(--ink-mute);
+}
+.daily__skeleton {
+  display: grid;
+  gap: 12px;
+  padding-block: 6px 52px;
+}
+.daily__skeleton i {
+  display: block;
+  block-size: 18px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, var(--line) 25%, color-mix(in srgb, var(--line) 40%, var(--bg-elev)) 50%, var(--line) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.3s ease-in-out infinite;
+}
+.daily__skeleton i:first-child { block-size: 38px; inline-size: 60%; }
+.daily__skeleton i:last-child { inline-size: 80%; }
+@keyframes shimmer {
+  to { background-position: -200% 0; }
+}
+
+.daily__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.daily__streak {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink-mute);
+}
+.daily__streak svg {
+  flex: none;
+  inline-size: 40px;
+  block-size: 40px;
+  padding: 8px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--ink-mute) 12%, transparent);
+  transition: color 0.3s, background-color 0.3s;
+}
+.daily__streak.is-on svg {
+  color: var(--brand);
+  background: var(--brand-soft);
+  animation: flicker 2.8s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+@keyframes flicker {
+  0%, 100% { transform: scale(1) rotate(0); }
+  30% { transform: scale(1.06, 0.97) rotate(-2deg); }
+  60% { transform: scale(0.98, 1.04) rotate(2deg); }
+}
+.daily__streak strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.15rem;
+}
+.daily__streak small {
+  display: block;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+.daily__ring {
+  position: relative;
+  flex: none;
+  display: grid;
+  place-items: center;
+}
+.daily__ring svg {
+  transform: rotate(-90deg);
+}
+.daily__ring-track,
+.daily__ring-fill {
+  fill: none;
+  stroke-width: 7;
+}
+.daily__ring-track {
+  stroke: color-mix(in srgb, var(--ink-mute) 18%, transparent);
+}
+.daily__ring-fill {
+  stroke: var(--sage);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s var(--ease);
+}
+.daily__ring span {
+  position: absolute;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.daily__explored {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+.daily__continue {
+  display: grid;
+  gap: 2px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, var(--brand) 30%, var(--line));
+  background: color-mix(in srgb, var(--brand) 6%, var(--bg-elev));
+  transition: transform 0.25s var(--ease), border-color 0.2s;
+}
+.daily__continue:hover {
+  transform: translateY(-2px);
+  border-color: var(--brand);
+}
+.daily__continue:active {
+  transform: scale(0.98);
+}
+.daily__continue small {
+  color: var(--brand);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.daily__continue strong {
+  font-size: 1.1rem;
+  text-align: start;
+}
+.daily__continue em {
+  font-style: normal;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+.daily__label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-mute);
+}
+.daily__start {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+.daily__clear {
+  justify-self: start;
+  border: 0;
+  background: none;
+  padding: 4px 0;
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--ink-mute);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.daily__clear:hover {
+  color: var(--brand);
+}
+
+/* explored share of a category, on its card */
+.category__progress {
+  display: block;
+  block-size: 5px;
+  border-radius: 99px;
+  background: color-mix(in srgb, var(--ink-mute) 16%, transparent);
+  overflow: hidden;
+}
+.category__progress i {
+  display: block;
+  block-size: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--sage), color-mix(in srgb, var(--sage) 60%, var(--ochre)));
+  animation: grow 0.9s var(--ease) both;
+  transform-origin: left;
+}
+html[dir='rtl'] .category__progress i {
+  transform-origin: right;
+}
+@keyframes grow {
+  from { transform: scaleX(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .daily__spark,
+  .daily__streak.is-on svg,
+  .daily__skeleton i,
+  .category__progress i,
+  .daily__word.is-ready .daily__term,
+  .daily__word.is-ready .daily__meaning,
+  .daily__word.is-ready .daily__actions {
+    animation: none;
+  }
+}
+
+/* English terms inside Arabic cards follow the card's side, not their own LTR start */
+html[dir='rtl'] .daily__term,
+html[dir='rtl'] .daily__continue strong {
+  text-align: right;
+}

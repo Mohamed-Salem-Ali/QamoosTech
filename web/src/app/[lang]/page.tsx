@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { CategoryProgress } from '@/components/CategoryProgress'
 import { CountUp } from '@/components/CountUp'
+import { DailyPanel } from '@/components/DailyPanel'
 import { HeroArt, type FloatCard } from '@/components/HeroArt'
 import { RandomTerm } from '@/components/RandomTerm'
 import { Reveal } from '@/components/Reveal'
@@ -111,6 +113,8 @@ export default async function Home({ params }: { params: Promise<{ lang: Lang }>
         </div>
       </section>
 
+      <DailyPanel lang={lang} total={terms.length} />
+
       <section className="section" id="categories">
         <div className="container">
           <Reveal>
@@ -126,6 +130,7 @@ export default async function Home({ params }: { params: Promise<{ lang: Lang }>
                     <h3>{c.name[lang]}</h3>
                     <p>{c.description[lang]}</p>
                     <span className="category__count">{t.termsCount(count)}</span>
+                    <CategoryProgress lang={lang} category={c.id} />
                   </Link>
                 </Reveal>
               )

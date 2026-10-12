@@ -64,6 +64,18 @@ export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExa
     return () => window.removeEventListener('keydown', onKey)
   }, [])
 
+  // The phone tab bar's Search tab: focus the box when asked, or when the page opens at #search.
+  useEffect(() => {
+    function focusSearch() {
+      const box = inputRef.current?.closest<HTMLElement>('.search')
+      box?.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' })
+      inputRef.current?.focus({ preventScroll: true })
+    }
+    if (location.hash === '#search') setTimeout(focusSearch, 350)
+    window.addEventListener('focus-search', focusSearch)
+    return () => window.removeEventListener('focus-search', focusSearch)
+  }, [])
+
   function onKeyDown(e: React.KeyboardEvent) {
     if (e.key === 'ArrowDown') {
       e.preventDefault()

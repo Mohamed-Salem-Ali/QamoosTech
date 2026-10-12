@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
 import { Header } from '@/components/Header'
 import { Shell } from '@/components/Shell'
+import { TabBar } from '@/components/TabBar'
 import { author } from '@/lib/author'
 import { isLang, languages, ui } from '@/lib/i18n'
 import { SITE_URL } from '@/lib/site'
@@ -26,6 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 // Tints the mobile browser bar to the page background of each theme (globals.css --bg).
 export const viewport: Viewport = {
+  // lets the phone tab bar sit above the home indicator (env(safe-area-inset-bottom) in globals.css)
+  viewportFit: 'cover',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: '#f7f3ec' },
     { media: '(prefers-color-scheme: dark)', color: '#13110f' },
@@ -54,6 +57,7 @@ export default async function LangLayout({ children, params }: { children: React
           </span>
         </div>
       </footer>
+      <TabBar lang={lang} />
     </Shell>
   )
 }
