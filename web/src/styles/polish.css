@@ -41,7 +41,7 @@
   inset-inline: 0;
   z-index: 60;
   block-size: 3px;
-  background: linear-gradient(90deg, var(--brand), var(--cyan));
+  background: linear-gradient(90deg, var(--brand), var(--ochre));
   transform-origin: left center;
   transform: scaleX(var(--p, 0));
   pointer-events: none;
@@ -70,7 +70,7 @@ html[dir='rtl'] .reading-progress {
   pointer-events: none;
   background:
     radial-gradient(45% 70% at 18% 30%, color-mix(in srgb, var(--brand) 22%, transparent), transparent 70%),
-    radial-gradient(40% 60% at 84% 18%, color-mix(in srgb, var(--cyan) 18%, transparent), transparent 70%);
+    radial-gradient(40% 60% at 84% 18%, color-mix(in srgb, var(--sage) 18%, transparent), transparent 70%);
   filter: blur(6px);
   mask-image: radial-gradient(ellipse at 50% 45%, #000 45%, transparent 80%);
   -webkit-mask-image: radial-gradient(ellipse at 50% 45%, #000 45%, transparent 80%);
@@ -90,18 +90,18 @@ html[dir='rtl'] .reading-progress {
   inset-block: 0;
   inset-inline-start: 0;
   inline-size: 3px;
-  background: linear-gradient(180deg, var(--brand), var(--cyan));
+  background: linear-gradient(180deg, var(--brand), var(--sage));
 }
 .term .panel--warn::before {
   background: var(--warn-ink);
 }
 .term .panel--confuse::before {
-  background: linear-gradient(180deg, var(--cyan), var(--brand));
+  background: linear-gradient(180deg, var(--sage), var(--brand));
 }
 .examples li {
   padding-block: 12px;
   padding-inline: 16px 12px;
-  background: color-mix(in srgb, var(--cyan) 7%, transparent);
+  background: color-mix(in srgb, var(--sage) 7%, transparent);
   border-radius: 12px;
 }
 @media (hover: hover) and (pointer: fine) {
@@ -132,7 +132,7 @@ html[dir='rtl'] .reading-progress {
   border-inline-start: 3px solid var(--ok);
 }
 .term-card:has(.level--intermediate) {
-  border-inline-start: 3px solid var(--cyan);
+  border-inline-start: 3px solid var(--sage);
 }
 
 /* ---------- Home page ----------
@@ -150,7 +150,7 @@ html[dir='rtl'] .reading-progress {
   inline-size: 56px;
   block-size: 4px;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--brand), var(--cyan));
+  background: linear-gradient(90deg, var(--brand), var(--ochre));
 }
 .category {
   position: relative;
@@ -162,7 +162,7 @@ html[dir='rtl'] .reading-progress {
   inset-block-start: 0;
   inset-inline: 0;
   block-size: 3px;
-  background: linear-gradient(90deg, var(--brand), var(--cyan));
+  background: linear-gradient(90deg, var(--brand), var(--ochre));
   transform: scaleX(0);
   transform-origin: left center;
   transition: transform 0.45s var(--ease);
@@ -182,18 +182,19 @@ html[dir='rtl'] .category::before {
 }
 
 /* ---------- Level pills ----------
-   The beginner (green) and intermediate (cyan) text was 3.6:1 and 2.4:1 on its tinted background.
+   Beginner is sage green, intermediate is ochre; on their tinted backgrounds the raw colours fall
+   below AA.
    Mixing the text colour with the ink colour darkens it in light mode (about 6:1) and lightens it
    in dark mode, so both themes pass AA without a separate dark-mode rule. */
 .level--beginner {
   color: color-mix(in srgb, var(--ok) 70%, var(--ink));
 }
 .level--intermediate {
-  color: color-mix(in srgb, var(--cyan) 55%, var(--ink));
+  color: color-mix(in srgb, var(--ochre) 55%, var(--ink));
 }
-/* the "say it in a meeting / in an email" label has the same cyan-on-light problem (2.7:1) */
+/* the "say it in a meeting / in an email" label: sage on the light page alone is too faint */
 .say__hint {
-  color: color-mix(in srgb, var(--cyan) 55%, var(--ink));
+  color: color-mix(in srgb, var(--sage) 55%, var(--ink));
 }
 
 /* ---------- Not found ----------

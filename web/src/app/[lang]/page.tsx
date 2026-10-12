@@ -55,9 +55,9 @@ export default async function Home({ params }: { params: Promise<{ lang: Lang }>
       <Splash lang={lang} />
       <section className="hero">
         <div className="hero__bg" aria-hidden="true">
-          <i className="blob blob--cyan" />
-          <i className="blob blob--indigo" />
-          <i className="blob blob--violet" />
+          <i className="blob blob--sage" />
+          <i className="blob blob--clay" />
+          <i className="blob blob--ochre" />
           <div className="hero__dots" />
           <div className="hero__spot" />
         </div>
@@ -96,7 +96,7 @@ export default async function Home({ params }: { params: Promise<{ lang: Lang }>
             </Link>
             <RandomTerm lang={lang} label={h.random} />
           </div>
-          <ul className="stats" aria-label="Stats">
+          <ul className="stats" aria-label={ui[lang].a11y.stats}>
             <li><CountUp to={terms.length} /><span>{h.stats.terms}</span></li>
             <li><CountUp to={categories.length} /><span>{h.stats.categories}</span></li>
             <li><CountUp to={languages.length} /><span>{h.stats.languages}</span></li>

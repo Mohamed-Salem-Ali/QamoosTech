@@ -20,7 +20,7 @@ export default async function SavedPage({ params }: { params: Promise<Params> })
   const t = ui[lang]
   return (
     <div className="container page">
-      <nav className="crumbs" aria-label="Breadcrumb">
+      <nav className="crumbs" aria-label={ui[lang].a11y.breadcrumb}>
         <Link href={`/${lang}/`}>{t.home}</Link>
         <span aria-hidden="true">/</span>
         <span>{t.saved.title}</span>

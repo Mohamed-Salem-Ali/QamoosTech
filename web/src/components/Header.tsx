@@ -43,7 +43,7 @@ export function Header({ lang }: { lang: Lang }) {
             Qamoos<b>Tech</b>
           </span>
         </Link>
-        <nav className="header__actions" aria-label="Main">
+        <nav className="header__actions" aria-label={t.a11y.mainNav}>
           <Link className="btn btn--ghost header__link" href={`/${lang}/#categories`}>
             {t.categories}
           </Link>
@@ -68,7 +68,7 @@ export function Header({ lang }: { lang: Lang }) {
             </svg>
           </Link>
           <RandomTerm lang={lang} label={t.hero.random} variant="icon" />
-          <button className="icon-btn" onClick={toggleTheme} aria-label="Toggle theme" type="button">
+          <button className="icon-btn" onClick={toggleTheme} aria-label={theme === 'dark' ? t.a11y.toLight : t.a11y.toDark} type="button">
             {theme === 'dark' ? (
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                 <circle cx="12" cy="12" r="4" />

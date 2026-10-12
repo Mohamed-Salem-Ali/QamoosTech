@@ -45,3 +45,15 @@ voice picker automatically when more than one voice exists.
 | `npm run stats` | Prints the canonical numbers (terms, categories, subcategories, audio coverage) to copy into READMEs and other projects |
 | `npm run audio` | Generates missing pronunciation files (see above) |
 | `npm run ai`, `qa`, `qa-fix`, `terms`, `enrich`, `scan` | Optional maintainer tools that use Gemini to draft, review and enrich terms. A human reviews every change; they need API keys and are not required to build the site |
+
+## Brand
+
+The logo is `public/logo.svg` (a copy lives in `../assets/logo.svg` for the repository README, and `src/app/icon.svg` is the
+favicon): the Arabic letter ق between code angle brackets, on a terracotta tile. Colours are the "Nile clay" palette defined
+at the top of `src/styles/globals.css`, shared with [mohamedyounes.dev](https://www.mohamedyounes.dev).
+
+After changing the logo or the share card (`scripts/brand/og.html`), re-render the rasters with Chrome or Edge installed:
+
+```bash
+node scripts/brand/render.mjs   # writes public/og.png (1200x630) and public/apple-touch-icon.png (180x180)
+```

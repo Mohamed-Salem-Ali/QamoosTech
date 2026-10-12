@@ -70,7 +70,7 @@ export default async function TermPage({ params }: { params: Promise<Params> }) 
     <article className="container page term">
       <ReadingProgress />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermJson(lang, term)).replace(/</g, '\\u003c') }} />
-      <nav className="crumbs" aria-label="Breadcrumb">
+      <nav className="crumbs" aria-label={ui[lang].a11y.breadcrumb}>
         <Link href={`/${lang}/`}>{t.home}</Link>
         <span aria-hidden="true">/</span>
         <Link href={`/${lang}/c/${category.id}/`}>{category.name[lang]}</Link>

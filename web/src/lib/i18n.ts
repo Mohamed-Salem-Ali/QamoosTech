@@ -96,6 +96,15 @@ export const ui = {
     portfolio: 'موقعي الشخصي',
     madeBy: 'من تطوير',
     footer: 'مشروع مفتوح المصدر. المحتوى بترخيص CC BY-SA 4.0.',
+    // labels read by screen readers only
+    a11y: {
+      skip: 'انتقل إلى المحتوى',
+      mainNav: 'القائمة الرئيسية',
+      breadcrumb: 'مسار التنقل',
+      stats: 'أرقام القاموس',
+      toLight: 'التبديل إلى الوضع الفاتح',
+      toDark: 'التبديل إلى الوضع الداكن',
+    },
   },
   en: {
     siteName: 'QamoosTech',
@@ -175,5 +184,14 @@ export const ui = {
     portfolio: 'My portfolio',
     madeBy: 'Made by',
     footer: 'Open source. Content licensed CC BY-SA 4.0.',
+    // labels read by screen readers only
+    a11y: {
+      skip: 'Skip to content',
+      mainNav: 'Main',
+      breadcrumb: 'Breadcrumb',
+      stats: 'Dictionary numbers',
+      toLight: 'Switch to light theme',
+      toDark: 'Switch to dark theme',
+    },
   },
 } satisfies Record<Lang, Record<string, unknown>>

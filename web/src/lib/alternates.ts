@@ -11,11 +11,14 @@ export function pageAlternates(lang: string, pathFor: (lang: string) => string) 
   }
 }
 
+// One bilingual share card for every page (public/og.png, rendered from scripts/brand/og.html).
+const ogImage = { url: '/og.png', width: 1200, height: 630, alt: 'QamoosTech | قاموس تك' }
+
 /** Open Graph and Twitter card for one page, in its own language. */
 export function socialFor(lang: Lang, title: string, description: string) {
   const locale = languages.find((l) => l.code === lang)!.ogLocale
   return {
-    openGraph: { title, description, siteName: 'QamoosTech', locale, type: 'website' as const },
-    twitter: { card: 'summary' as const, title, description },
+    openGraph: { title, description, siteName: 'QamoosTech', locale, type: 'website' as const, images: [ogImage] },
+    twitter: { card: 'summary_large_image' as const, title, description, images: [ogImage.url] },
   }
 }

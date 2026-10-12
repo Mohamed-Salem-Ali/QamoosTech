@@ -1,22 +1,24 @@
-/* QamoosTech — indigo/cyan brand, light + dark, RTL-first (logical properties only). */
+/* QamoosTech — "Nile clay" brand (shared with mohamedyounes.dev since 2026-10-13): warm paper /
+   graphite neutrals, terracotta brand, sage and ochre accents. Light + dark, RTL-first (logical
+   properties only). */
 
 :root {
-  --bg: #f6f7fb;
-  --bg-elev: #ffffff;
-  --ink: #12172b;
-  --ink-soft: #4a5270;
-  --ink-mute: #5f6780;
-  --line: #e3e6f0;
-  --brand: #5457d6;
-  --brand-ink: #ffffff;
-  --brand-soft: #eceefe;
-  --cyan: #0ea5c6;
-  --warn-bg: #fff6e8;
-  --warn-line: #f3d7a5;
-  --warn-ink: #7a4b06;
-  --ok: #0f8a63;
-  --shadow: 0 1px 2px rgba(18, 23, 43, 0.05), 0 8px 24px rgba(18, 23, 43, 0.06);
-  --shadow-lg: 0 2px 4px rgba(18, 23, 43, 0.06), 0 18px 44px rgba(84, 87, 214, 0.18);
+  --bg: #f7f3ec;
+  --bg-elev: #fffdf9;
+  --ink: #1d1915;
+  --ink-soft: #4f463d;
+  --ink-mute: #665b4f;
+  --line: #e3d9ca;
+  --brand: #b0461f;
+  --brand-ink: #fffdf9;
+  --brand-soft: #f6e7dd;
+  --sage: #2c6e44;
+  --warn-bg: #fbf1dc;
+  --warn-line: #ecd29b;
+  --warn-ink: #6e4a0c;
+  --ok: #2c6e44;
+  --shadow: 0 1px 2px rgba(29, 25, 21, 0.05), 0 8px 24px rgba(29, 25, 21, 0.06);
+  --shadow-lg: 0 2px 4px rgba(29, 25, 21, 0.06), 0 18px 44px rgba(176, 70, 31, 0.16);
   --radius: 18px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   /* the fallbacks keep text readable on pages that do not load the site fonts (the 404 page) */
@@ -26,41 +28,43 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #0b0f1f;
-    --bg-elev: #131a31;
-    --ink: #eef0fa;
-    --ink-soft: #b3bad6;
-    --ink-mute: #8089a8;
-    --line: #232c4a;
-    --brand: #8b8ef5;
-    --brand-ink: #0b0f1f;
-    --brand-soft: #1d2447;
-    --cyan: #22d3ee;
+    --bg: #13110f;
+    --bg-elev: #1c1916;
+    --ink: #ede6da;
+    --ink-soft: #c8beb1;
+    --ink-mute: #a09486;
+    --line: #302a24;
+    --brand: #e5794f;
+    --brand-ink: #13110f;
+    --brand-soft: #2e211a;
+    --sage: #7cc79a;
+    --ok: #7cc79a;
     --warn-bg: #2a2110;
     --warn-line: #5a4318;
-    --warn-ink: #f5d9a0;
+    --warn-ink: #f0d49a;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
-    --shadow-lg: 0 2px 4px rgba(0, 0, 0, 0.4), 0 18px 44px rgba(34, 211, 238, 0.12);
+    --shadow-lg: 0 2px 4px rgba(0, 0, 0, 0.4), 0 18px 44px rgba(229, 121, 79, 0.12);
     color-scheme: dark;
   }
 }
 
 :root[data-theme='dark'] {
-  --bg: #0b0f1f;
-  --bg-elev: #131a31;
-  --ink: #eef0fa;
-  --ink-soft: #b3bad6;
-  --ink-mute: #8089a8;
-  --line: #232c4a;
-  --brand: #8b8ef5;
-  --brand-ink: #0b0f1f;
-  --brand-soft: #1d2447;
-  --cyan: #22d3ee;
+  --bg: #13110f;
+  --bg-elev: #1c1916;
+  --ink: #ede6da;
+  --ink-soft: #c8beb1;
+  --ink-mute: #a09486;
+  --line: #302a24;
+  --brand: #e5794f;
+  --brand-ink: #13110f;
+  --brand-soft: #2e211a;
+  --sage: #7cc79a;
+  --ok: #7cc79a;
   --warn-bg: #2a2110;
   --warn-line: #5a4318;
-  --warn-ink: #f5d9a0;
+  --warn-ink: #f0d49a;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 2px 4px rgba(0, 0, 0, 0.4), 0 18px 44px rgba(34, 211, 238, 0.12);
+  --shadow-lg: 0 2px 4px rgba(0, 0, 0, 0.4), 0 18px 44px rgba(229, 121, 79, 0.12);
   color-scheme: dark;
 }
 
@@ -162,7 +166,7 @@ code {
 }
 .header--scrolled {
   border-block-end-color: var(--line);
-  box-shadow: 0 6px 24px rgba(18, 23, 43, 0.05);
+  box-shadow: 0 6px 24px rgba(29, 25, 21, 0.06);
 }
 .header__inner {
   display: flex;
@@ -186,7 +190,7 @@ code {
 }
 .brand__name b {
   font-weight: 600;
-  background: linear-gradient(90deg, var(--cyan), var(--brand));
+  background: linear-gradient(90deg, var(--brand), var(--ochre));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -238,8 +242,8 @@ code {
   place-content: center;
   justify-items: center;
   gap: 10px;
-  background: radial-gradient(900px 500px at 50% 40%, #1b2250 0%, #0a0e1f 70%);
-  color: #fff;
+  background: radial-gradient(900px 500px at 50% 40%, #2b1d15 0%, #13110f 70%);
+  color: #ede6da;
   transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
 }
 .splash--leaving {
@@ -249,7 +253,7 @@ code {
 }
 .splash__mark {
   animation: splash-pop 0.6s var(--ease) both;
-  filter: drop-shadow(0 0 28px rgba(34, 211, 238, 0.45));
+  filter: drop-shadow(0 0 28px rgba(229, 121, 79, 0.4));
 }
 .splash__name {
   font-size: 2.4rem;
@@ -258,7 +262,7 @@ code {
   animation: rise 0.5s 0.2s var(--ease) both;
 }
 .splash__name b {
-  background: linear-gradient(90deg, #22d3ee, #8b8ef5);
+  background: linear-gradient(90deg, #e5794f, #e0ae52);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -280,7 +284,7 @@ code {
   display: block;
   inline-size: 100%;
   block-size: 100%;
-  background: linear-gradient(90deg, #22d3ee, #8b8ef5);
+  background: linear-gradient(90deg, #e5794f, #e0ae52);
   transform-origin: left;
   animation: bar 1.1s 0.1s var(--ease) both;
 }
@@ -631,8 +635,8 @@ html[dir='rtl'] .splash__bar span {
   color: var(--ok);
 }
 .level--intermediate {
-  background: color-mix(in srgb, var(--cyan) 17%, transparent);
-  color: var(--cyan);
+  background: color-mix(in srgb, var(--ochre) 18%, transparent);
+  color: var(--ochre);
 }
 .term-card .level {
   justify-self: start;
@@ -775,7 +779,7 @@ html[lang='ar'] .panel h2 {
   display: grid;
   gap: 4px;
   padding-inline-start: 16px;
-  border-inline-start: 3px solid var(--cyan);
+  border-inline-start: 3px solid var(--sage);
 }
 .examples q {
   quotes: none;
@@ -859,10 +863,35 @@ html[lang='ar'] .panel h2 {
   .header__link {
     display: none;
   }
+  /* logo + wordmark + language switch + three icon buttons must fit in 343px (a 375px phone) */
+  .header__inner {
+    gap: 8px;
+  }
+  .brand {
+    gap: 8px;
+    font-size: 1rem;
+  }
+  .header__actions {
+    gap: 0;
+  }
+  .header__actions .btn {
+    padding-inline: 10px;
+  }
+  .icon-btn {
+    inline-size: 38px;
+    block-size: 38px;
+  }
   .search__field {
     block-size: 54px;
   }
   .search kbd {
+    display: none;
+  }
+}
+
+/* below 360px the tile alone carries the brand (the link keeps its "QamoosTech" label) */
+@media (max-width: 359px) {
+  .brand__name {
     display: none;
   }
 }
@@ -888,7 +917,7 @@ html[lang='ar'] .panel h2 {
    ===================================================================== */
 
 :root {
-  --violet: #8b5cf6;
+  --ochre: #d39a3a;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -912,23 +941,24 @@ html[lang='ar'] .panel h2 {
   opacity: 0.6;
   will-change: transform;
 }
-.blob--cyan {
+.blob--sage {
+  opacity: 0.38;
   inset-block-start: -18%;
   inset-inline-start: -10%;
-  background: radial-gradient(closest-side, color-mix(in srgb, var(--cyan) 62%, transparent), transparent);
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--sage) 62%, transparent), transparent);
   animation: float-a 19s ease-in-out infinite alternate;
 }
-.blob--indigo {
+.blob--clay {
   inset-block-start: -22%;
   inset-inline-end: -12%;
   background: radial-gradient(closest-side, color-mix(in srgb, var(--brand) 60%, transparent), transparent);
   animation: float-b 23s ease-in-out infinite alternate;
 }
-.blob--violet {
+.blob--ochre {
   inset-block-end: -30%;
   inset-inline-start: 28%;
   opacity: 0.4;
-  background: radial-gradient(closest-side, color-mix(in srgb, var(--violet) 60%, transparent), transparent);
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--ochre) 60%, transparent), transparent);
   animation: float-c 27s ease-in-out infinite alternate;
 }
 @keyframes float-a {
@@ -1056,7 +1086,7 @@ html[lang='ar'] .panel h2 {
   grid-area: 1 / 1;
   white-space: nowrap;
   opacity: 0;
-  background: linear-gradient(90deg, var(--cyan), var(--brand), var(--violet), var(--cyan));
+  background: linear-gradient(90deg, var(--brand), var(--ochre), var(--brand));
   background-size: 250% 100%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -1107,7 +1137,7 @@ html[lang='ar'] .panel h2 {
 }
 .cta--primary {
   color: var(--brand-ink);
-  background: linear-gradient(135deg, var(--brand), color-mix(in srgb, var(--brand) 55%, var(--cyan)));
+  background: linear-gradient(135deg, var(--brand), color-mix(in srgb, var(--brand) 82%, var(--ink)));
   box-shadow: 0 8px 22px color-mix(in srgb, var(--brand) 32%, transparent);
 }
 .cta--primary:hover {
@@ -1328,7 +1358,7 @@ html[dir='rtl'] .explore__card--prev:hover .explore__arrow--prev { transform: tr
   inset-block-end: -0.02em;
   block-size: 0.07em;
   border-radius: 99px;
-  background: linear-gradient(90deg, var(--cyan), var(--brand), var(--violet));
+  background: linear-gradient(90deg, var(--brand), var(--ochre));
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.35s var(--ease);
@@ -1384,7 +1414,7 @@ html[dir='rtl'] .rotator__word::after { transform-origin: right; }
   background: color-mix(in srgb, var(--brand) 6%, var(--bg-elev));
 }
 .panel--say {
-  border-color: color-mix(in srgb, var(--cyan) 40%, var(--line));
+  border-color: color-mix(in srgb, var(--sage) 40%, var(--line));
 }
 .say {
   list-style: none;
@@ -1405,7 +1435,7 @@ html[dir='rtl'] .rotator__word::after { transform-origin: right; }
 .say__hint {
   font-size: 0.78rem;
   font-weight: 600;
-  color: var(--cyan);
+  color: var(--sage);
 }
 .say q {
   quotes: none;

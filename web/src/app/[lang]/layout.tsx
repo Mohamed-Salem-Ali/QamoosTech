@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
 import { Header } from '@/components/Header'
 import { Shell } from '@/components/Shell'
@@ -14,11 +14,22 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang: raw } = await params
   if (!isLang(raw)) return {}
   const t = ui[raw]
+  // the English site name is "QamoosTech" itself, so it gets the tagline instead of a doubled name
+  const second = t.siteName === 'QamoosTech' ? t.tagline : t.siteName
   return {
     metadataBase: new URL(SITE_URL),
-    title: { default: `QamoosTech | ${t.siteName}`, template: `%s | QamoosTech` },
+    title: { default: `QamoosTech | ${second}`, template: `%s | QamoosTech` },
     description: t.intro,
+    icons: { apple: '/apple-touch-icon.png' },
   }
+}
+
+// Tints the mobile browser bar to the page background of each theme (globals.css --bg).
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#f7f3ec' },
+    { media: '(prefers-color-scheme: dark)', color: '#13110f' },
+  ],
 }
 
 export default async function LangLayout({ children, params }: { children: React.ReactNode; params: Promise<{ lang: string }> }) {
@@ -28,7 +39,7 @@ export default async function LangLayout({ children, params }: { children: React
   const t = ui[lang]
   return (
     <Shell lang={lang}>
-      <a className="skip" href="#main">Skip to content</a>
+      <a className="skip" href="#main">{t.a11y.skip}</a>
       <Header lang={lang} />
       <main id="main">{children}</main>
       <footer className="footer">

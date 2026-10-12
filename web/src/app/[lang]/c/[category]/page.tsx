@@ -49,7 +49,7 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
 
   return (
     <div className="container page">
-      <nav className="crumbs" aria-label="Breadcrumb">
+      <nav className="crumbs" aria-label={ui[lang].a11y.breadcrumb}>
         <Link href={`/${lang}/`}>{t.home}</Link>
         <span aria-hidden="true">/</span>
         <span>{category.name[lang]}</span>
