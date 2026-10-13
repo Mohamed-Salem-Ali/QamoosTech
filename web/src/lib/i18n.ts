@@ -170,6 +170,26 @@ export const ui = {
       offlineText: 'هذه الصفحة لم تُحفظ بعد على جهازك. جرّب الصفحات التي زرتها سابقًا، أو عد عندما يعود الاتصال.',
     },
     toTop: 'العودة إلى الأعلى',
+    badges: {
+      title: 'إنجازاتك',
+      count: (n: number, total: number) => `${n} من ${total}`,
+      unlocked: 'إنجاز جديد',
+      locked: 'لم يُفتح بعد',
+      list: {
+        first: { name: 'الخطوة الأولى', desc: 'افتح أول مصطلح' },
+        explore10: { name: 'مستكشف', desc: 'استكشف 10 مصطلحات' },
+        explore50: { name: 'رحّالة', desc: 'استكشف 50 مصطلحًا' },
+        explore150: { name: 'موسوعة', desc: 'استكشف 150 مصطلحًا' },
+        streak3: { name: 'ثلاثة أيام', desc: 'عُد ثلاثة أيام متتالية' },
+        streak7: { name: 'أسبوع كامل', desc: 'عُد سبعة أيام متتالية' },
+        perfect: { name: 'علامة كاملة', desc: 'أجب عن 10 من 10 في اختبار' },
+        listener: { name: 'أذن مدرّبة', desc: '7 من 10 أو أكثر في اختبار الاستماع' },
+        collector: { name: 'جامع الكلمات', desc: 'احفظ 10 مصطلحات للمراجعة' },
+        reviewer: { name: 'أول مراجعة', desc: 'راجع مصطلحًا محفوظًا وتذكّره' },
+        master: { name: 'إتقان', desc: 'أوصل مصطلحًا إلى أعلى مستوى إتقان' },
+        bilingual: { name: 'بلغتين', desc: 'اقرأ المصطلح نفسه بالعربية والإنجليزية' },
+      },
+    },
     // labels read by screen readers only
     a11y: {
       skip: 'انتقل إلى المحتوى',
@@ -332,6 +352,26 @@ export const ui = {
       offlineText: 'This page is not saved on your device yet. Try a page you visited before, or come back when you are online.',
     },
     toTop: 'Back to top',
+    badges: {
+      title: 'Your achievements',
+      count: (n: number, total: number) => `${n} of ${total}`,
+      unlocked: 'New achievement',
+      locked: 'Not unlocked yet',
+      list: {
+        first: { name: 'First step', desc: 'Open your first term' },
+        explore10: { name: 'Explorer', desc: 'Explore 10 terms' },
+        explore50: { name: 'Voyager', desc: 'Explore 50 terms' },
+        explore150: { name: 'Encyclopedia', desc: 'Explore 150 terms' },
+        streak3: { name: 'Three days', desc: 'Come back three days in a row' },
+        streak7: { name: 'Full week', desc: 'Come back seven days in a row' },
+        perfect: { name: 'Perfect score', desc: 'Get 10 of 10 in a quiz' },
+        listener: { name: 'Trained ear', desc: '7 of 10 or more in the listening quiz' },
+        collector: { name: 'Word collector', desc: 'Save 10 terms to review' },
+        reviewer: { name: 'First review', desc: 'Review a saved term and remember it' },
+        master: { name: 'Mastered', desc: 'Bring a term to the top mastery level' },
+        bilingual: { name: 'Both languages', desc: 'Read the same term in Arabic and in English' },
+      },
+    },
     // labels read by screen readers only
     a11y: {
       skip: 'Skip to content',

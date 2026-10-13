@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { loadCards, seeded, type Card } from '@/lib/cards'
 import { clearHistory, PROGRESS_EVENT, readRecent, readSeen, readStreak, today, type RecentTerm, type Streak } from '@/lib/progress'
+import { BadgeShelf } from './Badges'
 import { ui, type Lang } from '@/lib/i18n'
 import { dueTerms, REVIEW_EVENT } from '@/lib/review'
 import { readSaved } from '@/lib/saved'
@@ -132,6 +133,7 @@ export function DailyPanel({ lang, total }: { lang: Lang; total: number }) {
           ) : (
             <p className="daily__start">{t.start}</p>
           )}
+          <BadgeShelf lang={lang} />
         </article>
       </div>
     </section>

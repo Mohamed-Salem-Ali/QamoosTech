@@ -89,5 +89,6 @@ export function readQuizBest(lang: string): number {
 export function recordQuizScore(lang: string, score: number) {
   if (score <= readQuizBest(lang)) return false
   write(QUIZ_BEST(lang), score)
+  window.dispatchEvent(new Event(PROGRESS_EVENT))
   return true
 }
