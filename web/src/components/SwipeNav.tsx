@@ -15,6 +15,8 @@ export function SwipeNav({ prevHref, nextHref, rtl, hint }: { prevHref?: string;
   const [drag, setDrag] = useState(0) // signed px, positive = finger moved right
   const [showHint, setShowHint] = useState(false)
   const start = useRef<{ x: number; y: number; t: number; locked: boolean | null } | null>(null)
+  // the live drag distance, read when the finger lifts (state alone would be one render behind)
+  const dragRef = useRef(0)
 
   // touch screens: prefetch the next term and show the hint the first time only
   useEffect(() => {
@@ -59,25 +61,26 @@ export function SwipeNav({ prevHref, nextHref, rtl, hint }: { prevHref?: string;
       const dy = e.touches[0].clientY - s.y
       // decide once whether this gesture is horizontal; a vertical scroll never becomes a swipe
       if (s.locked === null && Math.abs(dx) + Math.abs(dy) > 12) s.locked = Math.abs(dx) > Math.abs(dy) * 1.6
-      if (s.locked && targetFor(dx)) setDrag(dx)
+      if (s.locked && targetFor(dx)) {
+        dragRef.current = dx
+        setDrag(dx)
+      }
     }
     function onEnd() {
       const s = start.current
+      const dx = dragRef.current
       start.current = null
-      setDrag((dx) => {
-        if (s?.locked && Math.abs(dx) >= TRIGGER) {
-          const href = targetFor(dx)
-          if (href) {
-            buzz(10)
-            setShowHint(false)
-            try {
-              localStorage.setItem(HINT_KEY, '1')
-            } catch {}
-            router.push(href)
-          }
-        }
-        return 0
-      })
+      dragRef.current = 0
+      setDrag(0)
+      if (!s?.locked || Math.abs(dx) < TRIGGER) return
+      const href = targetFor(dx)
+      if (!href) return
+      buzz(10)
+      setShowHint(false)
+      try {
+        localStorage.setItem(HINT_KEY, '1')
+      } catch {}
+      router.push(href)
     }
 
     window.addEventListener('touchstart', onStart, { passive: true })

@@ -602,8 +602,11 @@ html[dir='rtl'] .daily__continue strong {
   background: var(--brand);
   color: var(--brand-ink);
 }
+/* the untouched wrong options step back with the muted text colour (still readable), not opacity */
 .quiz__option.is-dim {
-  opacity: 0.5;
+  color: var(--ink-mute);
+  border-color: color-mix(in srgb, var(--line) 60%, transparent);
+  background: transparent;
 }
 @keyframes right-pop {
   50% { transform: scale(1.025); }
