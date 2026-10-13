@@ -1758,3 +1758,31 @@ html[data-text='xl'] {
   border-color: color-mix(in srgb, var(--brand) 45%, var(--line));
   color: var(--brand);
 }
+
+/* saved page: practise and "quiz me" side by side, wrapping on narrow phones */
+.saved__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.saved__buttons .saved__practise {
+  margin-block-end: 0;
+}
+.saved__buttons .btn:not(.is-due) {
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+  color: var(--ink);
+}
+.saved__quiz {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+@media (hover: hover) {
+  .saved__buttons .btn:not(.is-due):hover {
+    border-color: var(--brand);
+    background: var(--brand-soft);
+    color: var(--brand);
+  }
+}

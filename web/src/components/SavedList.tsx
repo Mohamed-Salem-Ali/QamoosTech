@@ -41,13 +41,21 @@ export function SavedList({ lang, labels }: { lang: Lang; labels: { empty: strin
         <Flashcards lang={lang} items={session.items} onClose={() => setSession(null)} doneMessage={session.due ? t.doneToday : undefined} />
       ) : (
         <div className="saved__start">
-          <button
-            type="button"
-            className={`btn saved__practise${due.length ? ' is-due' : ''}`}
-            onClick={() => setSession(due.length ? { items: due, due: true } : { items, due: false })}
-          >
-            {due.length ? t.reviewDue(due.length) : t.practiseAll}
-          </button>
+          <div className="saved__buttons">
+            <button
+              type="button"
+              className={`btn saved__practise${due.length ? ' is-due' : ''}`}
+              onClick={() => setSession(due.length ? { items: due, due: true } : { items, due: false })}
+            >
+              {due.length ? t.reviewDue(due.length) : t.practiseAll}
+            </button>
+            {/* the quiz needs four terms to fill its options */}
+            {items.length >= 4 && (
+              <Link href={`/${lang}/quiz/?c=saved`} className="btn saved__quiz">
+                {t.quizMe}
+              </Link>
+            )}
+          </div>
           <p className="saved__how">{t.howItWorks}</p>
         </div>
       )}
