@@ -170,6 +170,7 @@ export const ui = {
       offlineText: 'هذه الصفحة لم تُحفظ بعد على جهازك. جرّب الصفحات التي زرتها سابقًا، أو عد عندما يعود الاتصال.',
     },
     toTop: 'العودة إلى الأعلى',
+    textSize: { label: 'حجم النص', sizes: ['عادي', 'كبير', 'أكبر'] },
     backup: {
       title: 'نسخة احتياطية لتقدّمك',
       text: 'كل تقدّمك (المحفوظات، والمراجعات، والسلسلة، والإنجازات) محفوظ في هذا المتصفح فقط. نزّله في ملف لتنقله إلى هاتف جديد أو تحتفظ به.',
@@ -361,6 +362,7 @@ export const ui = {
       offlineText: 'This page is not saved on your device yet. Try a page you visited before, or come back when you are online.',
     },
     toTop: 'Back to top',
+    textSize: { label: 'Text size', sizes: ['Normal', 'Large', 'Larger'] },
     backup: {
       title: 'Back up your progress',
       text: 'All your progress (saved terms, reviews, streak, achievements) lives in this browser only. Download it as a file to move it to a new phone or keep it safe.',

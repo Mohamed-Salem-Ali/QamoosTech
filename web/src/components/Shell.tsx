@@ -15,8 +15,8 @@ const latinPreload = Inter({ subsets: ['latin'], variable: '--font-latin', displ
 const latinLazy = Inter({ subsets: ['latin'], variable: '--font-latin', display: 'swap', preload: false })
 const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['400'], variable: '--font-mono', display: 'swap', preload: false })
 
-// Applies the saved theme before first paint so there is no flash.
-const themeScript = `try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}`
+// Applies the saved theme and text size before first paint so there is no flash or jump.
+const themeScript = `try{var d=document.documentElement,t=localStorage.getItem('theme'),s=localStorage.getItem('text-size');if(t)d.dataset.theme=t;if(s==='lg'||s==='xl')d.dataset.text=s}catch(e){}`
 
 export function Shell({ lang, children }: { lang: Lang; children: React.ReactNode }) {
   // the font of the page's own writing system is preloaded; the other loads on demand
