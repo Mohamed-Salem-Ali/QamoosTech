@@ -1752,3 +1752,9 @@ html[data-text='xl'] {
     animation: none;
   }
 }
+
+/* quiz: the "my saved terms" chip stands apart from the categories */
+.quiz__chip--saved:not(.is-on):not(:disabled) {
+  border-color: color-mix(in srgb, var(--brand) 45%, var(--line));
+  color: var(--brand);
+}

@@ -6,6 +6,7 @@ import { loadCards, type Card } from '@/lib/cards'
 import { buzz } from '@/lib/haptics'
 import { maskTerm } from '@/lib/mask-term.mjs'
 import { readQuizBest, recordQuizScore } from '@/lib/progress'
+import { recordReview } from '@/lib/review'
 import { readSaved, writeSaved } from '@/lib/saved'
 import { ShareTerm } from './ShareTerm'
 import { dirOf, ui, type Lang } from '@/lib/i18n'
@@ -15,6 +16,8 @@ const LENGTH = 10
 type Question = { card: Card; options: Card[] }
 type Phase = 'setup' | 'play' | 'done'
 type Mode = 'meaning' | 'listen'
+// the "category" that quizzes the visitor's own saved terms
+const SAVED = 'saved'
 
 function shuffle<T>(items: T[]): T[] {
   const a = [...items]
@@ -30,10 +33,11 @@ function shuffle<T>(items: T[]): T[] {
 /** Ten questions from the chosen category. Wrong options come from the same category when it has
  *  enough terms (harder and more useful than random ones), and no option text appears twice.
  *  Listening questions only use terms that have recorded audio; a category with too few of them
- *  falls back to every recorded term. */
-function buildQuestions(cards: Card[], category: string, mode: Mode): Question[] {
+ *  falls back to every recorded term. The saved-terms quiz asks about each saved term (up to ten),
+ *  and its wrong options are the visitor's other saved terms, topped up from the whole dictionary. */
+function buildQuestions(cards: Card[], category: string, mode: Mode, savedIds: string[]): Question[] {
   const usable = mode === 'listen' ? cards.filter((c) => c.a) : cards
-  const inCategory = category ? usable.filter((c) => c.c === category) : usable
+  const inCategory = category === SAVED ? usable.filter((c) => savedIds.includes(c.i)) : category ? usable.filter((c) => c.c === category) : usable
   const pool = inCategory.length >= 4 ? inCategory : usable
   const label = (c: Card) => (mode === 'listen' ? c.t : c.m)
   return shuffle(pool)
@@ -84,6 +88,7 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
   const [failed, setFailed] = useState(false)
   const [category, setCategory] = useState('')
   const [mode, setMode] = useState<Mode>('meaning')
+  const [savedIds, setSavedIds] = useState<string[]>([])
   const audioRef = useRef<HTMLAudioElement | null>(null)
   const bestKey = mode === 'listen' ? `${lang}:listen` : lang
   // recorded terms per category, for the listening mode's chips
@@ -96,7 +101,7 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
 
   // switching to listening drops a category that has too few recordings
   useEffect(() => {
-    if (mode === 'listen' && category && audioCount && (audioCount[category] ?? 0) < 4) setCategory('')
+    if (mode === 'listen' && category && category !== SAVED && audioCount && (audioCount[category] ?? 0) < 4) setCategory('')
   }, [mode, category, audioCount])
   const [phase, setPhase] = useState<Phase>('setup')
   const [questions, setQuestions] = useState<Question[]>([])
@@ -113,7 +118,7 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
   useEffect(() => {
     // ?c=<category> preselects a category (the "test yourself" link on category pages)
     const c = new URLSearchParams(location.search).get('c')
-    if (c && categories.some((x) => x.id === c)) setCategory(c)
+    if (c && (c === SAVED || categories.some((x) => x.id === c))) setCategory(c)
     if (new URLSearchParams(location.search).get('mode') === 'listen') setMode('listen')
     loadCards(lang).then(setCards, () => setFailed(true))
   }, [lang, categories])
@@ -121,6 +126,18 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
   useEffect(() => {
     setBest(readQuizBest(bestKey))
   }, [bestKey])
+
+  useEffect(() => {
+    const sync = () => setSavedIds(readSaved(lang).map((x) => x.id))
+    sync()
+    window.addEventListener('saved-changed', sync)
+    return () => window.removeEventListener('saved-changed', sync)
+  }, [lang])
+  // saved terms this mode can ask about (listening needs a recording); four are needed to fill the options
+  const savedUsable = useMemo(() => (cards ? cards.filter((c) => savedIds.includes(c.i) && (mode !== 'listen' || c.a)).length : 0), [cards, savedIds, mode])
+  useEffect(() => {
+    if (category === SAVED && cards && savedUsable < 4) setCategory('')
+  }, [category, cards, savedUsable])
 
   // listening: play the term as each question appears (and on the replay button)
   const play = useCallback((url?: string) => {
@@ -151,7 +168,7 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
   function start() {
     if (!cards) return
     if (advanceTimer.current) clearTimeout(advanceTimer.current)
-    setQuestions(buildQuestions(cards, category, mode))
+    setQuestions(buildQuestions(cards, category, mode, savedIds))
     setAt(0)
     setPicked(null)
     setResults([])
@@ -173,7 +190,8 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
     advanceTimer.current = null
     if (at + 1 >= questions.length) {
       const score = results.filter(Boolean).length
-      const isBest = recordQuizScore(bestKey, score)
+      // a saved-terms round can be shorter than ten questions, so it does not count toward the best score
+      const isBest = category !== SAVED && recordQuizScore(bestKey, score)
       setNewBest(isBest && score > 0)
       setBest(readQuizBest(bestKey))
       setPhase('done')
@@ -182,7 +200,7 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
       setAt(at + 1)
       setPicked(null)
     }
-  }, [at, questions.length, results, bestKey])
+  }, [at, questions.length, results, bestKey, category])
 
   // the auto-advance timer must call the latest `next` (it closes over the answers so far)
   const nextLatest = useRef(next)
@@ -197,6 +215,8 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
     setPicked(i)
     setResults((r) => [...r, right])
     setCombo((c) => (right ? c + 1 : 0))
+    // answers about saved terms also move them along the review schedule
+    if (category === SAVED) recordReview(lang, q.card.i, right)
     buzz(right ? 15 : [40, 60, 40])
     // a right answer moves on by itself; a wrong one waits so the right answer can be read
     if (right) advanceTimer.current = setTimeout(() => nextLatest.current(), 950)
@@ -255,10 +275,10 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
         </div>
         <p className="quiz__label">{t.scope}</p>
         <div className="quiz__scope" role="radiogroup" aria-label={t.scope}>
-          {[{ id: '', name: t.all }, ...categories].map((c) => {
+          {[{ id: '', name: t.all }, ...(savedIds.length ? [{ id: SAVED, name: t.saved }] : []), ...categories].map((c) => {
             // listening needs recorded terms: a category with fewer than four cannot fill the options
-            const recorded = c.id && audioCount ? audioCount[c.id] ?? 0 : null
-            const off = mode === 'listen' && recorded !== null && recorded < 4
+            const recorded = c.id === SAVED ? savedUsable : c.id && audioCount ? audioCount[c.id] ?? 0 : null
+            const off = (c.id === SAVED || mode === 'listen') && recorded !== null && recorded < 4
             return (
               <button
                 key={c.id || 'all'}
@@ -266,11 +286,11 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
                 role="radio"
                 aria-checked={category === c.id}
                 disabled={off}
-                className={`chip quiz__chip${category === c.id ? ' is-on' : ''}`}
+                className={`chip quiz__chip${category === c.id ? ' is-on' : ''}${c.id === SAVED ? ' quiz__chip--saved' : ''}`}
                 onClick={() => setCategory(c.id)}
               >
                 {c.name}
-                {mode === 'listen' && recorded !== null && <span className="quiz__chip-count">{recorded}</span>}
+                {(c.id === SAVED || mode === 'listen') && recorded !== null && <span className="quiz__chip-count">{recorded}</span>}
               </button>
             )
           })}
@@ -330,9 +350,12 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
                 </li>
               ))}
             </ul>
-            <button type="button" className="cta cta--ghost" onClick={saveMissed} disabled={savedMissed}>
-              {savedMissed ? t.savedMissed : t.saveMissed}
-            </button>
+            {/* in the saved-terms quiz the missed terms are saved already */}
+            {category !== SAVED && (
+              <button type="button" className="cta cta--ghost" onClick={saveMissed} disabled={savedMissed}>
+                {savedMissed ? t.savedMissed : t.saveMissed}
+              </button>
+            )}
           </div>
         )}
       </section>
