@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
 import { Header } from '@/components/Header'
 import { Shell } from '@/components/Shell'
+import { PwaBits } from '@/components/PwaBits'
 import { TabBar } from '@/components/TabBar'
 import { author } from '@/lib/author'
 import { isLang, languages, ui } from '@/lib/i18n'
@@ -22,6 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: { default: `QamoosTech | ${second}`, template: `%s | QamoosTech` },
     description: t.intro,
     icons: { apple: '/apple-touch-icon.png' },
+    manifest: '/manifest.webmanifest',
+    appleWebApp: { capable: true, title: 'QamoosTech', statusBarStyle: 'black-translucent' },
   }
 }
 
@@ -58,6 +61,7 @@ export default async function LangLayout({ children, params }: { children: React
         </div>
       </footer>
       <TabBar lang={lang} />
+      <PwaBits lang={lang} />
     </Shell>
   )
 }

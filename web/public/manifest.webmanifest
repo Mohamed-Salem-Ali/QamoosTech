@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "QamoosTech | قاموس تك",
+  "short_name": "QamoosTech",
+  "description": "The English words software engineers use every day, explained in Arabic and English.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#13110f",
+  "theme_color": "#13110f",
+  "lang": "ar",
+  "dir": "auto",
+  "categories": ["education", "productivity", "reference"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "اختبار سريع · Quick quiz", "short_name": "Quiz", "url": "/ar/quiz/", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "المحفوظة · Saved", "short_name": "Saved", "url": "/ar/saved/", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#13110f">
+<title>QamoosTech | لا يوجد اتصال · Offline</title>
+<!-- Served by public/sw.js when a page was never opened on this device and there is no connection. -->
+<style>
+  :root { --bg: #f7f3ec; --card: #fffdf9; --ink: #1d1915; --soft: #4f463d; --line: #e3d9ca; --brand: #b0461f; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #13110f; --card: #1c1916; --ink: #ede6da; --soft: #c8beb1; --line: #302a24; --brand: #e5794f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100dvh; display: grid; place-items: center; padding: 24px; background: var(--bg); color: var(--ink);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif; line-height: 1.7; }
+  main { max-width: 440px; width: 100%; display: grid; gap: 14px; justify-items: center; text-align: center; padding: 32px 24px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 20px; }
+  img { width: 72px; height: 72px; animation: bob 2.6s ease-in-out infinite; }
+  h1 { margin: 0; font-size: 1.4rem; }
+  p { margin: 0; color: var(--soft); }
+  hr { width: 60%; border: 0; border-top: 1px solid var(--line); margin: 4px 0; }
+  .en { direction: ltr; }
+  a, button { font: inherit; font-weight: 600; color: #fffdf9; background: var(--brand); border: 0; border-radius: 999px; padding: 10px 22px; cursor: pointer; text-decoration: none; }
+  .links { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .ghost { background: transparent; color: var(--brand); border: 1px solid var(--line); }
+  @keyframes bob { 50% { transform: translateY(-6px) rotate(-4deg); } }
+  @media (prefers-reduced-motion: reduce) { img { animation: none; } }
+</style>
+</head>
+<body>
+  <main>
+    <img src="/logo.svg" alt="QamoosTech">
+    <h1>لا يوجد اتصال</h1>
+    <p>هذه الصفحة لم تُحفظ بعد على جهازك. جرّب الصفحات التي زرتها سابقًا، أو عد عندما يعود الاتصال.</p>
+    <hr>
+    <h1 class="en">No connection</h1>
+    <p class="en">This page is not saved on your device yet. Try a page you visited before, or come back when you are online.</p>
+    <div class="links">
+      <button type="button" onclick="location.reload()">حاول مجددًا · Retry</button>
+      <a class="ghost" href="/ar/saved/">المحفوظة · Saved</a>
+    </div>
+  </main>
+</body>
+</html>

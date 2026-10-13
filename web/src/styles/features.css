@@ -898,3 +898,78 @@ html[dir='rtl'] .quiz__missed strong {
     animation: none;
   }
 }
+
+/* ---------- Install offer + connection notice ---------- */
+
+.install {
+  position: fixed;
+  inset-inline: 12px;
+  inset-block-end: calc(92px + env(safe-area-inset-bottom));
+  z-index: 72;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 14px;
+  align-items: center;
+  max-inline-size: 460px;
+  margin-inline: auto;
+  padding: 16px;
+  border: 1px solid color-mix(in srgb, var(--brand) 35%, var(--line));
+  border-radius: 20px;
+  background: var(--bg-elev);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.25);
+  animation: toast-in 0.5s var(--ease);
+}
+@media (min-width: 641px) {
+  .install {
+    inset-inline: auto 24px;
+    inset-block-end: 24px;
+  }
+  html[dir='rtl'] .install {
+    inset-inline: 24px auto;
+  }
+}
+.install img {
+  border-radius: 12px;
+}
+.install__text strong {
+  display: block;
+  font-size: 1rem;
+}
+.install__text p {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.install__actions {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.install__actions .cta {
+  flex: 1;
+  justify-content: center;
+}
+.install__later {
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  color: var(--ink-mute);
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.toast--net {
+  inset-block-start: calc(76px + env(safe-area-inset-top));
+  inset-block-end: auto;
+}
+.toast__dot {
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 50%;
+  background: var(--ochre);
+}
+.toast--online .toast__dot {
+  background: var(--sage);
+}
