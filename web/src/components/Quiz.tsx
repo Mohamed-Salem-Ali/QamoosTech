@@ -7,6 +7,7 @@ import { buzz } from '@/lib/haptics'
 import { maskTerm } from '@/lib/mask-term.mjs'
 import { readQuizBest, recordQuizScore } from '@/lib/progress'
 import { readSaved, writeSaved } from '@/lib/saved'
+import { ShareTerm } from './ShareTerm'
 import { dirOf, ui, type Lang } from '@/lib/i18n'
 
 const LENGTH = 10
@@ -158,6 +159,12 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
     setNewBest(false)
     setSavedMissed(false)
     setPhase('play')
+    // keep the choice in the address, so "challenge a friend" (and a reload) opens the same kind of quiz
+    const params = new URLSearchParams()
+    if (category) params.set('c', category)
+    if (mode === 'listen') params.set('mode', 'listen')
+    const query = params.toString()
+    history.replaceState(history.state, '', `${location.pathname}${query ? `?${query}` : ''}`)
     window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' })
   }
 
@@ -308,6 +315,8 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
             {t.scope}
           </button>
         </div>
+        {/* the link keeps the category and mode (?c=, ?mode=), so a friend gets the same kind of quiz */}
+        <ShareTerm title="QamoosTech" text={t.shareText(score, questions.length)} labels={{ share: t.challenge, copied: ui[lang].share.copied }} />
         {missed.length > 0 && (
           <div className="quiz__missed">
             <h2>{t.review}</h2>
