@@ -2,7 +2,9 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { buzz } from '@/lib/haptics'
 import { ui, type Lang } from '@/lib/i18n'
+import { recordReview } from '@/lib/review'
 import type { SavedTerm } from '@/lib/saved'
 
 // Shuffled copy, so each round starts in a different order.
@@ -17,8 +19,8 @@ function shuffle<T>(items: T[]): T[] {
 
 // Practice with the saved terms: the front is the term, the back is its definition. The definitions come from the
 // search index, which is downloaded only when someone starts practising. "Again later" moves a card to the end of the
-// queue; "Got it" takes it out for this round.
-export function Flashcards({ lang, items, onClose }: { lang: Lang; items: SavedTerm[]; onClose: () => void }) {
+// queue; "Got it" takes it out for this round. Every answer also schedules the term's next review (lib/review.ts).
+export function Flashcards({ lang, items, onClose, doneMessage }: { lang: Lang; items: SavedTerm[]; onClose: () => void; doneMessage?: string }) {
   const t = ui[lang].saved
   const [definitions, setDefinitions] = useState<Record<string, string> | null>(null)
   const [failed, setFailed] = useState(false)
@@ -46,6 +48,8 @@ export function Flashcards({ lang, items, onClose }: { lang: Lang; items: SavedT
   }, [lang])
 
   function answer(gotIt: boolean) {
+    if (current) recordReview(lang, current.id, gotIt)
+    buzz(gotIt ? 12 : [25, 40, 25])
     setQueue((q) => (gotIt ? q.slice(1) : [...q.slice(1), q[0]]))
     if (gotIt) setKnown((k) => k + 1)
     setShown(false)
@@ -68,7 +72,7 @@ export function Flashcards({ lang, items, onClose }: { lang: Lang; items: SavedT
 
       {!current ? (
         <div className="flashcards__done">
-          <p>{t.done}</p>
+          <p>{doneMessage ?? t.done}</p>
           <button type="button" className="btn btn--ghost" onClick={restart}>{t.restart}</button>
         </div>
       ) : (

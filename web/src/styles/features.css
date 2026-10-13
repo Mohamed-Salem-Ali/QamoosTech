@@ -1094,3 +1094,81 @@ html[dir='rtl'] .quiz__missed strong {
   background: color-mix(in srgb, currentColor 14%, transparent);
   font-size: 0.75em;
 }
+
+/* ---------- Spaced repetition (saved page, home, tab badge) ---------- */
+
+.saved__start {
+  display: grid;
+  gap: 8px;
+  margin-block-end: 16px;
+}
+.saved__practise.is-due {
+  background: var(--brand);
+  color: var(--brand-ink);
+  justify-self: start;
+}
+.saved__how {
+  font-size: 0.85rem;
+  color: var(--ink-mute);
+}
+.saved__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-block-start: 4px;
+}
+.saved__mastery {
+  display: inline-flex;
+  gap: 3px;
+}
+.saved__mastery i {
+  inline-size: 14px;
+  block-size: 5px;
+  border-radius: 99px;
+  background: color-mix(in srgb, var(--ink-mute) 22%, transparent);
+}
+.saved__mastery i.is-on {
+  background: var(--sage);
+}
+.saved__next {
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+}
+.saved__next.is-due {
+  color: var(--brand);
+  font-weight: 600;
+}
+.daily__due {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.25s var(--ease);
+}
+.daily__due:active {
+  transform: scale(0.98);
+}
+.daily__due-dot {
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 50%;
+  background: var(--brand);
+  animation: spark 2.4s ease-out infinite;
+}
+.daily__due-arrow {
+  margin-inline-start: auto;
+}
+html[dir='rtl'] .daily__due-arrow {
+  transform: scaleX(-1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .daily__due-dot {
+    animation: none;
+  }
+}

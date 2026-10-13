@@ -3,11 +3,12 @@
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
+import { dueTerms, REVIEW_EVENT } from '@/lib/review'
 import { readSaved } from '@/lib/saved'
 import { ui, type Lang } from '@/lib/i18n'
 
 // Bottom tab bar for phones (hidden from 641px up, where the header has room for everything).
-// Thumb-reachable: home, categories, search, quiz, saved (with a count badge).
+// Thumb-reachable: home, categories, search, quiz, saved (the badge counts terms due for review today).
 const icons = {
   home: <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1v-9.5Z" />,
   categories: (
@@ -39,12 +40,14 @@ export function TabBar({ lang }: { lang: Lang }) {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    const sync = () => setCount(readSaved(lang).length)
+    const sync = () => setCount(dueTerms(lang, readSaved(lang)).length)
     sync()
     window.addEventListener('saved-changed', sync)
+    window.addEventListener(REVIEW_EVENT, sync)
     window.addEventListener('storage', sync)
     return () => {
       window.removeEventListener('saved-changed', sync)
+      window.removeEventListener(REVIEW_EVENT, sync)
       window.removeEventListener('storage', sync)
     }
   }, [lang])

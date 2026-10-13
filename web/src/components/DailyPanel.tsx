@@ -5,8 +5,10 @@ import { useEffect, useState } from 'react'
 import { loadCards, seeded, type Card } from '@/lib/cards'
 import { clearHistory, PROGRESS_EVENT, readRecent, readSeen, readStreak, today, type RecentTerm, type Streak } from '@/lib/progress'
 import { ui, type Lang } from '@/lib/i18n'
+import { dueTerms, REVIEW_EVENT } from '@/lib/review'
+import { readSaved } from '@/lib/saved'
 
-type State = { word?: Card; seen: number; recent: RecentTerm[]; streak: Streak }
+type State = { word?: Card; seen: number; recent: RecentTerm[]; streak: Streak; due: number }
 
 const Flame = () => (
   <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
@@ -29,6 +31,7 @@ export function DailyPanel({ lang, total }: { lang: Lang; total: number }) {
         seen: readSeen(lang).length,
         recent: readRecent(lang),
         streak: readStreak(),
+        due: dueTerms(lang, readSaved(lang)).length,
       }))
     sync()
     loadCards(lang)
@@ -36,10 +39,14 @@ export function DailyPanel({ lang, total }: { lang: Lang; total: number }) {
       .catch(() => {})
     const onChange = () => sync()
     window.addEventListener(PROGRESS_EVENT, onChange)
+    window.addEventListener(REVIEW_EVENT, onChange)
+    window.addEventListener('saved-changed', onChange)
     window.addEventListener('storage', onChange)
     return () => {
       alive = false
       window.removeEventListener(PROGRESS_EVENT, onChange)
+      window.removeEventListener(REVIEW_EVENT, onChange)
+      window.removeEventListener('saved-changed', onChange)
       window.removeEventListener('storage', onChange)
     }
   }, [lang])
@@ -93,6 +100,15 @@ export function DailyPanel({ lang, total }: { lang: Lang; total: number }) {
             </div>
           </div>
           <p className="daily__explored">{state ? t.explored(state.seen, total) : ' '}</p>
+          {state && state.due > 0 && (
+            <Link href={`/${lang}/saved/`} className="daily__due">
+              <span className="daily__due-dot" aria-hidden="true" />
+              {t.due(state.due)}
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="daily__due-arrow">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </Link>
+          )}
 
           {state && state.recent.length > 0 ? (
             <>
