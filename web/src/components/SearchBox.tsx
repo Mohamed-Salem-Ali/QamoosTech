@@ -4,7 +4,8 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createSearchIndex, runSearch, type SearchItem } from '@/lib/search.mjs'
-import type { Lang } from '@/lib/i18n'
+import { author } from '@/lib/author'
+import { ui, type Lang } from '@/lib/i18n'
 
 type Props = { lang: Lang; placeholder: string; empty: string; label: string; hintPrefix?: string; hintExamples?: string[] }
 
@@ -124,7 +125,25 @@ export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExa
       <p id="search-status" className="sr-only" aria-live="polite">{q.trim() !== '' && index && results.length === 0 ? empty : ''}</p>
       {q.trim() !== '' && index && (
         <ul className="search__results" id="search-results">
-          {results.length === 0 && <li className="search__empty">{empty}</li>}
+          {results.length === 0 && (
+            <li className="search__empty">
+              {empty}
+              {/* a missing term becomes a suggestion: the issue form opens with the search filled in */}
+              <a
+                className="search__suggest"
+                href={`${author.repo}/issues/new?labels=content&title=${encodeURIComponent(`Suggest: ${q.trim()}`)}&body=${encodeURIComponent(`**Term:** ${q.trim()}
+
+**Where you hear it:** 
+
+**Why it is missing or confusing:** 
+`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {ui[lang].suggest(q.trim())}
+              </a>
+            </li>
+          )}
           {results.map((r, i) => (
             <li key={r.id} aria-current={i === active ? 'true' : undefined}>
               <Link href={`/${lang}/t/${r.id}/`} className={`search__item${i === active ? ' is-active' : ''}`} onMouseEnter={() => setActive(i)}>
