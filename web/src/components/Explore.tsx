@@ -36,7 +36,7 @@ export function ExploreTerm({ lang, current, categoryId, categoryName, prev, nex
         {(prev || next) && (
           <div className="explore__pair">
             {prev && (
-              <Link href={`/${lang}/t/${prev.id}/`} className="explore__card explore__card--prev" rel="prev">
+              <Link href={`/${lang}/t/${prev.id}/`} className="explore__card explore__card--prev" rel="prev" aria-keyshortcuts={lang === 'ar' ? 'ArrowRight' : 'ArrowLeft'}>
                 <Arrow dir="prev" />
                 <span>
                   <small>{t.previous}</small>
@@ -46,7 +46,7 @@ export function ExploreTerm({ lang, current, categoryId, categoryName, prev, nex
               </Link>
             )}
             {next && (
-              <Link href={`/${lang}/t/${next.id}/`} className="explore__card explore__card--next" rel="next">
+              <Link href={`/${lang}/t/${next.id}/`} className="explore__card explore__card--next" rel="next" aria-keyshortcuts={lang === 'ar' ? 'ArrowLeft' : 'ArrowRight'}>
                 <span>
                   <small>{t.next}</small>
                   <strong dir="ltr">{next.term}</strong>

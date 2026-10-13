@@ -9,7 +9,8 @@ const TRIGGER = 90 // px of horizontal travel that counts as a swipe
 
 /** Swipe left / right on a term page to open the next / previous term in the same category.
  *  The direction follows reading order: in Arabic (RTL) the next term is to the left, so the
- *  finger moves right. An arrow grows at the edge while dragging; touch screens only. */
+ *  finger moves right. An arrow grows at the edge while dragging (touch screens); the arrow keys
+ *  do the same on a keyboard. */
 export function SwipeNav({ prevHref, nextHref, rtl, hint }: { prevHref?: string; nextHref?: string; rtl: boolean; hint: string }) {
   const router = useRouter()
   const [drag, setDrag] = useState(0) // signed px, positive = finger moved right
@@ -39,6 +40,22 @@ export function SwipeNav({ prevHref, nextHref, rtl, hint }: { prevHref?: string;
       clearTimeout(hide)
     }
   }, [nextHref, prevHref, router])
+
+  // keyboards: the arrow keys do the same, also following reading order (← is next in Arabic)
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return
+      const el = document.activeElement
+      if (el instanceof HTMLElement && (el.isContentEditable || el.closest('input, textarea, select, [role="slider"], [data-no-swipe]'))) return
+      const href = (e.key === 'ArrowLeft') !== rtl ? prevHref : nextHref
+      if (!href) return
+      e.preventDefault()
+      router.push(href)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [nextHref, prevHref, rtl, router])
 
   useEffect(() => {
     if (!matchMedia('(pointer: coarse)').matches) return
