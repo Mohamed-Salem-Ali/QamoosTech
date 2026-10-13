@@ -174,6 +174,17 @@ export const ui = {
       offlineText: 'هذه الصفحة لم تُحفظ بعد على جهازك. جرّب الصفحات التي زرتها سابقًا، أو عد عندما يعود الاتصال.',
     },
     toTop: 'العودة إلى الأعلى',
+    keys: {
+      title: 'اختصارات لوحة المفاتيح',
+      open: 'الاختصارات',
+      close: 'إغلاق',
+      groups: [
+        { name: 'في كل مكان', items: [['/', 'البحث'], ['?', 'هذه القائمة'], ['Esc', 'إغلاق']] },
+        { name: 'صفحة المصطلح', items: [['←', 'المصطلح التالي'], ['→', 'المصطلح السابق']] },
+        { name: 'الاختبار', items: [['1 – 4', 'اختيار إجابة'], ['Enter', 'السؤال التالي']] },
+        { name: 'البطاقات', items: [['Space', 'إظهار الإجابة'], ['1', 'راجعه لاحقاً'], ['2', 'عرفته']] },
+      ],
+    },
     textSize: { label: 'حجم النص', sizes: ['عادي', 'كبير', 'أكبر'] },
     backup: {
       title: 'نسخة احتياطية لتقدّمك',
@@ -370,6 +381,17 @@ export const ui = {
       offlineText: 'This page is not saved on your device yet. Try a page you visited before, or come back when you are online.',
     },
     toTop: 'Back to top',
+    keys: {
+      title: 'Keyboard shortcuts',
+      open: 'Shortcuts',
+      close: 'Close',
+      groups: [
+        { name: 'Everywhere', items: [['/', 'Search'], ['?', 'This list'], ['Esc', 'Close']] },
+        { name: 'Term page', items: [['←', 'Previous term'], ['→', 'Next term']] },
+        { name: 'Quiz', items: [['1 – 4', 'Pick an answer'], ['Enter', 'Next question']] },
+        { name: 'Flashcards', items: [['Space', 'Show the answer'], ['1', 'Again later'], ['2', 'Got it']] },
+      ],
+    },
     textSize: { label: 'Text size', sizes: ['Normal', 'Large', 'Larger'] },
     backup: {
       title: 'Back up your progress',

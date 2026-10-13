@@ -1642,3 +1642,113 @@ html[data-text='xl'] {
     display: none;
   }
 }
+
+/* keyboard shortcuts: a footer link (keyboards only) and the dialog it opens ("?" also opens it) */
+.keys-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.keys-link:hover {
+  color: var(--brand);
+}
+@media (hover: none) {
+  .keys-link {
+    display: none;
+  }
+}
+.keys {
+  inline-size: min(100% - 32px, 460px);
+  max-block-size: min(100% - 48px, 640px);
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--bg-elev);
+  color: var(--ink);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+.keys[open] {
+  animation: keys-in 0.22s var(--ease, ease) both;
+}
+.keys::backdrop {
+  background: rgba(19, 17, 15, 0.45);
+  backdrop-filter: blur(3px);
+}
+@keyframes keys-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+}
+.keys__inner {
+  padding: 20px 22px 22px;
+}
+.keys__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-block-end: 6px;
+}
+.keys__head h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+.keys__close {
+  display: grid;
+  place-items: center;
+  inline-size: 36px;
+  block-size: 36px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--ink-mute);
+  cursor: pointer;
+}
+.keys__close:hover {
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+.keys__group h3 {
+  margin: 14px 0 6px;
+  color: var(--ink-mute);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.keys__group dl {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+}
+.keys__group dl > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.keys__group dt {
+  min-inline-size: 64px;
+}
+.keys__group dd {
+  margin: 0;
+  color: var(--ink-soft);
+}
+.keys__group kbd {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-block-end-width: 2px;
+  border-radius: 7px;
+  background: var(--bg);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.82rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .keys[open] {
+    animation: none;
+  }
+}

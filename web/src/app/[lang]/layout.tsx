@@ -4,6 +4,7 @@ import { Header } from '@/components/Header'
 import { Shell } from '@/components/Shell'
 import { BackToTop } from '@/components/BackToTop'
 import { BadgeWatcher } from '@/components/Badges'
+import { KeyboardHelp } from '@/components/KeyboardHelp'
 import { PwaBits } from '@/components/PwaBits'
 import { TabBar } from '@/components/TabBar'
 import { author } from '@/lib/author'
@@ -59,6 +60,7 @@ export default async function LangLayout({ children, params }: { children: React
             <a href={author.github} target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href={author.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href={author.repo} target="_blank" rel="noopener noreferrer">{t.contribute}</a>
+            <KeyboardHelp lang={lang} />
           </span>
         </div>
       </footer>
