@@ -13,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = []
   const home = (l: string) => `/${l}/`
   for (const l of languages) entries.push({ url: `${SITE_URL}${home(l.code)}`, priority: 1, alternates: alt(home) })
+  const quiz = (l: string) => `/${l}/quiz/`
+  for (const l of languages) entries.push({ url: `${SITE_URL}${quiz(l.code)}`, priority: 0.6, alternates: alt(quiz) })
   for (const c of getCategories()) {
     const p = (l: string) => `/${l}/c/${c.id}/`
     for (const l of languages) entries.push({ url: `${SITE_URL}${p(l.code)}`, priority: 0.7, alternates: alt(p) })

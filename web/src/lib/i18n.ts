@@ -138,6 +138,9 @@ export const ui = {
       unavailable: 'تعذّر تحميل الأسئلة. تحقّق من الاتصال وحاول مرة أخرى.',
       inCategory: 'اختبر نفسك في هذا التصنيف',
       quit: 'إنهاء',
+      saveMissed: 'احفظها في قائمة المراجعة',
+      savedMissed: 'حُفظت في قائمتك',
+      keys: 'اضغط 1 إلى 4 للإجابة، وEnter للمتابعة',
     },
     share: { share: 'مشاركة', copied: 'تم نسخ الرابط', swipeHint: 'اسحب يمينًا أو يسارًا للانتقال بين المصطلحات' },
     pwa: {
@@ -280,6 +283,9 @@ export const ui = {
       unavailable: 'Could not load the questions. Check your connection and try again.',
       inCategory: 'Test yourself on this category',
       quit: 'End',
+      saveMissed: 'Save them to your review list',
+      savedMissed: 'Saved to your list',
+      keys: 'Press 1 to 4 to answer, Enter to continue',
     },
     share: { share: 'Share', copied: 'Link copied', swipeHint: 'Swipe left or right to move between terms' },
     pwa: {

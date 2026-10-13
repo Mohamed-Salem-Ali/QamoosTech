@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "validate": "node scripts/validate-content.mjs",
-    "test": "node --test tests/search.test.mjs tests/content.test.mjs",
+    "test": "node --test tests/search.test.mjs tests/content.test.mjs tests/mask-term.test.mjs",
     "predev": "npm run search-index",
     "prebuild": "npm run validate && npm run search-index",
     "dev": "next dev",
