@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { createSearchIndex, runSearch, type SearchItem } from '@/lib/search.mjs'
+import { createSearchIndex, fuzzySearch, runSearch, type SearchItem } from '@/lib/search.mjs'
 import { author } from '@/lib/author'
 import { ui, type Lang } from '@/lib/i18n'
 
@@ -20,7 +20,10 @@ export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExa
   const requested = useRef(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const index = useMemo(() => (items ? createSearchIndex(items) : null), [items])
-  const results = useMemo(() => (index ? runSearch(index, q) : []), [index, q])
+  const exact = useMemo(() => (index ? runSearch(index, q) : []), [index, q])
+  // nothing found: offer the terms a typo or two away ("did you mean")
+  const fuzzy = useMemo(() => (index && exact.length === 0 ? fuzzySearch(index, q) : []), [index, exact, q])
+  const results = exact.length ? exact : fuzzy
 
   // On a short screen the results would run below the bottom edge, so move the box up first.
   // 440px is the tallest the results list can be (see .search__results in styles/polish.css).
@@ -122,26 +125,16 @@ export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExa
         <kbd aria-hidden="true">/</kbd>
       </label>
       {/* announces "no results" to screen readers; the results themselves are a plain list of links below */}
-      <p id="search-status" className="sr-only" aria-live="polite">{q.trim() !== '' && index && results.length === 0 ? empty : ''}</p>
+      <p id="search-status" className="sr-only" aria-live="polite">
+        {q.trim() !== '' && index && exact.length === 0 ? (fuzzy.length ? ui[lang].didYouMean : empty) : ''}
+      </p>
       {q.trim() !== '' && index && (
         <ul className="search__results" id="search-results">
+          {fuzzy.length > 0 && <li className="search__fuzzy">{ui[lang].didYouMean}</li>}
           {results.length === 0 && (
             <li className="search__empty">
               {empty}
-              {/* a missing term becomes a suggestion: the issue form opens with the search filled in */}
-              <a
-                className="search__suggest"
-                href={`${author.repo}/issues/new?labels=content&title=${encodeURIComponent(`Suggest: ${q.trim()}`)}&body=${encodeURIComponent(`**Term:** ${q.trim()}
-
-**Where you hear it:** 
-
-**Why it is missing or confusing:** 
-`)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {ui[lang].suggest(q.trim())}
-              </a>
+              <SuggestLink lang={lang} q={q.trim()} />
             </li>
           )}
           {results.map((r, i) => (
@@ -153,8 +146,33 @@ export function SearchBox({ lang, placeholder, empty, label, hintPrefix, hintExa
               </Link>
             </li>
           ))}
+          {fuzzy.length > 0 && (
+            <li className="search__empty search__empty--after">
+              <SuggestLink lang={lang} q={q.trim()} />
+            </li>
+          )}
         </ul>
       )}
     </div>
+  )
+}
+
+/** A missing term becomes a suggestion: the GitHub issue form opens with the search filled in. */
+function SuggestLink({ lang, q }: { lang: Lang; q: string }) {
+  const body = `**Term:** ${q}
+
+**Where you hear it:** 
+
+**Why it is missing or confusing:** 
+`
+  return (
+    <a
+      className="search__suggest"
+      href={`${author.repo}/issues/new?labels=content&title=${encodeURIComponent(`Suggest: ${q}`)}&body=${encodeURIComponent(body)}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {ui[lang].suggest(q)}
+    </a>
   )
 }

@@ -1545,3 +1545,17 @@ html[data-text='xl'] {
 @media (prefers-reduced-motion: reduce) {
   .save-btn svg.is-popped { animation: none; }
 }
+
+/* search: "did you mean" label above typo-tolerant results, and the suggest link under them */
+.search__fuzzy {
+  padding: 10px 16px 4px;
+  color: var(--ink-mute);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.search__empty--after {
+  padding-block: 4px 12px;
+}
+.search__empty--after .search__suggest {
+  margin-inline: auto;
+}

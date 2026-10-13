@@ -155,3 +155,48 @@ export function runSearch(index, query, limit = 8) {
   }
   return scored.sort((a, b) => b.score - a.score).slice(0, limit).map((s) => s.item)
 }
+
+// Edit distance (insert, delete, change, or swap two neighbouring letters), giving up once it passes `max`.
+function distance(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return max + 1
+  let prev2 = null
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j)
+  for (let i = 1; i <= a.length; i++) {
+    const row = [i]
+    let low = i
+    for (let j = 1; j <= b.length; j++) {
+      let d = Math.min(prev[j] + 1, row[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1))
+      if (prev2 && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) d = Math.min(d, prev2[j - 2] + 1)
+      row.push(d)
+      if (d < low) low = d
+    }
+    if (low > max) return max + 1
+    prev2 = prev
+    prev = row
+  }
+  return prev[b.length]
+}
+
+/**
+ * "Did you mean": for a query that found nothing, the terms whose name (or one word of it, or the way it is
+ * said) is a few typos away: "idempotncy" finds Idempotency, "كوبرنتيس" finds Kubernetes. One typo is allowed
+ * up to 5 letters, two up to 9, three beyond. Closest first.
+ * @param {SearchIndex} index
+ * @param {string} query
+ * @param {number} [limit]
+ * @returns {SearchItem[]}
+ */
+export function fuzzySearch(index, query, limit = 3) {
+  const q = normalize(query)
+  if (q.length < 4) return []
+  const max = q.length <= 5 ? 1 : q.length <= 9 ? 2 : 3
+  const scored = []
+  for (const e of index.entries) {
+    let best = max + 1
+    for (const c of [...e.names.map((n) => n.text), e.pron]) if (c.length >= 3) best = Math.min(best, distance(q, c, max))
+    // one word of a longer name ranks just behind a whole name: "idempotncy" is Idempotency before Idempotency Key
+    if (!q.includes(' ')) for (const c of [...e.nameWords, ...e.pronWords]) if (c.length >= 3) best = Math.min(best, distance(q, c, max) + 0.5)
+    if (best <= max + 0.5) scored.push({ item: e.item, d: best })
+  }
+  return scored.sort((a, b) => a.d - b.d).slice(0, limit).map((s) => s.item)
+}

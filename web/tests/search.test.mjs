@@ -7,7 +7,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { walkTermFiles } from '../src/lib/content-fs.mjs'
 import { parseTerm } from '../src/lib/parse-term.mjs'
-import { createSearchIndex, normalize, runSearch } from '../src/lib/search.mjs'
+import { createSearchIndex, fuzzySearch, normalize, runSearch } from '../src/lib/search.mjs'
 
 const here = path.dirname(fileURLToPath(import.meta.url))
 const contentDir = path.join(here, '..', '..', 'content')
@@ -93,4 +93,23 @@ test('the Arabic pronunciation is searchable (Arabic)', () => {
 
 test('results are capped at the limit', () => {
   assert.ok(runSearch(en, 'api', 3).length <= 3)
+})
+
+const fuzzy = (index, query) => fuzzySearch(index, query).map((x) => x.id)
+
+test('"did you mean" finds a term through typos', () => {
+  assert.equal(top(en, 'idempotncy').length, 0)
+  assert.equal(fuzzy(en, 'idempotncy')[0], 'idempotency')
+  assert.ok(fuzzy(en, 'kubernets').includes('kubernetes'))
+  // two neighbouring letters swapped count as one typo
+  assert.ok(fuzzy(en, 'rebsae').includes('rebase'))
+})
+
+test('"did you mean" works on the Arabic pronunciation', () => {
+  assert.ok(fuzzy(ar, 'كوبرنتيس').includes('kubernetes'))
+})
+
+test('"did you mean" stays quiet for short or unrelated queries', () => {
+  assert.equal(fuzzy(en, 'xyz').length, 0)
+  assert.equal(fuzzy(en, 'zzqqxxwwvv').length, 0)
 })
