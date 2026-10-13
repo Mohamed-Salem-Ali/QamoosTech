@@ -16,15 +16,19 @@ const latinLazy = Inter({ subsets: ['latin'], variable: '--font-latin', display:
 const mono = JetBrains_Mono({ subsets: ['latin'], weight: ['400'], variable: '--font-mono', display: 'swap', preload: false })
 
 // Applies the saved theme and text size before first paint so there is no flash or jump.
-const themeScript = `try{var d=document.documentElement,t=localStorage.getItem('theme'),s=localStorage.getItem('text-size');if(t)d.dataset.theme=t;if(s==='lg'||s==='xl')d.dataset.text=s}catch(e){}`
+export const themeScript = `try{var d=document.documentElement,t=localStorage.getItem('theme'),s=localStorage.getItem('text-size');if(t)d.dataset.theme=t;if(s==='lg'||s==='xl')d.dataset.text=s}catch(e){}`
 
-export function Shell({ lang, children }: { lang: Lang; children: React.ReactNode }) {
-  // the font of the page's own writing system is preloaded; the other loads on demand
+/** The font variables for a page in `lang`: its own writing system's font is preloaded, the other loads on demand. */
+export function fontClasses(lang: Lang) {
   const arabicPage = writingSystems[lang] === 'arabic'
   const arabic = arabicPage ? arabicPreload : arabicLazy
   const latin = arabicPage ? latinLazy : latinPreload
+  return `${latin.variable} ${arabic.variable} ${mono.variable}`
+}
+
+export function Shell({ lang, children }: { lang: Lang; children: React.ReactNode }) {
   return (
-    <html lang={lang} dir={dirOf(lang)} className={`${latin.variable} ${arabic.variable} ${mono.variable}`} suppressHydrationWarning>
+    <html lang={lang} dir={dirOf(lang)} className={fontClasses(lang)} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>

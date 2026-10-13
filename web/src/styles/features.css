@@ -1559,3 +1559,65 @@ html[data-text='xl'] {
 .search__empty--after .search__suggest {
   margin-inline: auto;
 }
+
+/* 404: the logo on top, and the closest terms when the address looks like a mistyped term */
+.notfound__logo {
+  display: inline-flex;
+  margin-block-end: 4px;
+  border-radius: 14px;
+  transition: transform 0.25s ease;
+}
+@media (hover: hover) {
+  .notfound__logo:hover {
+    transform: rotate(-6deg) scale(1.05);
+  }
+}
+.notfound__help {
+  inline-size: min(100%, 420px);
+  margin-block-start: 8px;
+  text-align: start;
+  animation: rise 0.4s ease both;
+}
+.notfound__help h2 {
+  margin: 0 0 8px;
+  color: var(--ink-mute);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.notfound__help ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.notfound__help a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg-elev);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.notfound__help a span {
+  grid-column: 1;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.notfound__help a small {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  color: var(--ink-mute);
+  font-size: 0.8rem;
+}
+@media (hover: hover) {
+  .notfound__help a:hover {
+    border-color: var(--brand);
+    transform: translateY(-2px);
+  }
+}
