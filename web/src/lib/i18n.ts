@@ -170,6 +170,15 @@ export const ui = {
       offlineText: 'هذه الصفحة لم تُحفظ بعد على جهازك. جرّب الصفحات التي زرتها سابقًا، أو عد عندما يعود الاتصال.',
     },
     toTop: 'العودة إلى الأعلى',
+    backup: {
+      title: 'نسخة احتياطية لتقدّمك',
+      text: 'كل تقدّمك (المحفوظات، والمراجعات، والسلسلة، والإنجازات) محفوظ في هذا المتصفح فقط. نزّله في ملف لتنقله إلى هاتف جديد أو تحتفظ به.',
+      download: 'تنزيل النسخة',
+      restore: 'استعادة من ملف',
+      confirm: 'ستحلّ بيانات الملف محلّ تقدّمك الحالي في هذا المتصفح. هل تريد المتابعة؟',
+      saved: 'تم تنزيل الملف. احتفظ به في مكان آمن.',
+      error: 'هذا الملف ليس نسخة احتياطية من قاموس تك.',
+    },
     badges: {
       title: 'إنجازاتك',
       count: (n: number, total: number) => `${n} من ${total}`,
@@ -352,6 +361,15 @@ export const ui = {
       offlineText: 'This page is not saved on your device yet. Try a page you visited before, or come back when you are online.',
     },
     toTop: 'Back to top',
+    backup: {
+      title: 'Back up your progress',
+      text: 'All your progress (saved terms, reviews, streak, achievements) lives in this browser only. Download it as a file to move it to a new phone or keep it safe.',
+      download: 'Download backup',
+      restore: 'Restore from file',
+      confirm: 'The file will replace your current progress in this browser. Continue?',
+      saved: 'File downloaded. Keep it somewhere safe.',
+      error: 'This file is not a QamoosTech backup.',
+    },
     badges: {
       title: 'Your achievements',
       count: (n: number, total: number) => `${n} of ${total}`,

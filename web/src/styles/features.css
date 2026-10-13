@@ -1363,3 +1363,75 @@ html[dir='rtl'] .daily__due-arrow {
     inset-block-end: calc(96px + env(safe-area-inset-bottom));
   }
 }
+
+/* term of the day: listen button beside the term */
+.daily__term-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.daily__listen {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 46px;
+  block-size: 46px;
+  border: 1px solid color-mix(in srgb, var(--brand) 35%, var(--line));
+  border-radius: 50%;
+  background: var(--bg-elev);
+  color: var(--brand);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 0.2s var(--ease), background-color 0.2s;
+}
+.daily__listen:active {
+  transform: scale(0.9);
+}
+.daily__listen.is-playing {
+  background: var(--brand);
+  color: var(--brand-ink);
+  animation: pulse-ring 1s ease-out infinite;
+}
+@keyframes pulse-ring {
+  from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--brand) 45%, transparent); }
+  to { box-shadow: 0 0 0 12px transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .daily__listen.is-playing { animation: none; }
+}
+
+/* ---------- Backup and restore (saved page) ---------- */
+
+.backup {
+  display: grid;
+  gap: 12px;
+  margin-block-start: 32px;
+  padding: 20px;
+  border: 1px dashed color-mix(in srgb, var(--brand) 35%, var(--line));
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--brand) 4%, var(--bg-elev));
+}
+.backup h2 {
+  font-size: 1.05rem;
+}
+.backup p {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.backup__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 640px) {
+  .backup__actions .cta {
+    flex: 1;
+    justify-content: center;
+  }
+}
+.backup__status {
+  min-block-size: 1.4em;
+  font-weight: 600;
+}

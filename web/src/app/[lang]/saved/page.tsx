@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BackupPanel } from '@/components/BackupPanel'
 import { SavedList } from '@/components/SavedList'
 import { languages, ui, type Lang } from '@/lib/i18n'
 
@@ -30,6 +31,7 @@ export default async function SavedPage({ params }: { params: Promise<Params> })
         <p>{t.saved.intro}</p>
       </header>
       <SavedList lang={lang} labels={{ empty: t.saved.empty, remove: t.saved.remove }} />
+      <BackupPanel lang={lang} />
     </div>
   )
 }

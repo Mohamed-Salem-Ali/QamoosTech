@@ -23,6 +23,7 @@ const Flame = () => (
 export function DailyPanel({ lang, total }: { lang: Lang; total: number }) {
   const t = ui[lang].daily
   const [state, setState] = useState<State | null>(null)
+  const [playing, setPlaying] = useState(false)
 
   useEffect(() => {
     let alive = true
@@ -70,7 +71,27 @@ export function DailyPanel({ lang, total }: { lang: Lang; total: number }) {
           </p>
           {state?.word ? (
             <>
-              <h2 className="daily__term" dir="ltr">{state.word.t}</h2>
+              <div className="daily__term-row">
+                <h2 className="daily__term" dir="ltr">{state.word.t}</h2>
+                {state.word.a && (
+                  <button
+                    type="button"
+                    className={`daily__listen${playing ? ' is-playing' : ''}`}
+                    aria-label={`${ui[lang].listen}: ${state.word.t}`}
+                    onClick={() => {
+                      const audio = new Audio(state.word!.a)
+                      setPlaying(true)
+                      audio.addEventListener('ended', () => setPlaying(false))
+                      audio.play().catch(() => setPlaying(false))
+                    }}
+                  >
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M11 5 6 9H3v6h3l5 4V5Z" />
+                      <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />
+                    </svg>
+                  </button>
+                )}
+              </div>
               <p className="daily__meaning" dir={lang === 'ar' ? 'rtl' : 'ltr'}>{state.word.m}</p>
               <div className="daily__actions">
                 <Link href={`/${lang}/t/${state.word.i}/`} className="cta cta--primary">{t.open}</Link>
