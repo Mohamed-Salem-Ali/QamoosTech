@@ -61,6 +61,27 @@ export function Flashcards({ lang, items, onClose, doneMessage }: { lang: Lang; 
     setShown(false)
   }
 
+  // keyboards: Space or Enter shows the answer, 1 = again later, 2 = got it, Esc closes
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return
+      const el = e.target instanceof HTMLElement ? e.target : null
+      if (el?.closest('input, textarea, select, [contenteditable="true"]')) return
+      if (e.key === 'Escape') return onClose()
+      if (!current) return
+      // a focused button already answers Space and Enter itself
+      if (!shown && (e.key === ' ' || e.key === 'Enter') && !el?.closest('button, a')) {
+        e.preventDefault()
+        setShown(true)
+      } else if (shown && (e.key === '1' || e.key === '2')) {
+        e.preventDefault()
+        answer(e.key === '2')
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  })
+
   const definition = current && definitions ? definitions[current.id] : undefined
 
   return (
@@ -81,7 +102,10 @@ export function Flashcards({ lang, items, onClose, doneMessage }: { lang: Lang; 
           {current.translation && <span className="flashcard__tr">{current.translation}</span>}
 
           {!shown ? (
-            <button type="button" className="btn btn--ghost flashcard__show" onClick={() => setShown(true)}>{t.show}</button>
+            <button type="button" className="btn btn--ghost flashcard__show" onClick={() => setShown(true)}>
+              {t.show}
+              <kbd className="kbd-hint" aria-hidden="true">Space</kbd>
+            </button>
           ) : (
             <div className="flashcard__answer" aria-live="polite">
               {definition ? (
@@ -95,8 +119,14 @@ export function Flashcards({ lang, items, onClose, doneMessage }: { lang: Lang; 
                 <p>{t.loading}</p>
               )}
               <div className="flashcard__actions">
-                <button type="button" className="btn btn--ghost" onClick={() => answer(false)}>{t.again}</button>
-                <button type="button" className="btn" onClick={() => answer(true)}>{t.gotIt}</button>
+                <button type="button" className="btn btn--ghost" onClick={() => answer(false)} aria-keyshortcuts="1">
+                  {t.again}
+                  <kbd className="kbd-hint" aria-hidden="true">1</kbd>
+                </button>
+                <button type="button" className="btn" onClick={() => answer(true)} aria-keyshortcuts="2">
+                  {t.gotIt}
+                  <kbd className="kbd-hint" aria-hidden="true">2</kbd>
+                </button>
               </div>
             </div>
           )}

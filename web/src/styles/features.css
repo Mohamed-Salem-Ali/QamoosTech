@@ -1621,3 +1621,24 @@ html[data-text='xl'] {
     transform: translateY(-2px);
   }
 }
+
+/* flashcards: key hints on the buttons, for keyboards only (hidden on touch screens) */
+.flashcards .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.kbd-hint {
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+@media (hover: none) {
+  .kbd-hint {
+    display: none;
+  }
+}
