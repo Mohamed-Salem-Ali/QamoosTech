@@ -45,3 +45,4 @@ AGENTS.md
 .idea/
 .ai-usage.json
 .next-build/
+.next-dev/
