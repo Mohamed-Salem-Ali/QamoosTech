@@ -1,3 +1,4 @@
+import { getAudioSources } from '@/lib/audio'
 import { getTerms } from '@/lib/content'
 import { isLang, languages } from '@/lib/i18n'
 
@@ -16,16 +17,20 @@ function short(text: string, max = 120) {
 
 // A light per-language list for the quiz and the term of the day (much smaller than the search index):
 // i = id, t = term, m = meaning (the Arabic translation, or for English a one-sentence definition),
-// c = category, l = level (b / i).
+// c = category, l = level (b / i), a = pronunciation audio URL when one exists (listening drill).
 export async function GET(_: Request, { params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   if (!isLang(lang)) return new Response('Not found', { status: 404 })
-  const cards = getTerms(lang).map((x) => ({
-    i: x.id,
-    t: x.term,
-    m: x.translation || short(x.definition),
-    c: x.category,
-    l: x.level === 'beginner' ? 'b' : 'i',
-  }))
+  const cards = getTerms(lang).map((x) => {
+    const audio = getAudioSources(x.id)[0]
+    return {
+      i: x.id,
+      t: x.term,
+      m: x.translation || short(x.definition),
+      c: x.category,
+      l: x.level === 'beginner' ? 'b' : 'i',
+      ...(audio ? { a: audio.url } : {}),
+    }
+  })
   return Response.json(cards)
 }

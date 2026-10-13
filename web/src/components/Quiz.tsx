@@ -13,6 +13,7 @@ const LENGTH = 10
 
 type Question = { card: Card; options: Card[] }
 type Phase = 'setup' | 'play' | 'done'
+type Mode = 'meaning' | 'listen'
 
 function shuffle<T>(items: T[]): T[] {
   const a = [...items]
@@ -26,9 +27,14 @@ function shuffle<T>(items: T[]): T[] {
 }
 
 /** Ten questions from the chosen category. Wrong options come from the same category when it has
- *  enough terms (harder and more useful than random ones), and no meaning appears twice. */
-function buildQuestions(cards: Card[], category: string): Question[] {
-  const pool = category ? cards.filter((c) => c.c === category) : cards
+ *  enough terms (harder and more useful than random ones), and no option text appears twice.
+ *  Listening questions only use terms that have recorded audio; a category with too few of them
+ *  falls back to every recorded term. */
+function buildQuestions(cards: Card[], category: string, mode: Mode): Question[] {
+  const usable = mode === 'listen' ? cards.filter((c) => c.a) : cards
+  const inCategory = category ? usable.filter((c) => c.c === category) : usable
+  const pool = inCategory.length >= 4 ? inCategory : usable
+  const label = (c: Card) => (mode === 'listen' ? c.t : c.m)
   return shuffle(pool)
     .slice(0, LENGTH)
     .map((card) => {
@@ -37,7 +43,7 @@ function buildQuestions(cards: Card[], category: string): Question[] {
       const options: Card[] = [card]
       for (const c of [...near, ...far]) {
         if (options.length === 4) break
-        if (!options.some((o) => o.m === c.m)) options.push(c)
+        if (!options.some((o) => label(o) === label(c))) options.push(c)
       }
       return { card, options: shuffle(options) }
     })
@@ -76,6 +82,21 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
   const [cards, setCards] = useState<Card[] | null>(null)
   const [failed, setFailed] = useState(false)
   const [category, setCategory] = useState('')
+  const [mode, setMode] = useState<Mode>('meaning')
+  const audioRef = useRef<HTMLAudioElement | null>(null)
+  const bestKey = mode === 'listen' ? `${lang}:listen` : lang
+  // recorded terms per category, for the listening mode's chips
+  const audioCount = useMemo(() => {
+    if (!cards) return null
+    const counts: Record<string, number> = {}
+    for (const c of cards) if (c.a) counts[c.c] = (counts[c.c] ?? 0) + 1
+    return counts
+  }, [cards])
+
+  // switching to listening drops a category that has too few recordings
+  useEffect(() => {
+    if (mode === 'listen' && category && audioCount && (audioCount[category] ?? 0) < 4) setCategory('')
+  }, [mode, category, audioCount])
   const [phase, setPhase] = useState<Phase>('setup')
   const [questions, setQuestions] = useState<Question[]>([])
   const [at, setAt] = useState(0)
@@ -92,9 +113,26 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
     // ?c=<category> preselects a category (the "test yourself" link on category pages)
     const c = new URLSearchParams(location.search).get('c')
     if (c && categories.some((x) => x.id === c)) setCategory(c)
-    setBest(readQuizBest(lang))
+    if (new URLSearchParams(location.search).get('mode') === 'listen') setMode('listen')
     loadCards(lang).then(setCards, () => setFailed(true))
   }, [lang, categories])
+
+  useEffect(() => {
+    setBest(readQuizBest(bestKey))
+  }, [bestKey])
+
+  // listening: play the term as each question appears (and on the replay button)
+  const play = useCallback((url?: string) => {
+    if (!url) return
+    audioRef.current?.pause()
+    const audio = new Audio(url)
+    audioRef.current = audio
+    audio.play().catch(() => {})
+  }, [])
+  useEffect(() => {
+    if (phase === 'play' && mode === 'listen') play(questions[at]?.card.a)
+  }, [phase, mode, at, questions, play])
+  useEffect(() => () => audioRef.current?.pause(), [])
 
   // keep the chosen category visible in the phone's single-row chip scroller
   useEffect(() => {
@@ -112,7 +150,7 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
   function start() {
     if (!cards) return
     if (advanceTimer.current) clearTimeout(advanceTimer.current)
-    setQuestions(buildQuestions(cards, category))
+    setQuestions(buildQuestions(cards, category, mode))
     setAt(0)
     setPicked(null)
     setResults([])
@@ -128,16 +166,16 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
     advanceTimer.current = null
     if (at + 1 >= questions.length) {
       const score = results.filter(Boolean).length
-      const isBest = recordQuizScore(lang, score)
+      const isBest = recordQuizScore(bestKey, score)
       setNewBest(isBest && score > 0)
-      setBest(readQuizBest(lang))
+      setBest(readQuizBest(bestKey))
       setPhase('done')
       if (isBest && score > 0) buzz([20, 60, 20, 60, 40])
     } else {
       setAt(at + 1)
       setPicked(null)
     }
-  }, [at, questions.length, results, lang])
+  }, [at, questions.length, results, bestKey])
 
   // the auto-advance timer must call the latest `next` (it closes over the answers so far)
   const nextLatest = useRef(next)
@@ -192,20 +230,43 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
           <h1>{t.title}</h1>
           <p>{t.intro}</p>
         </header>
-        <p className="quiz__label">{t.scope}</p>
-        <div className="quiz__scope" role="radiogroup" aria-label={t.scope}>
-          {[{ id: '', name: t.all }, ...categories].map((c) => (
-            <button
-              key={c.id || 'all'}
-              type="button"
-              role="radio"
-              aria-checked={category === c.id}
-              className={`chip quiz__chip${category === c.id ? ' is-on' : ''}`}
-              onClick={() => setCategory(c.id)}
-            >
-              {c.name}
+        <p className="quiz__label">{t.mode}</p>
+        <div className="quiz__modes" role="radiogroup" aria-label={t.mode}>
+          {(['meaning', 'listen'] as const).map((m) => (
+            <button key={m} type="button" role="radio" aria-checked={mode === m} className={`quiz__mode${mode === m ? ' is-on' : ''}`} onClick={() => setMode(m)}>
+              <span className="quiz__mode-icon" aria-hidden="true">
+                {m === 'meaning' ? (
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z" /><path d="M8 8h8M8 12h6" /></svg>
+                ) : (
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5Z" /><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" /></svg>
+                )}
+              </span>
+              <strong>{m === 'meaning' ? t.modeMeaning : t.modeListen}</strong>
+              <small>{m === 'meaning' ? t.modeMeaningHint : t.modeListenHint}</small>
             </button>
           ))}
+        </div>
+        <p className="quiz__label">{t.scope}</p>
+        <div className="quiz__scope" role="radiogroup" aria-label={t.scope}>
+          {[{ id: '', name: t.all }, ...categories].map((c) => {
+            // listening needs recorded terms: a category with fewer than four cannot fill the options
+            const recorded = c.id && audioCount ? audioCount[c.id] ?? 0 : null
+            const off = mode === 'listen' && recorded !== null && recorded < 4
+            return (
+              <button
+                key={c.id || 'all'}
+                type="button"
+                role="radio"
+                aria-checked={category === c.id}
+                disabled={off}
+                className={`chip quiz__chip${category === c.id ? ' is-on' : ''}`}
+                onClick={() => setCategory(c.id)}
+              >
+                {c.name}
+                {mode === 'listen' && recorded !== null && <span className="quiz__chip-count">{recorded}</span>}
+              </button>
+            )
+          })}
         </div>
         <div className="quiz__start">
           <button type="button" className="cta cta--primary" onClick={start} disabled={!cards}>
@@ -292,23 +353,44 @@ export function Quiz({ lang, categories }: { lang: Lang; categories: { id: strin
       </ol>
 
       <div className="quiz__card" key={at}>
-        <p className="quiz__prompt">{t.pick}</p>
-        <h1 className="quiz__term" dir="ltr">
-          {q.card.t}
-        </h1>
+        <p className="quiz__prompt">{mode === 'listen' ? t.listenPrompt : t.pick}</p>
+        {mode === 'listen' ? (
+          <div className="quiz__listen">
+            <button type="button" className="quiz__play" onClick={() => play(q.card.a)} aria-label={t.play}>
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M11 5 6 9H3v6h3l5 4V5Z" />
+                <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />
+              </svg>
+              <span className="quiz__play-wave" aria-hidden="true" />
+            </button>
+            <span className="quiz__replay">{t.replay}</span>
+            {picked !== null && <p className="quiz__reveal">{q.card.m}</p>}
+          </div>
+        ) : (
+          <h1 className="quiz__term" dir="ltr">
+            {q.card.t}
+          </h1>
+        )}
         <div className="quiz__options">
           {q.options.map((o, i) => {
             const state = picked === null ? '' : i === rightIndex ? ' is-right' : i === picked ? ' is-wrong' : ' is-dim'
             return (
-              <button key={o.i} type="button" className={`quiz__option${state}`} onClick={() => pick(i)} disabled={picked !== null} dir={dirOf(lang)}>
+              <button
+                key={o.i}
+                type="button"
+                className={`quiz__option${state}${mode === 'listen' ? ' quiz__option--term' : ''}`}
+                onClick={() => pick(i)}
+                disabled={picked !== null}
+                dir={mode === 'listen' ? 'ltr' : dirOf(lang)}
+              >
                 <kbd aria-hidden="true">{i + 1}</kbd>
-                <span>{maskTerm(o.m, o.t)}</span>
+                <span>{mode === 'listen' ? o.t : maskTerm(o.m, o.t)}</span>
               </button>
             )
           })}
         </div>
         <p className="quiz__feedback" aria-live="assertive">
-          {picked === null ? '' : picked === rightIndex ? t.correct : `${t.wrong}: ${q.card.m}`}
+          {picked === null ? '' : picked === rightIndex ? t.correct : `${t.wrong}: ${mode === 'listen' ? q.card.t : q.card.m}`}
         </p>
         {picked !== null && picked !== rightIndex && (
           <div className="quiz__next">

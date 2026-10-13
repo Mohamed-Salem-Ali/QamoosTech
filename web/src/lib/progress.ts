@@ -78,7 +78,7 @@ export function clearHistory(lang: string) {
   window.dispatchEvent(new Event(PROGRESS_EVENT))
 }
 
-const QUIZ_BEST = (lang: string) => `quiz-best:${lang}`
+const QUIZ_BEST = (key: string) => `quiz-best:${key}`
 
 export function readQuizBest(lang: string): number {
   const v = read<unknown>(QUIZ_BEST(lang), 0)

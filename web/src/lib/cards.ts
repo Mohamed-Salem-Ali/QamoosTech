@@ -1,5 +1,5 @@
 // Client loader for /<lang>/cards.json (see app/[lang]/cards.json/route.ts). Fetched once per page.
-export type Card = { i: string; t: string; m: string; c: string; l: 'b' | 'i' }
+export type Card = { i: string; t: string; m: string; c: string; l: 'b' | 'i'; a?: string }
 
 const cache = new Map<string, Promise<Card[]>>()
 
