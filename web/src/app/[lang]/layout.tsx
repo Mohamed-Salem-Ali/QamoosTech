@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { notFound } from 'next/navigation'
 import { Header } from '@/components/Header'
 import { Shell } from '@/components/Shell'
+import { BackToTop } from '@/components/BackToTop'
 import { BadgeWatcher } from '@/components/Badges'
 import { PwaBits } from '@/components/PwaBits'
 import { TabBar } from '@/components/TabBar'
@@ -64,6 +65,7 @@ export default async function LangLayout({ children, params }: { children: React
       <TabBar lang={lang} />
       <PwaBits lang={lang} />
       <BadgeWatcher lang={lang} />
+      <BackToTop label={t.toTop} />
     </Shell>
   )
 }
