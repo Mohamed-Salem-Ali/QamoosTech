@@ -782,3 +782,119 @@ html[dir='rtl'] .quiz__missed strong {
   background: var(--brand-soft);
   transform: translateY(-1px);
 }
+
+/* ---------- Share (term page) ---------- */
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, transform 0.2s var(--ease);
+}
+.share-btn:active {
+  transform: scale(0.95);
+}
+@media (hover: hover) {
+  .share-btn:hover {
+    border-color: var(--brand);
+  }
+}
+.share-btn.is-done {
+  border-color: var(--sage);
+  color: var(--sage);
+  background: color-mix(in srgb, var(--sage) 12%, transparent);
+}
+
+/* ---------- Swipe between terms (touch screens) ---------- */
+
+.swipe-edge {
+  position: fixed;
+  inset-block-start: 50%;
+  z-index: 70;
+  display: grid;
+  place-items: center;
+  inline-size: 48px;
+  block-size: 48px;
+  margin-block-start: -24px;
+  border-radius: 50%;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  color: var(--ink-mute);
+  box-shadow: var(--shadow-lg);
+  opacity: var(--p);
+  transform: scale(calc(0.6 + var(--p) * 0.4));
+  pointer-events: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+.swipe-edge--left {
+  left: calc(8px + var(--p) * 10px);
+}
+.swipe-edge--right {
+  right: calc(8px + var(--p) * 10px);
+}
+.swipe-edge.is-armed {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--brand-ink);
+}
+
+/* ---------- Toast ---------- */
+
+.toast {
+  position: fixed;
+  inset-inline: 16px;
+  inset-block-end: calc(96px + env(safe-area-inset-bottom));
+  z-index: 75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-inline-size: 420px;
+  margin-inline: auto;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  animation: toast-in 0.45s var(--ease);
+}
+@media (min-width: 641px) {
+  .toast {
+    inset-block-end: 24px;
+  }
+}
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.96); }
+}
+.toast__swipe {
+  flex: none;
+  inline-size: 26px;
+  block-size: 26px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--bg) 25%, transparent);
+  animation: swipe-demo 1.6s var(--ease) infinite;
+}
+@keyframes swipe-demo {
+  0%, 100% { transform: translateX(8px); opacity: 0.4; }
+  50% { transform: translateX(-8px); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast,
+  .toast__swipe {
+    animation: none;
+  }
+}

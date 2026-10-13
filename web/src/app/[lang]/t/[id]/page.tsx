@@ -7,6 +7,8 @@ import { ReadingProgress } from '@/components/ReadingProgress'
 import { Reveal } from '@/components/Reveal'
 import { RichText } from '@/components/RichText'
 import { SaveTerm } from '@/components/SaveTerm'
+import { ShareTerm } from '@/components/ShareTerm'
+import { SwipeNav } from '@/components/SwipeNav'
 import { TrackVisit } from '@/components/TrackVisit'
 import { Speak } from '@/components/Speak'
 import { pageAlternates, socialFor } from '@/lib/alternates'
@@ -71,6 +73,7 @@ export default async function TermPage({ params }: { params: Promise<Params> }) 
     <article className="container page term">
       <ReadingProgress />
       <TrackVisit lang={lang} term={{ id: term.id, term: term.term, translation: term.translation }} />
+      <SwipeNav prevHref={prev && `/${lang}/t/${prev.id}/`} nextHref={next && `/${lang}/t/${next.id}/`} rtl={dirOf(lang) === 'rtl'} hint={t.share.swipeHint} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermJson(lang, term)).replace(/</g, '\\u003c') }} />
       <nav className="crumbs" aria-label={ui[lang].a11y.breadcrumb}>
         <Link href={`/${lang}/`}>{t.home}</Link>
@@ -96,6 +99,7 @@ export default async function TermPage({ params }: { params: Promise<Params> }) 
           <span className="term__pron-text" dir={dirOf(lang)}>{term.pronunciation}</span>
           <Speak text={term.term} label={t.listen} browserLabel={t.browserVoice} sources={getAudioSources(term.id).map((a) => ({ ...a, label: voiceHints[a.voice] ? `${a.voice} · ${voiceHints[a.voice]}` : a.voice }))} />
           <SaveTerm lang={lang} term={{ id: term.id, term: term.term, translation: term.translation }} labels={{ save: t.saved.save, saved: t.saved.saved }} />
+          <ShareTerm title={term.translation ? `${term.term} — ${term.translation}` : term.term} text={term.definition.replace(/[`*]/g, '').slice(0, 140)} labels={t.share} />
         </div>
       </header>
 
