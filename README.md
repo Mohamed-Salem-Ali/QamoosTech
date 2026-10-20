@@ -16,7 +16,7 @@ QamoosTech explains the English vocabulary of software work: code and architectu
 
 - **Arabic first** (simple Modern Standard Arabic), English second. More languages are welcome.
 - **732 terms** in 14 categories and 38 subcategories, from beginner to intermediate.
-- **Natural pronunciation audio**: 397 of 732 terms so far (about 40 more added each day), with the browser's built-in voice as a fallback for the rest.
+- **Natural pronunciation audio**: 436 of 732 terms so far (about 40 more added each day), with the browser's built-in voice as a fallback for the rest.
 - A fast static website with RTL support, light and dark themes, and instant search in both languages.
 
 ## Categories
